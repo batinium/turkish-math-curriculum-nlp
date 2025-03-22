@@ -1,0 +1,48 @@
+{
+  "math_curriculum_2018": {
+    "overall": {
+      "computational_thinking": 72,
+      "mathematical_reasoning": 25,
+      "pattern_recognition": 25,
+      "data_concepts": 162,
+      "ai_specific": 5,
+      "digital_literacy": 4
+    },
+    "detected_type": "numeric-based",
+    "computational_thinking_avg": 0.06115107913669065,
+    "computational_thinking_total": 17,
+    "mathematical_reasoning_avg": 0.0035971223021582736,
+    "mathematical_reasoning_total": 1,
+    "pattern_recognition_avg": 0.02158273381294964,
+    "pattern_recognition_total": 6,
+    "data_concepts_avg": 0.21223021582733814,
+    "data_concepts_total": 59,
+    "ai_specific_avg": 0.01079136690647482,
+    "ai_specific_total": 3,
+    "digital_literacy_avg": 0.0,
+    "digital_literacy_total": 0
+  },
+  "math_curriculum_2024": {
+    "overall": {
+      "computational_thinking": 704,
+      "mathematical_reasoning": 705,
+      "pattern_recognition": 161,
+      "data_concepts": 920,
+      "ai_specific": 269,
+      "digital_literacy": 261
+    },
+    "detected_type": "2024-style",
+    "computational_thinking_avg": 0.08489388264669163,
+    "computational_thinking_total": 68,
+    "mathematical_reasoning_avg": 0.03745318352059925,
+    "mathematical_reasoning_total": 30,
+    "pattern_recognition_avg": 0.017478152309612985,
+    "pattern_recognition_total": 14,
+    "data_concepts_avg": 0.05742821473158552,
+    "data_concepts_total": 46,
+    "ai_specific_avg": 0.006242197253433208,
+    "ai_specific_total": 5,
+    "digital_literacy_avg": 0.01373283395755306,
+    "digital_literacy_total": 11
+  }
+}

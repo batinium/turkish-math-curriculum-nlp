@@ -1,0 +1,4979 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+İÇİNDEKİLER 
+
+1. MİLLİ EĞİTİM BAKANLIĞI ÖĞRETİM PROGRAMLARI 
+
+1.1. ÖĞRETİM PROGRAMLARININ AMAÇLARI 
+
+1.2. ÖĞRETİM PROGRAMLARININ PERSPEKTİFİ 
+
+1.2.1. Değerlerimiz 
+
+1.2.2. Yetkinlikler 
+
+1.3. ÖĞRETİM PROGRAMLARINDA ÖLÇME VE DEĞERLENDİRME YAKLAŞIMI 
+
+1.4. BİREYSEL GELİŞİM VE ÖĞRETİM PROGRAMLARI 
+
+1.5. SONUÇ 
+
+2. ÖĞRETİM PROGRAMININ UYGULANMASI 
+
+2.1. MATEMATİK ÖĞRETİM PROGRAMININ TEMEL FELSEFESİ VE GENEL AMAÇLARI 
+
+2.2. MATEMATİK ÖĞRETİM PROGRAMININ UGULANMASINDA DİKKAT EDİLECEK HUSUSLAR 
+
+2.3. KAZANIM SAYISI VE SÜRE TABLOSU 
+
+3. MATEMATİK ÖĞRETİM PROGRAMININ YAPISI 
+
+3.1. KAZANIMLARIN YAPISI 
+
+3.2. MATEMATİK DERSİ KİTAP FORMA SAYILARI 
+
+9. SINIF ALT ÖĞRENME ALANI, KONU, KAZANIM VE AÇIKLAMALARI 
+
+10. SINIF ALT ÖĞRENME ALANI, KONU, KAZANIM VE AÇIKLAMALARI 
+
+11. SINIF ALT ÖĞRENME ALANI, KONU, KAZANIM VE AÇIKLAMALARI 
+
+12. SINIF ALT ÖĞRENME ALANI, KONU, KAZANIM VE AÇIKLAMALARI 
+
+11. SINIF TEMEL DÜZEY ALT ÖĞRENME ALANI, KONU, KAZANIM VE AÇIKLAMALARI 
+
+12. SINIF TEMEL DÜZEY ALT ÖĞRENME ALANI, KONU, KAZANIM VE AÇIKLAMALARI 
+
+  4 
+
+  4 
+
+  5 
+
+  5 
+
+  6 
+
+  8 
+
+  9 
+
+10 
+
+11 
+
+11 
+
+11 
+
+12 
+
+17 
+
+17 
+
+17 
+
+18 
+
+26 
+
+32 
+
+37 
+
+44 
+
+46 
+
+3 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1 
+
+MİLLÎ EĞİTİM BAKANLIĞI ÖĞRETİM PROGRAMLARI 
+
+Bilim  ve  teknolojide  yaşanan  hızlı  değişim,  bireyin  ve  toplumun  değişen  ihtiyaçları,  öğrenme 
+
+öğretme  teori  ve  yaklaşımlarındaki  yenilik  ve  gelişmeler  bireylerden  beklenen  rolleri  de  doğrudan 
+
+etkilemiştir.  Bu  değişim  bilgiyi  üreten,  hayatta  işlevsel  olarak  kullanabilen,  problem  çözebilen,  eleştirel 
+
+düşünen, girişimci, kararlı, iletişim becerilerine sahip, empati yapabilen, topluma ve kültüre katkı sağlayan 
+
+vb.  niteliklerdeki  bir  bireyi  tanımlamaktadır.  Bu  nitelik  dokusuna  sahip  bireylerin  yetişmesine  hizmet 
+
+edecek öğretim programları salt bilgi aktaran bir yapıdan ziyade bireysel farklılıkları dikkate alan, değer ve 
+
+beceri kazandırma hedefli, sade ve anlaşılır bir yapıda hazırlanmıştır. Bu amaç doğrultusunda bir taraftan 
+
+farklı  konu  ve  sınıf  düzeylerinde  sarmal  bir  yaklaşımla  tekrar  eden  kazanımlara  ve  açıklamalara,  diğer 
+
+taraftan  bütünsel  ve  bir  kerede  kazandırılması  hedeflenen  öğrenme  çıktılarına  yer  verilmiştir.  Her  iki 
+
+gruptaki  kazanım  ve  açıklamalar  da  ilgili  disiplinin  yetkin,  güncel,  geçerli  ve  eğitim  öğretim  sürecinde 
+
+hayatla  ilişkileri  kurulabilecek  niteliktedir.  Bu  kazanımlar  ve  sınırlarını  belirleyen  açıklamaları,  sınıflar  ve 
+
+eğitim kademeleri düzeyinde değerler, beceriler ve yetkinlikler perspektifinde bütünlük sağlayan bir bakış 
+
+açısıyla  yalın  bir  içeriğe  işaret  etmektedir.  Böylelikle  üst  bilişsel  becerilerin  kullanımına  yönlendiren, 
+
+anlamlı ve kalıcı öğrenmeyi sağlayan, sağlam ve önceki öğrenmelerle ilişkilendirilmiş, diğer disiplinlerle ve 
+
+günlük hayatla değerler, beceriler ve yetkinlikler çevresinde bütünleşmiş bir öğretim programları toplamı 
+
+oluşturulmuştur. 
+
+1.1. ÖĞRETİM PROGRAMLARININ AMAÇLARI 
+
+Öğretim  programları,  1739  sayılı  Milli  Eğitim  Temel  Kanununun  2.  maddesinde  ifade  edilen 
+
+“Türk Milli Eğitiminin Genel Amaçları” ile “Türk Milli Eğitiminin Temel İlkeleri” esas alınarak hazırlanmıştır. 
+
+Eğitim  ve  öğretim  programlarıyla  sürdürülen  tüm  çalışmalar;  okulöncesi, 
+
+ilköğretim  ve 
+
+ortaöğretim seviyelerinde birbirini tamamlayıcı bir şekilde aşağıdaki amaçlara ulaşmaya yöneliktir: 
+
+1.  Okulöncesi  eğitimi  tamamlayan  öğrencilerin  bireysel  gelişim  süreçleri  göz  önünde  bulundurularak 
+
+bedensel, zihinsel ve duygusal alanlarda sağlıklı şekilde gelişimlerini desteklemek 
+
+2. İlkokulu tamamlayan öğrencilerin gelişim düzeyine ve kendi bireyselliğine uygun olarak ahlaki bütünlük 
+
+ve öz farkındalık çerçevesinde, öz güven ve öz disipline sahip, gündelik hayatta ihtiyaç duyacağı temel 
+
+düzeyde  sözel,  sayısal  ve  bilimsel  akıl  yürütme  ile  sosyal  becerileri  ve  estetik  duyarlılığı  kazanmış, 
+
+bunları etkin bir şekilde kullanarak sağlıklı hayat yönelimli bireyler olmalarını sağlamak 
+
+3.  Ortaokulu  tamamlayan  öğrencilerin,  ilkokulda  kazandıkları  yetkinlikleri  geliştirmek  suretiyle  millî  ve 
+
+manevi  değerleri  benimsemiş,  haklarını  kullanan  ve  sorumluluklarını  yerine  getiren,  “Türkiye 
+
+Yeterlilikler Çerçevesi”nde  ve  ayrıca  disiplinlere  özgü  alanlarda  ifadesini  bulan  temel  düzey  beceri ve 
+
+yetkinlikleri kazanmış bireyler olmalarını sağlamak 
+
+4 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4.  Liseyi  tamamlayan  öğrencilerin,  ilkokulda ve  ortaokulda  kazandıkları  yetkinlikleri  geliştirmek  suretiyle, 
+
+millî  ve  manevi  değerleri  benimseyip  hayat  tarzına  dönüştürmüş,  üretken  ve  aktif vatandaşlar  olarak 
+
+yurdumuzun 
+
+iktisadi,  sosyal  ve  kültürel  kalkınmasına  katkıda  bulunan,  “Türkiye  Yeterlilikler 
+
+Çerçevesi”nde ve ayrıca disiplinlere özgü alanlarda ifadesini bulan temel düzey beceri ve yetkinlikleri 
+
+kazanmış,  ilgi  ve  yetenekleri  doğrultusunda  bir  mesleğe,  yükseköğretime  ve  hayata  hazır  bireyler 
+
+olmalarını sağlamak. 
+
+1.2. ÖĞRETİM PROGRAMLARININ PERSPEKTİFİ 
+
+Eğitim  sistemimizin  temel  amacı  değerlerimiz  ve  yetkinliklerle  bütünleşmiş  bilgi,  beceri  ve 
+
+davranışlara  sahip  bireyler  yetiştirmektir.  Bilgi,  beceri  ve  davranışlar  öğretim  programlarıyla 
+
+kazandırılmaya  çalışılırken  değerlerimiz  ve  yetkinlikler  bu  bilgi,  beceri  ve  davranışların  arasındaki 
+
+bütünlüğü  kuran  bağlantı  ve  ufuk  işlevi  görmektedir.  Değerlerimiz  toplumumuzun  millî  ve  manevi 
+
+kaynaklarından  damıtılarak  dünden  bugüne  ulaşmış  ve  yarınlarımıza  aktaracağımız  öz  mirasımızdır. 
+
+Yetkinlikler  ise  bu  mirasın  hayata  ve  insanlık  ailesine  katılmasını  ve  katkı  vermesini  sağlayan  eylemsel 
+
+bütünlüklerimizdir.  Bu  yönüyle  değerlerimiz  ve  yetkinlikler  birbirinden  ayrılmaz  bir  şekilde  teori-pratik 
+
+bütünlüğündeki  asli  parçamızı  oluşturur.  Güncellik  içinde  öğrenme  öğretme  süreçleriyle  kazandırmaya 
+
+çalıştığımız  bilgi,  beceri  ve  davranışlar  ise  bizi  biz  yapan  değerlerimizin  ve  yetkinliklerin  günün  şartları 
+
+içinde  görünürlük  kazanma  araç  ve  platformlarıdır;  günün  şartları  içinde  değişiklik  gösterebilir  yapısıyla 
+
+arızîdir ve bu sebeple de sürekli gözden geçirmelerle güncellenir, yenilenir. 
+
+1.2.1. Değerlerimiz 
+
+Değerlerimiz  öğretim  programlarının  perspektifini  oluşturan 
+
+ilkeler  toplamıdır.  Kökleri 
+
+geleneklerimiz  ve  dünümüz  içinde,  gövdesi  ve  dalları  bu  köklerden  beslenerek  bugünümüze  ve 
+
+yarınlarımıza uzanmaktadır. Temel insani özelliklerimizi oluşturan değerlerimiz, hayatımızın rutin akışında 
+
+ve karşılaştığımız sorunlarla başa çıkmada eyleme geçmemizi sağlayan kudretin ve gücün kaynağıdır. 
+
+Bir toplumun geleceğinin, değerlerini benimsemiş ve bu değerleri sahip olduğu yetkinliklerle ete 
+
+kemiğe  büründüren  insanlarına  bağlı  olduğu  tartışma  götürmez  bir  gerçektir.  Bundan  dolayı  eğitim 
+
+sistemimiz  her  bir  üyesine  uygun  ahlaki  kararlar  alma  ve  bunları  davranışlarında  sergileme  yeterliliğini 
+
+kazandırma amacıyla hareket eder. Eğitim sistemi sadece akademik açıdan başarılı, belirlenmiş bazı bilgi, 
+
+beceri  ve  davranışları  kazandıran  bir  yapı  değildir.  Temel  değerleri  benimsemiş  bireyler  yetiştirmek  asli 
+
+görevidir;  yeni  neslin  değerlerini,  alışkanlıklarını  ve  davranışlarını  etkileyebilmelidir.  Eğitim  sistemi 
+
+değerleri kazandırma amacı çerçevesindeki işlevini, öğretim programlarını da kapsayan eğitim programıyla 
+
+yerine getirir. “Eğitim programı”; öğretim programları, öğrenme öğretme ortamları, eğitim araç gereçleri, 
+
+5 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ders dışı etkinlikler, mevzuat gibi eğitim sisteminin tüm unsurları göz önünde bulundurularak oluşturulur. 
+
+Öğretim programlarında bu anlayışla değerlerimiz, ayrı bir program veya öğrenme alanı, ünite, konu vb. 
+
+olarak görülmemiştir. Tam aksine bütün eğitim sürecinin nihai gayesi ve ruhu olan değerlerimiz, öğretim 
+
+programlarının her birinde ve her bir biriminde yer almıştır. 
+
+Öğretim  programlarında  yer  alan  “kök  değerler”  şunlardır:  adalet,  dostluk,  dürüstlük,  öz 
+
+denetim,  sabır,  saygı,  sevgi,  sorumluluk,  vatanseverlik,  yardımseverlik.  Bu  değerler,  öğrenme  öğretme 
+
+sürecinde hem kendi başlarına, hem ilişkili olduğu alt değerlerle ve hem de öteki kök değerlerle birlikte ele 
+
+alınarak hayat bulacaktır. 
+
+1.2.2. Yetkinlikler 
+
+Eğitim  sistemimiz  yetkinliklerde  bütünleşmiş  bilgi,  beceri  ve  davranışlara  sahip  karakterde 
+
+bireyler  yetiştirmeyi  amaçlar.  Öğrencilerin  hem  ulusal  hem  de  uluslararası  düzeyde;  kişisel,  sosyal, 
+
+akademik  ve  iş  hayatlarında  ihtiyaç  duyacakları  beceri  yelpazeleri  olan  yetkinlikler  Türkiye  Yeterlilikler 
+
+Çerçevesinde 
+
+(TYÇ)  belirlenmiştir.  TYÇ  sekiz  anahtar  yetkinlik  belirlemekte  ve  aşağıdaki  gibi 
+
+tanımlamaktadır: 
+
+1) Anadilde iletişim: Kavram, düşünce, görüş, duygu ve olguları hem sözlü hem de yazılı olarak ifade etme 
+
+ve yorumlama (dinleme, konuşma, okuma ve yazma); eğitim ve öğretim, iş yeri, ev ve eğlence gibi her 
+
+türlü sosyal ve kültürel bağlamda uygun ve yaratıcı bir şekilde dilsel etkileşimde bulunmaktır. 
+
+2)  Yabancı  dillerde  iletişim:  Çoğunlukla  ana  dilde  iletişimin  temel  beceri  boyutlarını  paylaşmakta  olup 
+
+duygu, düşünce, kavram, olgu ve görüşleri hem sözlü hem de yazılı olarak kişinin istek ve ihtiyaçlarına 
+
+göre eğitim, öğretim, iş yeri, ev ve eğlence gibi uygun bir dizi sosyal ve kültürel bağlamda anlama, ifade 
+
+etme  ve  yorumlama  becerisine  dayalıdır.  Yabancı  dillerde  iletişim,  aracılık  etme  ve  kültürlerarası 
+
+anlayış  becerilerini  de  gerektirmektedir.  Bireyin  yeterlilik  seviyesi,  bireyin  sosyal  ve  kültürel  geçmişi, 
+
+çevresi, ihtiyaçları ve ilgilerine bağlı olarak dinleme, konuşma, okuma ve yazma boyutları ile farklı diller 
+
+arasında değişkenlik gösterecektir. 
+
+3)  Matematiksel  yetkinlik  ve  bilim/teknolojide  temel  yetkinlikler:  Matematiksel  yetkinlik,  günlük  hayatta 
+
+karşılaşılan  bir  dizi  problemi  çözmek  için  matematiksel  düşünme  tarzını  geliştirme  ve  uygulamadır. 
+
+Sağlam  bir  aritmetik  becerisi  üzerine  inşa  edilen  süreç,  faaliyet  ve  bilgiye  vurgu  yapılmaktadır. 
+
+Matematiksel yetkinlik, düşünme (mantıksal ve uzamsal düşünme) ve sunmanın (formüller, modeller, 
+
+kurgular,  grafikler  ve  tablolar)  matematiksel  modlarını  farklı  derecelerde  kullanma  beceri  ve  isteğini 
+
+içermektedir.  
+
+Bilimde  yetkinlik,  soruları  tanımlamak  ve  kanıta  dayalı  sonuçlar  üretmek  amacıyla  doğal  dünyanın 
+
+açıklanmasına  yönelik  bilgi  varlığına  ve  metodolojiden  yararlanma  beceri  ve  arzusuna  atıfta 
+
+bulunmaktadır. Teknolojide yetkinlik, algılanan insan istek ve ihtiyaçlarını karşılama bağlamında bilgi ve 
+
+6 
+
+ 
+ 
+ 
+ 
+metodolojinin uygulanması olarak görülmektedir. Bilim ve teknolojide yetkinlik, insan etkinliklerinden 
+
+kaynaklanan  değişimleri  ve  her  bireyin  vatandaş  olarak  sorumluluklarını  kavrama  gücünü 
+
+kapsamaktadır. 
+
+4) Dijital yetkinlik: İş, günlük hayat ve iletişim için bilgi iletişim teknolojilerinin güvenli ve eleştirel şekilde 
+
+kullanılmasını  kapsar.  Söz  konusu  yetkinlik,  bilgiye  erişim  ve  bilginin  değerlendirilmesi,  saklanması, 
+
+üretimi,  sunulması  ve  alışverişi  için  bilgisayarların  kullanılması  ayrıca  internet  aracılığıyla  ortak  ağlara 
+
+katılım sağlanması ve iletişim kurulması gibi temel beceriler yoluyla desteklenmektedir. 
+
+5)  Öğrenmeyi  öğrenme:  Bireyin  kendi  öğrenme  eylemini  etkili  zaman  ve  bilgi  yönetimini  de  kapsayacak 
+
+şekilde  bireysel  olarak  veya  grup  hâlinde  düzenleyebilmesi  için  öğrenmenin  peşine  düşme  ve  bu 
+
+konuda ısrarcı olma yetkinliğidir. Bu yetkinlik, bireyin var olan imkânları tanıyarak öğrenme ihtiyaç ve 
+
+süreçlerinin  farkında  olmasını  ve  başarılı  bir  öğrenme  eylemi  için  zorluklarla  başa  çıkma  yeteneğini 
+
+kapsamaktadır. Yeni bilgi ve beceriler kazanmak, işlemek ve kendine uyarlamak kadar rehberlik desteği 
+
+aramak ve bundan yararlanmak anlamına da gelir. Öğrenmeyi öğrenme, bilgi ve becerilerin ev, iş yeri, 
+
+eğitim ve öğretim ortamı gibi çeşitli bağlamlarda kullanılması ve uygulanması için önceki öğrenme ve 
+
+hayat tecrübelerine dayanılması yönünde öğrenenleri harekete geçirir. 
+
+6) Sosyal ve vatandaşlıkla ilgili yetkinlikler: Bu yetkinlikler kişisel, kişilerarası ve kültürlerarası yetkinlikleri 
+
+içermekte; bireylerin farklılaşan toplum ve çalışma hayatına etkili ve yapıcı biçimde katılmalarına imkân 
+
+tanıyacak; gerektiğinde çatışmaları çözecek özelliklerle donatılmasını sağlayan tüm davranış biçimlerini 
+
+kapsar. Vatandaşlıkla ilgili yetkinlik ise bireyleri, toplumsal ve siyasal kavram ve yapılara ilişkin bilgiye, 
+
+demokratik  ve  aktif  katılım  kararlılığına  dayalı  olarak  medeni  hayata  tam  olarak  katılmaları  için 
+
+donatmaktadır. 
+
+7) İnisiyatif alma ve girişimcilik: Bireyin düşüncelerini eyleme dönüştürme becerisini ifade eder. Yaratıcılık, 
+
+yenilik ve risk almanın yanında hedeflere ulaşmak için planlama yapma ve proje yönetme yeteneğini de 
+
+içerir.  Bu  yetkinlik,  herkesi  sadece  evde  ve  toplumda  değil  işlerine  ait  bağlam  ve  şartların  farkında 
+
+olabilmeleri  ve  iş  fırsatlarını  yakalayabilmeleri  için  aynı  zamanda  iş  hayatında  desteklemekte; 
+
+toplumsal ve ticari etkinliklere girişen veya katkıda bulunan kişilerin ihtiyaç duydukları daha özgün bilgi 
+
+ve  beceriler  için  de  bir  temel  teşkil  etmektedir.  Etik  değerlerin  farkında  olma  ve  iyi  yönetişimi 
+
+desteklemeyi de kapsar. 
+
+8) Kültürel farkındalık ve ifade: Müzik, sahne sanatları, edebiyat ve görsel sanatlar dâhil olmak üzere çeşitli 
+
+kitle  iletişim  araçları  kullanılarak  görüş,  deneyim  ve  duyguların  yaratıcı  bir  şekilde  ifade  edilmesinin 
+
+öneminin takdiridir. 
+
+7 
+
+ 
+ 
+ 
+ 
+ 
+ 
+1.3. ÖĞRETİM PROGRAMLARINDA ÖLÇME VE DEĞERLENDİRME YAKLAŞIMI 
+
+Hiçbir insan bir başkasının birebir aynısı değildir. Bu sebeple öğretim programlarının ve buna bağlı olarak 
+
+ölçme  ve  değerlendirme  sürecinin  “herkese  uygun”,  “herkes  için  geçerli  ve  standart  olması”  insanın 
+
+doğasına terstir. Bu sebeple ölçme ve değerlendirme sürecinde azami çeşitlilik ve esneklik anlayışıyla 
+
+hareket edilmesi şarttır. Öğretim programları bu açıdan bir yol göstericidir. Öğretim programlarından 
+
+ölçme  değerlendirmeye  ait  bütün  unsurları 
+
+içermesini  beklemek  gerçekçi  bir  beklenti  olarak 
+
+değerlendirilemez. Eğitimde çeşitlilik; birey, eğitim düzeyi, ders içeriği, sosyal ortam, okul imkânları vb. 
+
+iç ve dış dinamiklerden ciddi şekilde etkilendiği için, ölçme ve değerlendirme uygulamalarının etkililiğini 
+
+sağlamada öncelik öğretim programlarından değil öğretmen ve eğitim uygulayıcılarından beklenir. Bu 
+
+noktada özgünlük ve yaratıcılık öğretmenlerden temel beklentidir. 
+
+Bu bakış açısından hareketle öğretim programlarında ölçme ve değerlendirme uygulamalarına yön veren 
+
+ilkeleri aşağıdaki gibi özetlemek mümkündür: 
+
+Ölçme  ve  değerlendirme  çalışmaları  öğretim  programının  tüm  bileşenleri  ile  azami  uyum  sağlamalı, 
+
+kazanım ve açıklamaların sınırları esas alınmalıdır. 
+
+Öğretim  programı,  ölçme  sürecinde  kullanılabilecek  ölçme  araç  ve  yöntemleri  açısından  uygulayıcılara 
+
+kesin  sınırlar  çizmez,  sadece  yol  gösterir.  Ancak  tercih  edilen  ölçme  ve  değerlendirme  araç  ve 
+
+yönteminde, gereken teknik ve akademik standartlara uyulmalıdır. 
+
+Eğitimde ölçme ve değerlendirme uygulamaları eğitimin ayrılmaz bir parçasıdır ve eğitim süreci boyunca 
+
+yapılır. Ölçme sonuçları tek başına değil izlenen süreçlerle birlikte bütünlük içinde ele alınır. 
+
+Bireysel farklılıklar gerçeğinden dolayı bütün öğrencileri kapsayan, bütün öğrenciler için genel geçer, tek 
+
+tip bir ölçme ve değerlendirme yönteminden söz etmek uygun değildir. Öğrencinin akademik gelişimi 
+
+tek bir yöntemle veya teknikle ölçülüp değerlendirilmez. 
+
+Eğitim  sadece  “bilme  (düşünce)”  için  değil,  “hissetme  (duygu)”  ve  “yapma  (eylem)”  için  de  verilir; 
+
+dolayısıyla sadece bilişsel ölçümler yeterli kabul edilemez. 
+
+Çok odaklı ölçme değerlendirme esastır. Ölçme ve değerlendirme uygulamaları öğretmen ve öğrencilerin 
+
+aktif katılımıyla gerçekleştirilir. 
+
+Bireylerin  ölçme  ve  değerlendirmeye  konu  olan  ilgi,  tutum,  değer  ve  başarı  gibi  özellikleri  zamanla 
+
+değişebilir. Bu sebeple söz konusu özellikleri tek bir zamanda ölçmek yerine süreç içindeki değişimleri 
+
+dikkate alan ölçümler kullanmak esastır. 
+
+8 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1.4. BİREYSEL GELİŞİM VE ÖĞRETİM PROGRAMLARI 
+
+Öğretim  programlarının  geliştirilmesi  sürecinde  insanın  çok  yönlü  gelişimsel  özelliklerine  dair 
+
+mevcut  bilimsel  bilgi ve  birikim  dikkate  alınarak  bütün bileşenler  arasında  ahengi  dikkate  alan  harmonik 
+
+bir yaklaşım benimsenmiştir. Bu bağlamda bazı temel gelişim ilkelerine değinmek yerinde olacaktır. 
+
+Öğretim programları, insan gelişiminin belirli bir dönemde sonlanmadığı ve gelişimin hayat boyu 
+
+sürdüğü ilkesi ile hazırlanmıştır. Bu sebeple öğretim programlarında, her yaş döneminde bireylerin gelişim 
+
+özelliklerini dikkate alarak destekleyici önlemler alınması önerilmektedir. 
+
+Gelişim,  hayat  boyu  sürse  de  tek  ve  bir  örnek  yapıda  değildir.  Evreler  hâlinde  ilerler  ve  her 
+
+evrede bireylerin gelişim özellikleri farklıdır. Evreler de başlangıç ve bitişleri açısından homojen değildir. Bu 
+
+sebeple  programlar  olabildiğince  bunu  göz  önünde  bulunduran  bir  hassasiyetle  yapılandırılmıştır. 
+
+Programların  amaçlarını  ve  kazanımlarını  gerçekleştirme  sürecinde  gerekli  uyarlamaların  öğretmen 
+
+tarafından yapılması beklenir. 
+
+Gelişim  dönemleri  ardışık  ve  değişmeyen  bir  sıra  izler.  Her  evrede  olup  bitenler  takip  eden 
+
+evreleri  etkiler.  Öte  yandan  bu  ardışıklık  belirli  yönelimlerle  karakterize  edilir:  basitten  karmaşığa, 
+
+genelden  özele  ve  somuttan  soyuta  doğru  gelişim  gibi.  Program  geliştirme  sürecinde  söz  konusu 
+
+yönelimler  hem  bir  alandaki  yeterliliği  oluşturan  kazanım  ve  becerilerin  ön  şart  ve  ardıllığı  noktasında 
+
+dikkate alınmış hem de sınıflar düzeyinde derslerin dağılımlarında ve birbirleriyle ilişkilerinde göz önünde 
+
+bulundurulmuştur. 
+
+Öğretim programlarında insan gelişiminin bir bütün olduğu ilkesi ile hareket edilmiştir. İnsanın 
+
+farklı  gelişim  alanlarındaki  özellikleri  birbirleri  ile  etkileşim  hâlindedir.  Söz  gelimi  dil  gelişimi  düşünce 
+
+gelişimini  etkiler  ve  düşünce  gelişiminden  etkilenir.  Bu  sebeple  öğretmenlerden,  öğrencinin  edindiği  bir 
+
+kazanımın, gelişimde başka bir alanı da etkileyeceğini dikkate alması beklenir. 
+
+Öğretim  programları  bireysel  farklılıklara  ilişkin  hassasiyetler  göz  önünde  bulundurularak 
+
+yapılandırılmıştır. Kalıtımsal, çevresel ve kültürel faktörlerden kaynaklanan bireysel farklılıklar ilgi, ihtiyaç 
+
+ve yönlenme açısından da kendini belli eder. Öte yandan bu durum bireylerarası ve bireyin kendi içindeki 
+
+farklılıkları  da  kapsar.  Bireyler  hem  başkalarından  farklılık  gösterir  hem  de  kendi  içindeki  özellikleri  ile 
+
+farklıdır. Örneğin bir bireyin soyut düşünme yeteneği güçlü iken aynı bireyin resim yeteneği zayıf olabilir. 
+
+Gelişim hayat boyu sürmekle birlikte bu gelişimin hızı evrelere göre değişkendir. Hızın yüksek 
+
+olduğu zamanlar gelişim açısından riskli ve kritik zamanlardır. Bu sebeple öğretmenlerin gelişim hızının 
+
+yüksek olduğu zamanlarda öğrencinin durumuna daha duyarlı davranması beklenir. Söz gelimi ergenlik 
+
+dönemi kimlik edinimi için kritik dönemdir ve eğitim bu dönemde kimlik edinimini destekleyici sosyal 
+
+etkileşimleri artırır ve yönetir. 
+
+9 
+
+ 
+ 
+ 
+1.5. SONUÇ 
+
+Elimizdeki  programları  güncelleme  sürecinde  hangi  işlemlerden  ve  aşamalardan  geçtiğimiz 
+
+üzerine bilgi vermek de yerinde olacaktır. Bu bağlamda: 
+
+ 
+
+ 
+
+ 
+
+Farklı  ülkelerin  son  yıllarda  benzer  gerekçelerle  yenilenip  güncellenen  öğretim  programları 
+
+incelenmiş, 
+
+Yurt  içinde  ve  yurt  dışında  eğitim  öğretim  ve  programlar  üzerine  yapılan  akademik  çalışmalar 
+
+taranmış, 
+
+Başta Anayasamız olmak üzere ilgili mevzuat, kalkınma planları, hükûmet programları, şûra kararları, 
+
+siyasi partilerin programları, sivil toplum kuruluşları ve sivil araştırma kurumları tarafından hazırlanan 
+
+raporlar vb. dokümanlar analiz edilmiş, 
+
+  Millî  Eğitim  Bakanlığı  programlar  ve  öğretim  materyalleri  daire  başkanlıkları  tarafından  geliştirilen 
+
+anketler  aracılığıyla  öğretmen  ve  yöneticilerin  programlar  ve  haftalık  ders  çizelgelerine  yönelik 
+
+görüşleri toplanmış, 
+
+İllerden gelen her bir branşla ilgili zümre raporları incelenmiş, 
+
+Branşlara  yönelik  açık  uçlu  sorulardan  oluşan  ve  elektronik  ortamda  erişime  açılan  anket  verileri 
+
+derlenmiş, 
+
+Eğitim fakültelerimizin branşlar ölçeğinde hazırladıkları raporlar incelenmiş, 
+
+ 
+
+ 
+
+ 
+
+Bütün görüş, öneri, eleştiri ve beklentiler, Bakanlığımızın ilgili birimlerinden uzman personel, öğretmen ve 
+
+akademisyenlerden oluşan çalışma gruplarınca değerlendirilmiştir. 
+
+Yapılan  tespitler  doğrultusunda  öğretim  programlarımız  gözden  geçirilip  güncellenmiş  ve 
+
+yenilenmiştir. Programların uygulanmasına 2018-2019 eğitim öğretim yılı itibarıyla topyekûn geçilecek ve 
+
+sonrasında  yapılacak  izleme  değerlendirme  sonuçlarına  göre  yine  gerekli  güncellemeler  yapılacaktır. 
+
+Böylelikle  programlarımızın  gelişmelerle  ve  bilimsel,  sosyal,  teknolojik  vb.  ihtiyaçlarla  koşutluğunun 
+
+sürekliliği sağlanmış olacaktır. 
+
+10 
+
+ 
+ 
+ 
+ 
+ 
+ 
+2 
+
+ÖĞRETİM PROGRAMININ UYGULANMASI 
+
+2.1.  MATEMATİK ÖĞRETİM PROGRAMININ TEMEL FELSEFESİ VE GENEL AMAÇLARI 
+
+Toplumsal  değişim  ve  gelişimin  giderek  ivme  kazandığı,  bilgi  ve  iletişim  teknolojilerinin  insan 
+
+hayatının  her  anını  etkilediği  bir  çağda  yaşamaktayız.  Yeni  bilgiler,  fırsatlar  ve  araçlar  matematiğe  bakış 
+
+açımızı, matematikten beklentilerimizi, matematiği kullanma biçimimizi ve hepsinden önemlisi matematik 
+
+öğrenme  ve  öğretme  süreçlerimizi  yeniden  şekillendirmektedir.  Başta  teknolojik  gelişmeler  olmak  üzere 
+
+hayatımızda  yaşanan  değişimlerin  ortaya  çıkardığı  yeni  problemlerin  çözümü  için;  matematiğe  değer 
+
+veren,  matematiksel  düşünme  gücü  gelişmiş,  matematiği  modelleme  ve  problem  çözmede  kullanabilen 
+
+bireylere  her  zaman  olduğundan  daha  çok  ihtiyaç  duyulmaktadır.  Bu  nedenlerden  dolayı,  öğretim 
+
+programları oluşan ihtiyaçlara bağlı olarak zaman zaman güncellenmektedir.  
+
+1739 sayılı Millî Eğitim Temel Kanunu’nun 2. maddesinde ifade edilen Türk Millî Eğitiminin Genel 
+
+Amaçları  ile  Türk  Millî  Eğitiminin  Temel  İlkeleri  esas  alınarak  hazırlanan  Matematik  Dersi  Öğretim 
+
+Programıyla öğrencilerin;  
+
+1. Problemlere farklı açılardan bakarak problem çözme becerilerini geliştirmeleri,  
+
+2. Matematiksel düşünme ve uygulama becerileri kazanmaları,  
+
+3. Matematiği doğru, etkili ve faydalı bir şekilde kullanmaları,  
+
+4. Matematiğe ve matematik öğrenimine değer vermeleri,  
+
+5. Matematiğin tarihsel gelişim sürecini, matematiğin gelişimine katkı sağlayan bilim insanlarını ve 
+onların çalışmalarını tanımaları,  
+
+6. Hayatta karşılaştıkları bir sorunun onlar için problem olup olmadığına dair bakış açısı geliştirip 
+belli bir bilgi düzeyine ulaşmaları amaçlanmıştır.  
+
+2.2.  MATEMATİK  ÖĞRETİM  PROGRAMININ  UYGULANMASINDA  DİKKAT  EDİLECEK 
+HUSUSLAR 
+
+Programın  uygulanma  sürecinde  öğretmenlerimizin  tercihleri;  sınıf  mevcudu,  sınıfın  bilişsel 
+
+seviyesi ve burada sayılamayan birçok faktörle de yakından ilişkilidir. Bu nedenle programın uygulanması 
+
+sürecinde, aşağıdaki hususlara uyulması gerekmektedir:  
+
+1. Programdaki öğrenme alanları, alt öğrenme alanları ve konuların sıralanışı, işleniş sırası olarak 
+düşünülmelidir. 
+
+2.  Öğrencilerin  matematiksel  bilgiyi  yapılandırma  süreçleri,  çoklu  temsiller  ve  materyallerle 
+desteklenmelidir. 
+
+11 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3. Öğretim materyalleri hazırlanırken zümre öğretmenleri ve diğer disiplinlerin öğretmenleriyle iş 
+birliği yapılmalıdır. 
+
+4. Matematiğin konu ve kavramlarının tarihsel gelişimi ile beraber öne çıkan bilim adamlarıyla ilgili 
+sade, açık ve öğrenci düzeyine uygun anekdotlar kullanılmalıdır. 
+
+2.3.  KAZANIM SAYISI VE SÜRE TABLOSU 
+
+No 
+
+Konular 
+
+SAYILAR VE CEBİR 
+
+9. SINIF 
+
+Kazanım 
+Sayısı 
+
+Ders 
+Saati 
+
+Ağırlık 
+(%) 
+
+9.1. 
+
+9.1.1. 
+
+9.2. 
+
+9.2.1. 
+
+9.2.2. 
+
+9.3. 
+
+9.3.1. 
+
+9.3.2. 
+
+9.3.3. 
+
+9.3.4. 
+
+9.3.5. 
+
+GEOMETRİ 
+
+9.4. 
+
+9.4.1. 
+
+9.4.2. 
+
+9.4.3. 
+
+9.4.4. 
+
+9.4.5. 
+
+MANTIK 
+
+Önermeler ve Bileşik Önermeler 
+
+KÜMELER 
+
+Kümelerde Temel Kavramlar 
+
+Kümelerde İşlemler 
+
+DENKLEMLER VE EŞİTSİZLİKLER 
+
+Sayı Kümeleri 
+
+Bölünebilme Kuralları 
+
+Birinci Dereceden Denklemler ve Eşitsizlikler 
+
+Üslü İfadeler ve Denklemler 
+
+Denklemler ve Eşitsizliklerle İlgili Uygulamalar 
+
+ÜÇGENLER 
+
+Üçgenlerde Temel Kavramlar 
+
+Üçgenlerde Eşlik ve Benzerlik 
+
+Üçgenlerin Yardımcı Elemanları 
+
+Dik Üçgen ve Trigonometri 
+
+Üçgenin Alanı 
+
+VERİ, SAYMA ve OLASILIK 
+
+ VERİ 
+
+Merkezî Eğilim ve Yayılım Ölçüleri 
+
+Verilerin Grafikle Gösterilmesi 
+
+9.5. 
+
+9.5.1. 
+
+9.5.2. 
+
+Toplam 
+
+12 
+
+5 
+
+5 
+
+5 
+
+3 
+
+2 
+
+12 
+
+1 
+
+3 
+
+4 
+
+2 
+
+2 
+
+16 
+
+3 
+
+4 
+
+4 
+
+4 
+
+1 
+
+3 
+
+1 
+
+2 
+
+12 
+
+12 
+
+20 
+
+6 
+
+14 
+
+98 
+
+8 
+
+12 
+
+24 
+
+18 
+
+36 
+
+70 
+
+10 
+
+20 
+
+14 
+
+14 
+
+12 
+
+16 
+
+8 
+
+8 
+
+6 
+
+6 
+
+9 
+
+3 
+
+6 
+
+46 
+
+4 
+
+6 
+
+11 
+
+8 
+
+17 
+
+32 
+
+5 
+
+9 
+
+6 
+
+6 
+
+6 
+
+7 
+
+4 
+
+3 
+
+41 
+
+216 
+
+100 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+10. SINIF 
+
+Kazanım 
+Sayısı 
+
+Ders 
+Saati 
+
+Ağırlık 
+(%) 
+
+No 
+
+Konular 
+
+VERİ, SAYMA VE OLASILIK 
+
+10.1. 
+
+SAYMA VE OLASILIK 
+
+10.1.1. 
+
+Sıralama ve Seçme 
+
+10.1.2. 
+
+Basit Olayların Olasılıkları 
+
+SAYILAR VE CEBİR 
+
+10.2 
+
+FONKSİYONLAR 
+
+10.2.1. 
+
+Fonksiyon Kavramı ve Gösterimi 
+
+10.2.2. 
+
+10.3. 
+
+İki  Fonksiyonun  Bileşkesi  ve  Bir  Fonksiyonun 
+Tersi 
+POLİNOMLAR 
+
+10.3.1. 
+
+Polinom Kavramı ve Polinomlarla İşlemler 
+
+10.3.2. 
+
+Polinomların Çarpanlara Ayrılması 
+
+10.4. 
+
+İKİNCİ DERECEDEN DENKLEMLER 
+
+10.4.1. 
+
+İkinci Dereceden Bir Bilinmeyenli Denklemler 
+
+GEOMETRİ 
+
+10.5. 
+
+DÖRTGENLER VE ÇOKGENLER 
+
+10.5.1. 
+
+Çokgenler 
+
+10.5.2. 
+
+Dörtgenler ve Özellikleri 
+
+10.5.3. 
+
+Özel Dörtgenler 
+
+10.6. 
+
+UZAY GEOMETRİ 
+
+10.6.1. 
+
+Katı Cisimler 
+
+8 
+
+6 
+
+2 
+
+7 
+
+4 
+
+3 
+
+4 
+
+2 
+
+2 
+
+4 
+
+4 
+
+3 
+
+1 
+
+1 
+
+1 
+
+1 
+
+1 
+
+38 
+
+26 
+
+12 
+
+42 
+
+18 
+
+24 
+
+30 
+
+12 
+
+18 
+
+36 
+
+     36 
+
+50 
+
+6 
+
+10 
+
+34 
+
+20 
+
+20 
+
+18 
+
+12 
+
+6 
+
+19 
+
+8 
+
+11 
+
+14 
+
+6 
+
+8 
+
+17 
+
+17 
+
+23 
+
+3 
+
+5 
+
+15 
+
+9 
+
+9 
+
+Toplam 
+
+27 
+
+216 
+
+100 
+
+13 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No 
+
+Konular 
+
+         GEOMETRİ 
+
+11. SINIF 
+
+Kazanım 
+Sayısı 
+
+Ders 
+Saati 
+
+Ağırlık 
+(%) 
+
+11.1. 
+
+TRİGONOMETRİ 
+
+11.1.1. 
+
+Yönlü Açılar  
+
+11.1.2. 
+
+          Trigonometrik Fonksiyonlar 
+
+7 
+
+2 
+
+5 
+
+56 
+
+10 
+
+46 
+
+      11.2. 
+
+      ANALİTİK GEOMETRİ 
+
+       4 
+
+       24 
+
+26 
+
+ 5 
+
+21 
+
+  11 
+
+11 
+
+17 
+
+6 
+
+6 
+
+5 
+
+18 
+
+7 
+
+11 
+
+13 
+
+1 
+
+4 
+
+4 
+
+4 
+
+7 
+
+7 
+
+8 
+
+7 
+
+1 
+
+4 
+
+4 
+
+1 
+
+2 
+
+1 
+
+3 
+
+1 
+
+2 
+
+5 
+
+2 
+
+1 
+
+1 
+
+1 
+
+1 
+
+1 
+
+4 
+
+3 
+
+1 
+
+24 
+
+36 
+
+12 
+
+12 
+
+12 
+
+40 
+
+16 
+
+24 
+
+28 
+
+4 
+
+8 
+
+8 
+
+8 
+
+14 
+
+14 
+
+18 
+
+14 
+
+4 
+
+28 
+
+216 
+
+100 
+
+11.2.1. 
+
+Doğrunun Analitik İncelenmesi 
+
+SAYILAR VE CEBİR 
+
+11.3. 
+
+11.3.1. 
+
+11.3.2. 
+
+11.3.3. 
+
+11.4. 
+
+11.4.1. 
+
+11.4.2. 
+
+GEOMETRİ 
+
+11.5. 
+
+11.5.1. 
+
+11.5.2. 
+
+11.5.3. 
+
+11.5.4. 
+
+11.6. 
+
+FONKSİYONLARDA UYGULAMALAR 
+
+Fonksiyonlarla İlgili Uygulamalar 
+
+İkinci Dereceden Fonksiyonlar ve 
+Grafikleri 
+Fonksiyonların Dönüşümleri 
+
+DENKLEM VE EŞİTSİZLİK SİSTEMLERİ 
+
+İkinci Dereceden İki Bilinmeyenli 
+Denklem Sistemleri 
+İkinci Dereceden Bir Bilinmeyenli 
+Eşitsizlikler ve Eşitsizlik Sistemleri 
+
+ÇEMBER VE DAİRE 
+
+Çemberin Temel Elemanları 
+
+Çemberde Açılar 
+
+Çemberde Teğet 
+
+Dairenin Çevresi ve Alanı 
+
+UZAY GEOMETRİ 
+
+11.6.1. 
+
+Katı Cisimler 
+
+VERİ, SAYMA VE OLASILIK 
+
+11.7. 
+
+11.7.1. 
+
+11.7.2. 
+
+Toplam 
+
+OLASILIK 
+
+Koşullu Olasılık 
+
+Deneysel ve Teorik Olasılık 
+
+14 
+
+ 
+ 
+ 
+ 
+ 
+ 
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No 
+
+Konular 
+
+         SAYILAR VE CEBİR 
+
+12. SINIF 
+
+Kazanım  
+Sayısı 
+
+Ders 
+Saati 
+
+Ağırlık 
+(%) 
+
+12.1. 
+
+12.1.1. 
+
+12.1.2. 
+
+12.1.3 
+
+12.2. 
+
+ÜSTEL VE LOGARİTMİK FONKSİYONLAR 
+
+Üstel Fonksiyon 
+
+Logaritma Fonksiyonu 
+
+Üstel, Logaritmik Denklemler ve Eşitsizlikler 
+
+DİZİLER 
+
+12.2.1. 
+
+Gerçek Sayı Dizileri 
+
+         GEOMETRİ 
+
+12.3. 
+
+12.3.1. 
+
+12.3.2. 
+
+12.4. 
+
+12.4.1. 
+
+TRİGONOMETRİ 
+
+Toplam-Fark ve İki Kat Açı Formülleri 
+
+Trigonometrik Denklemler 
+
+DÖNÜŞÜMLER 
+
+Analitik Düzlemde Temel Dönüşümler 
+
+SAYILAR VE CEBİR 
+
+12.5 
+
+12.5.1. 
+
+12.5.2. 
+
+12.5.3. 
+
+12.6. 
+
+12.6.1. 
+
+12.6.2. 
+
+GEOMETRİ 
+
+12.7. 
+
+12.7.1. 
+
+Toplam 
+
+TÜREV 
+
+Limit ve Süreklilik 
+
+Anlık Değişim Oranı ve Türev 
+
+Türevin Uygulamaları 
+
+İNTEGRAL 
+
+Belirsiz İntegral 
+
+Belirli İntegral ve Uygulamaları 
+
+ANALİTİK GEOMETRİ 
+
+Çemberin Analitik İncelenmesi 
+
+6 
+
+1 
+
+3 
+
+2 
+
+4 
+
+4 
+
+3 
+
+2 
+
+1 
+
+2 
+
+2 
+
+11 
+
+3 
+
+4 
+
+4 
+
+6 
+
+2 
+
+4 
+
+2 
+
+2 
+
+36 
+
+8 
+
+18 
+
+10 
+
+18 
+
+18 
+
+36 
+
+18 
+
+18 
+
+18 
+
+18 
+
+46 
+
+10 
+
+18 
+
+18 
+
+42 
+
+16 
+
+26 
+
+20 
+
+20 
+
+17 
+
+4 
+
+8 
+
+5 
+
+8 
+
+8 
+
+17 
+
+8 
+
+9 
+
+8 
+
+8 
+
+21 
+
+5 
+
+8 
+
+8 
+
+20 
+
+8 
+
+12 
+
+9 
+
+9 
+
+34 
+
+216 
+
+100 
+
+15 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+            
+ 
+ 
+ 
+ 
+11. SINIF TEMEL DÜZEY 
+
+Kazanım   
+Sayısı 
+
+Ders      
+Saati 
+
+Ağırlık     
+(%) 
+
+      No 
+
+Konular 
+
+    SAYILAR VE CEBİR 
+
+      TD.11.1. 
+
+SAYILAR 
+
+      TD.11.1.1. 
+
+Sayı Kümeleri 
+
+      TD.11.1.2. 
+
+Bölünebilme 
+
+    GEOMETRİ 
+
+      TD.11.2. 
+
+ÜÇGENLER 
+
+      TD.11.2.1. 
+
+Dik Üçgen 
+
+    SAYILAR VE CEBİR 
+
+      TD.11.3. 
+
+DENKLEMLER VE EŞİTSİZLİKLER 
+
+      TD.11.3.1. 
+
+Birinci Dereceden Denklemler ve Eşitsizlikler 
+
+      TD.11.3.2. 
+
+Bilinçli Tüketici Aritmetiği 
+
+    GEOMETRİ 
+
+      TD.11. 4. 
+
+ÇEMBER VE DAİRE 
+
+      TD.11.4.1. 
+
+Çemberin Temel Elemanları 
+
+      TD.11.4.2. 
+
+Çemberde Açılar 
+
+      TD.11.4.3. 
+
+Dairenin Çevresi ve Alanı 
+
+Toplam 
+
+12. SINIF TEMEL DÜZEY 
+
+5 
+
+3 
+
+2 
+
+3 
+
+3 
+
+4 
+
+2 
+
+2 
+
+3 
+
+1 
+
+1 
+
+1 
+
+15 
+
+18 
+
+10 
+
+8 
+
+18 
+
+18 
+
+24 
+
+14 
+
+10 
+
+12 
+
+2 
+
+6 
+
+4 
+
+72 
+
+25 
+
+14 
+
+11 
+
+25 
+
+25 
+
+33 
+
+19 
+
+14 
+
+17 
+
+3 
+
+8 
+
+6 
+
+100 
+
+No 
+
+Konular 
+
+     SAYILAR ve CEBİR 
+
+     TD.12.1. 
+
+DENKLEM VE EŞİTSİZLİKLER 
+
+     TD.12.1.1. 
+
+Üslü ve Köklü İfadeler 
+
+     TD.12.1.2. 
+
+Bilinçli Tüketici Aritmetiği 
+
+     VERİ, SAYMA VE OLASILIK 
+
+     TD.12.2. 
+
+VERİ  
+
+     TD.12.2.1 
+
+Veri Analizi 
+
+     GEOMETRİ 
+
+     TD.12.3. 
+
+ÖLÇME 
+
+      TD.12.3.1. 
+
+Çevre, Alan ve Hacim Ölçme 
+
+     TD.12.4. 
+
+KATI CİSİMLER  
+
+     TD.12.4.1. 
+
+Küre ve Silindir 
+
+  Toplam 
+
+16 
+
+Kazanım  
+Sayısı 
+
+Ders    
+Saati 
+
+Ağırlık    
+(%) 
+
+2 
+
+1 
+
+1 
+
+1 
+
+1 
+
+1 
+
+1 
+
+1 
+
+1 
+
+5 
+
+36 
+
+20 
+
+16 
+
+10 
+
+10 
+
+14 
+
+14 
+
+12 
+
+12 
+
+72 
+
+50 
+
+26 
+
+24 
+
+13 
+
+13 
+
+20 
+
+20 
+
+17 
+
+17 
+
+100 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3 
+
+ÖĞRETİM PROGRAMININ YAPISI 
+
+3.1.  KAZANIMLARIN YAPISI 
+
+Programda 9, 10, 11, 12. sınıf ile 11 ve 12. sınıf temel düzeyleri yer almaktadır. Ortaöğretim 
+
+(9-12. sınıflar) Matematik Dersi Öğretim Programı, 9 ve 10. sınıflar için tek bir içeriğe sahipken 11 ve 
+
+12.  sınıflarda  öğrencilerin  ihtiyaç,  hedef,  kariyer  planları  gibi  durumlarını  dikkate  alarak  iki  farklı 
+
+seçenek sunmaktadır. 11 ve 12. sınıflarda yer alan Seçmeli Matematik, öğrencinin ilgi ve istekleri ile 
+
+hedefledikleri yükseköğretim programları doğrultusunda Anadolu Liselerinde seçilen, Seçmeli Temel 
+
+Matematik  ise  Mesleki  ve Teknik, Güzel  Sanatlar ve Spor  Liseleri  ile  Anadolu  Liselerinde matematik 
+
+ağırlıklı  bir  programı  tercih  etmeyen  öğrenciler  (sözel-dil)  tarafından  seçilebilir.  Bu  dersler,  öğretim 
+
+programının yapısı gereği 11 ve 12.  sınıflarda bir arada okutulamaz. 
+
+Programın  içeriğinde  öğrenme  alanları,  alt  öğrenme  alanları  ve  konular  şeklinde  sıralama 
+
+yapılmıştır.  Öğrenme  alanlarına  numara  verilmemiş,  öğrenme  alanları  büyük  harf  ile  yazılmıştır. 
+
+“Sayılar  ve  Cebir”,  “Geometri”  ve  “Veri,  Sayma  ve  Olasılık”  tan  oluşan  üç  öğrenme  alanı 
+
+bulunmaktadır.  Kazanımlar  sınıf  düzeyi,  alt  öğrenme alanı,  konu  ve  kazanım  numarası esas  alınarak 
+
+numaralandırılmıştır. Konuların yapısı şematik olarak sunulmuştur.  
+
+Alt Öğrenme 
+
+9.2. Kümeler   
+
+SAYILAR VE CEBİR 
+
+Konu 
+
+Sınıf Düzeyi 
+
+Alt Öğrenme 
+Alanı No. 
+
+Konu No. 
+
+Kazanım No. 
+
+9.2.1. Kümelerde Temel Kavramlar 
+
+Terimler ve Kavramlar: küme, eleman, evrensel küme, boş küme, alt küme, öz 
+
+alt küme, sonlu küme, sonsuz küme, denk kümeler, eşit kümeler 
+
+Sembol ve Gösterimler:   
+
+    {x
+
+x 
+∈, ∉, ∅, { }, ⊂, ⊃, ⊆, ⊇, ⊈, s(A)
+
+ğ
+
+ ö
+
+}  
+
+{x1,  x2,  x3,
+9.2.1.1. Kümeler ile ilgili temel kavramları hatırlatılır. 
+
+. . ., xn},
+
+𝑠𝑠𝑎𝑎ℎ𝑖𝑖𝑝𝑝
+
+𝑡𝑡𝑎𝑎𝑛𝑛𝚤𝚤𝑚𝑚𝑙𝑙𝑎𝑎𝑦𝑦𝚤𝚤𝑐𝑐𝚤𝚤
+
+𝑜𝑜𝑙𝑙𝑑𝑑𝑢𝑢
+
+𝑖𝑖𝑛𝑛
+
+𝑢𝑢
+
+∣
+
+𝑧𝑧𝑒𝑒𝑙𝑙𝑙𝑙𝑖𝑖𝑘𝑘𝑙𝑙𝑒𝑒𝑟𝑟
+
+a)  Kümelerle ilgili gerçek hayattan örneklere yer verilir.  
+
+3.2.  MATEMATİK DERSİ KİTAP FORMA SAYILARI 
+
+Dersin Adı 
+
+Matematik 9 
+Matematik 10 
+Matematik 11 
+Matematik 12 
+T.D. Matematik 11 
+T.D. Matematik 12 
+
+En Fazla Kitap Forma Sayıları* 
+24 
+22 
+22 
+26 
+14 
+10 
+
+Kitap Ebadı 
+19,5 cm ve 27,5 cm 
+19,5 cm ve 27,5 cm 
+19,5 cm ve 27,5 cm 
+19,5 cm ve 27,5 cm 
+19,5 cm ve 27,5 cm 
+19,5 cm ve 27,5 cm 
+
+* : Forma sayıları üst sınır olarak verilmiş olup daha az da olabilir. 
+
+Öğrenme Alanı 
+
+Terimler ve 
+Kavramlar 
+
+Sembol ve 
+Gösterimler 
+
+Kazanım 
+
+Kazanım 
+Açıklaması 
+
+17 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+9. SINIF ALT ÖĞRENME ALANI, KONU, KAZANIM VE AÇIKLAMALARI  
+
+9.1. Mantık 
+
+9.1.1. Önermeler ve Bileşik Önermeler 
+
+SAYILAR VE CEBİR 
+
+Terimler  ve  Kavramlar:  önerme,  bileşik  önerme,  önermenin  değili,  ve,  veya,  ya  da  bağlaçları,  De  Morgan 
+
+kuralları, koşullu önerme, koşullu önermenin karşıtı, koşullu önermenin tersi, koşullu önermenin karşıt tersi, 
+
+iki yönlü koşullu önerme (gerek ve yeter şart), açık önerme, her, bazı, tanım, aksiyom, teorem, ispat, hipotez, 
+
+hüküm 
+
+Sembol ve Gösterimler: 
+
+9.1.1.1. Önermeyi, önermenin doğruluk değerini, iki önermenin denkliğini ve önermenin değilini açıklar. 
+
+(𝑣𝑣𝑒𝑒𝑦𝑦𝑎𝑎 ~𝑝𝑝), ≡, ∀, ∃, ∧, ∨, ∨ , ⇒, ⇔ 
+
+𝑝𝑝, 𝑝𝑝
+
+′
+
+Boole ve Leibniz’in çalışmalarına yer verilir. 
+
+9.1.1.2.  Bileşik  önermeyi  örneklerle  açıklar,  ‘‘ve,  veya,  ya  da’’  bağlaçları  ile  kurulan  bileşik 
+
+önermelerin özelliklerini ve De Morgan kurallarını doğruluk tablosu kullanarak gösterir. 
+
+9.1.1.3. Koşullu önermeyi ve iki yönlü koşullu önermeyi açıklar. 
+
+a) Koşullu önermenin karşıtı, tersi, karşıt tersi verilir. 
+
+b)  
+
+  olduğu doğruluk tablosu yardımıyla gösterilir. 
+
+c) ‘‘ ve, veya, ya da, ise’’ bağlaçları kullanılarak verilen,  en fazla üç önerme içeren ve en fazla dört bileşenli 
+
+′
+
+𝑝𝑝 ⇒ 𝑞𝑞 ≡ 𝑝𝑝
+
+∨ 𝑞𝑞
+
+bileşik önermelere denk basit önermeler buldurulur. 
+
+ç) 
+
+ olduğu doğruluk tablosu ile gösterilir. 
+
+9.1.1.4. Her (
+
+𝑝𝑝 ⇔ 𝑞𝑞 ≡ (𝑝𝑝 ⇒ 𝑞𝑞) ∧ (𝑞𝑞 ⇒ 𝑝𝑝)
+
+) ve bazı (
+
+) niceleyicilerini örneklerle açıklar. 
+
+Sözel  olarak  verilen  ve  niceleyici  içeren  açık  önermeler,    sembolik  mantık  diliyle;  sembolik  mantık  diliyle 
+
+∀
+
+∃
+
+verilen ve niceleyici içeren açık önermeler de sözel olarak ifade edilir. 
+
+9.1.1.5. Tanım, aksiyom, teorem ve ispat kavramlarını açıklar. 
+
+Bir teoremin hipotezi ve hükmü belirtilir. 
+
+9.2. Kümeler 
+
+9.2.1. Kümelerde Temel Kavramlar 
+
+Terimler  ve  Kavramlar:  küme,  eleman,  evrensel  küme,  boş  küme,  alt  küme,  öz  alt  küme,  sonlu  küme, 
+
+sonsuz küme, eşit kümeler 
+
+Sembol ve Gösterimler: 
+
+    {x
+
+x 
+∈, ∉, ∅, { }, ⊂, ⊃, ⊆, ⊇, ⊈, s(A)
+9.2.1.1. Kümeler ile ilgili temel kavramlar hatırlatılır. 
+{x1,  x2,  x3,
+𝑡𝑡𝑎𝑎𝑛𝑛𝚤𝚤𝑚𝑚𝑙𝑙𝑎𝑎𝑦𝑦𝚤𝚤𝑐𝑐𝚤𝚤
+𝑖𝑖𝑛𝑛
+a)  Kümelerle ilgili gerçek hayattan örneklere yer verilir.  
+
+. . ., xn},
+
+𝑠𝑠𝑎𝑎ℎ𝑖𝑖𝑝𝑝
+
+𝑜𝑜𝑙𝑙𝑑𝑑𝑢𝑢
+
+𝑢𝑢
+
+ğ
+
+∣
+
+ ö
+
+} 
+
+𝑧𝑧𝑒𝑒𝑙𝑙𝑙𝑙𝑖𝑖𝑘𝑘𝑙𝑙𝑒𝑒𝑟𝑟
+
+b)  Kümelerin farklı gösterimlerine yer verilir. 
+
+c) Cantor’un çalışmalarına yer verilir. 
+
+18 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+9.2.1.2. Alt kümeyi kullanarak işlemler yapar. 
+
+a)  Alt küme kavramı ve özellikleri ele alınır. 
+
+b)  Alt küme kavramıyla ilgili gerçek hayattan örneklere yer verilir.  
+
+c) Kombinasyon gerektiren problemlere girilmez. 
+
+9.2.1.3. İki kümenin eşitliğini kullanarak işlemler yapar. 
+
+a)  İki kümenin eşitliği kavramı alt küme ile ilişkilendirilir. 
+
+b)  Denk küme kavramı verilmez. 
+
+9.2.2. Kümelerde İşlemler 
+
+Terimler ve Kavramlar: birleşim, kesişim, fark, tümleme, ayrık kümeler, De Morgan kuralları, sıralı ikili, 
+
+kartezyen çarpım 
+
+Sembol ve Gösterimler: 
+
+9.2.2.1. Kümelerde birleşim, kesişim, fark, tümleme işlemleri yardımıyla problemler çözer. 
+∪, ∩, 𝐴𝐴 − 𝐵𝐵 𝑣𝑣𝑒𝑒𝑦𝑦𝑎𝑎 𝐴𝐴 ∖ 𝐵𝐵, 𝐴𝐴’, 𝐴𝐴𝐴𝐴𝐵𝐵, 𝑠𝑠(𝐴𝐴𝐴𝐴𝐵𝐵)
+
+a)  Kümelerin birleşim, kesişim, fark ve tümleme işlemlerinin özellikleri verilir. 
+
+b)  Ayrık küme kavramına yer verilir. 
+
+c)  En fazla üç kümenin birleşiminin eleman sayısını veren ilişkiler üzerinde durulur. 
+
+ç)  Kümelerle yapılan işlemler ve sembolik mantıkta kullanılan sembol, gösterim ve bunlarla ifade edilen 
+
+işlemler arasında aşağıdaki ilişkilendirmeler yapılır. 
+
+Sembolik Mantık 
+
+Kümeler 
+
+0 
+
+∅
+
+1 
+
+𝐸𝐸
+
+Sembolik Mantık 
+
+𝑝𝑝 ∨ 𝑝𝑝
+
+≡ 1
+
+′
+
+′
+
+𝑝𝑝 ∧ 𝑝𝑝
+
+≡ 0
+
+𝑝𝑝 ∧ (𝑞𝑞 ∨ 𝑟𝑟) ≡ (𝑝𝑝 ∧ 𝑞𝑞) ∨ (𝑝𝑝 ∧ 𝑟𝑟)
+
+′
+
+′
+
+′
+
+(𝑝𝑝 ∧ 𝑞𝑞)
+
+≡ 𝑝𝑝
+
+∨ 𝑞𝑞
+
+d) Gerçek hayat problemlerine yer verilir.  
+
+∨
+
+∪
+
+∧
+
+∩
+
+′
+
+′
+
+≡
+
+=
+
+Kümeler 
+
+′
+𝐴𝐴 ∪ 𝐴𝐴
+
+′
+𝐴𝐴 ∩ 𝐴𝐴
+
+= 𝐸𝐸
+
+= ∅
+
+𝐴𝐴 ∩ (𝐵𝐵 ∪ 𝐶𝐶) = (𝐴𝐴 ∩ 𝐵𝐵) ∪ (𝐴𝐴 ∩ 𝐶𝐶)
+′
+
+′
+
+(𝐴𝐴 ∩ 𝐵𝐵)
+
+′
+= 𝐴𝐴
+
+∪ 𝐵𝐵
+
+9.2.2.2. İki kümenin kartezyen çarpımıyla ilgili işlemler yapar. 
+
+a)  Sıralı ikili ve sıralı ikililerin eşitliği örneklerle açıklanır. 
+
+b) Kartezyen çarpımın eleman sayısı buldurulur. 
+
+c) Sadece sonlu sayıda elemanı olan kümelerin kartezyen çarpımlarının grafik çizimi yapılır. 
+
+19 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+9.3. Denklemler ve Eşitsizlikler 
+
+9.3.1.  Sayı Kümeleri 
+
+Terimler ve Kavramlar: doğal sayılar, tam sayılar, rasyonel sayılar, irrasyonel sayılar, gerçek (reel) sayılar 
+−, 
+
+Sembol ve Gösterimler: 
+
+−, 
+
++, 
+
+−, 
+
++, 
+
++, 
+
+′, 
+
+2 
+
+×
+
+, 
+
+, 
+
+, 
+
+, 
+
+, 
+
+9.3.1.1. Sayı kümelerini birbiriyle ilişkilendirir. 
+
+ℕ
+
+ℤ
+
+ℚ
+
+ℚ
+
+ℝ
+
+ℤ
+
+ℚ
+
+ℝ
+
+ℤ
+
+ℚ
+
+ℝ
+
+ℝ
+
+ℝ
+
+ℝ
+
+a) Doğal sayı, tam sayı, rasyonel sayı, irrasyonel sayı ve gerçek sayı kümelerinin sembolleri tanıtılarak bu 
+
+sayı kümeleri arasındaki ilişki üzerinde durulur.  
+
+b) 
+
+ gibi sayıların sayı doğrusundaki yeri belirlenir.  
+
+c) Gerçek sayılar kümesinde toplama ve çarpma işlemlerinin özellikleri üzerinde durulur.  
+
+√2, √3, √5
+
+ç) 
+
+ nin geometrik temsilinin sayı doğrusu, 
+
+×
+
+ nin geometrik temsilinin de kartezyen koordinat sistemi 
+
+olduğu vurgulanır. 
+
+ℝ
+
+9.3.2. Bölünebilme Kuralları 
+
+ℝ
+
+ℝ
+
+Sembol ve Gösterimler: EKOK, EBOB 
+
+9.3.2.1. Tam sayılarda bölünebilme kurallarıyla ilgili problemler çözer. 
+
+2, 3, 4, 5, 8, 9, 10, 11 ile bu sayılardan elde edilen 6, 12, 15 gibi sayıların bölünebilme kuralları ele alınır. 
+
+9.3.2.2. Tam sayılarda EBOB ve EKOK ile ilgili uygulamalar yapar. 
+
+a) Gerçek hayat problemlerine yer verilir.  
+
+b) Elektronik tablolarda bulunan EBOB ve EKOK fonksiyonlarından yararlanılır. 
+
+9.3.2.3. Gerçek hayatta periyodik olarak tekrar eden durumları içeren problemleri çözer. 
+
+Modüler aritmetiğe girilmeden periyodik durum içeren problemlere yer verilir. 
+
+9.3.3.Birinci Dereceden Denklemler ve Eşitsizlikler 
+
+Terimler  ve  Kavramlar:  bilinmeyen,  değişken,  denklem,  denklemin  derecesi,  eşitsizlik,  gerçek  sayı 
+
+aralıkları, çözüm kümesi, mutlak değer 
+
+Sembol ve Gösterimler: 
+
+9.3.3.1. Gerçek sayılar kümesinde aralık kavramını açıklar. 
+
+<, ≤, >, ≥, [𝑎𝑎, 𝑏𝑏],  (𝑎𝑎, 𝑏𝑏], [𝑎𝑎, 𝑏𝑏),  (𝑎𝑎, 𝑏𝑏), (−∞, ∞), |𝐴𝐴|
+
+a) Açık, kapalı ve yarı açık aralık kavramları ile bunların gösterimleri üzerinde durulur. 
+
+b) Aralıkların kartezyen çarpımlarına yer verilmez.  
+
+9.3.3.2. Birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm kümelerini bulur.  
+
+a) Birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözümü hatırlatılır. 
+
+b) Harezmî’nin denklemler konusundaki çalışmalarına yer verilir. 
+
+9.3.3.3. Mutlak değer içeren birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm 
+
+kümelerini bulur.  
+
+a) Bir gerçek sayının mutlak değeri hatırlatılarak mutlak değer özellikleri verilir. (
+
+ ve 
+
+) 
+
++
+
+𝐴𝐴, 𝑦𝑦 ∈ ℝ, 𝑛𝑛 ∈ ℤ
+
+𝑎𝑎, 𝑏𝑏 ∈ ℝ
+
+|𝐴𝐴| ≤ 𝑎𝑎 ⇔ −𝑎𝑎 ≤ 𝐴𝐴 ≤ 𝑎𝑎
+|𝐴𝐴| ≥ 𝑎𝑎 ⇔ (𝐴𝐴 ≥ 𝑎𝑎  ∨ 𝐴𝐴 ≤ −𝑎𝑎)
+
+𝑎𝑎 ≤ |𝐴𝐴| ≤ 𝑏𝑏 ⇔ (𝑎𝑎 ≤ 𝐴𝐴 ≤ 𝑏𝑏   ∨   −𝑏𝑏 ≤ 𝐴𝐴 ≤ −𝑎𝑎)
+
+ |𝐴𝐴. 𝑦𝑦| = |𝐴𝐴|. |𝑦𝑦|
+
+𝐴𝐴
+�
+𝑦𝑦
+
+� =
+
+|𝐴𝐴|
+|𝑦𝑦|
+
+, (𝑦𝑦 ≠ 0)
+
+𝑛𝑛
+
+|𝐴𝐴| = |−𝐴𝐴|
+𝑛𝑛
+|𝐴𝐴
+| = |𝐴𝐴|
+|𝐴𝐴 + 𝑦𝑦| ≤ |𝐴𝐴| + |𝑦𝑦|
+
+20 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+b) İkiden çok mutlak değer içeren denklem ve eşitsizliklere girilmez. 
+
+9.3.3.4. Birinci dereceden iki bilinmeyenli denklem ve eşitsizlik sistemlerinin çözüm kümelerini bulur. 
+
+a) Birinci dereceden iki bilinmeyenli denklem sistemlerinin çözüm kümeleri bulunurken yerine koyma, yok 
+
+etme veya grafikle çözüm yöntemlerinden faydalanılır. 
+
+b) Birinci dereceden iki bilinmeyenli denklem ve eşitsizlik sistemlerinin çözümü, analitik düzlemde gösterilir. 
+
+9.3.4. Üslü İfadeler ve Denklemler 
+
+Terimler ve Kavramlar: üslü ifade, taban, üs, köklü ifade, rasyonel kuvvet 
+
+Sembol ve Gösterimler: 
+
+ 𝑛𝑛
+
+𝑛𝑛
+
+𝑚𝑚
+
+𝑚𝑚
+𝑛𝑛
+
+9.3.4.1. Üslü ifadeleri içeren denklemleri çözer. 
+𝐴𝐴
+
+, √𝐴𝐴
+a) Üslü ifade kavramı hatırlatılır. 
+
+, 𝐴𝐴
+
+b) Bir gerçek sayının tam sayı kuvveti ile ilgili uygulamalar yapılır. 
+
+c) Üslü ifadelerin özellikleri üzerinde durulur. 
+
+9.3.4.2. Köklü ifadeleri içeren denklemleri çözer. 
+
+a) Köklü ifadelerin özellikleri üzerinde durulur. 
+
+b) 
+
+ve
+
+için 
+
++
+
+𝐴𝐴 ∈ ℝ
+
++
+ifadeler arasındaki ilişkiler üzerinde durulur. 
+
+= 𝐴𝐴
+c) En çok iki terimli köklü ifadelerin eşleniklerine yer verilir. 
+
+𝑛𝑛 > 1 𝑜𝑜𝑙𝑙𝑚𝑚𝑎𝑎𝑘𝑘 ü𝑧𝑧𝑒𝑒𝑟𝑟𝑒𝑒
+
+ 𝑚𝑚, 𝑛𝑛 ∈ ℤ
+
+√𝐴𝐴
+
+𝑚𝑚
+
+ 𝑛𝑛
+
+   olduğu  vurgulanarak  köklü  ifadeler  ve  üslü 
+
+𝑚𝑚
+𝑛𝑛
+
+ç) Köklü ifadelerde sonsuza giden iç içe köklerle yapılan işlemlere yer verilmez. 
+
+9.3.5. Denklemler ve Eşitsizliklerle İlgili Uygulamalar 
+
+Terimler ve Kavramlar: oran, orantı, doğru orantı, ters orantı,  yüzde 
+
+Sembol ve Gösterimler: 
+
+𝑎𝑎
+9.3.5.1. Oran ve orantı kavramlarını kullanarak problemler çözer. 
+𝑏𝑏 , 𝑎𝑎 ∶ 𝑏𝑏,
+
+𝑐𝑐
+𝑑𝑑 , 𝑎𝑎 ∶ 𝑏𝑏 = 𝑐𝑐 ∶ 𝑑𝑑
+
+𝑎𝑎
+𝑏𝑏 =
+
+%,
+
+a) Oran, orantı, doğru orantı, ters orantı kavramları ile oran ve orantıya ait özellikler hatırlatılır. 
+
+b) Altın oran tanıtılarak gerçek hayattan örnekler verilir ancak hesaplama yöntemlerine yer verilmez. 
+
+9.3.5.2. Denklemler  ve eşitsizlikler ile ilgili problemler çözer. 
+
+a) Gerçek hayat durumlarını temsil eden sözel ifadelerdeki ilişkilerin cebirsel, grafiksel ve sayısal temsilleri 
+
+ile ilgili uygulamalar yapılır. 
+
+b)  Farklı  problem  çözme  stratejilerinin  uygulanmasını  gerektiren  oran,  orantı  kavramlarının  kullanıldığı 
+
+problemlere (örneğin elektrik, su vb. fatura ve ödemeler; sayı, kesir, yaş, işçi, alım-satım, kâr-zarar, yüzde 
+
+ve karışım problemleri; hız ve hareket (hız kavramı, sabit hız, ortalama hız, birimler arası dönüşüm (km/sa., 
+
+m/sn.)) yer verilir; faiz, havuz, saat problemlerine girilmez. 
+
+c)  Rutin  olmayan  problem  türlerine  de  yer  verilerek  farklı  problem  çözme  stratejilerinin  uygulanmasına 
+
+imkân verilir. 
+
+21 
+
+ 
+ 
+ 
+  
+ 
+ 
+ 
+GEOMETRİ 
+
+9.4. Üçgenler 
+
+9.4.1. Üçgenlerde Temel Kavramlar 
+
+Terimler ve Kavramlar: üçgen, açı, kenar, iç açı, dış açı, üçgen eşitsizliği, eşkenar üçgen, ikizkenar üçgen, 
+
+dik üçgen   
+
+ ABC, 
+Sembol ve Gösterimler:           
+
+9.4.1.1. Üçgende açı özellikleri ile ilgili işlemler yapar. 
+
+ 𝐴𝐴𝐵𝐵𝐶𝐶� , 𝑚𝑚� 𝐴𝐴𝐵𝐵𝐶𝐶� �, [𝐴𝐴𝐵𝐵], |𝐴𝐴𝐵𝐵|
+
+a) Kültür ve medeniyetimizden geometrinin tarihsel gelişim sürecine katkı sağlamış bilim insanları ve bilim 
+
+insanlarının yaptığı çalışmalar tanıtılır. Mustafa Kemal Atatürk’ün geometri üzerine yaptığı çalışmalardan 
+
+bahsedilir. 
+
+b) Açı çeşitleri ve paralel iki doğrunun bir kesenle yaptığı açılar hatırlatılır. 
+
+c) Üçgende sadece iç ve dış açı özelliklerinin kullanıldığı sorulara yer verilir. İkizkenar ve eşkenar üçgenin 
+
+açı özellikleri üzerinde durulur. 
+
+9.4.1.2. Üçgenin kenar uzunlukları ile bu kenarların karşılarındaki açıların ölçülerini ilişkilendirir. 
+
+a) Bir üçgende en uzun kenarın karşısındaki açının ölçüsünün en büyük olduğu ve bunun tersinin de doğru 
+
+olduğu gösterilir. 
+
+b)  Dinamik  matematik  yazılımları  kullanılarak  oluşturulan  üçgenlerin  kenar  ve  açıları  arasındaki  ilişkinin 
+
+gözlemlenmesi sağlanır. 
+
+9.4.1.3. Uzunlukları verilen üç doğru parçasının hangi durumlarda üçgen oluşturduğunu değerlendirir.  
+
+a) İki kenar uzunluğu verilen bir üçgenin üçüncü kenar uzunluğunun hangi aralıkta değerler alabileceğine 
+
+ilişkin uygulamalar yapılır. 
+
+b) Dinamik matematik yazılımlarından yararlanılarak hangi durumlarda üçgen oluşacağının test edilmesi 
+
+sağlanır. 
+
+9.4.2. Üçgenlerde Eşlik ve Benzerlik 
+
+Terimler ve Kavramlar: eşlik, Kenar-Açı-Kenar (K.A.K.), Kenar-Kenar-Kenar (K.K.K.), Açı-Kenar-Açı (A.K.A.), 
+
+Açı-Açı (A.A.), benzerlik, benzerlik oranı, kesen,  
+
+Sembol ve Gösterimler:  
+
+ ABC    DEF
+
+ABC  DEF 
+
+9.4.2.1. İki üçgenin eş olması için gerekli olan asgari koşulları değerlendirir. 
+
+≅,          ≅
+
+, 
+
+~, 
+
+~
+
+a) İki üçgenin eşliği hatırlatılır. 
+
+b) Kenar-Açı-Kenar (K.A.K.), Açı-Kenar-Açı (A.K.A.),  Kenar-Kenar-Kenar (K.K.K.) eşlik kuralları, ölçümler 
+
+yapılarak oluşturulur. 
+
+c) Eş üçgenlerin karşılıklı yardımcı elemanlarının da eş olduğu gösterilir. 
+
+9.4.2.2. İki üçgenin benzer olması için gerekli olan asgari koşulları değerlendirir.  
+
+a) Kenar-Açı-Kenar (K.A.K.), Kenar-Kenar-Kenar (K.K.K.) ve Açı-Açı (A.A.) benzerlik kuralları, ölçümler 
+
+yapılarak oluşturulur. 
+
+22 
+
+ 
+           
+            
+          
+ 
+ 
+ 
+ 
+b) Eşlik ile benzerlik arasındaki ilişki incelenir. 
+
+c) Benzer üçgenlerin karşılıklı yardımcı elemanlarının da aynı benzerlik oranına sahip olduğu gösterilir. 
+
+ç) Bilgi ve iletişim teknolojilerinden yararlanılır.  
+
+ 9.4.2.3. Üçgenin bir kenarına paralel ve diğer iki kenarı kesecek şekilde çizilen doğrunun ayırdığı doğru 
+
+parçaları arasındaki ilişkiyi kurar. 
+
+Thales’ in çalışmalarına yer verilir. 
+
+9.4.2.4. Üçgenlerin benzerliği ile ilgili problemler çözer.  
+
+Gerçek hayat problemlerine yer verilir. 
+
+9.4.3. Üçgenin Yardımcı Elemanları 
+
+Terimler ve Kavramlar: açıortay, iç açıortay, dış açıortay, kenarortay, yükseklik, diklik merkezi, kenar orta 
+
+dikme, ağırlık merkezi 
+
+Sembol ve Gösterimler: 
+
+′
+9.4.3.1. Üçgenin iç ve dış açıortaylarının özelliklerini elde eder.  
+ 𝑛𝑛𝐴𝐴 ,  𝑛𝑛𝐴𝐴
+
+ ,  𝑣𝑣𝑎𝑎 , 𝐺𝐺,  ℎ𝑎𝑎  
+
+a)  Açıortay  üzerinde  alınan  bir  noktadan  açının  kollarına  indirilen  dikmelerin  uzunluklarının  eşit  olduğu 
+
+gösterilir.  
+
+b) İç ve dış açıortay uzunlukları formülle hesaplatılmaz. 
+
+c) Açıortay özelliklerinin gösteriminde pergel-cetvelden yararlanılır.  
+
+ç) Bilgi ve iletişim teknolojilerinden yararlanılır. 
+
+9.4.3.2. Üçgenin kenarortaylarının özelliklerini elde eder.  
+
+a)  Kenarortayların  kesiştiği  nokta  ile  bu  noktanın  kenarortay  üzerinde  ayırdığı  parçalar  arasındaki  ilişki 
+
+üzerinde durulur. 
+
+b) Kenarortayların kesiştiği noktanın, üçgenin ağırlık merkezi olduğuna ve üçgenin ağırlık merkeziyle ilgili 
+
+özelliklerine yer verilir. 
+
+c) Dik üçgende, hipotenüse ait kenarortay uzunluğunun hipotenüs uzunluğunun yarısı olduğu gösterilir. 
+
+ç)  Kenarortay uzunluğu formülle hesaplatılmaz. 
+
+d)  Pergel-cetvel  kullanarak  veya  bilgi  ve  iletişim  teknolojileri  yardımıyla  üçgen  üzerinde  değişiklikler 
+
+yapılarak ve üçgen çeşitlerine bağlı olarak değişikliklerin kenarortaylar üzerindeki etkisi gözlemlenir. 
+
+9.4.3.3. Üçgenin kenar orta dikmelerinin bir noktada kesiştiğini gösterir.  
+
+a) Bir doğru parçasının orta dikmesi üzerinde alınan her noktanın, doğru parçasının uç noktalarına eşit 
+
+uzaklıkta olduğu ve bunun karşıtının da doğru olduğu gösterilir. 
+
+b) Pergel-cetvel veya bilgi ve iletişim teknolojilerinden yararlanılır. 
+
+9.4.3.4. Üçgenin çeşidine göre yüksekliklerinin kesiştiği noktanın konumunu belirler.  
+
+a)  Pergel-cetvel  kullanarak veya  bilgi  ve  iletişim  teknolojileri  yardımıyla  bir  üçgenin  yükseklikleri çizilerek 
+
+kesişimleri üzerinde durulur. Farklı üçgen çeşitleri üzerinde örnekler yapılır. 
+
+b)  İkizkenar  üçgenin  tabanında  alınan  bir  noktadan  kenarlara  çizilen  dikmelerin  uzunlukları  toplamı  ile 
+
+üçgenin eş olan kenarlarına ait yükseklik arasındaki ilişki bulunur. 
+
+23 
+
+ 
+ 
+ 
+c)  Eşkenar  üçgen  içerisinde  alınan  bir  noktadan  kenarlara  indirilen  dikmelerin  uzunlukları  toplamı  ile 
+
+üçgenin yüksekliği arasındaki ilişki bulunur. 
+
+9.4.4. Dik Üçgen ve Trigonometri 
+
+Terimler ve Kavramlar: Pisagor teoremi, Öklid teoremi, trigonometrik oran 
+
+Sembol ve Gösterimler: sinx, cosx, tanx, cotx 
+
+9.4.4.1. Dik üçgende Pisagor teoremini elde ederek problemler çözer. 
+
+a) Teorem elde edilirken model çeşitliliğine yer verilir. 
+
+b) Gerçek hayat problemlerine yer verilir. 
+
+c) Pythagoras’ın çalışmalarına yer verilir. 
+
+9.4.4.2. Öklid teoremini elde ederek problemler çözer. 
+
+a) Gerçek hayat problemlerine yer verilir. 
+
+b) Euclid’in çalışmalarına yer verilir. 
+
+9.4.4.3. Dik üçgende dar açıların trigonometrik oranlarını hesaplar. 
+
+a) Bir açının sinüs, kosinüs, tanjant ve kotanjant değerleri dik üçgen üzerinde tanımlanır. 
+
+b) Dik üçgende; 30°, 45° ve 60° nin trigonometrik değerleri özel üçgenler yardımıyla hesaplanır. 
+
+c) Gerçek hayat problemlerine yer verilir. 
+
+ç) Bilgi ve iletişim teknolojilerinden yararlanılır. 
+
+9.4.4.4. Birim çemberi tanımlar ve trigonometrik oranları birim çemberin üzerindeki noktanın 
+
+koordinatlarıyla ilişkilendirir. 
+
+a) Sadece 0° ve 180° arasındaki açıların trigonometrik oranları birim çember yardımıyla hesaplatılır.  
+
+b) Ebu’l Vefa ve Gıyaseddin Cemşid’in trigonometrik oranlarla ilgili çalışmalarından bahsedilir. 
+
+9.4.5. Üçgenin Alanı  
+
+Terimler ve Kavramlar: taban, yükseklik, alan 
+
+Sembol ve Gösterimler: A( 
+
+ABC) 
+
+9.4.5.1. Üçgenin alanı ile ilgili problemler çözer. 
+
+a) Üçgenin alanı, bir kenarı ile bu kenara ait yükseklik kullanılarak hesaplatılır. 
+
+b) İki kenarının uzunluğu ve bu kenarlar arasındaki açının ölçüsü verilen üçgenin alanını hesaplar. 
+
+c)  Aynı  yüksekliğe  sahip  üçgenlerin  alanlarıyla  tabanları;  aynı  tabana  sahip  üçgenlerin  alanlarıyla 
+
+yükseklikleri arasındaki ilişki vurgulanır. 
+
+ç) Benzer üçgenlerin alanları ile benzerlik oranları arasındaki ilişki belirtilir. 
+
+d) Bilgi ve iletişim teknolojileri yardımıyla alan, taban ve yüksekliği değiştirilen bir üçgenin alanının 
+
+nasıl değiştiği gözlemlenir. 
+
+24 
+
+ 
+ 
+ 
+ 
+ 
+VERİ, SAYMA VE OLASILIK 
+
+9.5. Veri 
+
+9.5.1. Merkezî Eğilim ve Yayılım Ölçüleri 
+
+Terimler  ve  Kavramlar:  veri,  kesikli  veri,  sürekli  veri,  aritmetik  ortalama,  ortanca  (medyan),  tepe  değer 
+
+(mod), açıklık, en büyük değer, en küçük değer, standart sapma 
+
+Sembol ve Gösterimler:
+
+, S, Q, Q2 
+
+9.5.1.1. Verileri merkezî eğilim ve yayılım ölçülerini hesaplayarak yorumlar. 
+
+ 𝑋𝑋�
+a) Veri kavramı, kesikli ve sürekli veri çeşitleri verilir. 
+
+b) Aritmetik ortalama, ortanca, tepe değer, en büyük değer, en küçük değer ve açıklık kavramları verilir. 
+
+c) Alt çeyrek, üst çeyrek ve çeyrekler açıklığına yer verilmez. 
+
+ç) Veri sayısı en fazla beş olan veri grupları için standart sapma hesaplanır. 
+
+d) Gerçek hayat durumlarında aritmetik ortalama, ortanca, tepe değer kavramları birlikte yorumlanır. 
+
+9.5.2. Verilerin Grafikle Gösterilmesi 
+
+Terimler ve Kavramlar: çizgi grafiği, sütun grafiği, daire grafiği, histogram, grup sayısı, grup genişliği 
+
+9.5.2.1. Bir veri grubuna ilişkin histogram oluşturur. 
+
+a)  Histogram  oluşturulurken  veri  grubunun  açıklığı  seçilen  grup  sayısına  bölünür  ve  aşağıdaki  eşitsizliği 
+
+sağlayan en küçük doğal sayı değeri grup genişliği olarak belirlenir. 
+
+𝐴𝐴ç𝚤𝚤𝑘𝑘𝑘𝑘𝚤𝚤𝑘𝑘 
+
+b) Veri gruplarının histogramı çizilir. 
+
+𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝐺 𝑠𝑠𝑎𝑎𝑠𝑠𝚤𝚤𝑠𝑠𝚤𝚤 < 𝐺𝐺𝑟𝑟𝑢𝑢𝑝𝑝 𝑔𝑔𝑒𝑒𝑛𝑛𝑖𝑖ş𝑙𝑙𝑖𝑖ğ𝑖𝑖
+
+9.5.2.2. Gerçek hayat durumunu yansıtan veri gruplarını uygun grafik türleriyle temsil ederek yorumlar. 
+
+a) İkiden fazla veri grubunun karşılaştırıldığı durumlara da yer verilir. 
+
+b) Serpme ve kutu grafiklerine yer verilmez. 
+
+c) Grafik türleri bilgi ve iletişim teknolojileri kullanılarak çizilir. 
+
+ç)  Tasarruf  bilinci  kazandırmak  amacıyla  ekmek  israfı,  su  israfı  gibi  konulara  ilişkin  veriler  kullanılarak 
+
+grafik oluşturulması sağlanır. 
+
+25 
+
+ 
+ 
+                
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+10. SINIF ALT ÖĞRENME ALANI, KONU, KAZANIM VE AÇIKLAMALARI  
+
+VERİ, SAYMA VE OLASILIK 
+
+10.1. Sayma ve Olasılık 
+
+10.1.1. Sıralama ve Seçme 
+
+Terimler  ve  Kavramlar:  toplama  yöntemi,  çarpma  yöntemi, 
+
+faktöriyel,  permütasyon,  tekrarlı 
+
+permütasyon, kombinasyon, Pascal üçgeni, binom açılımı 
+
+Sembol ve Gösterimler:  
+
+ 
+n
+ 
+r
+ 
+
+10.1.1.1. Olayların gerçekleşme sayısını toplama ve çarpma yöntemlerini kullanarak hesaplar. 
+
+𝑛𝑛! , 𝑃𝑃(𝑛𝑛, 𝑟𝑟) , 𝐶𝐶(𝑛𝑛, 𝑟𝑟),
+
+a)  Sayma  konusunun  tarihsel  gelişim  sürecinden  söz  edilir  ve  bu  süreçte  rol  alan  Sâbit  İbn  Kurrâ‘nın 
+
+çalışmalarına yer verilir. 
+
+b) Faktöriyel kavramı verilerek saymanın temel ilkesi ile ilişkilendirilir. 
+
+10.1.1.2.  n  çeşit  nesne  ile  oluşturulabilecek  r  li  dizilişlerin  (permütasyonların)  kaç  farklı  şekilde 
+
+yapılabileceğini hesaplar. 
+
+10.1.1.3.  Sınırlı  sayıda  tekrarlayan  nesnelerin  dizilişlerini  (permütasyonlarını)  açıklayarak  problemler 
+
+çözer. 
+
+a) En az iki tanesi özdeş olan nesnelerin tüm farklı dizilişlerinin sayısı örnekler/problemler bağlamında ele 
+
+alınır. 
+
+b) Gerçek hayat problemlerine yer verilir. 
+
+10.1.1.4. n elemanlı bir kümenin r tane elemanının kaç farklı şekilde seçilebileceğini hesaplar. 
+
+a) Kombinasyon kavramı alt küme sayısı ile ilişkilendirilir. 
+
+b) Kombinasyon kavramının aşağıdaki temel özellikleri incelenir: 
+
+• 
+
+•
+
+𝐶𝐶(𝑛𝑛, 𝑟𝑟) = 𝐶𝐶(𝑛𝑛, 𝑛𝑛 − 𝑟𝑟) 
+
+10.1.1.5. Pascal üçgenini açıklar. 
+ 𝐶𝐶(𝑛𝑛, 0) +  𝐶𝐶(𝑛𝑛, 1) + ⋯ +  𝐶𝐶(𝑛𝑛, 𝑛𝑛) = 2
+Pascal üçgeninin, aralarında Ömer Hayyam’ın da bulunduğu Hint, Çin, İslam medeniyetlerindeki 
+
+𝑛𝑛
+
+matematikçi ve düşünürler tarafından Pascal’dan çok önceleri ele alındığı; bu çerçevede matematiksel 
+
+bilginin oluşumunda farklı kültür ve bilim insanlarının rolü vurgulanır. 
+
+10.1.1.6. Binom açılımını yapar. 
+
+a) Binom açılımı Pascal üçgeni ile ilişkilendirilir. 
+
+b) Sadece iki terimli ifadelerin açılımı ele alınır. 
+
+c) Binom formülü ile ilgili örnekler yapılır ancak 
+
+ açılımında   
+
+ şeklindeki 
+
+örneklere yer verilmez. 
+
+𝑛𝑛
+(𝑎𝑎𝐴𝐴 + 𝑏𝑏𝑦𝑦)
+
+′
+𝑛𝑛 ∈  ℕ, 𝑎𝑎, 𝑏𝑏 ∈ ℚ
+
+26 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+10.1.2. Basit Olayların Olasılıkları 
+
+Terimler ve Kavramlar: örnek uzay, olay, deney, çıktı, kesin olay, imkânsız olay, ayrık olay, ayrık olmayan 
+
+olay, bir olayın tümleyeni, olasılık 
+
+Sembol ve Gösterimler: E, P(A), P(A’) 
+
+10.1.2.1. Örnek uzay, deney, çıktı, bir olayın tümleyeni, kesin olay, imkânsız olay, ayrık olay ve ayrık 
+
+olmayan olay kavramlarını açıklar. 
+
+a) Örnek uzay, deney, çıktı kavramları eş olası durumlardan yola çıkılarak eş olası olmayan durumlar için 
+
+de örneklendirilir ve tanımlanır. 
+
+b) Ayrık olay ve ayrık olmayan olay üzerinde durulur. 
+
+c) El Kindî ve Laplace'ın çalışmalarına yer verilir. 
+
+10.1.2.2. Olasılık kavramı ile ilgili uygulamalar yapar.  
+
+a) Eş olası olan ve olmayan olayların olasılıkları hesaplanır. 
+
+b) Tümleyen, ayrık olay ve ayrık olmayan olay ile ilgili olasılıklar hesaplanır. 
+
+c) Gerçek hayat problemlerine yer verilir. 
+
+SAYILAR VE CEBİR 
+
+10.2. Fonksiyonlar 
+
+10.2.1. Fonksiyon Kavramı ve Gösterimi 
+
+Terimler ve Kavramlar: fonksiyon, tanım kümesi, değer kümesi, görüntü kümesi, fonksiyonun grafiği, sabit 
+
+fonksiyon,  içine  fonksiyon,  örten  fonksiyon,  bire  bir  fonksiyon,  eşit  fonksiyon,  birim  fonksiyon,  doğrusal 
+
+fonksiyon, tek fonksiyon, çift fonksiyon, dikey (düşey) doğru testi 
+
+Sembol ve Gösterimler
+
+10.2.1.1. Fonksiyonlarla ilgili problemler çözer. 
+
+: 𝑓𝑓: 𝐴𝐴 → 𝐵𝐵, 𝑓𝑓(𝐴𝐴), 𝑦𝑦 = 𝑓𝑓(𝐴𝐴), 𝑓𝑓 + 𝑔𝑔, 𝑓𝑓 − 𝑔𝑔, 𝑓𝑓. 𝑔𝑔,
+
+𝑓𝑓
+𝑔𝑔 , 𝐼𝐼
+
+a)  Fonksiyon kavramı açıklanır.  
+
+b)  Sadece gerçek sayılar üzerinde tanımlanmış fonksiyonlar ele alınır.  
+
+c) İçine fonksiyon, örten fonksiyon, bire bir fonksiyon, eşit fonksiyon, birim (özdeşlik) fonksiyon, sabit 
+
+fonksiyon, doğrusal fonksiyon, tek fonksiyon, çift fonksiyon ve parçalı tanımlı fonksiyon açıklanır. 
+
+ç)  İki fonksiyonun eşitliği örneklerle açıklanır. 
+
+d)    f  ve  g  fonksiyonları  kullanılarak   
+
+   işlemleri  yapılır,  ancak  parçalı  tanımlı 
+
+fonksiyonlarda bu işlemlere girilmez. 
+
+𝑓𝑓 + 𝑔𝑔, 𝑓𝑓 − 𝑔𝑔, 𝑓𝑓. 𝑔𝑔,
+
+𝑓𝑓
+𝑔𝑔 
+
+e)  Gerçek hayat problemlerine ve tablo-grafik kullanımına yer verilir. 
+
+10.2.1.2. Fonksiyonların grafiklerini çizer.  
+
+a) f(x) = ax + b şeklindeki fonksiyonların grafikleri ile ilgili uygulamalar yapılır. 
+
+b) Parçalı tanımlı şekilde verilen fonksiyonların grafikleri çizilir. 
+
+27 
+
+ 
+ 
+ 
+ 
+c)  f(x)  =  ax  +  b  tipindeki  fonksiyonların  grafiği  bilgi  ve  iletişim  teknolojileri  yardımıyla  çizilerek  a  ve  b 
+
+katsayıları ile fonksiyon grafiği arasındaki ilişki ele alınır. 
+
+10.2.1.3. Fonksiyonların grafiklerini yorumlar. 
+
+a) Grafiği verilen fonksiyonların tanım ve görüntü kümeleri gösterilir. 
+
+b) Bir fonksiyon grafiğinde, fonksiyonun x ekseni üzerinde tanımlı olduğu her bir noktadan y eksenine 
+
+paralel çizilen doğruların, grafiği yalnızca bir noktada kestiğine (düşey/dikey doğru testi) işaret edilir.  
+
+c) Bir f fonksiyonunun grafiğinin y = f(x)  denkleminin grafiği olduğu ve grafiğin (varsa),   x eksenini kestiği 
+
+noktaların f(x) = 0 denkleminin gerçek sayılardaki çözüm kümesi olduğu vurgulanır. 
+
+10.2.1.4. Gerçek hayat durumlarından doğrusal fonksiyonlarla ifade edilebilenlerin grafik gösterimlerini 
+
+yapar. 
+
+10.2.2. İki Fonksiyonun Bileşkesi ve Bir Fonksiyonun Tersi 
+
+Terimler ve Kavramlar: bileşke fonksiyon, fonksiyonun tersi, yatay doğru testi 
+
+Sembol ve Gösterimler: 
+
+−1
+10.2.2.1. Bire bir ve örten fonksiyonlar ile ilgili uygulamalar yapar. 
+
+𝑓𝑓 𝜊𝜊 𝑔𝑔, 𝑓𝑓
+
+a) Bir fonksiyonun bire bir ve örtenliği grafik üzerinde yatay doğru testiyle incelenir ve cebirsel olarak 
+
+ilişkilendirilir. 
+
+b) Bilgi ve iletişim teknolojileri yardımıyla bir fonksiyonun bire bir ve örten olup olmadığı belirlenir. 
+
+10.2.2.2. Fonksiyonlarda bileşke işlemiyle ilgili işlemler yapar. 
+
+a) Bileşke işlemi, fonksiyonların cebirsel ve grafik gösterimleri ile ilişkilendirilerek ele alınır. 
+
+b)  Fonksiyonlarda  bileşke  işleminin  birleşme  özelliğinin  olduğu  belirtilir,  değişme  özelliğinin  olmadığı 
+
+örneklerle gösterilir. 
+
+c) Parçalı tanımlı fonksiyonların bileşkesine girilmez. 
+
+10.2.2.3. Verilen bir fonksiyonun tersini bulur. 
+
+a) Bir fonksiyonun tersinin de fonksiyon olması için gerekli şartlar belirtilir. 
+
+b)  Sadece  bire  bir  ve  örten  doğrusal  fonksiyonun  tersinin  grafiği  çizilir;  fonksiyonun  grafiği  ile  tersinin 
+
+grafiğinin y=x doğrusuna göre simetrik olduğu gösterilir. 
+
+c) Parçalı tanımlı fonksiyonların tersi verilmez. 
+
+10.3. Polinomlar 
+
+10.3.1. Polinom Kavramı ve Polinomlarla İşlemler 
+
+Terimler  ve  Kavramlar:  polinom,  polinomun  derecesi,  polinomun  katsayıları,  polinomun  baş  katsayısı, 
+
+polinomun sabit terimi, sabit polinom, sıfır polinomu, polinomun sıfırları 
+
+Sembol ve Gösterimler: P(x) 
+
+10.3.1.1. Bir değişkenli polinom kavramını açıklar.  
+
+a) Polinomun derecesi, katsayıları ve sabit terimi belirtilir. 
+
+b) Sabit polinom, sıfır polinomu ve iki polinomun eşitliği örneklerle açıklanır. 
+
+28 
+
+ 
+ 
+ 
+ 
+10.3.1.2. Polinomlarla toplama, çıkarma, çarpma ve bölme işlemlerini yapar.  
+
+a) Bir P(x) polinomunun x – a ile bölümünden kalan P(a) dır. 
+
+ in bir çarpanı olduğu vurgulanır. 
+
+b) Polinomun sıfırı kavramı bölme işlemiyle ilişkilendirilir. 
+
+𝑃𝑃(𝑎𝑎) =  0  ⇔ 𝐴𝐴 – 𝑎𝑎,   𝑃𝑃(𝐴𝐴)
+
+10.3.2. Polinomların Çarpanlara Ayrılması 
+
+Terimler ve Kavramlar: çarpan, özdeşlik, değişken değiştirme, rasyonel ifade 
+
+10.3.2.1. Bir polinomu çarpanlarına ayırır. 
+
+a)  Ortak  çarpan  parantezine  alma  ve  değişken  değiştirme  yöntemleri  kullanılarak  çarpanlara  ayırma 
+
+uygulamaları yapılır. 
+
+b) Tam kare, iki kare farkı, iki terimin toplamının ve farkının küpü, iki terimin küplerinin toplamı ve farkına 
+
+ait özdeşlikler kullanılarak çarpanlara ayırma uygulamaları yapılır. 
+
+c) 
+
+ biçimindeki ifadeler çarpanlarına ayrılır. 
+
+10.3.2.2. Rasyonel ifadelerin sadeleştirilmesi ile ilgili işlemler yapar. 
+
+2
+
+𝑎𝑎𝐴𝐴
+
++ 𝑏𝑏𝐴𝐴 + 𝑐𝑐
+
+a) Rasyonel ifade kavramı tanıtılır. 
+
+b) Çarpanları polinom olmayan ifadelerde çarpanlara ayırma uygulamalarına yer verilmez. 
+
+10.4. İkinci Dereceden Denklemler 
+
+10.4.1. İkinci Dereceden Bir Bilinmeyenli Denklemler 
+
+Terimler ve Kavramlar: ikinci dereceden bir bilinmeyenli denklem, denklemin kökü, kökler toplamı, kökler 
+
+çarpımı, diskriminant, karmaşık sayı, eşlenik 
+
+Sembol ve Gösterimler:  Δ, i, a+ib, z,      Ȼ, İm(z), Re(z) 
+
+10.4.1.1. İkinci dereceden bir bilinmeyenli denklem kavramını açıklar. 
+
+İkinci  dereceden  bir  bilinmeyenli  denklemlerin  tarihsel  gelişim  sürecine  ve  bu  süreçte  rol  alan  Brahmagupta, 
+
+Harezmî ve Abdulhamid İbn Türk’ün çalışmalarına yer verilir.  
+
+10.4.1.2. İkinci dereceden bir bilinmeyenli denklemleri çözer.  
+a)  ax2  +  bx  +  c  biçimindeki  cebirsel  ifadelerin;  tam  kare  ve  iki  kare  farkına  ait  özdeşlikler  kullanılarak 
+
+çarpanlara ayrılmasıyla ilgili uygulamalar yapılır. 
+
+b)  Denklemlerin  çözümünde  farklı  yöntemlerden  (çarpanlara  ayırma,  tam  kareye  tamamlama,  değişken 
+
+değiştirme, iki kare farkı, diskriminant) yararlanılır. 
+
+c) Gerçek hayat problemlerine yer verilir.  
+
+10.4.1.3. Bir karmaşık sayının a+ib (a,b
+
+) biçiminde ifade edildiğini açıklar. 
+
+a)Diskriminantın  sıfırdan  küçük  olduğu  durumlarda  ikinci  dereceden  bir  bilinmeyenli  denklemlerin 
+
+ ∈ ℝ
+
+köklerinin bulunabilmesi için gerçek sayılar kümesini kapsayan yeni bir sayı kümesi tanımlama gereği 
+
+örneklerle açıklanır. 
+
+b)  
+
+= −1 olmak üzere bir karmaşık sayı 
+
+ biçiminde gösterilir. 
+
+c) Köklerin birbirinin eşleniği olduğu belirtilir. 
+
+𝑎𝑎 + 𝑖𝑖𝑏𝑏 (𝑎𝑎, 𝑏𝑏 ∈ ℝ)
+
+2
+
+𝑖𝑖
+
+29 
+
+ 
+    
+ 
+ç) Karmaşık sayının eşleniği dışındaki özelliklere ve işlemlere girilmez. 
+
+10.4.1.4.  İkinci  dereceden  bir  bilinmeyenli  denklemin  kökleri  ile  katsayıları  arasındaki  ilişkileri 
+
+kullanarak işlemler yapar. 
+
+a) Sadece kökler toplamı ve çarpımı ile denklemin katsayıları arasındaki ilişkiler üzerinde durulur. 
+
+b) Kökleri verilen ikinci dereceden denklemi elde etme ile ilgili uygulamalara yer verilir. 
+
+GEOMETRİ 
+
+10.5. Dörtgenler ve Çokgenler 
+
+10.5.1. Çokgenler 
+
+Terimler ve Kavramlar: çokgen, düzgün çokgen, köşegen 
+
+10.5.1.1. Çokgen kavramını açıklayarak işlemler yapar. 
+
+a) İçbükey çokgenlere girilmez.  
+
+b) Düzgün çokgenler hatırlatılır, iç ve dış açılarının ölçüleri bulunur.  
+
+c) Çokgenlerin köşegenleri ile ilgili özelliklere ve alan problemlerine yer verilmez.  
+
+10.5.2. Dörtgenler ve Özellikleri 
+
+Terimler ve Kavramlar: dışbükey dörtgen, içbükey dörtgen, köşegen,  çevre, alan 
+
+Sembol ve Gösterimler: Ç(ABCD), A(ABCD) 
+
+10.5.2.1. Dörtgenin temel elemanlarını ve özelliklerini açıklayarak problemler çözer.  
+
+a) Dışbükey ve içbükey dörtgen kavramları açıklanır. (Bundan sonra dörtgen denildiğinde dış bükey 
+
+dörtgen anlaşılmalıdır.) 
+
+b) Dörtgenin iç ve dış açılarının ölçüleri toplamı bulunur.  
+
+c) Dörtgenin çevresi üzerinde durulur.  
+
+10.5.3. Özel Dörtgenler 
+
+Terimler  ve  Kavramlar:  yamuk,  ikizkenar  yamuk,  dik  yamuk,  paralelkenar,  eşkenar  dörtgen,  dikdörtgen, 
+
+kare, deltoid 
+
+10.5.3.1. Özel dörtgenlerin açı, kenar, köşegen ve alan özelliklerini açıklayarak problemler çözer.  
+
+a) Yamuk, paralelkenar, eşkenar dörtgen, dikdörtgen, kare ve deltoid arasındaki hiyerarşik ilişkilere yer 
+
+verilir.  
+
+b) Hiyerarşik ilişkiye göre her bir özel dörtgen kendi içerisinde; açı, kenar, köşegen ve alan özellikleri 
+
+bağlamında ele alınır.  
+
+c) Origami, tangram kullanılarak uygulamalar yapılır.  
+
+ç) Geleneksel mimaride kullanılan motif örneklerinde yer alan çokgen örneklerine yer verilir. 
+
+d) Bilgi ve iletişim teknolojilerinden yararlanılır. 
+
+30 
+
+ 
+ 
+ 
+ 
+ 
+ 
+10.6. Uzay Geometri 
+
+10.6.1. Katı Cisimler 
+
+Terimler ve Kavramlar: dik prizma, dik piramit, yükseklik, taban alanı, yüzey alanı, yanal alan, hacim 
+
+10.6.1.1. Dik prizmalar ve dik piramitlerin uzunluk, alan ve hacim bağıntılarını oluşturur. 
+
+a) Üçgen, dörtgen ve altıgen dik prizma/piramit ile sınırlandırılır. 
+
+b) Gerçek hayat problemlerine yer verilir. 
+
+c) Bilgi ve iletişim teknolojilerinden yararlanılır. 
+
+31 
+
+ 
+ 
+ 
+ 
+ 
+ 
+11. SINIF ALT ÖĞRENME ALANI, KONU, KAZANIM VE AÇIKLAMALARI  
+
+GEOMETRİ 
+
+11.1. Trigonometri 
+
+11.1.1. Yönlü Açılar  
+
+Terimler ve Kavramlar: yönlü açı, derece, dakika, saniye, radyan,  esas ölçü 
+
+Sembol ve Gösterimler: 
+
+11.1.1.1. Yönlü açıyı açıklar. 
+
+ ˚, ′, ′′, 𝑅𝑅
+
+11.1.1.2. Açı ölçü birimlerini açıklayarak birbiri ile ilişkilendirir. 
+
+a)  Derecenin alt birimleri olan dakika ve saniyeden bahsedilir. 
+
+b)  Derece ile radyan ilişkilendirilir, grada girilmez. 
+
+c)  Açının esas ölçüsü bulunur. 
+
+11.1.2. Trigonometrik Fonksiyonlar 
+
+Terimler ve Kavramlar: trigonometrik fonksiyon, periyot, periyodik fonksiyon 
+
+Sembol ve Gösterimler: sinx, cosx, tanx, cotx, cosecx, secx, arcsinx, arccosx, arctanx, T, f(x+T) 
+
+11.1.2.1. Trigonometrik fonksiyonları birim çember yardımıyla açıklar. 
+
+a)  Trigonometrik  fonksiyonlar  arasındaki  temel  özdeşlikler,  oluşturulan  benzer  üçgenler  yardımıyla 
+
+incelenir. 
+
+b) Trigonometrik fonksiyonların bölgelere göre işaretleri incelenir. 
+
+c)Trigonometrik fonksiyonların açı değerlerine göre sıralanmasına yer verilir. 
+
+ç) 
+
+olmak üzere 
+
+ açılarının trigonometrik değerleri
+
+ dar açısının trigonometrik değerlerinden 
+
+𝑘𝑘𝑘𝑘
+yararlanarak hesaplanır. 
+2   ± 𝜃𝜃
+
+𝑘𝑘 ∈ ℤ
+
++
+
+ θ
+
+11.1.2.2. Kosinüs teoremiyle ilgili problemler çözer.  
+
+a) Kosinüs teoremi, Pisagor teoreminden yararlanılarak elde edilir. 
+
+b) Gerçek hayat problemlerine yer verilir. 
+
+11.1.2.3. Sinüs teoremiyle ilgili problemler çözer.  
+
+ a) Sinüs teoremi, iki kenarının uzunluğu ve bu kenarlar arasındaki açının ölçüsü verilen üçgenin alanından 
+
+yararlanılarak elde edilir. 
+
+b) Sinüs teoremi çevrel çemberle ilişkilendirilmez. 
+
+c) Gerçek hayat problemlerine yer verilir. 
+
+11.1.2.4. Trigonometrik fonksiyon grafiklerini çizer. 
+
+a)  y=sinx  ve  y=cosx  fonksiyonları  dışındaki  fonksiyonların  grafik  çizimlerinde  sadece  bilgi  ve  iletişim 
+
+teknolojileri kullanılır.  
+
+b) Periyodik fonksiyon tanımı verilir, trigonometrik fonksiyonların periyodik oldukları gösterilir. 
+
+32 
+
+ 
+ 
+ 
+ 
+c) 
+
+ türündeki fonksiyonların grafikleri ve katsayılarının grafik üzerindeki etkileri 
+
+ele alınır. 
+
+𝑓𝑓(𝐴𝐴) = 𝑎𝑎. 𝑠𝑠𝑖𝑖𝑛𝑛(𝑏𝑏𝐴𝐴 +  𝑐𝑐) + 𝑘𝑘
+
+ç) Grafikleri yardımıyla trigonometrik fonksiyonların tek ya da çift fonksiyon olup olmadıkları belirlenir. 
+
+d) Sekant ve kosekant fonksiyonlarının grafiklerine yer verilmez. 
+
+11.1.2.5. Sinüs, kosinüs, tanjant fonksiyonlarının ters fonksiyonlarını açıklar. 
+
+Ters trigonometrik fonksiyonların grafiklerine yer verilmez. 
+
+11.2. Analitik Geometri 
+
+11.2.1. Doğrunun Analitik İncelenmesi 
+
+Terimler  ve  Kavramlar:  analitik  düzlem,  iki  nokta  arasındaki  uzaklık,  doğrunun  eğimi,  eğim  açısı,  iki 
+
+doğrunun paralelliği, iki doğrunun dikliği 
+
+Sembol ve Gösterimler:  
+
+⊥
+
+11.2.1.1. Analitik düzlemde iki nokta arasındaki uzaklığı veren bağıntıyı elde ederek problemler çözer. 
+
+𝐴𝐴(𝐴𝐴, 𝑦𝑦), │𝐴𝐴𝐵𝐵│, 𝑚𝑚, 𝑑𝑑1//𝑑𝑑2, 𝑑𝑑1
+
+𝑑𝑑2
+
+11.2.1.2. Bir doğru parçasını belli bir oranda (içten veya dıştan) bölen noktanın koordinatlarını hesaplar. 
+
+a) Bir doğru parçasının orta noktasının koordinatları buldurulur. 
+
+b) Bir üçgenin ağırlık merkezinin koordinatları buldurulur. 
+
+11.2.1.3. Analitik düzlemde doğruları inceleyerek işlemler yapar. 
+
+a) Bir doğrunun eğim açısı ve eğimi tanımlanır. 
+
+b) Analitik düzlemde bir doğrunun denklemi oluşturulur. 
+
+c) Eksenlere paralel ve orijinden geçen doğruların denklemleri bulunur ve bulunan denklemlerin grafikleri 
+
+yorumlanır. 
+
+ç) İki doğrunun birbirine göre durumları incelenir ve kesişen iki doğrunun kesişim noktası bulunur. 
+
+d) Bilgi ve iletişim teknolojilerinden yararlanılır. 
+
+11.2.1.4. Bir noktanın bir doğruya uzaklığını hesaplar. 
+
+Bir noktanın bir doğruya uzaklığı ve paralel iki doğru arasındaki uzaklık ile ilgili uygulamalar yapılır.    
+
+SAYILAR VE CEBİR 
+
+11.3. Fonksiyonlarda Uygulamalar 
+
+11.3.1. Fonksiyonlarla İlgili Uygulamalar 
+
+Terimler ve Kavramlar: ortalama değişim hızı 
+
+11.3.1.1. Fonksiyonun grafik ve tablo temsilini kullanarak problem çözer. 
+
+a) Grafiğin x ve y eksenlerini kestiği noktalar; fonksiyonun pozitif, negatif, artan ve azalan olduğu aralıklar; 
+
+fonksiyonun  maksimum  ve  minimum  değerleri  ve  bunların  (verilen  durum  bağlamında)  anlamları  grafik 
+
+üzerinden açıklanır. 
+
+33 
+
+ 
+ 
+ 
+ 
+ 
+b) Cebirsel ifade, grafik veya tablo ile verilen bir fonksiyonun belli bir aralıktaki ortalama değişim hızı 
+
+(kesenin eğimi ,  
+
+)  hesaplanır. 
+
+c) Fonksiyonun grafiği bilgi ve iletişim teknolojileri yardımıyla çizilir ve yorumlanır. 
+
+𝑓𝑓(𝑏𝑏)−𝑓𝑓(𝑎𝑎)
+𝑏𝑏−𝑎𝑎
+
+11.3.2. İkinci Dereceden Fonksiyonlar ve Grafikleri 
+
+Terimler ve Kavramlar: ikinci dereceden fonksiyon, tepe noktası, parabol, simetri ekseni 
+
+Sembol ve Gösterimler: 
+
+11.3.2.1. İkinci dereceden bir değişkenli fonksiyonun grafiğini çizerek yorumlar. 
+
++ 𝑘𝑘, 𝑦𝑦 = 𝑎𝑎(𝐴𝐴 − 𝐴𝐴1). (𝐴𝐴 − 𝐴𝐴2)
+
++ 𝑏𝑏𝐴𝐴 + 𝑐𝑐, 𝑦𝑦 = 𝑎𝑎(𝐴𝐴 − 𝑟𝑟)
+
+𝑦𝑦 = 𝑎𝑎𝐴𝐴
+
+2
+
+2
+
+a) Fonksiyonun grafiğinin tepe noktası, eksenleri kestiği noktalar ve simetri ekseni buldurulur. 
+
+b) Fonksiyonun grafiğinin tepe noktası ile fonksiyonun en küçük ya da en büyük değeri ilişkilendirilir. 
+
+c)  Fonksiyonun  katsayılarındaki  değişimin, 
+
+fonksiyonun  grafiği  üzerine  etkisi  bilgi  ve 
+
+iletişim 
+
+teknolojilerinden yararlanılarak yorumlanır. 
+
+ç) Biri tepe noktası olmak üzere iki noktası verilen veya biri y ekseni üzerinde olmak üzere üç noktası verilen 
+
+ikinci dereceden fonksiyon oluşturulur. 
+
+d) Bir doğru ile bir parabolün birbirine göre durumları incelenir. 
+
+11.3.2.2. İkinci dereceden fonksiyonlarla modellenebilen problemleri çözer. 
+
+11.3.3. Fonksiyonların Dönüşümleri 
+
+Terimler ve Kavramlar: öteleme, simetri, dönüşüm 
+
+11.3.3.1. Bir fonksiyonun grafiğinden, dönüşümler yardımı ile yeni fonksiyon grafikleri çizer. 
+
+a) Tek ve çift fonksiyonların grafiğinin simetri özellikleri üzerinde durulur. 
+
+b) 
+
+ dönüşümlerinin 
+
+grafikleri bilgi ve iletişim teknolojilerinden yararlanılarak verilir. 
+
+𝑦𝑦 = 𝑓𝑓(𝐴𝐴) + 𝑏𝑏, 𝑦𝑦 = 𝑓𝑓(𝐴𝐴 − 𝑎𝑎), 𝑦𝑦 = 𝑘𝑘 𝑓𝑓(𝐴𝐴), 𝑦𝑦 = 𝑓𝑓(𝑘𝑘𝐴𝐴), 𝑦𝑦 = −𝑓𝑓(𝐴𝐴), 𝑦𝑦 = 𝑓𝑓(−𝐴𝐴)
+
+11.4. Denklem ve Eşitsizlik Sistemleri 
+
+11.4.1. İkinci Dereceden İki Bilinmeyenli Denklem Sistemleri 
+
+11.4.1.1. İkinci dereceden İki bilinmeyenli denklem sistemlerinin çözüm kümesini bulur. 
+
+Bilgi ve iletişim teknolojilerinden yararlanılarak çizilen grafikler yardımıyla çözüm yorumlatılır. 
+
+11.4.2. İkinci Dereceden Bir Bilinmeyenli Eşitsizlikler ve Eşitsizlik Sistemleri 
+
+Terimler ve Kavramlar: ikinci dereceden eşitsizlikler 
+
+11.4.2.1. İkinci dereceden bir bilinmeyenli eşitsizliklerin çözüm kümesini bulur. 
+
+a)  ax  +  b  veya 
+
+ şeklindeki  ifadelerin  çarpımı  veya  bölümü  biçiminde  verilen  eşitsizliklerin 
+
+çözüm kümesi buldurulur. 
+
+𝑎𝑎𝐴𝐴
+
++ 𝑏𝑏𝐴𝐴 + 𝑐𝑐
+
+2
+
+b) Bilgi ve iletişim teknolojilerinden yararlanılarak çizilen grafikler yardımıyla çözüm yorumlatılır. 
+
+11.4.2.2. İkinci dereceden bir bilinmeyenli eşitsizlik sistemlerinin çözüm kümesini bulur. 
+
+34 
+
+ 
+ 
+ 
+ 
+ 
+GEOMETRİ 
+
+11.5. Çember ve Daire 
+
+11.5.1. Çemberin Temel Elemanları 
+
+Terimler ve Kavramlar: çember, merkez, yarıçap, çap, kiriş, teğet, kesen, yay 
+
+Sembol ve Gösterimler:  
+
+11.5.1.1. Çemberde teğet, kiriş, çap, yay ve kesen kavramlarını açıklar.  
+
+Bir çember ile bir doğrunun birbirlerine göre durumları ele alınır. 
+
+11.5.1.2. Çemberde kirişin özelliklerini göstererek işlemler yapar. 
+
+a) Bir çemberde, kirişin orta dikmesinin çemberin merkezinden geçtiği ve bir kirişin orta noktasını çemberin  
+
+merkezine birleştiren doğrunun da kirişe dik olduğu gösterilir. 
+
+b) Bir çemberde kirişlerin uzunlukları ile merkeze olan uzaklıkları arasındaki ilişki üzerinde durulur. 
+
+11.5.2. Çemberde Açılar 
+
+Terimler ve Kavramlar: merkez açı, çevre açı, teğet-kiriş açı, iç açı, dış açı 
+
+11.5.2.1. Bir çemberde merkez, çevre, iç, dış ve teğet-kiriş açıların özelliklerini kullanarak işlemler yapar. 
+
+a) Üçgenin çevrel çemberi çizdirilir. 
+
+b) Sinüs teoreminin çevrel çemberin yarıçapı ile ilişkisi üzerinde durulur. 
+
+c) Pergel-cetvelden veya bilgi ve iletişim teknolojilerinden yararlanılır. 
+
+11.5.3. Çemberde Teğet 
+
+Terimler ve Kavramlar: teğet, teğet parçası 
+
+11.5.3.1. Çemberde teğetin özelliklerini göstererek işlemler yapar. 
+
+a) Çemberin dışındaki bir noktadan çizilen teğet parçalarının uzunluklarının eşit olduğu gösterilir. 
+
+b) Üçgenin iç teğet ve dış teğet çemberleri çizilir. 
+
+c) İki çemberin ortak teğetine girilmez. 
+
+ç) Bilgi ve iletişim teknolojileri yardımıyla bir çember ve bu çembere dışındaki bir noktadan iki teğet  
+
+çizilerek dışarıda alınan noktanın sürüklenmesi suretiyle ortaya çıkan durum ele alınır. 
+
+11.5.4. Dairenin Çevresi ve Alanı 
+
+Terimler ve Kavramlar: yay uzunluğu, daire, daire dilimi  
+
+11.5.4.1. Dairenin çevre ve alan bağıntılarını oluşturur. 
+
+a) Dairenin çevresi ve alanı ile ilgili uygulamalar yapılır. 
+
+b) Daire diliminin alanı ve yay uzunluğu bağıntıları buldurularak uygulamalar yapılır. 
+
+c) Archimedes’in çalışmalarına yer verilir. 
+
+ç) Gerçek hayat problemlerine yer verilir. 
+
+35 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+11.6. Uzay Geometri 
+
+11.6.1. Katı Cisimler 
+
+Terimler ve Kavramlar: dik dairesel silindir, dik dairesel koni, küre, ana doğru, tepe noktası 
+
+11.6.1.1. Küre, dik dairesel silindir ve dik dairesel koninin alan ve hacim bağıntılarını oluşturarak 
+işlemler yapar. 
+
+a) Gerçek hayat problemlerine yer verilir. 
+
+b) Bilgi ve iletişim teknolojilerinden yararlanılır. 
+
+VERİ, SAYMA VE OLASILIK 
+
+11.7. Olasılık 
+
+11.7.1. Koşullu Olasılık 
+
+Terimler ve Kavramlar: koşullu olasılık, bağımlı olay, bağımsız olay, bileşik olay 
+
+Sembol ve Gösterimler: P(A|B), P(A∩B), P(AUB) 
+
+11.7.1.1. Koşullu olasılığı açıklayarak problemler çözer. 
+
+a)  Olasılık konusunun tarihsel gelişim sürecinden bahsedilir. 
+
+b)  Gerçek hayat problemlerine yer verilir. 
+
+11.7.1.2. Bağımlı ve bağımsız olayları açıklayarak gerçekleşme olasılıklarını hesaplar. 
+
+Gerçek hayat problemlerine yer verilir. 
+
+11.7.1.3. Bileşik olayı açıklayarak gerçekleşme olasılığını hesaplar. 
+
+a)  Ağaç şemasından yararlanılır. 
+
+b)  En fazla üç aşamalı olaylardan seçim yapılır. 
+
+c) “ve, veya” bağlaçları ile oluşturulan olayların olasılıkları hesaplatılır. 
+
+ç)  Gerçek hayat problemlerine yer verilir. 
+
+11.7.2. Deneysel ve Teorik Olasılık 
+
+Terimler ve Kavramlar: deneysel olasılık, teorik olasılık 
+
+11.7.2.1. Deneysel olasılık ile teorik olasılığı ilişkilendirir. 
+
+Bilgi ve iletişim teknolojilerinden yararlanılır. 
+
+36 
+
+ 
+ 
+ 
+ 
+ 
+ 
+12. SINIF ALT ÖĞRENME ALANI, KONU, KAZANIM VE AÇIKLAMALARI  
+
+SAYILAR VE CEBİR 
+
+12.1. Üstel ve Logaritmik Fonksiyonlar 
+
+12.1.1. Üstel Fonksiyon 
+
+Terimler ve Kavramlar: üstel fonksiyon 
+
+Sembol ve Gösterimler: 
+
+𝑥𝑥
+12.1.1.1. Üstel fonksiyonu açıklar. 
+𝑓𝑓(𝐴𝐴) = 𝑎𝑎
+
+a) Üstel fonksiyonlara neden ihtiyaç duyulduğu vurgulanmalıdır. 
+
+b) Üslü ifadeler ve bunlarla yapılan işlemlerin özellikleri hatırlatılır. 
+
+c) Üstel fonksiyonların bire bir ve örten olduğu grafik yardımıyla gösterilir. 
+ç)  a  nın  aldığı  değerlere  göre  f(x)  =  ax  fonksiyonunun  grafiğinin  değişimini  incelemek  için  bilgi  ve  iletişim 
+
+teknolojilerinden de yararlanılır. 
+
+12.1.2. Logaritma Fonksiyonu 
+
+Terimler ve Kavramlar: logaritma fonksiyonu, doğal logaritma 
+
+Sembol ve Gösterimler:  
+
+12.1.2.1. Logaritma fonksiyonu ile üstel fonksiyonu ilişkilendirerek problemler çözer. 
+𝑙𝑙𝑛𝑛 𝐴𝐴,  𝑒𝑒, 𝑒𝑒
+
+𝑙𝑙𝑜𝑜𝑔𝑔 𝐴𝐴, 𝑙𝑙𝑜𝑜𝑔𝑔𝑎𝑎 𝐴𝐴,
+
+𝑥𝑥
+
+a) 
+
+{1} olmak üzere logaritma fonksiyonunun grafiği üstel fonksiyonun grafiğinden yararlanarak 
+
+çizilir.  
+
+𝑎𝑎 ∈ ℝ
+
++
+
+−
+
+ve
+
+ fonksiyonlarının grafiklerinin y=x doğrusuna göre simetrik olduğu belirtilir. 
+
+𝑥𝑥
+{1} olmak üzere 
+  𝑦𝑦 = 𝑙𝑙𝑜𝑜𝑔𝑔𝑎𝑎 𝐴𝐴 
+
+b) 
+
+𝑦𝑦 = 𝑎𝑎
++
+fonksiyon, 
+𝑎𝑎 ∈ ℝ
+
+−
+
+ için azalan fonksiyon olduğu verilir. a nın aldığı değerlere göre logaritma 
+
+→ ℝ , 𝑓𝑓(𝐴𝐴) =   𝑙𝑙𝑜𝑜𝑔𝑔𝑎𝑎 𝐴𝐴 
+
+𝑎𝑎 > 1
+
+𝑓𝑓: ℝ
+
++
+
+ logaritma fonksiyonunun 
+
+ için artan 
+
+fonksiyonunun grafiğinin değişimini incelemek için bilgi ve iletişim teknolojilerinden yararlanılır. 
+
+0  < 𝑎𝑎 < 1
+
+c)  Gelenbevi İsmail Efendi ve John Napier’in çalışmalarına yer verilir. 
+
+12.1.2.2.  10 ve e tabanında logaritma fonksiyonunu tanımlayarak problemler çözer. 
+
+e sayısının irrasyonel olduğu vurgulanarak matematikte ve diğer bilim dallarında kullanımından bahsedilir. 
+
+12.1.2.3. Logaritma fonksiyonunun özelliklerini kullanarak işlemler yapar. 
+
+12.1.3. Üstel, Logaritmik Denklemler ve Eşitsizlikler 
+
+Terimler ve Kavramlar: üstel denklem, logaritmik denklem 
+
+12.1.3.1. Üstel, logaritmik denklemlerin ve eşitsizliklerin çözüm kümelerini bulur. 
+
+12.1.3.2. Üstel ve logaritmik fonksiyonları gerçek hayat durumlarını modellemede kullanır. 
+
+a) Gerçek hayat durumlarından nüfus artışı, bakteri popülasyonu, radyoaktif maddelerin bozunumu (yarı 
+
+ömür), fosil yaşlarının tayini, deprem şiddeti (Richter ölçeği), pH değeri, ses şiddeti (desibel) gibi örneklere 
+
+yer verilir. 
+
+b) İsraf ve tasarruf kavramları hakkında farkındalık oluşturacak örneklere yer verilir. 
+
+c) Bilgi ve iletişim teknolojilerinden yararlanılır. 
+
+37 
+
+ 
+ 
+ 
+ 
+                           
+ 
+ 
+12.2. Diziler 
+
+12.2.1. Gerçek Sayı Dizileri 
+
+Terimler ve Kavramlar: dizi, sonlu dizi, sabit dizi, aritmetik dizi, geometrik dizi, Fibonacci dizisi 
+
+Sembol ve Gösterimler:  (an), Σ, Sn 
+
+12.2.1.1. Dizi kavramını fonksiyon kavramıyla ilişkilendirerek açıklar. 
+
+Sonlu dizi, sabit dizi ve dizilerin eşitliği verilir. 
+
+12.2.1.2. Genel terimi veya indirgeme bağıntısı verilen bir sayı dizisinin terimlerini bulur. 
+
+12.2.1.3. Aritmetik ve geometrik dizilerin özelliklerini kullanarak işlemler yapar. 
+
+a)  İlk n terim toplamı bulunur. 
+
+b) Toplam sembolü tanıtılır ancak özellikleri verilmez. 
+
+12.2.1.4. Diziler yardımıyla gerçek hayat durumları ile ilgili problemler çözer. 
+
+Aritmetik, geometrik ve Fibonacci dizilerine doğadan, çeşitli sanat dallarından örnekler verilir. 
+
+GEOMETRİ 
+
+12.3. Trigonometri    
+
+12.3.1. Toplam-Fark ve İki kat Açı Formülleri 
+
+12.3.1.1. İki açının ölçüleri toplamının ve farkının trigonometrik değerlerine ait formülleri oluşturarak 
+
+işlemler yapar. 
+
+Dönüşüm ve ters dönüşüm formülleri verilmez. 
+
+12.3.1.2.  İki kat açı formüllerini oluşturarak işlemler yapar. 
+
+12.3.2. Trigonometrik Denklemler 
+
+Terimler ve Kavramlar: trigonometrik denklem 
+
+12.3.2.1. Trigonometrik denklemlerin çözüm kümelerini bulur. 
+
+a) 
+
+ olmak  üzere 
+
+ biçimindeki  trigonometrik  denklemlerin  kökleri 
+
+buldurulur; a, b ve c katsayıları ile çözüm ilişkilendirilir. 
+
+𝑎𝑎 𝑠𝑠𝑖𝑖𝑛𝑛𝑓𝑓(𝐴𝐴) + 𝑏𝑏 𝑐𝑐𝑜𝑜𝑠𝑠 𝑔𝑔(𝐴𝐴) = 𝑐𝑐
+
+𝑎𝑎, 𝑏𝑏, 𝑐𝑐  ∈ ℝ
+
+b) Gerçek hayat problemlerine yer verilir. 
+
+c) El Battani’nin çalışmalarına yer verilir. 
+
+12.4. Dönüşümler 
+
+12.4.1. Analitik Düzlemde Temel Dönüşümler 
+
+Terimler ve Kavramlar: dönüşüm, öteleme, dönme, dönme merkezi, dönme açısı, simetri, simetri merkezi, 
+
+simetri ekseni 
+
+12.4.1.1. Analitik düzlemde koordinatları verilen bir noktanın öteleme, dönme ve simetri dönüşümleri 
+
+altındaki görüntüsünün koordinatlarını bulur. 
+
+a) Öteleme, simetri ve dönme kavramları hatırlatılır. 
+
+38 
+
+ 
+ 
+ 
+ 
+b)  Noktanın;  noktaya,  eksenlere,  y=x  doğrusuna,  bir  doğruya  göre  simetrileri  ve  doğrunun  noktaya  göre 
+
+simetrileri vurgulanır. Doğrunun doğruya göre simetrilerine yer verilmez. 
+
+c) Bilgi ve iletişim teknolojileri yardımıyla öteleme, simetri ve dönme ele alınır. 
+
+12.4.1.2. Temel dönüşümler ve bileşkeleriyle ilgili problem çözer. 
+
+a) Modelleme çalışmalarına yer verilir. 
+
+b) Doğadan ve mimari eserlerden örneklendirme yapılır. 
+
+SAYILAR VE CEBİR 
+
+12.5. Türev 
+
+12.5.1. Limit ve Süreklilik 
+
+Terimler ve Kavramlar: bir noktada limit, sağdan limit, soldan limit, süreklilik 
+
+Sembol ve Gösterimler:  
+
+12.5.1.1. Bir fonksiyonun bir noktadaki limiti, soldan limit ve sağdan limit kavramlarını açıklar. 
+
+lim       𝑓𝑓(𝐴𝐴) ,
++
+𝐴𝐴 → 𝑎𝑎
+
+  lim       𝑓𝑓(𝐴𝐴),    lim    𝑓𝑓(𝐴𝐴) 
+𝐴𝐴 → 𝑎𝑎
+
+𝐴𝐴 → 𝑎𝑎
+
+−
+
+a)  Limit  kavramı  bir  bağımsız  değişkenin  verilen  bir  sayıya  yaklaşmasından  hareketle,  tablo  ve  grafikler 
+
+yardımıyla açıklanır.  
+
+b) Bilgi ve iletişim teknolojilerinden yararlanılır. 
+
+c) Cauchy’nin çalışmalarına yer verilir. 
+
+12.5.1.2. Limit ile ilgili özellikleri belirterek uygulamalar yapar. 
+
+a)  Polinom,  köklü,  üstel,  logaritmik  ve  trigonometrik  fonksiyonlar  içeren  limit  uygulamaları  yapılır  ancak 
+
+sonucu ± ∞ olan limit durumlarına girilmez. 
+
+b) Sadece pay ve paydası çarpanlarına ayrılarak belirsizliğin kaldırılabileceği limit örneklerine yer verilir. 
+
+12.5.1.3. Bir fonksiyonun bir noktadaki sürekliliğini açıklar. 
+
+a) Fonksiyonun grafiği üzerinde sürekli ve süreksiz olduğu noktalar buldurulur. 
+
+b) Limitin tarihsel gelişiminden ve Salih Zeki’nin bu alana katkılarından bahsedilir. 
+
+c) Bilgi ve iletişim teknolojileri yardımıyla süreklilik uygulamaları yaptırılır. 
+
+12.5.2. Anlık Değişim Oranı ve Türev 
+
+Terimler ve Kavramlar: anlık değişim oranı, teğetin eğimi, türev, sağdan türev, soldan türev 
+
+Sembol ve Gösterimler:  
+
+′
+12.5.2.1. Türev kavramını açıklayarak işlemler yapar. 
+(𝑎𝑎
+
+(𝐴𝐴), 𝑓𝑓
+
+(𝐴𝐴),
+
+ , 𝑓𝑓
+
+𝑑𝑑𝑥𝑥
+
+𝑓𝑓
+
+′′
+
+′
+
++
+
+′
+
+−
+
+), 𝑓𝑓
+
+(𝑎𝑎
+
+)  
+
+𝑑𝑑𝑠𝑠
+𝑑𝑑𝑥𝑥    ,
+
+2
+
+𝑑𝑑
+
+𝑠𝑠
+2
+
+a) Anlık değişim oranı fizik ve geometri modellerinden yararlanılarak açıklanır. 
+
+b)  Verilen  bir  fonksiyonun  bir  noktadaki  türev  değeri  ile  o  noktadaki  teğetinin  eğimi  arasındaki  ilişki 
+
+üzerinde durulur. 
+
+c) Bir fonksiyonun bir noktadaki soldan türevi ve sağdan türevi ile türev arasındaki ilişki açıklanır.  
+
+39 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+             
+ 
+          
+ 
+ 
+ 
+ 
+ç) f(x) = c, 
+
+şeklindeki fonksiyonlar için türev kuralları verilir. Bunun dışındaki 
+
+fonksiyonların (kapalı ve parametrik fonksiyonlar dâhil) türev kurallarına yer verilmez. 
+
+𝑓𝑓(𝐴𝐴) = 𝑎𝑎𝐴𝐴
+
+ (𝑎𝑎, 𝑐𝑐 ∈ ℝ, 𝑛𝑛 ∈ ℚ) 
+
+𝑛𝑛
+
+d) Rolle’nin çalışmalarına yer verilir. 
+
+12.5.2.2. Bir fonksiyonun bir noktada ve bir aralıkta türevlenebilirliğini değerlendirir. 
+
+a) Bir fonksiyonun bir noktada türevli olması için gerek ve yeter şartları inceler. 
+
+b) Fonksiyonun türevli olmadığı noktalarla grafiği arasında ilişki kurulur. 
+
+12.5.2.3. Türevlenebilen iki fonksiyonun toplamı, farkı, çarpımı ve bölümünün türevine ait kurallar 
+
+yardımıyla işlemler yapar. 
+
+12.5.2.4. İki fonksiyonun bileşkesinin türevine ait kuralı (zincir kuralı) oluşturularak türev hesabı yapar. 
+
+12.5.3. Türevin Uygulamaları 
+
+Terimler  ve  Kavramlar:  kritik  nokta,  ekstremum  nokta,  mutlak  maksimum,  mutlak  minimum,  yerel 
+
+maksimum, yerel minimum 
+
+12.5.3.1. Bir fonksiyonun artan veya azalan olduğu aralıkları türev yardımıyla belirler. 
+
+12.5.3.2.  Bir  fonksiyonun  mutlak  maksimum  ve  mutlak  minimum,  yerel  maksimum,  yerel  minimum 
+
+noktalarını belirler. 
+
+Bilgi ve iletişim teknolojilerinden yararlanılarak grafik çizimine yer verilir ve yorumlanır. 
+
+12.5.3.3. Türevi yardımıyla bir fonksiyonun grafiğini çizer. 
+
+a)Grafik çizimleri polinom fonksiyonlarla sınırlandırılır. 
+
+b) Bilgi ve iletişim teknolojilerinden yararlanılır. 
+
+12.5.3.4. Maksimum ve minimum problemlerini türev yardımıyla çözer. 
+
+Gerçek hayat problemlerine yer verilir. 
+
+12.6. İntegral 
+
+12.6.1. Belirsiz İntegral 
+
+Terimler ve Kavramlar: ters türev, belirsiz integral, integral sabiti 
+
+Sembol ve Gösterimler: 
+
+12.6.1.1. Bir fonksiyonun belirsiz integralini açıklayarak integral alma kurallarını oluşturur.   
+
+∫ 𝑓𝑓(𝐴𝐴)𝑑𝑑𝐴𝐴, 𝑐𝑐
+
+a) Belirsiz integral alma kuralları n≠ -1 olmak üzere 
+
+ şeklindeki 
+
+fonksiyonlarla sınırlandırılır. 
+
+𝑛𝑛
+
+𝑓𝑓(𝐴𝐴) = 𝑎𝑎𝐴𝐴
+
+ (𝑎𝑎, 𝑐𝑐 ∈ ℝ, 𝑛𝑛 ∈ ℚ)  
+
+b)  Bir  fonksiyonun  bir  sabitle  çarpımının,  iki  fonksiyonun  toplamının  ve  farkının  integral  alma  kuralları 
+
+verilerek uygulamalar yaptırılır. 
+
+12.6.1.2.  Değişken değiştirme yoluyla integral alma işlemleri yapar. 
+
+40 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+12.6.2. Belirli İntegral ve Uygulamaları 
+
+Terimler ve Kavramlar: Riemann toplamı, belirli integral 
+
+Sembol ve Gösterimler: 
+
+12.6.2.1. Bir fonksiyonun grafiği ile x ekseni arasında kalan sınırlı bölgenin alanını Riemann toplamı 
+
+𝑏𝑏
+∫ 𝑓𝑓(𝐴𝐴)𝑑𝑑𝐴𝐴
+𝑎𝑎
+
+yardımıyla yaklaşık olarak hesaplar. 
+
+a) Gerçek hayatta karşılaşılan ve değeri alan formülleriyle hesaplanamayan alanların, uygun toplamların 
+
+limiti olarak ifade edilebileceği açıklanır. 
+
+b) Polinom fonksiyonlarla sınırlandırılır. 
+
+c) Bilgi ve iletişim teknolojilerinden yararlanılır. 
+
+12.6.2.2. Bir fonksiyonun belirli ve belirsiz integralleri arasındaki ilişkiyi açıklayarak işlemler yapar. 
+
+12.6.2.3. Belirli integralin özelliklerini kullanarak işlemler yapar. 
+
+Parçalı fonksiyonların belirli integraline yer verilir. 
+
+12.6.2.4. Belirli integral ile alan hesabı yapar. 
+
+a) İki fonksiyonun grafikleri arasında kalan sınırlı bölgenin alanı hesaplanır. 
+
+b) Gerçek hayat problemlerine yer verilir. 
+
+c) Bilgi ve iletişim teknolojilerinden yararlanılır. 
+
+GEOMETRİ 
+
+12.7. Analitik Geometri 
+
+12.7.1. Çemberin Analitik İncelenmesi 
+
+Terimler ve Kavramlar: çemberin genel denklemi, çemberin standart denklemi 
+
+Sembol ve Gösterimler:   
+
+2
+12.7.1.1. Merkezi ve yarıçapı verilen çemberin denklemini oluşturur. 
+
+2
+
+2
+
+2
+
+2
+
++ (𝑦𝑦 − 𝑏𝑏)
+
+(𝐴𝐴 − 𝑎𝑎)
+ yarıçaplı  çemberin  standart  denklemi 
+
++ 𝑦𝑦
+
+= 𝑟𝑟
+
+, 𝐴𝐴
+
++ 𝐷𝐷𝐴𝐴 + 𝐸𝐸𝑦𝑦 + 𝐹𝐹 = 0
+
+a)
+
+ merkezli  ve
+
+ yardımıyla 
+
+çemberin genel denklemi   
+ 𝑟𝑟
+
+𝑀𝑀(𝑎𝑎, 𝑏𝑏)
+
+2
+   şeklinde elde edilir. 
+(𝐴𝐴 − 𝑎𝑎)
+
+2
+
+2
+
++ (𝑦𝑦 − 𝑏𝑏)
+
+= 𝑟𝑟
+
+b) 
+
+2
+
+2
+
+𝐴𝐴
+
++ 𝑦𝑦
+
+ denkleminin hangi durumlarda çember oluşturduğu gösterilir. 
++ 𝐷𝐷𝐴𝐴 + 𝐸𝐸𝑦𝑦 + 𝐹𝐹 = 0
+
+2
+
+2
+
+c) Bilgi ve iletişim teknolojilerinden yararlanılır. 
++ 𝐷𝐷𝐴𝐴 + 𝐸𝐸𝑦𝑦 + 𝐹𝐹 = 0
+
++ 𝐵𝐵𝑦𝑦
+
+𝐴𝐴𝐴𝐴
+
+12.7.1.2. Denklemleri verilen doğru ile çemberin birbirine göre durumlarını belirleyerek işlemler yapar. 
+
+a) Doğru ile çemberin varsa kesişim noktaları bulunur. 
+
+b) Bilgi ve iletişim teknolojilerinden yararlanılır. 
+
+41 
+
+ 
+ 
+ 
+ 
+ 
+ 
+                   
+ 
+ 
+ 
+ORTAÖĞRETİM 11 VE 12. SINIFLAR TEMEL DÜZEY 
+
+MATEMATİK DERSİ ÖĞRETİM PROGRAMI 
+
+42 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+11  ve  12.  sınıflar  matematik  dersi  temel  düzey  öğretim  programı,  öğrencilerin  okul  sonrasında 
+
+matematik  dersinden  günlük  yaşantılarında  ve 
+
+iş  hayatlarında  aktif  olarak  yararlanabilmelerini, 
+
+kararlarında  matematiği  iyi  bir  analiz  aracı  olarak  kullanabilmelerini  amaçlamaktadır.  Bu  kapsamda 
+
+öğrencilerin  9  ve  10.  sınıflarda  öğrendikleri  bazı  kavram  ve  ilişkiler,  gerçek  hayat  temelli  problemler 
+
+aracılığı  ile  ele  alınmaktadır.  Bu  yolla  bir  üst  öğrenim  seviyesinde  matematik  ağırlıklı  bir  program  tercih 
+
+etmeyen  öğrencilerin,  gerçek  hayatta  karşılaştıkları  problemlerin  üstesinden  daha  etkili  bir  şekilde 
+
+gelmeleri  öngörülmektedir.  Öğrencilerin  problem  çözme  becerilerinin  geliştirilmesi,  programın  temel 
+
+hedeflerindendir. Arzulanan bu amaçlara ulaşılabilmesi için aşağıdaki hususlar dikkate alınmalıdır: 
+
+1.   Öğrenciler  günlük  hayatla  ilişkili  problem  durumları  ile  karşı  karşıya  bırakılmalı,  onlara  bunların 
+
+üstesinden gelmenin yolları öğretilmelidir. 
+
+2.   Tasarlanan  gerçek  hayat  problemleri,  öğrencilerde  akıl  yürütme  ve  karar  vermelerini  gerektirecek 
+
+durumlar barındırmalıdır. 
+
+3.   Problemler  öğrencilerin  kültürel  çevrelerine  uygun,  ailelerini  ve  yakın  çevrelerini  içine  alan  gerçek 
+
+hayat durumları ile ilişkilendirilmelidir. 
+
+4.   Derslerde,  hayattaki  olaylardan  ve  problemlerden  başlanmalı,  öğrencilerin  bazı  konu  ve  kavramları 
+
+öğrenmelerine dair bir ihtiyaç hissetmeleri sağlanmalıdır. Bu çerçevede ilgili kavramlar, problemin çözüm 
+
+sürecinde irdelenmelidir. 
+
+Proje tabanlı öğrenme yaklaşımı aracılığı ile öğrencilerin verileri toplamaları, düzenlemeleri, analiz 
+
+etmeleri ve elde ettikleri sonuçları sınıfta sunmaları sağlanmalıdır. 
+
+43 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+11.  SINIF  TEMEL  DÜZEY  ALT  ÖĞRENME  ALANI,  KONU,  KAZANIM  VE 
+
+AÇIKLAMALARI  
+
+TD.11.1. Sayılar 
+
+TD.11.1.1. Sayı Kümeleri 
+
+SAYILAR VE CEBİR 
+
+TD.11.1.1.1. Sayı kümelerini birbiriyle ilişkilendirir. 
+
+TD.11.1.1.2. Doğal sayıların çözümlenmesi ile ilgili problemler çözer. 
+
+TD.11.1.1.3. Eşit miktarda artarak devam eden sınırlı sayıdaki doğal sayıların toplamını bulur. 
+
+TD.11.1.2. Bölünebilme  
+
+TD.11.1.2.1. Tam sayılarda bölünebilme kurallarıyla ilgili işlemler yapar.  
+
+2, 3, 4, 5, 8, 9, 10, 11 ile bu sayılardan elde edilen 6, 12, 15 vb. sayıların bölünebilme kuralları verilir.  
+
+TD.11.1.2.2. Bir tamsayının pozitif tamsayı bölenlerinin sayısını bulur. 
+
+Asal sayılar ve asal çarpanlara ayırma vurgulanır. 
+
+GEOMETRİ 
+
+TD.11.2. Üçgenler 
+
+TD.11.2.1. Dik Üçgen 
+
+TD.11.2.1.1. Dik üçgenlerle ilgili problemler çözer. 
+
+Gerçek hayat problemlerine yer verilir. 
+
+TD.11.2.1.2. Dik üçgende trigonometrik oranlarla ilgili problemler çözer. 
+
+ Gerçek hayat problemlerine yer verilir. 
+
+TD.11.2.1.3. Üçgenlerin benzerliğiyle ilgili problemler çözer. 
+
+Gerçek hayat problemlerine yer verilir. 
+
+TD.11.3. Denklem ve Eşitsizlikler 
+
+TD.11.3.1. Birinci Dereceden Denklem ve Eşitsizlikler 
+
+SAYILAR VE CEBİR 
+
+TD.11.3.1.1. Birinci dereceden bir veya iki bilinmeyenli denklemlerle ilgili problemler çözer. 
+
+Gerçek hayat problemlerine yer verilir. 
+
+TD.11.3.1.2. Birinci dereceden bir bilinmeyenli eşitsizliklerle ilgili problemler çözer. 
+
+Gerçek hayat problemlerine yer verilir. 
+
+TD.11.3.2. Bilinçli Tüketici Aritmetiği 
+
+TD.11.3.2.1. Gelir-giderleri göz önüne alarak birey, aile ve kurum bütçesi oluşturur. 
+
+Gelirler ve giderler dikkate alınarak birey, aile, kurum veya bir projenin bütçesi yapılır. 
+
+44 
+
+ 
+ 
+ 
+ 
+TD.11.3.2.2. Seyahatlerde mümkün olan alternatifleri karşılaştırır. 
+
+a) Seyahatin yaklaşık maliyet analizi yaptırılır. 
+
+b) Gidilecek yere ilişkin bir zaman çizelgesi yaptırılır. 
+
+GEOMETRİ 
+
+TD.11.4. Çember ve Daire 
+
+TD.11.4.1. Çemberin Temel Elemanları 
+
+TD.11.4.1.1. Çemberin temel elemanlarını tanır. 
+
+Çap, yay, teğet, kiriş, kavramları verilir ancak bu kavramların özelliklerine girilmez. 
+
+TD.11.4.2. Çemberde Açılar 
+
+TD.11.4.2.1. Çemberlerde açıların özelliklerini kullanarak işlemler yapar. 
+
+Sadece merkez ve çevre açı verilir. 
+
+TD.11.4.3. Dairenin Çevresi ve Alanı 
+
+TD.11.4.3.1. Dairenin çevre ve alan bağıntılarını oluşturur. 
+
+a) Dairenin çevresi ve alanı ile ilgili işlemler yapar. 
+
+b) Daire diliminin alanı ve yay uzunluğu bağıntıları verilir.  
+
+45 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+12.  SINIF  TEMEL  DÜZEY  ALT  ÖĞRENME  ALANI,  KONU,  KAZANIM  VE 
+
+AÇIKLAMALARI  
+
+SAYILAR VE CEBİR 
+
+TD.12.1. Denklem ve Eşitsizlikler 
+
+TD.12.1.1. Üslü ve Köklü İfadeler 
+
+TD.12.1.1.1. Üslü ve köklü ifadeler içeren denklemler çözer. 
+
+a) Üslü ve köklü ifadelerin özellikleri hatırlatılır.  
+
+b) Gerçek hayat problemlerine yer verilir. 
+
+TD.12.1.2. Bilinçli Tüketici Aritmetiği 
+
+TD.12.1.2.1. Yüzde, oran ve orantı kavramlarıyla ilgili problemler çözer. 
+
+a) Yüzde hesaplamalarında aşağıda verilen bağlamlardan yararlanılabilir: 
+
+• Zamanında ödemeleri yapılmadığında gecikme bedeli ödenmesi gereken durumlar, 
+
+• Bir malın alış fiyatı üzerine KDV, ÖTV ve kâr eklenmesi; belli bir satış fiyatı üzerinden indirim yapılması 
+
+gibi gerçek hayat durumları, 
+
+• Vade farkı, enflasyon gibi bireyin günlük yaşantısında sıklıkla karşılaştığı kavramlar, 
+
+• Yatırımların getirilerine yönelik veriler toplatılması ve yatırımlar içerisinde en iyi olanın belirlenmesi. 
+
+b) Oran ve orantı kavramlarını içeren problemler oluşturulurken aşağıda verilen bağlamlardan 
+
+yararlanılabilir: 
+
+• Farklı ürünlerin birim fiyatlarını karşılaştırma, 
+
+• Farklı para birimlerini birbirine çevirme, 
+
+• Farklı sayıda kişiler için hazırlanacak yemek için, kullanılması gereken malzeme miktarı, 
+
+• Araç kullanımı ile yakıt tüketimi arasındaki ilişkileri inceleme, 
+
+• Dakikaya/pakete bağlı telefon ücretleri gibi durumlar.  
+
+c) Tutumlu olma hakkında farkındalık oluşturacak örneklere yer verilir. 
+
+ç) Bilgi ve iletişim teknolojilerinden yararlanılır. 
+
+VERİ, SAYMA VE OLASILIK 
+
+TD.12.2. Veri  
+
+TD. 12.2.1 Veri Analizi 
+
+TD.12.2.1.1. Gerçek hayat durumlarıyla ilgili istatistik problemleri çözer. 
+
+a) Veri toplama, düzenleme, temsil etme ve yorumlama aşamalarına yer verilir.  
+
+b)  Bir  veri  grubunu  temsil  edecek  en  uygun  grafik  çeşidi  üzerinde  durulur.  Farklı  grafik  çeşitlerinin 
+
+kullanımıyla ilgili uygulamalar yaptırılır. 
+
+c) Problemler seçilirken toplumsal duyarlılığı geliştirebilecek çevre bilinci, okuma alışkanlıkları gibi konulara 
+
+da yer verilir. 
+
+46 
+
+ 
+ 
+ 
+ç) Bilgi ve iletişim teknolojilerinden yararlanılır. 
+
+TD.12.3. Ölçme 
+
+TD.12.3.1. Çevre, Alan ve Hacim Ölçme 
+
+GEOMETRİ 
+
+TD.12.3.1.1. Çevre, alan ve hacim ölçmeye yönelik problemler çözer.  
+
+a)  Bir  nesnenin  belli  bir  oranda  büyütülmüş  ya  da  küçültülmüş  çizimini  kullanarak,  mesafesi,  çevre 
+
+uzunluğu, alanı ve hacmi buldurulur. 
+
+b) Bir nesnenin belli bir oranda büyütülmüş veya küçültülmüş çizimleri, ölçekli kâğıt üzerine çizdirilir.  
+
+c) Bilgi ve iletişim teknolojilerinden yararlanılır. 
+
+TD.12.4. Katı Cisimler 
+
+TD.12.4.1. Küre ve Silindir 
+
+TD.12.4.1.1. Küre ve dik dairesel silindirin alan ve hacim ölçmeye yönelik problemler çözer. 
+
+a) Gerçek hayat problemlerine yer verilir. 
+
+b) Bilgi ve iletişim teknolojilerinden yararlanılır. 
+
+47 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+48 
+
+ 
+ 
+ 
+

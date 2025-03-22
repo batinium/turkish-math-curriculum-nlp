@@ -1,0 +1,1080 @@
+section,item,text,curriculum_type,curriculum_name
+9.2.1.1. Kümeler ile ilgili temel kavramları hatırlatılır.,a),Kümelerle ilgili gerçek hayattan örneklere yer verilir.,numeric-based,math_curriculum_2018
+9.1.1.3. Koşullu önermeyi ve iki yönlü koşullu önermeyi açıklar.,a),"Koşullu önermenin karşıtı, tersi, karşıt tersi verilir.",numeric-based,math_curriculum_2018
+9.1.1.3. Koşullu önermeyi ve iki yönlü koşullu önermeyi açıklar.,b),olduğu doğruluk tablosu yardımıyla gösterilir.,numeric-based,math_curriculum_2018
+9.1.1.3. Koşullu önermeyi ve iki yönlü koşullu önermeyi açıklar.,c),"‘‘ ve, veya, ya da, ise’’ bağlaçları kullanılarak verilen,  en fazla üç önerme içeren ve en fazla dört bileşenli",numeric-based,math_curriculum_2018
+9.2.1.1. Kümeler ile ilgili temel kavramlar hatırlatılır.,a),Kümelerle ilgili gerçek hayattan örneklere yer verilir.,numeric-based,math_curriculum_2018
+9.2.1.1. Kümeler ile ilgili temel kavramlar hatırlatılır.,b),Kümelerin farklı gösterimlerine yer verilir.,numeric-based,math_curriculum_2018
+9.2.1.1. Kümeler ile ilgili temel kavramlar hatırlatılır.,c),Cantor’un çalışmalarına yer verilir.,numeric-based,math_curriculum_2018
+9.2.1.2. Alt kümeyi kullanarak işlemler yapar.,a),Alt küme kavramı ve özellikleri ele alınır.,numeric-based,math_curriculum_2018
+9.2.1.2. Alt kümeyi kullanarak işlemler yapar.,b),Alt küme kavramıyla ilgili gerçek hayattan örneklere yer verilir.,numeric-based,math_curriculum_2018
+9.2.1.2. Alt kümeyi kullanarak işlemler yapar.,c),Kombinasyon gerektiren problemlere girilmez.,numeric-based,math_curriculum_2018
+9.2.1.3. İki kümenin eşitliğini kullanarak işlemler yapar.,a),İki kümenin eşitliği kavramı alt küme ile ilişkilendirilir.,numeric-based,math_curriculum_2018
+9.2.1.3. İki kümenin eşitliğini kullanarak işlemler yapar.,b),Denk küme kavramı verilmez.,numeric-based,math_curriculum_2018
+"9.2.2.1. Kümelerde birleşim, kesişim, fark, tümleme işlemleri yardımıyla problemler çözer.",a),"Kümelerin birleşim, kesişim, fark ve tümleme işlemlerinin özellikleri verilir.",numeric-based,math_curriculum_2018
+"9.2.2.1. Kümelerde birleşim, kesişim, fark, tümleme işlemleri yardımıyla problemler çözer.",b),Ayrık küme kavramına yer verilir.,numeric-based,math_curriculum_2018
+"9.2.2.1. Kümelerde birleşim, kesişim, fark, tümleme işlemleri yardımıyla problemler çözer.",c),En fazla üç kümenin birleşiminin eleman sayısını veren ilişkiler üzerinde durulur.,numeric-based,math_curriculum_2018
+"9.2.2.1. Kümelerde birleşim, kesişim, fark, tümleme işlemleri yardımıyla problemler çözer.",d),Gerçek hayat problemlerine yer verilir.,numeric-based,math_curriculum_2018
+9.2.2.2. İki kümenin kartezyen çarpımıyla ilgili işlemler yapar.,a),Sıralı ikili ve sıralı ikililerin eşitliği örneklerle açıklanır.,numeric-based,math_curriculum_2018
+9.2.2.2. İki kümenin kartezyen çarpımıyla ilgili işlemler yapar.,b),Kartezyen çarpımın eleman sayısı buldurulur.,numeric-based,math_curriculum_2018
+9.2.2.2. İki kümenin kartezyen çarpımıyla ilgili işlemler yapar.,c),Sadece sonlu sayıda elemanı olan kümelerin kartezyen çarpımlarının grafik çizimi yapılır.,numeric-based,math_curriculum_2018
+9.2.2.2. İki kümenin kartezyen çarpımıyla ilgili işlemler yapar.,l),sayılar,numeric-based,math_curriculum_2018
+9.3.1.1. Sayı kümelerini birbiriyle ilişkilendirir.,a),"Doğal sayı, tam sayı, rasyonel sayı, irrasyonel sayı ve gerçek sayı kümelerinin sembolleri tanıtılarak bu",numeric-based,math_curriculum_2018
+9.3.1.1. Sayı kümelerini birbiriyle ilişkilendirir.,b),gibi sayıların sayı doğrusundaki yeri belirlenir.,numeric-based,math_curriculum_2018
+9.3.1.1. Sayı kümelerini birbiriyle ilişkilendirir.,c),Gerçek sayılar kümesinde toplama ve çarpma işlemlerinin özellikleri üzerinde durulur.,numeric-based,math_curriculum_2018
+9.3.2.2. Tam sayılarda EBOB ve EKOK ile ilgili uygulamalar yapar.,a),Gerçek hayat problemlerine yer verilir.,numeric-based,math_curriculum_2018
+9.3.2.2. Tam sayılarda EBOB ve EKOK ile ilgili uygulamalar yapar.,b),Elektronik tablolarda bulunan EBOB ve EKOK fonksiyonlarından yararlanılır.,numeric-based,math_curriculum_2018
+9.3.3.1. Gerçek sayılar kümesinde aralık kavramını açıklar.,a),"Açık, kapalı ve yarı açık aralık kavramları ile bunların gösterimleri üzerinde durulur.",numeric-based,math_curriculum_2018
+9.3.3.1. Gerçek sayılar kümesinde aralık kavramını açıklar.,b),Aralıkların kartezyen çarpımlarına yer verilmez.,numeric-based,math_curriculum_2018
+9.3.3.2. Birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm kümelerini bulur.,a),Birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözümü hatırlatılır.,numeric-based,math_curriculum_2018
+9.3.3.2. Birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm kümelerini bulur.,b),Harezmî’nin denklemler konusundaki çalışmalarına yer verilir.,numeric-based,math_curriculum_2018
+9.3.3.3. Mutlak değer içeren birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm,a),Bir gerçek sayının mutlak değeri hatırlatılarak mutlak değer özellikleri verilir. (,numeric-based,math_curriculum_2018
+9.3.3.3. Mutlak değer içeren birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm,b),İkiden çok mutlak değer içeren denklem ve eşitsizliklere girilmez.,numeric-based,math_curriculum_2018
+9.3.3.4. Birinci dereceden iki bilinmeyenli denklem ve eşitsizlik sistemlerinin çözüm kümelerini bulur.,a),"Birinci dereceden iki bilinmeyenli denklem sistemlerinin çözüm kümeleri bulunurken yerine koyma, yok",numeric-based,math_curriculum_2018
+9.3.3.4. Birinci dereceden iki bilinmeyenli denklem ve eşitsizlik sistemlerinin çözüm kümelerini bulur.,b),"Birinci dereceden iki bilinmeyenli denklem ve eşitsizlik sistemlerinin çözümü, analitik düzlemde gösterilir.",numeric-based,math_curriculum_2018
+9.3.4.1. Üslü ifadeleri içeren denklemleri çözer.,a),Üslü ifade kavramı hatırlatılır.,numeric-based,math_curriculum_2018
+9.3.4.1. Üslü ifadeleri içeren denklemleri çözer.,b),Bir gerçek sayının tam sayı kuvveti ile ilgili uygulamalar yapılır.,numeric-based,math_curriculum_2018
+9.3.4.1. Üslü ifadeleri içeren denklemleri çözer.,c),Üslü ifadelerin özellikleri üzerinde durulur.,numeric-based,math_curriculum_2018
+9.3.4.2. Köklü ifadeleri içeren denklemleri çözer.,a),Köklü ifadelerin özellikleri üzerinde durulur.,numeric-based,math_curriculum_2018
+9.3.4.2. Köklü ifadeleri içeren denklemleri çözer.,b),ve,numeric-based,math_curriculum_2018
+9.3.4.2. Köklü ifadeleri içeren denklemleri çözer.,c),En çok iki terimli köklü ifadelerin eşleniklerine yer verilir.,numeric-based,math_curriculum_2018
+9.3.5.1. Oran ve orantı kavramlarını kullanarak problemler çözer.,a),"Oran, orantı, doğru orantı, ters orantı kavramları ile oran ve orantıya ait özellikler hatırlatılır.",numeric-based,math_curriculum_2018
+9.3.5.1. Oran ve orantı kavramlarını kullanarak problemler çözer.,b),Altın oran tanıtılarak gerçek hayattan örnekler verilir ancak hesaplama yöntemlerine yer verilmez.,numeric-based,math_curriculum_2018
+9.3.5.2. Denklemler  ve eşitsizlikler ile ilgili problemler çözer.,a),"Gerçek hayat durumlarını temsil eden sözel ifadelerdeki ilişkilerin cebirsel, grafiksel ve sayısal temsilleri",numeric-based,math_curriculum_2018
+9.3.5.2. Denklemler  ve eşitsizlikler ile ilgili problemler çözer.,b),"Farklı  problem  çözme  stratejilerinin  uygulanmasını  gerektiren  oran,  orantı  kavramlarının  kullanıldığı",numeric-based,math_curriculum_2018
+9.3.5.2. Denklemler  ve eşitsizlikler ile ilgili problemler çözer.,c),Rutin  olmayan  problem  türlerine  de  yer  verilerek  farklı  problem  çözme  stratejilerinin  uygulanmasına,numeric-based,math_curriculum_2018
+9.4.1.1. Üçgende açı özellikleri ile ilgili işlemler yapar.,a),Kültür ve medeniyetimizden geometrinin tarihsel gelişim sürecine katkı sağlamış bilim insanları ve bilim,numeric-based,math_curriculum_2018
+9.4.1.1. Üçgende açı özellikleri ile ilgili işlemler yapar.,b),Açı çeşitleri ve paralel iki doğrunun bir kesenle yaptığı açılar hatırlatılır.,numeric-based,math_curriculum_2018
+9.4.1.1. Üçgende açı özellikleri ile ilgili işlemler yapar.,c),Üçgende sadece iç ve dış açı özelliklerinin kullanıldığı sorulara yer verilir. İkizkenar ve eşkenar üçgenin,numeric-based,math_curriculum_2018
+9.4.1.2. Üçgenin kenar uzunlukları ile bu kenarların karşılarındaki açıların ölçülerini ilişkilendirir.,a),Bir üçgende en uzun kenarın karşısındaki açının ölçüsünün en büyük olduğu ve bunun tersinin de doğru,numeric-based,math_curriculum_2018
+9.4.1.2. Üçgenin kenar uzunlukları ile bu kenarların karşılarındaki açıların ölçülerini ilişkilendirir.,b),Dinamik  matematik  yazılımları  kullanılarak  oluşturulan  üçgenlerin  kenar  ve  açıları  arasındaki  ilişkinin,numeric-based,math_curriculum_2018
+9.4.1.3. Uzunlukları verilen üç doğru parçasının hangi durumlarda üçgen oluşturduğunu değerlendirir.,a),İki kenar uzunluğu verilen bir üçgenin üçüncü kenar uzunluğunun hangi aralıkta değerler alabileceğine,numeric-based,math_curriculum_2018
+9.4.1.3. Uzunlukları verilen üç doğru parçasının hangi durumlarda üçgen oluşturduğunu değerlendirir.,b),Dinamik matematik yazılımlarından yararlanılarak hangi durumlarda üçgen oluşacağının test edilmesi,numeric-based,math_curriculum_2018
+9.4.2.1. İki üçgenin eş olması için gerekli olan asgari koşulları değerlendirir.,a),İki üçgenin eşliği hatırlatılır.,numeric-based,math_curriculum_2018
+9.4.2.1. İki üçgenin eş olması için gerekli olan asgari koşulları değerlendirir.,b),"Kenar-Açı-Kenar (K.A.K.), Açı-Kenar-Açı (A.K.A.),  Kenar-Kenar-Kenar (K.K.K.) eşlik kuralları, ölçümler",numeric-based,math_curriculum_2018
+9.4.2.1. İki üçgenin eş olması için gerekli olan asgari koşulları değerlendirir.,c),Eş üçgenlerin karşılıklı yardımcı elemanlarının da eş olduğu gösterilir.,numeric-based,math_curriculum_2018
+9.4.2.2. İki üçgenin benzer olması için gerekli olan asgari koşulları değerlendirir.,a),"Kenar-Açı-Kenar (K.A.K.), Kenar-Kenar-Kenar (K.K.K.) ve Açı-Açı (A.A.) benzerlik kuralları, ölçümler",numeric-based,math_curriculum_2018
+9.4.2.2. İki üçgenin benzer olması için gerekli olan asgari koşulları değerlendirir.,b),Eşlik ile benzerlik arasındaki ilişki incelenir.,numeric-based,math_curriculum_2018
+9.4.2.2. İki üçgenin benzer olması için gerekli olan asgari koşulları değerlendirir.,c),Benzer üçgenlerin karşılıklı yardımcı elemanlarının da aynı benzerlik oranına sahip olduğu gösterilir.,numeric-based,math_curriculum_2018
+9.4.3.1. Üçgenin iç ve dış açıortaylarının özelliklerini elde eder.,a),Açıortay  üzerinde  alınan  bir  noktadan  açının  kollarına  indirilen  dikmelerin  uzunluklarının  eşit  olduğu,numeric-based,math_curriculum_2018
+9.4.3.1. Üçgenin iç ve dış açıortaylarının özelliklerini elde eder.,b),İç ve dış açıortay uzunlukları formülle hesaplatılmaz.,numeric-based,math_curriculum_2018
+9.4.3.1. Üçgenin iç ve dış açıortaylarının özelliklerini elde eder.,c),Açıortay özelliklerinin gösteriminde pergel-cetvelden yararlanılır.,numeric-based,math_curriculum_2018
+9.4.3.2. Üçgenin kenarortaylarının özelliklerini elde eder.,a),Kenarortayların  kesiştiği  nokta  ile  bu  noktanın  kenarortay  üzerinde  ayırdığı  parçalar  arasındaki  ilişki,numeric-based,math_curriculum_2018
+9.4.3.2. Üçgenin kenarortaylarının özelliklerini elde eder.,b),"Kenarortayların kesiştiği noktanın, üçgenin ağırlık merkezi olduğuna ve üçgenin ağırlık merkeziyle ilgili",numeric-based,math_curriculum_2018
+9.4.3.2. Üçgenin kenarortaylarının özelliklerini elde eder.,c),"Dik üçgende, hipotenüse ait kenarortay uzunluğunun hipotenüs uzunluğunun yarısı olduğu gösterilir.",numeric-based,math_curriculum_2018
+9.4.3.2. Üçgenin kenarortaylarının özelliklerini elde eder.,d),Pergel-cetvel  kullanarak  veya  bilgi  ve  iletişim  teknolojileri  yardımıyla  üçgen  üzerinde  değişiklikler,numeric-based,math_curriculum_2018
+9.4.3.3. Üçgenin kenar orta dikmelerinin bir noktada kesiştiğini gösterir.,a),"Bir doğru parçasının orta dikmesi üzerinde alınan her noktanın, doğru parçasının uç noktalarına eşit",numeric-based,math_curriculum_2018
+9.4.3.3. Üçgenin kenar orta dikmelerinin bir noktada kesiştiğini gösterir.,b),Pergel-cetvel veya bilgi ve iletişim teknolojilerinden yararlanılır.,numeric-based,math_curriculum_2018
+9.4.3.4. Üçgenin çeşidine göre yüksekliklerinin kesiştiği noktanın konumunu belirler.,a),Pergel-cetvel  kullanarak veya  bilgi  ve  iletişim  teknolojileri  yardımıyla  bir  üçgenin  yükseklikleri çizilerek,numeric-based,math_curriculum_2018
+9.4.3.4. Üçgenin çeşidine göre yüksekliklerinin kesiştiği noktanın konumunu belirler.,b),İkizkenar  üçgenin  tabanında  alınan  bir  noktadan  kenarlara  çizilen  dikmelerin  uzunlukları  toplamı  ile,numeric-based,math_curriculum_2018
+9.4.3.4. Üçgenin çeşidine göre yüksekliklerinin kesiştiği noktanın konumunu belirler.,c),Eşkenar  üçgen  içerisinde  alınan  bir  noktadan  kenarlara  indirilen  dikmelerin  uzunlukları  toplamı  ile,numeric-based,math_curriculum_2018
+9.4.4.1. Dik üçgende Pisagor teoremini elde ederek problemler çözer.,a),Teorem elde edilirken model çeşitliliğine yer verilir.,numeric-based,math_curriculum_2018
+9.4.4.1. Dik üçgende Pisagor teoremini elde ederek problemler çözer.,b),Gerçek hayat problemlerine yer verilir.,numeric-based,math_curriculum_2018
+9.4.4.1. Dik üçgende Pisagor teoremini elde ederek problemler çözer.,c),Pythagoras’ın çalışmalarına yer verilir.,numeric-based,math_curriculum_2018
+9.4.4.2. Öklid teoremini elde ederek problemler çözer.,a),Gerçek hayat problemlerine yer verilir.,numeric-based,math_curriculum_2018
+9.4.4.2. Öklid teoremini elde ederek problemler çözer.,b),Euclid’in çalışmalarına yer verilir.,numeric-based,math_curriculum_2018
+9.4.4.3. Dik üçgende dar açıların trigonometrik oranlarını hesaplar.,a),"Bir açının sinüs, kosinüs, tanjant ve kotanjant değerleri dik üçgen üzerinde tanımlanır.",numeric-based,math_curriculum_2018
+9.4.4.3. Dik üçgende dar açıların trigonometrik oranlarını hesaplar.,b),"Dik üçgende; 30°, 45° ve 60° nin trigonometrik değerleri özel üçgenler yardımıyla hesaplanır.",numeric-based,math_curriculum_2018
+9.4.4.3. Dik üçgende dar açıların trigonometrik oranlarını hesaplar.,c),Gerçek hayat problemlerine yer verilir.,numeric-based,math_curriculum_2018
+9.4.4.4. Birim çemberi tanımlar ve trigonometrik oranları birim çemberin üzerindeki noktanın,a),Sadece 0° ve 180° arasındaki açıların trigonometrik oranları birim çember yardımıyla hesaplatılır.,numeric-based,math_curriculum_2018
+9.4.4.4. Birim çemberi tanımlar ve trigonometrik oranları birim çemberin üzerindeki noktanın,b),Ebu’l Vefa ve Gıyaseddin Cemşid’in trigonometrik oranlarla ilgili çalışmalarından bahsedilir.,numeric-based,math_curriculum_2018
+9.4.5.1. Üçgenin alanı ile ilgili problemler çözer.,a),"Üçgenin alanı, bir kenarı ile bu kenara ait yükseklik kullanılarak hesaplatılır.",numeric-based,math_curriculum_2018
+9.4.5.1. Üçgenin alanı ile ilgili problemler çözer.,b),İki kenarının uzunluğu ve bu kenarlar arasındaki açının ölçüsü verilen üçgenin alanını hesaplar.,numeric-based,math_curriculum_2018
+9.4.5.1. Üçgenin alanı ile ilgili problemler çözer.,c),Aynı  yüksekliğe  sahip  üçgenlerin  alanlarıyla  tabanları;  aynı  tabana  sahip  üçgenlerin  alanlarıyla,numeric-based,math_curriculum_2018
+9.4.5.1. Üçgenin alanı ile ilgili problemler çözer.,d),"Bilgi ve iletişim teknolojileri yardımıyla alan, taban ve yüksekliği değiştirilen bir üçgenin alanının",numeric-based,math_curriculum_2018
+9.5.1.1. Verileri merkezî eğilim ve yayılım ölçülerini hesaplayarak yorumlar.,a),"Veri kavramı, kesikli ve sürekli veri çeşitleri verilir.",numeric-based,math_curriculum_2018
+9.5.1.1. Verileri merkezî eğilim ve yayılım ölçülerini hesaplayarak yorumlar.,b),"Aritmetik ortalama, ortanca, tepe değer, en büyük değer, en küçük değer ve açıklık kavramları verilir.",numeric-based,math_curriculum_2018
+9.5.1.1. Verileri merkezî eğilim ve yayılım ölçülerini hesaplayarak yorumlar.,c),"Alt çeyrek, üst çeyrek ve çeyrekler açıklığına yer verilmez.",numeric-based,math_curriculum_2018
+9.5.1.1. Verileri merkezî eğilim ve yayılım ölçülerini hesaplayarak yorumlar.,d),"Gerçek hayat durumlarında aritmetik ortalama, ortanca, tepe değer kavramları birlikte yorumlanır.",numeric-based,math_curriculum_2018
+9.5.2.1. Bir veri grubuna ilişkin histogram oluşturur.,a),Histogram  oluşturulurken  veri  grubunun  açıklığı  seçilen  grup  sayısına  bölünür  ve  aşağıdaki  eşitsizliği,numeric-based,math_curriculum_2018
+9.5.2.1. Bir veri grubuna ilişkin histogram oluşturur.,b),Veri gruplarının histogramı çizilir.,numeric-based,math_curriculum_2018
+9.5.2.2. Gerçek hayat durumunu yansıtan veri gruplarını uygun grafik türleriyle temsil ederek yorumlar.,a),İkiden fazla veri grubunun karşılaştırıldığı durumlara da yer verilir.,numeric-based,math_curriculum_2018
+9.5.2.2. Gerçek hayat durumunu yansıtan veri gruplarını uygun grafik türleriyle temsil ederek yorumlar.,b),Serpme ve kutu grafiklerine yer verilmez.,numeric-based,math_curriculum_2018
+9.5.2.2. Gerçek hayat durumunu yansıtan veri gruplarını uygun grafik türleriyle temsil ederek yorumlar.,c),Grafik türleri bilgi ve iletişim teknolojileri kullanılarak çizilir.,numeric-based,math_curriculum_2018
+10.1.1.1. Olayların gerçekleşme sayısını toplama ve çarpma yöntemlerini kullanarak hesaplar.,a),Sayma  konusunun  tarihsel  gelişim  sürecinden  söz  edilir  ve  bu  süreçte  rol  alan  Sâbit  İbn  Kurrâ‘nın,numeric-based,math_curriculum_2018
+10.1.1.1. Olayların gerçekleşme sayısını toplama ve çarpma yöntemlerini kullanarak hesaplar.,b),Faktöriyel kavramı verilerek saymanın temel ilkesi ile ilişkilendirilir.,numeric-based,math_curriculum_2018
+10.1.1.3.  Sınırlı  sayıda  tekrarlayan  nesnelerin  dizilişlerini  (permütasyonlarını)  açıklayarak  problemler,a),En az iki tanesi özdeş olan nesnelerin tüm farklı dizilişlerinin sayısı örnekler/problemler bağlamında ele,numeric-based,math_curriculum_2018
+10.1.1.3.  Sınırlı  sayıda  tekrarlayan  nesnelerin  dizilişlerini  (permütasyonlarını)  açıklayarak  problemler,b),Gerçek hayat problemlerine yer verilir.,numeric-based,math_curriculum_2018
+10.1.1.4. n elemanlı bir kümenin r tane elemanının kaç farklı şekilde seçilebileceğini hesaplar.,a),Kombinasyon kavramı alt küme sayısı ile ilişkilendirilir.,numeric-based,math_curriculum_2018
+10.1.1.4. n elemanlı bir kümenin r tane elemanının kaç farklı şekilde seçilebileceğini hesaplar.,b),Kombinasyon kavramının aşağıdaki temel özellikleri incelenir:,numeric-based,math_curriculum_2018
+10.1.1.5. Pascal üçgenini açıklar.,0),"+  𝐶𝐶(𝑛𝑛, 1) + ⋯ +  𝐶𝐶(𝑛𝑛, 𝑛𝑛) = 2",numeric-based,math_curriculum_2018
+10.1.1.6. Binom açılımını yapar.,a),Binom açılımı Pascal üçgeni ile ilişkilendirilir.,numeric-based,math_curriculum_2018
+10.1.1.6. Binom açılımını yapar.,b),Sadece iki terimli ifadelerin açılımı ele alınır.,numeric-based,math_curriculum_2018
+10.1.1.6. Binom açılımını yapar.,c),Binom formülü ile ilgili örnekler yapılır ancak,numeric-based,math_curriculum_2018
+"10.1.2.1. Örnek uzay, deney, çıktı, bir olayın tümleyeni, kesin olay, imkânsız olay, ayrık olay ve ayrık",a),"Örnek uzay, deney, çıktı kavramları eş olası durumlardan yola çıkılarak eş olası olmayan durumlar için",numeric-based,math_curriculum_2018
+"10.1.2.1. Örnek uzay, deney, çıktı, bir olayın tümleyeni, kesin olay, imkânsız olay, ayrık olay ve ayrık",b),Ayrık olay ve ayrık olmayan olay üzerinde durulur.,numeric-based,math_curriculum_2018
+"10.1.2.1. Örnek uzay, deney, çıktı, bir olayın tümleyeni, kesin olay, imkânsız olay, ayrık olay ve ayrık",c),El Kindî ve Laplace'ın çalışmalarına yer verilir.,numeric-based,math_curriculum_2018
+10.1.2.2. Olasılık kavramı ile ilgili uygulamalar yapar.,a),Eş olası olan ve olmayan olayların olasılıkları hesaplanır.,numeric-based,math_curriculum_2018
+10.1.2.2. Olasılık kavramı ile ilgili uygulamalar yapar.,b),"Tümleyen, ayrık olay ve ayrık olmayan olay ile ilgili olasılıklar hesaplanır.",numeric-based,math_curriculum_2018
+10.1.2.2. Olasılık kavramı ile ilgili uygulamalar yapar.,c),Gerçek hayat problemlerine yer verilir.,numeric-based,math_curriculum_2018
+10.1.2.2. Olasılık kavramı ile ilgili uygulamalar yapar.,y),doğru testi,numeric-based,math_curriculum_2018
+10.2.1.1. Fonksiyonlarla ilgili problemler çözer.,a),Fonksiyon kavramı açıklanır.,numeric-based,math_curriculum_2018
+10.2.1.1. Fonksiyonlarla ilgili problemler çözer.,b),Sadece gerçek sayılar üzerinde tanımlanmış fonksiyonlar ele alınır.,numeric-based,math_curriculum_2018
+10.2.1.1. Fonksiyonlarla ilgili problemler çözer.,c),"İçine fonksiyon, örten fonksiyon, bire bir fonksiyon, eşit fonksiyon, birim (özdeşlik) fonksiyon, sabit",numeric-based,math_curriculum_2018
+10.2.1.1. Fonksiyonlarla ilgili problemler çözer.,d),f  ve  g  fonksiyonları  kullanılarak,numeric-based,math_curriculum_2018
+10.2.1.1. Fonksiyonlarla ilgili problemler çözer.,e),Gerçek hayat problemlerine ve tablo-grafik kullanımına yer verilir.,numeric-based,math_curriculum_2018
+10.2.1.2. Fonksiyonların grafiklerini çizer.,a),f(x) = ax + b şeklindeki fonksiyonların grafikleri ile ilgili uygulamalar yapılır.,numeric-based,math_curriculum_2018
+10.2.1.2. Fonksiyonların grafiklerini çizer.,b),Parçalı tanımlı şekilde verilen fonksiyonların grafikleri çizilir.,numeric-based,math_curriculum_2018
+10.2.1.2. Fonksiyonların grafiklerini çizer.,c),f(x)  =  ax  +  b  tipindeki  fonksiyonların  grafiği  bilgi  ve  iletişim  teknolojileri  yardımıyla  çizilerek  a  ve  b,numeric-based,math_curriculum_2018
+10.2.1.3. Fonksiyonların grafiklerini yorumlar.,a),Grafiği verilen fonksiyonların tanım ve görüntü kümeleri gösterilir.,numeric-based,math_curriculum_2018
+10.2.1.3. Fonksiyonların grafiklerini yorumlar.,b),"Bir fonksiyon grafiğinde, fonksiyonun x ekseni üzerinde tanımlı olduğu her bir noktadan y eksenine",numeric-based,math_curriculum_2018
+10.2.1.3. Fonksiyonların grafiklerini yorumlar.,i),işaret edilir.,numeric-based,math_curriculum_2018
+10.2.1.3. Fonksiyonların grafiklerini yorumlar.,c),"Bir f fonksiyonunun grafiğinin y = f(x)  denkleminin grafiği olduğu ve grafiğin (varsa),   x eksenini kestiği",numeric-based,math_curriculum_2018
+10.2.1.3. Fonksiyonların grafiklerini yorumlar.,x),= 0 denkleminin gerçek sayılardaki çözüm kümesi olduğu vurgulanır.,numeric-based,math_curriculum_2018
+10.2.2.1. Bire bir ve örten fonksiyonlar ile ilgili uygulamalar yapar.,a),Bir fonksiyonun bire bir ve örtenliği grafik üzerinde yatay doğru testiyle incelenir ve cebirsel olarak,numeric-based,math_curriculum_2018
+10.2.2.1. Bire bir ve örten fonksiyonlar ile ilgili uygulamalar yapar.,b),Bilgi ve iletişim teknolojileri yardımıyla bir fonksiyonun bire bir ve örten olup olmadığı belirlenir.,numeric-based,math_curriculum_2018
+10.2.2.2. Fonksiyonlarda bileşke işlemiyle ilgili işlemler yapar.,a),"Bileşke işlemi, fonksiyonların cebirsel ve grafik gösterimleri ile ilişkilendirilerek ele alınır.",numeric-based,math_curriculum_2018
+10.2.2.2. Fonksiyonlarda bileşke işlemiyle ilgili işlemler yapar.,b),"Fonksiyonlarda  bileşke  işleminin  birleşme  özelliğinin  olduğu  belirtilir,  değişme  özelliğinin  olmadığı",numeric-based,math_curriculum_2018
+10.2.2.2. Fonksiyonlarda bileşke işlemiyle ilgili işlemler yapar.,c),Parçalı tanımlı fonksiyonların bileşkesine girilmez.,numeric-based,math_curriculum_2018
+10.2.2.3. Verilen bir fonksiyonun tersini bulur.,a),Bir fonksiyonun tersinin de fonksiyon olması için gerekli şartlar belirtilir.,numeric-based,math_curriculum_2018
+10.2.2.3. Verilen bir fonksiyonun tersini bulur.,b),Sadece  bire  bir  ve  örten  doğrusal  fonksiyonun  tersinin  grafiği  çizilir;  fonksiyonun  grafiği  ile  tersinin,numeric-based,math_curriculum_2018
+10.2.2.3. Verilen bir fonksiyonun tersini bulur.,c),Parçalı tanımlı fonksiyonların tersi verilmez.,numeric-based,math_curriculum_2018
+10.3.1.1. Bir değişkenli polinom kavramını açıklar.,a),"Polinomun derecesi, katsayıları ve sabit terimi belirtilir.",numeric-based,math_curriculum_2018
+10.3.1.1. Bir değişkenli polinom kavramını açıklar.,b),"Sabit polinom, sıfır polinomu ve iki polinomun eşitliği örneklerle açıklanır.",numeric-based,math_curriculum_2018
+"10.3.1.2. Polinomlarla toplama, çıkarma, çarpma ve bölme işlemlerini yapar.",a),Bir P(x) polinomunun x – a ile bölümünden kalan P(a) dır.,numeric-based,math_curriculum_2018
+"10.3.1.2. Polinomlarla toplama, çıkarma, çarpma ve bölme işlemlerini yapar.",b),Polinomun sıfırı kavramı bölme işlemiyle ilişkilendirilir.,numeric-based,math_curriculum_2018
+10.3.2.1. Bir polinomu çarpanlarına ayırır.,a),Ortak  çarpan  parantezine  alma  ve  değişken  değiştirme  yöntemleri  kullanılarak  çarpanlara  ayırma,numeric-based,math_curriculum_2018
+10.3.2.1. Bir polinomu çarpanlarına ayırır.,b),"Tam kare, iki kare farkı, iki terimin toplamının ve farkının küpü, iki terimin küplerinin toplamı ve farkına",numeric-based,math_curriculum_2018
+10.3.2.1. Bir polinomu çarpanlarına ayırır.,c),biçimindeki ifadeler çarpanlarına ayrılır.,numeric-based,math_curriculum_2018
+10.3.2.2. Rasyonel ifadelerin sadeleştirilmesi ile ilgili işlemler yapar.,a),Rasyonel ifade kavramı tanıtılır.,numeric-based,math_curriculum_2018
+10.3.2.2. Rasyonel ifadelerin sadeleştirilmesi ile ilgili işlemler yapar.,b),Çarpanları polinom olmayan ifadelerde çarpanlara ayırma uygulamalarına yer verilmez.,numeric-based,math_curriculum_2018
+10.4.1.2. İkinci dereceden bir bilinmeyenli denklemleri çözer.,a),ax2  +  bx  +  c  biçimindeki  cebirsel  ifadelerin;  tam  kare  ve  iki  kare  farkına  ait  özdeşlikler  kullanılarak,numeric-based,math_curriculum_2018
+10.4.1.2. İkinci dereceden bir bilinmeyenli denklemleri çözer.,b),"Denklemlerin  çözümünde  farklı  yöntemlerden  (çarpanlara  ayırma,  tam  kareye  tamamlama,  değişken",numeric-based,math_curriculum_2018
+10.4.1.2. İkinci dereceden bir bilinmeyenli denklemleri çözer.,t),yararlanılır.,numeric-based,math_curriculum_2018
+10.4.1.2. İkinci dereceden bir bilinmeyenli denklemleri çözer.,c),Gerçek hayat problemlerine yer verilir.,numeric-based,math_curriculum_2018
+"10.4.1.3. Bir karmaşık sayının a+ib (a,b",b),= −1 olmak üzere bir karmaşık sayı,numeric-based,math_curriculum_2018
+"10.4.1.3. Bir karmaşık sayının a+ib (a,b",c),Köklerin birbirinin eşleniği olduğu belirtilir.,numeric-based,math_curriculum_2018
+10.4.1.4.  İkinci  dereceden  bir  bilinmeyenli  denklemin  kökleri  ile  katsayıları  arasındaki  ilişkileri,a),Sadece kökler toplamı ve çarpımı ile denklemin katsayıları arasındaki ilişkiler üzerinde durulur.,numeric-based,math_curriculum_2018
+10.4.1.4.  İkinci  dereceden  bir  bilinmeyenli  denklemin  kökleri  ile  katsayıları  arasındaki  ilişkileri,b),Kökleri verilen ikinci dereceden denklemi elde etme ile ilgili uygulamalara yer verilir.,numeric-based,math_curriculum_2018
+10.5.1.1. Çokgen kavramını açıklayarak işlemler yapar.,a),İçbükey çokgenlere girilmez.,numeric-based,math_curriculum_2018
+10.5.1.1. Çokgen kavramını açıklayarak işlemler yapar.,b),"Düzgün çokgenler hatırlatılır, iç ve dış açılarının ölçüleri bulunur.",numeric-based,math_curriculum_2018
+10.5.1.1. Çokgen kavramını açıklayarak işlemler yapar.,c),Çokgenlerin köşegenleri ile ilgili özelliklere ve alan problemlerine yer verilmez.,numeric-based,math_curriculum_2018
+10.5.2.1. Dörtgenin temel elemanlarını ve özelliklerini açıklayarak problemler çözer.,a),Dışbükey ve içbükey dörtgen kavramları açıklanır. (Bundan sonra dörtgen denildiğinde dış bükey,numeric-based,math_curriculum_2018
+10.5.2.1. Dörtgenin temel elemanlarını ve özelliklerini açıklayarak problemler çözer.,b),Dörtgenin iç ve dış açılarının ölçüleri toplamı bulunur.,numeric-based,math_curriculum_2018
+10.5.2.1. Dörtgenin temel elemanlarını ve özelliklerini açıklayarak problemler çözer.,c),Dörtgenin çevresi üzerinde durulur.,numeric-based,math_curriculum_2018
+"10.5.3.1. Özel dörtgenlerin açı, kenar, köşegen ve alan özelliklerini açıklayarak problemler çözer.",a),"Yamuk, paralelkenar, eşkenar dörtgen, dikdörtgen, kare ve deltoid arasındaki hiyerarşik ilişkilere yer",numeric-based,math_curriculum_2018
+"10.5.3.1. Özel dörtgenlerin açı, kenar, köşegen ve alan özelliklerini açıklayarak problemler çözer.",b),"Hiyerarşik ilişkiye göre her bir özel dörtgen kendi içerisinde; açı, kenar, köşegen ve alan özellikleri",numeric-based,math_curriculum_2018
+"10.5.3.1. Özel dörtgenlerin açı, kenar, köşegen ve alan özelliklerini açıklayarak problemler çözer.",c),"Origami, tangram kullanılarak uygulamalar yapılır.",numeric-based,math_curriculum_2018
+"10.5.3.1. Özel dörtgenlerin açı, kenar, köşegen ve alan özelliklerini açıklayarak problemler çözer.",d),Bilgi ve iletişim teknolojilerinden yararlanılır.,numeric-based,math_curriculum_2018
+"10.6.1.1. Dik prizmalar ve dik piramitlerin uzunluk, alan ve hacim bağıntılarını oluşturur.",a),"Üçgen, dörtgen ve altıgen dik prizma/piramit ile sınırlandırılır.",numeric-based,math_curriculum_2018
+"10.6.1.1. Dik prizmalar ve dik piramitlerin uzunluk, alan ve hacim bağıntılarını oluşturur.",b),Gerçek hayat problemlerine yer verilir.,numeric-based,math_curriculum_2018
+"10.6.1.1. Dik prizmalar ve dik piramitlerin uzunluk, alan ve hacim bağıntılarını oluşturur.",c),Bilgi ve iletişim teknolojilerinden yararlanılır.,numeric-based,math_curriculum_2018
+11.1.1.2. Açı ölçü birimlerini açıklayarak birbiri ile ilişkilendirir.,a),Derecenin alt birimleri olan dakika ve saniyeden bahsedilir.,numeric-based,math_curriculum_2018
+11.1.1.2. Açı ölçü birimlerini açıklayarak birbiri ile ilişkilendirir.,b),"Derece ile radyan ilişkilendirilir, grada girilmez.",numeric-based,math_curriculum_2018
+11.1.1.2. Açı ölçü birimlerini açıklayarak birbiri ile ilişkilendirir.,c),Açının esas ölçüsü bulunur.,numeric-based,math_curriculum_2018
+11.1.2.1. Trigonometrik fonksiyonları birim çember yardımıyla açıklar.,a),"Trigonometrik  fonksiyonlar  arasındaki  temel  özdeşlikler,  oluşturulan  benzer  üçgenler  yardımıyla",numeric-based,math_curriculum_2018
+11.1.2.1. Trigonometrik fonksiyonları birim çember yardımıyla açıklar.,b),Trigonometrik fonksiyonların bölgelere göre işaretleri incelenir.,numeric-based,math_curriculum_2018
+11.1.2.2. Kosinüs teoremiyle ilgili problemler çözer.,a),"Kosinüs teoremi, Pisagor teoreminden yararlanılarak elde edilir.",numeric-based,math_curriculum_2018
+11.1.2.2. Kosinüs teoremiyle ilgili problemler çözer.,b),Gerçek hayat problemlerine yer verilir.,numeric-based,math_curriculum_2018
+11.1.2.3. Sinüs teoremiyle ilgili problemler çözer.,a),"Sinüs teoremi, iki kenarının uzunluğu ve bu kenarlar arasındaki açının ölçüsü verilen üçgenin alanından",numeric-based,math_curriculum_2018
+11.1.2.3. Sinüs teoremiyle ilgili problemler çözer.,b),Sinüs teoremi çevrel çemberle ilişkilendirilmez.,numeric-based,math_curriculum_2018
+11.1.2.3. Sinüs teoremiyle ilgili problemler çözer.,c),Gerçek hayat problemlerine yer verilir.,numeric-based,math_curriculum_2018
+11.1.2.4. Trigonometrik fonksiyon grafiklerini çizer.,a),y=sinx  ve  y=cosx  fonksiyonları  dışındaki  fonksiyonların  grafik  çizimlerinde  sadece  bilgi  ve  iletişim,numeric-based,math_curriculum_2018
+11.1.2.4. Trigonometrik fonksiyon grafiklerini çizer.,b),"Periyodik fonksiyon tanımı verilir, trigonometrik fonksiyonların periyodik oldukları gösterilir.",numeric-based,math_curriculum_2018
+11.1.2.4. Trigonometrik fonksiyon grafiklerini çizer.,c),türündeki fonksiyonların grafikleri ve katsayılarının grafik üzerindeki etkileri,numeric-based,math_curriculum_2018
+11.1.2.4. Trigonometrik fonksiyon grafiklerini çizer.,d),Sekant ve kosekant fonksiyonlarının grafiklerine yer verilmez.,numeric-based,math_curriculum_2018
+11.2.1.2. Bir doğru parçasını belli bir oranda (içten veya dıştan) bölen noktanın koordinatlarını hesaplar.,a),Bir doğru parçasının orta noktasının koordinatları buldurulur.,numeric-based,math_curriculum_2018
+11.2.1.2. Bir doğru parçasını belli bir oranda (içten veya dıştan) bölen noktanın koordinatlarını hesaplar.,b),Bir üçgenin ağırlık merkezinin koordinatları buldurulur.,numeric-based,math_curriculum_2018
+11.2.1.3. Analitik düzlemde doğruları inceleyerek işlemler yapar.,a),Bir doğrunun eğim açısı ve eğimi tanımlanır.,numeric-based,math_curriculum_2018
+11.2.1.3. Analitik düzlemde doğruları inceleyerek işlemler yapar.,b),Analitik düzlemde bir doğrunun denklemi oluşturulur.,numeric-based,math_curriculum_2018
+11.2.1.3. Analitik düzlemde doğruları inceleyerek işlemler yapar.,c),Eksenlere paralel ve orijinden geçen doğruların denklemleri bulunur ve bulunan denklemlerin grafikleri,numeric-based,math_curriculum_2018
+11.2.1.3. Analitik düzlemde doğruları inceleyerek işlemler yapar.,d),Bilgi ve iletişim teknolojilerinden yararlanılır.,numeric-based,math_curriculum_2018
+11.3.1.1. Fonksiyonun grafik ve tablo temsilini kullanarak problem çözer.,a),"Grafiğin x ve y eksenlerini kestiği noktalar; fonksiyonun pozitif, negatif, artan ve azalan olduğu aralıklar;",numeric-based,math_curriculum_2018
+11.3.1.1. Fonksiyonun grafik ve tablo temsilini kullanarak problem çözer.,a),anlamları  grafik,numeric-based,math_curriculum_2018
+11.3.1.1. Fonksiyonun grafik ve tablo temsilini kullanarak problem çözer.,b),"Cebirsel ifade, grafik veya tablo ile verilen bir fonksiyonun belli bir aralıktaki ortalama değişim hızı",numeric-based,math_curriculum_2018
+11.3.1.1. Fonksiyonun grafik ve tablo temsilini kullanarak problem çözer.,c),Fonksiyonun grafiği bilgi ve iletişim teknolojileri yardımıyla çizilir ve yorumlanır.,numeric-based,math_curriculum_2018
+11.3.2.1. İkinci dereceden bir değişkenli fonksiyonun grafiğini çizerek yorumlar.,a),"Fonksiyonun grafiğinin tepe noktası, eksenleri kestiği noktalar ve simetri ekseni buldurulur.",numeric-based,math_curriculum_2018
+11.3.2.1. İkinci dereceden bir değişkenli fonksiyonun grafiğini çizerek yorumlar.,b),Fonksiyonun grafiğinin tepe noktası ile fonksiyonun en küçük ya da en büyük değeri ilişkilendirilir.,numeric-based,math_curriculum_2018
+11.3.2.1. İkinci dereceden bir değişkenli fonksiyonun grafiğini çizerek yorumlar.,c),"Fonksiyonun  katsayılarındaki  değişimin,",numeric-based,math_curriculum_2018
+11.3.2.1. İkinci dereceden bir değişkenli fonksiyonun grafiğini çizerek yorumlar.,d),Bir doğru ile bir parabolün birbirine göre durumları incelenir.,numeric-based,math_curriculum_2018
+"11.3.3.1. Bir fonksiyonun grafiğinden, dönüşümler yardımı ile yeni fonksiyon grafikleri çizer.",a),Tek ve çift fonksiyonların grafiğinin simetri özellikleri üzerinde durulur.,numeric-based,math_curriculum_2018
+"11.3.3.1. Bir fonksiyonun grafiğinden, dönüşümler yardımı ile yeni fonksiyon grafikleri çizer.",b),dönüşümlerinin,numeric-based,math_curriculum_2018
+11.4.2.1. İkinci dereceden bir bilinmeyenli eşitsizliklerin çözüm kümesini bulur.,a),ax  +  b  veya,numeric-based,math_curriculum_2018
+11.4.2.1. İkinci dereceden bir bilinmeyenli eşitsizliklerin çözüm kümesini bulur.,b),Bilgi ve iletişim teknolojilerinden yararlanılarak çizilen grafikler yardımıyla çözüm yorumlatılır.,numeric-based,math_curriculum_2018
+11.5.1.2. Çemberde kirişin özelliklerini göstererek işlemler yapar.,a),"Bir çemberde, kirişin orta dikmesinin çemberin merkezinden geçtiği ve bir kirişin orta noktasını çemberin",numeric-based,math_curriculum_2018
+11.5.1.2. Çemberde kirişin özelliklerini göstererek işlemler yapar.,b),Bir çemberde kirişlerin uzunlukları ile merkeze olan uzaklıkları arasındaki ilişki üzerinde durulur.,numeric-based,math_curriculum_2018
+"11.5.2.1. Bir çemberde merkez, çevre, iç, dış ve teğet-kiriş açıların özelliklerini kullanarak işlemler yapar.",a),Üçgenin çevrel çemberi çizdirilir.,numeric-based,math_curriculum_2018
+"11.5.2.1. Bir çemberde merkez, çevre, iç, dış ve teğet-kiriş açıların özelliklerini kullanarak işlemler yapar.",b),Sinüs teoreminin çevrel çemberin yarıçapı ile ilişkisi üzerinde durulur.,numeric-based,math_curriculum_2018
+"11.5.2.1. Bir çemberde merkez, çevre, iç, dış ve teğet-kiriş açıların özelliklerini kullanarak işlemler yapar.",c),Pergel-cetvelden veya bilgi ve iletişim teknolojilerinden yararlanılır.,numeric-based,math_curriculum_2018
+11.5.3.1. Çemberde teğetin özelliklerini göstererek işlemler yapar.,a),Çemberin dışındaki bir noktadan çizilen teğet parçalarının uzunluklarının eşit olduğu gösterilir.,numeric-based,math_curriculum_2018
+11.5.3.1. Çemberde teğetin özelliklerini göstererek işlemler yapar.,b),Üçgenin iç teğet ve dış teğet çemberleri çizilir.,numeric-based,math_curriculum_2018
+11.5.3.1. Çemberde teğetin özelliklerini göstererek işlemler yapar.,c),İki çemberin ortak teğetine girilmez.,numeric-based,math_curriculum_2018
+11.5.4.1. Dairenin çevre ve alan bağıntılarını oluşturur.,a),Dairenin çevresi ve alanı ile ilgili uygulamalar yapılır.,numeric-based,math_curriculum_2018
+11.5.4.1. Dairenin çevre ve alan bağıntılarını oluşturur.,b),Daire diliminin alanı ve yay uzunluğu bağıntıları buldurularak uygulamalar yapılır.,numeric-based,math_curriculum_2018
+11.5.4.1. Dairenin çevre ve alan bağıntılarını oluşturur.,c),Archimedes’in çalışmalarına yer verilir.,numeric-based,math_curriculum_2018
+"11.6.1.1. Küre, dik dairesel silindir ve dik dairesel koninin alan ve hacim bağıntılarını oluşturarak",a),Gerçek hayat problemlerine yer verilir.,numeric-based,math_curriculum_2018
+"11.6.1.1. Küre, dik dairesel silindir ve dik dairesel koninin alan ve hacim bağıntılarını oluşturarak",b),Bilgi ve iletişim teknolojilerinden yararlanılır.,numeric-based,math_curriculum_2018
+11.7.1.1. Koşullu olasılığı açıklayarak problemler çözer.,a),Olasılık konusunun tarihsel gelişim sürecinden bahsedilir.,numeric-based,math_curriculum_2018
+11.7.1.1. Koşullu olasılığı açıklayarak problemler çözer.,b),Gerçek hayat problemlerine yer verilir.,numeric-based,math_curriculum_2018
+11.7.1.3. Bileşik olayı açıklayarak gerçekleşme olasılığını hesaplar.,a),Ağaç şemasından yararlanılır.,numeric-based,math_curriculum_2018
+11.7.1.3. Bileşik olayı açıklayarak gerçekleşme olasılığını hesaplar.,b),En fazla üç aşamalı olaylardan seçim yapılır.,numeric-based,math_curriculum_2018
+11.7.1.3. Bileşik olayı açıklayarak gerçekleşme olasılığını hesaplar.,c),"“ve, veya” bağlaçları ile oluşturulan olayların olasılıkları hesaplatılır.",numeric-based,math_curriculum_2018
+12.1.1.1. Üstel fonksiyonu açıklar.,a),Üstel fonksiyonlara neden ihtiyaç duyulduğu vurgulanmalıdır.,numeric-based,math_curriculum_2018
+12.1.1.1. Üstel fonksiyonu açıklar.,b),Üslü ifadeler ve bunlarla yapılan işlemlerin özellikleri hatırlatılır.,numeric-based,math_curriculum_2018
+12.1.1.1. Üstel fonksiyonu açıklar.,c),Üstel fonksiyonların bire bir ve örten olduğu grafik yardımıyla gösterilir.,numeric-based,math_curriculum_2018
+12.1.1.1. Üstel fonksiyonu açıklar.,x),=  ax  fonksiyonunun  grafiğinin  değişimini  incelemek  için  bilgi  ve  iletişim,numeric-based,math_curriculum_2018
+12.1.2.1. Logaritma fonksiyonu ile üstel fonksiyonu ilişkilendirerek problemler çözer.,a),{1} olmak üzere logaritma fonksiyonunun grafiği üstel fonksiyonun grafiğinden yararlanarak,numeric-based,math_curriculum_2018
+12.1.2.1. Logaritma fonksiyonu ile üstel fonksiyonu ilişkilendirerek problemler çözer.,b),𝑦𝑦 = 𝑎𝑎,numeric-based,math_curriculum_2018
+12.1.2.1. Logaritma fonksiyonu ile üstel fonksiyonu ilişkilendirerek problemler çözer.,c),Gelenbevi İsmail Efendi ve John Napier’in çalışmalarına yer verilir.,numeric-based,math_curriculum_2018
+12.1.3.2. Üstel ve logaritmik fonksiyonları gerçek hayat durumlarını modellemede kullanır.,a),"Gerçek hayat durumlarından nüfus artışı, bakteri popülasyonu, radyoaktif maddelerin bozunumu (yarı",numeric-based,math_curriculum_2018
+12.1.3.2. Üstel ve logaritmik fonksiyonları gerçek hayat durumlarını modellemede kullanır.,l),gibi örneklere,numeric-based,math_curriculum_2018
+12.1.3.2. Üstel ve logaritmik fonksiyonları gerçek hayat durumlarını modellemede kullanır.,b),İsraf ve tasarruf kavramları hakkında farkındalık oluşturacak örneklere yer verilir.,numeric-based,math_curriculum_2018
+12.1.3.2. Üstel ve logaritmik fonksiyonları gerçek hayat durumlarını modellemede kullanır.,c),Bilgi ve iletişim teknolojilerinden yararlanılır.,numeric-based,math_curriculum_2018
+12.2.1.3. Aritmetik ve geometrik dizilerin özelliklerini kullanarak işlemler yapar.,a),İlk n terim toplamı bulunur.,numeric-based,math_curriculum_2018
+12.2.1.3. Aritmetik ve geometrik dizilerin özelliklerini kullanarak işlemler yapar.,b),Toplam sembolü tanıtılır ancak özellikleri verilmez.,numeric-based,math_curriculum_2018
+12.3.2.1. Trigonometrik denklemlerin çözüm kümelerini bulur.,a),olmak  üzere,numeric-based,math_curriculum_2018
+12.3.2.1. Trigonometrik denklemlerin çözüm kümelerini bulur.,b),Gerçek hayat problemlerine yer verilir.,numeric-based,math_curriculum_2018
+12.3.2.1. Trigonometrik denklemlerin çözüm kümelerini bulur.,c),El Battani’nin çalışmalarına yer verilir.,numeric-based,math_curriculum_2018
+"12.4.1.1. Analitik düzlemde koordinatları verilen bir noktanın öteleme, dönme ve simetri dönüşümleri",a),"Öteleme, simetri ve dönme kavramları hatırlatılır.",numeric-based,math_curriculum_2018
+"12.4.1.1. Analitik düzlemde koordinatları verilen bir noktanın öteleme, dönme ve simetri dönüşümleri",b),"Noktanın;  noktaya,  eksenlere,  y=x  doğrusuna,  bir  doğruya  göre  simetrileri  ve  doğrunun  noktaya  göre",numeric-based,math_curriculum_2018
+"12.4.1.1. Analitik düzlemde koordinatları verilen bir noktanın öteleme, dönme ve simetri dönüşümleri",c),"Bilgi ve iletişim teknolojileri yardımıyla öteleme, simetri ve dönme ele alınır.",numeric-based,math_curriculum_2018
+12.4.1.2. Temel dönüşümler ve bileşkeleriyle ilgili problem çözer.,a),Modelleme çalışmalarına yer verilir.,numeric-based,math_curriculum_2018
+12.4.1.2. Temel dönüşümler ve bileşkeleriyle ilgili problem çözer.,b),Doğadan ve mimari eserlerden örneklendirme yapılır.,numeric-based,math_curriculum_2018
+"12.5.1.1. Bir fonksiyonun bir noktadaki limiti, soldan limit ve sağdan limit kavramlarını açıklar.",a),"Limit  kavramı  bir  bağımsız  değişkenin  verilen  bir  sayıya  yaklaşmasından  hareketle,  tablo  ve  grafikler",numeric-based,math_curriculum_2018
+"12.5.1.1. Bir fonksiyonun bir noktadaki limiti, soldan limit ve sağdan limit kavramlarını açıklar.",b),Bilgi ve iletişim teknolojilerinden yararlanılır.,numeric-based,math_curriculum_2018
+"12.5.1.1. Bir fonksiyonun bir noktadaki limiti, soldan limit ve sağdan limit kavramlarını açıklar.",c),Cauchy’nin çalışmalarına yer verilir.,numeric-based,math_curriculum_2018
+12.5.1.2. Limit ile ilgili özellikleri belirterek uygulamalar yapar.,a),"Polinom,  köklü,  üstel,  logaritmik  ve  trigonometrik  fonksiyonlar  içeren  limit  uygulamaları  yapılır  ancak",numeric-based,math_curriculum_2018
+12.5.1.2. Limit ile ilgili özellikleri belirterek uygulamalar yapar.,b),Sadece pay ve paydası çarpanlarına ayrılarak belirsizliğin kaldırılabileceği limit örneklerine yer verilir.,numeric-based,math_curriculum_2018
+12.5.1.3. Bir fonksiyonun bir noktadaki sürekliliğini açıklar.,a),Fonksiyonun grafiği üzerinde sürekli ve süreksiz olduğu noktalar buldurulur.,numeric-based,math_curriculum_2018
+12.5.1.3. Bir fonksiyonun bir noktadaki sürekliliğini açıklar.,b),Limitin tarihsel gelişiminden ve Salih Zeki’nin bu alana katkılarından bahsedilir.,numeric-based,math_curriculum_2018
+12.5.1.3. Bir fonksiyonun bir noktadaki sürekliliğini açıklar.,c),Bilgi ve iletişim teknolojileri yardımıyla süreklilik uygulamaları yaptırılır.,numeric-based,math_curriculum_2018
+12.5.2.1. Türev kavramını açıklayarak işlemler yapar.,a),Anlık değişim oranı fizik ve geometri modellerinden yararlanılarak açıklanır.,numeric-based,math_curriculum_2018
+12.5.2.1. Türev kavramını açıklayarak işlemler yapar.,b),Verilen  bir  fonksiyonun  bir  noktadaki  türev  değeri  ile  o  noktadaki  teğetinin  eğimi  arasındaki  ilişki,numeric-based,math_curriculum_2018
+12.5.2.1. Türev kavramını açıklayarak işlemler yapar.,c),Bir fonksiyonun bir noktadaki soldan türevi ve sağdan türevi ile türev arasındaki ilişki açıklanır.,numeric-based,math_curriculum_2018
+12.5.2.1. Türev kavramını açıklayarak işlemler yapar.,x),"= c,",numeric-based,math_curriculum_2018
+12.5.2.1. Türev kavramını açıklayarak işlemler yapar.,l),türev kurallarına yer verilmez.,numeric-based,math_curriculum_2018
+12.5.2.1. Türev kavramını açıklayarak işlemler yapar.,d),Rolle’nin çalışmalarına yer verilir.,numeric-based,math_curriculum_2018
+12.5.2.2. Bir fonksiyonun bir noktada ve bir aralıkta türevlenebilirliğini değerlendirir.,a),Bir fonksiyonun bir noktada türevli olması için gerek ve yeter şartları inceler.,numeric-based,math_curriculum_2018
+12.5.2.2. Bir fonksiyonun bir noktada ve bir aralıkta türevlenebilirliğini değerlendirir.,b),Fonksiyonun türevli olmadığı noktalarla grafiği arasında ilişki kurulur.,numeric-based,math_curriculum_2018
+12.5.3.3. Türevi yardımıyla bir fonksiyonun grafiğini çizer.,b),Bilgi ve iletişim teknolojilerinden yararlanılır.,numeric-based,math_curriculum_2018
+12.6.1.1. Bir fonksiyonun belirsiz integralini açıklayarak integral alma kurallarını oluşturur.,a),Belirsiz integral alma kuralları n≠ -1 olmak üzere,numeric-based,math_curriculum_2018
+12.6.1.1. Bir fonksiyonun belirsiz integralini açıklayarak integral alma kurallarını oluşturur.,b),"Bir  fonksiyonun  bir  sabitle  çarpımının,  iki  fonksiyonun  toplamının  ve  farkının  integral  alma  kuralları",numeric-based,math_curriculum_2018
+12.6.2.1. Bir fonksiyonun grafiği ile x ekseni arasında kalan sınırlı bölgenin alanını Riemann toplamı,a),"Gerçek hayatta karşılaşılan ve değeri alan formülleriyle hesaplanamayan alanların, uygun toplamların",numeric-based,math_curriculum_2018
+12.6.2.1. Bir fonksiyonun grafiği ile x ekseni arasında kalan sınırlı bölgenin alanını Riemann toplamı,b),Polinom fonksiyonlarla sınırlandırılır.,numeric-based,math_curriculum_2018
+12.6.2.1. Bir fonksiyonun grafiği ile x ekseni arasında kalan sınırlı bölgenin alanını Riemann toplamı,c),Bilgi ve iletişim teknolojilerinden yararlanılır.,numeric-based,math_curriculum_2018
+12.6.2.4. Belirli integral ile alan hesabı yapar.,a),İki fonksiyonun grafikleri arasında kalan sınırlı bölgenin alanı hesaplanır.,numeric-based,math_curriculum_2018
+12.6.2.4. Belirli integral ile alan hesabı yapar.,b),Gerçek hayat problemlerine yer verilir.,numeric-based,math_curriculum_2018
+12.6.2.4. Belirli integral ile alan hesabı yapar.,c),Bilgi ve iletişim teknolojilerinden yararlanılır.,numeric-based,math_curriculum_2018
+12.7.1.1. Merkezi ve yarıçapı verilen çemberin denklemini oluşturur.,a),merkezli  ve,numeric-based,math_curriculum_2018
+12.7.1.1. Merkezi ve yarıçapı verilen çemberin denklemini oluşturur.,b),2,numeric-based,math_curriculum_2018
+12.7.1.1. Merkezi ve yarıçapı verilen çemberin denklemini oluşturur.,c),Bilgi ve iletişim teknolojilerinden yararlanılır.,numeric-based,math_curriculum_2018
+12.7.1.2. Denklemleri verilen doğru ile çemberin birbirine göre durumlarını belirleyerek işlemler yapar.,a),Doğru ile çemberin varsa kesişim noktaları bulunur.,numeric-based,math_curriculum_2018
+12.7.1.2. Denklemleri verilen doğru ile çemberin birbirine göre durumlarını belirleyerek işlemler yapar.,b),Bilgi ve iletişim teknolojilerinden yararlanılır.,numeric-based,math_curriculum_2018
+11.3.2.2. Seyahatlerde mümkün olan alternatifleri karşılaştırır.,a),Seyahatin yaklaşık maliyet analizi yaptırılır.,numeric-based,math_curriculum_2018
+11.3.2.2. Seyahatlerde mümkün olan alternatifleri karşılaştırır.,b),Gidilecek yere ilişkin bir zaman çizelgesi yaptırılır.,numeric-based,math_curriculum_2018
+11.4.3.1. Dairenin çevre ve alan bağıntılarını oluşturur.,a),Dairenin çevresi ve alanı ile ilgili işlemler yapar.,numeric-based,math_curriculum_2018
+11.4.3.1. Dairenin çevre ve alan bağıntılarını oluşturur.,b),Daire diliminin alanı ve yay uzunluğu bağıntıları verilir.,numeric-based,math_curriculum_2018
+12.1.1.1. Üslü ve köklü ifadeler içeren denklemler çözer.,a),Üslü ve köklü ifadelerin özellikleri hatırlatılır.,numeric-based,math_curriculum_2018
+12.1.1.1. Üslü ve köklü ifadeler içeren denklemler çözer.,b),Gerçek hayat problemlerine yer verilir.,numeric-based,math_curriculum_2018
+"12.1.2.1. Yüzde, oran ve orantı kavramlarıyla ilgili problemler çözer.",a),Yüzde hesaplamalarında aşağıda verilen bağlamlardan yararlanılabilir:,numeric-based,math_curriculum_2018
+"12.1.2.1. Yüzde, oran ve orantı kavramlarıyla ilgili problemler çözer.",b),Oran ve orantı kavramlarını içeren problemler oluşturulurken aşağıda verilen bağlamlardan,numeric-based,math_curriculum_2018
+"12.1.2.1. Yüzde, oran ve orantı kavramlarıyla ilgili problemler çözer.",c),Tutumlu olma hakkında farkındalık oluşturacak örneklere yer verilir.,numeric-based,math_curriculum_2018
+12.2.1.1. Gerçek hayat durumlarıyla ilgili istatistik problemleri çözer.,a),"Veri toplama, düzenleme, temsil etme ve yorumlama aşamalarına yer verilir.",numeric-based,math_curriculum_2018
+12.2.1.1. Gerçek hayat durumlarıyla ilgili istatistik problemleri çözer.,b),Bir  veri  grubunu  temsil  edecek  en  uygun  grafik  çeşidi  üzerinde  durulur.  Farklı  grafik  çeşitlerinin,numeric-based,math_curriculum_2018
+12.2.1.1. Gerçek hayat durumlarıyla ilgili istatistik problemleri çözer.,c),"Problemler seçilirken toplumsal duyarlılığı geliştirebilecek çevre bilinci, okuma alışkanlıkları gibi konulara",numeric-based,math_curriculum_2018
+"12.3.1.1. Çevre, alan ve hacim ölçmeye yönelik problemler çözer.",a),"Bir  nesnenin  belli  bir  oranda  büyütülmüş  ya  da  küçültülmüş  çizimini  kullanarak,  mesafesi,  çevre",numeric-based,math_curriculum_2018
+"12.3.1.1. Çevre, alan ve hacim ölçmeye yönelik problemler çözer.",b),"Bir nesnenin belli bir oranda büyütülmüş veya küçültülmüş çizimleri, ölçekli kâğıt üzerine çizdirilir.",numeric-based,math_curriculum_2018
+"12.3.1.1. Çevre, alan ve hacim ölçmeye yönelik problemler çözer.",c),Bilgi ve iletişim teknolojilerinden yararlanılır.,numeric-based,math_curriculum_2018
+12.4.1.1. Küre ve dik dairesel silindirin alan ve hacim ölçmeye yönelik problemler çözer.,a),Gerçek hayat problemlerine yer verilir.,numeric-based,math_curriculum_2018
+12.4.1.1. Küre ve dik dairesel silindirin alan ve hacim ölçmeye yönelik problemler çözer.,b),Bilgi ve iletişim teknolojilerinden yararlanılır.,numeric-based,math_curriculum_2018
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),KAVRAMSAL,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),Doğrusal ilişkiler içeren problemlerin çözümlerinde kullanılabilecek matematiksel,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Doğrusal ilişkiler içeren problemlerin çözümleri için kullanılabilecek matematiksel,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Doğrusal ilişkiler içeren problemlerin çözümleri için belirlediği matematiksel araç,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),"x, y",2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),öğ-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),fark etmeye yönelik çalışmalara yer verilir. Doğrusal ilişki içeren gerçek yaşam,2024-style,math_curriculum_2024
+2. TEMA: MANTIKSAL ÇIKARIM,a),Problemlerde verilen matematiksel yapıları belirler.,2024-style,math_curriculum_2024
+2. TEMA: MANTIKSAL ÇIKARIM,b),Problemlerde verilen matematiksel yapılar ile problemlere uygun  farklı matema-,2024-style,math_curriculum_2024
+2. TEMA: MANTIKSAL ÇIKARIM,c),Problemlerde verilen matematiksel yapıları farklı matematiksel  temsillere dönüş-,2024-style,math_curriculum_2024
+2. TEMA: MANTIKSAL ÇIKARIM,d),Elde ettiği ve yorumladığı farklı temsillere dayalı problemlerin çözümleri için stra-,2024-style,math_curriculum_2024
+2. TEMA: MANTIKSAL ÇIKARIM,e),Karşılaşılan problemlerde seçtiği çözüm stratejilerini kullanır.,2024-style,math_curriculum_2024
+2. TEMA: MANTIKSAL ÇIKARIM,f),Kullandığı çözüm stratejilerini kontrol eder.,2024-style,math_curriculum_2024
+2. TEMA: MANTIKSAL ÇIKARIM,g),Çözümüne ulaştığı problemler için olası farklı çözüm stratejilerini inceler.,2024-style,math_curriculum_2024
+2. TEMA: MANTIKSAL ÇIKARIM,h),Çözüme ulaştıran stratejilere yönelik çıkarımlarını bu stratejilerin kullanılabileceği,2024-style,math_curriculum_2024
+2. TEMA: MANTIKSAL ÇIKARIM,e),ÖĞRENME-ÖĞRETME,2024-style,math_curriculum_2024
+2. TEMA: MANTIKSAL ÇIKARIM,i),"veya tablo ile gösterildiği (haftalık ders programları gibi), gruplandırıldığı (ülkemizde-",2024-style,math_curriculum_2024
+2. TEMA: MANTIKSAL ÇIKARIM,i),örneklere yer verilir. Bu,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,a),Sonlu sayı örüntülerinin terimleri arasındaki ilişkileri gözlemler.,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,b),Sonlu sayı örüntülerinin terimleri arasındaki örüntüleri belirler.,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,c),Belirlediği ilişkileri sözel ve cebirsel olarak geneller.,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,a),Şifreli metinlerdeki ilişkileri gözlemler.,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,b),Şifreli metinlerdeki örüntüleri belirler.,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,c),Belirlediği örüntüleri sözel ve cebirsel olarak geneller.,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,a),Farklı şifreleme yöntemlerini inceler.,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,b),İncelediği şifreleme yöntemlerinin niteliklerini tespit eder.,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,c),Benzerliklerden çıkarım yaparak yeni şifreler oluşturur.,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,e),"Öğrenme çıktıları; çalışma kâğıdı, performans görevi, öz ve akran değerlendirme formları",2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),karşılık gelen,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),örüntü içeren farklı durumlarla karşılaşılabildiğini fark etmeleri sağlanır.,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),hakkında çıkarımda bulunmaları için öğrencilere fırsat,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),"sınıf içi tartışma yapılır (D19.4, E1.1).",2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,e),problemlerinin çözümleriyle ilgili sınıf içi tartışma  yapılır. Öğ-,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),tespit edilir. Bu süreçte sınıf,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),incelemeleri istenir. Bu araçlarda ve,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,a),KAVRAMSAL,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,t),ve tri-,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,a),Dik üçgende trigonometrik oranlar ve trigonometrik özdeşliklerle  ilgili varsayım-,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,b),Trigonometrik oranlar ve trigonometrik özdeşliklerle ilgili örüntüleri geneller.,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,c),Trigonometrik oranlar ve trigonometrik özdeşliklerle ilgili elde ettiği genellemelerini,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,d),Ulaştığı trigonometrik oranları ve trigonometrik özdeşlikleri problemler bağlamında,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,a),"Üçgende iç ve dış açıortayların, kenarortayların, kenar orta dikmelerin ve yükseklik-",2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,b),Farklı üçgen örneklerini inceleyerek varsayımlarına ilişkin örüntüleri geneller.,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,c),Üçgenin yardımcı elemanlarıyla ilgili genellemelerini varsayımlarıyla karşılaştırır.,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,d),Üçgenin yardımcı elemanlarıyla  ilgili önermeleri problemler bağlamında değerlen-,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,a),Üçgenin bir kenarı ve o kenara ait yüksekliğindeki değişimin üçgenin alanındaki de-,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,b),Farklı üçgenlerdeki gözlemlerinden yararlanarak varsayımlarına yönelik örüntüleri,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,c),Genellemelerini varsayımlarıyla karşılaştırır.,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,d),Önermeleri gerçek yaşam problemleri bağlamında değerlendirir.,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,a),Üçgende sinüs ve kosinüs teoremlerine ilişkin farklı doğrulama veya ispatları kul-,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,b),Yapılan doğrulama veya ispatları yeni durumlara uyarlayarak değerlendirir.,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,e),"Öğrenme çıktıları, çalışma kâğıdı ve performans görevi ile değerlendirilebilir.",2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,e),"Öğrencilere  trigonometrik  oranlar,  trigonometrik  özdeşlikler,  sinüs  ve  kosinüs  teoremleri",2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,i),benzer dik üçgen-,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,u),düzenlendiği bir tabloya yer verilir. Öğrencilerden tab-,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,i),ve farklı yöntemlerle (kâğıt katlama,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,i),"açıortayla ilgili hatırlatmalar yapılır (MAB5, OB2). Daha sonra bu açıyı oluşturan",2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,i),ile farklı yöntemler (kâğıt,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,i),"kullanmaları  sağlanarak  hatırlatmalar  yapılır    (MAB5,  D3.4).  Benzer",2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,i),ile farklı yöntemler (kâğıt,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,i),kullanarak bir üçgenin herhangi iki kenarına ait yüksekliklerini inşa et-,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK ŞEKİLLER,y),üçgeni hakkında araştırma yapmaları istenir. Herhangi bir açının pergel ve ölçüsüz,2024-style,math_curriculum_2024
+5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a),Başkaları tarafından oluşturulan istatistiksel sonuç veya yorumlara yönelik istatis-,2024-style,math_curriculum_2024
+5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,b),Başkaları tarafından oluşturulan istatistiksel sonuç veya yorumlara yönelik hataları,2024-style,math_curriculum_2024
+5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,c),Başkaları tarafından oluşturulan istatistiksel sonuç veya yorumları çürütür ya da,2024-style,math_curriculum_2024
+5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e),ÖĞRENME-ÖĞRETME,2024-style,math_curriculum_2024
+5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a),dair  eleştirel  sorular  sorulur.  Bu  bileşenlerde  olabilecek,2024-style,math_curriculum_2024
+5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),seçilerek öğrencilerin günlük hayatta karşıla-,2024-style,math_curriculum_2024
+5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),ilişkin,2024-style,math_curriculum_2024
+5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),dağılımları incelemeleri istenir.,2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,a),KAVRAMSAL,2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,a),Bir doğal sayının asal çarpanları ve bölenleri hakkında varsayımlarda bulunur.,2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,b),Farklı örneklerden elde ettiği örüntüleri listeleyerek bir doğal sayının asal çarpanla-,2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,c),Oluşturduğu genellemelerin varsayımlarını karşılayıp karşılamadığını örneklerle sı-,2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,d),Elde ettiği önermelerin gerçek yaşam durumları içeren problemlerdeki kullanışlılı-,2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,a),Birden çok doğal sayının ortak bölenleriyle bunların en büyüğü ve ortak katlarıyla,2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,b),Farklı örneklerden elde ettiği örüntüleri listeleyerek varsayımlarına yönelik örün-,2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,c),Oluşturduğu genellemelerin varsayımlarını karşılayıp karşılamadığını örneklerle sı-,2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,d),Sunduğu önermelerin gerçek yaşam durumları içeren problemlerdeki katkısını de-,2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,e),Elde ettiği önermeler ile ilgili matematiksel doğrulama yöntemlerini seçer ve kul-,2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,f),Elde ettiği önermelere ilişkin işe koştuğu matematiksel doğrulamayı  kullanışlılığı,2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,a),"2, 3, 4, 5, 6, 9 ve 10 ile bölünebilme özelliklerinden hareketle bir doğal sayının 2, 3, 4,",2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,b),Aynı sayı ile bölme işleminden elde edilecek kalanlara ilişkin farklı örneklerle ilgili,2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,c),Oluşturduğu genellemenin kendi varsayımını karşılayıp karşılamadığını örneklerle,2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,d),Ulaştığı önermelerin katkısını bu sayıların en küçük ortak katlarından oluşan sayıla-,2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,e),Önermelere ilişkin matematiksel doğrulama yöntemlerini seçer ve kullanır.,2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,f),Önermelere ilişkin işe koştuğu matematiksel doğrulama yöntemini kullanışlılığı açı-,2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,e),"Öğrenme çıktıları; çalışma kâğıdı, açık uçlu sorular ve performans görevi ile değerlendi-",2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,i),değerlendirildiği uygulamalara yer verilir. Ayrıca bu önermelerin değerlendirilmesinde,2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,i),EBOB ve EKOK özelliklerini gösteren posterler hazırlamaları iste-,2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,i),içeren,2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,i),bölünebilmesine  dair  değerlendirmeler,2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,i),inceleyecekleri  araştırma  ödevleri  verilebilir.  Böylece,2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,r),asallığı üzerinde denemeleri,2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,h),"sanısı gibi] veya asal sayıların özellikleri hakkında [ikiz asallar, Fermat (Feğma)",2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,n),asalları  gibi]  araştırmalar  yapmaları  istenir.  Bu  araştırma,2024-style,math_curriculum_2024
+1. TEMA: SAYILAR,s),çalışmaları incelenir.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),siyondan  hareketle  doğrusal  fonksiyonların  nitel  özellikleri  hakkında  muhakeme  yapa-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),özellikleri ile bu fonksiyondan türetilen g(x),2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r),"± k, (a, r, k",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),"Doğrusal  referans  fonksiyonun  nitel  özelliklerini  (tanım  kümesi,  görüntü  kümesi,",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),matematiksel temsilleri kullanarak belirler.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Doğrusal referans fonksiyonun nitel özellikleri ile matematiksel temsilleri arasında-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Doğrusal referans fonksiyonu grafik veya cebirsel temsili üzerinde yapılan işlemler-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),Doğrusal referans fonksiyonun nitel özelliklerinden hareketle diğer doğrusal fonksi-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),Varsayımlarına dayalı olarak doğrusal fonksiyonların nitel özelliklerine ilişkin örün-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,l),geneller.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g),Genellemelerinden elde ettiği önermeleri uygun sözel veya sembolik dil ile sunar.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h),Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0) şeklinde tanımlı mutlak,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),Gerçek sayılarda f(x),2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),x,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),= ±,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),± c,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Gözlemlerinden yola çıkarak gerçek sayılarda,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),±,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Tespit ettiği nitel özelliklerinden hareketle gerçek sayılarda,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),parçalı gösterimine yönelik çıkarımlarda bulunur.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),Doğrusal fonksiyonlarla ifade edilebilen denklem ve eşitsizliklere ilişkin bileşenleri,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),belirler.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Doğrusal fonksiyonlarla ifade edilebilen denklem ve eşitsizliklere ilişkin matematik-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Doğrusal fonksiyonlarla ifade edilebilen denklem ve eşitsizliklerin problem bağla-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),Elde  ettiği  ve  yorumladığı  farklı  temsillere  dayalı  olarak  problemin  çözümü  için  strateji,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),Belirlediği stratejiyi kullanarak problemi çözer.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f),Elde ettiği çözümü uygun yöntemleri seçerek doğrular.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g),Problemin olası  çözüm stratejilerini gözden geçirir.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h),"Çıkarımlarının geçerliliğini sözel, cebirsel ve grafiksel argümanlarla değerlendirir.",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"= x,  f (x) = ax ± b, f (x) =",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),= ±,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),ℝ,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),arasındaki ilişkilere dayalı olarak,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"a ∙ f(x ± r) ± k,",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0) şeklinde tanımlı doğrusal fonksiyonların grafik ve cebirsel temsiline ulaşma-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0)  şeklinde  tanımlı,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"ax  +  b  (a,  b",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),doğrusal fonksiyonda a > 0 veya a < 0 olması durumunun fonksiyonun artanlığı-azalanlığı,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"x1,",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,k),ispatlar  yapıldıktan  sonra,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),şeklinde tanımlı fonksiyonun grafik temsili incelenir.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),±,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),fonksiyonunun,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),mutlak değer fonksiyonunun cebirsel ve grafiksel ilişkileri incelenir. Burada fonksiyonların,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),±,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),temsili arasındaki ilişki gözlemlenir. Yapılan inceleme ve gözlemler sonucu fonksiyona ait nitel,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),bir cebirsel temsili olarak parçalı gösterimine dair çıkarımlar (iki farklı doğrusal fonksiyonun,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),yapmaları beklenir (MAB3).,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),±,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),f(x),2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),f(x),2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"> k,",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),=,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"< 0, f(x) > 0,",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"≤ g(x), f(x) ≥ g(x), f(x)",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),MAT.9.2.3,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"≥ g(x),",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),likler; cebirsel veya grafik olarak elde edilir. Bu denklem ve eşitsizliklerin matematiksel bileşen-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),",",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),< 0 eşitsizliğinin çözüm aralığı,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),< 0 şeklindeki bir eşitsizliğin,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),< g(x) şeklindeki eşitsizliklerin özel bir hâli (g(x),2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),geliştirilebilir (D16.2).,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),farklı uygulamalar yaptırılır.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),= ± |ax ± b| ± c,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"= ax ± b (a, b∈",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),kullanılır.,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,a),Algoritmik yaklaşımla ele alınabilecek bir problemdeki işlem ve süreçlere yönelik bi-,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,b),"Problem durumlarında temsillerle (liste, tablo, çizge, akış şeması, algoritmik doğal",2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),matematiksel yapılar arasındaki ilişkileri belirler.,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,c),"Problem durumlarındaki sözel, görsel veya cebirsel ifadeleri algoritmik dile dönüş-",2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,d),Karşılaşılan problem durumlarında algoritma temelli bir çözüm stratejisi oluşturur.,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,e),Karşılaşılan problem durumlarında seçtiği algoritma temelli çözüm stratejisini kul-,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,f),Karşılaşılan problem durumlarında seçtiği algoritma temelli çözüm stratejisini kont-,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,g),Algoritma temelli çözülebilen problemlerin  olası çözüm stratejilerini gözden geçirir.,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,h),Algoritma temelli çözülebilen problemlerde çözüme ulaştıran stratejilere yönelik çı-,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,a),Algoritmik yapılar içerisinde kullanılan mantık bağlaçlarını ve niceleyicileri belirler.,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,b),Algoritmik yapılar ile mantık bağlaçları ve niceleyiciler arasındaki ilişkileri belirler.,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,a),Karşılaştığı algoritmalardaki mantık bağlaçları ve niceleyicilerin kullanımını gözden,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,b),"Matematiksel problem çözme, doğrulama ve ispat süreçlerinde mantık bağlaçları ve",2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,c),Mantık bağlaçları ve niceleyicilerin matematiksel dil ve sembolizmin yalınlık ve kesin-,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,e),"Öğrenme çıktıları; çalışma kâğıdı, performans görevi ve araştırma ödevi ile değerlen-",2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),çözümlenmesine ve bu kodlamalarla ilgili akış şemaları oluşturulması-,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,d),ifade edebildiği kabul edilmektedir.,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),arkasında yatan matematiği fark etmeleri,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,r),Kö-,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,k),köprüsü problemi tarihî bağlamı ile birlikte tanıtılarak öğrencilerin,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),ülkemizin gelişmesinin önemi vurgulanır.,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),"doğal sayı problemleri, asal çarpanlara ayırma, verilen iki sayı-",2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),ele alınır.,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,y),"dönüştürülmesi bir şifreleme örneği olarak ele alınır (E1.1, E3.11). Çizge ku-",2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),ve düğüm (nokta) açıklandıktan sonra (çizge,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,n),öğrencilerin,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,d),problem durumlarında na-,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),algoritmasını  yazma  (doğal  dil  ya  da  akış  şeması)    veya  verilen  bir  algoritma-,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),çözümlenmesine yönelik araştırma,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,k),tekrar çözülür ve önceki adımda elde edilen çözümün doğruluğu kontrol edilir. Mate-,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),geçen,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,e),"ve niceleyicilerin (her, bazı) anlamları de-",2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,d),oluşturularak belirlenir  (OB4). Öğrencilere algoritmik yapılar içindeki,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),alınarak bu önermenin doğru-,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,f),algoritma örnekleri Öklid algoritması ile ilişkilendirilerek öğrencilerden benzer,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),sağladığı avantajlara yönelik araştırma yapmaları ve sonuçlarını,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),hareketle,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,n),turu ve gezgin satıcı,2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,y),"kod oluşturmada, bunları çözümlemeyi gerektiren problemlerde öğren-",2024-style,math_curriculum_2024
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),kullanılır.,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,a),"Mevcut bilgisi dâhilinde geometrik dönüşümlerin (yansıma, öteleme, dönme) özel-",2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,b),İncelediği örnekler üzerinden dönüşümlerin özelliklerine ve şekillerin dönüşümler,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,c),Dönüşümlerin özellikleri ve şekillerin dönüşümler altındaki görüntüsüne  ilişkin var-,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,d),Geometrik dönüşümlerle ilgili elde ettiği önermeleri konu ile ilgili başka çıkarımlar,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,a),İki üçgenin eş veya benzer olma koşullarına ilişkin varsayımlarda bulunur.,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,b),İncelediği örnekler üzerinden iki üçgenin eş veya benzer olma koşullarına ilişkin var-,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,c),İki üçgenin eş veya benzer olma koşullarına ilişkin varsayımları ile elde ettiği genel-,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,d),İki  üçgenin  eş  veya  benzer  olma  koşullarına  dair  elde  ettiği  önermelerin  farklı  ve,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,a),Bir üçgene benzer üçgenler oluştururken eşlik ve benzerlik deneyimlerini gözden,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,b),Deneyimlerine dayalı çıkarımlar yapar.,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,c),Bir üçgenden hareketle ona benzer üçgenler oluşturma ile ilgili ulaşılan çıkarımları,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,a),"Tales, Öklid ve Pisagor teoremlerine ilişkin farklı ispatları kullanır.",2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,b),Kullandığı matematiksel ispat ve teoremleri yeni durumlara uyarlayarak  değerlen-,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,a),Problemin verilen ve istenenlerine ilişkin parçaları belirler.,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,b),"Problemde verilenler, istenenler ve gerekli işlemler arasındaki ilişkileri belirler.",2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,c),Problemin parçaları arasındaki ilişkileri problem bağlamına uygun olarak dönüştürür.,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,d),Problemin çözümünü gerçekleştirmek için stratejiler oluşturur.,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,e),Belirlediği stratejiyi çözüm için uygulayarak problemi çözer.,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,f),Problemin çözümünü kontrol eder.,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,g),"Problemin  çözümü  için  geliştirdiği,  kullandığı  stratejilerdeki  kısa  yolları  ve  çözüme",2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,h),Ulaştığı çıkarımların geçerliliğini matematiksel örneklerle değerlendirir.,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,e),bu üçgene eş üçgenler üretilebilir.,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,e),"Öğrenme çıktıları; çalışma kâğıdı, açık uçlu sorular, proje ödevi ve performans görevi ile",2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,i),öğrencilere rehberlik edilmesi önemlidir. Öğrencilerin sundukları varsayımlarla,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,i),olarak ifade edilir. Elde edilen önermelerin de-,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,i),fark etmesi sağ-,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,i),süreç yönetilir. Öğrencilerden eşlik ve benzerlik,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,i),belirlenmesini  hedefleyen  öğrenme  ortamları  oluşturulur.  Bu  süreçte,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,e),çizerek benzer üçgen oluşturabilen öğrencilerin bu çıkarımlarından hareketle ifadelerine,2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,i),"yorumlamaları beklenir. Öğrencilere Tales, Öklid ile Pisagor teoremlerini,",2024-style,math_curriculum_2024
+5. TEMA: EŞLİK VE BENZERLİK,r),kul-,2024-style,math_curriculum_2024
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a),"İki kategorik değişkenli veriye dayalı, istatistiksel araştırma gerektiren gerçek ya-",2024-style,math_curriculum_2024
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,b),Bağlam içerisinde iki kategorik değişken arasındaki ilişkililiğe odaklanan araştırma,2024-style,math_curriculum_2024
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,c),İki kategorik değişkenli veri toplamak/elde etmek için plan yapar.,2024-style,math_curriculum_2024
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,d),Araştırma sorusu bağlamında toplanan/elde edilen iki kategorik değişkenli verileri,2024-style,math_curriculum_2024
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),araçlarından uygun olanı seçer.,2024-style,math_curriculum_2024
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e),Araştırma sorusu bağlamında toplanan/elde edilen verileri belirlediği araçlarla ana-,2024-style,math_curriculum_2024
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,f),İki kategorik değişkenli veri dağılımlarına dayalı istatistiksel araştırmadan hareketle,2024-style,math_curriculum_2024
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,g),İki kategorik değişkenli veri dağılımlarına dayalı istatistiksel araştırmadan hareket-,2024-style,math_curriculum_2024
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a),Başkaları tarafından oluşturulan iki kategorik değişkenli verilerin ilişkililiğine dayalı,2024-style,math_curriculum_2024
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,b),Başkaları tarafından oluşturulan iki kategorik değişkenli verilerin ilişkililiğine dayalı,2024-style,math_curriculum_2024
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,c),Başkaları tarafından oluşturulan iki kategorik değişkenli verilerin ilişkililiğine dayalı,2024-style,math_curriculum_2024
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e),ÖĞRENME-ÖĞRETME,2024-style,math_curriculum_2024
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e),ÖĞRENME-ÖĞRETME,2024-style,math_curriculum_2024
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),"belirlenip oluşturulması, verilerin toplanması ve analize hazır hâle getirilmesi beklenir",2024-style,math_curriculum_2024
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),uygun olanlar seçilir (MAB3). Uygun olan araçların belirlenmesinde araştırma,2024-style,math_curriculum_2024
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),kul-,2024-style,math_curriculum_2024
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,r),içermesi önemlidir. Bu,2024-style,math_curriculum_2024
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),kullanabileceklerini bilmeleri ve bu kaynakları kullanırken nelere dikkat etmeleri gerekti-,2024-style,math_curriculum_2024
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),"arasında tutarlılık olup olmadığı; yanlı, yanlış veya eksik bilgilerin olup ol-",2024-style,math_curriculum_2024
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),"hareketle araştırma sorusu oluşturmaları,",2024-style,math_curriculum_2024
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),öğrencilere sunulur ve öğrencilerin bu durumlara iliş-,2024-style,math_curriculum_2024
+7. TEMA: VERİDEN OLASILIĞA,a),Bir olayın gerçekleşmesinin diğer bir olayın meydana gelmesine bağlı olduğu du-,2024-style,math_curriculum_2024
+7. TEMA: VERİDEN OLASILIĞA,b),Bir olayın gerçekleşmesinin diğer bir olayın meydana gelmesine bağlı olduğu ger-,2024-style,math_curriculum_2024
+7. TEMA: VERİDEN OLASILIĞA,c),Bir olayın gerçekleşmesinin diğer bir olayın meydana gelmesine bağlı olduğu ya da,2024-style,math_curriculum_2024
+7. TEMA: VERİDEN OLASILIĞA,d),Bir olayın gerçekleşmesinin diğer bir olayın meydana gelmesine bağlı olduğu ya da,2024-style,math_curriculum_2024
+7. TEMA: VERİDEN OLASILIĞA,a),Bayes teoreminin kullanıldığı gerçek yaşam durumlarına ilişkin mevcut bilgileri kul-,2024-style,math_curriculum_2024
+7. TEMA: VERİDEN OLASILIĞA,b),Mevcut bilgileri kullanarak Bayes teoremine dayalı hesaplama yapar.,2024-style,math_curriculum_2024
+7. TEMA: VERİDEN OLASILIĞA,c),Bayes teoreminin kullanıldığı gerçek yaşam durumlarına ilişkin ileriye yönelik yargı-,2024-style,math_curriculum_2024
+7. TEMA: VERİDEN OLASILIĞA,e),"Öğrenme çıktıları; çalışma kâğıdı, kontrol listesi, açık uçlu sorular ve performans görevi",2024-style,math_curriculum_2024
+7. TEMA: VERİDEN OLASILIĞA,k),uygun olanı belirleyerek bu yaklaşıma uygun karar verebildik-,2024-style,math_curriculum_2024
+7. TEMA: VERİDEN OLASILIĞA,k),arasında,2024-style,math_curriculum_2024
+7. TEMA: VERİDEN OLASILIĞA,i),ve bağımlı olayları (hilesiz iki sayı küpü atıldığında küplerin üst yüzeylerine,2024-style,math_curriculum_2024
+7. TEMA: VERİDEN OLASILIĞA,i),içermesine dikkat edilir. Gerçek yaşam durumlarından seçilebilecek bağım-,2024-style,math_curriculum_2024
+7. TEMA: VERİDEN OLASILIĞA,i),"ilişkin tüm olası çıktıların ağaç şeması, tablo veya alan modeli gibi farklı temsiller kul-",2024-style,math_curriculum_2024
+7. TEMA: VERİDEN OLASILIĞA,i),öğrencilerin,2024-style,math_curriculum_2024
+7. TEMA: VERİDEN OLASILIĞA,i),gibi durum-,2024-style,math_curriculum_2024
+7. TEMA: VERİDEN OLASILIĞA,i),verilir. Gerçek yaşam durumlarına ilişkin elde edilen oranlar veya göreli sıklıklar;,2024-style,math_curriculum_2024
+7. TEMA: VERİDEN OLASILIĞA,z),"algoritmasına, Enigma’da kullanılan",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),KAVRAMSAL,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),Gerçek sayılarda fonksiyon olma şartları ile gerçek sayılarda tanımlı fonksiyonların,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),grafik  ve,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Gerçek  sayılarda  tanımlı  fonksiyonların  grafik  ve  cebirsel  temsillerini  fonksiyon,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Karşılaştırmalarından  hareketle  gerçek  sayılarda  tanımlı  fonksiyonların  grafik  ve,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),x2 şeklinde tanımlı karesel referans fonksiyonun nitel,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0)),2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r),karesel fonksiyonların nitel özelliklerine ilişkin matematiksel muhakeme yapabilme,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),"Karesel referans fonksiyonun nitel özelliklerini (tanım kümesi, görüntü kümesi,",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),matematiksel temsilleri kullanarak belirler.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Karesel referans fonksiyonun nitel özellikleri ile matematiksel temsilleri arasındaki,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Karesel referans fonksiyonu grafik ve cebirsel temsili üzerinde yapılan işlemlerle,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),Karesel referans fonksiyonun nitel özelliklerinden hareketle diğer karesel fonksi-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),Varsayımlarına dayalı olarak karesel fonksiyonların nitel özelliklerine ilişkin örüntü-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,l),geneller.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g),Genellemelerinden elde ettiği önermeleri uygun sözel veya cebirsel dil ile sunar.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h),Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0) şeklinde tanımlı karekök referans fonksiyonun,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0)),2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r),karekök fonksiyonlarının nitel özelliklerine ilişkin matematiksel muhakeme yapabilme,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),"Karekök referans fonksiyonun nitel özelliklerini (tanım kümesi, görüntü kümesi, işareti,",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),matematiksel temsilleri kullanarak belirler.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Karekök referans fonksiyonun nitel özellikleri ile matematiksel temsilleri arasındaki,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Karekök referans fonksiyonu grafik ve cebirsel temsili üzerinde yapılan işlemlerle diğer,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),Karekök referans fonksiyonun nitel özelliklerinden hareketle diğer karekök fonksiyon-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),Varsayımlarına dayalı olarak karekök fonksiyonlarının nitel özelliklerine ilişkin örüntüle-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,l),geneller.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g),Genellemelerinden elde ettiği önermeleri uygun sözel veya cebirsel dil ile sunar.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h),Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),nun nitel özellikleri ile bu fonksiyondan türetilen (g(x),2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r),a ∙ f(x,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),"Rasyonel referans fonksiyonun nitel özelliklerini (tanım kümesi, görüntü kümesi, işare-",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),matematiksel temsilleri kullanarak belirler.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Rasyonel referans fonksiyonun nitel özellikleri ile matematiksel temsilleri arasındaki,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Rasyonel referans fonksiyonu grafik ve cebirsel temsili üzerinde yapılan işlemlerle di-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),Rasyonel referans fonksiyonun nitel özelliklerinden hareketle diğer rasyonel fonksiyon-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),Varsayımlarına dayalı olarak rasyonel fonksiyonların nitel özelliklerine ilişkin örüntüleri,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,l),geneller.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g),Genellemelerinden elde ettiği önermeleri uygun sözel veya cebirsel dil ile sunar.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h),Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),Referans fonksiyonlar ve bunlardan türetilebilen fonksiyonlar üzerinden bir fonksiyo-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Varsayımlarından  yararlanıp  farklı  durumlarla  ilgili  örüntüleri  listeleyerek  referans,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Referans fonksiyonlar ve bunlardan türetilen fonksiyonların ters fonksiyonlarıyla ilişki-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),Referans  fonksiyonlar  ve  bunlardan  türetilen  fonksiyonların  ters  fonksiyonlarına  ait,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),Bu fonksiyonlarla ifade edilebilen denklem ve eşitsizliklere ilişkin matematiksel bile-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),belirler.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Bu fonksiyonlarla ifade edilebilen denklem ve eşitsizliklere ilişkin matematiksel bile-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Bu  fonksiyonlarla  ifade  edilebilen  denklem  ve  eşitsizliklerin  problem  bağlamındaki,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),Elde ettiği ve yorumladığı farklı temsillerden yararlanarak problemin çözümü için stra-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),Belirlediği stratejiyi kullanır.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f),Elde ettiği çözümü farklı yöntemleri kullanarak doğrular.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g),Problemin olası  çözüm stratejilerini gözden geçirir.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h),"Çıkarımlarının geçerliliğini sözel, cebirsel ve grafiksel argümanlarla değerlendirir.",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),x2,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),x,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),g(x),2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r),"± k, f -1(x)",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),94,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),yararlanıla-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),analiz edilir. Bu analiz yapılırken “Tanım kümesindeki her bir gerçek sayının değer küme-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),>  f(y),2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),< f(y) dir.” gibi önermeler fonksiyonların cebirsel veya grafik temsilleri kullanılarak,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),yer verilir.  1700’lü yıllara gelindiğinde matema-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),bu tanımı daha formel hâle getirdiği belirtilir. Fonksiyon kavramının,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0)),2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r),"± k (a, r, k",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),varsayım  geliştirilirken  fonksiyonun  sıfırları  (0  ve  -4)  ve  grafiğinin  simetrik  olması  dikkate,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),şeklinde tamkareye tamamlanarak grafik temsili dönüşümlerle elde edilir. Bu şekilde fonk-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),fonksiyonun,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),3 iken f(x),2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"tamkare formuna dönüştürülmesine ilişkin yorumlar, varsayımlar",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),geliştirmede etkin şekilde kullanılır. Bu bağlamda Harizmi’nin tamkareye tamamlama yöntemini,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),için x2 ≥ 0 olduğundan x2 + a ≥ a olur. Bu durumda,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),≥ a olur.” cebirsel,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),kullanma ve çarpanlara ayırma gibi matematiksel doğrulama yöntemlerini,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),kullanışlılık açısından değerlendirmeleri beklenir.,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),hangi aralıkta değer alır?”,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),1,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),"problemleri, üretim-tüketim gibi bağlamlarda incelenir.",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"<  g(x),",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"=, <, >, ≤, ≥",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"≤ g(x) gibi denklem ve eşitsizliklerin tanımlanması sağlanır  (E3.6, E3.7). Burada kullanı-",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,l),dönüşüm yapı-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),=,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),< 0 gibi eşit-,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,p),"(m, k, p, n",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g),"bağlı olarak gelirinin (Türk lirası) ve maliyetinin (Türk lirası)  [0, ∞) nda tanımlı sı-",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),=4x2 ve g (x) =18x fonksiyonları ile modellendiği durumda bu fonksiyonların grafik,2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"≥ g (x) eşitsizliğinin  çözüm kümesi, [9/2, ∞) olarak belirlenir. Bu durumda",2024-style,math_curriculum_2024
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),kullanılır.,2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",a),Verilen sayma problemindeki  sayılacak nesneleri belirler.,2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",b),Sayma problemlerinde yer alan  nesneler arasındaki ilişkileri belirler.,2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",c),Problem durumlarındaki sözel ifadeleri görsel temsillere dönüştürür.,2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",d),Sayma problemlerindeki farklı durumlara uygun çözüm stratejisi oluşturur.,2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",e),Seçtiği çözüm stratejisini kullanır.,2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",f),Seçtiği çözüm stratejisini kontrol eder.,2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",g),Sayma problemlerindeki olası çözüm stratejilerini gözden geçirir.,2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",h),Sayma problemlerinde çözüme ulaştıran stratejilere yönelik çıkarımları değerlen-,2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",a),Karşılaşılan problem durumlarındaki cebirsel ve fonksiyonel işlemlerin algoritmik,2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",b),Ön bilgilerini kullanarak cebirsel ve fonksiyonel yapılar ile bu yapıların algoritma-,2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i),ve bu problemlerin çözümüne,2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",e),102,2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",d),oluşturabildikleri veya verilen algoritmayı çözümleye-,2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",a),yaptıkları  iş-,2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i),"yönelik görüşleri alınır. Bu süreç,",2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i),"ele alınır. Daha karmaşık bir problem durumu, içerdiği sayma yöntemi bakımından",2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",t),"hesapları, sırala-",2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i),içermelidir. İçinde özdeş,2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",k),"ve niceleyicileri (her,",2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i),inceleme ve karekökle ifade edilmiş bir irrasyonel sayının yaklaşık değerini bulmada kul-,2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",x),Öğrencilere  algoritma  oluşturmadaki  ön  bilgilerini  kullanarak  cebirsel  ve  fonksiyonel,2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",d),bir çözüm üretmesi,2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",d),oluşturmaları istenir. Bu ve bunun gibi örnekler üzerinden öğrencilerin olası,2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",l),"cebri, çizge kuramı, en-",2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i),üzerinden grup çalışmaları veya pro-,2024-style,math_curriculum_2024
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i),kullanılır.,2024-style,math_curriculum_2024
+5. TEMA: ANALİTİK İNCELEME,a),KAVRAMSAL,2024-style,math_curriculum_2024
+5. TEMA: ANALİTİK İNCELEME,a),Dik koordinat sisteminde iki nokta arasındaki uzaklık bağıntısı ve bir doğru parçasını,2024-style,math_curriculum_2024
+5. TEMA: ANALİTİK İNCELEME,b),Farklı örnekler üzerinden varsayımlarına yönelik örüntüleri geneller.,2024-style,math_curriculum_2024
+5. TEMA: ANALİTİK İNCELEME,c),İki  nokta  arasındaki  uzaklık  bağıntısına  ve  bir  doğru  parçasını  belli  oranda  bölen,2024-style,math_curriculum_2024
+5. TEMA: ANALİTİK İNCELEME,d),Önermeleri gerçek yaşam problemleri bağlamında değerlendirir.,2024-style,math_curriculum_2024
+5. TEMA: ANALİTİK İNCELEME,a),"Dik  koordinat  sistemini  doğrunun  eğim  açısını,  eğimini  ve  doğruların  birbirlerine",2024-style,math_curriculum_2024
+5. TEMA: ANALİTİK İNCELEME,b),"Karşılaştığı problem durumlarında dik koordinat sistemini doğrunun eğim açısını,",2024-style,math_curriculum_2024
+5. TEMA: ANALİTİK İNCELEME,c),"Dik  koordinat  sistemini  doğrunun  eğim  açısını,  eğimini  ve  doğruların  birbirlerine",2024-style,math_curriculum_2024
+5. TEMA: ANALİTİK İNCELEME,e),"|AB|, A",2024-style,math_curriculum_2024
+5. TEMA: ANALİTİK İNCELEME,t),ve Fermat’nın analitik geometriyle ilgili çalışmaları tanı-,2024-style,math_curriculum_2024
+5. TEMA: ANALİTİK İNCELEME,k),analitik olarak hesaplanıp gerçek uzaklıkla karşılaştırılarak dijital okuryazarlık,2024-style,math_curriculum_2024
+5. TEMA: ANALİTİK İNCELEME,t),ve Fermat’nın analitik geometriyle ilgili çalışmaları tanı-,2024-style,math_curriculum_2024
+5. TEMA: ANALİTİK İNCELEME,a),be-,2024-style,math_curriculum_2024
+5. TEMA: ANALİTİK İNCELEME,i),sahip iki doğru arasındaki,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),f (x),2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),x,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),tanx,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),∈,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),r),(,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),a),"Trigonometrik referans fonksiyonların nitel özelliklerini (tanım kümesi, görüntü kü-",2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),u),matematiksel temsilleri kullanarak belirler.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),b),Trigonometrik  referans  fonksiyonların  nitel  özellikleri  ile  matematiksel  temsilleri,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),c),Trigonometrik referans fonksiyonları grafik ve cebirsel temsili üzerinde yapılan iş-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),d),Trigonometrik referans fonksiyonlardan türetilen fonksiyonların nitel özelliklerine,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),e),Varsayımlarından yararlanıp farklı durumlarla ilgili örüntüleri listeleyerek türetilen,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),f),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),g),Genellemelerinden elde ettiği önermeleri uygun sözel veya cebirsel dil ile sunar.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),h),Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),a),Trigonometrik fonksiyonlarla ifade edilebilen denklemlere ilişkin matematiksel bi-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),belirler.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),b),Trigonometrik fonksiyonlarla ifade edilebilen denklemlere ilişkin matematiksel bile-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),c),Trigonometrik fonksiyonlarla ifade edilebilen denklemlerin problem bağlamındaki,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),d),Elde ettiği ve yorumladığı farklı temsillere dayalı olarak problemin çözümü için stra-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),e),Belirlediği stratejiyi kullanır.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),f),Elde ettiği çözümü farklı yöntemleri kullanarak doğrular.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),g),Problemin olası çözüm stratejilerini gözden geçirir.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),h),"Çıkarımlarının geçerliliğini sözel, cebirsel ve grafiksel argümanlarla değerlendirir.",2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),e),"2π, 360°, sinx, cosx, cotx, T, tanx",2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),"araştırma ödevi verilebilir. Verilen ödev; hazırlık, içerik ve sunum süreçlerini",2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),y),noktası kullanılarak,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),"sinx/cosx, cotx",2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),"gerçek sayılarda tanımlı olduğunu ve bu fonksiyonların görüntü kümesinin [-1,1] olduğunu",2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),keşfetmelerine yönelik çalışmalar yapılır.  f(x),2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),r),", k",2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),"cebirsel temsillerle ifade edilir (E3.6, E3.7). Bu dönüşümler elde edilip yorumlanırken  ma-",2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),n),"hareket yasaları, sabit ivmeli",2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),gibi  önermelere  ilişkin  ilgili  fonksiyonun,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),r),k ∙ f (mx,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),"0, m",2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),h(x) gibi eşitliklerle trigonometrik denklemlerin,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),±,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),l),dönüşüm yapılır.  Bu temsiller arasındaki geçişlerin gösterilebilmesi,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),kulla-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),kullanılır.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a),KAVRAMSAL,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a),Gerçek sayılarda tanımlı doğrusal ve karesel fonksiyonlarla,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),an xn + an-1 xn-1+ ... +a1 x + a0 (n∈,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),b),Gözlemlerinden  yola  çıkarak  gerçek  sayılarda  tanımlı    doğrusal  ve  karesel  fonk-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),formundaki  polinom  fonksiyonların  tanım  ve  değer  kümesi  ile  işlem  özelliklerinin,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),c),Tespit  ettiği  özelliklerden  hareketle  gerçek  sayılarda  tanımlı  doğrusal  ve  karesel,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),siyonların aynı aileden olduğuna ve benzer nitel özelliklere sahip olabileceklerine,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a),Gerçek katsayılı tek değişkenli polinom fonksiyonların nitel özelliklerine (tanım kü-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),i),"mesi, görüntü kümesi, derecesi, bire birliği, örtenliği, işareti, sıfırları, tekliği",2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),b),Gerçek katsayılı tek değişkenli polinom fonksiyonların nitel özelliklerine dair varsa-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),c),Gerçek katsayılı tek değişkenli polinom fonksiyonların nitel özelliklerine dair genel-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),d),Gerçek katsayılı tek değişkenli polinom fonksiyonların nitel özelliklerine dair öner-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a),Polinom ve rasyonel fonksiyonlarla ifade edilebilen denklem ve eşitsizlikleri içeren,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),b),Oluşturduğu stratejiyi kullanarak problemi çözer.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),c),Problemin çözümünü kontrol eder.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),d),Problemin olası çözüm stratejilerinin farklı problem durumlarında kullanımı ile ilgili,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),e),"Çıkarımlarının geçerliliğini sözel, cebirsel ve grafiksel argümanlarla değerlendirir.",2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),e),"Öğrenme çıktıları; çalışma kâğıdı,  performans görevi, proje ödevi, açık uçlu sorular ve araş-",2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),"polinom olarak adlandırıldığı belirtilerek polinomun derecesi, başkatsayısı, sabit terimi tanı-",2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),i),matematik yazılımıyla oluşturu-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),lan grafik ve cebirsel temsillerini inceleyerek bu fonksiyonların teklik veya çiftlik durumlarına,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),"x3 + 3x, p(x)",2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),m),için p(x),2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),"polinom fonksiyonunun sıfırları  k, m (k, m∈",2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),polinom fonksiyonunun sıfırları,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),k),) iken a > 0,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a),"polinom fonksiyonunun sıfırları k + a, m + a olur.” gibi önermeler elde edilir",2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a),uygulamayı hedefleyen projesi incelenir (OB5). Polinom fonksiyonların tarihî gelişiminin,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),< g(x) gibi polinom veya rasyonel fonksiyon içeren,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),f(x) - g(x) fonksiyonunun işaretini birinci dereceden çar-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),rın hangi ardışık tam sayılar arasında olacağına dair çıkarımda bulunmaları fonksiyonların,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),t),formülle-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),rine yönelik araştırma ödevi verilebilir. Öğrencilerden araştırma sonucunda ulaşılan verileri,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),r),yöntemine  yer  verilir.  Bir  kökü  tahmin,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),x4 fonksi-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),x2+1,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),x-1,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),=,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),i),kullanılır. Öğrenciler için bireyselleştirilmiş öğrenme planları oluşturulur ve po-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),e),-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),a),İki veya daha fazla fonksiyonun bileşkesinden oluşan bir fonksiyonun bileşenlerini,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),i),belirler.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),b),İki veya daha fazla fonksiyonun bileşkesinden oluşan bir fonksiyonun bileşenleri ara-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),c),İki veya daha fazla fonksiyonun bileşkesiyle elde ettiği fonksiyonları sembolik bir dile,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),d),"Bileşke fonksiyonlara ve bu fonksiyonların nitel özelliklerine (işareti, artanlığı-azalan-",2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),i),ilişkin,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),e),Varsayımlarına dayalı olarak bileşke fonksiyonlara ve bileşke fonksiyonların nitel özel-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),f),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),g),Genellemelerinden elde ettiği önermeleri matematiksel olarak doğrulayabileceği,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),h),Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),a),Fonksiyonlarda dört işlemin yapılabilme koşullarını inceler.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),b),Fonksiyonlarda dört işlemi uygun cebirsel veya grafik temsillerle ifade eder.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),c),Fonksiyonlarda  dört  işlem  özelliklerini  dönüştürdüğü  fonksiyonlar  bağlamında  sözel,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),e),"(f ° g) (x), f (g (x)), ( f+g) (x) ,(f-g) (x), (f.g) (x), (f/g) (x)",2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),f (x) - 2 olmasından yola çıkılarak f  fonk-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),(x-2)2 şeklinde tanımlı fonksiyondan hareketle,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),(h(x))2 şeklinde tanımlı fonksi-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),yona dönüşüm üzerinde durulur. Bu bağlamda dönüşüm sonucu oluşan fonksiyonun birden,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),=,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),g),(x) gösterimleri kullanılır (MAB3). fog fonksiyonunun tanımlı olabil-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),eşitliğinin her,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),f ve g fonksiyonu için sağlanıp sağlanamayacağına ve gerçek sayılarda tanımlı bir fonksiyon,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),"(g-1of-1)(x), (fo(goh))(x)",2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),gibi] değinilmez. Elde edilen var-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),g),(x) gösterimleri kullanılır (MAB3). fog fonksiyonunun tanımlı olabil-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),(gof)(x) eşitliğinin her,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),"f+g ve f-g fonksiyonlarının cebirsel ve grafik temsilleri oluşturulabilir. Ardından f, g, f+g, f-g",2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),=,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),< g(x)  ise (fof)(x) < (fog)(x)   gibi öner-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),d),fonksiyonlar ile bileşke fonksiyonun ilişkisini ortaya koyan örnekler incelenir. Döngüler kullanı-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),i),kullanılır. Öğrenciler için bireyselleştirilmiş öğrenme planları oluşturulur ve öğrencilerin,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,a),"Dörtgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin varsayımlarda",2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,b),"Varsayımlarını kullanarak dörtgenlerin kenar, açı, köşegen, simetri ve alan özellik-",2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,c),"Dörtgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin varsayımları ile",2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,d),"Dörtgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin sunduğu öner-",2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,e),"Elde ettiği önermeleri üçgenlerde açı, benzerlik ve alan özelliklerini kullanarak is-",2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,f),İşe koştuğu ispatı kullanışlılık açısından değerlendirir.,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,a),Dörtgenlerin  özelliklerini  kullanarak  özel  dörtgenler  arasında  hiyerarşik  veya  ne-,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,b),Özel dörtgenler arasındaki hiyerarşik ilişkilere dair anlamlı bir bütün oluşturur.,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,a),Çokgenleri ayırt etmek için ölçütler belirler.,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,b),Çokgenleri belirlediği ölçütlere göre ayrıştırır.,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,c),Ayrıştırdığı çokgenleri tasnif eder.,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,a),"Dışbükey çokgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine dair varsayım-",2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,b),"Varsayımlarını kullanarak dışbükey çokgenlerin kenar, açı, köşegen, simetri ve alan",2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,c),"Dışbükey çokgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin genelle-",2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,d),"Dışbükey çokgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin sundu-",2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,a),"Çokgenleri içeren problemlerin parçalarını (nicelik, şekil gibi) belirler.",2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,b),Problemin parçaları arasındaki ilişkileri belirler.,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,c),Problemin bileşenlerini ve aralarındaki ilişkileri bağlama uygun olarak matematiksel,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,d),Problemin çözümü için stratejiler geliştirir.,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,e),Geliştirdiği stratejileri kullanarak problemi çözer.,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,f),Çözümünü kontrol eder ve çözüme ulaştırmayan stratejiyi değiştirir.,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,g),Problemin olası farklı çözüm stratejilerini inceleyerek problemin çözümüne ilişkin de-,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,h),Ulaştığı çıkarımların geçerliliğini değerlendirir.,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,e),",",2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,i),işe koşulur.,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,i),olarak  ifade  etmesi  istenir.  Önermelerin  değerlendirilmesi  sürecinde  öğrencilerin  sunulan,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,i),"ve alan ( “Dörtgenin alanı,",2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,i),özelliklerine ilişkin çıkarımlarda bulunması sağlanır. Bunun yanı sıra öğrencilerden dört-,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,i),kullanarak dörtgenlere ilişkin başka çıkarımlara (“Paralelkenarın,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,i),vurgulan-,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,i),ve,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,i),olarak  ifade  etmesi  istenir.  Önermelerin  değerlendirilmesi  sürecinde  öğrencilerin  sunulan,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,i),ilgili yeni fikirler geliştirmeleri,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,i),öğrencilerle beraber belirlenir ve gerekçelendirilir. Öğrencilerin grup çalışması,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,i),sağlanır. Öğrencilere farklı kültürlere ve Türk,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,i),olarak ifade etmesi,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,i),kullanıldığı eserler incelenerek bu eserlerin yapımında kullanılan düzgün çokgenlerin nasıl,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,i),"yapılmasını sağlayacak süreç işe koşulur. Öğrencilerin düzgün beşgen, düz-",2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,i),özelliklerine iliş-,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,i),ve bu parçalar arasındaki ilişkileri belirlemeleri sağlanır.,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,i),çıkarımların matematiksel örneklerle desteklenerek değerlendirilmesi yapılır.,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,i),hakkın-,2024-style,math_curriculum_2024
+2. TEMA: GEOMETRİK ŞEKİLLER,i),altın,2024-style,math_curriculum_2024
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a),İki nicel değişkenli veriye dayalı istatistiksel araştırma gerektiren gerçek yaşam du-,2024-style,math_curriculum_2024
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,b),Bağlam içerisinde iki nicel değişken arasındaki ilişkililiğe odaklanan araştırma so-,2024-style,math_curriculum_2024
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,c),İki nicel değişkenli veri toplamak/elde etmek için plan yapar.,2024-style,math_curriculum_2024
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,d),Araştırma sorusu bağlamında toplanan/elde edilen iki nicel değişkenli verileri ana-,2024-style,math_curriculum_2024
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e),Araştırma sorusu bağlamında toplanan/elde edilen verileri belirlediği araçlarla ana-,2024-style,math_curriculum_2024
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,f),İki  nicel  değişkenli  veri  dağılımlarına  dayalı  istatistiksel  araştırmadan  elde  edilen,2024-style,math_curriculum_2024
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,g),İki  nicel değişkenli veri dağılımlarına dayalı  istatistiksel  araştırmadan elde edilen,2024-style,math_curriculum_2024
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a),Başkaları tarafından oluşturulan iki nicel değişkenli verilerin ilişkililiğine dayalı ista-,2024-style,math_curriculum_2024
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,b),Başkaları tarafından oluşturulan iki nicel değişkenli verilerin ilişkililiğine dayalı ista-,2024-style,math_curriculum_2024
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,c),Başkaları tarafından oluşturulan iki nicel değişkenli verilerin ilişkililiğine dayalı ista-,2024-style,math_curriculum_2024
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e),"Öğrenme çıktıları; çalışma kâğıdı, kontrol listesi ve kavram haritası, performans görevi ile",2024-style,math_curriculum_2024
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,h),arasında bir iliş-,2024-style,math_curriculum_2024
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),"belirleyip oluşturmaları, verileri toplamaları ve",2024-style,math_curriculum_2024
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),odaklanmaları sağlanır.,2024-style,math_curriculum_2024
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,f),ve gücüne (ilişki yok/zayıf/orta/güçlü) ilişkin yo-,2024-style,math_curriculum_2024
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),yoğunluğu etkileyebilir.,2024-style,math_curriculum_2024
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),kullana-,2024-style,math_curriculum_2024
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),ve sayısal değer (korelasyon katsayısı) arasında tutarlılık,2024-style,math_curriculum_2024
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),faydalanır. Bu süreçte,2024-style,math_curriculum_2024
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),"hareketle araştırma sorusu oluşturmaları, veri",2024-style,math_curriculum_2024
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),sunulur ve öğrencilerden bunlara ilişkin değerlendirme yapmaları istenir.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),a),Sayı örüntülerinin ardışık terimlerini belirler.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),b),Ardışık terimler arasındaki ortak fark/oran (çarpan) ilişkisini belirler.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),c),Sayı örüntülerinin her bir terimini belirlediği ortak farkı/oranı kullanarak ifade eder.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),d),Aritmetik/geometrik dizilerin sonlu toplamlarına ilişkin varsayımlarda bulunur.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),e),Varsayımlarından yararlanıp aritmetik/geometrik dizilerin sonlu toplamları ile ilgili,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),f),Aritmetik/geometrik dizilerin sonlu toplamlarına ilişkin genellemeleri ile varsayım-,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),g),Elde ettiği genellemelerden aritmetik/geometrik dizilerin sonlu toplamlarına ilişkin,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),h),Aritmetik  ve  geometrik  dizilerin  sonlu  toplamlarına  ilişkin  elde  edilen  önermeleri,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),a),Gerçek sayı dizileri ve gerçek sayılarda tanımlı fonksiyonların özelliklerini belirler.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),b),Gerçek  sayı  dizileri  ve  gerçek  sayılarda  tanımlı  fonksiyonların  özelliklerine  ilişkin,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),c),Gerçek  sayı  dizileri  ve  gerçek  sayılarda  tanımlı  fonksiyonların  özelliklerine  ilişkin,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),e),"an ,",2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),incelenir.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),n),geometrik dizisinin  ilk n terimin toplamının Sn = a1.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),işe koşularak değerlendirilir.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),ve iteratif (yinelemeli) diziler ile bu dizilerin algoritma ve akış,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),n),geometrik dizisinin  ilk n terimin toplamının Sn = a1.,2024-style,math_curriculum_2024
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),işe koşularak değerlendirilir.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),a),KAVRAMSAL,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),a),Bir fonksiyonun belirli bir nokta civarındaki veya sonsuzdaki davranışını grafiği üze-,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),b),Grafikten elde ettiği bilgileri tablo veya sözel temsiller yoluyla yaklaşma fikrine ula-,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),c),Bir fonksiyonun belirli bir nokta civarındaki veya sonsuzdaki limitini sözel olarak ye-,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),a),"Bir fonksiyonun tablo, grafik ve cebirsel temsili üzerinde belirli bir nokta civarında",2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),b),Bir fonksiyonun belirli bir nokta civarında veya sonsuzda aldığı değerler arasındaki,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),c),Bir fonksiyonun belirli bir nokta civarında veya sonsuzda aldığı değerler arasındaki,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),d),Farklı fonksiyonların ve bu fonksiyonlarla yapılan işlemlerin belirli bir noktadaki veya,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),e),Varsayımlarına dayalı örüntüleri geneller.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),f),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),g),Genellemelerini önerme olarak ifade eder.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),a),Bir fonksiyonun bir noktadaki limitinin belirsizlik durumunu grafik veya tablo kullana-,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),b),İncelediği fonksiyonun cebirsel ifadesini belirsizlik durumunu ortadan kaldıracak şe-,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),c),"Hesapladığı limit değerini, dönüştürdüğü fonksiyon ile başlangıç fonksiyonunun gra-",2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),a),Fonksiyonların tanımlı olduğu bir noktadaki değeri ile o noktadaki limitini inceler.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),b),Fonksiyonların tanımlı olduğu bir noktadaki değeri ile o noktadaki limitini sürekliliğin,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),c),Fonksiyonların tanımlı olduğu bir noktadaki sürekliliğini o noktadaki değerinin limitine,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),i),ve Fonksiyonların Sürekliliği,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),e),"Öğrenme çıktıları; çalışma kâğıdı, performans görevi ve araştırma ödevi ile değerlendirile-",2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),i),üzerinden limit fikrine duyulan ihtiyaç vurgulanır. Bu sayede ilk defa,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),i),dizisinin terimleri yazılarak ardışık iki terim arasındaki oranlar; elekt-,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),0 doğrusunun bu fonksiyonun yatay asimptotu olduğu belirlenebilir.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),t),incelenerek belirli bir t zamanı civarında aldığı değerler belirlenebilir. Elde edilen değerler,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),"sunulur. Çok uzun yıllar sonra nüfusun en fazla ne kadar olabileceği, matematik yazılımla-",2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),i),ve Karl,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),s),gibi matematikçilerin çalışmaları incelenebilir.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),lim f x,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),sonucuna  ulaşılır  (x  =  0  dışındaki  noktalarda  bu  eşitlik,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),π,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),0 noktasında limitinin olup,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),o),teoremi ve uç değer teo-,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),fonksiyonunun x,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),=,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),0 noktasındaki limitlerinin,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),"k/m  olduğu  gösterilir.  (*)  0/0  belirsizliğinin  yanı  sıra  ∞/∞,  ∞-∞,  1  ∞  belirsizlikleri  limit  alma",2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),"cotx,",2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),f(x),2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),"tanx,  f(x)",2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),i),kullanılır.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),Bir fonksiyonun belirli bir nokta civarındaki değişim oranı ile ilgili bileşenleri (fonksi-,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),i),belirler.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),b),Bir fonksiyonun belirli bir nokta civarındaki değişim oranı ile ilgili bileşenleri arasın-,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),c),"Bir fonksiyonun belirli bir nokta civarındaki değişim oranını tablo, grafik ve limit gös-",2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),d),Uygun koşullarda tanımlı fonksiyonların [f(x),2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),xn  (n∈,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),=,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),e),Varsayımlarına dayalı örüntüleri geneller.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),f),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),g),Genellemelerini önerme olarak ifade eder.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),h),Fonksiyonun bir noktadaki türevini limit gösteriminden faydalanarak ispatlar.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),Fonksiyonlar  ve  türevin  limit  tanımı  ile  ilgili  önceki  bilgilerinden  yararlanarak  bir,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),b),Varsayımlarından yararlanıp farklı durumlarla ilgili örüntüleri listeleyerek bir fonk-,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),c),Bir fonksiyonun herhangi bir noktasında hangi durumlarda türevinin olmadığına iliş-,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),d),Bir fonksiyonun herhangi bir noktasında hangi durumlarda türevinin olmadığına iliş-,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),"Fonksiyonların toplamı, farkı, çarpımı, bölümü ve bileşkesinin türevine ilişkin varsa-",2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),b),Varsayımlarına dayalı örüntüleri geneller.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),c),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),d),Önermelerini farklı problem durumlarında değerlendirir.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),e),"İki fonksiyonun toplamı, farkı, çarpımı ve bölümünün bir noktadaki türevine dair ku-",2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),f),İspatını kullanışlılık açısından değerlendirir.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),e),"f ' (x), f '' (x)",2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),',2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),şeklinde,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),y olmak üzere,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),eşitliği kullanılarak elde edilen dy,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),dx,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),t),şeklinde tanımlı fonksiyon,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),lim,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),h,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),lim,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),x-a,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),şeklinde gösterilir.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),Uygun koşullarda f(x),2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),çok yakın noktalar alınarak bu fonksiyonun x,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),=,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),h,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),z),ve Newton gibi bilim insanlarının türev ile ilgili,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),hareketle f(x),2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),şeklinde tanım-,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),=,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),xn ise,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),x-a,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),ile sağdan türevinin f+ (a) eşit,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),şeklinde tanımlı fonksiyonların grafik temsilleri,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),x,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),incelenerek bu fonksiyonların x,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),x2 ve  g(x),2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),MAT 12.2.7,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),x şeklinde tanımlı fonk-,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),türevin limit tanımıyla elde edilir. Buradan hareketle fonksiyonların toplam ve fark işlemlerin-,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),ne ilişkin olarak f ve g fonksiyonlarına bağlı yeni bir kural elde edilmesi gerekliliği ifade edilir.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),x2 fonksiyonlarının bileşkesi şeklinde yazılır. Türevin limit,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),tanımı  kullanılarak  bu  fonksiyonun  türev  alma  kuralı  belirlenir  ve  bileşke  fonksiyonların  türe-,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),ile ilgili önermelere ulaşılır. Bu şekilde farklı görünen durumlara ilişkin bileşke fonksiyonun,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),f(x),2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),i),öğrencilerin yakın çevresi dikkate alınarak çeşitlendirilir. Böylelikle öğrenci-,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),r),kullanılır.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),i),kullanılır.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),a),"Referans fonksiyonlar, türevin limit tanımı, fonksiyonlarda türev alma kuralları ile",2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),b),Varsayımlarından yararlanıp farklı durumlarla ilgili örüntüleri listeleyerek bir fonk-,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),c),Bir  fonksiyonun  ve  onun  türev  fonksiyonunun  matematiksel  temsilleri  ve  bunlar,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),d),Bir  fonksiyonun  ve  onun  türev  fonksiyonunun  matematiksel  temsilleri  ve  bunlar,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),a),Türev bilgisinin işe koşulabileceği problemlerdeki matematiksel bileşenleri (problemi,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i),belirler.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),b),Problemlerdeki matematiksel bileşenler arasındaki ilişkileri türev bağlamında ince-,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),c),"Problemlerdeki değişim bağlamını fonksiyon, denklem ve türev temsillerine dönüş-",2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),d),Elde ettiği ve yorumladığı farklı temsillere dayalı olarak problemin çözümü için stra-,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),e),Belirlediği stratejiyi kullanarak problemi çözer.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),f),Elde ettiği çözümü farklı yöntemleri kullanarak doğrular.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),g),Problemin olası çözüm stratejilerini gözden geçirir.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),h),"Çıkarımlarının geçerliliğini sözel, cebirsel ve grafiksel argümanlarla değerlendirir.",2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i),değişimleri modellemek için kullanılabilen matematiksel bir araçtır.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),e),"Öğrenme çıktıları; çalışma kâğıdı, performans görevi ve araştırma ödevi ile değerlendirile-",2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),k  şeklinde tanımlı doğrunun eğim değerinin sıfır olması ile bir,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),a),f(x),2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i),ince-,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),"lenir. Genellemeler, polinom fonksiyonun grafik temsilleri ile ilişkilendirilerek varsayımlar ile",2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),=,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),b),olduğunda f polinom fonksiyonu,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),"+ 3 fonksiyonunun (a, b) nda artanlığına veya azalanlığına",2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),< 0 oluyor ise g(x),2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),l),ve ortalama değer,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),b),"nın her noktasında türevlenebilen, dik koordinat sisteminde verilen keyfî  bir",2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i),"sağlanır. Ayrıca aynı tanım aralığında, süreklilik ve türevlenebilirlik özelliklerine sahip",2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),a),0 olacak şekilde en az bir d gerçek sayısının bulunacağına (Rolle teoremi) dair,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),b),eşitliğinin sağlanması durumunda öğrencilerden  d,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),d),(c),2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i),gerçek yaşam,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),şeklinde  tanımlı  fonksiyonun  alabileceği  en  büyük  değerin  a  olarak  belirlendiği,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),"çıkarımına ulaşılır.  Problemlerin çözümüne yönelik çıkarımlar; sözel, cebirsel ve grafiksel ar-",2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),e),yüzey alanındaki (a) değişime bağlı olarak hacmindeki (,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i),fonksiyonu olarak ifade edilir.,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),+ 2 şeklinde tanımlı üçüncü dereceden polinom,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),ve g(x),2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i),yorumlama; (*) fizikte serbest düşüşteki bir cismin,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),l),melez-,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),p),şeklinde tanımlı,2024-style,math_curriculum_2024
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),p),fonksiyon ile belirlenir. f ’ fonksiyonunun grafiği yorumlanarak buruşuk bezelye oranının yüksek,2024-style,math_curriculum_2024
+3. TEMA: GEOMETRİK ŞEKİLLER,y),çözümle-,2024-style,math_curriculum_2024
+3. TEMA: GEOMETRİK ŞEKİLLER,y),çözümleyebilme,2024-style,math_curriculum_2024
+3. TEMA: GEOMETRİK ŞEKİLLER,a),"Kesen, kiriş, teğet, çap ve yayı çemberin elemanları olarak belirler.",2024-style,math_curriculum_2024
+3. TEMA: GEOMETRİK ŞEKİLLER,b),"Çemberde kesen, kiriş, teğet, çap ve yay arasındaki ilişkileri belirler.",2024-style,math_curriculum_2024
+3. TEMA: GEOMETRİK ŞEKİLLER,a),"Çemberde açı, kiriş ve teğetin özelliklerine ilişkin varsayımlarda bulunur.",2024-style,math_curriculum_2024
+3. TEMA: GEOMETRİK ŞEKİLLER,b),"Varsayımlarından  yararlanarak  çemberde  açı,  kiriş  ve  teğetin  özelliklerine  ilişkin",2024-style,math_curriculum_2024
+3. TEMA: GEOMETRİK ŞEKİLLER,c),Genellemelerini varsayımlarıyla karşılaştırır.,2024-style,math_curriculum_2024
+3. TEMA: GEOMETRİK ŞEKİLLER,d),Önermelerinin farklı problem durumlarındaki kullanışlılığını değerlendirir.,2024-style,math_curriculum_2024
+3. TEMA: GEOMETRİK ŞEKİLLER,a),"Çemberde açı, kiriş, teğetin özelliklerini ve dairenin alanını içeren problemlerin bile-",2024-style,math_curriculum_2024
+3. TEMA: GEOMETRİK ŞEKİLLER,i),belirler.,2024-style,math_curriculum_2024
+3. TEMA: GEOMETRİK ŞEKİLLER,b),Problemlerde verilen bileşenler arasındaki ilişkileri belirler.,2024-style,math_curriculum_2024
+3. TEMA: GEOMETRİK ŞEKİLLER,c),Problemin  bileşenlerini  ve  bileşenlerin  aralarındaki  ilişkileri  uygun  matematiksel,2024-style,math_curriculum_2024
+3. TEMA: GEOMETRİK ŞEKİLLER,d),Problemlerin çözümü için stratejiler geliştirir.,2024-style,math_curriculum_2024
+3. TEMA: GEOMETRİK ŞEKİLLER,e),Geliştirdiği stratejileri kullanarak problemi çözer .,2024-style,math_curriculum_2024
+3. TEMA: GEOMETRİK ŞEKİLLER,f),Çözümünü kontrol eder ve çözüme ulaştırmayan stratejiyi değiştirir.,2024-style,math_curriculum_2024
+3. TEMA: GEOMETRİK ŞEKİLLER,g),Problem çözme sürecini gözden geçirir.,2024-style,math_curriculum_2024
+3. TEMA: GEOMETRİK ŞEKİLLER,h),Ulaştığı çıkarımları değerlendirir.,2024-style,math_curriculum_2024
+3. TEMA: GEOMETRİK ŞEKİLLER,e),"Öğrenme çıktıları; çalışma kâğıdı, doğru",2024-style,math_curriculum_2024
+3. TEMA: GEOMETRİK ŞEKİLLER,i),ve bu parçalar arasındaki ilişkileri,2024-style,math_curriculum_2024
+3. TEMA: GEOMETRİK ŞEKİLLER,i),genellemeler matema-,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK CİSİMLER,a),Dik prizma ve dik dairesel silindirin elemanlarını belirler.,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK CİSİMLER,b),Dik prizma ve dik dairesel silindirin elemanları arasındaki ilişkileri belirler.,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK CİSİMLER,a),"Dik prizma ile dik dairesel silindirden yararlanarak dik piramit, dik dairesel koni ve kü-",2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK CİSİMLER,b),"Dik prizma ile dik dairesel silindirden yararlanarak dik piramit, dik dairesel koni ve kü-",2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK CİSİMLER,c),"Gözlemlediği benzerliklerden yararlanarak dik piramit, dik dairesel koni ve kürenin ele-",2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK CİSİMLER,a),"Geometrik cisimleri içeren problemlerin bileşenlerini (nicelik, şekil gibi) belirler.",2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK CİSİMLER,b),Bileşenler arasındaki ilişkileri belirler.,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK CİSİMLER,c),Problemin bileşenlerini ve aralarındaki ilişkileri uygun matematiksel temsillere dönüş-,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK CİSİMLER,d),Problemin çözümü için gerekli işlemleri ve çözümü gerçekleştirebilmek için stratejiler,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK CİSİMLER,e),Belirlediği stratejileri çözüm için uygulayarak problemi çözer.,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK CİSİMLER,f),Çözümü kontrol eder ve çözüme ulaştırmayan stratejiyi değiştirir.,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK CİSİMLER,g),Problemin çözümü için kullandığı veya geliştirdiği stratejileri ve olası farklı stratejileri,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK CİSİMLER,h),Ulaştığı çıkarımların geçerliliğini matematiksel örneklerle değerlendirir.,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK CİSİMLER,e),"Öğrenme çıktıları; çalışma kâğıdı, açık uçlu sorular, proje ödevi ve performans görevi ile de-",2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK CİSİMLER,e),"kullanıldığı mimari yapıların incelenmesiyle ilgili proje ödevi verilebilir. Ödevler,",2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK CİSİMLER,i),bildiği;  dik  prizma  ve  dik  dairesel  silindirin  yüzey,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK CİSİMLER,i),yapmaları sağlanır. Benzer şekilde öğrencilere dik dairesel silindir ile dik dairesel koni ve,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK CİSİMLER,i),dik prizma yardımıyla,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK CİSİMLER,i),belirlemeye,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK CİSİMLER,k),"örnekleri incelenir, öğrencilerin kullanılan geometrik cisimlerin neden tercih edildiğine iliş-",2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK CİSİMLER,i),yönlendirilir. Öğrencilerin,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK CİSİMLER,i),ve bu parçalar arasındaki ilişkileri belirlemeleri sağlanır. Bu süreçte öğrenci-,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK CİSİMLER,i),incelenmesi istenerek öğrencilerin konuya ilişkin bilgi,2024-style,math_curriculum_2024
+4. TEMA: GEOMETRİK CİSİMLER,s),çalışmalarının araştırılması ve sınıfta sunulması,2024-style,math_curriculum_2024
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,a),İstatistiksel araştırma tasarlamayı gerektiren toplumsal ve/veya bilimsel durumla-,2024-style,math_curriculum_2024
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,b),Bağlam içerisinde ve tasarladığı istatistiksel araştırmaya yönelik veri dağılımlarını,2024-style,math_curriculum_2024
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,c),Verileri elde etmeye yönelik plan yapar.,2024-style,math_curriculum_2024
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,d),Araştırma  sorusu  bağlamında  verileri  analiz  etmek  için  görselleştirme  ve/veya,2024-style,math_curriculum_2024
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,e),Araştırma sorusu bağlamındaki verileri belirlediği araçlarla analiz eder.,2024-style,math_curriculum_2024
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,f),Tasarladığı istatistiksel araştırmadan elde ettiği çıktılardan hareketle yorumlaya-,2024-style,math_curriculum_2024
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,g),Tasarladığı istatistiksel araştırmadan elde edilen sonuçları araştırma sorusu bağ-,2024-style,math_curriculum_2024
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,l),"dağılımlar, verilerin birlikte değişebilirliğindeki eğilime iliş-",2024-style,math_curriculum_2024
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,e),-,2024-style,math_curriculum_2024
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,l),"ve iki değişkenli (kategorik-kategorik,",2024-style,math_curriculum_2024
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,l),veri setleri ile çalışarak istatistiksel araştırma sürecini yürütebildikleri kabul,2024-style,math_curriculum_2024
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i),veya yatırım ve tasarrufları inceleyen (ekonomi) (OB3) araştırma soruları,2024-style,math_curriculum_2024
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i),yer verilmez. Uygun olan araçların belir-,2024-style,math_curriculum_2024
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i),istatistiksel araştırma tasarımını ve elde ettiği sonuçları,2024-style,math_curriculum_2024
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i),ilgili veri temelli argümanlar ve yeni çözüm öne-,2024-style,math_curriculum_2024
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i),kullanarak oluşturdukları istatistiksel araştırma tasarımlarını ve,2024-style,math_curriculum_2024
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i),paylaşmaları beklenir.,2024-style,math_curriculum_2024
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i),yardımıyla sınıf orta-,2024-style,math_curriculum_2024
