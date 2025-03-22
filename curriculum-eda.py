@@ -18,6 +18,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from collections import Counter
 from wordcloud import WordCloud
+import time
 
 # Configure visualizations
 plt.style.use('fivethirtyeight')
@@ -43,6 +44,39 @@ def load_processed_data():
         print(f"Error loading data: {e}")
         return None
 
+# Check and fix data structure
+def check_and_fix_data_structure(processed_data):
+    """Check and fix the data structure if needed."""
+    # Check if the data is already organized by year
+    if '2018' in processed_data and '2024' in processed_data:
+        print("Data already organized by year.")
+        return processed_data
+    
+    print("Reorganizing data by curriculum year...")
+    # Otherwise, try to organize it
+    processed_data_by_year = {
+        '2018': None,
+        '2024': None
+    }
+    
+    # Try to identify which curriculum is which
+    for name, curriculum in processed_data.items():
+        if not curriculum:
+            continue
+            
+        detected_type = curriculum.get('detected_type', '')
+        
+        if '2018' in detected_type or detected_type == '2018-style' or '2018' in name:
+            processed_data_by_year['2018'] = curriculum
+            print(f"Identified '{name}' as 2018 curriculum.")
+        elif '2024' in detected_type or detected_type == '2024-style' or '2024' in name:
+            processed_data_by_year['2024'] = curriculum
+            print(f"Identified '{name}' as 2024 curriculum.")
+        else:
+            print(f"Warning: Could not determine year for curriculum '{name}'.")
+    
+    return processed_data_by_year
+
 # Basic statistics
 def compute_basic_stats(processed_data):
     """Compute basic statistics for both curricula."""
@@ -52,13 +86,24 @@ def compute_basic_stats(processed_data):
     }
     
     for year in ['2018', '2024']:
-        if not processed_data[year]:
+        if year not in processed_data or not processed_data[year]:
+            print(f"No data available for {year} curriculum. Skipping basic stats calculation.")
             continue
             
         curriculum = processed_data[year]
         
         # Text length statistics
+        if 'full_text' not in curriculum or 'processed_full_text' not in curriculum:
+            print(f"Missing required data for {year} curriculum. Skipping basic stats calculation.")
+            continue
+            
         full_text = curriculum['full_text']
+        
+        if 'words' not in curriculum['processed_full_text'] or 'sentences' not in curriculum['processed_full_text']:
+            print(f"Missing processed text data for {year} curriculum. Skipping detailed stats.")
+            stats[year]['total_characters'] = len(full_text)
+            continue
+            
         words = curriculum['processed_full_text']['words']
         sentences = curriculum['processed_full_text']['sentences']
         
@@ -69,6 +114,10 @@ def compute_basic_stats(processed_data):
         stats[year]['avg_sentence_length'] = np.mean([len(sentence.split()) for sentence in sentences])
         
         # Objective statistics
+        if 'objectives' not in curriculum:
+            print(f"No objectives found for {year} curriculum. Skipping objective stats.")
+            continue
+            
         objectives = curriculum['objectives']
         stats[year]['total_objectives'] = len(objectives)
         
@@ -88,7 +137,12 @@ def analyze_term_frequencies(processed_data):
     word_freq = {'2018': {}, '2024': {}}
     
     for year in ['2018', '2024']:
-        if not processed_data[year]:
+        if year not in processed_data or not processed_data[year]:
+            print(f"No data available for {year} curriculum. Skipping term frequency analysis.")
+            continue
+            
+        if 'processed_full_text' not in processed_data[year] or 'words' not in processed_data[year]['processed_full_text']:
+            print(f"Missing processed text data for {year} curriculum. Skipping term frequency analysis.")
             continue
             
         # Get all words
@@ -101,7 +155,8 @@ def analyze_term_frequencies(processed_data):
         word_freq[year] = Counter(all_words)
     
     # Create a unified DataFrame for comparison
-    all_unique_words = set(word_freq['2018'].keys()) | set(word_freq['2024'].keys())
+    # Convert set to list to avoid the "index cannot be a set" error
+    all_unique_words = list(set(word_freq['2018'].keys()) | set(word_freq['2024'].keys()))
     freq_df = pd.DataFrame(index=all_unique_words, columns=['2018', '2024'])
     
     for word in all_unique_words:
@@ -124,13 +179,19 @@ def analyze_term_frequencies(processed_data):
     
     return freq_df
 
+
 # Create word clouds
 def create_word_clouds(processed_data):
     """Create word clouds for both curricula."""
     word_clouds = {}
     
     for year in ['2018', '2024']:
-        if not processed_data[year]:
+        if year not in processed_data or not processed_data[year]:
+            print(f"No data available for {year} curriculum. Skipping word cloud creation.")
+            continue
+            
+        if 'processed_full_text' not in processed_data[year] or 'words' not in processed_data[year]['processed_full_text']:
+            print(f"Missing processed text data for {year} curriculum. Skipping word cloud creation.")
             continue
             
         # Get all words and their frequencies
@@ -163,25 +224,61 @@ def analyze_ai_relevance(processed_data):
     try:
         with open(os.path.join(PROCESSED_DIR, 'ai_relevance_summary.json'), 'r', encoding='utf-8') as f:
             ai_summary = json.load(f)
+            
+            # Convert to the expected format if needed
+            if '2018' not in ai_summary or '2024' not in ai_summary:
+                # Try to reorganize based on keys
+                new_summary = {'2018': {'overall': {}}, '2024': {'overall': {}}}
+                for name, data in ai_summary.items():
+                    if '2018' in name or ('detected_type' in data and ('2018' in data['detected_type'] or data['detected_type'] == '2018-style')):
+                        new_summary['2018'] = data
+                    elif '2024' in name or ('detected_type' in data and ('2024' in data['detected_type'] or data['detected_type'] == '2024-style')):
+                        new_summary['2024'] = data
+                ai_summary = new_summary
     except FileNotFoundError:
+        print("AI relevance summary not found. Calculating from processed data...")
         # Calculate from processed data if summary doesn't exist
         ai_summary = {
             '2018': {'overall': {}},
             '2024': {'overall': {}}
         }
         
-        for year in ['2018', '2024']:
-            if not processed_data[year]:
+        # First group curricula by year
+        curricula_by_year = {'2018': [], '2024': []}
+        
+        for name, curriculum in processed_data.items():
+            if not curriculum:
                 continue
                 
-            # Get AI relevance scores for objectives
-            objectives = processed_data[year]['processed_objectives']
+            # Check if we can determine year from detected_type
+            detected_type = curriculum.get('detected_type', '')
             
+            if '2018' in detected_type or detected_type == '2018-style' or '2018' in name:
+                curricula_by_year['2018'].append(curriculum)
+            elif '2024' in detected_type or detected_type == '2024-style' or '2024' in name:
+                curricula_by_year['2024'].append(curriculum)
+        
+        # Process each year
+        for year in ['2018', '2024']:
+            if not curricula_by_year[year]:
+                print(f"No curricula found for year {year}")
+                continue
+                
+            # Collect all objectives from all curricula for this year
+            all_objectives = []
+            for curriculum in curricula_by_year[year]:
+                if 'processed_objectives' in curriculum:
+                    all_objectives.extend(curriculum['processed_objectives'])
+            
+            if not all_objectives:
+                print(f"No processed objectives found for {year} curriculum")
+                continue
+                
             # Calculate aggregate scores
             category_scores = {}
             for category in ['computational_thinking', 'mathematical_reasoning', 
                             'pattern_recognition', 'data_concepts']:
-                scores = [obj['ai_relevance'].get(category, 0) for obj in objectives]
+                scores = [obj['ai_relevance'].get(category, 0) for obj in all_objectives if 'ai_relevance' in obj]
                 category_scores[f'{category}_avg'] = np.mean(scores) if scores else 0
                 category_scores[f'{category}_total'] = sum(scores)
             
@@ -201,27 +298,56 @@ def analyze_verb_usage(processed_data):
     # Load verb analysis if it exists
     try:
         verb_df = pd.read_csv(os.path.join(PROCESSED_DIR, 'verb_analysis.csv'), index_col=0)
+        print("Loaded existing verb analysis from file.")
+        return verb_df
     except FileNotFoundError:
+        print("Verb analysis file not found. Analyzing verbs from processed data...")
         # Extract verbs from processed data
         verbs_2018 = []
         verbs_2024 = []
         
-        for year, year_label in [('2018', verbs_2018), ('2024', verbs_2024)]:
-            if not processed_data[year]:
+        # First group curricula by year
+        curricula_by_year = {'2018': [], '2024': []}
+        
+        for name, curriculum in processed_data.items():
+            if not curriculum:
                 continue
                 
-            # Get verbs from each objective
-            for obj in processed_data[year]['processed_objectives']:
-                for token in obj['spacy_tokens']:
-                    if token['pos'] == 'VERB':
-                        year_label.append(token['lemma'])
+            # Check if we can determine year from detected_type
+            detected_type = curriculum.get('detected_type', '')
+            
+            if '2018' in detected_type or detected_type == '2018-style' or '2018' in name:
+                curricula_by_year['2018'].append(curriculum)
+            elif '2024' in detected_type or detected_type == '2024-style' or '2024' in name:
+                curricula_by_year['2024'].append(curriculum)
+        
+        # Process each year
+        for year, year_verbs in [('2018', verbs_2018), ('2024', verbs_2024)]:
+            if not curricula_by_year[year]:
+                print(f"No curricula found for year {year}")
+                continue
+                
+            # Collect all objectives from all curricula for this year
+            for curriculum in curricula_by_year[year]:
+                if 'processed_objectives' not in curriculum:
+                    print(f"No processed objectives found for a {year} curriculum")
+                    continue
+                    
+                # Get verbs from each objective
+                for obj in curriculum['processed_objectives']:
+                    if 'spacy_tokens' not in obj:
+                        continue
+                        
+                    for token in obj['spacy_tokens']:
+                        if token['pos'] == 'VERB':
+                            year_verbs.append(token['lemma'])
         
         # Count frequencies
         verbs_2018_freq = Counter(verbs_2018)
         verbs_2024_freq = Counter(verbs_2024)
         
-        # Create DataFrame
-        all_verbs = set(verbs_2018_freq.keys()) | set(verbs_2024_freq.keys())
+        # Create DataFrame - Convert set to list to avoid the error
+        all_verbs = list(set(verbs_2018_freq.keys()) | set(verbs_2024_freq.keys()))
         verb_df = pd.DataFrame(index=all_verbs, columns=['2018', '2024'])
         
         for verb in all_verbs:
@@ -231,6 +357,9 @@ def analyze_verb_usage(processed_data):
         # Sort by total
         verb_df['total'] = verb_df['2018'] + verb_df['2024']
         verb_df = verb_df.sort_values('total', ascending=False)
+        
+        # Save verb analysis for future use
+        verb_df.to_csv(os.path.join(PROCESSED_DIR, 'verb_analysis.csv'))
     
     # Classify verbs by cognitive level (simplified Bloom's taxonomy)
     # This would require a more sophisticated approach in a real implementation
@@ -249,54 +378,108 @@ def analyze_verb_usage(processed_data):
     
     return verb_df
 
+
 # Analyze objective complexity
 def analyze_objective_complexity(processed_data):
     """Analyze the complexity of learning objectives."""
+    # Check if complexity analysis files already exist
+    complexity_2018_path = os.path.join(PROCESSED_DIR, 'objective_complexity_2018.csv')
+    complexity_2024_path = os.path.join(PROCESSED_DIR, 'objective_complexity_2024.csv')
+    
+    complexity_dfs = {}
+    
+    if os.path.exists(complexity_2018_path):
+        print("Loading existing 2018 complexity analysis from file.")
+        complexity_dfs['2018'] = pd.read_csv(complexity_2018_path)
+    
+    if os.path.exists(complexity_2024_path):
+        print("Loading existing 2024 complexity analysis from file.")
+        complexity_dfs['2024'] = pd.read_csv(complexity_2024_path)
+    
+    # If both years exist, return early
+    if '2018' in complexity_dfs and '2024' in complexity_dfs:
+        return complexity_dfs
+    
+    # Otherwise calculate what's missing
+    print("Calculating objective complexity from processed data...")
     complexity_metrics = {
         '2018': [],
         '2024': []
     }
     
-    for year in ['2018', '2024']:
-        if not processed_data[year]:
+    # First group curricula by year
+    curricula_by_year = {'2018': [], '2024': []}
+    
+    for name, curriculum in processed_data.items():
+        if not curriculum:
             continue
             
-        # Get objectives
-        objectives = processed_data[year]['processed_objectives']
+        # Check if we can determine year from detected_type
+        detected_type = curriculum.get('detected_type', '')
         
-        for obj in objectives:
-            # Count tokens, excluding punctuation
-            token_count = sum(1 for token in obj['spacy_tokens'] 
-                              if not token['is_punctuation'])
-            
-            # Count unique tokens
-            unique_tokens = len(set(token['text'].lower() for token in obj['spacy_tokens'] 
-                                    if not token['is_punctuation']))
-            
-            # Calculate average token length
-            avg_token_length = np.mean([len(token['text']) for token in obj['spacy_tokens'] 
-                                        if not token['is_punctuation']])
-            
-            # Count sentences
-            sentence_count = len(obj['sentences'])
-            
-            # Store metrics
-            complexity_metrics[year].append({
-                'section': obj['section'],
-                'item': obj['item'],
-                'token_count': token_count,
-                'unique_tokens': unique_tokens,
-                'lexical_diversity': unique_tokens / token_count if token_count > 0 else 0,
-                'avg_token_length': avg_token_length,
-                'sentence_count': sentence_count,
-                'ai_relevance_score': obj['ai_relevance_score']
-            })
+        if '2018' in detected_type or detected_type == '2018-style' or '2018' in name:
+            curricula_by_year['2018'].append(curriculum)
+        elif '2024' in detected_type or detected_type == '2024-style' or '2024' in name:
+            curricula_by_year['2024'].append(curriculum)
     
-    # Convert to DataFrames
-    complexity_dfs = {}
     for year in ['2018', '2024']:
-        if complexity_metrics[year]:
-            complexity_dfs[year] = pd.DataFrame(complexity_metrics[year])
+        # Skip if we already loaded this year's data
+        if year in complexity_dfs:
+            continue
+            
+        if not curricula_by_year[year]:
+            print(f"No curricula found for year {year}")
+            continue
+            
+        # Process each curriculum
+        for curriculum in curricula_by_year[year]:
+            if 'processed_objectives' not in curriculum:
+                print(f"No processed objectives found for a {year} curriculum")
+                continue
+                
+            objectives = curriculum['processed_objectives']
+            
+            for obj in objectives:
+                # Skip if missing required data
+                if 'spacy_tokens' not in obj or 'sentences' not in obj:
+                    continue
+                    
+                # Count tokens, excluding punctuation
+                token_count = sum(1 for token in obj['spacy_tokens'] 
+                                if not token.get('is_punctuation', False))
+                
+                # Count unique tokens
+                unique_tokens = len(set(token['text'].lower() for token in obj['spacy_tokens'] 
+                                        if not token.get('is_punctuation', False)))
+                
+                # Calculate average token length
+                token_lengths = [len(token['text']) for token in obj['spacy_tokens'] 
+                                if not token.get('is_punctuation', False)]
+                avg_token_length = np.mean(token_lengths) if token_lengths else 0
+                
+                # Count sentences
+                sentence_count = len(obj['sentences'])
+                
+                # Store metrics
+                complexity_metrics[year].append({
+                    'section': obj.get('section', ''),
+                    'item': obj.get('item', ''),
+                    'token_count': token_count,
+                    'unique_tokens': unique_tokens,
+                    'lexical_diversity': unique_tokens / token_count if token_count > 0 else 0,
+                    'avg_token_length': avg_token_length,
+                    'sentence_count': sentence_count,
+                    'ai_relevance_score': obj.get('ai_relevance_score', 0)
+                })
+    
+    # Convert to DataFrames and merge with any loaded data
+    for year in ['2018', '2024']:
+        if complexity_metrics[year] and year not in complexity_dfs:
+            year_df = pd.DataFrame(complexity_metrics[year])
+            complexity_dfs[year] = year_df
+            
+            # Save for future use
+            year_df.to_csv(os.path.join(PROCESSED_DIR, f'objective_complexity_{year}.csv'), index=False)
     
     return complexity_dfs
 
@@ -314,7 +497,7 @@ def plot_comparative_charts(data_dict):
         # Extract metrics that exist in both years
         existing_metrics = []
         for metric in metrics:
-            if metric in stats['2018'] and metric in stats['2024']:
+            if metric in stats.get('2018', {}) and metric in stats.get('2024', {}):
                 existing_metrics.append(metric)
         
         if existing_metrics:
@@ -462,12 +645,17 @@ def plot_comparative_charts(data_dict):
 # Main function
 def main():
     """Main function to execute the exploratory data analysis."""
+    start_time = time.time()
+    
     print("Loading processed data...")
     processed_data = load_processed_data()
     
     if not processed_data:
         print("Error: Could not load processed data.")
         return
+    
+    print("Checking and fixing data structure...")
+    processed_data = check_and_fix_data_structure(processed_data)
     
     print("Computing basic statistics...")
     basic_stats = compute_basic_stats(processed_data)
@@ -513,7 +701,9 @@ def main():
     with open(os.path.join(PROCESSED_DIR, 'basic_stats.json'), 'w', encoding='utf-8') as f:
         json.dump(basic_stats, f, indent=2)
     
-    print(f"Exploratory data analysis complete. Results saved to {PROCESSED_DIR} and {FIGURES_DIR} directories.")
+    elapsed_time = time.time() - start_time
+    print(f"Exploratory data analysis complete in {elapsed_time:.2f} seconds.")
+    print(f"Results saved to {PROCESSED_DIR} and {FIGURES_DIR} directories.")
     print(f"Files created in {PROCESSED_DIR}:")
     print("  - term_frequency_analysis.csv")
     print("  - ai_relevance_analysis.csv")

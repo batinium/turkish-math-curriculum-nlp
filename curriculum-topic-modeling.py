@@ -73,23 +73,57 @@ def prepare_topic_modeling_data(processed_data):
         '2024': []
     }
     
-    for year in ['2018', '2024']:
-        if not processed_data[year]:
+    # First, determine which curriculum corresponds to which year
+    curricula_by_year = {'2018': [], '2024': []}
+    
+    for name, curriculum in processed_data.items():
+        if not curriculum:
             continue
             
-        for obj in processed_data[year]['processed_objectives']:
-            # Extract cleaned text
-            text = obj['cleaned_text']
+        # Check if we can determine year from detected_type
+        detected_type = curriculum.get('detected_type', '')
+        
+        if '2018' in detected_type or detected_type == '2018-style':
+            curricula_by_year['2018'].append((name, curriculum))
+        elif '2024' in detected_type or detected_type == '2024-style':
+            curricula_by_year['2024'].append((name, curriculum))
+        else:
+            # Try to guess from the name
+            if '2018' in name:
+                curricula_by_year['2018'].append((name, curriculum))
+            elif '2024' in name:
+                curricula_by_year['2024'].append((name, curriculum))
+            else:
+                print(f"Warning: Could not determine year for curriculum '{name}'. Skipping.")
+    
+    # Process each year's curricula
+    for year in ['2018', '2024']:
+        if not curricula_by_year[year]:
+            print(f"No curricula found for year {year}")
+            continue
             
-            # Add to documents
-            documents[year].append(text)
-            
-            # Store metadata
-            metadata[year].append({
-                'section': obj['section'],
-                'item': obj['item'],
-                'ai_relevance_score': obj['ai_relevance_score']
-            })
+        print(f"Processing {len(curricula_by_year[year])} curricula for year {year}")
+        
+        for name, curriculum in curricula_by_year[year]:
+            if 'processed_objectives' not in curriculum:
+                print(f"Warning: No processed objectives found for curriculum '{name}'. Skipping.")
+                continue
+                
+            for obj in curriculum['processed_objectives']:
+                # Extract cleaned text
+                text = obj.get('cleaned_text', '')
+                if not text:
+                    continue
+                
+                # Add to documents
+                documents[year].append(text)
+                
+                # Store metadata
+                metadata[year].append({
+                    'section': obj.get('section', ''),
+                    'item': obj.get('item', ''),
+                    'ai_relevance_score': obj.get('ai_relevance_score', 0)
+                })
     
     return documents, metadata
 
@@ -202,6 +236,19 @@ def run_topic_modeling(documents, year, stopwords_set, num_topics=5):
 # Find optimal number of topics
 def find_optimal_topics(documents, year, stopwords_set, start=2, limit=10, step=1):
     """Find the optimal number of topics by coherence score."""
+    
+    # Check if we've already computed this
+    results_path = os.path.join(PROCESSED_DIR, f'optimal_topics_{year}.json')
+    if os.path.exists(results_path):
+        try:
+            with open(results_path, 'r') as f:
+                saved_results = json.load(f)
+                print(f"Loading pre-computed optimal topics for {year}: {saved_results['optimal_num_topics']}")
+                return saved_results['optimal_num_topics'], None
+        except Exception as e:
+            print(f"Error loading pre-computed optimal topics: {e}")
+            # Continue with computation if loading fails
+    
     coherence_values = []
     model_list = []
     
@@ -258,11 +305,27 @@ def find_optimal_topics(documents, year, stopwords_set, start=2, limit=10, step=
     plt.savefig(os.path.join(FIGURES_DIR, f'topic_coherence_{year}.png'), dpi=300)
     plt.close()
     
+    # Save results for future runs
+    with open(results_path, 'w') as f:
+        json.dump({'optimal_num_topics': optimal_num_topics}, f)
+    
     return optimal_num_topics, model_list[optimal_idx]
+
 
 # Analyze topic distribution
 def analyze_topic_distribution(model_data, documents, metadata, year):
     """Analyze how topics are distributed across curriculum documents."""
+    
+    # Check if we've already analyzed this
+    topic_df_path = os.path.join(PROCESSED_DIR, f'topic_distribution_{year}.csv')
+    if os.path.exists(topic_df_path):
+        try:
+            print(f"Loading pre-computed topic distribution for {year}")
+            return pd.read_csv(topic_df_path)
+        except Exception as e:
+            print(f"Error loading pre-computed topic distribution: {e}")
+            # Continue with computation if loading fails
+    
     # Get model, corpus, and dictionary
     lda_model = model_data['model']
     corpus = model_data['corpus']
@@ -290,35 +353,73 @@ def analyze_topic_distribution(model_data, documents, metadata, year):
     topic_df = pd.DataFrame(topic_distribution)
     
     # Save distribution
-    topic_df.to_csv(os.path.join(PROCESSED_DIR, f'topic_distribution_{year}.csv'), index=False)
+    topic_df.to_csv(topic_df_path, index=False)
     
-    # Create topic distribution chart
-    topic_counts = topic_df['dominant_topic'].value_counts().sort_index()
+    # Check if visualization already exists
+    dist_plot_path = os.path.join(FIGURES_DIR, f'topic_distribution_{year}.png')
+    ai_plot_path = os.path.join(FIGURES_DIR, f'ai_relevance_by_topic_{year}.png')
     
-    plt.figure(figsize=(10, 6))
-    sns.barplot(x=topic_counts.index, y=topic_counts.values)
-    plt.xlabel("Topic Number")
-    plt.ylabel("Document Count")
-    plt.title(f"Document Distribution Across Topics ({year})")
-    plt.tight_layout()
-    plt.savefig(os.path.join(FIGURES_DIR, f'topic_distribution_{year}.png'), dpi=300)
-    plt.close()
+    if not os.path.exists(dist_plot_path):
+        # Create topic distribution chart
+        topic_counts = topic_df['dominant_topic'].value_counts().sort_index()
+        
+        plt.figure(figsize=(10, 6))
+        sns.barplot(x=topic_counts.index, y=topic_counts.values)
+        plt.xlabel("Topic Number")
+        plt.ylabel("Document Count")
+        plt.title(f"Document Distribution Across Topics ({year})")
+        plt.tight_layout()
+        plt.savefig(dist_plot_path, dpi=300)
+        plt.close()
     
-    # Analyze AI relevance by topic
-    plt.figure(figsize=(10, 6))
-    sns.boxplot(x='dominant_topic', y='ai_relevance_score', data=topic_df)
-    plt.xlabel("Topic Number")
-    plt.ylabel("AI Relevance Score")
-    plt.title(f"AI Relevance by Topic ({year})")
-    plt.tight_layout()
-    plt.savefig(os.path.join(FIGURES_DIR, f'ai_relevance_by_topic_{year}.png'), dpi=300)
-    plt.close()
+    if not os.path.exists(ai_plot_path):
+        # Analyze AI relevance by topic
+        plt.figure(figsize=(10, 6))
+        sns.boxplot(x='dominant_topic', y='ai_relevance_score', data=topic_df)
+        plt.xlabel("Topic Number")
+        plt.ylabel("AI Relevance Score")
+        plt.title(f"AI Relevance by Topic ({year})")
+        plt.tight_layout()
+        plt.savefig(ai_plot_path, dpi=300)
+        plt.close()
     
     return topic_df
+
 
 # Compare topics between curricula
 def compare_topics(model_data_2018, model_data_2024):
     """Compare topics between 2018 and 2024 curricula."""
+    
+    # Check if we've already compared these
+    similarity_matrix_path = os.path.join(PROCESSED_DIR, 'topic_similarity_matrix.npy')
+    topics_comparison_path = os.path.join(PROCESSED_DIR, 'topic_keywords.json')
+    matrix_plot_path = os.path.join(FIGURES_DIR, 'topic_similarity_matrix.png')
+    
+    if os.path.exists(similarity_matrix_path) and os.path.exists(topics_comparison_path):
+        try:
+            print("Loading pre-computed topic comparison results")
+            with open(topics_comparison_path, 'r', encoding='utf-8') as f:
+                topics_comparison = json.load(f)
+            
+            similarity_matrix = np.load(similarity_matrix_path)
+            
+            # Check if we need to recreate the visualization
+            if not os.path.exists(matrix_plot_path):
+                # Create heatmap
+                plt.figure(figsize=(12, 10))
+                sns.heatmap(similarity_matrix, annot=True, cmap='YlGnBu', 
+                            xticklabels=[f"2024 Topic {i}" for i in range(similarity_matrix.shape[1])],
+                            yticklabels=[f"2018 Topic {i}" for i in range(similarity_matrix.shape[0])])
+                plt.title("Topic Similarity Between 2018 and 2024 Curricula")
+                plt.tight_layout()
+                plt.savefig(matrix_plot_path, dpi=300)
+                plt.close()
+            
+            return similarity_matrix, topics_comparison
+        except Exception as e:
+            print(f"Error loading pre-computed topic comparison: {e}")
+            # Continue with computation if loading fails
+    
     # Extract top words for each topic from both models
     topics_2018 = {}
     topics_2024 = {}
@@ -351,7 +452,7 @@ def compare_topics(model_data_2018, model_data_2024):
                 yticklabels=[f"2018 Topic {i}" for i in range(len(topics_2018))])
     plt.title("Topic Similarity Between 2018 and 2024 Curricula")
     plt.tight_layout()
-    plt.savefig(os.path.join(FIGURES_DIR, 'topic_similarity_matrix.png'), dpi=300)
+    plt.savefig(matrix_plot_path, dpi=300)
     plt.close()
     
     # Save topic words
@@ -360,10 +461,14 @@ def compare_topics(model_data_2018, model_data_2024):
         '2024': {str(k): v for k, v in topics_2024.items()}
     }
     
-    with open(os.path.join(PROCESSED_DIR, 'topic_keywords.json'), 'w', encoding='utf-8') as f:
+    with open(topics_comparison_path, 'w', encoding='utf-8') as f:
         json.dump(topics_comparison, f, indent=2, ensure_ascii=False)
     
+    # Save similarity matrix
+    np.save(similarity_matrix_path, similarity_matrix)
+    
     return similarity_matrix, topics_comparison
+
 
 # Create concept network
 def create_concept_network(topics_comparison, similarity_matrix):
@@ -432,11 +537,33 @@ def classify_objectives_by_ai_potential(processed_data):
         '2024': []
     }
     
+    # First, determine which curriculum corresponds to which year
+    curricula_by_year = {'2018': [], '2024': []}
+    
+    for name, curriculum in processed_data.items():
+        if not curriculum:
+            continue
+            
+        # Check if we can determine year from detected_type
+        detected_type = curriculum.get('detected_type', '')
+        
+        if '2018' in detected_type or detected_type == '2018-style':
+            curricula_by_year['2018'].append((name, curriculum))
+        elif '2024' in detected_type or detected_type == '2024-style':
+            curricula_by_year['2024'].append((name, curriculum))
+        else:
+            # Try to guess from the name
+            if '2018' in name:
+                curricula_by_year['2018'].append((name, curriculum))
+            elif '2024' in name:
+                curricula_by_year['2024'].append((name, curriculum))
+            else:
+                print(f"Warning: Could not determine year for curriculum '{name}'. Skipping.")
+    
     # Define a simple model for classification
-    # In a real implementation, you would train a classifier
     def classify_objective(obj):
         # Get AI relevance score
-        ai_score = obj['ai_relevance_score']
+        ai_score = obj.get('ai_relevance_score', 0)
         
         # Define thresholds for classification
         if ai_score >= 3:
@@ -448,19 +575,25 @@ def classify_objectives_by_ai_potential(processed_data):
     
     # Classify objectives for both curricula
     for year in ['2018', '2024']:
-        if not processed_data[year]:
+        if not curricula_by_year[year]:
+            print(f"No curricula found for year {year}")
             continue
             
-        for obj in processed_data[year]['processed_objectives']:
-            classification = classify_objective(obj)
-            
-            classifications[year].append({
-                'section': obj['section'],
-                'item': obj['item'],
-                'text': obj['cleaned_text'],
-                'ai_relevance_score': obj['ai_relevance_score'],
-                'classification': classification
-            })
+        for name, curriculum in curricula_by_year[year]:
+            if 'processed_objectives' not in curriculum:
+                print(f"Warning: No processed objectives found for curriculum '{name}'. Skipping.")
+                continue
+                
+            for obj in curriculum['processed_objectives']:
+                classification = classify_objective(obj)
+                
+                classifications[year].append({
+                    'section': obj.get('section', ''),
+                    'item': obj.get('item', ''),
+                    'text': obj.get('cleaned_text', ''),
+                    'ai_relevance_score': obj.get('ai_relevance_score', 0),
+                    'classification': classification
+                })
     
     # Convert to DataFrames
     for year in ['2018', '2024']:
@@ -483,6 +616,7 @@ def classify_objectives_by_ai_potential(processed_data):
             plt.close()
     
     return classifications
+
 
 # Main function
 def main():
@@ -519,68 +653,137 @@ def main():
         
         print(f"\nPerforming topic modeling for {year} curriculum...")
         
-        # Find optimal number of topics
-        print(f"Finding optimal number of topics for {year} curriculum...")
-        optimal_num_topics, _ = find_optimal_topics(
-            documents[year], 
-            year, 
-            stopwords_set,
-            start=2,
-            limit=8 if len(documents[year]) > 10 else 5,
-            step=1
-        )
+        # Check if we already have a model for this year
+        existing_models = [f for f in os.listdir(MODELS_DIR) if f.startswith(f'lda_model_{year}_')]
+        if existing_models:
+            print(f"Found existing models for {year}: {existing_models}")
+            # Get the model with the highest number of topics
+            model_nums = [int(f.split('_')[-1].split('.')[0]) for f in existing_models]
+            existing_model_path = os.path.join(MODELS_DIR, f'lda_model_{year}_{max(model_nums)}.pkl')
+            with open(existing_model_path, 'rb') as f:
+                model_data[year] = pickle.load(f)
+            print(f"Loaded existing model with {model_data[year]['model'].num_topics} topics")
+        else:
+            # Find optimal number of topics
+            print(f"Finding optimal number of topics for {year} curriculum...")
+            optimal_num_topics, _ = find_optimal_topics(
+                documents[year], 
+                year, 
+                stopwords_set,
+                start=2,
+                limit=8 if len(documents[year]) > 10 else 5,
+                step=1
+            )
+            
+            # Run topic modeling with optimal number of topics
+            print(f"Running topic modeling with {optimal_num_topics} topics...")
+            model_data[year] = run_topic_modeling(
+                documents[year],
+                year,
+                stopwords_set,
+                num_topics=optimal_num_topics
+            )
         
-        # Run topic modeling with optimal number of topics
-        print(f"Running topic modeling with {optimal_num_topics} topics...")
-        model_data[year] = run_topic_modeling(
-            documents[year],
-            year,
-            stopwords_set,
-            num_topics=optimal_num_topics
-        )
-        
-        # Analyze topic distribution
-        print(f"Analyzing topic distribution for {year} curriculum...")
-        topic_distributions[year] = analyze_topic_distribution(
-            model_data[year],
-            documents[year],
-            metadata[year],
-            year
-        )
+        # Analyze topic distribution if needed
+        dist_path = os.path.join(PROCESSED_DIR, f'topic_distribution_{year}.csv')
+        if os.path.exists(dist_path):
+            print(f"Loading existing topic distribution for {year}")
+            topic_distributions[year] = pd.read_csv(dist_path)
+        else:
+            print(f"Analyzing topic distribution for {year} curriculum...")
+            topic_distributions[year] = analyze_topic_distribution(
+                model_data[year],
+                documents[year],
+                metadata[year],
+                year
+            )
     
     # Compare topics between curricula if both are available
+    comp_path = os.path.join(PROCESSED_DIR, 'topic_keywords.json')
     if model_data['2018'] and model_data['2024']:
-        print("\nComparing topics between curricula...")
-        similarity_matrix, topics_comparison = compare_topics(
-            model_data['2018'],
-            model_data['2024']
-        )
+        if os.path.exists(comp_path):
+            print("\nLoading existing topic comparison...")
+            with open(comp_path, 'r', encoding='utf-8') as f:
+                topics_comparison = json.load(f)
+            
+            similarity_matrix_path = os.path.join(PROCESSED_DIR, 'topic_similarity_matrix.npy')
+            if os.path.exists(similarity_matrix_path):
+                similarity_matrix = np.load(similarity_matrix_path)
+            else:
+                print("Comparing topics between curricula...")
+                similarity_matrix, topics_comparison = compare_topics(
+                    model_data['2018'],
+                    model_data['2024']
+                )
+        else:
+            print("\nComparing topics between curricula...")
+            similarity_matrix, topics_comparison = compare_topics(
+                model_data['2018'],
+                model_data['2024']
+            )
         
-        print("Creating concept network visualization...")
-        create_concept_network(topics_comparison, similarity_matrix)
+        # Check if concept network already exists
+        network_path = os.path.join(PROCESSED_DIR, 'topic_network.pkl')
+        network_img_path = os.path.join(FIGURES_DIR, 'topic_network.png')
+        
+        if not os.path.exists(network_path) or not os.path.exists(network_img_path):
+            print("Creating concept network visualization...")
+            create_concept_network(topics_comparison, similarity_matrix)
+        else:
+            print("Loading existing concept network...")
     
-    # Classify objectives by AI potential
-    print("\nClassifying learning objectives by AI potential...")
-    classifications = classify_objectives_by_ai_potential(processed_data)
+    # Classify objectives by AI potential if not already done
+    class_2018_path = os.path.join(PROCESSED_DIR, 'ai_classification_2018.csv')
+    class_2024_path = os.path.join(PROCESSED_DIR, 'ai_classification_2024.csv')
+    
+    if not os.path.exists(class_2018_path) or not os.path.exists(class_2024_path):
+        print("\nClassifying learning objectives by AI potential...")
+        classifications = classify_objectives_by_ai_potential(processed_data)
+    else:
+        print("\nLoading existing AI potential classifications...")
     
     print("\nAnalysis complete. Results saved to the processed_data and figures directories.")
     print("The following files have been created:")
     
     for year in ['2018', '2024']:
         if model_data[year]:
-            print(f"  - topic_model_vis_{year}.html: Interactive topic model visualization")
-            print(f"  - topic_coherence_{year}.png: Coherence score plot")
-            print(f"  - topic_distribution_{year}.png: Document distribution across topics")
-            print(f"  - topic_distribution_{year}.csv: Detailed topic distribution data")
-            print(f"  - ai_relevance_by_topic_{year}.png: AI relevance scores by topic")
-            print(f"  - ai_classification_{year}.png: AI relevance classification distribution")
-            print(f"  - ai_classification_{year}.csv: Detailed AI classification data")
+            vis_path = os.path.join(FIGURES_DIR, f'topic_model_vis_{year}.html')
+            coh_path = os.path.join(FIGURES_DIR, f'topic_coherence_{year}.png')
+            dist_img_path = os.path.join(FIGURES_DIR, f'topic_distribution_{year}.png')
+            dist_csv_path = os.path.join(PROCESSED_DIR, f'topic_distribution_{year}.csv')
+            ai_rel_path = os.path.join(FIGURES_DIR, f'ai_relevance_by_topic_{year}.png')
+            ai_class_img_path = os.path.join(FIGURES_DIR, f'ai_classification_{year}.png')
+            ai_class_csv_path = os.path.join(PROCESSED_DIR, f'ai_classification_{year}.csv')
+            
+            if os.path.exists(vis_path):
+                print(f"  - topic_model_vis_{year}.html: Interactive topic model visualization")
+            if os.path.exists(coh_path):
+                print(f"  - topic_coherence_{year}.png: Coherence score plot")
+            if os.path.exists(dist_img_path):
+                print(f"  - topic_distribution_{year}.png: Document distribution across topics")
+            if os.path.exists(dist_csv_path):
+                print(f"  - topic_distribution_{year}.csv: Detailed topic distribution data")
+            if os.path.exists(ai_rel_path):
+                print(f"  - ai_relevance_by_topic_{year}.png: AI relevance scores by topic")
+            if os.path.exists(ai_class_img_path):
+                print(f"  - ai_classification_{year}.png: AI relevance classification distribution")
+            if os.path.exists(ai_class_csv_path):
+                print(f"  - ai_classification_{year}.csv: Detailed AI classification data")
     
-    if model_data['2018'] and model_data['2024']:
+    sim_matrix_path = os.path.join(FIGURES_DIR, 'topic_similarity_matrix.png')
+    kw_json_path = os.path.join(PROCESSED_DIR, 'topic_keywords.json')
+    network_img_path = os.path.join(FIGURES_DIR, 'topic_network.png')
+    network_data_path = os.path.join(PROCESSED_DIR, 'topic_network.pkl')
+    
+    if os.path.exists(sim_matrix_path):
         print("  - topic_similarity_matrix.png: Topic similarity heatmap")
+    if os.path.exists(kw_json_path):
         print("  - topic_keywords.json: Top keywords for each topic")
+    if os.path.exists(network_img_path):
         print("  - topic_network.png: Network visualization of topic relationships")
+    if os.path.exists(network_data_path):
         print("  - topic_network.pkl: Network data for further analysis")
+        
 
 if __name__ == "__main__":
     main()

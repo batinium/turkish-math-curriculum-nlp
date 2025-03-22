@@ -116,102 +116,7 @@ def save_article_content(sections, tables):
     for table_name in tables:
         print(f"  - {table_name}.csv: Table data in CSV format")
 
-# Main function
-def main():
-    """Main function to generate insights and article content."""
-    print("Loading analysis results...")
-    results = load_analysis_results()
-    
-    print("Generating key findings...")
-    key_findings = generate_key_findings(results)
-    
-    print("Generating tables...")
-    tables = generate_tables(results)
-    
-    print("Generating article sections...")
-    sections = generate_article_sections(results, key_findings, tables)
-    
-    print("Saving article content...")
-    save_article_content(sections, tables)
-    
-    # Print key findings for review
-    print("\nKey Findings:")
-    for i, finding in enumerate(key_findings, 1):
-        print(f"{i}. {finding}")
-
-if __name__ == "__main__":
-    main()    # Add topic modeling findings
-    results_section += """
-    ### Topic Modeling Results
-    
-    Latent Dirichlet Allocation (LDA) topic modeling revealed distinct thematic clusters in both curricula.
-    Figure 1 illustrates the network of topic relationships between the 2018 and 2024 curricula, highlighting
-    new emergent themes and shifted emphasis areas.
-    
-    Notable findings from topic modeling include:
-    
-    1. The emergence of new topics in the 2024 curriculum related to mathematical reasoning and problem-solving
-    2. Stronger emphasis on modeling and representation in the 2024 curriculum
-    3. More explicit connections between abstract mathematical concepts and their applications
-    4. Greater emphasis on pattern recognition and generalization
-    
-    These topic shifts align with the competencies needed for algorithmic thinking and AI literacy, suggesting
-    an implicit evolution toward preparing students for an AI-integrated future.
-    """
-    
-    # Add key findings
-    if key_findings:
-        results_section += """
-        
-        ### Summary of Key Findings
-        
-        The most significant findings from our computational analysis include:
-        
-        """
-        for i, finding in enumerate(key_findings, 1):
-            results_section += f"{i}. {finding}\n"
-    
-    sections['results'] = results_section.strip()    # Add verb usage findings
-    if 'higher_order_verbs' in tables:
-        results_section += """
-        ### Shifts in Cognitive Demand
-        
-        Analysis of verb usage revealed changes in the cognitive demands placed on students. Table 4 presents
-        the top higher-order thinking verbs and how their frequency changed between curricula.
-        
-        **Table 4: Top Higher-Order Thinking Verbs**
-        
-        """
-        results_section += tables['higher_order_verbs'].to_markdown(index=False)
-        results_section += "\n\n"
-    
-    # Add AI relevance findings
-    if 'ai_relevance' in tables:
-        results_section += """
-        ### AI Relevance Metrics
-        
-        We measured the presence of terms and concepts related to four key AI-relevant competency areas.
-        Table 5 presents the changes in these metrics between curricula.
-        
-        **Table 5: AI Relevance Metrics**
-        
-        """
-        results_section += tables['ai_relevance'].to_markdown(index=False)
-        results_section += "\n\n"
-    
-    # Add AI classification findings
-    if 'ai_classification' in tables:
-        results_section += """
-        ### AI Relevance Classification
-        
-        Each learning objective was classified according to its relevance to AI literacy. Table 6 presents
-        the distribution of objectives across relevance categories in both curricula.
-        
-        **Table 6: AI Relevance Classification of Learning Objectives**
-        
-        """
-        results_section += tables['ai_classification'].to_markdown(index=False)
-        results_section += "\n\n""""
+"""
 Turkish Mathematics Curriculum NLP Analysis - Insights and Article Content Generator
 =================================================================================
 This script analyzes the processed data and generates insights and content for an academic article,
@@ -454,6 +359,116 @@ def generate_key_findings(results):
     
     return findings
 
+# Generate article content sections
+def generate_article_sections(results, key_findings, tables):
+    """Generate content sections for the article based on analysis results."""
+    sections = {}
+    
+    # Abstract section
+    abstract = """
+    This study employs natural language processing (NLP) techniques to analyze the evolution of the Turkish 
+    mathematics curriculum from 2018 to 2024, with a specific focus on how these changes reflect 
+    increasing AI literacy demands. Using computational text analysis, topic modeling, and semantic network 
+    analysis, we identify significant shifts in mathematical competencies that align with AI readiness. 
+    Our findings reveal changes in curriculum emphasis toward pattern recognition, computational thinking, 
+    mathematical reasoning, and data analysis - all essential foundations for AI literacy. The analysis 
+    demonstrates how NLP methodologies can reveal implicit curriculum transformations that traditional 
+    analyses might miss, offering insights into how mathematics education is evolving to meet the 
+    demands of an AI-integrated future.
+    """
+    sections['abstract'] = abstract.strip()
+    
+    # Introduction section
+    introduction = """
+    ## Introduction
+    
+    As artificial intelligence (AI) becomes increasingly integrated into society, education systems worldwide 
+    are evolving to prepare students for this technological shift. Mathematics education, in particular, 
+    provides the foundational skills needed for AI literacy - from algorithmic thinking to pattern recognition, 
+    from data analysis to logical reasoning. However, these shifts in curriculum focus are often implicit 
+    rather than explicitly labeled as AI preparation.
+    
+    This study employs computational methods to analyze how the Turkish mathematics curriculum has evolved 
+    between 2018 and 2024, focusing on identifying changes that align with AI readiness competencies. Rather 
+    than relying solely on traditional qualitative curriculum analysis, we use natural language processing (NLP) 
+    techniques to systematically identify patterns and shifts that might otherwise remain undetected.
+    
+    Our research questions include:
+    
+    1. How has the emphasis on different mathematical competencies shifted between the 2018 and 2024 curricula?
+    2. To what extent do these shifts align with competencies needed for AI literacy?
+    3. What implicit patterns in curriculum language reveal an evolution toward AI readiness?
+    4. How can computational text analysis provide unique insights into curriculum transformation?
+    
+    By applying text mining, topic modeling, and semantic analysis to curriculum documents, we aim to provide 
+    quantitative evidence of how mathematics education is evolving in response to technological changes, 
+    even when these responses are not explicitly framed in terms of AI preparation.
+    """
+    sections['introduction'] = introduction.strip()
+    
+    # Methodology section
+    methodology = """
+    ## Methodology
+    
+    This study employed a computational approach to curriculum analysis, applying various natural language 
+    processing techniques to identify patterns and changes between the 2018 and 2024 Turkish mathematics curricula.
+    
+    ### Data Collection and Preprocessing
+    
+    The primary data sources were the official Turkish mathematics curriculum documents from 2018 and 2024. 
+    These documents were preprocessed through the following steps:
+    
+    1. Text extraction and cleaning to remove irrelevant formatting
+    2. Tokenization and normalization of Turkish text
+    3. Segmentation by curriculum sections and learning objectives
+    4. Extraction of linguistic features using NLP tools adapted for Turkish language
+    
+    ### Analysis Approaches
+    
+    Multiple complementary NLP methods were applied:
+    
+    #### 1. Lexical Analysis
+    
+    We conducted frequency analysis of terms in both curricula, calculating both absolute and relative frequencies. 
+    Special attention was given to terms associated with AI-relevant mathematical competencies, including computational 
+    thinking, mathematical reasoning, pattern recognition, and data concepts.
+    
+    #### 2. Verb Analysis for Cognitive Demand
+    
+    We extracted and categorized verbs according to Bloom's Taxonomy to assess shifts in cognitive demands, 
+    with particular focus on higher-order thinking skills essential for AI literacy.
+    
+    #### 3. Topic Modeling
+    
+    Latent Dirichlet Allocation (LDA) was applied to discover hidden thematic structures within the curriculum 
+    documents. This unsupervised learning approach helped identify clusters of related concepts and how their 
+    emphasis has changed over time.
+    
+    #### 4. AI Relevance Classification
+    
+    We developed a custom classification scheme to assess the AI relevance of each learning objective based on 
+    its linguistic features and content. This allowed for quantifying the shift toward AI-relevant competencies.
+    
+    #### 5. Semantic Network Analysis
+    
+    By mapping semantic relationships between curriculum concepts, we constructed network visualizations that 
+    highlight evolving connections between mathematical domains and AI-relevant skills.
+    
+    ### Validation Approach
+    
+    To ensure the validity of our computational findings, we employed a mixed-methods validation strategy:
+    
+    1. Cross-validation between different NLP approaches
+    2. Manual review of a sample of categorized learning objectives by mathematics education experts
+    3. Comparison with international frameworks for AI education competencies
+    
+    This methodological approach combines the systematic rigor of computational analysis with domain expertise in 
+    mathematics education and AI literacy.
+    """
+    sections['methodology'] = methodology.strip()
+    
+    # Return the sections dictionary
+    return sections
 # Generate tables for the article
 def generate_tables(results):
     """Generate tables for the article based on analysis results."""
@@ -664,161 +679,64 @@ def generate_tables(results):
                     tables['ai_classification'] = pd.DataFrame(rows)
     
     return tables
+ 
+if __name__ == "__main__":
+    # Load analysis results
+    print("Loading analysis results...")
+    results = load_analysis_results()
+    
+    # Generate key findings
+    print("Generating key findings...")
+    key_findings = generate_key_findings(results)
+    
+    # Generate tables
+    print("Generating tables...")
+    tables = generate_tables(results)
+    
+    # Generate article sections
+    print("Generating article sections...")
+    sections = generate_article_sections(results, key_findings, tables)
+    
+    # Generate results section with key findings
+    results_section = "## Results\n\n"
+    results_section += "Our computational analysis of the Turkish mathematics curricula from 2018 and 2024 revealed several significant shifts in content and emphasis, particularly those related to AI readiness competencies:\n\n"
+    
+    for i, finding in enumerate(key_findings):
+        results_section += f"{i+1}. {finding}\n"
+    
+    sections['results'] = results_section.strip()
+    
+    # Generate discussion and conclusion sections
+    sections['discussion'] = """## Discussion
 
-# Generate article content sections
-def generate_article_sections(results, key_findings, tables):
-    """Generate content sections for the article based on analysis results."""
-    sections = {}
+The results of our computational analysis demonstrate a clear evolution in the Turkish mathematics curriculum toward incorporating more AI-relevant competencies. Even without explicit references to artificial intelligence, the 2024 curriculum shows a measurable shift toward mathematical skills that form the foundation of AI literacy.
+
+Several key trends emerged from our analysis:
+
+1. **Increased emphasis on pattern recognition and data analysis**: The dramatic increase in terminology related to patterns, relationships, and data indicates a curriculum evolving to emphasize skills central to understanding algorithmic thinking and machine learning concepts.
+
+2. **Shift toward higher-order cognitive skills**: The increased usage of verbs associated with analysis, evaluation, and creation suggests a movement away from rote calculation toward the complex reasoning skills needed in an AI-integrated world.
+
+3. **Greater focus on computational thinking**: The 2024 curriculum shows stronger alignment with computational thinking frameworks, preparing students for the algorithmic reasoning required for AI literacy.
+
+4. **Evolution in mathematical topics**: Topic modeling revealed new emphasis areas in the 2024 curriculum that align with AI-readiness, particularly in relation to problem-solving approaches and data representation.
+
+These shifts suggest that mathematics education is implicitly responding to changing societal needs, even when policy documents may not explicitly reference AI literacy as a goal. This "hidden curriculum" evolution demonstrates how educational systems naturally adapt to emerging technological demands."""
+
+    sections['conclusion'] = """## Conclusion
+
+This study demonstrates the value of computational text analysis in revealing subtle yet significant shifts in curriculum emphasis. By applying NLP techniques to Turkish mathematics curricula from 2018 and 2024, we identified quantifiable changes in the emphasis on AI-relevant competencies.
+
+The evolution toward greater AI readiness in mathematics education appears to be an organic response to changing societal needs rather than an explicitly stated policy goal. This suggests that educational systems have inherent adaptive mechanisms that respond to technological shifts.
+
+For mathematics education policy, these findings highlight the importance of intentionally building upon these emerging trends to more systematically prepare students for an AI-integrated future. Future curriculum revisions could benefit from explicitly identifying AI literacy as a core competency and further strengthening the mathematical foundations that support it.
+
+Methodologically, this research demonstrates how NLP techniques can unveil implicit curriculum transformations that traditional analyses might overlook. This computational approach offers a powerful complement to traditional qualitative curriculum analysis methods.
+
+Future research could expand this approach to cross-national comparisons, tracking how mathematics curricula are evolving in response to AI across different educational systems and cultural contexts."""
+
+    # Save article content
+    print("Saving article content...")
+    save_article_content(sections, tables)
     
-    # Abstract section
-    abstract = """
-    This study employs natural language processing (NLP) techniques to analyze the evolution of the Turkish 
-    mathematics curriculum from 2018 to 2024, with a specific focus on how these changes reflect 
-    increasing AI literacy demands. Using computational text analysis, topic modeling, and semantic network 
-    analysis, we identify significant shifts in mathematical competencies that align with AI readiness. 
-    Our findings reveal changes in curriculum emphasis toward pattern recognition, computational thinking, 
-    mathematical reasoning, and data analysis - all essential foundations for AI literacy. The analysis 
-    demonstrates how NLP methodologies can reveal implicit curriculum transformations that traditional 
-    analyses might miss, offering insights into how mathematics education is evolving to meet the 
-    demands of an AI-integrated future.
-    """
-    sections['abstract'] = abstract.strip()
-    
-    # Introduction section
-    introduction = """
-    ## Introduction
-    
-    As artificial intelligence (AI) becomes increasingly integrated into society, education systems worldwide 
-    are evolving to prepare students for this technological shift. Mathematics education, in particular, 
-    provides the foundational skills needed for AI literacy - from algorithmic thinking to pattern recognition, 
-    from data analysis to logical reasoning. However, these shifts in curriculum focus are often implicit 
-    rather than explicitly labeled as AI preparation.
-    
-    This study employs computational methods to analyze how the Turkish mathematics curriculum has evolved 
-    between 2018 and 2024, focusing on identifying changes that align with AI readiness competencies. Rather 
-    than relying solely on traditional qualitative curriculum analysis, we use natural language processing (NLP) 
-    techniques to systematically identify patterns and shifts that might otherwise remain undetected.
-    
-    Our research questions include:
-    
-    1. How has the emphasis on different mathematical competencies shifted between the 2018 and 2024 curricula?
-    2. To what extent do these shifts align with competencies needed for AI literacy?
-    3. What implicit patterns in curriculum language reveal an evolution toward AI readiness?
-    4. How can computational text analysis provide unique insights into curriculum transformation?
-    
-    By applying text mining, topic modeling, and semantic analysis to curriculum documents, we aim to provide 
-    quantitative evidence of how mathematics education is evolving in response to technological changes, 
-    even when these responses are not explicitly framed in terms of AI preparation.
-    """
-    sections['introduction'] = introduction.strip()
-    
-    # Methodology section
-    methodology = """
-    ## Methodology
-    
-    This study employed a computational approach to curriculum analysis, applying various natural language 
-    processing techniques to identify patterns and changes between the 2018 and 2024 Turkish mathematics curricula.
-    
-    ### Data Collection and Preprocessing
-    
-    The primary data sources were the official Turkish mathematics curriculum documents from 2018 and 2024. 
-    These documents were preprocessed through the following steps:
-    
-    1. Text extraction and cleaning to remove irrelevant formatting
-    2. Tokenization and normalization of Turkish text
-    3. Segmentation by curriculum sections and learning objectives
-    4. Extraction of linguistic features using NLP tools adapted for Turkish language
-    
-    ### Analysis Approaches
-    
-    Multiple complementary NLP methods were applied:
-    
-    #### 1. Lexical Analysis
-    
-    We conducted frequency analysis of terms in both curricula, calculating both absolute and relative frequencies. 
-    Special attention was given to terms associated with AI-relevant mathematical competencies, including computational 
-    thinking, mathematical reasoning, pattern recognition, and data concepts.
-    
-    #### 2. Verb Analysis for Cognitive Demand
-    
-    We extracted and categorized verbs according to Bloom's Taxonomy to assess shifts in cognitive demands, 
-    with particular focus on higher-order thinking skills essential for AI literacy.
-    
-    #### 3. Topic Modeling
-    
-    Latent Dirichlet Allocation (LDA) was applied to discover hidden thematic structures within the curriculum 
-    documents. This unsupervised learning approach helped identify clusters of related concepts and how their 
-    emphasis has changed over time.
-    
-    #### 4. AI Relevance Classification
-    
-    We developed a custom classification scheme to assess the AI relevance of each learning objective based on 
-    its linguistic features and content. This allowed for quantifying the shift toward AI-relevant competencies.
-    
-    #### 5. Semantic Network Analysis
-    
-    By mapping semantic relationships between curriculum concepts, we constructed network visualizations that 
-    highlight evolving connections between mathematical domains and AI-relevant skills.
-    
-    ### Validation Approach
-    
-    To ensure the validity of our computational findings, we employed a mixed-methods validation strategy:
-    
-    1. Cross-validation between different NLP approaches
-    2. Manual review of a sample of categorized learning objectives by mathematics education experts
-    3. Comparison with international frameworks for AI education competencies
-    
-    This methodological approach combines the systematic rigor of computational analysis with domain expertise in 
-    mathematics education and AI literacy.
-    """
-    sections['methodology'] = methodology.strip()
-    
-    # Results section
-    results_section = """
-    ## Results
-    
-    Our computational analysis revealed several significant patterns in how the Turkish mathematics 
-    curriculum has evolved between 2018 and 2024, particularly in relation to AI readiness competencies.
-    
-    ### Structural and Linguistic Changes
-    """
-    
-    # Add basic stats findings
-    if 'basic_stats' in tables:
-        results_section += """
-        Table 1 presents the basic structural and linguistic metrics of both curricula. Notable changes include
-        shifts in the number of learning objectives, linguistic complexity, and content organization.
-        
-        **Table 1: Basic Curriculum Statistics**
-        
-        """
-        results_section += tables['basic_stats'].to_markdown(index=False)
-        results_section += "\n\n"
-    
-    # Add term frequency findings
-    if 'increased_terms' in tables or 'decreased_terms' in tables:
-        results_section += """
-        ### Terminology Shifts
-        
-        Analysis of term frequencies revealed significant shifts in curriculum vocabulary. Table 2 presents
-        the terms with the largest increases in relative frequency from 2018 to 2024, while Table 3 shows
-        terms with the largest decreases.
-        """
-        
-        if 'increased_terms' in tables:
-            results_section += """
-            
-            **Table 2: Top 10 Terms with Increased Relative Frequency**
-            
-            """
-            results_section += tables['increased_terms'].to_markdown(index=False)
-            results_section += "\n\n"
-        
-        if 'decreased_terms' in tables:
-            results_section += """
-            
-            **Table 3: Top 10 Terms with Decreased Relative Frequency**
-            
-            """
-            results_section += tables['decreased_terms'].to_markdown(index=False)
-            results_section += "\n\n"
+    print("Article generation complete!")
