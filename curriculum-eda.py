@@ -16,9 +16,10 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from collections import Counter
+from collections import Counter, defaultdict
 from wordcloud import WordCloud
 import time
+import networkx as nx
 
 # Configure visualizations
 plt.style.use('fivethirtyeight')
@@ -132,7 +133,7 @@ def compute_basic_stats(processed_data):
 
 # Frequency analysis
 def analyze_term_frequencies(processed_data):
-    """Analyze term frequencies in both curricula."""
+    """Analyze term frequencies in both curricula using lemmatization."""
     # Create DataFrames for word frequency in each curriculum
     word_freq = {'2018': {}, '2024': {}}
     
@@ -141,21 +142,31 @@ def analyze_term_frequencies(processed_data):
             print(f"No data available for {year} curriculum. Skipping term frequency analysis.")
             continue
             
-        if 'processed_full_text' not in processed_data[year] or 'words' not in processed_data[year]['processed_full_text']:
+        if 'processed_full_text' not in processed_data[year]:
             print(f"Missing processed text data for {year} curriculum. Skipping term frequency analysis.")
             continue
-            
-        # Get all words
-        all_words = processed_data[year]['processed_full_text']['words']
         
-        # Remove punctuation and convert to lowercase
-        all_words = [word.lower() for word in all_words if word.isalnum()]
+        # Get all lemmas from processed objectives for more accurate analysis
+        all_lemmas = []
+        if 'processed_objectives' in processed_data[year]:
+            for obj in processed_data[year]['processed_objectives']:
+                if 'spacy_tokens' in obj:
+                    # Extract lemmas, exclude punctuation and very short words
+                    obj_lemmas = [token['lemma'].lower() for token in obj['spacy_tokens'] 
+                                if not token.get('is_punctuation', False) 
+                                and not token.get('is_stop', False)
+                                and len(token['lemma']) > 2]
+                    all_lemmas.extend(obj_lemmas)
+        
+        # Fallback to non-lemmatized words if no objectives found
+        if not all_lemmas and 'processed_full_text' in processed_data[year] and 'words' in processed_data[year]['processed_full_text']:
+            print(f"Warning: Using non-lemmatized words for {year} curriculum due to missing processed objectives.")
+            all_lemmas = [word.lower() for word in processed_data[year]['processed_full_text']['words'] if word.isalnum() and len(word) > 2]
         
         # Count frequencies
-        word_freq[year] = Counter(all_words)
+        word_freq[year] = Counter(all_lemmas)
     
     # Create a unified DataFrame for comparison
-    # Convert set to list to avoid the "index cannot be a set" error
     all_unique_words = list(set(word_freq['2018'].keys()) | set(word_freq['2024'].keys()))
     freq_df = pd.DataFrame(index=all_unique_words, columns=['2018', '2024'])
     
@@ -180,29 +191,46 @@ def analyze_term_frequencies(processed_data):
     return freq_df
 
 
+
 # Create word clouds
 def create_word_clouds(processed_data):
-    """Create word clouds for both curricula."""
+    """Create word clouds for both curricula using lemmatized words."""
     word_clouds = {}
     
     for year in ['2018', '2024']:
         if year not in processed_data or not processed_data[year]:
             print(f"No data available for {year} curriculum. Skipping word cloud creation.")
             continue
-            
-        if 'processed_full_text' not in processed_data[year] or 'words' not in processed_data[year]['processed_full_text']:
-            print(f"Missing processed text data for {year} curriculum. Skipping word cloud creation.")
+        
+        # Get lemmas from processed objectives for more accurate visualization
+        all_lemmas = []
+        if 'processed_objectives' in processed_data[year]:
+            for obj in processed_data[year]['processed_objectives']:
+                if 'spacy_tokens' in obj:
+                    # Extract meaningful lemmas, exclude punctuation, stopwords and very short words
+                    obj_lemmas = [token['lemma'].lower() for token in obj['spacy_tokens'] 
+                                if not token.get('is_punctuation', False) 
+                                and not token.get('is_stop', False)
+                                and len(token['lemma']) > 2]
+                    all_lemmas.extend(obj_lemmas)
+        
+        # Fallback to words if no lemmas found
+        if not all_lemmas and 'processed_full_text' in processed_data[year] and 'words' in processed_data[year]['processed_full_text']:
+            print(f"Warning: Using non-lemmatized words for {year} word cloud due to missing processed objectives.")
+            all_lemmas = [word.lower() for word in processed_data[year]['processed_full_text']['words'] 
+                        if word.isalnum() and len(word) > 2]
+        
+        if not all_lemmas:
+            print(f"No words available for {year} curriculum word cloud.")
             continue
-            
-        # Get all words and their frequencies
-        all_words = processed_data[year]['processed_full_text']['words']
-        all_words = [word.lower() for word in all_words if word.isalnum()]
-        word_freq = Counter(all_words)
+        
+        # Count lemma frequencies
+        word_freq = Counter(all_lemmas)
         
         # Generate word cloud
         wc = WordCloud(width=800, height=400, background_color='white', 
-                       max_words=100, colormap='viridis', 
-                       collocations=False).generate_from_frequencies(word_freq)
+                     max_words=100, colormap='viridis', 
+                     collocations=False).generate_from_frequencies(word_freq)
         
         word_clouds[year] = wc
         
@@ -210,12 +238,13 @@ def create_word_clouds(processed_data):
         plt.figure(figsize=(10, 5))
         plt.imshow(wc, interpolation='bilinear')
         plt.axis('off')
-        plt.title(f'{year} Curriculum Word Cloud')
+        plt.title(f'{year} Curriculum Word Cloud (Lemmatized)')
         plt.tight_layout()
-        plt.savefig(os.path.join(FIGURES_DIR, f'wordcloud_{year}.png'), dpi=300)
+        plt.savefig(os.path.join(FIGURES_DIR, f'wordcloud_{year}_lemmatized.png'), dpi=300)
         plt.close()
     
     return word_clouds
+
 
 # Analyze AI relevance
 def analyze_ai_relevance(processed_data):
@@ -483,6 +512,166 @@ def analyze_objective_complexity(processed_data):
     
     return complexity_dfs
 
+def analyze_word_relations(processed_data):
+    """Analyze word co-occurrence relations using lemmatization."""
+    # Create co-occurrence matrices for each year
+    cooccurrence = {'2018': {}, '2024': {}}
+    
+    for year in ['2018', '2024']:
+        if year not in processed_data or not processed_data[year]:
+            print(f"No data available for {year} curriculum. Skipping word relation analysis.")
+            continue
+            
+        if 'processed_objectives' not in processed_data[year]:
+            print(f"No processed objectives available for {year} curriculum. Skipping word relation analysis.")
+            continue
+        
+        # Initialize co-occurrence dictionary
+        word_cooccurrence = defaultdict(lambda: defaultdict(int))
+        
+        # Process each objective
+        for obj in processed_data[year]['processed_objectives']:
+            if 'spacy_tokens' not in obj:
+                continue
+                
+            # Get lemmas from this objective (excluding stopwords, punctuation, and short words)
+            lemmas = [token['lemma'].lower() for token in obj['spacy_tokens']
+                     if not token.get('is_punctuation', False)
+                     and not token.get('is_stop', False)
+                     and len(token['lemma']) > 2]
+            
+            # Record co-occurrences in this objective
+            for i, lemma1 in enumerate(lemmas):
+                for lemma2 in lemmas[i+1:]:
+                    if lemma1 != lemma2:  # Avoid self-co-occurrence
+                        word_cooccurrence[lemma1][lemma2] += 1
+                        word_cooccurrence[lemma2][lemma1] += 1
+        
+        cooccurrence[year] = word_cooccurrence
+    
+    # For each year, create and save a network visualization of top co-occurrences
+    for year, cooc_data in cooccurrence.items():
+        if not cooc_data:
+            continue
+            
+        # Create a graph
+        G = nx.Graph()
+        
+        # Get top 50 most frequent words
+        word_counts = Counter()
+        for word, coocs in cooc_data.items():
+            word_counts[word] = sum(coocs.values())
+        
+        top_words = [word for word, _ in word_counts.most_common(50)]
+        
+        # Add nodes and edges for top words
+        for word in top_words:
+            G.add_node(word, count=word_counts[word])
+            
+            # Add edges to other top words
+            for cooc_word, weight in cooc_data[word].items():
+                if cooc_word in top_words and weight > 1:  # Minimum co-occurrence threshold
+                    G.add_edge(word, cooc_word, weight=weight)
+        
+        # Remove isolated nodes
+        G.remove_nodes_from(list(nx.isolates(G)))
+        
+        if not G.nodes():
+            print(f"No significant word co-occurrences found for {year} curriculum.")
+            continue
+        
+        # Calculate layout
+        pos = nx.spring_layout(G, k=0.3, iterations=50, seed=42)
+        
+        # Create visualization
+        plt.figure(figsize=(12, 12))
+        
+        # Node sizes based on frequency
+        node_sizes = [G.nodes[node]['count'] * 10 for node in G.nodes()]
+        
+        # Edge widths based on co-occurrence weight
+        edge_widths = [G[u][v]['weight'] / 2 for u, v in G.edges()]
+        
+        # Draw network
+        nx.draw_networkx_nodes(G, pos, node_size=node_sizes, alpha=0.8, 
+                             node_color='skyblue', linewidths=1, edgecolors='gray')
+        nx.draw_networkx_edges(G, pos, width=edge_widths, alpha=0.5, edge_color='gray')
+        nx.draw_networkx_labels(G, pos, font_size=10, font_family='sans-serif', font_weight='bold')
+        
+        plt.title(f'{year} Curriculum Word Relations (Lemmatized)', fontsize=16)
+        plt.axis('off')
+        plt.tight_layout()
+        
+        # Save the visualization
+        plt.savefig(os.path.join(FIGURES_DIR, f'word_relations_{year}.png'), dpi=300)
+        plt.close()
+        
+        # Save the network data for potential further analysis
+        with open(os.path.join(PROCESSED_DIR, f'word_relations_{year}.pkl'), 'wb') as f:
+            pickle.dump((G, pos), f)
+    
+    return cooccurrence
+
+def analyze_mathematical_terminology(processed_data):
+    """Analyze mathematical terminology using lemmatization."""
+    # Mathematical term categories (using lemmatized forms)
+    math_categories = {
+        'algebra': ['cebir', 'denklem', 'eşitlik', 'ifade', 'polinom', 'fonksiyon', 'değişken'],
+        'geometry': ['geometri', 'açı', 'üçgen', 'çokgen', 'doğru', 'nokta', 'çember', 'alan', 'hacim'],
+        'calculus': ['türev', 'integral', 'limit', 'süreklilik', 'diferansiyel', 'gradient'],
+        'statistics': ['istatistik', 'olasılık', 'ortalama', 'medyan', 'dağılım', 'standart sapma', 'varyans'],
+        'number_theory': ['sayı', 'asal', 'tam sayı', 'kesir', 'rasyonel', 'bölünebilme'],
+        'logic': ['mantık', 'önerme', 'çıkarım', 'doğruluk', 'yanlışlık', 'ispat']
+    }
+    
+    term_counts = {
+        '2018': {category: 0 for category in math_categories},
+        '2024': {category: 0 for category in math_categories}
+    }
+    
+    for year in ['2018', '2024']:
+        if year not in processed_data or not processed_data[year]:
+            print(f"No data available for {year} curriculum. Skipping mathematical terminology analysis.")
+            continue
+            
+        if 'processed_objectives' not in processed_data[year]:
+            print(f"No processed objectives for {year} curriculum. Skipping mathematical terminology analysis.")
+            continue
+        
+        # Count terms in each category
+        for obj in processed_data[year]['processed_objectives']:
+            if 'spacy_tokens' not in obj:
+                continue
+                
+            # Get lemmas from this objective
+            lemmas = [token['lemma'].lower() for token in obj['spacy_tokens']]
+            lemma_text = ' '.join(lemmas)
+            
+            # Check each category
+            for category, terms in math_categories.items():
+                for term in terms:
+                    if term in lemma_text:
+                        term_counts[year][category] += 1
+                        break  # Count each category only once per objective
+    
+    # Create a DataFrame for visualization
+    term_df = pd.DataFrame(term_counts)
+    
+    # Create visualization
+    plt.figure(figsize=(10, 6))
+    term_df.plot(kind='bar')
+    plt.title('Mathematical Terminology Categories')
+    plt.ylabel('Count')
+    plt.tight_layout()
+    plt.savefig(os.path.join(FIGURES_DIR, 'mathematical_terminology.png'), dpi=300)
+    plt.close()
+    
+    # Save the data
+    term_df.to_csv(os.path.join(PROCESSED_DIR, 'mathematical_terminology.csv'))
+    
+    return term_df
+
+
 # Visualize comparative data
 def plot_comparative_charts(data_dict):
     """Create comparative visualizations."""
@@ -675,13 +864,21 @@ def main():
     print("Analyzing objective complexity...")
     complexity = analyze_objective_complexity(processed_data)
     
+    print("Analyzing mathematical terminology...")
+    math_terms = analyze_mathematical_terminology(processed_data)
+
+    print("Analyzing word relations...")
+    word_relations = analyze_word_relations(processed_data)
+
     # Collect all results
     results = {
         'basic_stats': basic_stats,
         'term_freq': term_freq,
         'ai_relevance': ai_relevance,
         'verb_usage': verb_usage,
-        'complexity': complexity
+        'complexity': complexity,
+        'math_terms': math_terms,
+        'word_relations': word_relations
     }
     
     print("Creating visualizations...")
@@ -723,6 +920,14 @@ def main():
     print("  - blooms_taxonomy_distribution.png")
     print("  - objective_complexity_comparison.png")
     print("  - complexity_vs_ai_relevance.png")
+    print("  - mathematical_terminology.csv")
+    print("  - word_relations_2018.pkl (if 2018 data available)")
+    print("  - word_relations_2024.pkl (if 2024 data available)")
+    print("  - mathematical_terminology.png")
+    print("  - word_relations_2018.png (if 2018 data available)")
+    print("  - word_relations_2024.png (if 2024 data available)")
+    print("  - wordcloud_2018_lemmatized.png (if 2018 data available)")
+    print("  - wordcloud_2024_lemmatized.png (if 2024 data available)")
 
 if __name__ == "__main__":
     main()
