@@ -1,3 +1,4 @@
+#curriculum-preprocessing.py
 """
 Turkish Mathematics Curriculum NLP Analysis - PDF Processor
 ==========================================================
@@ -284,38 +285,40 @@ def detect_curriculum_version(text):
     else:
         return "unknown"    
 
-# Tokenization and NLP processing (from original script with enhancements)
 def process_text(text):
     """
     Process text with NLP tools.
     Returns various tokenized forms and linguistic features.
-    Enhanced for Turkish language support.
+    Enhanced for Turkish language support and mathematical notation.
     """
     # Clean the text
     cleaned_text = clean_text(text)
     normalized_text = normalize_mathematical_notation(cleaned_text)
     
-    # Basic tokenization
-    # Use specific Turkish tokenization parameters if possible
+    # Remove mathematical symbols before lemmatization
+    # This prevents lemmatization failures on objectives with mathematical notation
+    math_symbols_pattern = r'[±∈∉∋∌∩∪⊂⊃⊆⊇⊄⊅∧∨¬→↔∀∃∄∑∏∫∮≤≥≠≈←↑↓↔⇒⇔√∛∜∝∞∟∠∡∢∴∵∷∼⊕⊗⊥∥∦∣∤π°′″‴⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁼⁽⁾₀₁₂₃₄₅₆₇₈₉₊₋₌₍₎(){}[]<>+\-*/=]'
+    math_cleaned_text = re.sub(math_symbols_pattern, ' ', normalized_text)
+    # Remove multiple spaces created by symbol removal
+    math_cleaned_text = re.sub(r'\s+', ' ', math_cleaned_text).strip()
+    
+    # Basic tokenization (using math_cleaned_text for better results)
     try:
-        # Try to split by sentences using Turkish-specific rules
-        sentences = sent_tokenize(normalized_text, language='turkish')
+        sentences = sent_tokenize(math_cleaned_text, language='turkish')
     except ValueError:
-        # Fall back to default if Turkish not available
-        sentences = sent_tokenize(normalized_text)
+        sentences = sent_tokenize(math_cleaned_text)
     
     try:
-        # Try to tokenize words using Turkish-specific rules
-        words = word_tokenize(normalized_text, language='turkish')
+        words = word_tokenize(math_cleaned_text, language='turkish')
     except ValueError:
-        # Fall back to default if Turkish not available
-        words = word_tokenize(normalized_text)
+        words = word_tokenize(math_cleaned_text)
     
     # Process with spaCy for more advanced linguistic features
-    doc = nlp(normalized_text)
+    doc = nlp(math_cleaned_text)
     
     # Extract linguistic features
     tokens = []
+    lemmas = []
     for token in doc:
         token_info = {
             'text': token.text,
@@ -326,11 +329,27 @@ def process_text(text):
             'is_punctuation': token.is_punct
         }
         tokens.append(token_info)
+        # Add lemmas (or original text if lemmatization failed)
+        if not token.is_punct and not token.is_space:
+            # If lemmatization produces an empty string or the same as the token,
+            # use the original token text
+            if not token.lemma_ or token.lemma_ == token.text:
+                lemmas.append(token.text)
+            else:
+                lemmas.append(token.lemma_)
+            
+    # Join lemmas into a single string
+    lemmatized_text = ' '.join(lemmas)
     
+    # Handle case where lemmatization produced an empty string
+    if not lemmatized_text.strip() and math_cleaned_text.strip():
+        lemmatized_text = math_cleaned_text.strip()
+        
     return {
         'original_text': text,
         'cleaned_text': cleaned_text,
         'normalized_text': normalized_text,
+        'lemmatized_text': lemmatized_text,
         'sentences': sentences,
         'words': words,
         'spacy_tokens': tokens
@@ -341,7 +360,7 @@ def extract_learning_objectives(sections, section_type="numeric-based"):
     """
     Extract learning objectives from curriculum sections.
     Different patterns based on curriculum type.
-    Enhanced for Turkish formatting patterns.
+    Enhanced for Turkish formatting patterns and mathematical notation.
     """
     objectives = []
     
@@ -370,6 +389,15 @@ def extract_learning_objectives(sections, section_type="numeric-based"):
             r'(\d+\))\s+([^\n]+)'
         ]
         
+        # Mathematical notation specific patterns
+        math_patterns = [
+            # Pattern that may start with mathematical symbols
+            r'([±∈∉\(\)\[\]\{\}])\s+([^\n]+)',
+            
+            # Pattern with math notation embedded in item marker
+            r'([a-z][\)\.])\s*([±∈∉\(\)\[\]\{\}][^\n]+)'
+        ]
+        
         # Try main pattern first
         matches = re.findall(pattern, content)
         
@@ -381,16 +409,26 @@ def extract_learning_objectives(sections, section_type="numeric-based"):
                     matches = turkish_matches
                     break
         
+        # Try math patterns if still few matches
+        if len(matches) < 3:
+            for math_pattern in math_patterns:
+                math_matches = re.findall(math_pattern, content)
+                if len(math_matches) > len(matches):
+                    matches = math_matches
+                    break
+        
         # Add all found objectives
         for item_num, item_text in matches:
             objectives.append({
                 'section': section_title,
                 'item': item_num.strip(),
                 'text': item_text.strip(),
-                'curriculum_type': section_type
+                'curriculum_type': section_type,
+                'contains_math': bool(re.search(r'[±∈∉∋∌∩∪⊂⊃⊆⊇⊄⊅∧∨¬→↔∀∃∄∑∏∫∮≤≥≠≈←↑↓↔⇒⇔√∛∜∝∞∟∠∡∢∴∵∷∼⊕⊗⊥∥∦∣∤π°′″‴⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁼⁽⁾₀₁₂₃₄₅₆₇₈₉₊₋₌₍₎]', item_text))
             })
     
     return objectives
+
 
 # Process a curriculum PDF
 def process_curriculum_pdf(pdf_path, name="curriculum"):
@@ -458,7 +496,7 @@ def create_turkish_ai_relevance_lexicon():
     """
     Create an expanded lexicon of terms related to AI-relevant skills and concepts in Turkish.
     """
-    return {
+    raw_lexicon = {
         'computational_thinking': [
             'algoritma', 'mantık', 'problem', 'çözüm', 'örüntü', 'soyutlama', 
             'modelleme', 'işlem', 'düzen', 'akış', 'hesaplama', 'işlem sırası',
@@ -500,8 +538,22 @@ def create_turkish_ai_relevance_lexicon():
             'mobil', 'uygulama', 'arayüz', 'etkileşim', 'algoritma', 'kodlama',
             'programlama', 'otomasyon', 'yapay zeka', 'hesaplayıcı'
         ]
+        
     }
     
+    # Lemmatize all terms in the lexicon
+    lemmatized_lexicon = {}
+    for category, terms in raw_lexicon.items():
+        lemmatized_lexicon[category] = []
+        for term in terms:
+            # Process with spaCy to get lemmas
+            doc = nlp(term)
+            lemmas = [token.lemma_ for token in doc if not token.is_punct and not token.is_space]
+            lemmatized_term = ' '.join(lemmas)
+            lemmatized_lexicon[category].append(lemmatized_term)
+    
+    return lemmatized_lexicon
+
     
 # Tag AI-relevant concepts (from original script with Turkish enhancements)
 def tag_ai_relevance(processed_data, lexicon):
@@ -526,14 +578,21 @@ def tag_ai_relevance(processed_data, lexicon):
         relevance_tags = {category: 0 for category in lexicon.keys()}
         relevant_terms = []
         
-        # Get normalized words (lowercase) for easier matching
-        words = [w.lower() for w in text_obj['words']]
+        # Create lemmas from the text if not already available
+        if 'lemmatized_text' in text_obj:
+            # Use pre-computed lemmatized text
+            lemmas = text_obj['lemmatized_text'].split()
+        else:
+            # Extract lemmas on the fly
+            doc = nlp(' '.join(text_obj['words']))
+            lemmas = [token.lemma_.lower() for token in doc 
+                    if not token.is_punct and not token.is_space]
         
         # Process n-grams of different lengths
-        for n in range(1, min(max_ngram_length + 1, len(words) + 1)):
-            # Generate n-grams
-            for i in range(len(words) - n + 1):
-                ngram = ' '.join(words[i:i+n])
+        for n in range(1, min(max_ngram_length + 1, len(lemmas) + 1)):
+            # Generate n-grams from lemmas
+            for i in range(len(lemmas) - n + 1):
+                ngram = ' '.join(lemmas[i:i+n])
                 
                 # Check if this n-gram is in our lexicon
                 if ngram in word_to_category:
@@ -564,6 +623,54 @@ def tag_ai_relevance(processed_data, lexicon):
         for i, obj in enumerate(curriculum['processed_objectives']):
             curriculum['processed_objectives'][i] = tag_text(obj)
     
+    return processed_data
+
+def repair_lemmatization(processed_data):
+    """Fix objectives with failed lemmatization by keeping original words when lemmatization fails."""
+    repairs_made = 0
+    
+    for name, curriculum in processed_data.items():
+        if not curriculum or 'processed_objectives' not in curriculum:
+            continue
+            
+        for i, obj in enumerate(curriculum['processed_objectives']):
+            # Fix missing or empty lemmatized text
+            if 'lemmatized_text' not in obj or not obj['lemmatized_text'].strip():
+                if 'cleaned_text' in obj and obj['cleaned_text']:
+                    try:
+                        # Clean math symbols
+                        math_cleaned_text = re.sub(r'[±∈∉∋∌∩∪⊂⊃⊆⊇⊄⊅∧∨¬→↔∀∃∄∑∏∫∮≤≥≠≈←↑↓↔⇒⇔√∛∜∝∞∟∠∡∢∴∵∷∼⊕⊗⊥∥∦∣∤π°′″‴⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁼⁽⁾₀₁₂₃₄₅₆₇₈₉₊₋₌₍₎(){}[]<>+\-*/=]', ' ', obj['cleaned_text'])
+                        math_cleaned_text = re.sub(r'\s+', ' ', math_cleaned_text).strip()
+                        
+                        # Get words
+                        words = word_tokenize(math_cleaned_text)
+                        
+                        # Process with spaCy
+                        doc = nlp(math_cleaned_text)
+                        
+                        # Use original word if lemmatization fails
+                        lemmas = []
+                        for token in doc:
+                            if not token.is_punct and not token.is_space:
+                                if not token.lemma_ or token.lemma_ == token.text:
+                                    lemmas.append(token.text)
+                                else:
+                                    lemmas.append(token.lemma_)
+                        
+                        obj['lemmatized_text'] = ' '.join(lemmas)
+                        
+                        # If still empty, use the tokenized words
+                        if not obj['lemmatized_text'].strip():
+                            obj['lemmatized_text'] = ' '.join(words)
+                            
+                        repairs_made += 1
+                    except Exception as e:
+                        # Use the cleaned text as fallback
+                        print(f"Error during repair: {e}. Using cleaned text as fallback.")
+                        obj['lemmatized_text'] = obj['cleaned_text']
+                        repairs_made += 1
+    
+    print(f"Repaired {repairs_made} objectives with failed lemmatization")
     return processed_data
 
 
@@ -615,6 +722,9 @@ def main():
             with open(processed_data_path, 'rb') as f:
                 processed_data = pickle.load(f)
             print("Existing data loaded. Skipping PDF processing.")
+            
+            # Repair any missing lemmatization
+            processed_data = repair_lemmatization(processed_data)
             
             # Still run analysis on existing data
             print("Creating Turkish AI relevance lexicon...")
@@ -726,6 +836,11 @@ def process_curriculum_text(text, name="curriculum"):
             print(f"    Processing objective {i+1}/{len(objectives)}")
         obj_text = obj['text']
         processed_obj = process_text(obj_text)
+        
+        # Add debug check
+        if 'lemmatized_text' not in processed_obj or not processed_obj['lemmatized_text']:
+            print(f"WARNING: Lemmatization failed for objective: {obj_text[:50]}...")
+            
         processed_obj['section'] = obj['section']
         processed_obj['item'] = obj['item']
         processed_obj['curriculum_type'] = obj['curriculum_type']

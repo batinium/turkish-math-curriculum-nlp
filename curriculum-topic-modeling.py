@@ -1,3 +1,4 @@
+#curriculum-topic-modeling.py
 """
 Turkish Mathematics Curriculum NLP Analysis - Topic Modeling and Semantic Analysis
 ===============================================================================
@@ -23,6 +24,10 @@ import nltk
 from nltk.corpus import stopwords
 import spacy
 
+# Set GPU memory growth to avoid memory issues
+import os
+os.environ["TF_FORCE_GPU_ALLOW_GROWTH"] = "true"
+
 # For topic modeling
 from gensim import corpora
 from gensim.models import LdaModel, CoherenceModel
@@ -47,17 +52,52 @@ MODELS_DIR = "models"
 os.makedirs(FIGURES_DIR, exist_ok=True)
 os.makedirs(MODELS_DIR, exist_ok=True)
 
+# Check GPU availability
+gpu_available = spacy.prefer_gpu()
+
 # Load processed data
 def load_processed_data():
     """Load the preprocessed curriculum data."""
     try:
-        with open(os.path.join(PROCESSED_DIR, 'processed_curriculum_data.pkl'), 'rb') as f:
-            return pickle.load(f)
+        pickle_path = os.path.join(PROCESSED_DIR, 'processed_curriculum_data.pkl')
+        print(f"Loading pickle file from {pickle_path}")
+        
+        with open(pickle_path, 'rb') as f:
+            data = pickle.load(f)
+        
+        # Perform some diagnostics on the loaded data
+        print(f"Successfully loaded processed data with {len(data)} curricula")
+        
+        # Check for curricula by year
+        curricula_2018 = [name for name, curr in data.items() 
+                        if curr and ('2018' in curr.get('detected_type', '') or 
+                                    'numeric-based' in curr.get('detected_type', '') or
+                                    'chapter-based' in curr.get('detected_type', ''))]
+        curricula_2024 = [name for name, curr in data.items() 
+                          if curr and '2024' in curr.get('detected_type', '')]
+        
+        print(f"Found {len(curricula_2018)} curricula from 2018: {curricula_2018}")
+        print(f"Found {len(curricula_2024)} curricula from 2024: {curricula_2024}")
+        
+        # Check for lemmatized text in objectives
+        for name, curr in data.items():
+            if not curr or 'processed_objectives' not in curr:
+                continue
+                
+            objectives = curr['processed_objectives']
+            with_lemmatized = sum(1 for obj in objectives if 'lemmatized_text' in obj)
+            total_objectives = len(objectives)
+            
+            print(f"{name}: {with_lemmatized}/{total_objectives} objectives have lemmatized_text")
+        
+        return data
     except FileNotFoundError:
         print(f"Processed data file not found. Run preprocessing script first.")
         return None
     except Exception as e:
         print(f"Error loading data: {e}")
+        import traceback
+        traceback.print_exc()
         return None
 
 # Prepare data for topic modeling
@@ -73,6 +113,10 @@ def prepare_topic_modeling_data(processed_data):
         '2024': []
     }
     
+    # Track skipped items for reporting
+    skipped_items = 0
+    total_objectives = 0
+    
     # First, determine which curriculum corresponds to which year
     curricula_by_year = {'2018': [], '2024': []}
     
@@ -82,8 +126,9 @@ def prepare_topic_modeling_data(processed_data):
             
         # Check if we can determine year from detected_type
         detected_type = curriculum.get('detected_type', '')
+        print(f"Detected type for {name}: {detected_type}")
         
-        if '2018' in detected_type or detected_type == '2018-style':
+        if '2018' in detected_type or detected_type == '2018-style' or detected_type == 'chapter-based' or detected_type == 'numeric-based':
             curricula_by_year['2018'].append((name, curriculum))
         elif '2024' in detected_type or detected_type == '2024-style':
             curricula_by_year['2024'].append((name, curriculum))
@@ -110,9 +155,29 @@ def prepare_topic_modeling_data(processed_data):
                 continue
                 
             for obj in curriculum['processed_objectives']:
-                # Extract cleaned text
-                text = obj.get('cleaned_text', '')
-                if not text:
+                total_objectives += 1
+                
+                # Skip empty or math-symbol-only objectives
+                if (obj.get('original_text', '').strip() in ['±', '∈', '∉', '∋', '∌', '∩', '∪', '⊂', '⊃', '⊆', '⊇', 
+                                                           '⊄', '⊅', '∧', '∨', '¬', '→', '↔', '∀', '∃', '∄', '∑', 
+                                                           '∏', '∫', '∮', '≤', '≥', '≠', '≈', '←', '↑', '↓', '↔'] or
+                    (not obj.get('cleaned_text', '').strip() and len(obj.get('original_text', '').strip()) <= 2)):
+                    
+                    skipped_items += 1
+                    continue
+                
+                # Extract lemmatized text if available
+                text = obj.get('lemmatized_text', '')
+                
+                # Fallback to cleaned_text if lemmatized_text is not available or empty
+                if not text.strip():
+                    text = obj.get('cleaned_text', '')
+                    if text.strip():  # Only print warning if cleaned_text has content
+                        print(f"Warning: No lemmatized_text found for an objective in {name}. For object {obj} Using cleaned_text instead.")
+                    
+                # Skip if still no text
+                if not text.strip():
+                    skipped_items += 1
                     continue
                 
                 # Add to documents
@@ -124,6 +189,9 @@ def prepare_topic_modeling_data(processed_data):
                     'item': obj.get('item', ''),
                     'ai_relevance_score': obj.get('ai_relevance_score', 0)
                 })
+    
+    print(f"Total objectives: {total_objectives}")
+    print(f"Skipped {skipped_items} empty or math-symbol-only objectives ({skipped_items/total_objectives:.1%})")
     
     return documents, metadata
 
@@ -142,7 +210,7 @@ def get_stopwords():
         }
     
     # Add custom stopwords for curriculum analysis
-    custom_stopwords = {
+    custom_stopwords = {'bir', 'iki', 'üç', 'dört', 'beş',
         'fonksiyon', 'ile', 'olarak', 'için', 'belirler', 'kullanır',
         'açıklanır', 'yapar', 'verilir', 'a', 'b', 'c', 'ç', 'd', 'e', 'f'
     }
@@ -150,15 +218,17 @@ def get_stopwords():
     return turkish_stopwords.union(custom_stopwords)
 
 # Preprocess text for topic modeling
-def preprocess_for_topics(text, stopwords_set):
-    """Preprocess text for topic modeling."""
-    # Tokenize and clean
-    tokens = simple_preprocess(text, deacc=True)  # Removes punctuation and converts to lowercase
+def preprocess_for_topics(text, stopwords_set, nlp=None):
+    """Preprocess text for topic modeling with lemmatization."""
+    # Simply split the already-lemmatized text and filter
+    tokens = text.split()
     
-    # Remove stopwords and short words
-    tokens = [token for token in tokens if token not in stopwords_set and len(token) > 3]
+    # Filter out stopwords and short words
+    filtered_tokens = [token.lower() for token in tokens 
+                      if token.lower() not in stopwords_set
+                      and len(token) > 3]
     
-    return tokens
+    return filtered_tokens
 
 # Topic modeling function
 def run_topic_modeling(documents, year, stopwords_set, num_topics=5):
@@ -172,7 +242,10 @@ def run_topic_modeling(documents, year, stopwords_set, num_topics=5):
     
     try:
         # Preprocess documents
-        processed_docs = [preprocess_for_topics(doc, stopwords_set) for doc in documents]
+        processed_docs = []
+        for doc in documents:
+            processed_docs.append(preprocess_for_topics(doc, stopwords_set))
+
         
         # Create dictionary
         dictionary = corpora.Dictionary(processed_docs)
@@ -252,7 +325,7 @@ def find_optimal_topics(documents, year, stopwords_set, start=2, limit=10, step=
     coherence_values = []
     model_list = []
     
-    # Preprocess documents
+    # Preprocess documents - No need for nlp parameter anymore
     processed_docs = [preprocess_for_topics(doc, stopwords_set) for doc in documents]
     
     # Create dictionary
@@ -310,7 +383,6 @@ def find_optimal_topics(documents, year, stopwords_set, start=2, limit=10, step=
         json.dump({'optimal_num_topics': optimal_num_topics}, f)
     
     return optimal_num_topics, model_list[optimal_idx]
-
 
 # Analyze topic distribution
 def analyze_topic_distribution(model_data, documents, metadata, year):

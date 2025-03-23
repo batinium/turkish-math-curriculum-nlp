@@ -1,37 +1,37 @@
 section,item,text,ai_relevance_score,classification
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),KAVRAMSAL,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),Doğrusal ilişkiler içeren problemlerin çözümlerinde kullanılabilecek matematiksel,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Doğrusal ilişkiler içeren problemlerin çözümleri için kullanılabilecek matematiksel,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Doğrusal ilişkiler içeren problemlerin çözümleri için belirlediği matematiksel araç,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),Doğrusal ilişkiler içeren problemlerin çözümlerinde kullanılabilecek matematiksel,3,High AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Doğrusal ilişkiler içeren problemlerin çözümleri için kullanılabilecek matematiksel,3,High AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Doğrusal ilişkiler içeren problemlerin çözümleri için belirlediği matematiksel araç,4,High AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),"x, y",0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),öğ-,0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),fark etmeye yönelik çalışmalara yer verilir. Doğrusal ilişki içeren gerçek yaşam,1,Medium AI Relevance
-2. TEMA: MANTIKSAL ÇIKARIM,a),Problemlerde verilen matematiksel yapıları belirler.,0,Low AI Relevance
-2. TEMA: MANTIKSAL ÇIKARIM,b),Problemlerde verilen matematiksel yapılar ile problemlere uygun farklı matema-,0,Low AI Relevance
-2. TEMA: MANTIKSAL ÇIKARIM,c),Problemlerde verilen matematiksel yapıları farklı matematiksel temsillere dönüş-,0,Low AI Relevance
-2. TEMA: MANTIKSAL ÇIKARIM,d),Elde ettiği ve yorumladığı farklı temsillere dayalı problemlerin çözümleri için stra-,0,Low AI Relevance
-2. TEMA: MANTIKSAL ÇIKARIM,e),Karşılaşılan problemlerde seçtiği çözüm stratejilerini kullanır.,1,Medium AI Relevance
+2. TEMA: MANTIKSAL ÇIKARIM,a),Problemlerde verilen matematiksel yapıları belirler.,1,Medium AI Relevance
+2. TEMA: MANTIKSAL ÇIKARIM,b),Problemlerde verilen matematiksel yapılar ile problemlere uygun farklı matema-,2,Medium AI Relevance
+2. TEMA: MANTIKSAL ÇIKARIM,c),Problemlerde verilen matematiksel yapıları farklı matematiksel temsillere dönüş-,3,High AI Relevance
+2. TEMA: MANTIKSAL ÇIKARIM,d),Elde ettiği ve yorumladığı farklı temsillere dayalı problemlerin çözümleri için stra-,3,High AI Relevance
+2. TEMA: MANTIKSAL ÇIKARIM,e),Karşılaşılan problemlerde seçtiği çözüm stratejilerini kullanır.,2,Medium AI Relevance
 2. TEMA: MANTIKSAL ÇIKARIM,f),Kullandığı çözüm stratejilerini kontrol eder.,1,Medium AI Relevance
-2. TEMA: MANTIKSAL ÇIKARIM,g),Çözümüne ulaştığı problemler için olası farklı çözüm stratejilerini inceler.,1,Medium AI Relevance
-2. TEMA: MANTIKSAL ÇIKARIM,h),Çözüme ulaştıran stratejilere yönelik çıkarımlarını bu stratejilerin kullanılabileceği,0,Low AI Relevance
+2. TEMA: MANTIKSAL ÇIKARIM,g),Çözümüne ulaştığı problemler için olası farklı çözüm stratejilerini inceler.,2,Medium AI Relevance
+2. TEMA: MANTIKSAL ÇIKARIM,h),Çözüme ulaştıran stratejilere yönelik çıkarımlarını bu stratejilerin kullanılabileceği,1,Medium AI Relevance
 2. TEMA: MANTIKSAL ÇIKARIM,e),ÖĞRENME-ÖĞRETME,0,Low AI Relevance
 2. TEMA: MANTIKSAL ÇIKARIM,i),"veya tablo ile gösterildiği (haftalık ders programları gibi), gruplandırıldığı (ülkemizde-",1,Medium AI Relevance
 2. TEMA: MANTIKSAL ÇIKARIM,i),örneklere yer verilir. Bu,0,Low AI Relevance
-3. TEMA: ALGORİTMA VE BİLİŞİM,a),Sonlu sayı örüntülerinin terimleri arasındaki ilişkileri gözlemler.,0,Low AI Relevance
+3. TEMA: ALGORİTMA VE BİLİŞİM,a),Sonlu sayı örüntülerinin terimleri arasındaki ilişkileri gözlemler.,1,Medium AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,b),Sonlu sayı örüntülerinin terimleri arasındaki örüntüleri belirler.,0,Low AI Relevance
-3. TEMA: ALGORİTMA VE BİLİŞİM,c),Belirlediği ilişkileri sözel ve cebirsel olarak geneller.,0,Low AI Relevance
-3. TEMA: ALGORİTMA VE BİLİŞİM,a),Şifreli metinlerdeki ilişkileri gözlemler.,0,Low AI Relevance
+3. TEMA: ALGORİTMA VE BİLİŞİM,c),Belirlediği ilişkileri sözel ve cebirsel olarak geneller.,1,Medium AI Relevance
+3. TEMA: ALGORİTMA VE BİLİŞİM,a),Şifreli metinlerdeki ilişkileri gözlemler.,1,Medium AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,b),Şifreli metinlerdeki örüntüleri belirler.,0,Low AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,c),Belirlediği örüntüleri sözel ve cebirsel olarak geneller.,0,Low AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,a),Farklı şifreleme yöntemlerini inceler.,0,Low AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,b),İncelediği şifreleme yöntemlerinin niteliklerini tespit eder.,0,Low AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,c),Benzerliklerden çıkarım yaparak yeni şifreler oluşturur.,1,Medium AI Relevance
-3. TEMA: ALGORİTMA VE BİLİŞİM,e),"Öğrenme çıktıları; çalışma kâğıdı, performans görevi, öz ve akran değerlendirme formları",1,Medium AI Relevance
+3. TEMA: ALGORİTMA VE BİLİŞİM,e),"Öğrenme çıktıları; çalışma kâğıdı, performans görevi, öz ve akran değerlendirme formları",0,Low AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,i),karşılık gelen,0,Low AI Relevance
-3. TEMA: ALGORİTMA VE BİLİŞİM,i),örüntü içeren farklı durumlarla karşılaşılabildiğini fark etmeleri sağlanır.,1,Medium AI Relevance
-3. TEMA: ALGORİTMA VE BİLİŞİM,i),hakkında çıkarımda bulunmaları için öğrencilere fırsat,0,Low AI Relevance
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),örüntü içeren farklı durumlarla karşılaşılabildiğini fark etmeleri sağlanır.,0,Low AI Relevance
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),hakkında çıkarımda bulunmaları için öğrencilere fırsat,1,Medium AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,i),"sınıf içi tartışma yapılır (D19. 4, E1. 1).",0,Low AI Relevance
-3. TEMA: ALGORİTMA VE BİLİŞİM,e),problemlerinin çözümleriyle ilgili sınıf içi tartışma yapılır. Öğ-,0,Low AI Relevance
+3. TEMA: ALGORİTMA VE BİLİŞİM,e),problemlerinin çözümleriyle ilgili sınıf içi tartışma yapılır. Öğ-,2,Medium AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,i),tespit edilir. Bu süreçte sınıf,0,Low AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,i),incelemeleri istenir. Bu araçlarda ve,0,Low AI Relevance
 4. TEMA: GEOMETRİK ŞEKİLLER,a),KAVRAMSAL,0,Low AI Relevance
@@ -39,21 +39,21 @@ section,item,text,ai_relevance_score,classification
 4. TEMA: GEOMETRİK ŞEKİLLER,a),Dik üçgende trigonometrik oranlar ve trigonometrik özdeşliklerle ilgili varsayım-,1,Medium AI Relevance
 4. TEMA: GEOMETRİK ŞEKİLLER,b),Trigonometrik oranlar ve trigonometrik özdeşliklerle ilgili örüntüleri geneller.,0,Low AI Relevance
 4. TEMA: GEOMETRİK ŞEKİLLER,c),Trigonometrik oranlar ve trigonometrik özdeşliklerle ilgili elde ettiği genellemelerini,0,Low AI Relevance
-4. TEMA: GEOMETRİK ŞEKİLLER,d),Ulaştığı trigonometrik oranları ve trigonometrik özdeşlikleri problemler bağlamında,0,Low AI Relevance
+4. TEMA: GEOMETRİK ŞEKİLLER,d),Ulaştığı trigonometrik oranları ve trigonometrik özdeşlikleri problemler bağlamında,1,Medium AI Relevance
 4. TEMA: GEOMETRİK ŞEKİLLER,a),"Üçgende iç ve dış açıortayların, kenarortayların, kenar orta dikmelerin ve yükseklik-",0,Low AI Relevance
-4. TEMA: GEOMETRİK ŞEKİLLER,b),Farklı üçgen örneklerini inceleyerek varsayımlarına ilişkin örüntüleri geneller.,0,Low AI Relevance
-4. TEMA: GEOMETRİK ŞEKİLLER,c),Üçgenin yardımcı elemanlarıyla ilgili genellemelerini varsayımlarıyla karşılaştırır.,0,Low AI Relevance
-4. TEMA: GEOMETRİK ŞEKİLLER,d),Üçgenin yardımcı elemanlarıyla ilgili önermeleri problemler bağlamında değerlen-,0,Low AI Relevance
+4. TEMA: GEOMETRİK ŞEKİLLER,b),Farklı üçgen örneklerini inceleyerek varsayımlarına ilişkin örüntüleri geneller.,1,Medium AI Relevance
+4. TEMA: GEOMETRİK ŞEKİLLER,c),Üçgenin yardımcı elemanlarıyla ilgili genellemelerini varsayımlarıyla karşılaştırır.,1,Medium AI Relevance
+4. TEMA: GEOMETRİK ŞEKİLLER,d),Üçgenin yardımcı elemanlarıyla ilgili önermeleri problemler bağlamında değerlen-,1,Medium AI Relevance
 4. TEMA: GEOMETRİK ŞEKİLLER,a),Üçgenin bir kenarı ve o kenara ait yüksekliğindeki değişimin üçgenin alanındaki de-,0,Low AI Relevance
-4. TEMA: GEOMETRİK ŞEKİLLER,b),Farklı üçgenlerdeki gözlemlerinden yararlanarak varsayımlarına yönelik örüntüleri,0,Low AI Relevance
-4. TEMA: GEOMETRİK ŞEKİLLER,c),Genellemelerini varsayımlarıyla karşılaştırır.,0,Low AI Relevance
-4. TEMA: GEOMETRİK ŞEKİLLER,d),Önermeleri gerçek yaşam problemleri bağlamında değerlendirir.,0,Low AI Relevance
-4. TEMA: GEOMETRİK ŞEKİLLER,a),Üçgende sinüs ve kosinüs teoremlerine ilişkin farklı doğrulama veya ispatları kul-,1,Medium AI Relevance
-4. TEMA: GEOMETRİK ŞEKİLLER,b),Yapılan doğrulama veya ispatları yeni durumlara uyarlayarak değerlendirir.,1,Medium AI Relevance
+4. TEMA: GEOMETRİK ŞEKİLLER,b),Farklı üçgenlerdeki gözlemlerinden yararlanarak varsayımlarına yönelik örüntüleri,1,Medium AI Relevance
+4. TEMA: GEOMETRİK ŞEKİLLER,c),Genellemelerini varsayımlarıyla karşılaştırır.,1,Medium AI Relevance
+4. TEMA: GEOMETRİK ŞEKİLLER,d),Önermeleri gerçek yaşam problemleri bağlamında değerlendirir.,1,Medium AI Relevance
+4. TEMA: GEOMETRİK ŞEKİLLER,a),Üçgende sinüs ve kosinüs teoremlerine ilişkin farklı doğrulama veya ispatları kul-,2,Medium AI Relevance
+4. TEMA: GEOMETRİK ŞEKİLLER,b),Yapılan doğrulama veya ispatları yeni durumlara uyarlayarak değerlendirir.,3,High AI Relevance
 4. TEMA: GEOMETRİK ŞEKİLLER,e),"Öğrenme çıktıları, çalışma kâğıdı ve performans görevi ile değerlendirilebilir.",0,Low AI Relevance
 4. TEMA: GEOMETRİK ŞEKİLLER,e),"Öğrencilere trigonometrik oranlar, trigonometrik özdeşlikler, sinüs ve kosinüs teoremleri",0,Low AI Relevance
 4. TEMA: GEOMETRİK ŞEKİLLER,i),benzer dik üçgen-,0,Low AI Relevance
-4. TEMA: GEOMETRİK ŞEKİLLER,u),düzenlendiği bir tabloya yer verilir. Öğrencilerden tab-,0,Low AI Relevance
+4. TEMA: GEOMETRİK ŞEKİLLER,u),düzenlendiği bir tabloya yer verilir. Öğrencilerden tab-,1,Medium AI Relevance
 4. TEMA: GEOMETRİK ŞEKİLLER,i),ve farklı yöntemlerle (kâğıt katlama,0,Low AI Relevance
 4. TEMA: GEOMETRİK ŞEKİLLER,i),"açıortayla ilgili hatırlatmalar yapılır (MAB5, OB2). Daha sonra bu açıyı oluşturan",0,Low AI Relevance
 4. TEMA: GEOMETRİK ŞEKİLLER,i),ile farklı yöntemler (kâğıt,0,Low AI Relevance
@@ -68,26 +68,26 @@ section,item,text,ai_relevance_score,classification
 5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a),dair eleştirel sorular sorulur. Bu bileşenlerde olabilecek,0,Low AI Relevance
 5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),seçilerek öğrencilerin günlük hayatta karşıla-,0,Low AI Relevance
 5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),ilişkin,0,Low AI Relevance
-5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),dağılımları incelemeleri istenir.,0,Low AI Relevance
+5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),dağılımları incelemeleri istenir.,1,Medium AI Relevance
 1. TEMA: SAYILAR,a),KAVRAMSAL,0,Low AI Relevance
-1. TEMA: SAYILAR,a),Bir doğal sayının asal çarpanları ve bölenleri hakkında varsayımlarda bulunur.,0,Low AI Relevance
+1. TEMA: SAYILAR,a),Bir doğal sayının asal çarpanları ve bölenleri hakkında varsayımlarda bulunur.,1,Medium AI Relevance
 1. TEMA: SAYILAR,b),Farklı örneklerden elde ettiği örüntüleri listeleyerek bir doğal sayının asal çarpanla-,0,Low AI Relevance
-1. TEMA: SAYILAR,c),Oluşturduğu genellemelerin varsayımlarını karşılayıp karşılamadığını örneklerle sı-,0,Low AI Relevance
-1. TEMA: SAYILAR,d),Elde ettiği önermelerin gerçek yaşam durumları içeren problemlerdeki kullanışlılı-,0,Low AI Relevance
+1. TEMA: SAYILAR,c),Oluşturduğu genellemelerin varsayımlarını karşılayıp karşılamadığını örneklerle sı-,2,Medium AI Relevance
+1. TEMA: SAYILAR,d),Elde ettiği önermelerin gerçek yaşam durumları içeren problemlerdeki kullanışlılı-,1,Medium AI Relevance
 1. TEMA: SAYILAR,a),Birden çok doğal sayının ortak bölenleriyle bunların en büyüğü ve ortak katlarıyla,0,Low AI Relevance
-1. TEMA: SAYILAR,b),Farklı örneklerden elde ettiği örüntüleri listeleyerek varsayımlarına yönelik örün-,0,Low AI Relevance
-1. TEMA: SAYILAR,c),Oluşturduğu genellemelerin varsayımlarını karşılayıp karşılamadığını örneklerle sı-,0,Low AI Relevance
-1. TEMA: SAYILAR,d),Sunduğu önermelerin gerçek yaşam durumları içeren problemlerdeki katkısını de-,0,Low AI Relevance
+1. TEMA: SAYILAR,b),Farklı örneklerden elde ettiği örüntüleri listeleyerek varsayımlarına yönelik örün-,2,Medium AI Relevance
+1. TEMA: SAYILAR,c),Oluşturduğu genellemelerin varsayımlarını karşılayıp karşılamadığını örneklerle sı-,2,Medium AI Relevance
+1. TEMA: SAYILAR,d),Sunduğu önermelerin gerçek yaşam durumları içeren problemlerdeki katkısını de-,1,Medium AI Relevance
 1. TEMA: SAYILAR,e),Elde ettiği önermeler ile ilgili matematiksel doğrulama yöntemlerini seçer ve kul-,1,Medium AI Relevance
-1. TEMA: SAYILAR,f),Elde ettiği önermelere ilişkin işe koştuğu matematiksel doğrulamayı kullanışlılığı,0,Low AI Relevance
+1. TEMA: SAYILAR,f),Elde ettiği önermelere ilişkin işe koştuğu matematiksel doğrulamayı kullanışlılığı,1,Medium AI Relevance
 1. TEMA: SAYILAR,a),"2, 3, 4, 5, 6, 9 ve 10 ile bölünebilme özelliklerinden hareketle bir doğal sayının 2, 3, 4,",0,Low AI Relevance
-1. TEMA: SAYILAR,b),Aynı sayı ile bölme işleminden elde edilecek kalanlara ilişkin farklı örneklerle ilgili,0,Low AI Relevance
-1. TEMA: SAYILAR,c),Oluşturduğu genellemenin kendi varsayımını karşılayıp karşılamadığını örneklerle,0,Low AI Relevance
+1. TEMA: SAYILAR,b),Aynı sayı ile bölme işleminden elde edilecek kalanlara ilişkin farklı örneklerle ilgili,1,Medium AI Relevance
+1. TEMA: SAYILAR,c),Oluşturduğu genellemenin kendi varsayımını karşılayıp karşılamadığını örneklerle,1,Medium AI Relevance
 1. TEMA: SAYILAR,d),Ulaştığı önermelerin katkısını bu sayıların en küçük ortak katlarından oluşan sayıla-,0,Low AI Relevance
 1. TEMA: SAYILAR,e),Önermelere ilişkin matematiksel doğrulama yöntemlerini seçer ve kullanır.,1,Medium AI Relevance
 1. TEMA: SAYILAR,f),Önermelere ilişkin işe koştuğu matematiksel doğrulama yöntemini kullanışlılığı açı-,1,Medium AI Relevance
 1. TEMA: SAYILAR,e),"Öğrenme çıktıları; çalışma kâğıdı, açık uçlu sorular ve performans görevi ile değerlendi-",0,Low AI Relevance
-1. TEMA: SAYILAR,i),değerlendirildiği uygulamalara yer verilir. Ayrıca bu önermelerin değerlendirilmesinde,0,Low AI Relevance
+1. TEMA: SAYILAR,i),değerlendirildiği uygulamalara yer verilir. Ayrıca bu önermelerin değerlendirilmesinde,1,Medium AI Relevance
 1. TEMA: SAYILAR,i),EBOB ve EKOK özelliklerini gösteren posterler hazırlamaları iste-,0,Low AI Relevance
 1. TEMA: SAYILAR,i),içeren,0,Low AI Relevance
 1. TEMA: SAYILAR,i),bölünebilmesine dair değerlendirmeler,0,Low AI Relevance
@@ -96,19 +96,19 @@ section,item,text,ai_relevance_score,classification
 1. TEMA: SAYILAR,h),"sanısı gibi] veya asal sayıların özellikleri hakkında [ikiz asallar, Fermat (Feğma)",0,Low AI Relevance
 1. TEMA: SAYILAR,n),asalları gibi] araştırmalar yapmaları istenir. Bu araştırma,0,Low AI Relevance
 1. TEMA: SAYILAR,s),çalışmaları incelenir.,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),siyondan hareketle doğrusal fonksiyonların nitel özellikleri hakkında muhakeme yapa-,1,Medium AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),özellikleri ile bu fonksiyondan türetilen g(x),0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),siyondan hareketle doğrusal fonksiyonların nitel özellikleri hakkında muhakeme yapa-,2,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),özellikleri ile bu fonksiyondan türetilen g(x),1,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r),"k, (a, r, k",0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),"Doğrusal referans fonksiyonun nitel özelliklerini (tanım kümesi, görüntü kümesi,",0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),matematiksel temsilleri kullanarak belirler.,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Doğrusal referans fonksiyonun nitel özellikleri ile matematiksel temsilleri arasında-,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Doğrusal referans fonksiyonu grafik veya cebirsel temsili üzerinde yapılan işlemler-,1,Medium AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),Doğrusal referans fonksiyonun nitel özelliklerinden hareketle diğer doğrusal fonksi-,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),Varsayımlarına dayalı olarak doğrusal fonksiyonların nitel özelliklerine ilişkin örün-,0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),"Doğrusal referans fonksiyonun nitel özelliklerini (tanım kümesi, görüntü kümesi,",3,High AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),matematiksel temsilleri kullanarak belirler.,2,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Doğrusal referans fonksiyonun nitel özellikleri ile matematiksel temsilleri arasında-,3,High AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Doğrusal referans fonksiyonu grafik veya cebirsel temsili üzerinde yapılan işlemler-,4,High AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),Doğrusal referans fonksiyonun nitel özelliklerinden hareketle diğer doğrusal fonksi-,1,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),Varsayımlarına dayalı olarak doğrusal fonksiyonların nitel özelliklerine ilişkin örün-,2,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,l),geneller.,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,1,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g),Genellemelerinden elde ettiği önermeleri uygun sözel veya sembolik dil ile sunar.,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h),Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.,0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h),Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.,1,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0) şeklinde tanımlı mutlak,0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),Gerçek sayılarda f(x),0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),x,0,Low AI Relevance
@@ -117,34 +117,34 @@ section,item,text,ai_relevance_score,classification
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Gözlemlerinden yola çıkarak gerçek sayılarda,0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),,0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Tespit ettiği nitel özelliklerinden hareketle gerçek sayılarda,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),parçalı gösterimine yönelik çıkarımlarda bulunur.,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),Doğrusal fonksiyonlarla ifade edilebilen denklem ve eşitsizliklere ilişkin bileşenleri,0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),parçalı gösterimine yönelik çıkarımlarda bulunur.,1,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),Doğrusal fonksiyonlarla ifade edilebilen denklem ve eşitsizliklere ilişkin bileşenleri,1,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),belirler.,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Doğrusal fonksiyonlarla ifade edilebilen denklem ve eşitsizliklere ilişkin matematik-,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Doğrusal fonksiyonlarla ifade edilebilen denklem ve eşitsizliklerin problem bağla-,1,Medium AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),Elde ettiği ve yorumladığı farklı temsillere dayalı olarak problemin çözümü için strateji,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),Belirlediği stratejiyi kullanarak problemi çözer.,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f),Elde ettiği çözümü uygun yöntemleri seçerek doğrular.,0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Doğrusal fonksiyonlarla ifade edilebilen denklem ve eşitsizliklere ilişkin matematik-,1,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Doğrusal fonksiyonlarla ifade edilebilen denklem ve eşitsizliklerin problem bağla-,2,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),Elde ettiği ve yorumladığı farklı temsillere dayalı olarak problemin çözümü için strateji,3,High AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),Belirlediği stratejiyi kullanarak problemi çözer.,1,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f),Elde ettiği çözümü uygun yöntemleri seçerek doğrular.,2,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g),Problemin olası çözüm stratejilerini gözden geçirir.,1,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h),"Çıkarımlarının geçerliliğini sözel, cebirsel ve grafiksel argümanlarla değerlendirir.",0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"= x, f (x) = ax   b, f (x) =",0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),=,0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),ℝ,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),arasındaki ilişkilere dayalı olarak,0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),arasındaki ilişkilere dayalı olarak,1,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"a   f(x   r)   k,",0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0) şeklinde tanımlı doğrusal fonksiyonların grafik ve cebirsel temsiline ulaşma-,1,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0) şeklinde tanımlı doğrusal fonksiyonların grafik ve cebirsel temsiline ulaşma-,3,High AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0) şeklinde tanımlı,0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"ax + b (a, b",0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),doğrusal fonksiyonda a > 0 veya a < 0 olması durumunun fonksiyonun artanlığı-azalanlığı,0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),doğrusal fonksiyonda a > 0 veya a < 0 olması durumunun fonksiyonun artanlığı-azalanlığı,2,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"x1,",0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,k),ispatlar yapıldıktan sonra,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),şeklinde tanımlı fonksiyonun grafik temsili incelenir.,1,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,k),ispatlar yapıldıktan sonra,1,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),şeklinde tanımlı fonksiyonun grafik temsili incelenir.,3,High AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),fonksiyonunun,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),mutlak değer fonksiyonunun cebirsel ve grafiksel ilişkileri incelenir. Burada fonksiyonların,0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),fonksiyonunun,1,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),mutlak değer fonksiyonunun cebirsel ve grafiksel ilişkileri incelenir. Burada fonksiyonların,3,High AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),temsili arasındaki ilişki gözlemlenir. Yapılan inceleme ve gözlemler sonucu fonksiyona ait nitel,1,Medium AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),bir cebirsel temsili olarak parçalı gösterimine dair çıkarımlar (iki farklı doğrusal fonksiyonun,0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),temsili arasındaki ilişki gözlemlenir. Yapılan inceleme ve gözlemler sonucu fonksiyona ait nitel,5,High AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),bir cebirsel temsili olarak parçalı gösterimine dair çıkarımlar (iki farklı doğrusal fonksiyonun,3,High AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),yapmaları beklenir (MAB3).,0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),,0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),f(x),0,Low AI Relevance
@@ -161,13 +161,13 @@ section,item,text,ai_relevance_score,classification
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),< 0 şeklindeki bir eşitsizliğin,0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),< g(x) şeklindeki eşitsizliklerin özel bir hâli (g(x),0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),geliştirilebilir (D16. 2).,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),farklı uygulamalar yaptırılır.,0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),farklı uygulamalar yaptırılır.,1,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),=   |ax   b|   c,0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"= ax   b (a, b",0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),kullanılır.,0,Low AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,a),Algoritmik yaklaşımla ele alınabilecek bir problemdeki işlem ve süreçlere yönelik bi-,2,Medium AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,b),"Problem durumlarında temsillerle (liste, tablo, çizge, akış şeması, algoritmik doğal",4,High AI Relevance
-3. TEMA: ALGORİTMA VE BİLİŞİM,i),matematiksel yapılar arasındaki ilişkileri belirler.,0,Low AI Relevance
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),matematiksel yapılar arasındaki ilişkileri belirler.,2,Medium AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,c),"Problem durumlarındaki sözel, görsel veya cebirsel ifadeleri algoritmik dile dönüş-",2,Medium AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,d),Karşılaşılan problem durumlarında algoritma temelli bir çözüm stratejisi oluşturur.,3,High AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,e),Karşılaşılan problem durumlarında seçtiği algoritma temelli çözüm stratejisini kul-,3,High AI Relevance
@@ -175,18 +175,18 @@ section,item,text,ai_relevance_score,classification
 3. TEMA: ALGORİTMA VE BİLİŞİM,g),Algoritma temelli çözülebilen problemlerin olası çözüm stratejilerini gözden geçirir.,2,Medium AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,h),Algoritma temelli çözülebilen problemlerde çözüme ulaştıran stratejilere yönelik çı-,1,Medium AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,a),Algoritmik yapılar içerisinde kullanılan mantık bağlaçlarını ve niceleyicileri belirler.,2,Medium AI Relevance
-3. TEMA: ALGORİTMA VE BİLİŞİM,b),Algoritmik yapılar ile mantık bağlaçları ve niceleyiciler arasındaki ilişkileri belirler.,2,Medium AI Relevance
-3. TEMA: ALGORİTMA VE BİLİŞİM,a),Karşılaştığı algoritmalardaki mantık bağlaçları ve niceleyicilerin kullanımını gözden,1,Medium AI Relevance
-3. TEMA: ALGORİTMA VE BİLİŞİM,b),"Matematiksel problem çözme, doğrulama ve ispat süreçlerinde mantık bağlaçları ve",5,High AI Relevance
+3. TEMA: ALGORİTMA VE BİLİŞİM,b),Algoritmik yapılar ile mantık bağlaçları ve niceleyiciler arasındaki ilişkileri belirler.,3,High AI Relevance
+3. TEMA: ALGORİTMA VE BİLİŞİM,a),Karşılaştığı algoritmalardaki mantık bağlaçları ve niceleyicilerin kullanımını gözden,2,Medium AI Relevance
+3. TEMA: ALGORİTMA VE BİLİŞİM,b),"Matematiksel problem çözme, doğrulama ve ispat süreçlerinde mantık bağlaçları ve",4,High AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,c),Mantık bağlaçları ve niceleyicilerin matematiksel dil ve sembolizmin yalınlık ve kesin-,1,Medium AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,e),"Öğrenme çıktıları; çalışma kâğıdı, performans görevi ve araştırma ödevi ile değerlen-",0,Low AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,i),çözümlenmesine ve bu kodlamalarla ilgili akış şemaları oluşturulması-,1,Medium AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,d),ifade edebildiği kabul edilmektedir.,0,Low AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,i),arkasında yatan matematiği fark etmeleri,0,Low AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,r),Kö-,0,Low AI Relevance
-3. TEMA: ALGORİTMA VE BİLİŞİM,k),köprüsü problemi tarihî bağlamı ile birlikte tanıtılarak öğrencilerin,0,Low AI Relevance
+3. TEMA: ALGORİTMA VE BİLİŞİM,k),köprüsü problemi tarihî bağlamı ile birlikte tanıtılarak öğrencilerin,1,Medium AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,i),ülkemizin gelişmesinin önemi vurgulanır.,0,Low AI Relevance
-3. TEMA: ALGORİTMA VE BİLİŞİM,i),"doğal sayı problemleri, asal çarpanlara ayırma, verilen iki sayı-",0,Low AI Relevance
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),"doğal sayı problemleri, asal çarpanlara ayırma, verilen iki sayı-",1,Medium AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,i),ele alınır.,0,Low AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,y),"dönüştürülmesi bir şifreleme örneği olarak ele alınır (E1. 1, E3. 11). Çizge ku-",0,Low AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,i),ve düğüm (nokta) açıklandıktan sonra (çizge,0,Low AI Relevance
@@ -194,74 +194,74 @@ section,item,text,ai_relevance_score,classification
 3. TEMA: ALGORİTMA VE BİLİŞİM,d),problem durumlarında na-,1,Medium AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,i),algoritmasını yazma (doğal dil ya da akış şeması) veya verilen bir algoritma-,2,Medium AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,i),çözümlenmesine yönelik araştırma,0,Low AI Relevance
-3. TEMA: ALGORİTMA VE BİLİŞİM,k),tekrar çözülür ve önceki adımda elde edilen çözümün doğruluğu kontrol edilir. Mate-,1,Medium AI Relevance
+3. TEMA: ALGORİTMA VE BİLİŞİM,k),tekrar çözülür ve önceki adımda elde edilen çözümün doğruluğu kontrol edilir. Mate-,2,Medium AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,i),geçen,0,Low AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,e),"ve niceleyicilerin (her, bazı) anlamları de-",0,Low AI Relevance
-3. TEMA: ALGORİTMA VE BİLİŞİM,d),oluşturularak belirlenir (OB4). Öğrencilere algoritmik yapılar içindeki,1,Medium AI Relevance
+3. TEMA: ALGORİTMA VE BİLİŞİM,d),oluşturularak belirlenir (OB4). Öğrencilere algoritmik yapılar içindeki,2,Medium AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,i),alınarak bu önermenin doğru-,0,Low AI Relevance
-3. TEMA: ALGORİTMA VE BİLİŞİM,f),algoritma örnekleri Öklid algoritması ile ilişkilendirilerek öğrencilerden benzer,1,Medium AI Relevance
-3. TEMA: ALGORİTMA VE BİLİŞİM,i),sağladığı avantajlara yönelik araştırma yapmaları ve sonuçlarını,0,Low AI Relevance
+3. TEMA: ALGORİTMA VE BİLİŞİM,f),algoritma örnekleri Öklid algoritması ile ilişkilendirilerek öğrencilerden benzer,3,High AI Relevance
+3. TEMA: ALGORİTMA VE BİLİŞİM,i),sağladığı avantajlara yönelik araştırma yapmaları ve sonuçlarını,1,Medium AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,i),hareketle,0,Low AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,n),turu ve gezgin satıcı,0,Low AI Relevance
-3. TEMA: ALGORİTMA VE BİLİŞİM,y),"kod oluşturmada, bunları çözümlemeyi gerektiren problemlerde öğren-",0,Low AI Relevance
+3. TEMA: ALGORİTMA VE BİLİŞİM,y),"kod oluşturmada, bunları çözümlemeyi gerektiren problemlerde öğren-",1,Medium AI Relevance
 3. TEMA: ALGORİTMA VE BİLİŞİM,i),kullanılır.,0,Low AI Relevance
-5. TEMA: EŞLİK VE BENZERLİK,a),"Mevcut bilgisi dâhilinde geometrik dönüşümlerin (yansıma, öteleme, dönme) özel-",0,Low AI Relevance
+5. TEMA: EŞLİK VE BENZERLİK,a),"Mevcut bilgisi dâhilinde geometrik dönüşümlerin (yansıma, öteleme, dönme) özel-",1,Medium AI Relevance
 5. TEMA: EŞLİK VE BENZERLİK,b),İncelediği örnekler üzerinden dönüşümlerin özelliklerine ve şekillerin dönüşümler,0,Low AI Relevance
 5. TEMA: EŞLİK VE BENZERLİK,c),Dönüşümlerin özellikleri ve şekillerin dönüşümler altındaki görüntüsüne ilişkin var-,0,Low AI Relevance
-5. TEMA: EŞLİK VE BENZERLİK,d),Geometrik dönüşümlerle ilgili elde ettiği önermeleri konu ile ilgili başka çıkarımlar,0,Low AI Relevance
-5. TEMA: EŞLİK VE BENZERLİK,a),İki üçgenin eş veya benzer olma koşullarına ilişkin varsayımlarda bulunur.,0,Low AI Relevance
-5. TEMA: EŞLİK VE BENZERLİK,b),İncelediği örnekler üzerinden iki üçgenin eş veya benzer olma koşullarına ilişkin var-,0,Low AI Relevance
-5. TEMA: EŞLİK VE BENZERLİK,c),İki üçgenin eş veya benzer olma koşullarına ilişkin varsayımları ile elde ettiği genel-,0,Low AI Relevance
-5. TEMA: EŞLİK VE BENZERLİK,d),İki üçgenin eş veya benzer olma koşullarına dair elde ettiği önermelerin farklı ve,0,Low AI Relevance
+5. TEMA: EŞLİK VE BENZERLİK,d),Geometrik dönüşümlerle ilgili elde ettiği önermeleri konu ile ilgili başka çıkarımlar,1,Medium AI Relevance
+5. TEMA: EŞLİK VE BENZERLİK,a),İki üçgenin eş veya benzer olma koşullarına ilişkin varsayımlarda bulunur.,2,Medium AI Relevance
+5. TEMA: EŞLİK VE BENZERLİK,b),İncelediği örnekler üzerinden iki üçgenin eş veya benzer olma koşullarına ilişkin var-,1,Medium AI Relevance
+5. TEMA: EŞLİK VE BENZERLİK,c),İki üçgenin eş veya benzer olma koşullarına ilişkin varsayımları ile elde ettiği genel-,2,Medium AI Relevance
+5. TEMA: EŞLİK VE BENZERLİK,d),İki üçgenin eş veya benzer olma koşullarına dair elde ettiği önermelerin farklı ve,1,Medium AI Relevance
 5. TEMA: EŞLİK VE BENZERLİK,a),Bir üçgene benzer üçgenler oluştururken eşlik ve benzerlik deneyimlerini gözden,0,Low AI Relevance
-5. TEMA: EŞLİK VE BENZERLİK,b),Deneyimlerine dayalı çıkarımlar yapar.,0,Low AI Relevance
-5. TEMA: EŞLİK VE BENZERLİK,c),Bir üçgenden hareketle ona benzer üçgenler oluşturma ile ilgili ulaşılan çıkarımları,0,Low AI Relevance
-5. TEMA: EŞLİK VE BENZERLİK,a),"Tales, Öklid ve Pisagor teoremlerine ilişkin farklı ispatları kullanır.",0,Low AI Relevance
+5. TEMA: EŞLİK VE BENZERLİK,b),Deneyimlerine dayalı çıkarımlar yapar.,1,Medium AI Relevance
+5. TEMA: EŞLİK VE BENZERLİK,c),Bir üçgenden hareketle ona benzer üçgenler oluşturma ile ilgili ulaşılan çıkarımları,1,Medium AI Relevance
+5. TEMA: EŞLİK VE BENZERLİK,a),"Tales, Öklid ve Pisagor teoremlerine ilişkin farklı ispatları kullanır.",1,Medium AI Relevance
 5. TEMA: EŞLİK VE BENZERLİK,b),Kullandığı matematiksel ispat ve teoremleri yeni durumlara uyarlayarak değerlen-,1,Medium AI Relevance
 5. TEMA: EŞLİK VE BENZERLİK,a),Problemin verilen ve istenenlerine ilişkin parçaları belirler.,0,Low AI Relevance
-5. TEMA: EŞLİK VE BENZERLİK,b),"Problemde verilenler, istenenler ve gerekli işlemler arasındaki ilişkileri belirler.",0,Low AI Relevance
-5. TEMA: EŞLİK VE BENZERLİK,c),Problemin parçaları arasındaki ilişkileri problem bağlamına uygun olarak dönüştürür.,1,Medium AI Relevance
-5. TEMA: EŞLİK VE BENZERLİK,d),Problemin çözümünü gerçekleştirmek için stratejiler oluşturur.,0,Low AI Relevance
-5. TEMA: EŞLİK VE BENZERLİK,e),Belirlediği stratejiyi çözüm için uygulayarak problemi çözer.,1,Medium AI Relevance
-5. TEMA: EŞLİK VE BENZERLİK,f),Problemin çözümünü kontrol eder.,0,Low AI Relevance
-5. TEMA: EŞLİK VE BENZERLİK,g),"Problemin çözümü için geliştirdiği, kullandığı stratejilerdeki kısa yolları ve çözüme",0,Low AI Relevance
-5. TEMA: EŞLİK VE BENZERLİK,h),Ulaştığı çıkarımların geçerliliğini matematiksel örneklerle değerlendirir.,0,Low AI Relevance
+5. TEMA: EŞLİK VE BENZERLİK,b),"Problemde verilenler, istenenler ve gerekli işlemler arasındaki ilişkileri belirler.",2,Medium AI Relevance
+5. TEMA: EŞLİK VE BENZERLİK,c),Problemin parçaları arasındaki ilişkileri problem bağlamına uygun olarak dönüştürür.,2,Medium AI Relevance
+5. TEMA: EŞLİK VE BENZERLİK,d),Problemin çözümünü gerçekleştirmek için stratejiler oluşturur.,1,Medium AI Relevance
+5. TEMA: EŞLİK VE BENZERLİK,e),Belirlediği stratejiyi çözüm için uygulayarak problemi çözer.,2,Medium AI Relevance
+5. TEMA: EŞLİK VE BENZERLİK,f),Problemin çözümünü kontrol eder.,1,Medium AI Relevance
+5. TEMA: EŞLİK VE BENZERLİK,g),"Problemin çözümü için geliştirdiği, kullandığı stratejilerdeki kısa yolları ve çözüme",2,Medium AI Relevance
+5. TEMA: EŞLİK VE BENZERLİK,h),Ulaştığı çıkarımların geçerliliğini matematiksel örneklerle değerlendirir.,1,Medium AI Relevance
 5. TEMA: EŞLİK VE BENZERLİK,e),bu üçgene eş üçgenler üretilebilir.,0,Low AI Relevance
 5. TEMA: EŞLİK VE BENZERLİK,e),"Öğrenme çıktıları; çalışma kâğıdı, açık uçlu sorular, proje ödevi ve performans görevi ile",0,Low AI Relevance
-5. TEMA: EŞLİK VE BENZERLİK,i),öğrencilere rehberlik edilmesi önemlidir. Öğrencilerin sundukları varsayımlarla,0,Low AI Relevance
+5. TEMA: EŞLİK VE BENZERLİK,i),öğrencilere rehberlik edilmesi önemlidir. Öğrencilerin sundukları varsayımlarla,1,Medium AI Relevance
 5. TEMA: EŞLİK VE BENZERLİK,i),olarak ifade edilir. Elde edilen önermelerin de-,0,Low AI Relevance
 5. TEMA: EŞLİK VE BENZERLİK,i),fark etmesi sağ-,0,Low AI Relevance
 5. TEMA: EŞLİK VE BENZERLİK,i),süreç yönetilir. Öğrencilerden eşlik ve benzerlik,0,Low AI Relevance
 5. TEMA: EŞLİK VE BENZERLİK,i),belirlenmesini hedefleyen öğrenme ortamları oluşturulur. Bu süreçte,0,Low AI Relevance
-5. TEMA: EŞLİK VE BENZERLİK,e),çizerek benzer üçgen oluşturabilen öğrencilerin bu çıkarımlarından hareketle ifadelerine,0,Low AI Relevance
+5. TEMA: EŞLİK VE BENZERLİK,e),çizerek benzer üçgen oluşturabilen öğrencilerin bu çıkarımlarından hareketle ifadelerine,1,Medium AI Relevance
 5. TEMA: EŞLİK VE BENZERLİK,i),"yorumlamaları beklenir. Öğrencilere Tales, Öklid ile Pisagor teoremlerini,",0,Low AI Relevance
 5. TEMA: EŞLİK VE BENZERLİK,r),kul-,0,Low AI Relevance
-6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a),"İki kategorik değişkenli veriye dayalı, istatistiksel araştırma gerektiren gerçek ya-",0,Low AI Relevance
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a),"İki kategorik değişkenli veriye dayalı, istatistiksel araştırma gerektiren gerçek ya-",1,Medium AI Relevance
 6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,b),Bağlam içerisinde iki kategorik değişken arasındaki ilişkililiğe odaklanan araştırma,0,Low AI Relevance
 6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,c),İki kategorik değişkenli veri toplamak/elde etmek için plan yapar.,1,Medium AI Relevance
-6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,d),Araştırma sorusu bağlamında toplanan/elde edilen iki kategorik değişkenli verileri,0,Low AI Relevance
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,d),Araştırma sorusu bağlamında toplanan/elde edilen iki kategorik değişkenli verileri,1,Medium AI Relevance
 6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),araçlarından uygun olanı seçer.,0,Low AI Relevance
-6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e),Araştırma sorusu bağlamında toplanan/elde edilen verileri belirlediği araçlarla ana-,0,Low AI Relevance
-6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,f),İki kategorik değişkenli veri dağılımlarına dayalı istatistiksel araştırmadan hareketle,1,Medium AI Relevance
-6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,g),İki kategorik değişkenli veri dağılımlarına dayalı istatistiksel araştırmadan hareket-,1,Medium AI Relevance
-6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a),Başkaları tarafından oluşturulan iki kategorik değişkenli verilerin ilişkililiğine dayalı,0,Low AI Relevance
-6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,b),Başkaları tarafından oluşturulan iki kategorik değişkenli verilerin ilişkililiğine dayalı,0,Low AI Relevance
-6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,c),Başkaları tarafından oluşturulan iki kategorik değişkenli verilerin ilişkililiğine dayalı,0,Low AI Relevance
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e),Araştırma sorusu bağlamında toplanan/elde edilen verileri belirlediği araçlarla ana-,1,Medium AI Relevance
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,f),İki kategorik değişkenli veri dağılımlarına dayalı istatistiksel araştırmadan hareketle,2,Medium AI Relevance
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,g),İki kategorik değişkenli veri dağılımlarına dayalı istatistiksel araştırmadan hareket-,2,Medium AI Relevance
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a),Başkaları tarafından oluşturulan iki kategorik değişkenli verilerin ilişkililiğine dayalı,1,Medium AI Relevance
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,b),Başkaları tarafından oluşturulan iki kategorik değişkenli verilerin ilişkililiğine dayalı,1,Medium AI Relevance
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,c),Başkaları tarafından oluşturulan iki kategorik değişkenli verilerin ilişkililiğine dayalı,1,Medium AI Relevance
 6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e),ÖĞRENME-ÖĞRETME,0,Low AI Relevance
 6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e),ÖĞRENME-ÖĞRETME,0,Low AI Relevance
-6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),"belirlenip oluşturulması, verilerin toplanması ve analize hazır hâle getirilmesi beklenir",0,Low AI Relevance
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),"belirlenip oluşturulması, verilerin toplanması ve analize hazır hâle getirilmesi beklenir",2,Medium AI Relevance
 6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),uygun olanlar seçilir (MAB3). Uygun olan araçların belirlenmesinde araştırma,0,Low AI Relevance
 6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),kul-,0,Low AI Relevance
 6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,r),içermesi önemlidir. Bu,0,Low AI Relevance
 6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),kullanabileceklerini bilmeleri ve bu kaynakları kullanırken nelere dikkat etmeleri gerekti-,0,Low AI Relevance
-6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),"arasında tutarlılık olup olmadığı; yanlı, yanlış veya eksik bilgilerin olup ol-",0,Low AI Relevance
+6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),"arasında tutarlılık olup olmadığı; yanlı, yanlış veya eksik bilgilerin olup ol-",1,Medium AI Relevance
 6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),"hareketle araştırma sorusu oluşturmaları,",0,Low AI Relevance
 6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),öğrencilere sunulur ve öğrencilerin bu durumlara iliş-,0,Low AI Relevance
 7. TEMA: VERİDEN OLASILIĞA,a),Bir olayın gerçekleşmesinin diğer bir olayın meydana gelmesine bağlı olduğu du-,0,Low AI Relevance
 7. TEMA: VERİDEN OLASILIĞA,b),Bir olayın gerçekleşmesinin diğer bir olayın meydana gelmesine bağlı olduğu ger-,0,Low AI Relevance
 7. TEMA: VERİDEN OLASILIĞA,c),Bir olayın gerçekleşmesinin diğer bir olayın meydana gelmesine bağlı olduğu ya da,0,Low AI Relevance
 7. TEMA: VERİDEN OLASILIĞA,d),Bir olayın gerçekleşmesinin diğer bir olayın meydana gelmesine bağlı olduğu ya da,0,Low AI Relevance
-7. TEMA: VERİDEN OLASILIĞA,a),Bayes teoreminin kullanıldığı gerçek yaşam durumlarına ilişkin mevcut bilgileri kul-,0,Low AI Relevance
+7. TEMA: VERİDEN OLASILIĞA,a),Bayes teoreminin kullanıldığı gerçek yaşam durumlarına ilişkin mevcut bilgileri kul-,1,Medium AI Relevance
 7. TEMA: VERİDEN OLASILIĞA,b),Mevcut bilgileri kullanarak Bayes teoremine dayalı hesaplama yapar.,1,Medium AI Relevance
 7. TEMA: VERİDEN OLASILIĞA,c),Bayes teoreminin kullanıldığı gerçek yaşam durumlarına ilişkin ileriye yönelik yargı-,0,Low AI Relevance
 7. TEMA: VERİDEN OLASILIĞA,e),"Öğrenme çıktıları; çalışma kâğıdı, kontrol listesi, açık uçlu sorular ve performans görevi",0,Low AI Relevance
@@ -269,65 +269,65 @@ section,item,text,ai_relevance_score,classification
 7. TEMA: VERİDEN OLASILIĞA,k),arasında,0,Low AI Relevance
 7. TEMA: VERİDEN OLASILIĞA,i),ve bağımlı olayları (hilesiz iki sayı küpü atıldığında küplerin üst yüzeylerine,0,Low AI Relevance
 7. TEMA: VERİDEN OLASILIĞA,i),içermesine dikkat edilir. Gerçek yaşam durumlarından seçilebilecek bağım-,0,Low AI Relevance
-7. TEMA: VERİDEN OLASILIĞA,i),"ilişkin tüm olası çıktıların ağaç şeması, tablo veya alan modeli gibi farklı temsiller kul-",1,Medium AI Relevance
+7. TEMA: VERİDEN OLASILIĞA,i),"ilişkin tüm olası çıktıların ağaç şeması, tablo veya alan modeli gibi farklı temsiller kul-",3,High AI Relevance
 7. TEMA: VERİDEN OLASILIĞA,i),öğrencilerin,0,Low AI Relevance
 7. TEMA: VERİDEN OLASILIĞA,i),gibi durum-,0,Low AI Relevance
 7. TEMA: VERİDEN OLASILIĞA,i),verilir. Gerçek yaşam durumlarına ilişkin elde edilen oranlar veya göreli sıklıklar;,0,Low AI Relevance
-7. TEMA: VERİDEN OLASILIĞA,z),"algoritmasına, Enigma da kullanılan",0,Low AI Relevance
+7. TEMA: VERİDEN OLASILIĞA,z),"algoritmasına, Enigma da kullanılan",1,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),KAVRAMSAL,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),Gerçek sayılarda fonksiyon olma şartları ile gerçek sayılarda tanımlı fonksiyonların,1,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),Gerçek sayılarda fonksiyon olma şartları ile gerçek sayılarda tanımlı fonksiyonların,2,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),grafik ve,1,Medium AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Gerçek sayılarda tanımlı fonksiyonların grafik ve cebirsel temsillerini fonksiyon,2,Medium AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Karşılaştırmalarından hareketle gerçek sayılarda tanımlı fonksiyonların grafik ve,1,Medium AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),x2 şeklinde tanımlı karesel referans fonksiyonun nitel,0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Gerçek sayılarda tanımlı fonksiyonların grafik ve cebirsel temsillerini fonksiyon,4,High AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Karşılaştırmalarından hareketle gerçek sayılarda tanımlı fonksiyonların grafik ve,2,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),x2 şeklinde tanımlı karesel referans fonksiyonun nitel,1,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0)),0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r),karesel fonksiyonların nitel özelliklerine ilişkin matematiksel muhakeme yapabilme,2,Medium AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),"Karesel referans fonksiyonun nitel özelliklerini (tanım kümesi, görüntü kümesi,",0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),matematiksel temsilleri kullanarak belirler.,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Karesel referans fonksiyonun nitel özellikleri ile matematiksel temsilleri arasındaki,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Karesel referans fonksiyonu grafik ve cebirsel temsili üzerinde yapılan işlemlerle,1,Medium AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),Karesel referans fonksiyonun nitel özelliklerinden hareketle diğer karesel fonksi-,0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r),karesel fonksiyonların nitel özelliklerine ilişkin matematiksel muhakeme yapabilme,3,High AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),"Karesel referans fonksiyonun nitel özelliklerini (tanım kümesi, görüntü kümesi,",3,High AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),matematiksel temsilleri kullanarak belirler.,2,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Karesel referans fonksiyonun nitel özellikleri ile matematiksel temsilleri arasındaki,3,High AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Karesel referans fonksiyonu grafik ve cebirsel temsili üzerinde yapılan işlemlerle,4,High AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),Karesel referans fonksiyonun nitel özelliklerinden hareketle diğer karesel fonksi-,1,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),Varsayımlarına dayalı olarak karesel fonksiyonların nitel özelliklerine ilişkin örüntü-,1,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,l),geneller.,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,1,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g),Genellemelerinden elde ettiği önermeleri uygun sözel veya cebirsel dil ile sunar.,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h),Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0) şeklinde tanımlı karekök referans fonksiyonun,0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h),Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.,1,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0) şeklinde tanımlı karekök referans fonksiyonun,1,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0)),0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r),karekök fonksiyonlarının nitel özelliklerine ilişkin matematiksel muhakeme yapabilme,2,Medium AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),"Karekök referans fonksiyonun nitel özelliklerini (tanım kümesi, görüntü kümesi, işareti,",0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),matematiksel temsilleri kullanarak belirler.,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Karekök referans fonksiyonun nitel özellikleri ile matematiksel temsilleri arasındaki,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Karekök referans fonksiyonu grafik ve cebirsel temsili üzerinde yapılan işlemlerle diğer,1,Medium AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),Karekök referans fonksiyonun nitel özelliklerinden hareketle diğer karekök fonksiyon-,1,Medium AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),Varsayımlarına dayalı olarak karekök fonksiyonlarının nitel özelliklerine ilişkin örüntüle-,0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r),karekök fonksiyonlarının nitel özelliklerine ilişkin matematiksel muhakeme yapabilme,3,High AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),"Karekök referans fonksiyonun nitel özelliklerini (tanım kümesi, görüntü kümesi, işareti,",3,High AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),matematiksel temsilleri kullanarak belirler.,2,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Karekök referans fonksiyonun nitel özellikleri ile matematiksel temsilleri arasındaki,3,High AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Karekök referans fonksiyonu grafik ve cebirsel temsili üzerinde yapılan işlemlerle diğer,4,High AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),Karekök referans fonksiyonun nitel özelliklerinden hareketle diğer karekök fonksiyon-,2,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),Varsayımlarına dayalı olarak karekök fonksiyonlarının nitel özelliklerine ilişkin örüntüle-,1,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,l),geneller.,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,1,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g),Genellemelerinden elde ettiği önermeleri uygun sözel veya cebirsel dil ile sunar.,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h),Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),nun nitel özellikleri ile bu fonksiyondan türetilen (g(x),0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r),a   f(x,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),"Rasyonel referans fonksiyonun nitel özelliklerini (tanım kümesi, görüntü kümesi, işare-",0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),matematiksel temsilleri kullanarak belirler.,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Rasyonel referans fonksiyonun nitel özellikleri ile matematiksel temsilleri arasındaki,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Rasyonel referans fonksiyonu grafik ve cebirsel temsili üzerinde yapılan işlemlerle di-,1,Medium AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),Rasyonel referans fonksiyonun nitel özelliklerinden hareketle diğer rasyonel fonksiyon-,1,Medium AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),Varsayımlarına dayalı olarak rasyonel fonksiyonların nitel özelliklerine ilişkin örüntüleri,0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h),Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.,1,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),nun nitel özellikleri ile bu fonksiyondan türetilen (g(x),1,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r),1,0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),"Rasyonel referans fonksiyonun nitel özelliklerini (tanım kümesi, görüntü kümesi, işare-",3,High AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),matematiksel temsilleri kullanarak belirler.,2,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Rasyonel referans fonksiyonun nitel özellikleri ile matematiksel temsilleri arasındaki,3,High AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Rasyonel referans fonksiyonu grafik ve cebirsel temsili üzerinde yapılan işlemlerle di-,4,High AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),Rasyonel referans fonksiyonun nitel özelliklerinden hareketle diğer rasyonel fonksiyon-,2,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),Varsayımlarına dayalı olarak rasyonel fonksiyonların nitel özelliklerine ilişkin örüntüleri,1,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,l),geneller.,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,1,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g),Genellemelerinden elde ettiği önermeleri uygun sözel veya cebirsel dil ile sunar.,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h),Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),Referans fonksiyonlar ve bunlardan türetilebilen fonksiyonlar üzerinden bir fonksiyo-,0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h),Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.,1,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),Referans fonksiyonlar ve bunlardan türetilebilen fonksiyonlar üzerinden bir fonksiyo-,2,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Varsayımlarından yararlanıp farklı durumlarla ilgili örüntüleri listeleyerek referans,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Referans fonksiyonlar ve bunlardan türetilen fonksiyonların ters fonksiyonlarıyla ilişki-,1,Medium AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),Referans fonksiyonlar ve bunlardan türetilen fonksiyonların ters fonksiyonlarına ait,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),Bu fonksiyonlarla ifade edilebilen denklem ve eşitsizliklere ilişkin matematiksel bile-,0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Referans fonksiyonlar ve bunlardan türetilen fonksiyonların ters fonksiyonlarıyla ilişki-,4,High AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),Referans fonksiyonlar ve bunlardan türetilen fonksiyonların ters fonksiyonlarına ait,3,High AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),Bu fonksiyonlarla ifade edilebilen denklem ve eşitsizliklere ilişkin matematiksel bile-,1,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),belirler.,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Bu fonksiyonlarla ifade edilebilen denklem ve eşitsizliklere ilişkin matematiksel bile-,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Bu fonksiyonlarla ifade edilebilen denklem ve eşitsizliklerin problem bağlamındaki,1,Medium AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),Elde ettiği ve yorumladığı farklı temsillerden yararlanarak problemin çözümü için stra-,0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),Bu fonksiyonlarla ifade edilebilen denklem ve eşitsizliklere ilişkin matematiksel bile-,1,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),Bu fonksiyonlarla ifade edilebilen denklem ve eşitsizliklerin problem bağlamındaki,2,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),Elde ettiği ve yorumladığı farklı temsillerden yararlanarak problemin çözümü için stra-,3,High AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),Belirlediği stratejiyi kullanır.,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f),Elde ettiği çözümü farklı yöntemleri kullanarak doğrular.,0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f),Elde ettiği çözümü farklı yöntemleri kullanarak doğrular.,1,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g),Problemin olası çözüm stratejilerini gözden geçirir.,1,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h),"Çıkarımlarının geçerliliğini sözel, cebirsel ve grafiksel argümanlarla değerlendirir.",0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),x2,0,Low AI Relevance
@@ -336,18 +336,18 @@ section,item,text,ai_relevance_score,classification
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r),"k, f -1(x)",0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),94,0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),yararlanıla-,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),analiz edilir. Bu analiz yapılırken  Tanım kümesindeki her bir gerçek sayının değer küme-,3,High AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),analiz edilir. Bu analiz yapılırken  Tanım kümesindeki her bir gerçek sayının değer küme-,4,High AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),> f(y),0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),< f(y) dir. gibi önermeler fonksiyonların cebirsel veya grafik temsilleri kullanılarak,1,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),< f(y) dir. gibi önermeler fonksiyonların cebirsel veya grafik temsilleri kullanılarak,3,High AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),yer verilir. 1700 lü yıllara gelindiğinde matema-,0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),bu tanımı daha formel hâle getirdiği belirtilir. Fonksiyon kavramının,1,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0)),0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r),"k (a, r, k",0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),varsayım geliştirilirken fonksiyonun sıfırları (0 ve -4) ve grafiğinin simetrik olması dikkate,1,Medium AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),şeklinde tamkareye tamamlanarak grafik temsili dönüşümlerle elde edilir. Bu şekilde fonk-,1,Medium AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),fonksiyonun,0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),varsayım geliştirilirken fonksiyonun sıfırları (0 ve -4) ve grafiğinin simetrik olması dikkate,3,High AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),şeklinde tamkareye tamamlanarak grafik temsili dönüşümlerle elde edilir. Bu şekilde fonk-,2,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),fonksiyonun,1,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),3 iken f(x),0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"tamkare formuna dönüştürülmesine ilişkin yorumlar, varsayımlar",0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"tamkare formuna dönüştürülmesine ilişkin yorumlar, varsayımlar",1,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),geliştirmede etkin şekilde kullanılır. Bu bağlamda Harizmi nin tamkareye tamamlama yöntemini,0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),için x2   0 olduğundan x2 + a   a olur. Bu durumda,0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),a olur. cebirsel,0,Low AI Relevance
@@ -355,7 +355,7 @@ section,item,text,ai_relevance_score,classification
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),kullanışlılık açısından değerlendirmeleri beklenir.,0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),hangi aralıkta değer alır?,0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),1,0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),"problemleri, üretim-tüketim gibi bağlamlarda incelenir.",0,Low AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),"problemleri, üretim-tüketim gibi bağlamlarda incelenir.",1,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"< g(x),",0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"=, <, >, ,",0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"g(x) gibi denklem ve eşitsizliklerin tanımlanması sağlanır (E3. 6, E3. 7). Burada kullanı-",0,Low AI Relevance
@@ -364,22 +364,22 @@ section,item,text,ai_relevance_score,classification
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),< 0 gibi eşit-,0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,p),"(m, k, p, n",0,Low AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g),"bağlı olarak gelirinin (Türk lirası) ve maliyetinin (Türk lirası) [0, ) nda tanımlı sı-",0,Low AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),=4x2 ve g (x) =18x fonksiyonları ile modellendiği durumda bu fonksiyonların grafik,1,Medium AI Relevance
-2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"g (x) eşitsizliğinin çözüm kümesi, [9/2, ) olarak belirlenir. Bu durumda",1,Medium AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),=4x2 ve g (x) =18x fonksiyonları ile modellendiği durumda bu fonksiyonların grafik,4,High AI Relevance
+2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),"g (x) eşitsizliğinin çözüm kümesi, [9/2, ) olarak belirlenir. Bu durumda",2,Medium AI Relevance
 2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),kullanılır.,0,Low AI Relevance
-"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",a),Verilen sayma problemindeki sayılacak nesneleri belirler.,0,Low AI Relevance
-"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",b),Sayma problemlerinde yer alan nesneler arasındaki ilişkileri belirler.,0,Low AI Relevance
-"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",c),Problem durumlarındaki sözel ifadeleri görsel temsillere dönüştürür.,1,Medium AI Relevance
-"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",d),Sayma problemlerindeki farklı durumlara uygun çözüm stratejisi oluşturur.,1,Medium AI Relevance
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",a),Verilen sayma problemindeki sayılacak nesneleri belirler.,1,Medium AI Relevance
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",b),Sayma problemlerinde yer alan nesneler arasındaki ilişkileri belirler.,2,Medium AI Relevance
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",c),Problem durumlarındaki sözel ifadeleri görsel temsillere dönüştürür.,2,Medium AI Relevance
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",d),Sayma problemlerindeki farklı durumlara uygun çözüm stratejisi oluşturur.,2,Medium AI Relevance
 "3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",e),Seçtiği çözüm stratejisini kullanır.,1,Medium AI Relevance
 "3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",f),Seçtiği çözüm stratejisini kontrol eder.,1,Medium AI Relevance
-"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",g),Sayma problemlerindeki olası çözüm stratejilerini gözden geçirir.,1,Medium AI Relevance
-"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",h),Sayma problemlerinde çözüme ulaştıran stratejilere yönelik çıkarımları değerlen-,0,Low AI Relevance
-"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",a),Karşılaşılan problem durumlarındaki cebirsel ve fonksiyonel işlemlerin algoritmik,2,Medium AI Relevance
-"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",b),Ön bilgilerini kullanarak cebirsel ve fonksiyonel yapılar ile bu yapıların algoritma-,1,Medium AI Relevance
-"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i),ve bu problemlerin çözümüne,0,Low AI Relevance
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",g),Sayma problemlerindeki olası çözüm stratejilerini gözden geçirir.,2,Medium AI Relevance
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",h),Sayma problemlerinde çözüme ulaştıran stratejilere yönelik çıkarımları değerlen-,2,Medium AI Relevance
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",a),Karşılaşılan problem durumlarındaki cebirsel ve fonksiyonel işlemlerin algoritmik,3,High AI Relevance
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",b),Ön bilgilerini kullanarak cebirsel ve fonksiyonel yapılar ile bu yapıların algoritma-,3,High AI Relevance
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i),ve bu problemlerin çözümüne,2,Medium AI Relevance
 "3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",e),102,0,Low AI Relevance
-"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",d),oluşturabildikleri veya verilen algoritmayı çözümleye-,0,Low AI Relevance
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",d),oluşturabildikleri veya verilen algoritmayı çözümleye-,1,Medium AI Relevance
 "3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",a),yaptıkları iş-,0,Low AI Relevance
 "3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i),"yönelik görüşleri alınır. Bu süreç,",0,Low AI Relevance
 "3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i),"ele alınır. Daha karmaşık bir problem durumu, içerdiği sayma yöntemi bakımından",1,Medium AI Relevance
@@ -387,7 +387,7 @@ section,item,text,ai_relevance_score,classification
 "3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i),içermelidir. İçinde özdeş,0,Low AI Relevance
 "3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",k),"ve niceleyicileri (her,",0,Low AI Relevance
 "3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i),inceleme ve karekökle ifade edilmiş bir irrasyonel sayının yaklaşık değerini bulmada kul-,0,Low AI Relevance
-"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",x),Öğrencilere algoritma oluşturmadaki ön bilgilerini kullanarak cebirsel ve fonksiyonel,1,Medium AI Relevance
+"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",x),Öğrencilere algoritma oluşturmadaki ön bilgilerini kullanarak cebirsel ve fonksiyonel,2,Medium AI Relevance
 "3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",d),bir çözüm üretmesi,1,Medium AI Relevance
 "3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",d),oluşturmaları istenir. Bu ve bunun gibi örnekler üzerinden öğrencilerin olası,0,Low AI Relevance
 "3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",l),"cebri, çizge kuramı, en-",0,Low AI Relevance
@@ -395,15 +395,15 @@ section,item,text,ai_relevance_score,classification
 "3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i),kullanılır.,0,Low AI Relevance
 5. TEMA: ANALİTİK İNCELEME,a),KAVRAMSAL,0,Low AI Relevance
 5. TEMA: ANALİTİK İNCELEME,a),Dik koordinat sisteminde iki nokta arasındaki uzaklık bağıntısı ve bir doğru parçasını,0,Low AI Relevance
-5. TEMA: ANALİTİK İNCELEME,b),Farklı örnekler üzerinden varsayımlarına yönelik örüntüleri geneller.,0,Low AI Relevance
+5. TEMA: ANALİTİK İNCELEME,b),Farklı örnekler üzerinden varsayımlarına yönelik örüntüleri geneller.,1,Medium AI Relevance
 5. TEMA: ANALİTİK İNCELEME,c),İki nokta arasındaki uzaklık bağıntısına ve bir doğru parçasını belli oranda bölen,0,Low AI Relevance
-5. TEMA: ANALİTİK İNCELEME,d),Önermeleri gerçek yaşam problemleri bağlamında değerlendirir.,0,Low AI Relevance
+5. TEMA: ANALİTİK İNCELEME,d),Önermeleri gerçek yaşam problemleri bağlamında değerlendirir.,1,Medium AI Relevance
 5. TEMA: ANALİTİK İNCELEME,a),"Dik koordinat sistemini doğrunun eğim açısını, eğimini ve doğruların birbirlerine",0,Low AI Relevance
 5. TEMA: ANALİTİK İNCELEME,b),"Karşılaştığı problem durumlarında dik koordinat sistemini doğrunun eğim açısını,",1,Medium AI Relevance
 5. TEMA: ANALİTİK İNCELEME,c),"Dik koordinat sistemini doğrunun eğim açısını, eğimini ve doğruların birbirlerine",0,Low AI Relevance
 5. TEMA: ANALİTİK İNCELEME,e),"|AB|, A",0,Low AI Relevance
 5. TEMA: ANALİTİK İNCELEME,t),ve Fermat nın analitik geometriyle ilgili çalışmaları tanı-,0,Low AI Relevance
-5. TEMA: ANALİTİK İNCELEME,k),analitik olarak hesaplanıp gerçek uzaklıkla karşılaştırılarak dijital okuryazarlık,2,Medium AI Relevance
+5. TEMA: ANALİTİK İNCELEME,k),analitik olarak hesaplanıp gerçek uzaklıkla karşılaştırılarak dijital okuryazarlık,1,Medium AI Relevance
 5. TEMA: ANALİTİK İNCELEME,t),ve Fermat nın analitik geometriyle ilgili çalışmaları tanı-,0,Low AI Relevance
 5. TEMA: ANALİTİK İNCELEME,a),be-,0,Low AI Relevance
 5. TEMA: ANALİTİK İNCELEME,i),sahip iki doğru arasındaki,0,Low AI Relevance
@@ -412,74 +412,74 @@ section,item,text,ai_relevance_score,classification
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),tanx,0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),,0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),r),(,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),a),"Trigonometrik referans fonksiyonların nitel özelliklerini (tanım kümesi, görüntü kü-",0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),u),matematiksel temsilleri kullanarak belirler.,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),b),Trigonometrik referans fonksiyonların nitel özellikleri ile matematiksel temsilleri,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),c),Trigonometrik referans fonksiyonları grafik ve cebirsel temsili üzerinde yapılan iş-,1,Medium AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),d),Trigonometrik referans fonksiyonlardan türetilen fonksiyonların nitel özelliklerine,0,Low AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),a),"Trigonometrik referans fonksiyonların nitel özelliklerini (tanım kümesi, görüntü kü-",2,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),u),matematiksel temsilleri kullanarak belirler.,2,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),b),Trigonometrik referans fonksiyonların nitel özellikleri ile matematiksel temsilleri,3,High AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),c),Trigonometrik referans fonksiyonları grafik ve cebirsel temsili üzerinde yapılan iş-,3,High AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),d),Trigonometrik referans fonksiyonlardan türetilen fonksiyonların nitel özelliklerine,2,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),e),Varsayımlarından yararlanıp farklı durumlarla ilgili örüntüleri listeleyerek türetilen,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),f),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,0,Low AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),f),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,1,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),g),Genellemelerinden elde ettiği önermeleri uygun sözel veya cebirsel dil ile sunar.,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),h),Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),a),Trigonometrik fonksiyonlarla ifade edilebilen denklemlere ilişkin matematiksel bi-,0,Low AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),h),Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),a),Trigonometrik fonksiyonlarla ifade edilebilen denklemlere ilişkin matematiksel bi-,1,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),belirler.,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),b),Trigonometrik fonksiyonlarla ifade edilebilen denklemlere ilişkin matematiksel bile-,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),c),Trigonometrik fonksiyonlarla ifade edilebilen denklemlerin problem bağlamındaki,1,Medium AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),d),Elde ettiği ve yorumladığı farklı temsillere dayalı olarak problemin çözümü için stra-,0,Low AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),b),Trigonometrik fonksiyonlarla ifade edilebilen denklemlere ilişkin matematiksel bile-,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),c),Trigonometrik fonksiyonlarla ifade edilebilen denklemlerin problem bağlamındaki,2,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),d),Elde ettiği ve yorumladığı farklı temsillere dayalı olarak problemin çözümü için stra-,3,High AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),e),Belirlediği stratejiyi kullanır.,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),f),Elde ettiği çözümü farklı yöntemleri kullanarak doğrular.,0,Low AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),f),Elde ettiği çözümü farklı yöntemleri kullanarak doğrular.,1,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),g),Problemin olası çözüm stratejilerini gözden geçirir.,1,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),h),"Çıkarımlarının geçerliliğini sözel, cebirsel ve grafiksel argümanlarla değerlendirir.",0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),e),"2π, 360, sinx, cosx, cotx, T, tanx",0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),"araştırma ödevi verilebilir. Verilen ödev; hazırlık, içerik ve sunum süreçlerini",0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),y),noktası kullanılarak,0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),"sinx/cosx, cotx",0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),"gerçek sayılarda tanımlı olduğunu ve bu fonksiyonların görüntü kümesinin [-1, 1] olduğunu",0,Low AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),"gerçek sayılarda tanımlı olduğunu ve bu fonksiyonların görüntü kümesinin [-1, 1] olduğunu",2,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),keşfetmelerine yönelik çalışmalar yapılır. f(x),0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),r),", k",0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),"cebirsel temsillerle ifade edilir (E3. 6, E3. 7). Bu dönüşümler elde edilip yorumlanırken ma-",0,Low AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),"cebirsel temsillerle ifade edilir (E3. 6, E3. 7). Bu dönüşümler elde edilip yorumlanırken ma-",1,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),n),"hareket yasaları, sabit ivmeli",0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),gibi önermelere ilişkin ilgili fonksiyonun,0,Low AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),gibi önermelere ilişkin ilgili fonksiyonun,1,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),r),k   f (mx,0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),"0, m",0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),h(x) gibi eşitliklerle trigonometrik denklemlerin,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),l),dönüşüm yapılır. Bu temsiller arasındaki geçişlerin gösterilebilmesi,0,Low AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),=,0,Low AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),l),dönüşüm yapılır. Bu temsiller arasındaki geçişlerin gösterilebilmesi,1,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),kulla-,0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),kullanılır.,0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a),KAVRAMSAL,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a),Gerçek sayılarda tanımlı doğrusal ve karesel fonksiyonlarla,0,Low AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a),Gerçek sayılarda tanımlı doğrusal ve karesel fonksiyonlarla,1,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),an xn + an-1 xn-1+. . . +a1 x + a0 (n,0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),b),Gözlemlerinden yola çıkarak gerçek sayılarda tanımlı doğrusal ve karesel fonk-,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),formundaki polinom fonksiyonların tanım ve değer kümesi ile işlem özelliklerinin,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),formundaki polinom fonksiyonların tanım ve değer kümesi ile işlem özelliklerinin,3,High AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),c),Tespit ettiği özelliklerden hareketle gerçek sayılarda tanımlı doğrusal ve karesel,0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),siyonların aynı aileden olduğuna ve benzer nitel özelliklere sahip olabileceklerine,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a),Gerçek katsayılı tek değişkenli polinom fonksiyonların nitel özelliklerine (tanım kü-,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),i),"mesi, görüntü kümesi, derecesi, bire birliği, örtenliği, işareti, sıfırları, tekliği",0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),b),Gerçek katsayılı tek değişkenli polinom fonksiyonların nitel özelliklerine dair varsa-,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),c),Gerçek katsayılı tek değişkenli polinom fonksiyonların nitel özelliklerine dair genel-,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),d),Gerçek katsayılı tek değişkenli polinom fonksiyonların nitel özelliklerine dair öner-,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a),Polinom ve rasyonel fonksiyonlarla ifade edilebilen denklem ve eşitsizlikleri içeren,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),b),Oluşturduğu stratejiyi kullanarak problemi çözer.,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),c),Problemin çözümünü kontrol eder.,0,Low AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a),Gerçek katsayılı tek değişkenli polinom fonksiyonların nitel özelliklerine (tanım kü-,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),i),"mesi, görüntü kümesi, derecesi, bire birliği, örtenliği, işareti, sıfırları, tekliği",1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),b),Gerçek katsayılı tek değişkenli polinom fonksiyonların nitel özelliklerine dair varsa-,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),c),Gerçek katsayılı tek değişkenli polinom fonksiyonların nitel özelliklerine dair genel-,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),d),Gerçek katsayılı tek değişkenli polinom fonksiyonların nitel özelliklerine dair öner-,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a),Polinom ve rasyonel fonksiyonlarla ifade edilebilen denklem ve eşitsizlikleri içeren,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),b),Oluşturduğu stratejiyi kullanarak problemi çözer.,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),c),Problemin çözümünü kontrol eder.,1,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),d),Problemin olası çözüm stratejilerinin farklı problem durumlarında kullanımı ile ilgili,2,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),e),"Çıkarımlarının geçerliliğini sözel, cebirsel ve grafiksel argümanlarla değerlendirir.",0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),e),"Öğrenme çıktıları; çalışma kâğıdı, performans görevi, proje ödevi, açık uçlu sorular ve araş-",0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),"polinom olarak adlandırıldığı belirtilerek polinomun derecesi, başkatsayısı, sabit terimi tanı-",0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),i),matematik yazılımıyla oluşturu-,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),lan grafik ve cebirsel temsillerini inceleyerek bu fonksiyonların teklik veya çiftlik durumlarına,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),i),matematik yazılımıyla oluşturu-,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),lan grafik ve cebirsel temsillerini inceleyerek bu fonksiyonların teklik veya çiftlik durumlarına,3,High AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),"x3 + 3x, p(x)",0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),m),için p(x),0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),"polinom fonksiyonunun sıfırları k, m (k, m",0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),polinom fonksiyonunun sıfırları,0,Low AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),"polinom fonksiyonunun sıfırları k, m (k, m",1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),polinom fonksiyonunun sıfırları,1,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),k),) iken a > 0,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a),"polinom fonksiyonunun sıfırları k + a, m + a olur. gibi önermeler elde edilir",0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a),uygulamayı hedefleyen projesi incelenir (OB5). Polinom fonksiyonların tarihî gelişiminin,0,Low AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a),"polinom fonksiyonunun sıfırları k + a, m + a olur. gibi önermeler elde edilir",1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a),uygulamayı hedefleyen projesi incelenir (OB5). Polinom fonksiyonların tarihî gelişiminin,2,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),< g(x) gibi polinom veya rasyonel fonksiyon içeren,1,Medium AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),f(x) - g(x) fonksiyonunun işaretini birinci dereceden çar-,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),rın hangi ardışık tam sayılar arasında olacağına dair çıkarımda bulunmaları fonksiyonların,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),f(x) - g(x) fonksiyonunun işaretini birinci dereceden çar-,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),rın hangi ardışık tam sayılar arasında olacağına dair çıkarımda bulunmaları fonksiyonların,3,High AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),t),formülle-,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),rine yönelik araştırma ödevi verilebilir. Öğrencilerden araştırma sonucunda ulaşılan verileri,0,Low AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),rine yönelik araştırma ödevi verilebilir. Öğrencilerden araştırma sonucunda ulaşılan verileri,2,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),r),yöntemine yer verilir. Bir kökü tahmin,1,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),x4 fonksi-,0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),x2+1,0,Low AI Relevance
@@ -487,45 +487,45 @@ section,item,text,ai_relevance_score,classification
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),=,0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),i),kullanılır. Öğrenciler için bireyselleştirilmiş öğrenme planları oluşturulur ve po-,0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),e),-,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),a),İki veya daha fazla fonksiyonun bileşkesinden oluşan bir fonksiyonun bileşenlerini,0,Low AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),a),İki veya daha fazla fonksiyonun bileşkesinden oluşan bir fonksiyonun bileşenlerini,2,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),i),belirler.,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),b),İki veya daha fazla fonksiyonun bileşkesinden oluşan bir fonksiyonun bileşenleri ara-,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),c),İki veya daha fazla fonksiyonun bileşkesiyle elde ettiği fonksiyonları sembolik bir dile,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),d),"Bileşke fonksiyonlara ve bu fonksiyonların nitel özelliklerine (işareti, artanlığı-azalan-",0,Low AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),b),İki veya daha fazla fonksiyonun bileşkesinden oluşan bir fonksiyonun bileşenleri ara-,2,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),c),İki veya daha fazla fonksiyonun bileşkesiyle elde ettiği fonksiyonları sembolik bir dile,2,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),d),"Bileşke fonksiyonlara ve bu fonksiyonların nitel özelliklerine (işareti, artanlığı-azalan-",2,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),i),ilişkin,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),e),Varsayımlarına dayalı olarak bileşke fonksiyonlara ve bileşke fonksiyonların nitel özel-,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),f),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),g),Genellemelerinden elde ettiği önermeleri matematiksel olarak doğrulayabileceği,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),h),Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),a),Fonksiyonlarda dört işlemin yapılabilme koşullarını inceler.,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),b),Fonksiyonlarda dört işlemi uygun cebirsel veya grafik temsillerle ifade eder.,1,Medium AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),c),Fonksiyonlarda dört işlem özelliklerini dönüştürdüğü fonksiyonlar bağlamında sözel,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),e),Varsayımlarına dayalı olarak bileşke fonksiyonlara ve bileşke fonksiyonların nitel özel-,2,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),f),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),g),Genellemelerinden elde ettiği önermeleri matematiksel olarak doğrulayabileceği,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),h),Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),a),Fonksiyonlarda dört işlemin yapılabilme koşullarını inceler.,2,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),b),Fonksiyonlarda dört işlemi uygun cebirsel veya grafik temsillerle ifade eder.,3,High AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),c),Fonksiyonlarda dört işlem özelliklerini dönüştürdüğü fonksiyonlar bağlamında sözel,2,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),e),"(f   g) (x), f (g (x)), ( f+g) (x), (f-g) (x), (f. g) (x), (f/g) (x)",0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),f (x) - 2 olmasından yola çıkılarak f fonk-,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),(x-2)2 şeklinde tanımlı fonksiyondan hareketle,0,Low AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),(x-2)2 şeklinde tanımlı fonksiyondan hareketle,1,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),(h(x))2 şeklinde tanımlı fonksi-,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),yona dönüşüm üzerinde durulur. Bu bağlamda dönüşüm sonucu oluşan fonksiyonun birden,0,Low AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),yona dönüşüm üzerinde durulur. Bu bağlamda dönüşüm sonucu oluşan fonksiyonun birden,2,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),=,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),g),(x) gösterimleri kullanılır (MAB3). fog fonksiyonunun tanımlı olabil-,0,Low AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),g),(x) gösterimleri kullanılır (MAB3). fog fonksiyonunun tanımlı olabil-,1,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),eşitliğinin her,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),f ve g fonksiyonu için sağlanıp sağlanamayacağına ve gerçek sayılarda tanımlı bir fonksiyon,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),f ve g fonksiyonu için sağlanıp sağlanamayacağına ve gerçek sayılarda tanımlı bir fonksiyon,2,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),"(g-1of-1)(x), (fo(goh))(x)",0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),gibi] değinilmez. Elde edilen var-,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),g),(x) gösterimleri kullanılır (MAB3). fog fonksiyonunun tanımlı olabil-,0,Low AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),g),(x) gösterimleri kullanılır (MAB3). fog fonksiyonunun tanımlı olabil-,1,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),(gof)(x) eşitliğinin her,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),"f+g ve f-g fonksiyonlarının cebirsel ve grafik temsilleri oluşturulabilir. Ardından f, g, f+g, f-g",1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),"f+g ve f-g fonksiyonlarının cebirsel ve grafik temsilleri oluşturulabilir. Ardından f, g, f+g, f-g",3,High AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),=,0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),< g(x) ise (fof)(x) < (fog)(x) gibi öner-,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),d),fonksiyonlar ile bileşke fonksiyonun ilişkisini ortaya koyan örnekler incelenir. Döngüler kullanı-,0,Low AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),d),fonksiyonlar ile bileşke fonksiyonun ilişkisini ortaya koyan örnekler incelenir. Döngüler kullanı-,3,High AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),i),kullanılır. Öğrenciler için bireyselleştirilmiş öğrenme planları oluşturulur ve öğrencilerin,0,Low AI Relevance
-2. TEMA: GEOMETRİK ŞEKİLLER,a),"Dörtgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin varsayımlarda",0,Low AI Relevance
+2. TEMA: GEOMETRİK ŞEKİLLER,a),"Dörtgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin varsayımlarda",1,Medium AI Relevance
 2. TEMA: GEOMETRİK ŞEKİLLER,b),"Varsayımlarını kullanarak dörtgenlerin kenar, açı, köşegen, simetri ve alan özellik-",0,Low AI Relevance
-2. TEMA: GEOMETRİK ŞEKİLLER,c),"Dörtgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin varsayımları ile",0,Low AI Relevance
+2. TEMA: GEOMETRİK ŞEKİLLER,c),"Dörtgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin varsayımları ile",1,Medium AI Relevance
 2. TEMA: GEOMETRİK ŞEKİLLER,d),"Dörtgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin sunduğu öner-",0,Low AI Relevance
 2. TEMA: GEOMETRİK ŞEKİLLER,e),"Elde ettiği önermeleri üçgenlerde açı, benzerlik ve alan özelliklerini kullanarak is-",0,Low AI Relevance
-2. TEMA: GEOMETRİK ŞEKİLLER,f),İşe koştuğu ispatı kullanışlılık açısından değerlendirir.,0,Low AI Relevance
+2. TEMA: GEOMETRİK ŞEKİLLER,f),İşe koştuğu ispatı kullanışlılık açısından değerlendirir.,1,Medium AI Relevance
 2. TEMA: GEOMETRİK ŞEKİLLER,a),Dörtgenlerin özelliklerini kullanarak özel dörtgenler arasında hiyerarşik veya ne-,0,Low AI Relevance
-2. TEMA: GEOMETRİK ŞEKİLLER,b),Özel dörtgenler arasındaki hiyerarşik ilişkilere dair anlamlı bir bütün oluşturur.,0,Low AI Relevance
+2. TEMA: GEOMETRİK ŞEKİLLER,b),Özel dörtgenler arasındaki hiyerarşik ilişkilere dair anlamlı bir bütün oluşturur.,1,Medium AI Relevance
 2. TEMA: GEOMETRİK ŞEKİLLER,a),Çokgenleri ayırt etmek için ölçütler belirler.,0,Low AI Relevance
 2. TEMA: GEOMETRİK ŞEKİLLER,b),Çokgenleri belirlediği ölçütlere göre ayrıştırır.,0,Low AI Relevance
 2. TEMA: GEOMETRİK ŞEKİLLER,c),Ayrıştırdığı çokgenleri tasnif eder.,0,Low AI Relevance
@@ -533,20 +533,20 @@ section,item,text,ai_relevance_score,classification
 2. TEMA: GEOMETRİK ŞEKİLLER,b),"Varsayımlarını kullanarak dışbükey çokgenlerin kenar, açı, köşegen, simetri ve alan",0,Low AI Relevance
 2. TEMA: GEOMETRİK ŞEKİLLER,c),"Dışbükey çokgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin genelle-",0,Low AI Relevance
 2. TEMA: GEOMETRİK ŞEKİLLER,d),"Dışbükey çokgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin sundu-",0,Low AI Relevance
-2. TEMA: GEOMETRİK ŞEKİLLER,a),"Çokgenleri içeren problemlerin parçalarını (nicelik, şekil gibi) belirler.",0,Low AI Relevance
-2. TEMA: GEOMETRİK ŞEKİLLER,b),Problemin parçaları arasındaki ilişkileri belirler.,0,Low AI Relevance
-2. TEMA: GEOMETRİK ŞEKİLLER,c),Problemin bileşenlerini ve aralarındaki ilişkileri bağlama uygun olarak matematiksel,0,Low AI Relevance
-2. TEMA: GEOMETRİK ŞEKİLLER,d),Problemin çözümü için stratejiler geliştirir.,0,Low AI Relevance
-2. TEMA: GEOMETRİK ŞEKİLLER,e),Geliştirdiği stratejileri kullanarak problemi çözer.,0,Low AI Relevance
+2. TEMA: GEOMETRİK ŞEKİLLER,a),"Çokgenleri içeren problemlerin parçalarını (nicelik, şekil gibi) belirler.",1,Medium AI Relevance
+2. TEMA: GEOMETRİK ŞEKİLLER,b),Problemin parçaları arasındaki ilişkileri belirler.,1,Medium AI Relevance
+2. TEMA: GEOMETRİK ŞEKİLLER,c),Problemin bileşenlerini ve aralarındaki ilişkileri bağlama uygun olarak matematiksel,1,Medium AI Relevance
+2. TEMA: GEOMETRİK ŞEKİLLER,d),Problemin çözümü için stratejiler geliştirir.,1,Medium AI Relevance
+2. TEMA: GEOMETRİK ŞEKİLLER,e),Geliştirdiği stratejileri kullanarak problemi çözer.,1,Medium AI Relevance
 2. TEMA: GEOMETRİK ŞEKİLLER,f),Çözümünü kontrol eder ve çözüme ulaştırmayan stratejiyi değiştirir.,0,Low AI Relevance
-2. TEMA: GEOMETRİK ŞEKİLLER,g),Problemin olası farklı çözüm stratejilerini inceleyerek problemin çözümüne ilişkin de-,1,Medium AI Relevance
-2. TEMA: GEOMETRİK ŞEKİLLER,h),Ulaştığı çıkarımların geçerliliğini değerlendirir.,0,Low AI Relevance
+2. TEMA: GEOMETRİK ŞEKİLLER,g),Problemin olası farklı çözüm stratejilerini inceleyerek problemin çözümüne ilişkin de-,3,High AI Relevance
+2. TEMA: GEOMETRİK ŞEKİLLER,h),Ulaştığı çıkarımların geçerliliğini değerlendirir.,1,Medium AI Relevance
 2. TEMA: GEOMETRİK ŞEKİLLER,e),",",0,Low AI Relevance
 2. TEMA: GEOMETRİK ŞEKİLLER,i),işe koşulur.,0,Low AI Relevance
 2. TEMA: GEOMETRİK ŞEKİLLER,i),olarak ifade etmesi istenir. Önermelerin değerlendirilmesi sürecinde öğrencilerin sunulan,0,Low AI Relevance
 2. TEMA: GEOMETRİK ŞEKİLLER,i),"ve alan (  Dörtgenin alanı,",0,Low AI Relevance
-2. TEMA: GEOMETRİK ŞEKİLLER,i),özelliklerine ilişkin çıkarımlarda bulunması sağlanır. Bunun yanı sıra öğrencilerden dört-,0,Low AI Relevance
-2. TEMA: GEOMETRİK ŞEKİLLER,i),kullanarak dörtgenlere ilişkin başka çıkarımlara ( Paralelkenarın,0,Low AI Relevance
+2. TEMA: GEOMETRİK ŞEKİLLER,i),özelliklerine ilişkin çıkarımlarda bulunması sağlanır. Bunun yanı sıra öğrencilerden dört-,1,Medium AI Relevance
+2. TEMA: GEOMETRİK ŞEKİLLER,i),kullanarak dörtgenlere ilişkin başka çıkarımlara ( Paralelkenarın,1,Medium AI Relevance
 2. TEMA: GEOMETRİK ŞEKİLLER,i),vurgulan-,0,Low AI Relevance
 2. TEMA: GEOMETRİK ŞEKİLLER,i),ve,0,Low AI Relevance
 2. TEMA: GEOMETRİK ŞEKİLLER,i),olarak ifade etmesi istenir. Önermelerin değerlendirilmesi sürecinde öğrencilerin sunulan,0,Low AI Relevance
@@ -557,23 +557,23 @@ section,item,text,ai_relevance_score,classification
 2. TEMA: GEOMETRİK ŞEKİLLER,i),kullanıldığı eserler incelenerek bu eserlerin yapımında kullanılan düzgün çokgenlerin nasıl,0,Low AI Relevance
 2. TEMA: GEOMETRİK ŞEKİLLER,i),"yapılmasını sağlayacak süreç işe koşulur. Öğrencilerin düzgün beşgen, düz-",0,Low AI Relevance
 2. TEMA: GEOMETRİK ŞEKİLLER,i),özelliklerine iliş-,0,Low AI Relevance
-2. TEMA: GEOMETRİK ŞEKİLLER,i),ve bu parçalar arasındaki ilişkileri belirlemeleri sağlanır.,0,Low AI Relevance
-2. TEMA: GEOMETRİK ŞEKİLLER,i),çıkarımların matematiksel örneklerle desteklenerek değerlendirilmesi yapılır.,0,Low AI Relevance
+2. TEMA: GEOMETRİK ŞEKİLLER,i),ve bu parçalar arasındaki ilişkileri belirlemeleri sağlanır.,1,Medium AI Relevance
+2. TEMA: GEOMETRİK ŞEKİLLER,i),çıkarımların matematiksel örneklerle desteklenerek değerlendirilmesi yapılır.,1,Medium AI Relevance
 2. TEMA: GEOMETRİK ŞEKİLLER,i),hakkın-,0,Low AI Relevance
 2. TEMA: GEOMETRİK ŞEKİLLER,i),altın,0,Low AI Relevance
-3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a),İki nicel değişkenli veriye dayalı istatistiksel araştırma gerektiren gerçek yaşam du-,0,Low AI Relevance
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a),İki nicel değişkenli veriye dayalı istatistiksel araştırma gerektiren gerçek yaşam du-,1,Medium AI Relevance
 3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,b),Bağlam içerisinde iki nicel değişken arasındaki ilişkililiğe odaklanan araştırma so-,0,Low AI Relevance
 3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,c),İki nicel değişkenli veri toplamak/elde etmek için plan yapar.,1,Medium AI Relevance
-3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,d),Araştırma sorusu bağlamında toplanan/elde edilen iki nicel değişkenli verileri ana-,0,Low AI Relevance
-3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e),Araştırma sorusu bağlamında toplanan/elde edilen verileri belirlediği araçlarla ana-,0,Low AI Relevance
-3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,f),İki nicel değişkenli veri dağılımlarına dayalı istatistiksel araştırmadan elde edilen,1,Medium AI Relevance
-3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,g),İki nicel değişkenli veri dağılımlarına dayalı istatistiksel araştırmadan elde edilen,1,Medium AI Relevance
-3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a),Başkaları tarafından oluşturulan iki nicel değişkenli verilerin ilişkililiğine dayalı ista-,0,Low AI Relevance
-3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,b),Başkaları tarafından oluşturulan iki nicel değişkenli verilerin ilişkililiğine dayalı ista-,0,Low AI Relevance
-3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,c),Başkaları tarafından oluşturulan iki nicel değişkenli verilerin ilişkililiğine dayalı ista-,0,Low AI Relevance
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,d),Araştırma sorusu bağlamında toplanan/elde edilen iki nicel değişkenli verileri ana-,1,Medium AI Relevance
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e),Araştırma sorusu bağlamında toplanan/elde edilen verileri belirlediği araçlarla ana-,1,Medium AI Relevance
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,f),İki nicel değişkenli veri dağılımlarına dayalı istatistiksel araştırmadan elde edilen,2,Medium AI Relevance
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,g),İki nicel değişkenli veri dağılımlarına dayalı istatistiksel araştırmadan elde edilen,2,Medium AI Relevance
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a),Başkaları tarafından oluşturulan iki nicel değişkenli verilerin ilişkililiğine dayalı ista-,1,Medium AI Relevance
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,b),Başkaları tarafından oluşturulan iki nicel değişkenli verilerin ilişkililiğine dayalı ista-,1,Medium AI Relevance
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,c),Başkaları tarafından oluşturulan iki nicel değişkenli verilerin ilişkililiğine dayalı ista-,1,Medium AI Relevance
 3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e),"Öğrenme çıktıları; çalışma kâğıdı, kontrol listesi ve kavram haritası, performans görevi ile",0,Low AI Relevance
 3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,h),arasında bir iliş-,0,Low AI Relevance
-3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),"belirleyip oluşturmaları, verileri toplamaları ve",0,Low AI Relevance
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),"belirleyip oluşturmaları, verileri toplamaları ve",1,Medium AI Relevance
 3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),odaklanmaları sağlanır.,0,Low AI Relevance
 3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,f),ve gücüne (ilişki yok/zayıf/orta/güçlü) ilişkin yo-,1,Medium AI Relevance
 3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),yoğunluğu etkileyebilir.,0,Low AI Relevance
@@ -581,49 +581,49 @@ section,item,text,ai_relevance_score,classification
 3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),ve sayısal değer (korelasyon katsayısı) arasında tutarlılık,1,Medium AI Relevance
 3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),faydalanır. Bu süreçte,0,Low AI Relevance
 3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),"hareketle araştırma sorusu oluşturmaları, veri",1,Medium AI Relevance
-3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),sunulur ve öğrencilerden bunlara ilişkin değerlendirme yapmaları istenir.,1,Medium AI Relevance
+3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),sunulur ve öğrencilerden bunlara ilişkin değerlendirme yapmaları istenir.,0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),a),Sayı örüntülerinin ardışık terimlerini belirler.,1,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),b),Ardışık terimler arasındaki ortak fark/oran (çarpan) ilişkisini belirler.,1,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),c),Sayı örüntülerinin her bir terimini belirlediği ortak farkı/oranı kullanarak ifade eder.,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),d),Aritmetik/geometrik dizilerin sonlu toplamlarına ilişkin varsayımlarda bulunur.,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),e),Varsayımlarından yararlanıp aritmetik/geometrik dizilerin sonlu toplamları ile ilgili,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),f),Aritmetik/geometrik dizilerin sonlu toplamlarına ilişkin genellemeleri ile varsayım-,1,Medium AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),g),Elde ettiği genellemelerden aritmetik/geometrik dizilerin sonlu toplamlarına ilişkin,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),h),Aritmetik ve geometrik dizilerin sonlu toplamlarına ilişkin elde edilen önermeleri,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),a),Gerçek sayı dizileri ve gerçek sayılarda tanımlı fonksiyonların özelliklerini belirler.,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),b),Gerçek sayı dizileri ve gerçek sayılarda tanımlı fonksiyonların özelliklerine ilişkin,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),c),Gerçek sayı dizileri ve gerçek sayılarda tanımlı fonksiyonların özelliklerine ilişkin,0,Low AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),d),Aritmetik/geometrik dizilerin sonlu toplamlarına ilişkin varsayımlarda bulunur.,2,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),e),Varsayımlarından yararlanıp aritmetik/geometrik dizilerin sonlu toplamları ile ilgili,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),f),Aritmetik/geometrik dizilerin sonlu toplamlarına ilişkin genellemeleri ile varsayım-,3,High AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),g),Elde ettiği genellemelerden aritmetik/geometrik dizilerin sonlu toplamlarına ilişkin,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),h),Aritmetik ve geometrik dizilerin sonlu toplamlarına ilişkin elde edilen önermeleri,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),a),Gerçek sayı dizileri ve gerçek sayılarda tanımlı fonksiyonların özelliklerini belirler.,2,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),b),Gerçek sayı dizileri ve gerçek sayılarda tanımlı fonksiyonların özelliklerine ilişkin,2,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),c),Gerçek sayı dizileri ve gerçek sayılarda tanımlı fonksiyonların özelliklerine ilişkin,2,Medium AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),e),"an,",0,Low AI Relevance
 1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),incelenir.,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),n),geometrik dizisinin ilk n terimin toplamının Sn = a1.,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),işe koşularak değerlendirilir.,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),ve iteratif (yinelemeli) diziler ile bu dizilerin algoritma ve akış,3,High AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),n),geometrik dizisinin ilk n terimin toplamının Sn = a1.,0,Low AI Relevance
-1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),işe koşularak değerlendirilir.,0,Low AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),n),geometrik dizisinin ilk n terimin toplamının Sn = a1.,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),işe koşularak değerlendirilir.,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),ve iteratif (yinelemeli) diziler ile bu dizilerin algoritma ve akış,2,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),n),geometrik dizisinin ilk n terimin toplamının Sn = a1.,1,Medium AI Relevance
+1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),işe koşularak değerlendirilir.,1,Medium AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),a),KAVRAMSAL,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),a),Bir fonksiyonun belirli bir nokta civarındaki veya sonsuzdaki davranışını grafiği üze-,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),b),Grafikten elde ettiği bilgileri tablo veya sözel temsiller yoluyla yaklaşma fikrine ula-,1,Medium AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),c),Bir fonksiyonun belirli bir nokta civarındaki veya sonsuzdaki limitini sözel olarak ye-,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),a),"Bir fonksiyonun tablo, grafik ve cebirsel temsili üzerinde belirli bir nokta civarında",2,Medium AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),b),Bir fonksiyonun belirli bir nokta civarında veya sonsuzda aldığı değerler arasındaki,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),c),Bir fonksiyonun belirli bir nokta civarında veya sonsuzda aldığı değerler arasındaki,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),d),Farklı fonksiyonların ve bu fonksiyonlarla yapılan işlemlerin belirli bir noktadaki veya,0,Low AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),a),Bir fonksiyonun belirli bir nokta civarındaki veya sonsuzdaki davranışını grafiği üze-,2,Medium AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),b),Grafikten elde ettiği bilgileri tablo veya sözel temsiller yoluyla yaklaşma fikrine ula-,3,High AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),c),Bir fonksiyonun belirli bir nokta civarındaki veya sonsuzdaki limitini sözel olarak ye-,1,Medium AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),a),"Bir fonksiyonun tablo, grafik ve cebirsel temsili üzerinde belirli bir nokta civarında",4,High AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),b),Bir fonksiyonun belirli bir nokta civarında veya sonsuzda aldığı değerler arasındaki,1,Medium AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),c),Bir fonksiyonun belirli bir nokta civarında veya sonsuzda aldığı değerler arasındaki,1,Medium AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),d),Farklı fonksiyonların ve bu fonksiyonlarla yapılan işlemlerin belirli bir noktadaki veya,3,High AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),e),Varsayımlarına dayalı örüntüleri geneller.,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),f),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,0,Low AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),f),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,1,Medium AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),g),Genellemelerini önerme olarak ifade eder.,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),a),Bir fonksiyonun bir noktadaki limitinin belirsizlik durumunu grafik veya tablo kullana-,2,Medium AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),b),İncelediği fonksiyonun cebirsel ifadesini belirsizlik durumunu ortadan kaldıracak şe-,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),c),"Hesapladığı limit değerini, dönüştürdüğü fonksiyon ile başlangıç fonksiyonunun gra-",1,Medium AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),a),Bir fonksiyonun bir noktadaki limitinin belirsizlik durumunu grafik veya tablo kullana-,3,High AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),b),İncelediği fonksiyonun cebirsel ifadesini belirsizlik durumunu ortadan kaldıracak şe-,1,Medium AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),c),"Hesapladığı limit değerini, dönüştürdüğü fonksiyon ile başlangıç fonksiyonunun gra-",2,Medium AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),a),Fonksiyonların tanımlı olduğu bir noktadaki değeri ile o noktadaki limitini inceler.,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),b),Fonksiyonların tanımlı olduğu bir noktadaki değeri ile o noktadaki limitini sürekliliğin,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),c),Fonksiyonların tanımlı olduğu bir noktadaki sürekliliğini o noktadaki değerinin limitine,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),i),ve Fonksiyonların Sürekliliği,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),e),"Öğrenme çıktıları; çalışma kâğıdı, performans görevi ve araştırma ödevi ile değerlendirile-",0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),i),üzerinden limit fikrine duyulan ihtiyaç vurgulanır. Bu sayede ilk defa,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),i),dizisinin terimleri yazılarak ardışık iki terim arasındaki oranlar; elekt-,1,Medium AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),0 doğrusunun bu fonksiyonun yatay asimptotu olduğu belirlenebilir.,0,Low AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),i),dizisinin terimleri yazılarak ardışık iki terim arasındaki oranlar; elekt-,2,Medium AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),0 doğrusunun bu fonksiyonun yatay asimptotu olduğu belirlenebilir.,1,Medium AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),t),incelenerek belirli bir t zamanı civarında aldığı değerler belirlenebilir. Elde edilen değerler,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),"sunulur. Çok uzun yıllar sonra nüfusun en fazla ne kadar olabileceği, matematik yazılımla-",0,Low AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),"sunulur. Çok uzun yıllar sonra nüfusun en fazla ne kadar olabileceği, matematik yazılımla-",1,Medium AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),i),ve Karl,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),s),gibi matematikçilerin çalışmaları incelenebilir.,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),lim f x,0,Low AI Relevance
@@ -631,7 +631,7 @@ section,item,text,ai_relevance_score,classification
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),π,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),0 noktasında limitinin olup,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),o),teoremi ve uç değer teo-,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),fonksiyonunun x,0,Low AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),fonksiyonunun x,1,Medium AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),=,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),0 noktasındaki limitlerinin,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),"k/m olduğu gösterilir. (*) 0/0 belirsizliğinin yanı sıra  /, -, 1   belirsizlikleri limit alma",0,Low AI Relevance
@@ -639,26 +639,26 @@ section,item,text,ai_relevance_score,classification
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),f(x),0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),"tanx, f(x)",0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),i),kullanılır.,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),Bir fonksiyonun belirli bir nokta civarındaki değişim oranı ile ilgili bileşenleri (fonksi-,0,Low AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),Bir fonksiyonun belirli bir nokta civarındaki değişim oranı ile ilgili bileşenleri (fonksi-,1,Medium AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),i),belirler.,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),b),Bir fonksiyonun belirli bir nokta civarındaki değişim oranı ile ilgili bileşenleri arasın-,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),c),"Bir fonksiyonun belirli bir nokta civarındaki değişim oranını tablo, grafik ve limit gös-",2,Medium AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),d),Uygun koşullarda tanımlı fonksiyonların [f(x),0,Low AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),b),Bir fonksiyonun belirli bir nokta civarındaki değişim oranı ile ilgili bileşenleri arasın-,1,Medium AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),c),"Bir fonksiyonun belirli bir nokta civarındaki değişim oranını tablo, grafik ve limit gös-",3,High AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),d),Uygun koşullarda tanımlı fonksiyonların [f(x),2,Medium AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),xn (n,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),=,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),e),Varsayımlarına dayalı örüntüleri geneller.,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),f),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,0,Low AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),f),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,1,Medium AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),g),Genellemelerini önerme olarak ifade eder.,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),h),Fonksiyonun bir noktadaki türevini limit gösteriminden faydalanarak ispatlar.,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),Fonksiyonlar ve türevin limit tanımı ile ilgili önceki bilgilerinden yararlanarak bir,0,Low AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),h),Fonksiyonun bir noktadaki türevini limit gösteriminden faydalanarak ispatlar.,1,Medium AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),Fonksiyonlar ve türevin limit tanımı ile ilgili önceki bilgilerinden yararlanarak bir,1,Medium AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),b),Varsayımlarından yararlanıp farklı durumlarla ilgili örüntüleri listeleyerek bir fonk-,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),c),Bir fonksiyonun herhangi bir noktasında hangi durumlarda türevinin olmadığına iliş-,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),d),Bir fonksiyonun herhangi bir noktasında hangi durumlarda türevinin olmadığına iliş-,0,Low AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),c),Bir fonksiyonun herhangi bir noktasında hangi durumlarda türevinin olmadığına iliş-,1,Medium AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),d),Bir fonksiyonun herhangi bir noktasında hangi durumlarda türevinin olmadığına iliş-,1,Medium AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),"Fonksiyonların toplamı, farkı, çarpımı, bölümü ve bileşkesinin türevine ilişkin varsa-",0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),b),Varsayımlarına dayalı örüntüleri geneller.,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),c),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,0,Low AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),c),Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.,1,Medium AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),d),Önermelerini farklı problem durumlarında değerlendirir.,1,Medium AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),e),"İki fonksiyonun toplamı, farkı, çarpımı ve bölümünün bir noktadaki türevine dair ku-",0,Low AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),e),"İki fonksiyonun toplamı, farkı, çarpımı ve bölümünün bir noktadaki türevine dair ku-",1,Medium AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),f),İspatını kullanışlılık açısından değerlendirir.,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),e),"f ' (x), f '' (x)",0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),',0,Low AI Relevance
@@ -672,8 +672,8 @@ section,item,text,ai_relevance_score,classification
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),lim,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),x-a,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),şeklinde gösterilir.,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),Uygun koşullarda f(x),0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),çok yakın noktalar alınarak bu fonksiyonun x,0,Low AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),Uygun koşullarda f(x),1,Medium AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),çok yakın noktalar alınarak bu fonksiyonun x,1,Medium AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),=,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),h,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),z),ve Newton gibi bilim insanlarının türev ile ilgili,0,Low AI Relevance
@@ -683,43 +683,43 @@ section,item,text,ai_relevance_score,classification
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),xn ise,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),x-a,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),ile sağdan türevinin f+ (a) eşit,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),şeklinde tanımlı fonksiyonların grafik temsilleri,1,Medium AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),şeklinde tanımlı fonksiyonların grafik temsilleri,3,High AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),x,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),incelenerek bu fonksiyonların x,0,Low AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),incelenerek bu fonksiyonların x,1,Medium AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),x2 ve g(x),0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),MAT 12. 2. 7,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),x şeklinde tanımlı fonk-,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),türevin limit tanımıyla elde edilir. Buradan hareketle fonksiyonların toplam ve fark işlemlerin-,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),ne ilişkin olarak f ve g fonksiyonlarına bağlı yeni bir kural elde edilmesi gerekliliği ifade edilir.,1,Medium AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),x2 fonksiyonlarının bileşkesi şeklinde yazılır. Türevin limit,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),tanımı kullanılarak bu fonksiyonun türev alma kuralı belirlenir ve bileşke fonksiyonların türe-,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),ile ilgili önermelere ulaşılır. Bu şekilde farklı görünen durumlara ilişkin bileşke fonksiyonun,0,Low AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),türevin limit tanımıyla elde edilir. Buradan hareketle fonksiyonların toplam ve fark işlemlerin-,2,Medium AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),ne ilişkin olarak f ve g fonksiyonlarına bağlı yeni bir kural elde edilmesi gerekliliği ifade edilir.,2,Medium AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),x2 fonksiyonlarının bileşkesi şeklinde yazılır. Türevin limit,1,Medium AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),tanımı kullanılarak bu fonksiyonun türev alma kuralı belirlenir ve bileşke fonksiyonların türe-,3,High AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),ile ilgili önermelere ulaşılır. Bu şekilde farklı görünen durumlara ilişkin bileşke fonksiyonun,1,Medium AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),f(x),0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),i),öğrencilerin yakın çevresi dikkate alınarak çeşitlendirilir. Böylelikle öğrenci-,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),r),kullanılır.,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),i),kullanılır.,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),a),"Referans fonksiyonlar, türevin limit tanımı, fonksiyonlarda türev alma kuralları ile",0,Low AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),a),"Referans fonksiyonlar, türevin limit tanımı, fonksiyonlarda türev alma kuralları ile",3,High AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),b),Varsayımlarından yararlanıp farklı durumlarla ilgili örüntüleri listeleyerek bir fonk-,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),c),Bir fonksiyonun ve onun türev fonksiyonunun matematiksel temsilleri ve bunlar,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),d),Bir fonksiyonun ve onun türev fonksiyonunun matematiksel temsilleri ve bunlar,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),a),Türev bilgisinin işe koşulabileceği problemlerdeki matematiksel bileşenleri (problemi,0,Low AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),c),Bir fonksiyonun ve onun türev fonksiyonunun matematiksel temsilleri ve bunlar,4,High AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),d),Bir fonksiyonun ve onun türev fonksiyonunun matematiksel temsilleri ve bunlar,4,High AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),a),Türev bilgisinin işe koşulabileceği problemlerdeki matematiksel bileşenleri (problemi,4,High AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i),belirler.,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),b),Problemlerdeki matematiksel bileşenler arasındaki ilişkileri türev bağlamında ince-,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),c),"Problemlerdeki değişim bağlamını fonksiyon, denklem ve türev temsillerine dönüş-",1,Medium AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),d),Elde ettiği ve yorumladığı farklı temsillere dayalı olarak problemin çözümü için stra-,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),e),Belirlediği stratejiyi kullanarak problemi çözer.,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),f),Elde ettiği çözümü farklı yöntemleri kullanarak doğrular.,0,Low AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),b),Problemlerdeki matematiksel bileşenler arasındaki ilişkileri türev bağlamında ince-,1,Medium AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),c),"Problemlerdeki değişim bağlamını fonksiyon, denklem ve türev temsillerine dönüş-",2,Medium AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),d),Elde ettiği ve yorumladığı farklı temsillere dayalı olarak problemin çözümü için stra-,3,High AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),e),Belirlediği stratejiyi kullanarak problemi çözer.,1,Medium AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),f),Elde ettiği çözümü farklı yöntemleri kullanarak doğrular.,1,Medium AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),g),Problemin olası çözüm stratejilerini gözden geçirir.,1,Medium AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),h),"Çıkarımlarının geçerliliğini sözel, cebirsel ve grafiksel argümanlarla değerlendirir.",0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i),değişimleri modellemek için kullanılabilen matematiksel bir araçtır.,0,Low AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i),değişimleri modellemek için kullanılabilen matematiksel bir araçtır.,1,Medium AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),e),"Öğrenme çıktıları; çalışma kâğıdı, performans görevi ve araştırma ödevi ile değerlendirile-",0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),k şeklinde tanımlı doğrunun eğim değerinin sıfır olması ile bir,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),a),f(x),0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i),ince-,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),"lenir. Genellemeler, polinom fonksiyonun grafik temsilleri ile ilişkilendirilerek varsayımlar ile",1,Medium AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),"lenir. Genellemeler, polinom fonksiyonun grafik temsilleri ile ilişkilendirilerek varsayımlar ile",5,High AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),=,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),b),olduğunda f polinom fonksiyonu,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),"+ 3 fonksiyonunun (a, b) nda artanlığına veya azalanlığına",0,Low AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),b),olduğunda f polinom fonksiyonu,1,Medium AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),"+ 3 fonksiyonunun (a, b) nda artanlığına veya azalanlığına",1,Medium AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),< 0 oluyor ise g(x),0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),l),ve ortalama değer,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),b),"nın her noktasında türevlenebilen, dik koordinat sisteminde verilen keyfî bir",0,Low AI Relevance
@@ -728,74 +728,74 @@ section,item,text,ai_relevance_score,classification
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),b),eşitliğinin sağlanması durumunda öğrencilerden d,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),d),(c),0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i),gerçek yaşam,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),şeklinde tanımlı fonksiyonun alabileceği en büyük değerin a olarak belirlendiği,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),"çıkarımına ulaşılır. Problemlerin çözümüne yönelik çıkarımlar; sözel, cebirsel ve grafiksel ar-",0,Low AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),şeklinde tanımlı fonksiyonun alabileceği en büyük değerin a olarak belirlendiği,1,Medium AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),"çıkarımına ulaşılır. Problemlerin çözümüne yönelik çıkarımlar; sözel, cebirsel ve grafiksel ar-",3,High AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),e),yüzey alanındaki (a) değişime bağlı olarak hacmindeki (,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i),fonksiyonu olarak ifade edilir.,0,Low AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i),fonksiyonu olarak ifade edilir.,1,Medium AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),+ 2 şeklinde tanımlı üçüncü dereceden polinom,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),ve g(x),0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i),yorumlama; (*) fizikte serbest düşüşteki bir cismin,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),l),melez-,0,Low AI Relevance
 2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),p),şeklinde tanımlı,0,Low AI Relevance
-2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),p),fonksiyon ile belirlenir. f   fonksiyonunun grafiği yorumlanarak buruşuk bezelye oranının yüksek,1,Medium AI Relevance
-3. TEMA: GEOMETRİK ŞEKİLLER,y),çözümle-,0,Low AI Relevance
+2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),p),fonksiyon ile belirlenir. f   fonksiyonunun grafiği yorumlanarak buruşuk bezelye oranının yüksek,3,High AI Relevance
+3. TEMA: GEOMETRİK ŞEKİLLER,y),çözümle-,1,Medium AI Relevance
 3. TEMA: GEOMETRİK ŞEKİLLER,y),çözümleyebilme,0,Low AI Relevance
 3. TEMA: GEOMETRİK ŞEKİLLER,a),"Kesen, kiriş, teğet, çap ve yayı çemberin elemanları olarak belirler.",0,Low AI Relevance
-3. TEMA: GEOMETRİK ŞEKİLLER,b),"Çemberde kesen, kiriş, teğet, çap ve yay arasındaki ilişkileri belirler.",0,Low AI Relevance
-3. TEMA: GEOMETRİK ŞEKİLLER,a),"Çemberde açı, kiriş ve teğetin özelliklerine ilişkin varsayımlarda bulunur.",0,Low AI Relevance
+3. TEMA: GEOMETRİK ŞEKİLLER,b),"Çemberde kesen, kiriş, teğet, çap ve yay arasındaki ilişkileri belirler.",1,Medium AI Relevance
+3. TEMA: GEOMETRİK ŞEKİLLER,a),"Çemberde açı, kiriş ve teğetin özelliklerine ilişkin varsayımlarda bulunur.",1,Medium AI Relevance
 3. TEMA: GEOMETRİK ŞEKİLLER,b),"Varsayımlarından yararlanarak çemberde açı, kiriş ve teğetin özelliklerine ilişkin",0,Low AI Relevance
-3. TEMA: GEOMETRİK ŞEKİLLER,c),Genellemelerini varsayımlarıyla karşılaştırır.,0,Low AI Relevance
+3. TEMA: GEOMETRİK ŞEKİLLER,c),Genellemelerini varsayımlarıyla karşılaştırır.,1,Medium AI Relevance
 3. TEMA: GEOMETRİK ŞEKİLLER,d),Önermelerinin farklı problem durumlarındaki kullanışlılığını değerlendirir.,1,Medium AI Relevance
-3. TEMA: GEOMETRİK ŞEKİLLER,a),"Çemberde açı, kiriş, teğetin özelliklerini ve dairenin alanını içeren problemlerin bile-",0,Low AI Relevance
+3. TEMA: GEOMETRİK ŞEKİLLER,a),"Çemberde açı, kiriş, teğetin özelliklerini ve dairenin alanını içeren problemlerin bile-",1,Medium AI Relevance
 3. TEMA: GEOMETRİK ŞEKİLLER,i),belirler.,0,Low AI Relevance
-3. TEMA: GEOMETRİK ŞEKİLLER,b),Problemlerde verilen bileşenler arasındaki ilişkileri belirler.,0,Low AI Relevance
-3. TEMA: GEOMETRİK ŞEKİLLER,c),Problemin bileşenlerini ve bileşenlerin aralarındaki ilişkileri uygun matematiksel,0,Low AI Relevance
-3. TEMA: GEOMETRİK ŞEKİLLER,d),Problemlerin çözümü için stratejiler geliştirir.,0,Low AI Relevance
-3. TEMA: GEOMETRİK ŞEKİLLER,e),Geliştirdiği stratejileri kullanarak problemi çözer.,0,Low AI Relevance
+3. TEMA: GEOMETRİK ŞEKİLLER,b),Problemlerde verilen bileşenler arasındaki ilişkileri belirler.,1,Medium AI Relevance
+3. TEMA: GEOMETRİK ŞEKİLLER,c),Problemin bileşenlerini ve bileşenlerin aralarındaki ilişkileri uygun matematiksel,1,Medium AI Relevance
+3. TEMA: GEOMETRİK ŞEKİLLER,d),Problemlerin çözümü için stratejiler geliştirir.,1,Medium AI Relevance
+3. TEMA: GEOMETRİK ŞEKİLLER,e),Geliştirdiği stratejileri kullanarak problemi çözer.,1,Medium AI Relevance
 3. TEMA: GEOMETRİK ŞEKİLLER,f),Çözümünü kontrol eder ve çözüme ulaştırmayan stratejiyi değiştirir.,0,Low AI Relevance
-3. TEMA: GEOMETRİK ŞEKİLLER,g),Problem çözme sürecini gözden geçirir.,2,Medium AI Relevance
-3. TEMA: GEOMETRİK ŞEKİLLER,h),Ulaştığı çıkarımları değerlendirir.,0,Low AI Relevance
+3. TEMA: GEOMETRİK ŞEKİLLER,g),Problem çözme sürecini gözden geçirir.,1,Medium AI Relevance
+3. TEMA: GEOMETRİK ŞEKİLLER,h),Ulaştığı çıkarımları değerlendirir.,1,Medium AI Relevance
 3. TEMA: GEOMETRİK ŞEKİLLER,e),"Öğrenme çıktıları; çalışma kâğıdı, doğru",0,Low AI Relevance
-3. TEMA: GEOMETRİK ŞEKİLLER,i),ve bu parçalar arasındaki ilişkileri,0,Low AI Relevance
-3. TEMA: GEOMETRİK ŞEKİLLER,i),genellemeler matema-,0,Low AI Relevance
+3. TEMA: GEOMETRİK ŞEKİLLER,i),ve bu parçalar arasındaki ilişkileri,1,Medium AI Relevance
+3. TEMA: GEOMETRİK ŞEKİLLER,i),genellemeler matema-,1,Medium AI Relevance
 4. TEMA: GEOMETRİK CİSİMLER,a),Dik prizma ve dik dairesel silindirin elemanlarını belirler.,0,Low AI Relevance
-4. TEMA: GEOMETRİK CİSİMLER,b),Dik prizma ve dik dairesel silindirin elemanları arasındaki ilişkileri belirler.,0,Low AI Relevance
+4. TEMA: GEOMETRİK CİSİMLER,b),Dik prizma ve dik dairesel silindirin elemanları arasındaki ilişkileri belirler.,1,Medium AI Relevance
 4. TEMA: GEOMETRİK CİSİMLER,a),"Dik prizma ile dik dairesel silindirden yararlanarak dik piramit, dik dairesel koni ve kü-",0,Low AI Relevance
 4. TEMA: GEOMETRİK CİSİMLER,b),"Dik prizma ile dik dairesel silindirden yararlanarak dik piramit, dik dairesel koni ve kü-",0,Low AI Relevance
 4. TEMA: GEOMETRİK CİSİMLER,c),"Gözlemlediği benzerliklerden yararlanarak dik piramit, dik dairesel koni ve kürenin ele-",0,Low AI Relevance
-4. TEMA: GEOMETRİK CİSİMLER,a),"Geometrik cisimleri içeren problemlerin bileşenlerini (nicelik, şekil gibi) belirler.",0,Low AI Relevance
-4. TEMA: GEOMETRİK CİSİMLER,b),Bileşenler arasındaki ilişkileri belirler.,0,Low AI Relevance
-4. TEMA: GEOMETRİK CİSİMLER,c),Problemin bileşenlerini ve aralarındaki ilişkileri uygun matematiksel temsillere dönüş-,0,Low AI Relevance
-4. TEMA: GEOMETRİK CİSİMLER,d),Problemin çözümü için gerekli işlemleri ve çözümü gerçekleştirebilmek için stratejiler,0,Low AI Relevance
-4. TEMA: GEOMETRİK CİSİMLER,e),Belirlediği stratejileri çözüm için uygulayarak problemi çözer.,1,Medium AI Relevance
+4. TEMA: GEOMETRİK CİSİMLER,a),"Geometrik cisimleri içeren problemlerin bileşenlerini (nicelik, şekil gibi) belirler.",1,Medium AI Relevance
+4. TEMA: GEOMETRİK CİSİMLER,b),Bileşenler arasındaki ilişkileri belirler.,1,Medium AI Relevance
+4. TEMA: GEOMETRİK CİSİMLER,c),Problemin bileşenlerini ve aralarındaki ilişkileri uygun matematiksel temsillere dönüş-,3,High AI Relevance
+4. TEMA: GEOMETRİK CİSİMLER,d),Problemin çözümü için gerekli işlemleri ve çözümü gerçekleştirebilmek için stratejiler,3,High AI Relevance
+4. TEMA: GEOMETRİK CİSİMLER,e),Belirlediği stratejileri çözüm için uygulayarak problemi çözer.,2,Medium AI Relevance
 4. TEMA: GEOMETRİK CİSİMLER,f),Çözümü kontrol eder ve çözüme ulaştırmayan stratejiyi değiştirir.,0,Low AI Relevance
-4. TEMA: GEOMETRİK CİSİMLER,g),Problemin çözümü için kullandığı veya geliştirdiği stratejileri ve olası farklı stratejileri,0,Low AI Relevance
-4. TEMA: GEOMETRİK CİSİMLER,h),Ulaştığı çıkarımların geçerliliğini matematiksel örneklerle değerlendirir.,0,Low AI Relevance
+4. TEMA: GEOMETRİK CİSİMLER,g),Problemin çözümü için kullandığı veya geliştirdiği stratejileri ve olası farklı stratejileri,1,Medium AI Relevance
+4. TEMA: GEOMETRİK CİSİMLER,h),Ulaştığı çıkarımların geçerliliğini matematiksel örneklerle değerlendirir.,1,Medium AI Relevance
 4. TEMA: GEOMETRİK CİSİMLER,e),"Öğrenme çıktıları; çalışma kâğıdı, açık uçlu sorular, proje ödevi ve performans görevi ile de-",0,Low AI Relevance
-4. TEMA: GEOMETRİK CİSİMLER,e),"kullanıldığı mimari yapıların incelenmesiyle ilgili proje ödevi verilebilir. Ödevler,",0,Low AI Relevance
+4. TEMA: GEOMETRİK CİSİMLER,e),"kullanıldığı mimari yapıların incelenmesiyle ilgili proje ödevi verilebilir. Ödevler,",1,Medium AI Relevance
 4. TEMA: GEOMETRİK CİSİMLER,i),bildiği; dik prizma ve dik dairesel silindirin yüzey,0,Low AI Relevance
 4. TEMA: GEOMETRİK CİSİMLER,i),yapmaları sağlanır. Benzer şekilde öğrencilere dik dairesel silindir ile dik dairesel koni ve,0,Low AI Relevance
 4. TEMA: GEOMETRİK CİSİMLER,i),dik prizma yardımıyla,0,Low AI Relevance
 4. TEMA: GEOMETRİK CİSİMLER,i),belirlemeye,0,Low AI Relevance
 4. TEMA: GEOMETRİK CİSİMLER,k),"örnekleri incelenir, öğrencilerin kullanılan geometrik cisimlerin neden tercih edildiğine iliş-",1,Medium AI Relevance
 4. TEMA: GEOMETRİK CİSİMLER,i),yönlendirilir. Öğrencilerin,0,Low AI Relevance
-4. TEMA: GEOMETRİK CİSİMLER,i),ve bu parçalar arasındaki ilişkileri belirlemeleri sağlanır. Bu süreçte öğrenci-,0,Low AI Relevance
+4. TEMA: GEOMETRİK CİSİMLER,i),ve bu parçalar arasındaki ilişkileri belirlemeleri sağlanır. Bu süreçte öğrenci-,1,Medium AI Relevance
 4. TEMA: GEOMETRİK CİSİMLER,i),incelenmesi istenerek öğrencilerin konuya ilişkin bilgi,1,Medium AI Relevance
 4. TEMA: GEOMETRİK CİSİMLER,s),çalışmalarının araştırılması ve sınıfta sunulması,0,Low AI Relevance
 5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,a),İstatistiksel araştırma tasarlamayı gerektiren toplumsal ve/veya bilimsel durumla-,0,Low AI Relevance
-5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,b),Bağlam içerisinde ve tasarladığı istatistiksel araştırmaya yönelik veri dağılımlarını,1,Medium AI Relevance
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,b),Bağlam içerisinde ve tasarladığı istatistiksel araştırmaya yönelik veri dağılımlarını,2,Medium AI Relevance
 5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,c),Verileri elde etmeye yönelik plan yapar.,0,Low AI Relevance
-5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,d),Araştırma sorusu bağlamında verileri analiz etmek için görselleştirme ve/veya,1,Medium AI Relevance
-5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,e),Araştırma sorusu bağlamındaki verileri belirlediği araçlarla analiz eder.,1,Medium AI Relevance
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,d),Araştırma sorusu bağlamında verileri analiz etmek için görselleştirme ve/veya,2,Medium AI Relevance
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,e),Araştırma sorusu bağlamındaki verileri belirlediği araçlarla analiz eder.,2,Medium AI Relevance
 5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,f),Tasarladığı istatistiksel araştırmadan elde ettiği çıktılardan hareketle yorumlaya-,0,Low AI Relevance
-5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,g),Tasarladığı istatistiksel araştırmadan elde edilen sonuçları araştırma sorusu bağ-,0,Low AI Relevance
-5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,l),"dağılımlar, verilerin birlikte değişebilirliğindeki eğilime iliş-",0,Low AI Relevance
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,g),Tasarladığı istatistiksel araştırmadan elde edilen sonuçları araştırma sorusu bağ-,1,Medium AI Relevance
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,l),"dağılımlar, verilerin birlikte değişebilirliğindeki eğilime iliş-",3,High AI Relevance
 5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,e),-,0,Low AI Relevance
 5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,l),"ve iki değişkenli (kategorik-kategorik,",0,Low AI Relevance
-5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,l),veri setleri ile çalışarak istatistiksel araştırma sürecini yürütebildikleri kabul,1,Medium AI Relevance
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,l),veri setleri ile çalışarak istatistiksel araştırma sürecini yürütebildikleri kabul,3,High AI Relevance
 5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i),veya yatırım ve tasarrufları inceleyen (ekonomi) (OB3) araştırma soruları,0,Low AI Relevance
 5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i),yer verilmez. Uygun olan araçların belir-,0,Low AI Relevance
-5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i),istatistiksel araştırma tasarımını ve elde ettiği sonuçları,0,Low AI Relevance
+5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i),istatistiksel araştırma tasarımını ve elde ettiği sonuçları,1,Medium AI Relevance
 5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i),ilgili veri temelli argümanlar ve yeni çözüm öne-,2,Medium AI Relevance
 5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i),kullanarak oluşturdukları istatistiksel araştırma tasarımlarını ve,0,Low AI Relevance
 5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i),paylaşmaları beklenir.,0,Low AI Relevance

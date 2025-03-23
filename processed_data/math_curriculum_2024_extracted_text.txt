@@ -3288,9 +3288,9 @@ a
 
 a 
 
-≠
-
 =
+
+≠
 
 =
 
@@ -3468,9 +3468,9 @@ ax ± b
 
 ± 
 
-=
-
 ≠
+
+=
 
 ℝ
 
@@ -6454,17 +6454,17 @@ rasyonel fonksiyonların nitel özelliklerine ilişkin matematiksel muhakeme yap
 
  k (a, r, k
 
+ a ∙ f(x 
+
 ≠ 
 
 = 
 
+ a 
+
 0) şeklinde tanımlı rasyonel referans fonksiyo-
  0)) 
  r) 
-
- a ∙ f(x 
-
- a 
 
 1
 x
@@ -9217,9 +9217,9 @@ r)
 
  ± 
 
- = 
-
  ± 
+
+ = 
 
  = 
 
@@ -9539,9 +9539,9 @@ r)
 
 , k 
 
- = 
-
  ± 
+
+ = 
 
  ± 
 
@@ -9631,9 +9631,9 @@ s (k, m, r, s
 
 0 ve g(x)
 
- ± 
-
  = 
+
+ ± 
 
  ± 
 
@@ -9957,9 +9957,9 @@ a) Logaritmik referans fonksiyonu grafik ve cebirsel temsili üzerinde yapılan 
 
  ± 
 
- ± 
-
  = 
+
+ ± 
 
 ≠
 
@@ -10653,9 +10653,9 @@ g(x), f (x)
 
  = 
 
-<
-
 ≤
+
+<
 
 Verilen problem durumlarına ilişkin denklem ve eşitsizliklerin çözümlerine ulaşabilmeleri için 
 öğrencilerin belirli değerlerle denklem veya eşitsizliği test etme, logaritmik ve üstel fonksi-
@@ -13371,14 +13371,11 @@ f x
 
 ℝ
 
-+
-
-+
-
 =
 
-"
-x a
++
+
++
 
 "
 x a
@@ -13386,19 +13383,8 @@ x a
 "
 x a
 
-^
-
-h
-
-h
-
-^
-
-^
-
-h
-
-h
+"
+x a
 
 h
 
@@ -13412,7 +13398,21 @@ h
 
 h
 
+^
+
 h
+
+h
+
+^
+
+h
+
+h
+
+h
+
+^
 
 h
 
@@ -15010,9 +15010,9 @@ rulması ve matematik yazılım programında çözümünün bulunması ile türe
  = 
  = 
 
-(x1)
-
 (x2)
+
+(x1)
 
  = 
 
