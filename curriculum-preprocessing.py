@@ -538,7 +538,6 @@ def create_turkish_ai_relevance_lexicon():
             'mobil', 'uygulama', 'arayüz', 'etkileşim', 'algoritma', 'kodlama',
             'programlama', 'otomasyon', 'yapay zeka', 'hesaplayıcı'
         ]
-        
     }
     
     # Lemmatize all terms in the lexicon

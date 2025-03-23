@@ -39,6 +39,11 @@ import pyLDAvis.gensim_models
 import networkx as nx
 from matplotlib.colors import LinearSegmentedColormap
 
+
+# Import at the beginning of your topic-modeling.py
+from custom_stopwords import get_turkish_curriculum_stopwords, get_extended_stopwords
+
+
 # Configure visualizations
 plt.style.use('fivethirtyeight')
 sns.set(style="whitegrid")
@@ -202,18 +207,11 @@ def get_stopwords():
         turkish_stopwords = set(stopwords.words('turkish'))
     except:
         print("Turkish stopwords not available in NLTK. Using custom list.")
-        # Basic Turkish stopwords
-        turkish_stopwords = {
-            've', 'ile', 'bu', 'bir', 'için', 'ya', 'de', 'da', 'olarak', 'gibi',
-            'kadar', 'değil', 'daha', 'çok', 'en', 'göre', 'her', 'mi', 'ne',
-            'o', 'ama', 'ki', 'eğer', 'veya', 'hem', 'ise', 'ancak', 'şey'
-        }
+        # Use the basic Turkish stopwords from your module
+        turkish_stopwords = get_turkish_curriculum_stopwords()
     
-    # Add custom stopwords for curriculum analysis
-    custom_stopwords = {'bir', 'iki', 'üç', 'dört', 'beş',
-        'fonksiyon', 'ile', 'olarak', 'için', 'belirler', 'kullanır',
-        'açıklanır', 'yapar', 'verilir', 'a', 'b', 'c', 'ç', 'd', 'e', 'f'
-    }
+    # Add the custom stopwords from your module
+    custom_stopwords = get_extended_stopwords()
     
     return turkish_stopwords.union(custom_stopwords)
 
@@ -619,7 +617,7 @@ def classify_objectives_by_ai_potential(processed_data):
         # Check if we can determine year from detected_type
         detected_type = curriculum.get('detected_type', '')
         
-        if '2018' in detected_type or detected_type == '2018-style':
+        if '2018' in detected_type or detected_type == '2018-style' or detected_type == 'chapter-based' or detected_type == 'numeric-based':
             curricula_by_year['2018'].append((name, curriculum))
         elif '2024' in detected_type or detected_type == '2024-style':
             curricula_by_year['2024'].append((name, curriculum))

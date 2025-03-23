@@ -21,6 +21,10 @@ from wordcloud import WordCloud
 import time
 import networkx as nx
 
+# Import at the beginning of your eda.py
+from custom_stopwords import get_turkish_curriculum_stopwords, get_extended_stopwords
+
+
 # Configure visualizations
 plt.style.use('fivethirtyeight')
 sns.set(style="whitegrid")
@@ -137,6 +141,9 @@ def analyze_term_frequencies(processed_data):
     # Create DataFrames for word frequency in each curriculum
     word_freq = {'2018': {}, '2024': {}}
     
+    
+    custom_stopwords = get_extended_stopwords()
+    
     for year in ['2018', '2024']:
         if year not in processed_data or not processed_data[year]:
             print(f"No data available for {year} curriculum. Skipping term frequency analysis.")
@@ -155,6 +162,7 @@ def analyze_term_frequencies(processed_data):
                     obj_lemmas = [token['lemma'].lower() for token in obj['spacy_tokens'] 
                                 if not token.get('is_punctuation', False) 
                                 and not token.get('is_stop', False)
+                                and token['lemma'].lower() not in custom_stopwords
                                 and len(token['lemma']) > 2]
                     all_lemmas.extend(obj_lemmas)
         
@@ -197,6 +205,9 @@ def create_word_clouds(processed_data):
     """Create word clouds for both curricula using lemmatized words."""
     word_clouds = {}
     
+    # Get custom stopwords
+    custom_stopwords = get_extended_stopwords()
+    
     for year in ['2018', '2024']:
         if year not in processed_data or not processed_data[year]:
             print(f"No data available for {year} curriculum. Skipping word cloud creation.")
@@ -211,6 +222,7 @@ def create_word_clouds(processed_data):
                     obj_lemmas = [token['lemma'].lower() for token in obj['spacy_tokens'] 
                                 if not token.get('is_punctuation', False) 
                                 and not token.get('is_stop', False)
+                                and token['lemma'].lower() not in custom_stopwords
                                 and len(token['lemma']) > 2]
                     all_lemmas.extend(obj_lemmas)
         
@@ -517,6 +529,9 @@ def analyze_word_relations(processed_data):
     # Create co-occurrence matrices for each year
     cooccurrence = {'2018': {}, '2024': {}}
     
+     # Get custom stopwords
+    custom_stopwords = get_extended_stopwords()
+    
     for year in ['2018', '2024']:
         if year not in processed_data or not processed_data[year]:
             print(f"No data available for {year} curriculum. Skipping word relation analysis.")
@@ -538,6 +553,7 @@ def analyze_word_relations(processed_data):
             lemmas = [token['lemma'].lower() for token in obj['spacy_tokens']
                      if not token.get('is_punctuation', False)
                      and not token.get('is_stop', False)
+                     and token['lemma'].lower() not in custom_stopwords
                      and len(token['lemma']) > 2]
             
             # Record co-occurrences in this objective
