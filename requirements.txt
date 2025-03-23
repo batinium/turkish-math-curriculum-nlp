@@ -13,11 +13,13 @@ colorama==0.4.6
 confection==0.1.5
 contourpy==1.3.1
 cryptography==44.0.2
+cupy-cuda11x==13.4.1
 cycler==0.12.1
 cymem==2.0.11
 datasets==3.3.2
 dill==0.3.8
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl#sha256=0964370218b7e1672a30ac50d72cdc6b16f7c867496f1d60925691188f4d2510
+fastrlock==0.8.3
 filelock==3.13.1
 fonttools==4.56.0
 frozenlist==1.5.0
@@ -93,5 +95,6 @@ tzdata==2025.1
 urllib3==2.3.0
 wasabi==0.10.1
 wordcloud==1.9.4
+xx-ent-wiki-sm @ https://github.com/explosion/spacy-models/releases/download/xx_ent_wiki_sm-3.4.0/xx_ent_wiki_sm-3.4.0-py3-none-any.whl#sha256=f667dd0cebd89d75f8625acb388f5f2aa530fa54a8cc386fc11cfb10450b3e48
 xxhash==3.5.0
 yarl==1.18.3
