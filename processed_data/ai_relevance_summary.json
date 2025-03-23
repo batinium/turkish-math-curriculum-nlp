@@ -2,11 +2,13 @@
   "math_curriculum_2018": {
     "overall": {
       "computational_thinking": 292,
-      "mathematical_reasoning": 21,
+      "mathematical_reasoning": 23,
       "pattern_recognition": 97,
       "data_concepts": 238,
       "ai_specific": 4,
-      "digital_literacy": 79
+      "optimization": 0,
+      "digital_literacy": 79,
+      "computational_mathematics": 0
     },
     "detected_type": "numeric-based",
     "computational_thinking_avg": 0.32014388489208634,
@@ -19,17 +21,23 @@
     "data_concepts_total": 81,
     "ai_specific_avg": 0.007194244604316547,
     "ai_specific_total": 2,
+    "optimization_avg": 0.0,
+    "optimization_total": 0,
     "digital_literacy_avg": 0.12949640287769784,
-    "digital_literacy_total": 36
+    "digital_literacy_total": 36,
+    "computational_mathematics_avg": 0.0,
+    "computational_mathematics_total": 0
   },
   "math_curriculum_2024": {
     "overall": {
-      "computational_thinking": 2497,
-      "mathematical_reasoning": 1196,
-      "pattern_recognition": 753,
-      "data_concepts": 2089,
+      "computational_thinking": 2498,
+      "mathematical_reasoning": 1217,
+      "pattern_recognition": 755,
+      "data_concepts": 2090,
       "ai_specific": 227,
-      "digital_literacy": 428
+      "optimization": 3,
+      "digital_literacy": 428,
+      "computational_mathematics": 0
     },
     "detected_type": "2024-style",
     "computational_thinking_avg": 0.37453183520599254,
@@ -42,7 +50,11 @@
     "data_concepts_total": 145,
     "ai_specific_avg": 0.02122347066167291,
     "ai_specific_total": 17,
+    "optimization_avg": 0.0,
+    "optimization_total": 0,
     "digital_literacy_avg": 0.02247191011235955,
-    "digital_literacy_total": 18
+    "digital_literacy_total": 18,
+    "computational_mathematics_avg": 0.0,
+    "computational_mathematics_total": 0
   }
 }

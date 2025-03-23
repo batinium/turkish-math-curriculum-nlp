@@ -1,0 +1,96 @@
+{
+  "2018": {
+    "computational_thinking": {
+      "coverage": 0.2733812949640288,
+      "gap": 0,
+      "gap_percentage": -82.25419664268587
+    },
+    "mathematical_reasoning": {
+      "coverage": 0.0035971223021582736,
+      "gap": 0.14640287769784172,
+      "gap_percentage": 97.60191846522781
+    },
+    "pattern_recognition": {
+      "coverage": 0.09712230215827339,
+      "gap": 0.052877697841726606,
+      "gap_percentage": 35.25179856115107
+    },
+    "data_concepts": {
+      "coverage": 0.22661870503597123,
+      "gap": 0,
+      "gap_percentage": -51.079136690647495
+    },
+    "ai_specific": {
+      "coverage": 0.007194244604316547,
+      "gap": 0.14280575539568344,
+      "gap_percentage": 95.20383693045564
+    },
+    "digital_literacy": {
+      "coverage": 0.12589928057553956,
+      "gap": 0.02410071942446043,
+      "gap_percentage": 16.06714628297362
+    },
+    "optimization": {
+      "coverage": 0.0,
+      "gap": 0.15,
+      "gap_percentage": 100.0
+    },
+    "computational_mathematics": {
+      "coverage": 0.0,
+      "gap": 0.15,
+      "gap_percentage": 100.0
+    }
+  },
+  "2024": {
+    "computational_thinking": {
+      "coverage": 0.28214731585518105,
+      "gap": 0,
+      "gap_percentage": -88.0982105701207
+    },
+    "mathematical_reasoning": {
+      "coverage": 0.1136079900124844,
+      "gap": 0.0363920099875156,
+      "gap_percentage": 24.261339991677065
+    },
+    "pattern_recognition": {
+      "coverage": 0.07990012484394507,
+      "gap": 0.07009987515605492,
+      "gap_percentage": 46.733250104036614
+    },
+    "data_concepts": {
+      "coverage": 0.12983770287141075,
+      "gap": 0.020162297128589246,
+      "gap_percentage": 13.4415314190595
+    },
+    "ai_specific": {
+      "coverage": 0.02122347066167291,
+      "gap": 0.1287765293383271,
+      "gap_percentage": 85.85101955888473
+    },
+    "digital_literacy": {
+      "coverage": 0.019975031210986267,
+      "gap": 0.13002496878901373,
+      "gap_percentage": 86.68331252600916
+    },
+    "optimization": {
+      "coverage": 0.0,
+      "gap": 0.15,
+      "gap_percentage": 100.0
+    },
+    "computational_mathematics": {
+      "coverage": 0.0,
+      "gap": 0.15,
+      "gap_percentage": 100.0
+    }
+  },
+  "improvement": {
+    "computational_thinking": 0.008766020891152249,
+    "mathematical_reasoning": 0.11001086771032612,
+    "pattern_recognition": -0.01722217731432832,
+    "data_concepts": -0.09678100216456048,
+    "ai_specific": 0.014029226057356362,
+    "digital_literacy": -0.1059242493645533,
+    "optimization": 0.0,
+    "computational_mathematics": 0.0
+  }
+}

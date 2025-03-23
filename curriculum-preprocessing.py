@@ -502,20 +502,23 @@ def create_turkish_ai_relevance_lexicon():
             'modelleme', 'işlem', 'düzen', 'akış', 'hesaplama', 'işlem sırası',
             'koşul', 'döngü', 'fonksiyon', 'prosedür', 'algoritmik', 'sistematik',
             # New terms for 2024 curriculum
-            'bilişim', 'programlama', 'dijital', 'kodlama', 'yazılım'
+            'bilişim', 'programlama', 'dijital', 'kodlama', 'yazılım','algoritma tasarımı', 'karmaşıklık analizi', 'sıralama algoritmaları',
+            'arama algoritmaları', 'veri yapıları', 'ağaç yapıları', 'kodlama mantığı'
         ],
         'mathematical_reasoning': [
             'muhakeme', 'akıl yürütme', 'analiz', 'değerlendirme', 'genelleme',
             'kanıt', 'doğrulama', 'ispat', 'varsayım', 'hipotez', 'sonuç', 'çıkarım',
             'mantık', 'mantıksal', 'neden', 'sonuç ilişkisi', 'gerekçelendirme',
             # New terms for 2024 curriculum
-            'tümevarımsal', 'analojik', 'tümdengelimsel', 'matematiksel muhakeme'
+            'tümevarımsal', 'analojik', 'tümdengelimsel', 'matematiksel muhakeme','tümevarım', 'tümdengelim', 'mantıksal çıkarım', 'ispat teknikleri',
+            'matematiksel modelleme', 'çelişki', 'karşı örnek', 'aksiyom'
         ],
         'pattern_recognition': [
             'örüntü', 'desen', 'eğilim', 'düzen', 'ilişki', 'bağlantı', 'korelasyon',
             'yapı', 'kurallılık', 'tekrar', 'ardışık', 'diziliş', 'sıralama', 'kural',
             # New terms for 2024 curriculum
-            'diziler', 'örüntü keşfi', 'ilişkisel', 'ilişkilendirme'
+            'diziler', 'örüntü keşfi', 'ilişkisel', 'ilişkilendirme','örüntü eşleştirme', 'sınıflandırma', 'kümeleme', 'benzerlik ölçümü',
+            'özellik çıkarımı', 'tahmini', 'eğilim analizi'
         ],
         'data_concepts': [
             'veri', 'bilgi', 'tablo', 'grafik', 'istatistik', 'olasılık',
@@ -523,7 +526,8 @@ def create_turkish_ai_relevance_lexicon():
             'veri kümesi', 'veri seti', 'ölçüm', 'ölçme', 'karşılaştırma',
             # New terms for 2024 curriculum
             'veri okuryazarlığı', 'veri görselleştirme', 'veriye dayalı karar verme',
-            'serpme diyagramı', 'korelasyon', 'istatatiksel araştırma'
+            'serpme diyagramı', 'korelasyon', 'istatatiksel araştırma','veri madenciliği', 'veri görselleştirme', 'veri temizleme',
+            'korelasyon analizi', 'regresyon', 'dağılım analizi', 'veri kümeleme'
         ],
         'ai_specific': [
             'yapay zeka', 'makine öğrenmesi', 'veri madenciliği', 'büyük veri',
@@ -531,12 +535,24 @@ def create_turkish_ai_relevance_lexicon():
             'sınıflandırma', 'risk hesaplama', 'bilgisayar', 'programlama',
             # New terms for 2024 curriculum
             'dijital okuryazarlık', 'bilgi okuryazarlığı', 'görsel okuryazarlık',
-            'matematiksel temsil', 'problem çözme', 'matematiksel araç'
+            'matematiksel temsil', 'problem çözme', 'matematiksel araç','makine öğrenmesi algoritmaları', 'derin öğrenme', 'sinir ağları',
+            'doğal dil işleme', 'bilgisayarlı görü', 'karar ağaçları',
+            'yapay zeka uygulamaları', 'etik yapay zeka'
+        ],
+        'optimization': [
+            'optimizasyon', 'amaç fonksiyonu', 'kısıtlar', 'maksimizasyon',
+            'minimizasyon', 'doğrusal programlama', 'doğrusal olmayan optimizasyon',
+            'en iyileme', 'optimize etme', 'verimlilik artırma'
         ],
         'digital_literacy': [
             'dijital', 'teknoloji', 'yazılım', 'donanım', 'internet', 'bilgisayar',
             'mobil', 'uygulama', 'arayüz', 'etkileşim', 'algoritma', 'kodlama',
             'programlama', 'otomasyon', 'yapay zeka', 'hesaplayıcı'
+        ],
+        'computational_mathematics': [
+            'sayısal analiz', 'sayısal yöntemler', 'sayısal çözüm',
+            'hesaplamalı geometri', 'hesaplamalı matematik', 'yaklaşım teorisi',
+            'nümerik entegrasyon', 'nümerik türev'
         ]
     }
     
@@ -623,6 +639,45 @@ def tag_ai_relevance(processed_data, lexicon):
             curriculum['processed_objectives'][i] = tag_text(obj)
     
     return processed_data
+
+def retag_ai_relevance():
+    """Retag existing processed data with an updated AI relevance lexicon without reprocessing PDFs."""
+    print("Loading existing processed data...")
+    processed_data_path = os.path.join(PROCESSED_DIR, 'processed_curriculum_data.pkl')
+    
+    try:
+        with open(processed_data_path, 'rb') as f:
+            processed_data = pickle.load(f)
+        
+        print("Creating new Turkish AI relevance lexicon...")
+        ai_lexicon = create_turkish_ai_relevance_lexicon()
+        
+        print("Retagging data with updated AI relevance lexicon...")
+        processed_data = tag_ai_relevance(processed_data, ai_lexicon)
+        
+        # Repair any missing lemmatization (just in case)
+        processed_data = repair_lemmatization(processed_data)
+        
+        print("Saving updated processed data...")
+        with open(processed_data_path, 'wb') as f:
+            pickle.dump(processed_data, f)
+            
+        # Update comparison and outputs
+        print("Comparing curriculum versions with new tags...")
+        compare_curriculum_versions(processed_data)
+        
+        # Save analysis outputs
+        save_analysis_outputs(processed_data)
+        
+        print("Retagging complete!")
+        return True
+    except FileNotFoundError:
+        print(f"Error: {processed_data_path} not found. Run full preprocessing first.")
+        return False
+    except Exception as e:
+        print(f"Error during retagging: {e}")
+        return False
+
 
 def repair_lemmatization(processed_data):
     """Fix objectives with failed lemmatization by keeping original words when lemmatization fails."""
@@ -913,4 +968,8 @@ def save_analysis_outputs(processed_data):
             
 
 if __name__ == "__main__":
-    main()
+    import sys
+    if len(sys.argv) > 1 and sys.argv[1] == "--retag":
+        retag_ai_relevance()
+    else:
+        main()

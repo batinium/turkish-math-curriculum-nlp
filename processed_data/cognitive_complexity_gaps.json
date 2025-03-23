@@ -1,0 +1,78 @@
+{
+  "2018": {
+    "computational_thinking": {
+      "avg_complexity": 3.0625,
+      "ideal_complexity": 4.5,
+      "gap": 1.4375,
+      "gap_percentage": 31.944444444444443
+    },
+    "mathematical_reasoning": {
+      "avg_complexity": 0,
+      "ideal_complexity": 5.0,
+      "gap": 5.0,
+      "gap_percentage": 100.0
+    },
+    "pattern_recognition": {
+      "avg_complexity": 3.0,
+      "ideal_complexity": 4.0,
+      "gap": 1.0,
+      "gap_percentage": 25.0
+    },
+    "data_concepts": {
+      "avg_complexity": 2.75,
+      "ideal_complexity": 3.8,
+      "gap": 1.0499999999999998,
+      "gap_percentage": 27.631578947368418
+    },
+    "ai_specific": {
+      "avg_complexity": 2.0,
+      "ideal_complexity": 3.5,
+      "gap": 1.5,
+      "gap_percentage": 42.857142857142854
+    },
+    "digital_literacy": {
+      "avg_complexity": 1.5,
+      "ideal_complexity": 3.0,
+      "gap": 1.5,
+      "gap_percentage": 50.0
+    }
+  },
+  "2024": {
+    "computational_thinking": {
+      "avg_complexity": 2.977272727272727,
+      "ideal_complexity": 4.5,
+      "gap": 1.522727272727273,
+      "gap_percentage": 33.83838383838385
+    },
+    "mathematical_reasoning": {
+      "avg_complexity": 3.533333333333333,
+      "ideal_complexity": 5.0,
+      "gap": 1.4666666666666668,
+      "gap_percentage": 29.333333333333332
+    },
+    "pattern_recognition": {
+      "avg_complexity": 1.6956521739130435,
+      "ideal_complexity": 4.0,
+      "gap": 2.3043478260869565,
+      "gap_percentage": 57.608695652173914
+    },
+    "data_concepts": {
+      "avg_complexity": 2.933333333333333,
+      "ideal_complexity": 3.8,
+      "gap": 0.8666666666666667,
+      "gap_percentage": 22.80701754385965
+    },
+    "ai_specific": {
+      "avg_complexity": 1.0,
+      "ideal_complexity": 3.5,
+      "gap": 2.5,
+      "gap_percentage": 71.42857142857143
+    },
+    "digital_literacy": {
+      "avg_complexity": 4.8,
+      "ideal_complexity": 3.0,
+      "gap": -1.7999999999999998,
+      "gap_percentage": -60.0
+    }
+  }
+}
