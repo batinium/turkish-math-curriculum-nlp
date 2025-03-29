@@ -116,32 +116,10 @@ The analysis generates various outputs in the following directories:
   - Domain coverage comparisons
   - Topic similarity matrices
 
-## Extending the Research
-
-The code can be extended in several ways:
-
-- Analyzing curricula from other years or educational levels
-- Comparing curricula across different subjects
-- Applying the methods to curricula from different countries
-- Integrating supervised classification approaches
-
-## Citation
-
-If you use this code in your research, please cite:
-
-```
-@inproceedings{author2025revealing,
-  title={Revealing Curricular Evolution Through Unsupervised NLP Analysis: A Comparative Study of Turkish Mathematics Curricula (2018-2024)},
-  author={Author, A.},
-  booktitle={Proceedings of the Conference on NLP in Educational Research},
-  year={2025}
-}
-```
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
 
-For questions regarding the code or research, please contact [your-email@example.com](mailto:your-email@example.com).
+For questions regarding the code or research, please contact [batinorene@gmail.com](mailto:ybatinorene@gmail.com).
