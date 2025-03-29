@@ -1,279 +1,303 @@
-text,dominant_topic,topic_percent,section,item,ai_relevance_score
-Küme ilgi gerçek hayat(I) örnek yer ver,1,0.93657386,9.2.1.1. Kümeler ile ilgili temel kavramları hatırlatılır.,a),0
-Koşul önerme karşıt ters karşıt ters ver,1,0.8622208,9.1.1.3. Koşullu önermeyi ve iki yönlü koşullu önermeyi açıklar.,a),0
-ol doğru tablo yardım göster,2,0.9167766,9.1.1.3. Koşullu önermeyi ve iki yönlü koşullu önermeyi açıklar.,b),1
-ve veya ya da i bağlaç kullan ver en fazla üç öner içer ve en fazla dört bileşen,2,0.9323082,9.1.1.3. Koşullu önermeyi ve iki yönlü koşullu önermeyi açıklar.,c),0
-Küme ilgi gerçek hayat(I) örnek yer ver,1,0.9365753,9.2.1.1. Kümeler ile ilgili temel kavramlar hatırlatılır.,a),0
-küme fark gösterim yer ver,1,0.90072113,9.2.1.1. Kümeler ile ilgili temel kavramlar hatırlatılır.,b),1
-Cantor un çalış yer ver,2,0.75978816,9.2.1.1. Kümeler ile ilgili temel kavramlar hatırlatılır.,c),0
-alt küme kavram ve özellik el alın,2,0.52610755,9.2.1.2. Alt kümeyi kullanarak işlemler yapar.,a),1
-alt küme kavram ilgi gerçek hayat(I) örnek yer ver,1,0.9461619,9.2.1.2. Alt kümeyi kullanarak işlemler yapar.,b),1
-kombinasyon gerek problem gir,1,0.8624073,9.2.1.2. Alt kümeyi kullanarak işlemler yapar.,c),1
-iki küme eşit kavram alt küme ile ilişkilendir,1,0.9363148,9.2.1.3. İki kümenin eşitliğini kullanarak işlemler yapar.,a),3
-Denk küme kavram ver,1,0.86157733,9.2.1.3. İki kümenin eşitliğini kullanarak işlemler yapar.,b),1
-küme birleşim kesişim fark ve tümle işlem özellik ver,1,0.9528751,"9.2.2.1. Kümelerde birleşim, kesişim, fark, tümleme işlemleri yardımıyla problemler çözer.",a),2
-ayrık küme kavram yer ver,1,0.8984663,"9.2.2.1. Kümelerde birleşim, kesişim, fark, tümleme işlemleri yardımıyla problemler çözer.",b),1
-en fazla üç küme birleşim eleman Sayıs ver ilişki Üzer dur,1,0.9528115,"9.2.2.1. Kümelerde birleşim, kesişim, fark, tümleme işlemleri yardımıyla problemler çözer.",c),2
-gerçek hayat(I) problem yer ver,1,0.90107536,"9.2.2.1. Kümelerde birleşim, kesişim, fark, tümleme işlemleri yardımıyla problemler çözer.",d),1
-sıra li ikili ve sıra ikili eşit örnek açıkla,1,0.89990205,9.2.2.2. İki kümenin kartezyen çarpımıyla ilgili işlemler yapar.,a),0
-Kartezyen çarpım eleman Sayıs buldur,1,0.9360909,9.2.2.2. İki kümenin kartezyen çarpımıyla ilgili işlemler yapar.,b),0
-sadece son sayı eleman ol küme kartezyen çarpım grafik çizim yap,1,0.9582539,9.2.2.2. İki kümenin kartezyen çarpımıyla ilgili işlemler yapar.,c),2
-sayı,1,0.77417624,9.2.2.2. İki kümenin kartezyen çarpımıyla ilgili işlemler yapar.,l),0
-doğal sayı tam sayı rasyonel sayı irrasyonel sayı ve gerçek sayı küme sembol tanıt bu,1,0.96651685,9.3.1.1. Sayı kümelerini birbiriyle ilişkilendirir.,a),1
-gibi sayı sayı doğru yer belirle,1,0.9212519,9.3.1.1. Sayı kümelerini birbiriyle ilişkilendirir.,b),0
-gerçek sayı küme topla ve çarp işlem özellik Üzer dur,1,0.95280945,9.3.1.1. Sayı kümelerini birbiriyle ilişkilendirir.,c),2
-gerçek hayat(I) problem yer ver,1,0.9010753,9.3.2.2. Tam sayılarda EBOB ve EKOK ile ilgili uygulamalar yapar.,a),1
-elektronik tablo bulun EBOB ve EKOK fonksiyon yararlan,0,0.8878209,9.3.2.2. Tam sayılarda EBOB ve EKOK ile ilgili uygulamalar yapar.,b),2
-açık kapalı ve yarı açık aralık kavram ile bu gösterim Üzer dur,1,0.95300496,9.3.3.1. Gerçek sayılar kümesinde aralık kavramını açıklar.,a),0
-aralık kartezyen çarpım yer ver,1,0.9007156,9.3.3.1. Gerçek sayılar kümesinde aralık kavramını açıklar.,b),0
-bir derece bir bilinmeyen li denklem ve eşitsizlik çözüm hatırlat,0,0.93997395,9.3.3.2. Birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm kümelerini bulur.,a),1
-Harezmî nin denklem konu çalış yer ver,2,0.6163741,9.3.3.2. Birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm kümelerini bulur.,b),0
-bir gerçek sayı mutlak değer hatırlat mutlak değer özellik ver,0,0.6358123,9.3.3.3. Mutlak değer içeren birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm,a),0
-İki çok mutlak değer içer denklem ve eşitsizlik gir,0,0.9292263,9.3.3.3. Mutlak değer içeren birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm,b),0
-bir derece iki bilinmeyen li denklem sistem çözüm küme bulun yer koy yok,0,0.7925352,9.3.3.4. Birinci dereceden iki bilinmeyenli denklem ve eşitsizlik sistemlerinin çözüm kümelerini bulur.,a),2
-bir derece iki bilinmeyen li denklem ve eşitsiz sistem çözüm analitik düzlem göster,0,0.9587364,9.3.3.4. Birinci dereceden iki bilinmeyenli denklem ve eşitsizlik sistemlerinin çözüm kümelerini bulur.,b),1
-Üs ifade kavram hatırlat,2,0.8928472,9.3.4.1. Üslü ifadeleri içeren denklemleri çözer.,a),0
-bir gerçek sayı tam sayı kuvvet ile ilgi uygulama yap,1,0.9364112,9.3.4.1. Üslü ifadeleri içeren denklemleri çözer.,b),1
-Üs ifade özellik Üzer dur,2,0.8941106,9.3.4.1. Üslü ifadeleri içeren denklemleri çözer.,c),0
-Kök ifade özellik Üzer dur,2,0.89411926,9.3.4.2. Köklü ifadeleri içeren denklemleri çözer.,a),0
-ve,1,0.37043518,9.3.4.2. Köklü ifadeleri içeren denklemleri çözer.,b),0
-en çok iki terim köklü ifade eşlenik yer ver,2,0.9174332,9.3.4.2. Köklü ifadeleri içeren denklemleri çözer.,c),0
-oran orantı doğru orantı ters orantı kavram ile oran ve orantı ait özellik hatırlat,0,0.96556115,9.3.5.1. Oran ve orantı kavramlarını kullanarak problemler çözer.,a),0
-altın oran tanıt gerçek hayat(I) örnek ver ancak hesapla yöntem yer ver,1,0.9585243,9.3.5.1. Oran ve orantı kavramlarını kullanarak problemler çözer.,b),0
-gerçek hayat(I) durum temsil et sözel ifade ilişki cebirsel grafiksel ve sayısal temsil,2,0.61646897,9.3.5.2. Denklemler  ve eşitsizlikler ile ilgili problemler çözer.,a),3
-fark problem çöz strateji uygula gerek oran orantı kavram kullan,1,0.79574597,9.3.5.2. Denklemler  ve eşitsizlikler ile ilgili problemler çözer.,b),1
-rutin ol problem tür de yer ver fark problem çöz strateji uygula,1,0.9365368,9.3.5.2. Denklemler  ve eşitsizlikler ile ilgili problemler çözer.,c),2
-kültür ve medeniyeti geometri tarihsel gelişim sürec katkı sağla bilim insan ve bilim,2,0.9325305,9.4.1.1. Üçgende açı özellikleri ile ilgili işlemler yapar.,a),0
- çeşit ve paralel iki doğru bir kesen(I) yap açı hatırlat,2,0.9172013,9.4.1.1. Üçgende açı özellikleri ile ilgili işlemler yapar.,b),0
-Üçgen sadece iç ve dış açı özellik kullan soru yer ver İkizkenar ve eşkenar üçgen,2,0.9493747,9.4.1.1. Üçgende açı özellikleri ile ilgili işlemler yapar.,c),0
-bir üçgen en uzun kenar karşı açı ölçüs en büyük ol ve bu ter de doğru,0,0.9270144,9.4.1.2. Üçgenin kenar uzunlukları ile bu kenarların karşılarındaki açıların ölçülerini ilişkilendirir.,a),0
-dinamik matematik yazılım kullanıl oluş üçgen kenar ve açı ara ilişki,2,0.676147,9.4.1.2. Üçgenin kenar uzunlukları ile bu kenarların karşılarındaki açıların ölçülerini ilişkilendirir.,b),2
-iki kenar uzunluk ver bir üçgen üç kenar uzunluk hangi aralık değer al,1,0.95860004,9.4.1.3. Uzunlukları verilen üç doğru parçasının hangi durumlarda üçgen oluşturduğunu değerlendirir.,a),0
-dinamik matematik yazılım yararlan hangi durum üçgen oluş test et,2,0.9601076,9.4.1.3. Uzunlukları verilen üç doğru parçasının hangi durumlarda üçgen oluşturduğunu değerlendirir.,b),1
-iki üçgen eş hatırlat,0,0.8412129,9.4.2.1. İki üçgenin eş olması için gerekli olan asgari koşulları değerlendirir.,a),0
-kenar açı kenar K. A. K. açı kenar  A. K. A. kenar kenar kenar K. K. K. eşlik kural ölçüm,1,0.96308607,9.4.2.1. İki üçgenin eş olması için gerekli olan asgari koşulları değerlendirir.,b),2
-eş üçgen karşılık li yardımcı eleman da eş ol göster,2,0.93080974,9.4.2.1. İki üçgenin eş olması için gerekli olan asgari koşulları değerlendirir.,c),0
-kenar açı kenar K. A. K. kenar kenar kenar K. K. K. ve açı açı A. A. benzer kural ölçüm,1,0.9587297,9.4.2.2. İki üçgenin benzer olması için gerekli olan asgari koşulları değerlendirir.,a),2
-eşlik ile benzer ara ilişki incele,0,0.91281074,9.4.2.2. İki üçgenin benzer olması için gerekli olan asgari koşulları değerlendirir.,b),1
-benze üçgen karşılık yardımcı eleman da aynı benzer oran sahip ol göster,0,0.9618488,9.4.2.2. İki üçgenin benzer olması için gerekli olan asgari koşulları değerlendirir.,c),0
-Açıortay Üzer alın bir nokta açı kol indir dik uzunluk eşit ol,2,0.94970787,9.4.3.1. Üçgenin iç ve dış açıortaylarının özelliklerini elde eder.,a),0
-iç ve dış açıortay uzunluk formül hesaplat,1,0.92220145,9.4.3.1. Üçgenin iç ve dış açıortaylarının özelliklerini elde eder.,b),0
-Açıortay özellik gösterim pergel cetvel yararlan,2,0.7489672,9.4.3.1. Üçgenin iç ve dış açıortaylarının özelliklerini elde eder.,c),0
-Kenarortay kesiş nokta ile bu nokta kenarortay Üzer ayır parça ara ilişki,1,0.9624719,9.4.3.2. Üçgenin kenarortaylarının özelliklerini elde eder.,a),1
-Kenarortay kesiş nokta üçgen ağırlık merkez ol ve üçgen ağırlık merkez ilgi,1,0.9665269,9.4.3.2. Üçgenin kenarortaylarının özelliklerini elde eder.,b),0
-dik üçgen hipotenüs ait kenarortay uzunluk hipotenüs uzunluk yarı ol göster,1,0.94548774,9.4.3.2. Üçgenin kenarortaylarının özelliklerini elde eder.,c),0
-Pergel cetvel kullan veya bilgi ve iletişim teknoloji yardım üçgen Üzer değişik,2,0.9603991,9.4.3.2. Üçgenin kenarortaylarının özelliklerini elde eder.,d),2
-bir doğru parça orta dik Üzer alın her nokta doğru parça uç nokta eşit,2,0.96411663,9.4.3.3. Üçgenin kenar orta dikmelerinin bir noktada kesiştiğini gösterir.,a),0
-Pergel cetvel veya bilgi ve iletişim teknoloji yararlan,2,0.6886008,9.4.3.3. Üçgenin kenar orta dikmelerinin bir noktada kesiştiğini gösterir.,b),2
-Pergel cetvel kullan veya bilgi ve iletişim teknoloji yardım bir üçgen yüksek çiz,2,0.96025044,9.4.3.4. Üçgenin çeşidine göre yüksekliklerinin kesiştiği noktanın konumunu belirler.,a),2
-İkizkenar üçgen taban alın bir nokta kenar çiz dik uzunluk toplam ile,0,0.49719486,9.4.3.4. Üçgenin çeşidine göre yüksekliklerinin kesiştiği noktanın konumunu belirler.,b),0
-eşkenar üçgen içeri alın bir nokta kenar indir dik uzunluk toplam ile,0,0.95719844,9.4.3.4. Üçgenin çeşidine göre yüksekliklerinin kesiştiği noktanın konumunu belirler.,c),0
-teorem el edilir model çeşitli yer ver,0,0.84680045,9.4.4.1. Dik üçgende Pisagor teoremini elde ederek problemler çözer.,a),1
-gerçek hayat(I) problem yer ver,1,0.9010753,9.4.4.1. Dik üçgende Pisagor teoremini elde ederek problemler çözer.,b),1
-Pythagoras  çalış yer ver,2,0.75978816,9.4.4.1. Dik üçgende Pisagor teoremini elde ederek problemler çözer.,c),0
-gerçek hayat(I) problem yer ver,1,0.9010753,9.4.4.2. Öklid teoremini elde ederek problemler çözer.,a),1
-Euclid in çalış yer ver,2,0.75978816,9.4.4.2. Öklid teoremini elde ederek problemler çözer.,b),0
-bir açı sinüs kosinüs tanjant ve kotanjant değer dik üçgen Üzer tanımla,1,0.9457396,9.4.4.3. Dik üçgende dar açıların trigonometrik oranlarını hesaplar.,a),0
-dik üçgen 30 45 ve 60 nin trigonometrik değer özel üçgen yardım hesapla,1,0.95302343,9.4.4.3. Dik üçgende dar açıların trigonometrik oranlarını hesaplar.,b),0
-gerçek hayat(I) problem yer ver,1,0.90107536,9.4.4.3. Dik üçgende dar açıların trigonometrik oranlarını hesaplar.,c),1
-sadece 0 ve 180 ara açı trigonometrik oran birim çember yardım hesaplat,1,0.952847,9.4.4.4. Birim çemberi tanımlar ve trigonometrik oranları birim çemberin üzerindeki noktanın,a),0
-Ebu l Vefa ve Gıyaseddin Cemşid  trigonometrik oran ilgili çalış bahsed,1,0.57587016,9.4.4.4. Birim çemberi tanımlar ve trigonometrik oranları birim çemberin üzerindeki noktanın,b),0
- alan bir kenar ile bu kenar ait yüksek kullan hesaplat,1,0.9457521,9.4.5.1. Üçgenin alanı ile ilgili problemler çözer.,a),0
-iki kenar uzunluk ve bu kenar ara açı ölçü ver üçgen alan hesap,1,0.9459123,9.4.5.1. Üçgenin alanı ile ilgili problemler çözer.,b),0
-aynı yüksek sahip üçgen alan taban aynı taban sahip üçgen alan,1,0.96943325,9.4.5.1. Üçgenin alanı ile ilgili problemler çözer.,c),0
-bilgi ve iletişim teknoloji yardım alan taban ve yükseklik değiş bir üçgen alan,2,0.5280097,9.4.5.1. Üçgenin alanı ile ilgili problemler çözer.,d),2
-veri kavram kesik ve sürekli veri çeşit ver,2,0.93188435,9.5.1.1. Verileri merkezî eğilim ve yayılım ölçülerini hesaplayarak yorumlar.,a),2
-Aritmetik ortalama ortanca tepe değer en büyük değer en küçük değer ve açık kavram ver,0,0.96587336,9.5.1.1. Verileri merkezî eğilim ve yayılım ölçülerini hesaplayarak yorumlar.,b),0
-alt çeyrek üst çeyrek ve çeyrek açık yer ver,0,0.7451981,9.5.1.1. Verileri merkezî eğilim ve yayılım ölçülerini hesaplayarak yorumlar.,c),0
-gerçek hayat(I) durum aritmetik ortalama ortanca tepe değer kavram birlikte yorumla,0,0.7338217,9.5.1.1. Verileri merkezî eğilim ve yayılım ölçülerini hesaplayarak yorumlar.,d),0
- oluşturul veri grup açık seç grup sayıs bölün ve aşağı eşitsiz,0,0.95351905,9.5.2.1. Bir veri grubuna ilişkin histogram oluşturur.,a),1
- grup histogram çiz,0,0.7476996,9.5.2.1. Bir veri grubuna ilişkin histogram oluşturur.,b),0
-İki fazla veri grup karşılaştır durum da yer ver,2,0.91727835,9.5.2.2. Gerçek hayat durumunu yansıtan veri gruplarını uygun grafik türleriyle temsil ederek yorumlar.,a),1
-Serp ve kutu grafik yer ver,2,0.75875896,9.5.2.2. Gerçek hayat durumunu yansıtan veri gruplarını uygun grafik türleriyle temsil ederek yorumlar.,b),1
- tür bilgi ve iletişim teknoloji kullanıl çiz,2,0.91717845,9.5.2.2. Gerçek hayat durumunu yansıtan veri gruplarını uygun grafik türleriyle temsil ederek yorumlar.,c),2
-say konu tarihsel gelişim sürec söz et ve bu süreç rol al Sâbit İBN  ,2,0.91783756,10.1.1.1. Olayların gerçekleşme sayısını toplama ve çarpma yöntemlerini kullanarak hesaplar.,a),0
- kavram ver say temel ilke ile ilişkilendir,1,0.90052587,10.1.1.1. Olayların gerçekleşme sayısını toplama ve çarpma yöntemlerini kullanarak hesaplar.,b),1
-en az iki tane özdeş ol nesne tüm fark diziliş Sayıs örnek problem bağlam el,1,0.8025998,10.1.1.3.  Sınırlı  sayıda  tekrarlayan  nesnelerin  dizilişlerini  (permütasyonlarını)  açıklayarak  problemler,a),1
-gerçek hayat(I) problem yer ver,1,0.9010753,10.1.1.3.  Sınırlı  sayıda  tekrarlayan  nesnelerin  dizilişlerini  (permütasyonlarını)  açıklayarak  problemler,b),1
- kavram alt küme Sayıs ile ilişkilendir,1,0.92244905,10.1.1.4. n elemanlı bir kümenin r tane elemanının kaç farklı şekilde seçilebileceğini hesaplar.,a),2
- kavram aşağı temel özellik incele,0,0.689469,10.1.1.4. n elemanlı bir kümenin r tane elemanının kaç farklı şekilde seçilebileceğini hesaplar.,b),0
-+ 𝐶𝐶(𝑛𝑛 1 + + 𝐶𝐶(𝑛𝑛 𝑛𝑛 = 2,1,0.37043518,10.1.1.5. Pascal üçgenini açıklar.,0),0
-Binom açılım Pascal üçgen ile ilişkilendir,1,0.922309,10.1.1.6. Binom açılımını yapar.,a),1
-sadece iki terim ifade açılım el alın,2,0.9318308,10.1.1.6. Binom açılımını yapar.,b),0
-Binom formül ile ilgi örnek yap ancak,1,0.9365072,10.1.1.6. Binom açılımını yapar.,c),0
-Örnek uzay deney çık kavram eş olası durum yol çıkıl eş olası ol durum için,2,0.9419048,"10.1.2.1. Örnek uzay, deney, çıktı, bir olayın tümleyeni, kesin olay, imkânsız olay, ayrık olay ve ayrık",a),0
-Ayrık olay ve ayrık ol olay Üzer dur,2,0.93240374,"10.1.2.1. Örnek uzay, deney, çıktı, bir olayın tümleyeni, kesin olay, imkânsız olay, ayrık olay ve ayrık",b),0
-el Kindî ve Laplace çalış yer ver,2,0.7597882,"10.1.2.1. Örnek uzay, deney, çıktı, bir olayın tümleyeni, kesin olay, imkânsız olay, ayrık olay ve ayrık",c),0
-eş olası ol ve ol olay olasılık hesapla,2,0.91727185,10.1.2.2. Olasılık kavramı ile ilgili uygulamalar yapar.,a),1
-Tümle ayrık olay ve ayrık ol olay ile ilgi olasılık hesapla,2,0.955543,10.1.2.2. Olasılık kavramı ile ilgili uygulamalar yapar.,b),1
-gerçek hayat(I) problem yer ver,1,0.9010753,10.1.2.2. Olasılık kavramı ile ilgili uygulamalar yapar.,c),1
-doğru test,0,0.8449283,10.1.2.2. Olasılık kavramı ile ilgili uygulamalar yapar.,y),0
-fonksiyon kavram açıkla,0,0.844086,10.2.1.1. Fonksiyonlarla ilgili problemler çözer.,a),1
-sadece gerçek sayı Üzer tanımla fonksiyon el al,1,0.93628323,10.2.1.1. Fonksiyonlarla ilgili problemler çözer.,b),1
-İç fonksiyon ört fonksiyon bir bir fonksiyon eşit fonksiyon birim özdeş fonksiyon sabit,1,0.9220426,10.2.1.1. Fonksiyonlarla ilgili problemler çözer.,c),5
-f ve g fonksiyon kullanıl,2,0.7597174,10.2.1.1. Fonksiyonlarla ilgili problemler çözer.,d),1
-gerçek hayat(I) problem ve tablo grafik kullanım yer ver,1,0.9356675,10.2.1.1. Fonksiyonlarla ilgili problemler çözer.,e),3
-f(x = ax + b şekil fonksiyon grafik ile ilgi uygulama yap,2,0.91572714,10.2.1.2. Fonksiyonların grafiklerini çizer.,a),3
-Parça tanım şekil ver fonksiyon grafik çiz,2,0.9177027,10.2.1.2. Fonksiyonların grafiklerini çizer.,b),2
-f(x = ax + b tip fonksiyon grafik bilgi ve iletişim teknoloji yardım çiz a ve b,2,0.9320024,10.2.1.2. Fonksiyonların grafiklerini çizer.,c),4
-Grafik ver fonksiyon tanım ve görüntü küme göster,2,0.67076397,10.2.1.3. Fonksiyonların grafiklerini yorumlar.,a),2
-bir fonksiyon grafiğ fonksiyon x eksen Üzer tanım ol her bir nokta y eksen,2,0.94231707,10.2.1.3. Fonksiyonların grafiklerini yorumlar.,b),2
-işaret et,0,0.7484675,10.2.1.3. Fonksiyonların grafiklerini yorumlar.,i),0
-bir f fonksiyon grafiğ y = f(x denklem grafik ol ve grafik var x eksen kes,2,0.57568145,10.2.1.3. Fonksiyonların grafiklerini yorumlar.,c),3
-= 0 denklem gerçek sayı çözüm küme ol vurgula,1,0.9359757,10.2.1.3. Fonksiyonların grafiklerini yorumlar.,x),2
-bir fonksiyon bir bir ve örten grafik Üzer yatay doğru test incele ve cebirsel ol,2,0.7171577,10.2.2.1. Bire bir ve örten fonksiyonlar ile ilgili uygulamalar yapar.,a),2
-bilgi ve iletişim teknoloji yardım bir fonksiyon bir bir ve ört ol ol belirle,2,0.7401171,10.2.2.1. Bire bir ve örten fonksiyonlar ile ilgili uygulamalar yapar.,b),3
- işlem fonksiyon cebirsel ve grafik gösterim ile ilişkilendir el alın,2,0.5687917,10.2.2.2. Fonksiyonlarda bileşke işlemiyle ilgili işlemler yapar.,a),4
-Fonksiyon bileşke işlem birleş özellik ol belirt değiş özellik ol,2,0.942124,10.2.2.2. Fonksiyonlarda bileşke işlemiyle ilgili işlemler yapar.,b),1
-Parça tanım fonksiyon bileşke gir,2,0.89463097,10.2.2.2. Fonksiyonlarda bileşke işlemiyle ilgili işlemler yapar.,c),1
-bir fonksiyon ters de fonksiyon ol için gerek şart belirt,1,0.9222157,10.2.2.3. Verilen bir fonksiyonun tersini bulur.,a),2
-sadece bir bir ve ört doğrusal fonksiyon ters grafik çiz fonksiyon grafik ile ter,2,0.529926,10.2.2.3. Verilen bir fonksiyonun tersini bulur.,b),4
-Parça tanım fonksiyon ters ver,2,0.59522235,10.2.2.3. Verilen bir fonksiyonun tersini bulur.,c),1
-Polinom derece katsayı ve sabit terim belirt,0,0.9398389,10.3.1.1. Bir değişkenli polinom kavramını açıklar.,a),0
-Sabit polinom sıfır polinom ve iki polinom eşitlik örnek açıkla,0,0.9467265,10.3.1.1. Bir değişkenli polinom kavramını açıklar.,b),0
-bir P(x polinom x a ile bölüm kal P(a ,0,0.7482574,"10.3.1.2. Polinomlarla toplama, çıkarma, çarpma ve bölme işlemlerini yapar.",a),0
-Polinom sıfır kavram böl işlem ilişkilendir,0,0.9273785,"10.3.1.2. Polinomlarla toplama, çıkarma, çarpma ve bölme işlemlerini yapar.",b),2
-ortak çarpan parantez al ve değişken değiştir yöntem kullan çarpan ayır,2,0.9497267,10.3.2.1. Bir polinomu çarpanlarına ayırır.,a),0
-tam kare iki kare fark iki terim toplam ve fark küp iki terim küp toplam ve fark,0,0.9587339,10.3.2.1. Bir polinomu çarpanlarına ayırır.,b),0
-biçiim ifade çarpan ayrıl,2,0.91736764,10.3.2.1. Bir polinomu çarpanlarına ayırır.,c),0
-Rasyonel ifade kavram tanıt,2,0.91605794,10.3.2.2. Rasyonel ifadelerin sadeleştirilmesi ile ilgili işlemler yapar.,a),0
-Çarpan polinom ol ifade çarpan ayır uygulama yer ver,2,0.94207096,10.3.2.2. Rasyonel ifadelerin sadeleştirilmesi ile ilgili işlemler yapar.,b),1
-ax2 + bx + c biçiim cebirsel ifade tam kare ve iki kare fark ait özdeşlik kullan,2,0.5049677,10.4.1.2. İkinci dereceden bir bilinmeyenli denklemleri çözer.,a),0
-Denklem çözüm fark yöntem çarpan ayır tam kare tamamla değişken,1,0.62645483,10.4.1.2. İkinci dereceden bir bilinmeyenli denklemleri çözer.,b),1
-yararlan,0,0.74841815,10.4.1.2. İkinci dereceden bir bilinmeyenli denklemleri çözer.,t),0
-gerçek hayat(I) problem yer ver,1,0.9010753,10.4.1.2. İkinci dereceden bir bilinmeyenli denklemleri çözer.,c),1
-= 1 ol üzere bir karmaşık sayı,1,0.8603225,"10.4.1.3. Bir karmaşık sayının a+ib (a,b",b),0
-Kök birbiri eşlenik ol belirt,0,0.8890686,"10.4.1.3. Bir karmaşık sayının a+ib (a,b",c),0
-sadece kök toplam ve çarpım ile denklem katsayı ara ilişki Üzer dur,0,0.51379275,10.4.1.4.  İkinci  dereceden  bir  bilinmeyenli  denklemin  kökleri  ile  katsayıları  arasındaki  ilişkileri,a),1
- ver iki derece denklem el et ile ilgi uygulama yer ver,1,0.92152077,10.4.1.4.  İkinci  dereceden  bir  bilinmeyenli  denklemin  kökleri  ile  katsayıları  arasındaki  ilişkileri,b),1
-İçbükey çokgen gir,0,0.74623054,10.5.1.1. Çokgen kavramını açıklayarak işlemler yapar.,a),0
-Düzgün çokgen hatırlat iç ve dış açı ölçü bulun,0,0.91367304,10.5.1.1. Çokgen kavramını açıklayarak işlemler yapar.,b),0
-Çokgen köşegen ile ilgi özellik ve al problem yer ver,1,0.935792,10.5.1.1. Çokgen kavramını açıklayarak işlemler yapar.,c),1
-Dışbükey ve içbükey dörtgen kavram açıkla bu sonra dörtgen de dış bükey,0,0.9133631,10.5.2.1. Dörtgenin temel elemanlarını ve özelliklerini açıklayarak problemler çözer.,a),0
-dörtgen iç ve dış açı ölçü toplam bulun,0,0.9139117,10.5.2.1. Dörtgenin temel elemanlarını ve özelliklerini açıklayarak problemler çözer.,b),0
-dörtgen çevre Üzer dur,2,0.60473305,10.5.2.1. Dörtgenin temel elemanlarını ve özelliklerini açıklayarak problemler çözer.,c),0
-Yamuk paralelkenar eşkenar dörtgen dikdörtgen kare ve deltoid ara hiyerarşik ilişki yer,0,0.9290393,"10.5.3.1. Özel dörtgenlerin açı, kenar, köşegen ve alan özelliklerini açıklayarak problemler çözer.",a),1
-Hiyerarşik ilişki göre her bir özel dörtgen kendi içeri açı kenar köşegen ve al özellik,0,0.9581616,"10.5.3.1. Özel dörtgenlerin açı, kenar, köşegen ve alan özelliklerini açıklayarak problemler çözer.",b),1
-Origami tangram kullan uygulama yap,2,0.8524443,"10.5.3.1. Özel dörtgenlerin açı, kenar, köşegen ve alan özelliklerini açıklayarak problemler çözer.",c),1
- ve iletişim teknoloji yararlan,0,0.8893894,"10.5.3.1. Özel dörtgenlerin açı, kenar, köşegen ve alan özelliklerini açıklayarak problemler çözer.",d),1
-üçgen dörtgen ve altıgen dik prizma piramit ile sınırlandır,0,0.88775444,"10.6.1.1. Dik prizmalar ve dik piramitlerin uzunluk, alan ve hacim bağıntılarını oluşturur.",a),0
-gerçek hayat(I) problem yer ver,1,0.90107536,"10.6.1.1. Dik prizmalar ve dik piramitlerin uzunluk, alan ve hacim bağıntılarını oluşturur.",b),1
- ve iletişim teknoloji yararlan,0,0.88939047,"10.6.1.1. Dik prizmalar ve dik piramitlerin uzunluk, alan ve hacim bağıntılarını oluşturur.",c),1
-Derece alt birim ol dakika ve saniye bahsed,1,0.89982873,11.1.1.2. Açı ölçü birimlerini açıklayarak birbiri ile ilişkilendirir.,a),0
-derece ile radyan ilişkilendir gra gir,1,0.8614312,11.1.1.2. Açı ölçü birimlerini açıklayarak birbiri ile ilişkilendirir.,b),1
-açı esas ölçü bulun,0,0.8465192,11.1.1.2. Açı ölçü birimlerini açıklayarak birbiri ile ilişkilendirir.,c),0
-Trigonometrik fonksiyon ara temel özdeşlik oluş benze üçgen yardım,1,0.95271313,11.1.2.1. Trigonometrik fonksiyonları birim çember yardımıyla açıklar.,a),1
-Trigonometrik fonksiyon bölge göre işaret incele,0,0.9282155,11.1.2.1. Trigonometrik fonksiyonları birim çember yardımıyla açıklar.,b),1
-Kosinüs teorem Pisagor teorem yararlan el et,0,0.91367817,11.1.2.2. Kosinüs teoremiyle ilgili problemler çözer.,a),0
-gerçek hayat(I) problem yer ver,1,0.9010753,11.1.2.2. Kosinüs teoremiyle ilgili problemler çözer.,b),1
-Sinüs teorem iki kenar uzun ve bu kenar ara açı ölçü ver üçgen alan,0,0.52812344,11.1.2.3. Sinüs teoremiyle ilgili problemler çözer.,a),0
-Sinüs teorem çevrel çember ilişkilendir,0,0.9289332,11.1.2.3. Sinüs teoremiyle ilgili problemler çözer.,b),1
-gerçek hayat(I) problem yer ver,1,0.9010753,11.1.2.3. Sinüs teoremiyle ilgili problemler çözer.,c),1
-y = sinx ve y = cosx fonksiyon dış fonksiyon grafik çizim sadece bilgi ve iletişim,2,0.9319392,11.1.2.4. Trigonometrik fonksiyon grafiklerini çizer.,a),4
-Periyodik fonksiyon tanım ver trigonometrik fonksiyon periyodik ol göster,2,0.58529025,11.1.2.4. Trigonometrik fonksiyon grafiklerini çizer.,b),2
-tür fonksiyon grafik ve katsayı grafik Üzer etki,2,0.91738886,11.1.2.4. Trigonometrik fonksiyon grafiklerini çizer.,c),3
-sekant ve kosekant fonksiyon grafik yer ver,2,0.75874996,11.1.2.4. Trigonometrik fonksiyon grafiklerini çizer.,d),2
-bir doğru parça orta nokta koordinat buldur,2,0.94235754,11.2.1.2. Bir doğru parçasını belli bir oranda (içten veya dıştan) bölen noktanın koordinatlarını hesaplar.,a),0
-bir üçgen ağırlık merkez koordinat buldur,1,0.6266306,11.2.1.2. Bir doğru parçasını belli bir oranda (içten veya dıştan) bölen noktanın koordinatlarını hesaplar.,b),0
-bir doğru eğim açı ve eğim tanımla,1,0.9212438,11.2.1.3. Analitik düzlemde doğruları inceleyerek işlemler yapar.,a),0
-Analitik düzlem bir doğru denklem oluştur,0,0.9137667,11.2.1.3. Analitik düzlemde doğruları inceleyerek işlemler yapar.,b),0
-Eksen paralel ve orij geç doğru denklem bulun ve bulun denklem grafik,0,0.80475914,11.2.1.3. Analitik düzlemde doğruları inceleyerek işlemler yapar.,c),1
- ve iletişim teknoloji yararlan,0,0.8893914,11.2.1.3. Analitik düzlemde doğruları inceleyerek işlemler yapar.,d),1
-Grafik x ve y eksen kes nokta fonksiyon pozitif negatif art ve azal ol aralık,2,0.91651446,11.3.1.1. Fonksiyonun grafik ve tablo temsilini kullanarak problem çözer.,a),1
-anlam grafik,2,0.758756,11.3.1.1. Fonksiyonun grafik ve tablo temsilini kullanarak problem çözer.,a),1
-Cebirsel ifade grafik veya tablo ile ver bir fonksiyon belli bir aralık ortalama değişim hız,2,0.95590234,11.3.1.1. Fonksiyonun grafik ve tablo temsilini kullanarak problem çözer.,b),3
-Fonksiyon grafik bilgi ve iletişim teknoloji yardım çiz ve yorumla,2,0.9424402,11.3.1.1. Fonksiyonun grafik ve tablo temsilini kullanarak problem çözer.,c),3
-Fonksiyon grafiğ tepe nokta eksen kes nokta ve simetri eksen buldur,0,0.953512,11.3.2.1. İkinci dereceden bir değişkenli fonksiyonun grafiğini çizerek yorumlar.,a),0
-Fonksiyon grafiğ tepe nokta ile fonksiyon en küçük ya da en büyük değer ilişkilendir,0,0.94765365,11.3.2.1. İkinci dereceden bir değişkenli fonksiyonun grafiğini çizerek yorumlar.,b),2
-Fonksiyon katsayı değişim,2,0.85286444,11.3.2.1. İkinci dereceden bir değişkenli fonksiyonun grafiğini çizerek yorumlar.,c),0
-bir doğru ile bir parabol birbiri göre durum incele,0,0.92892253,11.3.2.1. İkinci dereceden bir değişkenli fonksiyonun grafiğini çizerek yorumlar.,d),0
-tek ve çift fonksiyon grafik simetri özellik Üzer dur,2,0.9167815,"11.3.3.1. Bir fonksiyonun grafiğinden, dönüşümler yardımı ile yeni fonksiyon grafikleri çizer.",a),2
-dönüşüm,1,0.37043518,"11.3.3.1. Bir fonksiyonun grafiğinden, dönüşümler yardımı ile yeni fonksiyon grafikleri çizer.",b),0
-ax + b veya,1,0.37043518,11.4.2.1. İkinci dereceden bir bilinmeyenli eşitsizliklerin çözüm kümesini bulur.,a),0
-bilgi ve iletişim teknoloji yararlan çiz grafik yardım çözüm yorumlat,2,0.5296394,11.4.2.1. İkinci dereceden bir bilinmeyenli eşitsizliklerin çözüm kümesini bulur.,b),4
-bir çember kiriş orta dik çember merkez geç ve bir kiriş orta nokta çember,0,0.9583328,11.5.1.2. Çemberde kirişin özelliklerini göstererek işlemler yapar.,a),0
-bir çember kiriş uzunluk ile merkez ol uzaklık ara ilişki Üzer dur,1,0.9455458,11.5.1.2. Çemberde kirişin özelliklerini göstererek işlemler yapar.,b),1
- çevrel çember çizdir,0,0.8892241,"11.5.2.1. Bir çemberde merkez, çevre, iç, dış ve teğet-kiriş açıların özelliklerini kullanarak işlemler yapar.",a),0
-Sinüs teorem çevrel çember yarıçap ile ilişki Üzer dur,0,0.93749774,"11.5.2.1. Bir çemberde merkez, çevre, iç, dış ve teğet-kiriş açıların özelliklerini kullanarak işlemler yapar.",b),1
-Pergel cetvel veya bilgi ve iletişim teknoloji yararlan,2,0.6885799,"11.5.2.1. Bir çemberde merkez, çevre, iç, dış ve teğet-kiriş açıların özelliklerini kullanarak işlemler yapar.",c),2
- dış bir nokta çiz teğet parça uzunluk eşit ol göster,2,0.9420713,11.5.3.1. Çemberde teğetin özelliklerini göstererek işlemler yapar.,a),0
- iç teğet ve dış teğet çember çiz,2,0.62262374,11.5.3.1. Çemberde teğetin özelliklerini göstererek işlemler yapar.,b),0
-iki çember ortak teğet gir,2,0.6209002,11.5.3.1. Çemberde teğetin özelliklerini göstererek işlemler yapar.,c),0
-Daire çevre ve alan ile ilgili uygulama yap,1,0.93622416,11.5.4.1. Dairenin çevre ve alan bağıntılarını oluşturur.,a),1
- dilim alan ve yay uzunluk bağıntı buldur uygulama yap,2,0.9416322,11.5.4.1. Dairenin çevre ve alan bağıntılarını oluşturur.,b),1
-Archimedes in çalış yer ver,2,0.7597881,11.5.4.1. Dairenin çevre ve alan bağıntılarını oluşturur.,c),0
-gerçek hayat(I) problem yer ver,1,0.9010753,"11.6.1.1. Küre, dik dairesel silindir ve dik dairesel koninin alan ve hacim bağıntılarını oluşturarak",a),1
- ve iletişim teknoloji yararlan,0,0.88938063,"11.6.1.1. Küre, dik dairesel silindir ve dik dairesel koninin alan ve hacim bağıntılarını oluşturarak",b),1
-olasılık konu tarihsel gelişim sürec bahsed,2,0.9428234,11.7.1.1. Koşullu olasılığı açıklayarak problemler çözer.,a),1
-gerçek hayat(I) problem yer ver,1,0.9010753,11.7.1.1. Koşullu olasılığı açıklayarak problemler çözer.,b),1
-ağaç şema yararlan,0,0.748418,11.7.1.3. Bileşik olayı açıklayarak gerçekleşme olasılığını hesaplar.,a),0
-en fazla üç aşama olay seçim yap,2,0.89462703,11.7.1.3. Bileşik olayı açıklayarak gerçekleşme olasılığını hesaplar.,b),0
-ve veya bağlaç ile oluş olay olasılık hesaplat,2,0.7888456,11.7.1.3. Bileşik olayı açıklayarak gerçekleşme olasılığını hesaplar.,c),1
-Üstel fonksiyon neden ihtiyaç duyul vurgulan,2,0.75970113,12.1.1.1. Üstel fonksiyonu açıklar.,a),2
-Üs ifade ve bu yap işlem özellik hatırlat,2,0.9169791,12.1.1.1. Üstel fonksiyonu açıklar.,b),1
-Üstel fonksiyon bir bir ve ört ol grafik yardım göster,2,0.91743004,12.1.1.1. Üstel fonksiyonu açıklar.,c),2
-= ax fonksiyon grafiğ değişim incele için bilgi ve iletişim,0,0.5479172,12.1.1.1. Üstel fonksiyonu açıklar.,x),2
-\1 ol üzere logarit fonksiyon grafik üstel fonksiyon grafik yarar,2,0.91712105,12.1.2.1. Logaritma fonksiyonu ile üstel fonksiyonu ilişkilendirerek problemler çözer.,a),4
-𝑦𝑦 = 𝑎𝑎,1,0.37043518,12.1.2.1. Logaritma fonksiyonu ile üstel fonksiyonu ilişkilendirerek problemler çözer.,b),0
-Gelenbevi İsmail efendi ve John Napier in çalış yer ver,2,0.7597881,12.1.2.1. Logaritma fonksiyonu ile üstel fonksiyonu ilişkilendirerek problemler çözer.,c),0
-gerçek hayat(I) durum nüfus artış bakteri popülasyon radyoaktif madde bozunum yarı,1,0.71110374,12.1.3.2. Üstel ve logaritmik fonksiyonları gerçek hayat durumlarını modellemede kullanır.,a),0
-gibi örnek,1,0.7729353,12.1.3.2. Üstel ve logaritmik fonksiyonları gerçek hayat durumlarını modellemede kullanır.,l),0
-israf ve tasarruf kavram Hak farkındalık oluş örnek yer ver,2,0.9154333,12.1.3.2. Üstel ve logaritmik fonksiyonları gerçek hayat durumlarını modellemede kullanır.,b),0
- ve iletişim teknoloji yararlan,0,0.8893908,12.1.3.2. Üstel ve logaritmik fonksiyonları gerçek hayat durumlarını modellemede kullanır.,c),1
-ilk n terim toplam bulun,0,0.8896557,12.2.1.3. Aritmetik ve geometrik dizilerin özelliklerini kullanarak işlemler yapar.,a),0
-toplam sembol tanıt ancak özellik ver,0,0.9280934,12.2.1.3. Aritmetik ve geometrik dizilerin özelliklerini kullanarak işlemler yapar.,b),0
-ol üzere,0,0.74494255,12.3.2.1. Trigonometrik denklemlerin çözüm kümelerini bulur.,a),0
-gerçek hayat(I) problem yer ver,1,0.9010753,12.3.2.1. Trigonometrik denklemlerin çözüm kümelerini bulur.,b),1
-el  nin çalış yer ver,2,0.7597881,12.3.2.1. Trigonometrik denklemlerin çözüm kümelerini bulur.,c),0
-Ötele simetri ve dön kavram hatırlat,0,0.9093545,"12.4.1.1. Analitik düzlemde koordinatları verilen bir noktanın öteleme, dönme ve simetri dönüşümleri",a),0
-Nokta nokta eksen y = x doğrus bir doğru göre simetri ve doğru nokta göre,0,0.958618,"12.4.1.1. Analitik düzlemde koordinatları verilen bir noktanın öteleme, dönme ve simetri dönüşümleri",b),0
- ve iletişim teknoloji yardım ötele simetri ve dön el al,0,0.5850225,"12.4.1.1. Analitik düzlemde koordinatları verilen bir noktanın öteleme, dönme ve simetri dönüşümleri",c),1
- çalış yer ver,2,0.7597881,12.4.1.2. Temel dönüşümler ve bileşkeleriyle ilgili problem çözer.,a),0
-Doğa ve mimari eser örnek yap,1,0.7729468,12.4.1.2. Temel dönüşümler ve bileşkeleriyle ilgili problem çözer.,b),0
-limit kavram bir bağımsız değişken ver bir sayı yaklaş hareket tablo ve grafik,1,0.94546604,"12.5.1.1. Bir fonksiyonun bir noktadaki limiti, soldan limit ve sağdan limit kavramlarını açıklar.",a),2
- ve iletişim teknoloji yararlan,0,0.8893778,"12.5.1.1. Bir fonksiyonun bir noktadaki limiti, soldan limit ve sağdan limit kavramlarını açıklar.",b),1
-Cauchy nin çalış yer ver,2,0.7597882,"12.5.1.1. Bir fonksiyonun bir noktadaki limiti, soldan limit ve sağdan limit kavramlarını açıklar.",c),0
-Polinom köklü üstel logaritmik ve trigonometrik fonksiyon içer limit uygulama yap ancak,2,0.41269967,12.5.1.2. Limit ile ilgili özellikleri belirterek uygulamalar yapar.,a),2
-sadece pay ve payda çarpan ayrıl belirsiz kaldır limit örnek yer ver,1,0.9359081,12.5.1.2. Limit ile ilgili özellikleri belirterek uygulamalar yapar.,b),0
-Fonksiyon grafik Üzer sürekli ve sürek ol nokta buldur,2,0.93186206,12.5.1.3. Bir fonksiyonun bir noktadaki sürekliliğini açıklar.,a),1
- tarihsel gelişim ve Salih Zeki nin bu alan katkı bahsed,2,0.93156165,12.5.1.3. Bir fonksiyonun bir noktadaki sürekliliğini açıklar.,b),0
-bilgi ve iletişim teknoloji yardım sürekli uygulama yaptır,2,0.95000476,12.5.1.3. Bir fonksiyonun bir noktadaki sürekliliğini açıklar.,c),3
-An değişim oran fizik ve geometri model yararlan açıkla,0,0.9398024,12.5.2.1. Türev kavramını açıklayarak işlemler yapar.,a),1
-Ver bir fonksiyon bir nokta türev değer ile o nokta teğeti eğim ara ilişki,1,0.9458602,12.5.2.1. Türev kavramını açıklayarak işlemler yapar.,b),2
-bir fonksiyon bir nokta ki sol türev ve sağ türev ile türev ara ilişki açıkla,1,0.9459634,12.5.2.1. Türev kavramını açıklayarak işlemler yapar.,c),2
-= c,1,0.37043518,12.5.2.1. Türev kavramını açıklayarak işlemler yapar.,x),0
-türev kural yer ver,1,0.86206734,12.5.2.1. Türev kavramını açıklayarak işlemler yapar.,l),1
-rolle nin çalış yer ver,2,0.7597881,12.5.2.1. Türev kavramını açıklayarak işlemler yapar.,d),0
-bir fonksiyon bir nokta türev ol için gerek ve yet şart incele,1,0.93577415,12.5.2.2. Bir fonksiyonun bir noktada ve bir aralıkta türevlenebilirliğini değerlendirir.,a),1
-Fonksiyon türev ol nokta grafik ara ilişki kur,1,0.9209479,12.5.2.2. Bir fonksiyonun bir noktada ve bir aralıkta türevlenebilirliğini değerlendirir.,b),2
- ve iletişim teknoloji yararlan,0,0.8893899,12.5.3.3. Türevi yardımıyla bir fonksiyonun grafiğini çizer.,b),1
-Belir integral al kural n 1 ol üzere,0,0.8885228,12.6.1.1. Bir fonksiyonun belirsiz integralini açıklayarak integral alma kurallarını oluşturur.,a),1
-bir fonksiyon bir sabit çarpım iki fonksiyon toplam ve fark integral al kural,0,0.93932927,12.6.1.1. Bir fonksiyonun belirsiz integralini açıklayarak integral alma kurallarını oluşturur.,b),3
-gerçek hayat(I) karşılaş ve değer alan formül  alan uygun toplam,1,0.9583881,12.6.2.1. Bir fonksiyonun grafiği ile x ekseni arasında kalan sınırlı bölgenin alanını Riemann toplamı,a),0
-Polinom fonksiyon sınırlandır,0,0.8467167,12.6.2.1. Bir fonksiyonun grafiği ile x ekseni arasında kalan sınırlı bölgenin alanını Riemann toplamı,b),1
- ve iletişim teknoloji yararlan,0,0.8893821,12.6.2.1. Bir fonksiyonun grafiği ile x ekseni arasında kalan sınırlı bölgenin alanını Riemann toplamı,c),1
-iki fonksiyon grafik ara kal sınır li bölge alan hesapla,1,0.9210457,12.6.2.4. Belirli integral ile alan hesabı yapar.,a),2
-gerçek hayat(I) problem yer ver,1,0.90107536,12.6.2.4. Belirli integral ile alan hesabı yapar.,b),1
- ve iletişim teknoloji yararlan,0,0.88939023,12.6.2.4. Belirli integral ile alan hesabı yapar.,c),1
-merkez ve,1,0.7738034,12.7.1.1. Merkezi ve yarıçapı verilen çemberin denklemini oluşturur.,a),0
-2,1,0.37043518,12.7.1.1. Merkezi ve yarıçapı verilen çemberin denklemini oluşturur.,b),0
- ve iletişim teknoloji yararlan,0,0.88937753,12.7.1.1. Merkezi ve yarıçapı verilen çemberin denklemini oluşturur.,c),1
-doğru ile çember var kesişim nokta bulun,0,0.9288425,12.7.1.2. Denklemleri verilen doğru ile çemberin birbirine göre durumlarını belirleyerek işlemler yapar.,a),0
- ve iletişim teknoloji yararlan,0,0.88938564,12.7.1.2. Denklemleri verilen doğru ile çemberin birbirine göre durumlarını belirleyerek işlemler yapar.,b),1
- yaklaşık maliyet analiz yaptır,2,0.759417,11.3.2.2. Seyahatlerde mümkün olan alternatifleri karşılaştırır.,a),1
-Gid yer ilişkin bir zaman çizelge yaptır,2,0.7594287,11.3.2.2. Seyahatlerde mümkün olan alternatifleri karşılaştırır.,b),0
-Daire çevre ve alan ile ilgili işlem yap,1,0.9363238,11.4.3.1. Dairenin çevre ve alan bağıntılarını oluşturur.,a),1
- dilim alan ve yay uzunluk bağıntı ver,2,0.91528314,11.4.3.1. Dairenin çevre ve alan bağıntılarını oluşturur.,b),0
-Üs ve köklü ifade özellik hatırlat,2,0.91748244,12.1.1.1. Üslü ve köklü ifadeler içeren denklemler çözer.,a),0
-gerçek hayat(I) problem yer ver,1,0.9010753,12.1.1.1. Üslü ve köklü ifadeler içeren denklemler çözer.,b),1
-Yüz hesapla aşağı ver bağlam yararlan,0,0.9125894,"12.1.2.1. Yüzde, oran ve orantı kavramlarıyla ilgili problemler çözer.",a),0
-oran ve orantı kavram içer problem oluşturul aşağı ver bağlam,0,0.81498784,"12.1.2.1. Yüzde, oran ve orantı kavramlarıyla ilgili problemler çözer.",b),1
-Tutum ol Hak farkındalık oluş örnek yer ver,2,0.8923446,"12.1.2.1. Yüzde, oran ve orantı kavramlarıyla ilgili problemler çözer.",c),0
- topla düzenle temsil et ve yorumla aşama yer ver,2,0.9174395,12.2.1.1. Gerçek hayat durumlarıyla ilgili istatistik problemleri çözer.,a),1
-bir veri grub temsil et en uygun grafik çeşit Üzer dur fark grafik çeşit,2,0.96021795,12.2.1.1. Gerçek hayat durumlarıyla ilgili istatistik problemleri çözer.,b),4
-problem seç toplumsal duyarlı geliştir çevre bilinc oku alışkan gibi konu,2,0.4894045,12.2.1.1. Gerçek hayat durumlarıyla ilgili istatistik problemleri çözer.,c),1
-bir nesne belli bir oran büyüt ya da küçült çizim kullan mesafe çevre,2,0.9559311,"12.3.1.1. Çevre, alan ve hacim ölçmeye yönelik problemler çözer.",a),0
-bir nesne belli bir oran büyüt veya küçült çizim ölçek kâğıt Üzer çizdir,2,0.9559557,"12.3.1.1. Çevre, alan ve hacim ölçmeye yönelik problemler çözer.",b),0
- ve iletişim teknoloji yararlan,0,0.88939065,"12.3.1.1. Çevre, alan ve hacim ölçmeye yönelik problemler çözer.",c),1
-gerçek hayat(I) problem yer ver,1,0.9010753,12.4.1.1. Küre ve dik dairesel silindirin alan ve hacim ölçmeye yönelik problemler çözer.,a),1
- ve iletişim teknoloji yararlan,0,0.88938,12.4.1.1. Küre ve dik dairesel silindirin alan ve hacim ölçmeye yönelik problemler çözer.,b),1
+text,dominant_topic,topic_percent,section,item
+Küme ilgi gerçek hayat(I) örnek yer ver,3,0.9070521,9.2.1.1. Kümeler ile ilgili temel kavramları hatırlatılır.,a)
+Koşul önerme karşıt ters karşıt ters ver,0,0.81851923,9.1.1.3. Koşullu önermeyi ve iki yönlü koşullu önermeyi açıklar.,a)
+ol doğru tablo yardım göster,1,0.9050191,9.1.1.3. Koşullu önermeyi ve iki yönlü koşullu önermeyi açıklar.,b)
+ve veya ya da i bağlaç kullan ver en fazla üç öner içer ve en fazla dört bileşen,4,0.9155064,9.1.1.3. Koşullu önermeyi ve iki yönlü koşullu önermeyi açıklar.,c)
+𝑞𝑞 𝑝𝑝,3,0.23986487,9.1.1.4. Her (,)
+ve bazı,3,0.23986487,9.1.1.4. Her (,)
+niceleyici örnek açıkla,3,0.7279398,9.1.1.4. Her (,)
+s(A,3,0.23986487,"9.1.1.5. Tanım, aksiyom, teorem ve ispat kavramlarını açıklar.",{
+Küme ilgi gerçek hayat(I) örnek yer ver,3,0.9070521,9.2.1.1. Kümeler ile ilgili temel kavramlar hatırlatılır.,a)
+küme fark gösterim yer ver,4,0.8678277,9.2.1.1. Kümeler ile ilgili temel kavramlar hatırlatılır.,b)
+Cantor un çalış yer ver,1,0.7222668,9.2.1.1. Kümeler ile ilgili temel kavramlar hatırlatılır.,c)
+alt küme kavram ve özellik el alın,2,0.5296159,9.2.1.2. Alt kümeyi kullanarak işlemler yapar.,a)
+alt küme kavram ilgi gerçek hayat(I) örnek yer ver,3,0.9237704,9.2.1.2. Alt kümeyi kullanarak işlemler yapar.,b)
+kombinasyon gerek problem gir,3,0.88093024,9.2.1.2. Alt kümeyi kullanarak işlemler yapar.,c)
+iki küme eşit kavram alt küme ile ilişkilendir,3,0.92376864,9.2.1.3. İki kümenin eşitliğini kullanarak işlemler yapar.,a)
+Denk küme kavram ver,3,0.8343211,9.2.1.3. İki kümenin eşitliğini kullanarak işlemler yapar.,b)
+küme birleşim kesişim fark ve tümle işlem özellik ver,4,0.9283198,"9.2.2.1. Kümelerde birleşim, kesişim, fark, tümleme işlemleri yardımıyla problemler çözer.",a)
+ayrık küme kavram yer ver,4,0.86779696,"9.2.2.1. Kümelerde birleşim, kesişim, fark, tümleme işlemleri yardımıyla problemler çözer.",b)
+en fazla üç küme birleşim eleman Sayıs ver ilişki Üzer dur,3,0.9439432,"9.2.2.1. Kümelerde birleşim, kesişim, fark, tümleme işlemleri yardımıyla problemler çözer.",c)
+gerçek hayat(I) problem yer ver,3,0.88094187,"9.2.2.1. Kümelerde birleşim, kesişim, fark, tümleme işlemleri yardımıyla problemler çözer.",d)
+sıra li ikili ve sıra ikili eşit örnek açıkla,3,0.8343167,9.2.2.2. İki kümenin kartezyen çarpımıyla ilgili işlemler yapar.,a)
+Kartezyen çarpım eleman Sayıs buldur,1,0.9220781,9.2.2.2. İki kümenin kartezyen çarpımıyla ilgili işlemler yapar.,b)
+sadece son sayı eleman ol küme kartezyen çarpım grafik çizim yap,3,0.55681974,9.2.2.2. İki kümenin kartezyen çarpımıyla ilgili işlemler yapar.,c)
+sayı,2,0.71775806,9.2.2.2. İki kümenin kartezyen çarpımıyla ilgili işlemler yapar.,l)
+doğal sayı tam sayı rasyonel sayı irrasyonel sayı ve gerçek sayı küme sembol tanıt bu,2,0.7442951,9.3.1.1. Sayı kümelerini birbiriyle ilişkilendirir.,a)
+gibi sayı sayı doğru yer belirle,2,0.9034755,9.3.1.1. Sayı kümelerini birbiriyle ilişkilendirir.,b)
+gerçek sayı küme topla ve çarp işlem özellik Üzer dur,3,0.9353868,9.3.1.1. Sayı kümelerini birbiriyle ilişkilendirir.,c)
+gerçek hayat(I) problem yer ver,3,0.8809424,9.3.2.2. Tam sayılarda EBOB ve EKOK ile ilgili uygulamalar yapar.,a)
+elektronik tablo bulun EBOB ve EKOK fonksiyon yararlan,1,0.6719888,9.3.2.2. Tam sayılarda EBOB ve EKOK ile ilgili uygulamalar yapar.,b)
+açık kapalı ve yarı açık aralık kavram ile bu gösterim Üzer dur,4,0.9378416,9.3.3.1. Gerçek sayılar kümesinde aralık kavramını açıklar.,a)
+aralık kartezyen çarpım yer ver,0,0.8695243,9.3.3.1. Gerçek sayılar kümesinde aralık kavramını açıklar.,b)
+bir derece bir bilinmeyen li denklem ve eşitsizlik çözüm hatırlat,0,0.9292551,9.3.3.2. Birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm kümelerini bulur.,a)
+Harezmî nin denklem konu çalış yer ver,1,0.4986738,9.3.3.2. Birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm kümelerini bulur.,b)
+bir gerçek sayı mutlak değer hatırlat mutlak değer özellik ver,4,0.7045144,9.3.3.3. Mutlak değer içeren birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm,)
++,3,0.23986487,9.3.3.3. Mutlak değer içeren birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm,)
+ℝ 𝑛𝑛 ℤ,3,0.23986487,9.3.3.3. Mutlak değer içeren birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm,∈
+ℝ,3,0.23986487,9.3.3.3. Mutlak değer içeren birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm,∈
+𝑎𝑎 |𝐴𝐴| 𝑏𝑏 𝑎𝑎 𝐴𝐴 𝑏𝑏 𝑏𝑏 𝐴𝐴 𝑎𝑎,3,0.23986487,9.3.3.3. Mutlak değer içeren birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm,)
+𝑛𝑛,3,0.23986487,9.3.3.3. Mutlak değer içeren birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm,)
+İki çok mutlak değer içer denklem ve eşitsizlik gir,4,0.9155151,9.3.3.3. Mutlak değer içeren birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm,)
+bir derece iki bilinmeyen li denklem sistem çözüm küme bulun yer koy yok,0,0.805011,9.3.3.4. Birinci dereceden iki bilinmeyenli denklem ve eşitsizlik sistemlerinin çözüm kümelerini bulur.,a)
+bir derece iki bilinmeyen li denklem ve eşitsiz sistem çözüm analitik düzlem göster,0,0.9514559,9.3.3.4. Birinci dereceden iki bilinmeyenli denklem ve eşitsizlik sistemlerinin çözüm kümelerini bulur.,b)
+Üs ifade kavram hatırlat,2,0.8764688,9.3.4.1. Üslü ifadeleri içeren denklemleri çözer.,a)
+bir gerçek sayı tam sayı kuvvet ile ilgi uygulama yap,2,0.69153446,9.3.4.1. Üslü ifadeleri içeren denklemleri çözer.,b)
+Üs ifade özellik Üzer dur,2,0.82783455,9.3.4.1. Üslü ifadeleri içeren denklemleri çözer.,c)
+Kök ifade özellik Üzer dur,2,0.8278218,9.3.4.2. Köklü ifadeleri içeren denklemleri çözer.,a)
+ve,3,0.23986487,9.3.4.2. Köklü ifadeleri içeren denklemleri çözer.,b)
+en çok iki terim köklü ifade eşlenik yer ver,2,0.90358806,9.3.4.2. Köklü ifadeleri içeren denklemleri çözer.,c)
+oran orantı doğru orantı ters orantı kavram ile oran ve orantı ait özellik hatırlat,0,0.95600104,9.3.5.1. Oran ve orantı kavramlarını kullanarak problemler çözer.,a)
+altın oran tanıt gerçek hayat(I) örnek ver ancak hesapla yöntem yer ver,4,0.49065295,9.3.5.1. Oran ve orantı kavramlarını kullanarak problemler çözer.,b)
+gerçek hayat(I) durum temsil et sözel ifade ilişki cebirsel grafiksel ve sayısal temsil,2,0.63902336,9.3.5.2. Denklemler  ve eşitsizlikler ile ilgili problemler çözer.,a)
+fark problem çöz strateji uygula gerek oran orantı kavram kullan,2,0.9539757,9.3.5.2. Denklemler  ve eşitsizlikler ile ilgili problemler çözer.,b)
+rutin ol problem tür de yer ver fark problem çöz strateji uygula,2,0.92078406,9.3.5.2. Denklemler  ve eşitsizlikler ile ilgili problemler çözer.,c)
+kültür ve medeniyeti geometri tarihsel gelişim sürec katkı sağla bilim insan ve bilim,2,0.9209314,9.4.1.1. Üçgende açı özellikleri ile ilgili işlemler yapar.,a)
+Açı çeşit ve paralel iki doğru bir kesen(I) yap açı hatırlat,2,0.5037354,9.4.1.1. Üçgende açı özellikleri ile ilgili işlemler yapar.,b)
+Üçgen sadece iç ve dış açı özellik kullan soru yer ver İkizkenar ve eşkenar üçgen,4,0.9283837,9.4.1.1. Üçgende açı özellikleri ile ilgili işlemler yapar.,c)
+bir üçgen en uzun kenar karşı açı ölçüs en büyük ol ve bu ter de doğru,2,0.9208606,9.4.1.2. Üçgenin kenar uzunlukları ile bu kenarların karşılarındaki açıların ölçülerini ilişkilendirir.,a)
+dinamik matematik yazılım kullanıl oluş üçgen kenar ve açı ara ilişki,2,0.8355286,9.4.1.2. Üçgenin kenar uzunlukları ile bu kenarların karşılarındaki açıların ölçülerini ilişkilendirir.,b)
+iki kenar uzunluk ver bir üçgen üç kenar uzunluk hangi aralık değer al,0,0.7808506,9.4.1.3. Uzunlukları verilen üç doğru parçasının hangi durumlarda üçgen oluşturduğunu değerlendirir.,a)
+dinamik matematik yazılım yararlan hangi durum üçgen oluş test et,2,0.95399743,9.4.1.3. Uzunlukları verilen üç doğru parçasının hangi durumlarda üçgen oluşturduğunu değerlendirir.,b)
+iki üçgen eş hatırlat,4,0.81635815,9.4.2.1. İki üçgenin eş olması için gerekli olan asgari koşulları değerlendirir.,a)
+kenar açı kenar K. A. K. açı kenar Açı A. K. A. kenar kenar kenar K. K. K. eşlik kural ölçüm,2,0.95402807,9.4.2.1. İki üçgenin eş olması için gerekli olan asgari koşulları değerlendirir.,b)
+eş üçgen karşılık li yardımcı eleman da eş ol göster,3,0.9237571,9.4.2.1. İki üçgenin eş olması için gerekli olan asgari koşulları değerlendirir.,c)
+kenar açı kenar K. A. K. kenar kenar kenar K. K. K. ve açı açı A. A. benzer kural ölçüm,2,0.9418611,9.4.2.2. İki üçgenin benzer olması için gerekli olan asgari koşulları değerlendirir.,a)
+eşlik ile benzer ara ilişki incele,4,0.8678777,9.4.2.2. İki üçgenin benzer olması için gerekli olan asgari koşulları değerlendirir.,b)
+benze üçgen karşılık yardımcı eleman da aynı benzer oran sahip ol göster,2,0.613139,9.4.2.2. İki üçgenin benzer olması için gerekli olan asgari koşulları değerlendirir.,c)
+Açıortay Üzer alın bir nokta açı kol indir dik uzunluk eşit ol,0,0.7381925,9.4.3.1. Üçgenin iç ve dış açıortaylarının özelliklerini elde eder.,a)
+iç ve dış açıortay uzunluk formül hesaplat,0,0.89820355,9.4.3.1. Üçgenin iç ve dış açıortaylarının özelliklerini elde eder.,b)
+Açıortay özellik gösterim pergel cetvel yararlan,3,0.750274,9.4.3.1. Üçgenin iç ve dış açıortaylarının özelliklerini elde eder.,c)
+Kenarortay kesiş nokta ile bu nokta kenarortay Üzer ayır parça ara ilişki,0,0.9514192,9.4.3.2. Üçgenin kenarortaylarının özelliklerini elde eder.,a)
+Kenarortay kesiş nokta üçgen ağırlık merkez ol ve üçgen ağırlık merkez ilgi,0,0.57552016,9.4.3.2. Üçgenin kenarortaylarının özelliklerini elde eder.,b)
+dik üçgen hipotenüs ait kenarortay uzunluk hipotenüs uzunluk yarı ol göster,0,0.72518045,9.4.3.2. Üçgenin kenarortaylarının özelliklerini elde eder.,c)
+Pergel cetvel kullan veya bilgi ve iletişim teknoloji yardım üçgen Üzer değişik,3,0.51189923,9.4.3.2. Üçgenin kenarortaylarının özelliklerini elde eder.,d)
+bir doğru parça orta dik Üzer alın her nokta doğru parça uç nokta eşit,1,0.9590022,9.4.3.3. Üçgenin kenar orta dikmelerinin bir noktada kesiştiğini gösterir.,a)
+Pergel cetvel veya bilgi ve iletişim teknoloji yararlan,1,0.6268638,9.4.3.3. Üçgenin kenar orta dikmelerinin bir noktada kesiştiğini gösterir.,b)
+Pergel cetvel kullan veya bilgi ve iletişim teknoloji yardım bir üçgen yüksek çiz,3,0.55046827,9.4.3.4. Üçgenin çeşidine göre yüksekliklerinin kesiştiği noktanın konumunu belirler.,a)
+İkizkenar üçgen taban alın bir nokta kenar çiz dik uzunluk toplam ile,0,0.6501601,9.4.3.4. Üçgenin çeşidine göre yüksekliklerinin kesiştiği noktanın konumunu belirler.,b)
+eşkenar üçgen içeri alın bir nokta kenar indir dik uzunluk toplam ile,0,0.9514497,9.4.3.4. Üçgenin çeşidine göre yüksekliklerinin kesiştiği noktanın konumunu belirler.,c)
+teorem el edilir model çeşitli yer ver,2,0.8281289,9.4.4.1. Dik üçgende Pisagor teoremini elde ederek problemler çözer.,a)
+gerçek hayat(I) problem yer ver,3,0.8809424,9.4.4.1. Dik üçgende Pisagor teoremini elde ederek problemler çözer.,b)
+Pythagoras ın çalış yer ver,1,0.7222668,9.4.4.1. Dik üçgende Pisagor teoremini elde ederek problemler çözer.,c)
+gerçek hayat(I) problem yer ver,3,0.8809424,9.4.4.2. Öklid teoremini elde ederek problemler çözer.,a)
+Euclid in çalış yer ver,1,0.7222668,9.4.4.2. Öklid teoremini elde ederek problemler çözer.,b)
+bir açı sinüs kosinüs tanjant ve kotanjant değer dik üçgen Üzer tanımla,4,0.92836416,9.4.4.3. Dik üçgende dar açıların trigonometrik oranlarını hesaplar.,a)
+dik üçgen 30 45 ve 60 nin trigonometrik değer özel üçgen yardım hesapla,4,0.7862611,9.4.4.3. Dik üçgende dar açıların trigonometrik oranlarını hesaplar.,b)
+gerçek hayat(I) problem yer ver,3,0.88094205,9.4.4.3. Dik üçgende dar açıların trigonometrik oranlarını hesaplar.,c)
+sadece 0 ve 180 ara açı trigonometrik oran birim çember yardım hesaplat,0,0.93853307,9.4.4.4. Birim çemberi tanımlar ve trigonometrik oranları birim çemberin üzerindeki noktanın,)
+Ebu l Vefa ve Gıyaseddin Cemşid in trigonometrik oran ilgili çalış bahsed,2,0.5355902,9.4.4.4. Birim çemberi tanımlar ve trigonometrik oranları birim çemberin üzerindeki noktanın,)
+ABC,3,0.23986487,9.4.4.4. Birim çemberi tanımlar ve trigonometrik oranları birim çemberin üzerindeki noktanın,(
+Üçgenin alan bir kenar ile bu kenar ait yüksek kullan hesaplat,0,0.9385788,9.4.5.1. Üçgenin alanı ile ilgili problemler çözer.,a)
+iki kenar uzunluk ve bu kenar ara açı ölçü ver üçgen alan hesap,0,0.9292414,9.4.5.1. Üçgenin alanı ile ilgili problemler çözer.,b)
+aynı yüksek sahip üçgen alan taban aynı taban sahip üçgen alan,4,0.9378687,9.4.5.1. Üçgenin alanı ile ilgili problemler çözer.,c)
+bilgi ve iletişim teknoloji yardım alan taban ve yükseklik değiş bir üçgen alan,1,0.4917519,9.4.5.1. Üçgenin alanı ile ilgili problemler çözer.,d)
+veri kavram kesik ve sürekli veri çeşit ver,2,0.9209132,9.5.1.1. Verileri merkezî eğilim ve yayılım ölçülerini hesaplayarak yorumlar.,a)
+Aritmetik ortalama ortanca tepe değer en büyük değer en küçük değer ve açık kavram ver,4,0.9593693,9.5.1.1. Verileri merkezî eğilim ve yayılım ölçülerini hesaplayarak yorumlar.,b)
+alt çeyrek üst çeyrek ve çeyrek açık yer ver,4,0.6985285,9.5.1.1. Verileri merkezî eğilim ve yayılım ölçülerini hesaplayarak yorumlar.,c)
+gerçek hayat(I) durum aritmetik ortalama ortanca tepe değer kavram birlikte yorumla,4,0.7626122,9.5.1.1. Verileri merkezî eğilim ve yayılım ölçülerini hesaplayarak yorumlar.,d)
+Histogram oluşturul veri grup açık seç grup sayıs bölün ve aşağı eşitsiz,2,0.95402366,9.5.2.1. Bir veri grubuna ilişkin histogram oluşturur.,a)
+Veri grup histogram çiz,2,0.8764925,9.5.2.1. Bir veri grubuna ilişkin histogram oluşturur.,b)
+İki fazla veri grup karşılaştır durum da yer ver,2,0.9035666,9.5.2.2. Gerçek hayat durumunu yansıtan veri gruplarını uygun grafik türleriyle temsil ederek yorumlar.,a)
+Serp ve kutu grafik yer ver,1,0.72213316,9.5.2.2. Gerçek hayat durumunu yansıtan veri gruplarını uygun grafik türleriyle temsil ederek yorumlar.,b)
+Grafik tür bilgi ve iletişim teknoloji kullanıl çiz,1,0.92217237,9.5.2.2. Gerçek hayat durumunu yansıtan veri gruplarını uygun grafik türleriyle temsil ederek yorumlar.,c)
+𝐶𝐶(𝑛𝑛 𝑟𝑟,0,0.7021219,10.1.1.1. Olayların gerçekleşme sayısını toplama ve çarpma yöntemlerini kullanarak hesaplar.,)
+say konu tarihsel gelişim sürec söz et ve bu süreç rol al Sâbit İBN Kurrâ nın,2,0.8764915,10.1.1.1. Olayların gerçekleşme sayısını toplama ve çarpma yöntemlerini kullanarak hesaplar.,)
+Faktöriyel kavram ver say temel ilke ile ilişkilendir,2,0.8764194,10.1.1.1. Olayların gerçekleşme sayısını toplama ve çarpma yöntemlerini kullanarak hesaplar.,)
+en az iki tane özdeş ol nesne tüm fark diziliş Sayıs örnek problem bağlam el,2,0.9328943,10.1.1.3.  Sınırlı  sayıda  tekrarlayan  nesnelerin  dizilişlerini  (permütasyonlarını)  açıklayarak  problemler,a)
+gerçek hayat(I) problem yer ver,3,0.8809424,10.1.1.3.  Sınırlı  sayıda  tekrarlayan  nesnelerin  dizilişlerini  (permütasyonlarını)  açıklayarak  problemler,b)
+Kombinasyon kavram alt küme Sayıs ile ilişkilendir,3,0.92376345,10.1.1.4. n elemanlı bir kümenin r tane elemanının kaç farklı şekilde seçilebileceğini hesaplar.,)
+Kombinasyon kavram aşağı temel özellik incele,2,0.92084223,10.1.1.4. n elemanlı bir kümenin r tane elemanının kaç farklı şekilde seçilebileceğini hesaplar.,)
+= 𝐶𝐶(𝑛𝑛 𝑛𝑛 𝑟𝑟,0,0.7021219,10.1.1.4. n elemanlı bir kümenin r tane elemanının kaç farklı şekilde seçilebileceğini hesaplar.,)
++ 𝐶𝐶(𝑛𝑛 1 + + 𝐶𝐶(𝑛𝑛 𝑛𝑛 = 2,0,0.81861156,10.1.1.5. Pascal üçgenini açıklar.,0)
+Binom açılım Pascal üçgen ile ilişkilendir,2,0.9035548,10.1.1.6. Binom açılımını yapar.,a)
+sadece iki terim ifade açılım el alın,2,0.920895,10.1.1.6. Binom açılımını yapar.,b)
+Binom formül ile ilgi örnek yap ancak,2,0.8764553,10.1.1.6. Binom açılımını yapar.,c)
+Örnek uzay deney çık kavram eş olası durum yol çıkıl eş olası ol durum için,2,0.9209312,"10.1.2.1. Örnek uzay, deney, çıktı, bir olayın tümleyeni, kesin olay, imkânsız olay, ayrık olay ve ayrık",a)
+Ayrık olay ve ayrık ol olay Üzer dur,4,0.91548944,"10.1.2.1. Örnek uzay, deney, çıktı, bir olayın tümleyeni, kesin olay, imkânsız olay, ayrık olay ve ayrık",b)
+el Kindî ve Laplace çalış yer ver,1,0.72226685,"10.1.2.1. Örnek uzay, deney, çıktı, bir olayın tümleyeni, kesin olay, imkânsız olay, ayrık olay ve ayrık",c)
+eş olası ol ve ol olay olasılık hesapla,4,0.6597131,10.1.2.2. Olasılık kavramı ile ilgili uygulamalar yapar.,a)
+Tümle ayrık olay ve ayrık ol olay ile ilgi olasılık hesapla,4,0.94511896,10.1.2.2. Olasılık kavramı ile ilgili uygulamalar yapar.,b)
+gerçek hayat(I) problem yer ver,3,0.8809424,10.1.2.2. Olasılık kavramı ile ilgili uygulamalar yapar.,c)
+doğru test,1,0.8308539,10.1.2.2. Olasılık kavramı ile ilgili uygulamalar yapar.,y)
+fonksiyon kavram açıkla,3,0.88088214,10.2.1.1. Fonksiyonlarla ilgili problemler çözer.,a)
+sadece gerçek sayı Üzer tanımla fonksiyon el al,3,0.935372,10.2.1.1. Fonksiyonlarla ilgili problemler çözer.,b)
+İç fonksiyon ört fonksiyon bir bir fonksiyon eşit fonksiyon birim özdeş fonksiyon sabit,3,0.95566225,10.2.1.1. Fonksiyonlarla ilgili problemler çözer.,c)
+f ve g fonksiyon kullanıl,1,0.83075464,10.2.1.1. Fonksiyonlarla ilgili problemler çözer.,d)
+gerçek hayat(I) problem ve tablo grafik kullanım yer ver,3,0.9237274,10.2.1.1. Fonksiyonlarla ilgili problemler çözer.,e)
+f(x = ax + b şekil fonksiyon grafik ile ilgi uygulama yap,1,0.9220495,10.2.1.2. Fonksiyonların grafiklerini çizer.,a)
+Parça tanım şekil ver fonksiyon grafik çiz,1,0.92212474,10.2.1.2. Fonksiyonların grafiklerini çizer.,b)
+f(x = ax + b tip fonksiyon grafik bilgi ve iletişim teknoloji yardım çiz a ve b,1,0.9340277,10.2.1.2. Fonksiyonların grafiklerini çizer.,c)
+Grafik ver fonksiyon tanım ve görüntü küme göster,3,0.9237435,10.2.1.3. Fonksiyonların grafiklerini yorumlar.,a)
+bir fonksiyon grafiğ fonksiyon x eksen Üzer tanım ol her bir nokta y eksen,3,0.9504954,10.2.1.3. Fonksiyonların grafiklerini yorumlar.,b)
+işaret et,0,0.7021178,10.2.1.3. Fonksiyonların grafiklerini yorumlar.,i)
+bir f fonksiyon grafiğ y = f(x denklem grafik ol ve grafik var x eksen kes,1,0.48826003,10.2.1.3. Fonksiyonların grafiklerini yorumlar.,c)
+= 0 denklem gerçek sayı çözüm küme ol vurgula,3,0.5976002,10.2.1.3. Fonksiyonların grafiklerini yorumlar.,x)
+bir fonksiyon bir bir ve örten grafik Üzer yatay doğru test incele ve cebirsel ol,1,0.9427335,10.2.2.1. Bire bir ve örten fonksiyonlar ile ilgili uygulamalar yapar.,a)
+bilgi ve iletişim teknoloji yardım bir fonksiyon bir bir ve ört ol ol belirle,1,0.9339059,10.2.2.1. Bire bir ve örten fonksiyonlar ile ilgili uygulamalar yapar.,b)
+Bileşke işlem fonksiyon cebirsel ve grafik gösterim ile ilişkilendir el alın,3,0.61068344,10.2.2.2. Fonksiyonlarda bileşke işlemiyle ilgili işlemler yapar.,a)
+Fonksiyon bileşke işlem birleş özellik ol belirt değiş özellik ol,3,0.9237691,10.2.2.2. Fonksiyonlarda bileşke işlemiyle ilgili işlemler yapar.,b)
+Parça tanım fonksiyon bileşke gir,3,0.5639802,10.2.2.2. Fonksiyonlarda bileşke işlemiyle ilgili işlemler yapar.,c)
+bir fonksiyon ters de fonksiyon ol için gerek şart belirt,3,0.93537974,10.2.2.3. Verilen bir fonksiyonun tersini bulur.,a)
+sadece bir bir ve ört doğrusal fonksiyon ters grafik çiz fonksiyon grafik ile ter,1,0.9339919,10.2.2.3. Verilen bir fonksiyonun tersini bulur.,b)
+Parça tanım fonksiyon ters ver,1,0.9050153,10.2.2.3. Verilen bir fonksiyonun tersini bulur.,c)
+Polinom derece katsayı ve sabit terim belirt,1,0.59503704,10.3.1.1. Bir değişkenli polinom kavramını açıklar.,a)
+Sabit polinom sıfır polinom ve iki polinom eşitlik örnek açıkla,2,0.93294895,10.3.1.1. Bir değişkenli polinom kavramını açıklar.,b)
+bir P(x polinom x a ile bölüm kal P(a dır,2,0.7178594,"10.3.1.2. Polinomlarla toplama, çıkarma, çarpma ve bölme işlemlerini yapar.",)
+Polinom sıfır kavram böl işlem ilişkilendir,2,0.92090106,"10.3.1.2. Polinomlarla toplama, çıkarma, çarpma ve bölme işlemlerini yapar.",)
+= 0 𝐴𝐴 𝑎𝑎 𝑃𝑃(𝐴𝐴,3,0.23986487,"10.3.1.2. Polinomlarla toplama, çıkarma, çarpma ve bölme işlemlerini yapar.",)
+ortak çarpan parantez al ve değişken değiştir yöntem kullan çarpan ayır,4,0.9378746,10.3.2.1. Bir polinomu çarpanlarına ayırır.,a)
+tam kare iki kare fark iki terim toplam ve fark küp iki terim küp toplam ve fark,2,0.9540256,10.3.2.1. Bir polinomu çarpanlarına ayırır.,b)
+biçiim ifade çarpan ayrıl,2,0.903592,10.3.2.1. Bir polinomu çarpanlarına ayırır.,c)
+Rasyonel ifade kavram tanıt,2,0.90358084,10.3.2.2. Rasyonel ifadelerin sadeleştirilmesi ile ilgili işlemler yapar.,a)
+Çarpan polinom ol ifade çarpan ayır uygulama yer ver,2,0.93299204,10.3.2.2. Rasyonel ifadelerin sadeleştirilmesi ile ilgili işlemler yapar.,b)
+ax2 + bx + c biçiim cebirsel ifade tam kare ve iki kare fark ait özdeşlik kullan,2,0.94865084,10.4.1.2. İkinci dereceden bir bilinmeyenli denklemleri çözer.,a)
+Denklem çözüm fark yöntem çarpan ayır tam kare tamamla değişken,4,0.94512945,10.4.1.2. İkinci dereceden bir bilinmeyenli denklemleri çözer.,b)
+yararlan,1,0.72224176,10.4.1.2. İkinci dereceden bir bilinmeyenli denklemleri çözer.,t)
+gerçek hayat(I) problem yer ver,3,0.88094205,10.4.1.2. İkinci dereceden bir bilinmeyenli denklemleri çözer.,c)
+biçiim ifade et açıkla,2,0.8763646,"10.4.1.3. Bir karmaşık sayının a+ib (a,b",)
+ℝ,3,0.23986487,"10.4.1.3. Bir karmaşık sayının a+ib (a,b",∈
+= 1 ol üzere bir karmaşık sayı,2,0.87642014,"10.4.1.3. Bir karmaşık sayının a+ib (a,b",)
+Kök birbiri eşlenik ol belirt,1,0.878347,"10.4.1.3. Bir karmaşık sayının a+ib (a,b",)
+ℝ,3,0.23986487,"10.4.1.3. Bir karmaşık sayının a+ib (a,b",∈
+karmaşık sayı eşlenik dış özellik ve işlem gir,2,0.9035574,"10.4.1.3. Bir karmaşık sayının a+ib (a,b",)
+sadece kök toplam ve çarpım ile denklem katsayı ara ilişki Üzer dur,0,0.9385662,10.4.1.4.  İkinci  dereceden  bir  bilinmeyenli  denklemin  kökleri  ile  katsayıları  arasındaki  ilişkileri,a)
+Kökleri ver iki derece denklem el et ile ilgi uygulama yer ver,2,0.46513027,10.4.1.4.  İkinci  dereceden  bir  bilinmeyenli  denklemin  kökleri  ile  katsayıları  arasındaki  ilişkileri,b)
+İçbükey çokgen gir,0,0.70206976,10.5.1.1. Çokgen kavramını açıklayarak işlemler yapar.,a)
+Düzgün çokgen hatırlat iç ve dış açı ölçü bulun,0,0.8982056,10.5.1.1. Çokgen kavramını açıklayarak işlemler yapar.,b)
+Çokgen köşegen ile ilgi özellik ve al problem yer ver,2,0.90345234,10.5.1.1. Çokgen kavramını açıklayarak işlemler yapar.,c)
+Dışbükey ve içbükey dörtgen kavram açıkla bu sonra dörtgen de dış bükey,3,0.9070466,10.5.2.1. Dörtgenin temel elemanlarını ve özelliklerini açıklayarak problemler çözer.,a)
+dörtgen iç ve dış açı ölçü toplam bulun,0,0.89812344,10.5.2.1. Dörtgenin temel elemanlarını ve özelliklerini açıklayarak problemler çözer.,b)
+dörtgen çevre Üzer dur,3,0.88091207,10.5.2.1. Dörtgenin temel elemanlarını ve özelliklerini açıklayarak problemler çözer.,c)
+Yamuk paralelkenar eşkenar dörtgen dikdörtgen kare ve deltoid ara hiyerarşik ilişki yer,4,0.91548467,"10.5.3.1. Özel dörtgenlerin açı, kenar, köşegen ve alan özelliklerini açıklayarak problemler çözer.",a)
+Hiyerarşik ilişki göre her bir özel dörtgen kendi içeri açı kenar köşegen ve al özellik,4,0.9378304,"10.5.3.1. Özel dörtgenlerin açı, kenar, köşegen ve alan özelliklerini açıklayarak problemler çözer.",b)
+Origami tangram kullan uygulama yap,2,0.8280539,"10.5.3.1. Özel dörtgenlerin açı, kenar, köşegen ve alan özelliklerini açıklayarak problemler çözer.",c)
+Bilgi ve iletişim teknoloji yararlan,1,0.9050994,"10.5.3.1. Özel dörtgenlerin açı, kenar, köşegen ve alan özelliklerini açıklayarak problemler çözer.",d)
+üçgen dörtgen ve altıgen dik prizma piramit ile sınırlandır,3,0.8809077,"10.6.1.1. Dik prizmalar ve dik piramitlerin uzunluk, alan ve hacim bağıntılarını oluşturur.",a)
+gerçek hayat(I) problem yer ver,3,0.880942,"10.6.1.1. Dik prizmalar ve dik piramitlerin uzunluk, alan ve hacim bağıntılarını oluşturur.",b)
+Bilgi ve iletişim teknoloji yararlan,1,0.9050994,"10.6.1.1. Dik prizmalar ve dik piramitlerin uzunluk, alan ve hacim bağıntılarını oluşturur.",c)
+Derece alt birim ol dakika ve saniye bahsed,4,0.8679751,11.1.1.2. Açı ölçü birimlerini açıklayarak birbiri ile ilişkilendirir.,a)
+derece ile radyan ilişkilendir gra gir,0,0.81841904,11.1.1.2. Açı ölçü birimlerini açıklayarak birbiri ile ilişkilendirir.,b)
+açı esas ölçü bulun,0,0.8186123,11.1.1.2. Açı ölçü birimlerini açıklayarak birbiri ile ilişkilendirir.,c)
+Trigonometrik fonksiyon ara temel özdeşlik oluş benze üçgen yardım,2,0.7383254,11.1.2.1. Trigonometrik fonksiyonları birim çember yardımıyla açıklar.,)
+Trigonometrik fonksiyon bölge göre işaret incele,0,0.6701569,11.1.2.1. Trigonometrik fonksiyonları birim çember yardımıyla açıklar.,)
+ol üzere,4,0.69835085,11.1.2.1. Trigonometrik fonksiyonları birim çember yardımıyla açıklar.,)
+𝜃𝜃,3,0.23986487,11.1.2.1. Trigonometrik fonksiyonları birim çember yardımıyla açıklar.,±
+ℤ,3,0.23986487,11.1.2.1. Trigonometrik fonksiyonları birim çember yardımıyla açıklar.,∈
+Kosinüs teorem Pisagor teorem yararlan el et,2,0.90347916,11.1.2.2. Kosinüs teoremiyle ilgili problemler çözer.,a)
+gerçek hayat(I) problem yer ver,3,0.8809424,11.1.2.2. Kosinüs teoremiyle ilgili problemler çözer.,b)
+Sinüs teorem iki kenar uzun ve bu kenar ara açı ölçü ver üçgen alan,0,0.94578,11.1.2.3. Sinüs teoremiyle ilgili problemler çözer.,a)
+Sinüs teorem çevrel çember ilişkilendir,0,0.91649914,11.1.2.3. Sinüs teoremiyle ilgili problemler çözer.,b)
+gerçek hayat(I) problem yer ver,3,0.88094187,11.1.2.3. Sinüs teoremiyle ilgili problemler çözer.,c)
+y = sinx ve y = cosx fonksiyon dış fonksiyon grafik çizim sadece bilgi ve iletişim,1,0.6886639,11.1.2.4. Trigonometrik fonksiyon grafiklerini çizer.,a)
+Periyodik fonksiyon tanım ver trigonometrik fonksiyon periyodik ol göster,3,0.9237409,11.1.2.4. Trigonometrik fonksiyon grafiklerini çizer.,b)
+tür fonksiyon grafik ve katsayı grafik Üzer etki,1,0.92211545,11.1.2.4. Trigonometrik fonksiyon grafiklerini çizer.,c)
+sekant ve kosekant fonksiyon grafik yer ver,1,0.8307192,11.1.2.4. Trigonometrik fonksiyon grafiklerini çizer.,d)
+bir doğru parça orta nokta koordinat buldur,1,0.9340192,11.2.1.2. Bir doğru parçasını belli bir oranda (içten veya dıştan) bölen noktanın koordinatlarını hesaplar.,a)
+bir üçgen ağırlık merkez koordinat buldur,4,0.9154671,11.2.1.2. Bir doğru parçasını belli bir oranda (içten veya dıştan) bölen noktanın koordinatlarını hesaplar.,b)
+bir doğru eğim açı ve eğim tanımla,1,0.9050527,11.2.1.3. Analitik düzlemde doğruları inceleyerek işlemler yapar.,a)
+Analitik düzlem bir doğru denklem oluştur,0,0.8981677,11.2.1.3. Analitik düzlemde doğruları inceleyerek işlemler yapar.,b)
+Eksen paralel ve orij geç doğru denklem bulun ve bulun denklem grafik,0,0.48784155,11.2.1.3. Analitik düzlemde doğruları inceleyerek işlemler yapar.,c)
+Bilgi ve iletişim teknoloji yararlan,1,0.9050994,11.2.1.3. Analitik düzlemde doğruları inceleyerek işlemler yapar.,d)
+Grafik x ve y eksen kes nokta fonksiyon pozitif negatif art ve azal ol aralık,3,0.92374504,11.3.1.1. Fonksiyonun grafik ve tablo temsilini kullanarak problem çözer.,a)
+anlam grafik,1,0.72213227,11.3.1.1. Fonksiyonun grafik ve tablo temsilini kullanarak problem çözer.,a)
+Cebirsel ifade grafik veya tablo ile ver bir fonksiyon belli bir aralık ortalama değişim hız,1,0.453941,11.3.1.1. Fonksiyonun grafik ve tablo temsilini kullanarak problem çözer.,b)
+Fonksiyon grafik bilgi ve iletişim teknoloji yardım çiz ve yorumla,1,0.9427566,11.3.1.1. Fonksiyonun grafik ve tablo temsilini kullanarak problem çözer.,c)
+Fonksiyon grafiğ tepe nokta eksen kes nokta ve simetri eksen buldur,3,0.9556663,11.3.2.1. İkinci dereceden bir değişkenli fonksiyonun grafiğini çizerek yorumlar.,a)
+Fonksiyon grafiğ tepe nokta ile fonksiyon en küçük ya da en büyük değer ilişkilendir,3,0.95567644,11.3.2.1. İkinci dereceden bir değişkenli fonksiyonun grafiğini çizerek yorumlar.,b)
+Fonksiyon katsayı değişim,1,0.87836564,11.3.2.1. İkinci dereceden bir değişkenli fonksiyonun grafiğini çizerek yorumlar.,c)
+bir doğru ile bir parabol birbiri göre durum incele,1,0.9050349,11.3.2.1. İkinci dereceden bir değişkenli fonksiyonun grafiğini çizerek yorumlar.,d)
+tek ve çift fonksiyon grafik simetri özellik Üzer dur,3,0.9069919,"11.3.3.1. Bir fonksiyonun grafiğinden, dönüşümler yardımı ile yeni fonksiyon grafikleri çizer.",)
+dönüşüm,3,0.23986487,"11.3.3.1. Bir fonksiyonun grafiğinden, dönüşümler yardımı ile yeni fonksiyon grafikleri çizer.",)
++ 𝑏𝑏 𝑦𝑦 = 𝑓𝑓(𝐴𝐴 𝑎𝑎 𝑦𝑦 = 𝑘𝑘 𝑓𝑓(𝐴𝐴 𝑦𝑦 = 𝑓𝑓(𝑘𝑘𝐴𝐴 𝑦𝑦 = 𝑓𝑓(𝐴𝐴 𝑦𝑦 = 𝑓𝑓 𝐴𝐴,3,0.23986487,"11.3.3.1. Bir fonksiyonun grafiğinden, dönüşümler yardımı ile yeni fonksiyon grafikleri çizer.",)
+ax + b veya,3,0.23986487,11.4.2.1. İkinci dereceden bir bilinmeyenli eşitsizliklerin çözüm kümesini bulur.,a)
+bilgi ve iletişim teknoloji yararlan çiz grafik yardım çözüm yorumlat,1,0.8104151,11.4.2.1. İkinci dereceden bir bilinmeyenli eşitsizliklerin çözüm kümesini bulur.,b)
+bir çember kiriş orta dik çember merkez geç ve bir kiriş orta nokta çember,0,0.9514557,11.5.1.2. Çemberde kirişin özelliklerini göstererek işlemler yapar.,a)
+bir çember kiriş uzunluk ile merkez ol uzaklık ara ilişki Üzer dur,0,0.9292309,11.5.1.2. Çemberde kirişin özelliklerini göstererek işlemler yapar.,b)
+Üçgenin çevrel çember çizdir,0,0.898199,"11.5.2.1. Bir çemberde merkez, çevre, iç, dış ve teğet-kiriş açıların özelliklerini kullanarak işlemler yapar.",a)
+Sinüs teorem çevrel çember yarıçap ile ilişki Üzer dur,0,0.9292286,"11.5.2.1. Bir çemberde merkez, çevre, iç, dış ve teğet-kiriş açıların özelliklerini kullanarak işlemler yapar.",b)
+Pergel cetvel veya bilgi ve iletişim teknoloji yararlan,1,0.62686086,"11.5.2.1. Bir çemberde merkez, çevre, iç, dış ve teğet-kiriş açıların özelliklerini kullanarak işlemler yapar.",c)
+Çemberin dış bir nokta çiz teğet parça uzunluk eşit ol göster,0,0.5743839,11.5.3.1. Çemberde teğetin özelliklerini göstererek işlemler yapar.,a)
+Üçgenin iç teğet ve dış teğet çember çiz,0,0.8982171,11.5.3.1. Çemberde teğetin özelliklerini göstererek işlemler yapar.,b)
+iki çember ortak teğet gir,0,0.8696012,11.5.3.1. Çemberde teğetin özelliklerini göstererek işlemler yapar.,c)
+Daire çevre ve alan ile ilgili uygulama yap,1,0.9221309,11.5.4.1. Dairenin çevre ve alan bağıntılarını oluşturur.,a)
+Daire dilim alan ve yay uzunluk bağıntı buldur uygulama yap,1,0.5623027,11.5.4.1. Dairenin çevre ve alan bağıntılarını oluşturur.,b)
+Archimedes in çalış yer ver,1,0.7222668,11.5.4.1. Dairenin çevre ve alan bağıntılarını oluşturur.,c)
+gerçek hayat(I) problem yer ver,3,0.880942,"11.6.1.1. Küre, dik dairesel silindir ve dik dairesel koninin alan ve hacim bağıntılarını oluşturarak",a)
+Bilgi ve iletişim teknoloji yararlan,1,0.9050994,"11.6.1.1. Küre, dik dairesel silindir ve dik dairesel koninin alan ve hacim bağıntılarını oluşturarak",b)
+olasılık konu tarihsel gelişim sürec bahsed,2,0.920939,11.7.1.1. Koşullu olasılığı açıklayarak problemler çözer.,a)
+gerçek hayat(I) problem yer ver,3,0.8809424,11.7.1.1. Koşullu olasılığı açıklayarak problemler çözer.,b)
+ağaç şema yararlan,1,0.7222451,11.7.1.3. Bileşik olayı açıklayarak gerçekleşme olasılığını hesaplar.,a)
+en fazla üç aşama olay seçim yap,4,0.5679224,11.7.1.3. Bileşik olayı açıklayarak gerçekleşme olasılığını hesaplar.,b)
+ve veya bağlaç ile oluş olay olasılık hesaplat,4,0.915504,11.7.1.3. Bileşik olayı açıklayarak gerçekleşme olasılığını hesaplar.,c)
+Üstel fonksiyon neden ihtiyaç duyul vurgulan,3,0.8343388,12.1.1.1. Üstel fonksiyonu açıklar.,a)
+Üs ifade ve bu yap işlem özellik hatırlat,2,0.87644786,12.1.1.1. Üstel fonksiyonu açıklar.,b)
+Üstel fonksiyon bir bir ve ört ol grafik yardım göster,3,0.5240022,12.1.1.1. Üstel fonksiyonu açıklar.,c)
+= ax fonksiyon grafiğ değişim incele için bilgi ve iletişim,1,0.9339888,12.1.1.1. Üstel fonksiyonu açıklar.,x)
+\1 ol üzere logarit fonksiyon grafik üstel fonksiyon grafik yarar,1,0.63195205,12.1.2.1. Logaritma fonksiyonu ile üstel fonksiyonu ilişkilendirerek problemler çözer.,a)
+𝑦𝑦 = 𝑎𝑎,3,0.23986487,12.1.2.1. Logaritma fonksiyonu ile üstel fonksiyonu ilişkilendirerek problemler çözer.,b)
+Gelenbevi İsmail efendi ve John Napier in çalış yer ver,1,0.7222668,12.1.2.1. Logaritma fonksiyonu ile üstel fonksiyonu ilişkilendirerek problemler çözer.,c)
+gerçek hayat(I) durum nüfus artış bakteri popülasyon radyoaktif madde bozunum yarı,4,0.46917596,12.1.3.2. Üstel ve logaritmik fonksiyonları gerçek hayat durumlarını modellemede kullanır.,a)
+gibi örnek,3,0.23986487,12.1.3.2. Üstel ve logaritmik fonksiyonları gerçek hayat durumlarını modellemede kullanır.,l)
+israf ve tasarruf kavram Hak farkındalık oluş örnek yer ver,2,0.8764696,12.1.3.2. Üstel ve logaritmik fonksiyonları gerçek hayat durumlarını modellemede kullanır.,b)
+Bilgi ve iletişim teknoloji yararlan,1,0.9050994,12.1.3.2. Üstel ve logaritmik fonksiyonları gerçek hayat durumlarını modellemede kullanır.,c)
+ilk n terim toplam bulun,0,0.86952096,12.2.1.3. Aritmetik ve geometrik dizilerin özelliklerini kullanarak işlemler yapar.,a)
+toplam sembol tanıt ancak özellik ver,0,0.8695541,12.2.1.3. Aritmetik ve geometrik dizilerin özelliklerini kullanarak işlemler yapar.,b)
+ol üzere,4,0.6983501,12.3.2.1. Trigonometrik denklemlerin çözüm kümelerini bulur.,a)
+gerçek hayat(I) problem yer ver,3,0.8809424,12.3.2.1. Trigonometrik denklemlerin çözüm kümelerini bulur.,b)
+el Battani nin çalış yer ver,1,0.72226685,12.3.2.1. Trigonometrik denklemlerin çözüm kümelerini bulur.,c)
+Ötele simetri ve dön kavram hatırlat,4,0.89692867,"12.4.1.1. Analitik düzlemde koordinatları verilen bir noktanın öteleme, dönme ve simetri dönüşümleri",a)
+Nokta nokta eksen y = x doğrus bir doğru göre simetri ve doğru nokta göre,3,0.575132,"12.4.1.1. Analitik düzlemde koordinatları verilen bir noktanın öteleme, dönme ve simetri dönüşümleri",b)
+Bilgi ve iletişim teknoloji yardım ötele simetri ve dön el al,1,0.6189894,"12.4.1.1. Analitik düzlemde koordinatları verilen bir noktanın öteleme, dönme ve simetri dönüşümleri",c)
+Modelleme çalış yer ver,1,0.7222668,12.4.1.2. Temel dönüşümler ve bileşkeleriyle ilgili problem çözer.,a)
+Doğa ve mimari eser örnek yap,3,0.23986487,12.4.1.2. Temel dönüşümler ve bileşkeleriyle ilgili problem çözer.,b)
+limit kavram bir bağımsız değişken ver bir sayı yaklaş hareket tablo ve grafik,2,0.932888,"12.5.1.1. Bir fonksiyonun bir noktadaki limiti, soldan limit ve sağdan limit kavramlarını açıklar.",a)
+Bilgi ve iletişim teknoloji yararlan,1,0.9050994,"12.5.1.1. Bir fonksiyonun bir noktadaki limiti, soldan limit ve sağdan limit kavramlarını açıklar.",b)
+Cauchy nin çalış yer ver,1,0.72226685,"12.5.1.1. Bir fonksiyonun bir noktadaki limiti, soldan limit ve sağdan limit kavramlarını açıklar.",c)
+Polinom köklü üstel logaritmik ve trigonometrik fonksiyon içer limit uygulama yap ancak,2,0.7870083,12.5.1.2. Limit ile ilgili özellikleri belirterek uygulamalar yapar.,)
+ol limit durum gir,4,0.8163585,12.5.1.2. Limit ile ilgili özellikleri belirterek uygulamalar yapar.,±
+sadece pay ve payda çarpan ayrıl belirsiz kaldır limit örnek yer ver,4,0.8969538,12.5.1.2. Limit ile ilgili özellikleri belirterek uygulamalar yapar.,)
+Fonksiyon grafik Üzer sürekli ve sürek ol nokta buldur,1,0.93398124,12.5.1.3. Bir fonksiyonun bir noktadaki sürekliliğini açıklar.,a)
+Limitin tarihsel gelişim ve Salih Zeki nin bu alan katkı bahsed,4,0.9154918,12.5.1.3. Bir fonksiyonun bir noktadaki sürekliliğini açıklar.,b)
+bilgi ve iletişim teknoloji yardım sürekli uygulama yaptır,1,0.80971426,12.5.1.3. Bir fonksiyonun bir noktadaki sürekliliğini açıklar.,c)
+An değişim oran fizik ve geometri model yararlan açıkla,1,0.93391573,12.5.2.1. Türev kavramını açıklayarak işlemler yapar.,a)
+Ver bir fonksiyon bir nokta türev değer ile o nokta teğeti eğim ara ilişki,3,0.9439376,12.5.2.1. Türev kavramını açıklayarak işlemler yapar.,b)
+bir fonksiyon bir nokta ki sol türev ve sağ türev ile türev ara ilişki açıkla,3,0.94395214,12.5.2.1. Türev kavramını açıklayarak işlemler yapar.,c)
+= c,3,0.23986487,12.5.2.1. Türev kavramını açıklayarak işlemler yapar.,x)
+türev kural yer ver,3,0.44266865,12.5.2.1. Türev kavramını açıklayarak işlemler yapar.,l)
+rolle nin çalış yer ver,1,0.72226685,12.5.2.1. Türev kavramını açıklayarak işlemler yapar.,d)
+bir fonksiyon bir nokta türev ol için gerek ve yet şart incele,3,0.9353791,12.5.2.2. Bir fonksiyonun bir noktada ve bir aralıkta türevlenebilirliğini değerlendirir.,a)
+Fonksiyon türev ol nokta grafik ara ilişki kur,3,0.92374814,12.5.2.2. Bir fonksiyonun bir noktada ve bir aralıkta türevlenebilirliğini değerlendirir.,b)
+Bilgi ve iletişim teknoloji yararlan,1,0.9050994,12.5.3.3. Türevi yardımıyla bir fonksiyonun grafiğini çizer.,b)
+Belir integral al kural n 1 ol üzere,1,0.87838984,12.6.1.1. Bir fonksiyonun belirsiz integralini açıklayarak integral alma kurallarını oluşturur.,)
+= 𝑎𝑎𝐴𝐴,3,0.23986487,12.6.1.1. Bir fonksiyonun belirsiz integralini açıklayarak integral alma kurallarını oluşturur.,)
+ℝ 𝑛𝑛 ℚ,3,0.23986487,12.6.1.1. Bir fonksiyonun belirsiz integralini açıklayarak integral alma kurallarını oluşturur.,∈
+bir fonksiyon bir sabit çarpım iki fonksiyon toplam ve fark integral al kural,1,0.9494087,12.6.1.1. Bir fonksiyonun belirsiz integralini açıklayarak integral alma kurallarını oluşturur.,)
+gerçek hayat(I) karşılaş ve değer alan formül hesaplanamayan alan uygun toplam,0,0.53235346,12.6.2.1. Bir fonksiyonun grafiği ile x ekseni arasında kalan sınırlı bölgenin alanını Riemann toplamı,a)
+Polinom fonksiyon sınırlandır,3,0.59727347,12.6.2.1. Bir fonksiyonun grafiği ile x ekseni arasında kalan sınırlı bölgenin alanını Riemann toplamı,b)
+Bilgi ve iletişim teknoloji yararlan,1,0.90509945,12.6.2.1. Bir fonksiyonun grafiği ile x ekseni arasında kalan sınırlı bölgenin alanını Riemann toplamı,c)
+iki fonksiyon grafik ara kal sınır li bölge alan hesapla,0,0.52753687,12.6.2.4. Belirli integral ile alan hesabı yapar.,a)
+gerçek hayat(I) problem yer ver,3,0.880942,12.6.2.4. Belirli integral ile alan hesabı yapar.,b)
+Bilgi ve iletişim teknoloji yararlan,1,0.9050994,12.6.2.4. Belirli integral ile alan hesabı yapar.,c)
+merkez ve,0,0.7021047,12.7.1.1. Merkezi ve yarıçapı verilen çemberin denklemini oluşturur.,a)
+2,3,0.23986487,12.7.1.1. Merkezi ve yarıçapı verilen çemberin denklemini oluşturur.,b)
+Bilgi ve iletişim teknoloji yararlan,1,0.9050994,12.7.1.1. Merkezi ve yarıçapı verilen çemberin denklemini oluşturur.,c)
+doğru ile çember var kesişim nokta bulun,0,0.9164766,12.7.1.2. Denklemleri verilen doğru ile çemberin birbirine göre durumlarını belirleyerek işlemler yapar.,a)
+Bilgi ve iletişim teknoloji yararlan,1,0.9050994,12.7.1.2. Denklemleri verilen doğru ile çemberin birbirine göre durumlarını belirleyerek işlemler yapar.,b)
+Seyahatin yaklaşık maliyet analiz yaptır,4,0.69854504,11.3.2.2. Seyahatlerde mümkün olan alternatifleri karşılaştırır.,a)
+Gid yer ilişkin bir zaman çizelge yaptır,4,0.69854504,11.3.2.2. Seyahatlerde mümkün olan alternatifleri karşılaştırır.,b)
+Daire çevre ve alan ile ilgili işlem yap,1,0.65744126,11.4.3.1. Dairenin çevre ve alan bağıntılarını oluşturur.,a)
+Daire dilim alan ve yay uzunluk bağıntı ver,0,0.91649365,11.4.3.1. Dairenin çevre ve alan bağıntılarını oluşturur.,b)
+Üs ve köklü ifade özellik hatırlat,2,0.87649065,12.1.1.1. Üslü ve köklü ifadeler içeren denklemler çözer.,a)
+gerçek hayat(I) problem yer ver,3,0.8809424,12.1.1.1. Üslü ve köklü ifadeler içeren denklemler çözer.,b)
+Yüz hesapla aşağı ver bağlam yararlan,2,0.90347165,"12.1.2.1. Yüzde, oran ve orantı kavramlarıyla ilgili problemler çözer.",a)
+oran ve orantı kavram içer problem oluşturul aşağı ver bağlam,2,0.9486189,"12.1.2.1. Yüzde, oran ve orantı kavramlarıyla ilgili problemler çözer.",b)
+Tutum ol Hak farkındalık oluş örnek yer ver,2,0.8281921,"12.1.2.1. Yüzde, oran ve orantı kavramlarıyla ilgili problemler çözer.",c)
+Veri topla düzenle temsil et ve yorumla aşama yer ver,2,0.9209162,12.2.1.1. Gerçek hayat durumlarıyla ilgili istatistik problemleri çözer.,a)
+bir veri grub temsil et en uygun grafik çeşit Üzer dur fark grafik çeşit,2,0.9539449,12.2.1.1. Gerçek hayat durumlarıyla ilgili istatistik problemleri çözer.,b)
+problem seç toplumsal duyarlı geliştir çevre bilinc oku alışkan gibi konu,3,0.83435833,12.2.1.1. Gerçek hayat durumlarıyla ilgili istatistik problemleri çözer.,c)
+bir nesne belli bir oran büyüt ya da küçült çizim kullan mesafe çevre,3,0.95049953,"12.3.1.1. Çevre, alan ve hacim ölçmeye yönelik problemler çözer.",a)
+bir nesne belli bir oran büyüt veya küçült çizim ölçek kâğıt Üzer çizdir,3,0.9504998,"12.3.1.1. Çevre, alan ve hacim ölçmeye yönelik problemler çözer.",b)
+Bilgi ve iletişim teknoloji yararlan,1,0.9050994,"12.3.1.1. Çevre, alan ve hacim ölçmeye yönelik problemler çözer.",c)
+gerçek hayat(I) problem yer ver,3,0.8809419,12.4.1.1. Küre ve dik dairesel silindirin alan ve hacim ölçmeye yönelik problemler çözer.,a)
+Bilgi ve iletişim teknoloji yararlan,1,0.9050994,12.4.1.1. Küre ve dik dairesel silindirin alan ve hacim ölçmeye yönelik problemler çözer.,b)

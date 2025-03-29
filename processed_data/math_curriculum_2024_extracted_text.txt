@@ -3288,9 +3288,9 @@ a
 
 a 
 
-=
-
 ≠
+
+=
 
 =
 
@@ -6337,9 +6337,9 @@ tekliği-çiftliği, örtenliği) matematiksel temsilleri kullanarak belirler.
 
  ∈ ℝ,
 
-±
-
 =
+
+±
 
 ±
 
@@ -6454,8 +6454,6 @@ rasyonel fonksiyonların nitel özelliklerine ilişkin matematiksel muhakeme yap
 
  k (a, r, k
 
- a ∙ f(x 
-
 ≠ 
 
 = 
@@ -6465,6 +6463,8 @@ rasyonel fonksiyonların nitel özelliklerine ilişkin matematiksel muhakeme yap
 0) şeklinde tanımlı rasyonel referans fonksiyo-
  0)) 
  r) 
+
+ a ∙ f(x 
 
 1
 x
@@ -9168,8 +9168,6 @@ x
 ℝ, 
  0, m 
 
-≠ 
-
 cosx (x 
 
 ), f (x)
@@ -9217,11 +9215,13 @@ r)
 
  ± 
 
+ = 
+
  ± 
 
  = 
 
- = 
+≠ 
 
 ≠ 
 
@@ -9631,11 +9631,11 @@ s (k, m, r, s
 
 0 ve g(x)
 
+ ± 
+
+ ± 
+
  = 
-
- ± 
-
- ± 
 
 , k 
 
@@ -9957,9 +9957,9 @@ a) Logaritmik referans fonksiyonu grafik ve cebirsel temsili üzerinde yapılan 
 
  ± 
 
- = 
-
  ± 
+
+ = 
 
 ≠
 
@@ -10513,9 +10513,9 @@ x
 
 (
 
-)
-
 (
+
+)
 
 -
 
@@ -10653,9 +10653,9 @@ g(x), f (x)
 
  = 
 
-≤
-
 <
+
+≤
 
 Verilen problem durumlarına ilişkin denklem ve eşitsizliklerin çözümlerine ulaşabilmeleri için 
 öğrencilerin belirli değerlerle denklem veya eşitsizliği test etme, logaritmik ve üstel fonksi-
@@ -13371,12 +13371,12 @@ f x
 
 ℝ
 
++
+
++
+
 =
 
-+
-
-+
-
 "
 x a
 
@@ -13392,17 +13392,9 @@ h
 
 h
 
-h
-
 ^
 
-h
-
 ^
-
-h
-
-h
 
 ^
 
@@ -13412,9 +13404,17 @@ h
 
 h
 
-^
+h
 
 h
+
+h
+
+h
+
+h
+
+^
 
 h
 
@@ -14773,9 +14773,9 @@ a, b
 
 ∈
 
-[
-
 ]
+
+[
 
 ]
 
@@ -15010,9 +15010,9 @@ rulması ve matematik yazılım programında çözümünün bulunması ile türe
  = 
  = 
 
-(x2)
-
 (x1)
+
+(x2)
 
  = 
 

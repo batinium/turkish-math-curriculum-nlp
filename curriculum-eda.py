@@ -6,7 +6,6 @@ including:
 1. Basic statistics on the curriculum texts
 2. Visualization of key term frequencies
 3. Comparative analysis between 2018 and 2024 curricula
-4. Basic AI relevance analysis
 """
 
 import os
@@ -258,81 +257,6 @@ def create_word_clouds(processed_data):
     return word_clouds
 
 
-# Analyze AI relevance
-def analyze_ai_relevance(processed_data):
-    """Analyze AI relevance metrics for both curricula."""
-    # Load AI relevance summary if it exists
-    try:
-        with open(os.path.join(PROCESSED_DIR, 'ai_relevance_summary.json'), 'r', encoding='utf-8') as f:
-            ai_summary = json.load(f)
-            
-            # Convert to the expected format if needed
-            if '2018' not in ai_summary or '2024' not in ai_summary:
-                # Try to reorganize based on keys
-                new_summary = {'2018': {'overall': {}}, '2024': {'overall': {}}}
-                for name, data in ai_summary.items():
-                    if '2018' in name or ('detected_type' in data and ('2018' in data['detected_type'] or data['detected_type'] == '2018-style')):
-                        new_summary['2018'] = data
-                    elif '2024' in name or ('detected_type' in data and ('2024' in data['detected_type'] or data['detected_type'] == '2024-style')):
-                        new_summary['2024'] = data
-                ai_summary = new_summary
-    except FileNotFoundError:
-        print("AI relevance summary not found. Calculating from processed data...")
-        # Calculate from processed data if summary doesn't exist
-        ai_summary = {
-            '2018': {'overall': {}},
-            '2024': {'overall': {}}
-        }
-        
-        # First group curricula by year
-        curricula_by_year = {'2018': [], '2024': []}
-        
-        for name, curriculum in processed_data.items():
-            if not curriculum:
-                continue
-                
-            # Check if we can determine year from detected_type
-            detected_type = curriculum.get('detected_type', '')
-            
-            if '2018' in detected_type or detected_type == '2018-style' or '2018' in name:
-                curricula_by_year['2018'].append(curriculum)
-            elif '2024' in detected_type or detected_type == '2024-style' or '2024' in name:
-                curricula_by_year['2024'].append(curriculum)
-        
-        # Process each year
-        for year in ['2018', '2024']:
-            if not curricula_by_year[year]:
-                print(f"No curricula found for year {year}")
-                continue
-                
-            # Collect all objectives from all curricula for this year
-            all_objectives = []
-            for curriculum in curricula_by_year[year]:
-                if 'processed_objectives' in curriculum:
-                    all_objectives.extend(curriculum['processed_objectives'])
-            
-            if not all_objectives:
-                print(f"No processed objectives found for {year} curriculum")
-                continue
-                
-            # Calculate aggregate scores
-            category_scores = {}
-            for category in ['computational_thinking', 'mathematical_reasoning', 
-                            'pattern_recognition', 'data_concepts']:
-                scores = [obj['ai_relevance'].get(category, 0) for obj in all_objectives if 'ai_relevance' in obj]
-                category_scores[f'{category}_avg'] = np.mean(scores) if scores else 0
-                category_scores[f'{category}_total'] = sum(scores)
-            
-            ai_summary[year] = category_scores
-    
-    # Create a DataFrame for easier comparison
-    ai_relevance_df = pd.DataFrame({
-        '2018': ai_summary['2018'],
-        '2024': ai_summary['2024']
-    }).T
-    
-    return ai_relevance_df
-
 # Analyze verb usage
 def analyze_verb_usage(processed_data):
     """Analyze verb usage to understand cognitive demands."""
@@ -510,7 +434,6 @@ def analyze_objective_complexity(processed_data):
                     'lexical_diversity': unique_tokens / token_count if token_count > 0 else 0,
                     'avg_token_length': avg_token_length,
                     'sentence_count': sentence_count,
-                    'ai_relevance_score': obj.get('ai_relevance_score', 0)
                 })
     
     # Convert to DataFrames and merge with any loaded data
@@ -688,7 +611,6 @@ def analyze_mathematical_terminology(processed_data):
     return term_df
 
 
-# Visualize comparative data
 def plot_comparative_charts(data_dict):
     """Create comparative visualizations."""
     # Basic stats comparison
@@ -747,30 +669,6 @@ def plot_comparative_charts(data_dict):
             plt.savefig(os.path.join(FIGURES_DIR, 'top_decreased_terms.png'), dpi=300)
             plt.close()
     
-    # AI relevance comparison
-    if 'ai_relevance' in data_dict:
-        ai_df = data_dict['ai_relevance']
-        
-        # Plot AI relevance categories
-        if not ai_df.empty:
-            # Reorganize data for plotting
-            categories = ['computational_thinking_total', 'mathematical_reasoning_total',
-                         'pattern_recognition_total', 'data_concepts_total']
-            
-            # Filter to categories that exist
-            existing_categories = [cat for cat in categories if cat in ai_df.columns]
-            
-            if existing_categories:
-                ai_plot_df = ai_df[existing_categories]
-                
-                plt.figure(figsize=(12, 6))
-                ai_plot_df.plot(kind='bar')
-                plt.title('AI Relevance Category Comparison')
-                plt.ylabel('Score')
-                plt.tight_layout()
-                plt.savefig(os.path.join(FIGURES_DIR, 'ai_relevance_comparison.png'), dpi=300)
-                plt.close()
-    
     # Verb usage comparison
     if 'verb_usage' in data_dict:
         verb_df = data_dict['verb_usage']
@@ -805,9 +703,8 @@ def plot_comparative_charts(data_dict):
         complexity_2018 = data_dict['complexity']['2018']
         complexity_2024 = data_dict['complexity']['2024']
         
-        # Compare average complexity metrics
-        metrics = ['token_count', 'unique_tokens', 'lexical_diversity', 
-                  'avg_token_length', 'ai_relevance_score']
+        # Compare average complexity metrics (excluding AI relevance score)
+        metrics = ['token_count', 'unique_tokens', 'lexical_diversity', 'avg_token_length']
         
         avg_metrics = {
             '2018': {metric: complexity_2018[metric].mean() for metric in metrics if metric in complexity_2018},
@@ -830,22 +727,324 @@ def plot_comparative_charts(data_dict):
             plt.tight_layout()
             plt.savefig(os.path.join(FIGURES_DIR, 'objective_complexity_comparison.png'), dpi=300)
             plt.close()
+
+
+
+# Replace the AI relevance analysis function with a curriculum theme analysis
+def analyze_curriculum_themes(processed_data):
+    """
+    Analyze curriculum themes based on word frequencies and distributions
+    without relying on predefined AI categories.
+    """
+    # Check if we've already analyzed this
+    themes_path = os.path.join(PROCESSED_DIR, 'curriculum_themes.json')
+    if os.path.exists(themes_path):
+        try:
+            print("Loading existing curriculum theme analysis")
+            with open(themes_path, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"Error loading existing theme analysis: {e}")
+    
+    # Group data by curriculum year
+    curricula_by_year = {'2018': [], '2024': []}
+    
+    for name, curriculum in processed_data.items():
+        if not curriculum:
+            continue
             
-            # Scatter plot of token count vs. AI relevance
-            if 'token_count' in complexity_2018 and 'ai_relevance_score' in complexity_2018:
-                plt.figure(figsize=(10, 6))
-                plt.scatter(complexity_2018['token_count'], complexity_2018['ai_relevance_score'], 
-                          alpha=0.7, label='2018')
-                if 'token_count' in complexity_2024 and 'ai_relevance_score' in complexity_2024:
-                    plt.scatter(complexity_2024['token_count'], complexity_2024['ai_relevance_score'], 
-                              alpha=0.7, label='2024')
-                plt.xlabel('Token Count')
-                plt.ylabel('AI Relevance Score')
-                plt.title('Objective Complexity vs. AI Relevance')
-                plt.legend()
-                plt.tight_layout()
-                plt.savefig(os.path.join(FIGURES_DIR, 'complexity_vs_ai_relevance.png'), dpi=300)
-                plt.close()
+        # Determine year from detected_type
+        if '2018' in curriculum.get('detected_type', '') or '2018' in name:
+            curricula_by_year['2018'].append(curriculum)
+        elif '2024' in curriculum.get('detected_type', '') or '2024' in name:
+            curricula_by_year['2024'].append(curriculum)
+    
+    # Extract most frequent terms for each year
+    term_frequencies = {'2018': Counter(), '2024': Counter()}
+    custom_stopwords = get_extended_stopwords()
+    
+    for year, curricula in curricula_by_year.items():
+        all_tokens = []
+        for curriculum in curricula:
+            if 'processed_objectives' not in curriculum:
+                continue
+                
+            for obj in curriculum['processed_objectives']:
+                if 'spacy_tokens' not in obj:
+                    continue
+                    
+                # Extract meaningful lemmas, exclude stopwords and very short words
+                tokens = [token['lemma'].lower() for token in obj['spacy_tokens'] 
+                         if not token.get('is_punctuation', False) 
+                         and not token.get('is_stop', False)
+                         and token['lemma'].lower() not in custom_stopwords
+                         and len(token['lemma']) > 2]
+                
+                all_tokens.extend(tokens)
+        
+        term_frequencies[year] = Counter(all_tokens)
+    
+    # Identify top terms for each year
+    top_terms = {
+        '2018': [term for term, count in term_frequencies['2018'].most_common(100)],
+        '2024': [term for term, count in term_frequencies['2024'].most_common(100)]
+    }
+    
+    # Identify unique and shared terms
+    unique_to_2018 = set(top_terms['2018']) - set(top_terms['2024'])
+    unique_to_2024 = set(top_terms['2024']) - set(top_terms['2018'])
+    shared_terms = set(top_terms['2018']) & set(top_terms['2024'])
+    
+    # Calculate term importance scores (normalized frequency)
+    term_importance = {'2018': {}, '2024': {}}
+    
+    for year in ['2018', '2024']:
+        total_count = sum(term_frequencies[year].values())
+        if total_count > 0:
+            term_importance[year] = {term: count/total_count 
+                                   for term, count in term_frequencies[year].items()}
+    
+    # Prepare results
+    themes_analysis = {
+        'term_frequencies': {
+            '2018': dict(term_frequencies['2018'].most_common(500)),
+            '2024': dict(term_frequencies['2024'].most_common(500))
+        },
+        'top_terms': top_terms,
+        'unique_terms': {
+            '2018': list(unique_to_2018),
+            '2024': list(unique_to_2024)
+        },
+        'shared_terms': list(shared_terms),
+        'term_importance': {
+            '2018': {term: importance for term, importance in 
+                    sorted(term_importance['2018'].items(), key=lambda x: x[1], reverse=True)[:200]},
+            '2024': {term: importance for term, importance in 
+                    sorted(term_importance['2024'].items(), key=lambda x: x[1], reverse=True)[:200]}
+        }
+    }
+    
+    # Save results
+    with open(themes_path, 'w', encoding='utf-8') as f:
+        json.dump(themes_analysis, f, ensure_ascii=False, indent=2)
+    
+    # Create visualizations
+    visualize_curriculum_themes(themes_analysis)
+    
+    return themes_analysis
+
+def visualize_curriculum_themes(themes_analysis):
+    """Create visualizations for curriculum theme analysis."""
+    # Visualize unique terms for each curriculum
+    for year in ['2018', '2024']:
+        # Get unique terms with their importance scores
+        unique_terms = themes_analysis['unique_terms'][year]
+        if not unique_terms:
+            continue
+            
+        # Get importance scores for these terms
+        term_scores = {term: themes_analysis['term_importance'][year].get(term, 0) 
+                      for term in unique_terms}
+        
+        # Sort terms by importance
+        sorted_terms = sorted(term_scores.items(), key=lambda x: x[1], reverse=True)
+        
+        # Only use top 20 terms for visualization clarity
+        top_unique_terms = sorted_terms[:20]
+        
+        # Create bar chart
+        plt.figure(figsize=(12, 8))
+        terms = [t[0] for t in top_unique_terms]
+        scores = [t[1] for t in top_unique_terms]
+        
+        plt.barh(range(len(terms)), scores, align='center')
+        plt.yticks(range(len(terms)), terms)
+        plt.xlabel('Normalized Frequency')
+        plt.title(f'Top Unique Terms in {year} Curriculum')
+        plt.gca().invert_yaxis()  # Display terms in descending order
+        plt.tight_layout()
+        
+        plt.savefig(os.path.join(FIGURES_DIR, f'unique_terms_{year}.png'), dpi=300)
+        plt.close()
+    
+    # Visualize term frequency changes
+    # Get terms that exist in both years
+    common_terms = set(themes_analysis['term_frequencies']['2018'].keys()) & \
+                  set(themes_analysis['term_frequencies']['2024'].keys())
+    
+    freq_changes = []
+    for term in common_terms:
+        freq_2018 = themes_analysis['term_importance']['2018'].get(term, 0)
+        freq_2024 = themes_analysis['term_importance']['2024'].get(term, 0)
+        
+        # Calculate change ratio
+        if freq_2018 > 0:
+            change_ratio = (freq_2024 - freq_2018) / freq_2018
+        else:
+            change_ratio = float('inf')  # Term didn't exist in 2018
+            
+        freq_changes.append((term, change_ratio))
+    
+    # Sort by change ratio
+    freq_changes.sort(key=lambda x: x[1], reverse=True)
+    
+    # Plot terms with highest increase
+    if freq_changes:
+        increased_terms = [(t, r) for t, r in freq_changes if r > 0][:15]
+        
+        if increased_terms:
+            plt.figure(figsize=(12, 8))
+            terms = [t[0] for t in increased_terms]
+            ratios = [min(t[1], 10) for t in increased_terms]  # Cap at 10x for visualization
+            
+            plt.barh(range(len(terms)), ratios, align='center')
+            plt.yticks(range(len(terms)), terms)
+            plt.xlabel('Frequency Change Ratio (2024/2018 - 1)')
+            plt.title('Terms with Largest Frequency Increase in 2024 Curriculum')
+            plt.gca().invert_yaxis()  # Display terms in descending order
+            plt.tight_layout()
+            
+            plt.savefig(os.path.join(FIGURES_DIR, 'terms_increased.png'), dpi=300)
+            plt.close()
+        
+        # Plot terms with highest decrease
+        decreased_terms = [(t, r) for t, r in freq_changes if r < 0][-15:]
+        decreased_terms.reverse()  # Show largest decrease first
+        
+        if decreased_terms:
+            plt.figure(figsize=(12, 8))
+            terms = [t[0] for t in decreased_terms]
+            ratios = [abs(t[1]) for t in decreased_terms]  # Use absolute values for clearer visualization
+            
+            plt.barh(range(len(terms)), ratios, align='center')
+            plt.yticks(range(len(terms)), terms)
+            plt.xlabel('Absolute Frequency Change Ratio (|2024/2018 - 1|)')
+            plt.title('Terms with Largest Frequency Decrease in 2024 Curriculum')
+            plt.gca().invert_yaxis()  # Display terms in descending order
+            plt.tight_layout()
+            
+            plt.savefig(os.path.join(FIGURES_DIR, 'terms_decreased.png'), dpi=300)
+            plt.close()
+
+def analyze_cognitive_complexity(processed_data):
+    """Analyze cognitive complexity based on verb usage in objectives."""
+    # Define cognitive levels based on Bloom's taxonomy
+    bloom_categories = {
+        'remember': ['tanımla', 'belirle', 'listele', 'hatırla', 'göster', 'bilir', 'tanır', 'tekrarlar'],
+        'understand': ['açıkla', 'özetle', 'yorumla', 'örnek', 'sınıflandır', 'anlar', 'kavrar', 'karşılaştır'],
+        'apply': ['uygula', 'hesapla', 'çöz', 'göster', 'kullan', 'yapar', 'kullanır', 'uygular'],
+        'analyze': ['analiz', 'karşılaştır', 'incele', 'ayırt', 'test', 'analiz eder', 'ayrıştırır', 'sorgular'],
+        'evaluate': ['değerlendir', 'eleştir', 'savun', 'yargıla', 'seç', 'karar verir', 'değer biçer'],
+        'create': ['oluştur', 'tasarla', 'geliştir', 'planla', 'üret', 'yaratır', 'icat eder', 'kurar']
+    }
+    
+    # Assign cognitive level scores
+    cognitive_levels = {
+        'remember': 1,
+        'understand': 2,
+        'apply': 3,
+        'analyze': 4,
+        'evaluate': 5,
+        'create': 6
+    }
+    
+    # Collect verbs by year and objective
+    objectives_by_year = {'2018': [], '2024': []}
+    
+    for name, curriculum in processed_data.items():
+        if not curriculum:
+            continue
+            
+        # Determine year
+        year = '2024' if '2024' in curriculum.get('detected_type', '') or '2024' in name else '2018'
+        
+        if 'processed_objectives' not in curriculum:
+            continue
+            
+        for obj in curriculum['processed_objectives']:
+            if 'spacy_tokens' not in obj:
+                continue
+                
+            # Extract verbs
+            verbs = [token['lemma'].lower() for token in obj['spacy_tokens'] 
+                    if token['pos'] == 'VERB']
+            
+            if verbs:
+                objectives_by_year[year].append({
+                    'section': obj.get('section', ''),
+                    'text': obj.get('cleaned_text', ''),
+                    'verbs': verbs
+                })
+    
+    # Analyze cognitive levels by year
+    cognitive_analysis = {'2018': {}, '2024': {}}
+    
+    for year in ['2018', '2024']:
+        # Count objectives at each cognitive level
+        level_counts = {level: 0 for level in cognitive_levels}
+        total_objectives = len(objectives_by_year[year])
+        
+        # Track the highest cognitive level for each objective
+        for obj in objectives_by_year[year]:
+            max_level = 0
+            max_level_name = 'none'
+            
+            for verb in obj['verbs']:
+                for level, verbs in bloom_categories.items():
+                    if verb in verbs and cognitive_levels[level] > max_level:
+                        max_level = cognitive_levels[level]
+                        max_level_name = level
+            
+            if max_level > 0:
+                level_counts[max_level_name] += 1
+            
+        # Calculate percentages
+        level_percentages = {}
+        if total_objectives > 0:
+            for level, count in level_counts.items():
+                level_percentages[level] = count / total_objectives * 100
+                
+        # Record results
+        cognitive_analysis[year] = {
+            'level_counts': level_counts,
+            'level_percentages': level_percentages,
+            'total_objectives': total_objectives
+        }
+    
+    # Create visualization
+    plt.figure(figsize=(12, 8))
+    
+    # Order levels by cognitive complexity
+    ordered_levels = ['remember', 'understand', 'apply', 'analyze', 'evaluate', 'create']
+    
+    # Prepare data for comparison
+    x = np.arange(len(ordered_levels))
+    width = 0.35
+    
+    # Plot bars for each year
+    percentages_2018 = [cognitive_analysis['2018']['level_percentages'].get(level, 0) 
+                      for level in ordered_levels]
+    percentages_2024 = [cognitive_analysis['2024']['level_percentages'].get(level, 0) 
+                      for level in ordered_levels]
+    
+    plt.bar(x - width/2, percentages_2018, width, label='2018 Curriculum')
+    plt.bar(x + width/2, percentages_2024, width, label='2024 Curriculum')
+    
+    plt.xlabel('Cognitive Level (Bloom\'s Taxonomy)')
+    plt.ylabel('Percentage of Objectives')
+    plt.title('Cognitive Complexity Analysis')
+    plt.xticks(x, ordered_levels)
+    plt.legend()
+    
+    plt.tight_layout()
+    plt.savefig(os.path.join(FIGURES_DIR, 'cognitive_complexity.png'), dpi=300)
+    plt.close()
+    
+    # Save results
+    with open(os.path.join(PROCESSED_DIR, 'cognitive_complexity.json'), 'w', encoding='utf-8') as f:
+        json.dump(cognitive_analysis, f, ensure_ascii=False, indent=2)
+    
+    return cognitive_analysis
 
 # Main function
 def main():
@@ -871,11 +1070,14 @@ def main():
     print("Creating word clouds...")
     word_clouds = create_word_clouds(processed_data)
     
-    print("Analyzing AI relevance...")
-    ai_relevance = analyze_ai_relevance(processed_data)
+    print("Analyzing curriculum themes...")
+    themes_analysis = analyze_curriculum_themes(processed_data)
     
     print("Analyzing verb usage...")
     verb_usage = analyze_verb_usage(processed_data)
+    
+    print("Analyzing cognitive complexity...")
+    cognitive_analysis = analyze_cognitive_complexity(processed_data)
     
     print("Analyzing objective complexity...")
     complexity = analyze_objective_complexity(processed_data)
@@ -890,7 +1092,6 @@ def main():
     results = {
         'basic_stats': basic_stats,
         'term_freq': term_freq,
-        'ai_relevance': ai_relevance,
         'verb_usage': verb_usage,
         'complexity': complexity,
         'math_terms': math_terms,
@@ -903,7 +1104,6 @@ def main():
     # Save results to CSV files
     print("Saving results...")
     term_freq.to_csv(os.path.join(PROCESSED_DIR, 'term_frequency_analysis.csv'))
-    ai_relevance.to_csv(os.path.join(PROCESSED_DIR, 'ai_relevance_analysis.csv'))
     verb_usage.to_csv(os.path.join(PROCESSED_DIR, 'verb_usage_detailed.csv'))
     
     for year in ['2018', '2024']:
@@ -919,31 +1119,31 @@ def main():
     print(f"Results saved to {PROCESSED_DIR} and {FIGURES_DIR} directories.")
     print(f"Files created in {PROCESSED_DIR}:")
     print("  - term_frequency_analysis.csv")
-    print("  - ai_relevance_analysis.csv")
     print("  - verb_usage_detailed.csv")
+    print("  - curriculum_themes.json")
+    print("  - cognitive_complexity.json")
     print("  - objective_complexity_2018.csv (if 2018 data available)")
     print("  - objective_complexity_2024.csv (if 2024 data available)")
     print("  - basic_stats.json")
+    print("  - mathematical_terminology.csv")
     
     print(f"\nVisualization files created in {FIGURES_DIR}:")
-    print("  - wordcloud_2018.png (if 2018 data available)")
-    print("  - wordcloud_2024.png (if 2024 data available)")
+    print("  - wordcloud_2018_lemmatized.png (if 2018 data available)")
+    print("  - wordcloud_2024_lemmatized.png (if 2024 data available)")
+    print("  - unique_terms_2018.png")
+    print("  - unique_terms_2024.png")
+    print("  - terms_increased.png")
+    print("  - terms_decreased.png")
+    print("  - cognitive_complexity.png")
     print("  - basic_metrics_comparison.png")
     print("  - top_increased_terms.png")
     print("  - top_decreased_terms.png")
-    print("  - ai_relevance_comparison.png")
     print("  - top_verbs_comparison.png")
     print("  - blooms_taxonomy_distribution.png")
     print("  - objective_complexity_comparison.png")
-    print("  - complexity_vs_ai_relevance.png")
-    print("  - mathematical_terminology.csv")
-    print("  - word_relations_2018.pkl (if 2018 data available)")
-    print("  - word_relations_2024.pkl (if 2024 data available)")
     print("  - mathematical_terminology.png")
     print("  - word_relations_2018.png (if 2018 data available)")
     print("  - word_relations_2024.png (if 2024 data available)")
-    print("  - wordcloud_2018_lemmatized.png (if 2018 data available)")
-    print("  - wordcloud_2024_lemmatized.png (if 2024 data available)")
-
+    
 if __name__ == "__main__":
     main()

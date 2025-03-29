@@ -1,0 +1,78 @@
+{
+  "2018": {
+    "level_counts": {
+      "remember": 10,
+      "understand": 10,
+      "apply": 25,
+      "analyze": 14,
+      "evaluate": 67,
+      "create": 55
+    },
+    "level_percentages": {
+      "remember": 5.524861878453039,
+      "understand": 5.524861878453039,
+      "apply": 13.812154696132598,
+      "analyze": 7.734806629834254,
+      "evaluate": 37.01657458563536,
+      "create": 30.386740331491712
+    },
+    "avg_complexity": 4.56353591160221
+  },
+  "2024": {
+    "level_counts": {
+      "remember": 35,
+      "understand": 6,
+      "apply": 68,
+      "analyze": 50,
+      "evaluate": 53,
+      "create": 209
+    },
+    "level_percentages": {
+      "remember": 8.31353919239905,
+      "understand": 1.4251781472684086,
+      "apply": 16.152019002375297,
+      "analyze": 11.87648456057007,
+      "evaluate": 12.589073634204276,
+      "create": 49.6437054631829
+    },
+    "avg_complexity": 4.679334916864608
+  },
+  "complexity_gaps": {
+    "remember": {
+      "percentage_2018": 5.524861878453039,
+      "percentage_2024": 8.31353919239905,
+      "percentage_change": 2.7886773139460113,
+      "relative_change": 50.475059382422806
+    },
+    "understand": {
+      "percentage_2018": 5.524861878453039,
+      "percentage_2024": 1.4251781472684086,
+      "percentage_change": -4.09968373118463,
+      "relative_change": -74.2042755344418
+    },
+    "apply": {
+      "percentage_2018": 13.812154696132598,
+      "percentage_2024": 16.152019002375297,
+      "percentage_change": 2.339864306242699,
+      "relative_change": 16.940617577197138
+    },
+    "analyze": {
+      "percentage_2018": 7.734806629834254,
+      "percentage_2024": 11.87648456057007,
+      "percentage_change": 4.141677930735816,
+      "relative_change": 53.54597896165592
+    },
+    "evaluate": {
+      "percentage_2018": 37.01657458563536,
+      "percentage_2024": 12.589073634204276,
+      "percentage_change": -24.427500951431085,
+      "relative_change": -65.99071152550786
+    },
+    "create": {
+      "percentage_2018": 30.386740331491712,
+      "percentage_2024": 49.6437054631829,
+      "percentage_change": 19.256965131691185,
+      "relative_change": 63.372921615201896
+    }
+  }
+}

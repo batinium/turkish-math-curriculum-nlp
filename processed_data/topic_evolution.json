@@ -1,0 +1,228 @@
+{
+  "emerging_topics": [
+    {
+      "topic_id": 0,
+      "keywords": [
+        "fonksiyon",
+        "temsil",
+        "grafik",
+        "ifade",
+        "matematiksel",
+        "referans",
+        "nitel",
+        "cebirsel",
+        "denklem",
+        "doğrusal"
+      ],
+      "max_similarity": 0.1111111111111111,
+      "most_similar_2018_topic": 1
+    },
+    {
+      "topic_id": 1,
+      "keywords": [
+        "cebirsel",
+        "öner",
+        "nokta",
+        "sözel",
+        "grafiksel",
+        "uygun",
+        "fonksiyon",
+        "ilişki",
+        "belirli",
+        "bileşen"
+      ],
+      "max_similarity": 0.1111111111111111,
+      "most_similar_2018_topic": 3
+    },
+    {
+      "topic_id": 2,
+      "keywords": [
+        "incele",
+        "doğru",
+        "nokta",
+        "kavramsal",
+        "üzer",
+        "limit",
+        "eğim",
+        "dönüşüm",
+        "ödev",
+        "sistem"
+      ],
+      "max_similarity": 0.1111111111111111,
+      "most_similar_2018_topic": 3
+    },
+    {
+      "topic_id": 3,
+      "keywords": [
+        "yönelik",
+        "çıkarım",
+        "matematiksel",
+        "önerme",
+        "ulaş",
+        "araştır",
+        "doğrula",
+        "istatistiksel",
+        "değerlen",
+        "ilgili"
+      ],
+      "max_similarity": 0.0,
+      "most_similar_2018_topic": 0
+    },
+    {
+      "topic_id": 4,
+      "keywords": [
+        "tanım",
+        "fonksiyon",
+        "şekil",
+        "üçgen",
+        "nitel",
+        "değer",
+        "küme",
+        "karesel",
+        "polinom",
+        "gerçek"
+      ],
+      "max_similarity": 0.17647058823529413,
+      "most_similar_2018_topic": 3
+    },
+    {
+      "topic_id": 5,
+      "keywords": [
+        "gerçek",
+        "sayı",
+        "öğrenci",
+        "problem",
+        "sağla",
+        "durum",
+        "hareket",
+        "yaşam",
+        "içer",
+        "değişken"
+      ],
+      "max_similarity": 0.1111111111111111,
+      "most_similar_2018_topic": 3
+    },
+    {
+      "topic_id": 6,
+      "keywords": [
+        "varsayım",
+        "kullan",
+        "ilişkin",
+        "fark",
+        "karşıla",
+        "örüntü",
+        "genelle",
+        "dayalı",
+        "temsil",
+        "belirle"
+      ],
+      "max_similarity": 0.05263157894736842,
+      "most_similar_2018_topic": 2
+    },
+    {
+      "topic_id": 7,
+      "keywords": [
+        "çözüm",
+        "strateji",
+        "belirle",
+        "problem",
+        "kullan",
+        "veri",
+        "öğrenme",
+        "araştır",
+        "problemin",
+        "soru"
+      ],
+      "max_similarity": 0.05263157894736842,
+      "most_similar_2018_topic": 2
+    }
+  ],
+  "fading_topics": [
+    {
+      "topic_id": 0,
+      "keywords": [
+        "uzunluk",
+        "çember",
+        "kenar",
+        "bulun",
+        "denklem",
+        "nokta",
+        "toplam",
+        "alan",
+        "üçgen",
+        "ölçü"
+      ],
+      "max_similarity": 0.05263157894736842,
+      "most_similar_2024_topic": 0
+    },
+    {
+      "topic_id": 1,
+      "keywords": [
+        "iletişim",
+        "bilgi",
+        "teknoloji",
+        "fonksiyon",
+        "grafik",
+        "yararlan",
+        "çalış",
+        "doğru",
+        "yardım",
+        "parça"
+      ],
+      "max_similarity": 0.1111111111111111,
+      "most_similar_2024_topic": 0
+    },
+    {
+      "topic_id": 2,
+      "keywords": [
+        "sayı",
+        "kenar",
+        "ifade",
+        "kavram",
+        "polinom",
+        "üçgen",
+        "fark",
+        "veri",
+        "oluş",
+        "uygulama"
+      ],
+      "max_similarity": 0.1111111111111111,
+      "most_similar_2024_topic": 4
+    },
+    {
+      "topic_id": 3,
+      "keywords": [
+        "fonksiyon",
+        "gerçek",
+        "hayat(i)",
+        "problem",
+        "küme",
+        "nokta",
+        "üzer",
+        "grafik",
+        "türev",
+        "eksen"
+      ],
+      "max_similarity": 0.17647058823529413,
+      "most_similar_2024_topic": 4
+    },
+    {
+      "topic_id": 4,
+      "keywords": [
+        "üçgen",
+        "değer",
+        "olay",
+        "ayrık",
+        "kavram",
+        "alan",
+        "çarpan",
+        "açık",
+        "taban",
+        "hesapla"
+      ],
+      "max_similarity": 0.1111111111111111,
+      "most_similar_2024_topic": 4
+    }
+  ],
+  "evolving_topic_pairs": []
+}

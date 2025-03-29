@@ -1,66 +1,162 @@
 {
   "2018": {
     "0": [
-      "yararlan",
-      "iletişim",
-      "teknoloji",
+      "uzunluk",
+      "çember",
+      "kenar",
+      "bulun",
       "denklem",
       "nokta",
-      "doğru",
-      "bulun",
       "toplam",
-      "çember",
-      "kavram"
+      "alan",
+      "üçgen",
+      "ölçü"
     ],
     "1": [
+      "iletişim",
+      "bilgi",
+      "teknoloji",
+      "fonksiyon",
+      "grafik",
+      "yararlan",
+      "çalış",
+      "doğru",
+      "yardım",
+      "parça"
+    ],
+    "2": [
+      "sayı",
+      "kenar",
+      "ifade",
+      "kavram",
+      "polinom",
+      "üçgen",
+      "fark",
+      "veri",
+      "oluş",
+      "uygulama"
+    ],
+    "3": [
+      "fonksiyon",
       "gerçek",
       "hayat(i)",
       "problem",
-      "kenar",
       "küme",
-      "sayı",
-      "üçgen",
-      "alan",
-      "kavram",
-      "örnek"
-    ],
-    "2": [
-      "grafik",
+      "nokta",
       "üzer",
-      "ifade",
-      "çalış",
-      "bilgi",
-      "özellik",
-      "iletişim",
-      "yardım",
-      "kullan",
-      "nokta"
+      "grafik",
+      "türev",
+      "eksen"
+    ],
+    "4": [
+      "üçgen",
+      "değer",
+      "olay",
+      "ayrık",
+      "kavram",
+      "alan",
+      "çarpan",
+      "açık",
+      "taban",
+      "hesapla"
     ]
   },
   "2024": {
     "0": [
-      "ilişkin",
-      "durum",
-      "varsayım",
-      "fark",
-      "sayı",
-      "gerçek",
+      "fonksiyon",
+      "temsil",
+      "grafik",
+      "ifade",
+      "matematiksel",
+      "referans",
+      "nitel",
       "cebirsel",
-      "araştır",
-      "ilgili",
-      "ifade"
+      "denklem",
+      "doğrusal"
     ],
     "1": [
-      "belirle",
-      "çözüm",
-      "problem",
+      "cebirsel",
+      "öner",
+      "nokta",
+      "sözel",
+      "grafiksel",
+      "uygun",
+      "fonksiyon",
+      "ilişki",
+      "belirli",
+      "bileşen"
+    ],
+    "2": [
+      "incele",
+      "doğru",
+      "nokta",
+      "kavramsal",
+      "üzer",
+      "limit",
+      "eğim",
+      "dönüşüm",
+      "ödev",
+      "sistem"
+    ],
+    "3": [
+      "yönelik",
+      "çıkarım",
+      "matematiksel",
+      "önerme",
+      "ulaş",
+      "araştır",
+      "doğrula",
+      "istatistiksel",
+      "değerlen",
+      "ilgili"
+    ],
+    "4": [
       "tanım",
-      "temsil",
-      "özellik",
-      "strateji",
-      "kullan",
+      "fonksiyon",
+      "şekil",
+      "üçgen",
+      "nitel",
+      "değer",
+      "küme",
+      "karesel",
+      "polinom",
+      "gerçek"
+    ],
+    "5": [
+      "gerçek",
+      "sayı",
       "öğrenci",
-      "nitel"
+      "problem",
+      "sağla",
+      "durum",
+      "hareket",
+      "yaşam",
+      "içer",
+      "değişken"
+    ],
+    "6": [
+      "varsayım",
+      "kullan",
+      "ilişkin",
+      "fark",
+      "karşıla",
+      "örüntü",
+      "genelle",
+      "dayalı",
+      "temsil",
+      "belirle"
+    ],
+    "7": [
+      "çözüm",
+      "strateji",
+      "belirle",
+      "problem",
+      "kullan",
+      "veri",
+      "öğrenme",
+      "araştır",
+      "problemin",
+      "soru"
     ]
   }
 }

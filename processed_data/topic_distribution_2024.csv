@@ -1,797 +1,796 @@
-text,dominant_topic,topic_percent,section,item,ai_relevance_score
-KAVRAMSAL,0,0.6895584,1. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),0
-doğrusal ilişki içer problem çözüm kullanıl matematiksel,1,0.82719034,1. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),3
-doğrusal ilişki içer problem çözüm için kullan matematiksel,1,0.8537705,1. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),3
-doğrusal ilişki içer problem çözüm için belirle matematiksel araç,1,0.8941681,1. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),4
-x y,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),0
-öğ,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),0
-fark et yönelik çalış yer ver doğrusal ilişki içer gerçek yaşam,0,0.73754406,1. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),1
- ver matematiksel yapı belirle,1,0.85446787,2. TEMA: MANTIKSAL ÇIKARIM,a),1
- ver matematiksel yapı ile problem uygun fark matema,1,0.88519984,2. TEMA: MANTIKSAL ÇIKARIM,b),2
- ver matematiksel yapı fark matematiksel temsil dön,1,0.8680023,2. TEMA: MANTIKSAL ÇIKARIM,c),3
-el et ve yorumla fark temsil dayalı problem çözüm için stra,1,0.9134897,2. TEMA: MANTIKSAL ÇIKARIM,d),3
-Karşılaş problem seç çözüm strateji kullan,1,0.893287,2. TEMA: MANTIKSAL ÇIKARIM,e),2
-Kullan çözüm strateji kontrol et,1,0.88211113,2. TEMA: MANTIKSAL ÇIKARIM,f),1
-Çözüm ulaş problem için olası fark çözüm strateji incele,1,0.9074274,2. TEMA: MANTIKSAL ÇIKARIM,g),2
-Çözüm ulaş strateji yönelik çıkarım bu strateji kullan,1,0.9126855,2. TEMA: MANTIKSAL ÇIKARIM,h),1
-ÖĞRENME ÖĞRETME,0,0.7844291,2. TEMA: MANTIKSAL ÇIKARIM,e),0
-veya tablo ile göster haftalık ders program gibi grup ülke,1,0.54972196,2. TEMA: MANTIKSAL ÇIKARIM,i),1
-örnek yer ver bu,1,0.54857296,2. TEMA: MANTIKSAL ÇIKARIM,i),0
-Son sayı örüntü terim ara ilişki gözlem,0,0.7523239,3. TEMA: ALGORİTMA VE BİLİŞİM,a),1
-Son sayı örüntü terim ara örüntü belirle,0,0.77229923,3. TEMA: ALGORİTMA VE BİLİŞİM,b),0
-Belirle ilişki sözel ve cebirsel ol genel,0,0.58092064,3. TEMA: ALGORİTMA VE BİLİŞİM,c),1
-Şifre li metin ilişki gözlem,1,0.8726735,3. TEMA: ALGORİTMA VE BİLİŞİM,a),1
-Şifre li metin örüntü belirle,1,0.68117845,3. TEMA: ALGORİTMA VE BİLİŞİM,b),0
-Belirle örüntü sözel ve cebirsel ol genel,0,0.75947976,3. TEMA: ALGORİTMA VE BİLİŞİM,c),0
-fark şifrele yöntem incele,0,0.8513633,3. TEMA: ALGORİTMA VE BİLİŞİM,a),0
-İncele şifrele yöntem nitelik tespit et,0,0.6628183,3. TEMA: ALGORİTMA VE BİLİŞİM,b),0
- çıkarım yap yeni şifre oluş,1,0.651839,3. TEMA: ALGORİTMA VE BİLİŞİM,c),1
- çıktı çalış kâğıd performans görev öz ve akran değerlendir form,0,0.8941427,3. TEMA: ALGORİTMA VE BİLİŞİM,e),0
-karşılık gel,1,0.5469091,3. TEMA: ALGORİTMA VE BİLİŞİM,i),0
-örüntü içer fark durum karşılaşılab fark et sağla,0,0.8705656,3. TEMA: ALGORİTMA VE BİLİŞİM,i),0
-Hak çıkarım bulun için öğrenci fırsat,1,0.7911223,3. TEMA: ALGORİTMA VE BİLİŞİM,i),1
-sınıf iç tartış yap D19 4 E1 1,0,0.77692825,3. TEMA: ALGORİTMA VE BİLİŞİM,i),0
-problem çözüm ilgili sınıf iç tartış yap Öğ,0,0.638315,3. TEMA: ALGORİTMA VE BİLİŞİM,e),2
-tespit et bu süreç sınıf,1,0.5946082,3. TEMA: ALGORİTMA VE BİLİŞİM,i),0
-incele iste bu araç ve,1,0.80771613,3. TEMA: ALGORİTMA VE BİLİŞİM,i),0
-KAVRAMSAL,0,0.68956673,4. TEMA: GEOMETRİK ŞEKİLLER,a),0
-ve tr,1,0.5469091,4. TEMA: GEOMETRİK ŞEKİLLER,t),0
-dik üçgen trigonometrik oran ve trigonometrik özdeşlik ilgili varsayım,0,0.9127976,4. TEMA: GEOMETRİK ŞEKİLLER,a),1
-Trigonometrik oran ve trigonometrik özdeşlik ilgili örüntü genel,0,0.9147229,4. TEMA: GEOMETRİK ŞEKİLLER,b),0
-Trigonometrik oran ve trigonometrik özdeşlik ilgili el et genelleme,0,0.90238243,4. TEMA: GEOMETRİK ŞEKİLLER,c),0
-Ulaş trigonometrik oran ve trigonometrik özdeş problem bağlam,0,0.8861036,4. TEMA: GEOMETRİK ŞEKİLLER,d),1
-Üçgen iç ve dış açıortay kenarortay kenar orta dikme ve yüksek,0,0.856015,4. TEMA: GEOMETRİK ŞEKİLLER,a),0
-fark üçgen örnek incele varsayım ilişkin örüntü genel,0,0.91322225,4. TEMA: GEOMETRİK ŞEKİLLER,b),1
- yardımcı eleman ilgili genelleme varsayım karşılaştır,0,0.88842124,4. TEMA: GEOMETRİK ŞEKİLLER,c),1
- yardımcı eleman ilgili öner problem bağlam değerlen,0,0.8882116,4. TEMA: GEOMETRİK ŞEKİLLER,d),1
- bir kenar ve o kenar ait yüksek değişim üçgen alan de,0,0.8965227,4. TEMA: GEOMETRİK ŞEKİLLER,a),0
-fark üçgen gözlem yarar varsayım yönelik örüntü,0,0.72600585,4. TEMA: GEOMETRİK ŞEKİLLER,b),1
-Genelle varsayım karşılaştır,0,0.79015887,4. TEMA: GEOMETRİK ŞEKİLLER,c),1
-Öner gerçek yaşam problem bağlam değerlen,0,0.882855,4. TEMA: GEOMETRİK ŞEKİLLER,d),1
-Üçgen sinüs ve kosinüs teorem ilişkin fark doğrula veya ispat kul,0,0.9217156,4. TEMA: GEOMETRİK ŞEKİLLER,a),2
-yapı doğrula veya ispat yeni durum uyarla değerlen,0,0.82454157,4. TEMA: GEOMETRİK ŞEKİLLER,b),3
- çıktı çalış kâğıd ve performans görev ile değer,0,0.88026047,4. TEMA: GEOMETRİK ŞEKİLLER,e),0
-Öğrenci trigonometrik oran trigonometrik özdeş sinüs ve kosinüs teorem,0,0.87458515,4. TEMA: GEOMETRİK ŞEKİLLER,e),0
-benze dik üçgen,0,0.7593808,4. TEMA: GEOMETRİK ŞEKİLLER,i),0
-düzenle bir tablo yer ver Öğrenci tab,1,0.8123297,4. TEMA: GEOMETRİK ŞEKİLLER,u),1
-ve fark yöntem kâğıt katla,0,0.82595795,4. TEMA: GEOMETRİK ŞEKİLLER,i),0
-açıorta ilgili hatırlat yap MAB5 OB2 daha sonra bu açı oluş,0,0.7349996,4. TEMA: GEOMETRİK ŞEKİLLER,i),0
-ile fark yöntem kâğıt,0,0.82594943,4. TEMA: GEOMETRİK ŞEKİLLER,i),0
-kullan sağla hatırlat yap MAB5 D3 4 Benze,0,0.7905383,4. TEMA: GEOMETRİK ŞEKİLLER,i),0
-ile fark yöntem kâğıt,0,0.82595545,4. TEMA: GEOMETRİK ŞEKİLLER,i),0
-kullan bir üçgen herhangi iki kenar ait yükseklik inşa et,0,0.8421349,4. TEMA: GEOMETRİK ŞEKİLLER,i),0
-üçgen Hak araştır yap iste herhangi bir açı pergel ve ölçü süz,0,0.7005164,4. TEMA: GEOMETRİK ŞEKİLLER,y),0
-başka taraf oluş istatistiksel sonuç veya yorum yönelik istatis,1,0.92491454,5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a),1
-başka taraf oluş istatistiksel sonuç veya yorum yönelik hata,1,0.92491376,5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,b),1
-başka taraf oluş istatistiksel sonuç veya yorum çürüt ya da,1,0.9174753,5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,c),1
-ÖĞRENME ÖĞRETME,0,0.784429,5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e),0
-dair eleştirel soru sor bu bileşen ol,1,0.53693897,5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a),0
-seç öğrenci günlük hayat(I) karşıla,1,0.820099,5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),0
-ilişkin,0,0.6813224,5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),0
-dağılım incele iste,1,0.8150128,5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),1
-KAVRAMSAL,0,0.68955255,1. TEMA: SAYILAR,a),0
-bir doğal sayı asal çarpan ve bölen Hak varsayım bulun,0,0.90384823,1. TEMA: SAYILAR,a),1
-fark örnek el et örüntü listele bir doğal sayı asal çarpan,0,0.9172447,1. TEMA: SAYILAR,b),0
-Oluş genelle varsayım karşıla karşıla örnek sı,1,0.8683529,1. TEMA: SAYILAR,c),2
-El et önerme gerçek yaşam durum içer problem kullanışlı li,0,0.89776236,1. TEMA: SAYILAR,d),1
-bir çok doğal sayı ortak bölen bu en büyük ve ortak kat,0,0.8535889,1. TEMA: SAYILAR,a),0
-fark örnek el et örüntü listele varsayım yönelik örün,0,0.8913221,1. TEMA: SAYILAR,b),2
-Oluş genelle varsayım karşıla karşıla örnek sı,1,0.8682924,1. TEMA: SAYILAR,c),2
-Sun önerme gerçek yaşam durum içer problem katkı de,0,0.8976954,1. TEMA: SAYILAR,d),1
-el et önerme ile ilgili matematiksel doğrula yöntem seçe ve kul,0,0.883007,1. TEMA: SAYILAR,e),1
-El et önerme ilişkin iş koş matematiksel doğrula kullanışlı,0,0.8587802,1. TEMA: SAYILAR,f),1
-2 3 4 5 6 9 ve 10 ile  özellik hareket bir doğal sayı 2 3 4,0,0.7192741,1. TEMA: SAYILAR,a),0
-aynı sayı ile böl işlem el et kalan ilişkin fark örnek ilgili,0,0.72232807,1. TEMA: SAYILAR,b),1
-Oluş genelleme kendi varsayım karşıla karşıla örnek,1,0.6842744,1. TEMA: SAYILAR,c),1
-Ulaş önerme katkı bu sayı en küçük ortak kat oluş sayı,0,0.7499806,1. TEMA: SAYILAR,d),0
-Önerme ilişkin matematiksel doğrula yöntem seçe ve kullanı,0,0.89413065,1. TEMA: SAYILAR,e),1
-Önerme ilişkin iş koş matematiksel doğrula yöntem kullanışlı açı,0,0.8836097,1. TEMA: SAYILAR,f),1
- çıktı çalış kâğıd açık uç soru ve performans görev ile değerlen,0,0.9244448,1. TEMA: SAYILAR,e),0
-değerlendir uygulama yer ver ayrıca bu önerme değer,0,0.6257966,1. TEMA: SAYILAR,i),1
-EBOB ve EKOK özellik göster poster hazırla iste,1,0.85467666,1. TEMA: SAYILAR,i),0
-içeren,1,0.5469091,1. TEMA: SAYILAR,i),0
-bölünebil dair değerlendir,1,0.7935267,1. TEMA: SAYILAR,i),0
-incele araştır ödev  böylece,0,0.8080335,1. TEMA: SAYILAR,i),0
-asallık Üzer deneme,1,0.7383083,1. TEMA: SAYILAR,r),0
-sanı gibi veya asal sayı özellik Hak ikiz asal Fermat Feğma,0,0.8176094,1. TEMA: SAYILAR,h),0
-asal gibi araştır yap iste bu araştır,0,0.6571904,1. TEMA: SAYILAR,n),0
-çalış incele,0,0.75940865,1. TEMA: SAYILAR,s),0
-siyon hareket doğrusal fonksiyon nitel özellik Hak muhakeme yapa,1,0.9117262,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),2
-özellik ile bu fonksiyon türet g(x,1,0.6307578,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),1
-k  r k,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r),0
-Doğrusal referans fonksiyon nitel özellik tanım küme görüntü küme,1,0.935447,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),3
-matematiksel temsil kullan belirle,1,0.87594175,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),2
-Doğrusal referans fonksiyon nitel özellik ile matematiksel temsil ara,1,0.9142108,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),3
-Doğrusal referans fonksiyon grafik veya cebirsel temsil Üzer yap işlem,1,0.9151524,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),4
-doğrusal referans fonksiyon nitel özellik hareket diğer doğrusal fonksi,1,0.9318438,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),1
-Varsayım dayalı ol doğrusal fonksiyon nitel özellik ilişkin örün,1,0.54822516,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),2
-genel,0,0.6926638,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,l),0
-Genelle varsayım karşıla karşıla kontrol et,1,0.85922605,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f),1
-Genelle el et öner uygun sözel veya sembolik dil ile sun,0,0.78299415,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g),0
-Öner grafiksel ol doğru veya cebirsel ol ispat,0,0.88478285,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h),1
-0 şekil tanım mutlak,1,0.85294914,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-gerçek sayı f(x,0,0.76537347,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),0
-x,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-=,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-c,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-Gözlem yol çık gerçek sayı,0,0.7937745,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),0
-tespit et nitel özellik hareket gerçek sayı,1,0.59609765,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),0
-parça gösterim yönelik çıkarım bulun,1,0.8660602,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),1
-Doğrusal fonksiyon ifade edil denklem ve eşitsizlik ilişkin bileşen,0,0.81800485,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),1
-belirle,1,0.73909885,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),0
-Doğrusal fonksiyon ifade edil denklem ve eşitsizlik ilişkin matematik,0,0.89011055,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),1
-doğrusal fonksiyon ifade edil denklem ve eşitsizlik problem bağla,0,0.8530535,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),2
-el et ve yorumla fark temsil dayalı ol problem çözüm için strateji,1,0.9137757,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),3
-Belirle strateji kullan problem çöze,1,0.8982261,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),1
-el et çözüm uygun yöntem seç doğrula,0,0.5548472,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f),2
- olası çözüm strateji göz geçir,1,0.88999987,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g),1
- geçerli sözel cebirsel ve grafiksel argüman değerlen,0,0.90076,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h),0
-= x f(x = ax b f(x =,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-=,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-ℝ,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),0
-ara ilişki dayalı ol,1,0.80791306,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),1
- f(x r k,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-0 şekil tanım doğrusal fonksiyon grafik ve cebirsel temsil ulaş,1,0.9113365,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),3
-0 şekil tanım,1,0.8230499,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-ax + b a b,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-doğrusal fonksiyon a > 0 veya a < 0 ol durum fonksiyon artan azalan,1,0.71790427,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),2
-x1,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-ispat yap sonra,0,0.7844309,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,k),1
-şekil tanım fonksiyon grafik temsil incele,1,0.8926171,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),3
-fonksiyon,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),1
-mutlak değer fonksiyon cebirsel ve grafiksel ilişki incele bura fonksiyon,0,0.5753234,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),3
-temsil ara ilişki gözlemle yapı incele ve gözlem sonuç fonksiyon ait nitel,1,0.9251696,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),5
-bir cebirsel temsil ol parça gösterim dair çıkarım iki fark doğrusal fonksiyon,1,0.8678548,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),3
-yap bekle MAB3,1,0.82102823,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),0
-f(x,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-f(x,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-> k,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-=,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-< 0 f(x > 0,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-g(x f(x g(x f(x,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-MAT 9. 2. 3,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-g(x,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
- cebirsel veya grafik ol el et bu denklem ve eşitsizlik matematiksel bileşen,0,0.55379087,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),1
-",",1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-< 0 eşitsiz çözüm aralığ,1,0.8623253,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),1
-< 0 şekil bir eşitsiz,1,0.821473,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-< g(x şekil eşitsiz özel bir hâl g(x,1,0.86288095,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-geliş D16 2,1,0.73887765,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),0
-farklı uygulama yaptır,0,0.688176,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),1
-= |ax b| c,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-= ax b a b,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-kullan,1,0.66035676,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),0
-Algoritmik yaklaşım el alın bir problem işlem ve süreç yönelik bi,1,0.9230299,3. TEMA: ALGORİTMA VE BİLİŞİM,a),2
-problem durum temsil liste tablo çizge ak şema algoritmik doğal,0,0.51454514,3. TEMA: ALGORİTMA VE BİLİŞİM,b),4
-matematiksel yapı ara ilişki belirle,1,0.8826166,3. TEMA: ALGORİTMA VE BİLİŞİM,i),2
-problem durum sözel görsel veya cebirsel ifade algoritmik dil dön,0,0.81853205,3. TEMA: ALGORİTMA VE BİLİŞİM,c),2
-Karşılaş problem durum algoritma temel bir çözüm strateji oluş,1,0.87810004,3. TEMA: ALGORİTMA VE BİLİŞİM,d),3
-Karşılaş problem durum seç algoritma temel çözüm strateji kul,1,0.85131437,3. TEMA: ALGORİTMA VE BİLİŞİM,e),3
- problem durum seç algoritma temel çözüm strateji kont,1,0.8338139,3. TEMA: ALGORİTMA VE BİLİŞİM,f),3
- temel çözül problem olası çözüm strateji göz geçir,1,0.9278554,3. TEMA: ALGORİTMA VE BİLİŞİM,g),2
-Algoritma temel çözül problem  ulaş strateji yönelik çı,1,0.9216043,3. TEMA: ALGORİTMA VE BİLİŞİM,h),1
-Algoritmik yapı içeri kullan mantık bağlaç ve niceleyici belirle,1,0.93397444,3. TEMA: ALGORİTMA VE BİLİŞİM,a),2
-Algoritmik yapı ile mantık bağlaç ve niceleyi ara ilişki belirle,1,0.92789114,3. TEMA: ALGORİTMA VE BİLİŞİM,b),3
-Karşılaş algoritma mantık bağlaç ve niceleyi kullanım göz,1,0.9162927,3. TEMA: ALGORİTMA VE BİLİŞİM,a),2
-Matematiksel problem çöz doğrula ve ispat süreç mantık bağlaç ve,1,0.65148574,3. TEMA: ALGORİTMA VE BİLİŞİM,b),4
-mantık bağlaç ve  matematiksel dil ve sembolizm yalın ve kesin,1,0.8560355,3. TEMA: ALGORİTMA VE BİLİŞİM,c),1
- çıktı çalış kâğıd performans görev ve araştır ödev ile değerlen,0,0.9228278,3. TEMA: ALGORİTMA VE BİLİŞİM,e),0
-çözümlen ve bu kodlama ilgili ak şema oluştur,0,0.8285539,3. TEMA: ALGORİTMA VE BİLİŞİM,i),1
-ifade et kabul et,0,0.60910547,3. TEMA: ALGORİTMA VE BİLİŞİM,d),0
-arka yat matematik fark et,0,0.7663316,3. TEMA: ALGORİTMA VE BİLİŞİM,i),0
-Kö,1,0.5469091,3. TEMA: ALGORİTMA VE BİLİŞİM,r),0
-köprü problem tarihî bağlam ile birlikte tanıt öğrenci,0,0.67637455,3. TEMA: ALGORİTMA VE BİLİŞİM,k),1
-ülke geliş önem vurgula,0,0.58736974,3. TEMA: ALGORİTMA VE BİLİŞİM,i),0
-doğal sayı problem asal çarpan ayır ver iki sayı,0,0.899269,3. TEMA: ALGORİTMA VE BİLİŞİM,i),1
-el alın,1,0.73646027,3. TEMA: ALGORİTMA VE BİLİŞİM,i),0
-dönüştür bir şifrele örneğ ol el al E1 1 E3 11  ku,0,0.7824602,3. TEMA: ALGORİTMA VE BİLİŞİM,y),0
-ve düğüm nokta açıklan sonra çizge,0,0.50978035,3. TEMA: ALGORİTMA VE BİLİŞİM,i),0
-öğrenci,1,0.73702186,3. TEMA: ALGORİTMA VE BİLİŞİM,n),0
-problem durum na,0,0.61600584,3. TEMA: ALGORİTMA VE BİLİŞİM,d),1
-algoritma yaz doğal dil ya da ak şema veya ver bir algoritma,1,0.61877507,3. TEMA: ALGORİTMA VE BİLİŞİM,i),2
-çözümlen yönelik araştır,0,0.76331425,3. TEMA: ALGORİTMA VE BİLİŞİM,i),0
-tekrar çöz ve önce adım el et çözüm doğru kontrol et Mate,1,0.69318587,3. TEMA: ALGORİTMA VE BİLİŞİM,k),2
-geçen,1,0.5469091,3. TEMA: ALGORİTMA VE BİLİŞİM,i),0
-ve  her bazı anlam de,1,0.7387943,3. TEMA: ALGORİTMA VE BİLİŞİM,e),0
-oluştur belirle OB4 Öğrenci algoritmik yapı iç,1,0.89994085,3. TEMA: ALGORİTMA VE BİLİŞİM,d),2
-alın bu önerme doğru,0,0.650841,3. TEMA: ALGORİTMA VE BİLİŞİM,i),0
-algoritma örnek Öklid algoritma ile ilişkilendir öğrenci benze,1,0.9095384,3. TEMA: ALGORİTMA VE BİLİŞİM,f),3
-sağla avantaj yönelik araştır yap ve sonuç,1,0.8020027,3. TEMA: ALGORİTMA VE BİLİŞİM,i),1
-hareket,1,0.64952856,3. TEMA: ALGORİTMA VE BİLİŞİM,i),0
-tur ve gezgin satıcı,1,0.5469091,3. TEMA: ALGORİTMA VE BİLİŞİM,n),0
-kod oluştur bu çözümle gerek problem öğren,1,0.8705415,3. TEMA: ALGORİTMA VE BİLİŞİM,y),1
-kullan,1,0.6604793,3. TEMA: ALGORİTMA VE BİLİŞİM,i),0
-Mevcut bilgi dâhil geometrik dönüşüm yansı ötele dön özel,1,0.55999774,5. TEMA: EŞLİK VE BENZERLİK,a),1
-İncele örnek Üzer dönüşüm özellik ve şekil dönüşüm,1,0.9221833,5. TEMA: EŞLİK VE BENZERLİK,b),0
- özellik ve şekil dönüşüm alt görüntüs ilişkin var,1,0.7231172,5. TEMA: EŞLİK VE BENZERLİK,c),0
-Geometrik dönüşüm ilgili el et önerme konu ile ilgili başka çıkarım,0,0.7043095,5. TEMA: EŞLİK VE BENZERLİK,d),1
-iki üçgen eş veya benze ol koşul ilişkin varsayım bulun,0,0.8171172,5. TEMA: EŞLİK VE BENZERLİK,a),2
-İncele örnek Üzer iki üçgen eş veya benze ol koşul ilişkin var,0,0.508429,5. TEMA: EŞLİK VE BENZERLİK,b),1
-iki üçgen eş veya benze ol koşul ilişkin varsayım ile el et genel,0,0.8551326,5. TEMA: EŞLİK VE BENZERLİK,c),2
-iki üçgen eş veya benze ol koşul dair el et önerme fark ve,0,0.76931,5. TEMA: EŞLİK VE BENZERLİK,d),1
-bir üçgen benze üçgen oluştur eş ve benzer deneyim göz,0,0.88437897,5. TEMA: EŞLİK VE BENZERLİK,a),0
-Deneyim dayalı çıkarım yap,0,0.6053998,5. TEMA: EŞLİK VE BENZERLİK,b),1
-bir üçgen hareket o benze üçgen oluştur ile ilgili ulaş çıkarım,0,0.8725599,5. TEMA: EŞLİK VE BENZERLİK,c),1
-Tales Öklid ve Pisagor teorem ilişkin fark ispat kullan,0,0.8825687,5. TEMA: EŞLİK VE BENZERLİK,a),1
-Kullan matematiksel ispat ve teorem yeni durum uyarla değerlen,0,0.90152395,5. TEMA: EŞLİK VE BENZERLİK,b),1
- ver ve istenen ilişkin parça belirle,1,0.606467,5. TEMA: EŞLİK VE BENZERLİK,a),0
- veril isten ve gerek işlem ara ilişki belirle,1,0.8992487,5. TEMA: EŞLİK VE BENZERLİK,b),2
- parça ara ilişki problem bağlam uygun ol dönüş,1,0.6659865,5. TEMA: EŞLİK VE BENZERLİK,c),2
- çözüm gerçekleştir için strateji oluş,1,0.88937944,5. TEMA: EŞLİK VE BENZERLİK,d),1
-Belirle strateji çözüm için uygula problem çöze,1,0.91723555,5. TEMA: EŞLİK VE BENZERLİK,e),2
- çözüm kontrol et,1,0.8202618,5. TEMA: EŞLİK VE BENZERLİK,f),1
- çözüm için geliş kullan strateji kısa yol ve çözüm,1,0.9023603,5. TEMA: EŞLİK VE BENZERLİK,g),2
-Ulaş çıkarım geçerli matematiksel örnek değerlen,0,0.79229856,5. TEMA: EŞLİK VE BENZERLİK,h),1
-bu üçgen eş üçgen ,0,0.78546405,5. TEMA: EŞLİK VE BENZERLİK,e),0
- çıktı çalışma kâğıd açık uç soru proje ödev ve performans görev ile,0,0.9316559,5. TEMA: EŞLİK VE BENZERLİK,e),0
-öğrenci rehber et önem i Öğrenci sun varsayım,1,0.571638,5. TEMA: EŞLİK VE BENZERLİK,i),1
-ol ifade et el et önerme de,0,0.7824764,5. TEMA: EŞLİK VE BENZERLİK,i),0
-fark et sağ,0,0.62875485,5. TEMA: EŞLİK VE BENZERLİK,i),0
-süreç yönet Öğrenci eş ve benzerlik,1,0.86140543,5. TEMA: EŞLİK VE BENZERLİK,i),0
-belirle hedefle öğren ortam oluştur bu süreç,1,0.8909595,5. TEMA: EŞLİK VE BENZERLİK,i),0
-çiz benze üçgen oluştur öğrenci bu çıkarım hareket ifade,0,0.6626387,5. TEMA: EŞLİK VE BENZERLİK,e),1
-yorumla bekle Öğrenci Tales Öklid ile Pisagor teorem,1,0.72536063,5. TEMA: EŞLİK VE BENZERLİK,i),0
-kul,1,0.5469091,5. TEMA: EŞLİK VE BENZERLİK,r),0
-iki kategorik değişken veri dayalı istatistiksel araştır gerek gerçek ya,1,0.88743335,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a),1
- içeri iki kategorik değişken ara ilişkili odaklan araştır,1,0.89948744,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,b),0
-iki kategorik değişken veri topla el et için plan yap,1,0.90650785,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,c),1
-araştır soru bağlam topla el et iki kategorik değişken veri,1,0.63619876,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,d),1
-araç uygun ol seçe,1,0.66324073,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),0
-araştır soru bağlam topla el et veri belirle araç ana,1,0.61459196,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e),1
-iki kategorik değişken veri dağılım dayalı istatistiksel araştır hareket,1,0.9217809,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,f),2
-iki kategorik değişken veri dağılım dayalı istatistiksel araştır hareket,1,0.9217828,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,g),2
-başka taraf oluş iki kategorik değişken veri ilişkili dayalı,1,0.9360838,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a),1
-başka taraf oluş iki kategorik değişken veri ilişkili dayalı,1,0.9360836,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,b),1
-başka taraf oluş iki kategorik değişken veri ilişkili dayalı,1,0.9360829,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,c),1
-ÖĞRENME ÖĞRETME,0,0.7844292,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e),0
-ÖĞRENME ÖĞRETME,0,0.7844294,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e),0
-belirlen oluştur veri topla ve analiz hazır hâl getir bekle,1,0.9049514,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),2
-uygun ol seç MAB3 uygun ol araç belirle araştır,1,0.8938231,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),0
-kul,1,0.5469091,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),0
-içer önem i bu,0,0.7732457,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,r),0
-kullanabil bil ve bu kaynak kullanır ne dikkat et gerek,0,0.5660836,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),0
-ara tutarlı ol ol yan yanlış veya eksik bilgi ol ol,1,0.80717313,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),1
-hareket araştır soru oluştur,0,0.7478187,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),0
-öğrenci sun ve öğrenci bu durum iliş,0,0.5094936,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),0
-bir olay gerçekleş diğer bir olay meydan gel bağ ol du,1,0.90698993,7. TEMA: VERİDEN OLASILIĞA,a),0
-bir olay gerçekleş diğer bir olay meydan gel bağ ol ger,1,0.9069899,7. TEMA: VERİDEN OLASILIĞA,b),0
-bir olay gerçekleş diğer bir olay meydan gel bağ ol ya da,1,0.9069895,7. TEMA: VERİDEN OLASILIĞA,c),0
-bir olay gerçekleş diğer bir olay meydan gel bağ ol ya da,1,0.9069896,7. TEMA: VERİDEN OLASILIĞA,d),0
-Bayes teorem kullan gerçek yaşam durum ilişkin mevcut bilgi kul,0,0.90856004,7. TEMA: VERİDEN OLASILIĞA,a),1
-mevcut bilgi kullan Bayes teorem dayalı hesapla yap,0,0.79984903,7. TEMA: VERİDEN OLASILIĞA,b),1
-Bayes teorem kullan gerçek yaşam durum ilişkin ileri yönelik yargı,0,0.9052681,7. TEMA: VERİDEN OLASILIĞA,c),0
- çıktı çalış kâğıd kontrol liste açık uç soru ve performans görev,0,0.8897383,7. TEMA: VERİDEN OLASILIĞA,e),0
-uygun ol belirle bu yaklaşım uygun karar verebil,1,0.879177,7. TEMA: VERİDEN OLASILIĞA,k),0
-ara,1,0.5469091,7. TEMA: VERİDEN OLASILIĞA,k),0
-ve bağımlı olay hile iki sayı küp at küp üst yüzey,0,0.5621432,7. TEMA: VERİDEN OLASILIĞA,i),0
-içer dikkat et gerçek yaşam durum seçil bağım,0,0.8817304,7. TEMA: VERİDEN OLASILIĞA,i),0
-ilişkin tüm olası çıktı ağaç şema tablo veya al model gibi fark temsil kul,0,0.50567454,7. TEMA: VERİDEN OLASILIĞA,i),3
-öğrenci,1,0.7370216,7. TEMA: VERİDEN OLASILIĞA,i),0
-gibi durum,0,0.6803102,7. TEMA: VERİDEN OLASILIĞA,i),0
-ver gerçek yaşam durum ilişkin el et oran veya göre sıklık,0,0.89990383,7. TEMA: VERİDEN OLASILIĞA,i),0
-algoritma Enigma da kullan,1,0.799012,7. TEMA: VERİDEN OLASILIĞA,z),1
-KAVRAMSAL,0,0.68956643,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),0
-gerçek sayı fonksiyon ol şart ile gerçek sayı tanım fonksiyon,0,0.6868258,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),2
-grafik ve,1,0.7412272,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),1
-gerçek sayı tanım fonksiyon grafik ve cebirsel temsil fonksiyon,1,0.63988787,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),4
-Karşılaştır hareket gerçek sayı tanım fonksiyon grafik ve,0,0.5136465,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),2
-x2 şekil tanım karesel referans fonksiyon nitel,1,0.90733135,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),1
-0,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-karesel fonksiyon nitel özellik ilişkin matematiksel muhakeme yapabil,1,0.847047,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r),3
-Karesel referans fonksiyon nitel özellik tanım küme görüntü küme,1,0.9361718,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),3
-matematiksel temsil kullan belirle,1,0.8759521,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),2
-Karesel referans fonksiyon nitel özellik ile matematiksel temsil ara,1,0.9156728,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),3
-Karesel referans fonksiyon grafik ve cebirsel temsil Üzer yap işlem,1,0.91692406,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),4
-Karesel referans fonksiyon nitel özellik hareket diğer karesel fonks,1,0.9325891,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),1
-Varsayım dayalı ol karesel fonksiyon nitel özellik ilişkin örüntü,1,0.55894166,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),1
-genel,0,0.6926635,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,l),0
-Genelle varsayım karşıla karşıla kontrol et,1,0.8592407,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f),1
-Genelle el et öner uygun sözel veya cebirsel dil ile sun,0,0.81687397,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g),0
-Öner grafiksel ol doğru veya cebirsel ol ispat,0,0.88478285,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h),1
-0 şekil tanım karekök referans fonksiyon,1,0.8897823,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),1
-0,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-karekök fonksiyon nitel özellik ilişkin matematiksel muhakeme yapabil,1,0.847115,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r),3
-karekök referans fonksiyon nitel özellik tanım küme görüntü küme işaret,1,0.9424459,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),3
-matematiksel temsil kullan belirle,1,0.875933,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),2
-karekök referans fonksiyon nitel özellik ile matematiksel temsil ara,1,0.9156862,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),3
-karekök referans fonksiyon grafik ve cebirsel temsil Üzer yap işlem diğer,1,0.9276788,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),4
-karekök referans fonksiyon nitel özellik hareket diğer karekök fonksiyon,1,0.92517775,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),2
-Varsayım dayalı ol karekök fonksiyon nitel özellik ilişkin örüntü,1,0.55925965,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),1
-genel,0,0.69266343,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,l),0
-Genelle varsayım karşıla karşıla kontrol et,1,0.8592419,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f),1
-Genelle el et öner uygun sözel veya cebirsel dil ile sun,0,0.81684774,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g),0
-Öner grafiksel ol doğru veya cebirsel ol ispat,0,0.8847832,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h),1
- nitel özellik ile bu fonksiyon türet g(x,1,0.8038449,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),1
-1,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r),0
-Rasyonel referans fonksiyon nitel özellik tanım küme görüntü küme işare,1,0.93448,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),3
-matematiksel temsil kullan belirle,1,0.8759744,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),2
-Rasyonel referans fonksiyon nitel özellik ile matematiksel temsil ara,1,0.91222906,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),3
-Rasyonel referans fonksiyon grafik ve cebirsel temsil Üzer yap işlem di,1,0.9126561,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),4
-Rasyonel referans fonksiyon nitel özellik hareket diğer rasyonel fonksiyon,1,0.9192971,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),2
-Varsayım dayalı ol rasyonel fonksiyon nitel özellik ilişkin örüntü,0,0.51135063,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),1
-genel,0,0.6926636,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,l),0
-Genelle varsayım karşıla karşıla kontrol et,1,0.859215,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f),1
-Genelle el et öner uygun sözel veya cebirsel dil ile sun,0,0.8168531,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g),0
-Öner grafiksel ol doğru veya cebirsel ol ispat,0,0.8847825,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h),1
- fonksiyon ve bu türetil fonksiyon Üzer bir fonksiyo,1,0.7383106,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),2
-Varsayım yararlan fark durum ilgili örüntü listele referans,0,0.82082075,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),0
- fonksiyon ve bu türet fonksiyon ters fonksiyon ilişki,0,0.5198916,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),4
-referans fonksiyon ve bu türet fonksiyon ters fonksiyon ait,1,0.5276881,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),3
-bu fonksiyon ifade edil denklem ve eşitsizlik ilişkin matematiksel bile,0,0.9011738,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a),1
-belirle,1,0.73909444,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),0
-bu fonksiyon ifade edil denklem ve eşitsizlik ilişkin matematiksel bile,0,0.90118086,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b),1
-bu fonksiyon ifade edil denklem ve eşitsizlik problem bağlam,0,0.88578624,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),2
-el et ve yorumla fark temsil yarar problem çözüm için stra,1,0.91561395,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d),3
-Belirle strateji kullan,1,0.8511584,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),0
-el et çözüm fark yöntem kullan doğru,0,0.641277,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f),1
- olası çözüm strateji göz geçir,1,0.88999975,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g),1
- geçerli sözel cebirsel ve grafiksel argüman değerlen,0,0.90075964,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h),0
-x2,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-x,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-g(x,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-k f 1(x,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r),0
-94,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),0
-yararlanıla,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),0
-analiz et bu analiz yap  küme her bir gerçek sayı değer küme,1,0.6036585,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),4
-> f(y,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-< f(y dir gibi önerme fonksiyon cebirsel veya grafik temsil kullan,1,0.60296273,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),3
-yer ver 1700  yıl gelin matema,1,0.7335932,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),0
-bu tanım daha formel hâl getir belirt fonksiyon kavram,1,0.83496064,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),1
-0,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-k a r k,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r),0
-varsayım geliştir fonksiyon sıfır 0 ve 4 ve grafik simetrik ol dikkate,0,0.65322095,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),3
-şekil tamkare tamamla grafik temsil dönüşüm el et bu şekil fonk,1,0.92579436,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),2
-fonksiyon,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),1
-3 ik f(x,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-tamkare form  ilişkin yorum varsayım,0,0.7593432,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),1
-geliştir etkin şekil kullan bu bağlam   tamkare tamamla yöntem,0,0.6673681,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-için x2 0 ol x2 + a a ol bu durum,0,0.680327,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-a ol cebirsel,0,0.63281804,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-kullan ve çarpan ayır gibi matematiksel doğrula yöntem,0,0.86223537,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c),1
-kullanışlı açı değerlendir bekle,1,0.63296705,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-hangi aralık değer al,0,0.585816,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-1,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-problem üretim tüketim gibi bağlam incele,0,0.7033809,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e),1
-< g(x,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-= < >,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-g(x gibi denklem ve eşitsiz tanımla sağla E3 6 E3 7 bura kullanı,0,0.5242366,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-dönüşüm yapı,1,0.8208551,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,l),1
-=,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-< 0 gibi eşit,1,0.7386055,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),0
-m k p n,1,0.5469091,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,p),0
-bağ ol gelir Türk lira ve maliyet Türk lira 0 nda tanım sı,1,0.86303467,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g),0
-= 4x2 ve g x = 18x fonksiyon ile modelle durum bu fonksiyon grafik,0,0.6020188,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),4
-g x eşitsizliğ çözüm küme 9 2 ol belirle bu durum,1,0.7532195,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x),2
-kullan,1,0.6604149,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i),0
-ver say problem say nesne belirle,1,0.8533859,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",a),1
-say problem yer al nesne ara ilişki belirle,1,0.8819633,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",b),2
-problem durum sözel ifade görsel temsil dönüş,0,0.72165924,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",c),2
-say problem fark durum uygun çözüm strateji oluş,1,0.7799114,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",d),2
-seç çözüm strateji kullan,1,0.85279685,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",e),1
-seç çözüm strateji kontrol et,1,0.86309874,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",f),1
-say problem olası çözüm strateji göz geçir,1,0.9043488,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",g),2
-say problem çözüim ulaş strateji yönelik çıkarım değerlen,1,0.6261162,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",h),2
-Karşılaş problem durum cebirsel ve fonksiyonel işlem algoritmik,1,0.7403297,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",a),3
- bilgi kullan cebirsel ve fonksiyonel yapı ile bu yapı algorit,1,0.90587413,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",b),3
-ve bu problem çözüm,1,0.80690235,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i),2
-102,1,0.5469091,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",e),0
-oluştur veya ver algoritma çözümley,1,0.80125874,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",d),1
-yap iş,1,0.5469091,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",a),0
-yönelik görüş alı bu süreç,1,0.79809046,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i),0
-el al daha karmaşık bir problem durum içer say yöntem bakım,0,0.82153404,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i),1
-hesap sıra,1,0.7413431,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",t),0
-içer i iç özdeş,0,0.7774968,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i),0
-ve niceleyici her,1,0.7386794,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",k),0
-incele ve karekök ifade et bir irrasyonel sayı yaklaşık değer bul kul,0,0.55773765,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i),0
-Öğrenci algoritma  ön bilgi kullan cebirsel ve fonksiyonel,1,0.8895954,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",x),2
-bir çözüm üret,1,0.7447709,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",d),1
-oluştur iste bu ve bu gibi örnek Üzer öğrenci olası,1,0.908347,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",d),0
-cebr çizge kuram en,1,0.64127064,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",l),0
-Üzer grup çalış veya pro,0,0.600226,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i),0
-kullan,1,0.6604858,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i),0
-KAVRAMSAL,0,0.68955404,5. TEMA: ANALİTİK İNCELEME,a),0
-dik koordinat sistem iki nokta ara uzaklık bağıntı ve bir doğru parça,0,0.8361694,5. TEMA: ANALİTİK İNCELEME,a),0
-fark örnek Üzer varsayım yönelik örüntü genel,0,0.7429736,5. TEMA: ANALİTİK İNCELEME,b),1
-iki nokta ara uzaklık bağıntı ve bir doğru parça belli oran böl,0,0.7885181,5. TEMA: ANALİTİK İNCELEME,c),0
-Öner gerçek yaşam problem bağlam değerlen,0,0.8828638,5. TEMA: ANALİTİK İNCELEME,d),1
-dik koordinat sistem doğru eğim açı eğim ve doğru birbiri,0,0.914661,5. TEMA: ANALİTİK İNCELEME,a),0
-Karşılaş problem durum dik koordinat sistem doğru eğim açı,0,0.8833234,5. TEMA: ANALİTİK İNCELEME,b),1
-dik koordinat sistem doğru eğim açı eğim ve doğru birbiri,0,0.9146607,5. TEMA: ANALİTİK İNCELEME,c),0
-|AB| A,1,0.5469091,5. TEMA: ANALİTİK İNCELEME,e),0
-ve   analitik geometri ilgili çalış tanı,0,0.8875484,5. TEMA: ANALİTİK İNCELEME,t),0
-analitik ol hesapla gerçek uzaklık karşılaş dijital okuryazar,0,0.86186826,5. TEMA: ANALİTİK İNCELEME,k),1
-ve   analitik geometri ilgili çalış tanı,0,0.88754857,5. TEMA: ANALİTİK İNCELEME,t),0
-be,1,0.5469091,5. TEMA: ANALİTİK İNCELEME,a),0
-sahip iki doğru ara,0,0.5318897,5. TEMA: ANALİTİK İNCELEME,i),0
-f(x,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),0
-x,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),0
-tanx,1,0.7410584,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),0
-(,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),r),0
-Trigonometrik referans fonksiyon nitel özellik tanım küme görüntü kü,1,0.8344921,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),a),2
-matematiksel temsil kullan belirle,1,0.8759422,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),u),2
-Trigonometrik referans fonksiyon nitel özellik ile matematiksel temsil,1,0.7861823,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),b),3
-Trigonometrik referans fonksiyon grafik ve cebirsel temsil Üzer yap iş,1,0.735556,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),c),3
-Trigonometrik referans fonksiyon türet fonksiyon nitel özellik,1,0.6672135,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),d),2
-Varsayım yararlan fark durum ilgili örüntü listele türet,0,0.9182385,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),e),0
-Genelle varsayım karşıla karşıla kontrol et,1,0.85923165,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),f),1
-Genelle el et öner uygun sözel veya cebirsel dil ile sun,0,0.8168581,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),g),0
-Öner grafiksel ol doğru veya cebirsel ol ispat,0,0.8847832,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),h),1
-Trigonometrik fonksiyon ifade edil denklem ilişkin matematiksel bi,0,0.88420606,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),a),1
-belirle,1,0.73908913,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),0
-Trigonometrik fonksiyon ifade edil denklem ilişkin matematiksel bile,0,0.900803,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),b),1
-Trigonometrik fonksiyon ifade edil denklem problem bağlam,0,0.88528967,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),c),2
-el et ve yorumla fark temsil dayalı ol problem çözüm için stra,1,0.91349614,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),d),3
-Belirle strateji kullan,1,0.85112786,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),e),0
-el et çözüm fark yöntem kullan doğru,0,0.6412656,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),f),1
- olası çözüm strateji göz geçir,1,0.88999975,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),g),1
- geçerli sözel cebirsel ve grafiksel argüman değerlen,0,0.9007601,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),h),0
-2π 360 sinx cosx cotx T tanx,1,0.8877491,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),e),0
-araştır ödev  ver ödev hazırlık içerik ve sunum süreç,0,0.65171385,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),0
-nokta kullan,1,0.7878097,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),y),0
-sinx cosx cotx,1,0.86140645,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),0
-gerçek sayı tanım ol ve bu fonksiyon görüntü küme 1 1 ol,1,0.7045365,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),2
-keşfet yönelik çalış yap f(x,0,0.69241697,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),0
-k,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),r),0
-cebirsel temsil ifade et E3 6 E3 7 bu dönüşüm el et yorumla ma,1,0.6918515,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),1
-hareket yasa sabit ivme,0,0.687006,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),n),0
-gibi önerme ilişkin ilgili fonksiyon,0,0.8338965,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),1
-k f mx,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),r),0
-0 m,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),0
-h(x gibi eşitlik trigonometrik denklem,0,0.8348107,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),0
-=,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x),0
-dönüşüm yap bu temsil ara geç göster,1,0.8634273,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),l),1
-kulla,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),0
-kullan,1,0.6604414,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),0
-KAVRAMSAL,0,0.6895512,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a),0
-gerçek sayı tanım doğrusal ve karesel fonksiyon,1,0.67526,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a),1
-an(II) xn + an 1 xn 1 + + a1 x + a0 n,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),0
-Gözlem yol çık gerçek sayı tanım doğrusal ve karesel fonk,1,0.6893914,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),b),0
-form polinom fonksiyon tanım ve değer küme ile işlem özellik,1,0.8791558,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),3
-tespit et özellik hareket gerçek sayı tanım doğrusal ve karesel,1,0.7654296,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),c),0
-siyon aynı aile ol ve benze nitel özellik sahip ol,1,0.9000461,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),0
-gerçek katsayı tek değişken polinom fonksiyon nitel özellik tanım kü,1,0.8866111,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a),1
-mes görüntü küme derece bir birlik örten işaret sıfır tek,1,0.8585777,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),i),1
-gerçek katsayı tek değişken polinom fonksiyon nitel özellik dair var,1,0.87552816,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),b),1
-gerçek katsayı tek değişken polinom fonksiyon nitel özellik dair genel,1,0.6822362,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),c),1
-gerçek katsayı tek değişken polinom fonksiyon nitel özellik dair öner,1,0.6834935,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),d),1
-Polinom ve rasyonel fonksiyon ifade edil denklem ve eşitsizlik içer,0,0.8985623,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a),1
- strateji kullan problem çöze,1,0.87668,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),b),1
- çözüm kontrol et,1,0.82026213,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),c),1
- olası çözüm strateji fark problem durum kullanım ile ilgili,1,0.6523669,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),d),2
- geçerli sözel cebirsel ve grafiksel argüman değerlen,0,0.9007603,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),e),0
- çıktı çalış kâğıd performans görev proje ödev açık uç soru ve araş,0,0.9317496,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),e),0
-polinom ol adlandır belir polinom derece başkatsayı sabit terim tanı,0,0.8824844,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),0
-matematik yazılım oluştur,0,0.7855132,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),i),1
-l grafik ve cebirsel temsil incele bu fonksiyon tek veya çift durum,1,0.55990916,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),3
-x3 + 3x p(x,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),0
-için p(x,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),m),0
-polinom fonksiyon sıfır k m k m,0,0.73156,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),1
-polinom fonksiyon sıfır,0,0.7315439,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),1
-iken a > 0,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),k),0
-polinom fonksiyon sıfır k + a m + a ol gibi öner el et,0,0.812338,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a),1
-uygulama hedefle proje incele OB5  fonksiyon tarihî gelişim,0,0.8715584,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a),2
-< g(x gibi polinom veya rasyonel fonksiyon içer,0,0.7056256,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),1
-f(x g(x fonksiyon işaret bir derece çar,1,0.80945647,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),1
-r hangi ardışık tam sayı ara ol dair çıkarım bulun fonksiyon,0,0.843048,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),3
-formül,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),t),0
-rine yönelik araştır ödev  Öğrenci araştır sonuç ulaş veri,1,0.64363706,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),2
-yöntem yer ver bir kök tahmin,0,0.6920142,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),r),1
-x4 fonks,1,0.7133295,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),0
-x2 + 1,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),0
-x 1,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),0
-=,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x),0
-kullan öğrenci için bireyselleştir öğren plan oluştur ve po,1,0.9117891,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),i),0
--,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),e),0
-iki veya daha fazla fonksiyon bileşke oluş bir fonksiyon bileşen,1,0.88374734,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),a),2
-belirle,1,0.73909515,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),i),0
-iki veya daha fazla fonksiyon bileşke oluş bir fonksiyon bileşen ara,1,0.88374853,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),b),2
-iki veya daha fazla fonksiyon bileşke el et fonksiyon sembolik bir dil,1,0.8337641,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),c),2
-Bileşke fonksiyon ve bu fonksiyon nitel özellik işaret artan azal,1,0.90376633,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),d),2
-ilişkin,0,0.6813188,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),i),0
-Varsayım dayalı ol bileşke fonksiyon ve bileşke fonksiyon nitel özel,1,0.89871204,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),e),2
-Genelle varsayım karşıla karşıla kontrol et,1,0.8592137,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),f),1
-Genelle el et önerme matematiksel ol doğrula,0,0.776574,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),g),1
-Öner grafiksel ol doğru veya cebirsel ol ispat,0,0.88478214,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),h),1
-Fonksiyon dört işlem yapıl koşul incele,1,0.79988796,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),a),2
-Fonksiyon dört işlem uygun cebirsel veya grafik temsil ifade et,1,0.71926016,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),b),3
- dört işlem özellik dönüştür fonksiyon bağlam sözel,0,0.6787136,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),c),2
-f g x f g x f + g x f g x f g x f g x,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),e),0
-f(x 2 ol yol çıkıl f fonk,1,0.6405079,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),0
-x 2)2 şekil tanım fonksiyon hareket,1,0.85181177,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),1
-h(x))2 şekil tanım fonksi,1,0.86360294,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),0
-yon dönüşüm Üzer dur bu bağlam dönüşüm sonuç oluş fonksiyon birden,1,0.8454745,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),2
-=,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),0
-x gösterim kullan MAB3 fog fonksiyon tanım olabil,1,0.90205467,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),g),1
-eşitlik her,0,0.6890287,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),0
-f ve g fonksiyon için sağla sağlana ve gerçek sayı tanım bir fonksiyon,1,0.5262057,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),2
-g 1of 1)(x fo(goh))(x,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),0
-gibi değin el et var,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),0
-x gösterim kullan MAB3 fog fonksiyon tanım olabil,1,0.9020552,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),g),1
-gof)(x eşitlik her,0,0.68901277,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),0
-f + g ve f g fonksiyon cebirsel ve grafik temsil oluştur ardından f g f + g f g,1,0.8290297,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),3
-=,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),0
-< g(x i fof)(x < fog)(x gibi öner,0,0.6923405,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x),0
-fonksiyon ile bileşke fonksiyon ilişki orta koy örnek incele Döngü kullanı,1,0.5642843,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),d),3
-kullan öğrenci için bireyselleştir öğren plan oluştur ve öğrenci,1,0.9231716,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),i),0
-Dörtgen kenar açı köşegen simetri ve al özellik ilişkin varsayım,0,0.89581597,2. TEMA: GEOMETRİK ŞEKİLLER,a),1
-Varsayım kullan dörtgen kenar açı köşegen simetri ve al özellik,0,0.8780184,2. TEMA: GEOMETRİK ŞEKİLLER,b),0
-Dörtgen kenar açı köşegen simetri ve al özellik ilişkin varsayım ile,0,0.8958384,2. TEMA: GEOMETRİK ŞEKİLLER,c),1
-Dörtgen kenar açı köşegen simetri ve al özellik ilişkin sun öner,0,0.8993313,2. TEMA: GEOMETRİK ŞEKİLLER,d),0
-El et önerme üçgen açı benzer ve al özellik kullan is,0,0.8183605,2. TEMA: GEOMETRİK ŞEKİLLER,e),0
-İş koş ispat kullanışlı açı değerlen,0,0.8333845,2. TEMA: GEOMETRİK ŞEKİLLER,f),1
-Dörtgen özellik kullan özel dörtgen ara hiyerarşik veya ne,1,0.6305984,2. TEMA: GEOMETRİK ŞEKİLLER,a),0
-özel dörtgen ara hiyerarşik ilişki dair anlam bir bütün oluş,1,0.8826052,2. TEMA: GEOMETRİK ŞEKİLLER,b),1
-çokgen ayırt et için ölçüt belirle,0,0.6293827,2. TEMA: GEOMETRİK ŞEKİLLER,a),0
-çokgen belirle ölçüt göre ayrış,0,0.769362,2. TEMA: GEOMETRİK ŞEKİLLER,b),0
-Ayrış çokgen tasnif et,0,0.7831994,2. TEMA: GEOMETRİK ŞEKİLLER,c),0
-Dışbükey çokgen kenar açı köşegen simetri ve al özellik dair varsayım,0,0.89124924,2. TEMA: GEOMETRİK ŞEKİLLER,a),1
-Varsayım kullan dışbükey çokgen kenar açı köşegen simetri ve al,0,0.9044634,2. TEMA: GEOMETRİK ŞEKİLLER,b),0
-Dışbükey çokgen kenar açı köşegen simetri ve al özellik ilişkin genel,0,0.9132031,2. TEMA: GEOMETRİK ŞEKİLLER,c),0
-Dışbükey çokgen kenar açı köşegen simetri ve al özellik ilişkin sun,0,0.9004621,2. TEMA: GEOMETRİK ŞEKİLLER,d),0
-çokgen içer problem parça nicelik şekil gibi belirle,1,0.6529842,2. TEMA: GEOMETRİK ŞEKİLLER,a),1
- parça ara ilişki belirle,1,0.8535212,2. TEMA: GEOMETRİK ŞEKİLLER,b),1
- bileşen ve ara ilişki bağla uygun ol matematiksel,1,0.8238837,2. TEMA: GEOMETRİK ŞEKİLLER,c),1
- çözüm için strateji geliş,1,0.86320066,2. TEMA: GEOMETRİK ŞEKİLLER,d),1
-Geliş strateji kullan problem çöze,1,0.8981956,2. TEMA: GEOMETRİK ŞEKİLLER,e),1
-Çözüm kontrol et ve  ulaştır strateji değiş,1,0.9065482,2. TEMA: GEOMETRİK ŞEKİLLER,f),0
- olası fark çözüm strateji incele problem çözüm ilişkin de,1,0.77255136,2. TEMA: GEOMETRİK ŞEKİLLER,g),3
-Ulaş çıkarım geçerli değerlen,0,0.8162383,2. TEMA: GEOMETRİK ŞEKİLLER,h),1
-",",1,0.5469091,2. TEMA: GEOMETRİK ŞEKİLLER,e),0
-iş koş,1,0.5469091,2. TEMA: GEOMETRİK ŞEKİLLER,i),0
-ol ifade et iste  değerlendir süreç öğrenci sun,1,0.7685003,2. TEMA: GEOMETRİK ŞEKİLLER,i),0
-ve al dörtgen alan,0,0.7740902,2. TEMA: GEOMETRİK ŞEKİLLER,i),0
-özellik ilişkin çıkarım bulun sağla bu yan sıra öğrenci dört,1,0.7542513,2. TEMA: GEOMETRİK ŞEKİLLER,i),1
-kullan dörtgen ilişkin başka çıkarım Paralelkenarın,0,0.5833583,2. TEMA: GEOMETRİK ŞEKİLLER,i),1
-vurgulan,1,0.5469091,2. TEMA: GEOMETRİK ŞEKİLLER,i),0
-ve,1,0.5469091,2. TEMA: GEOMETRİK ŞEKİLLER,i),0
-ol ifade et iste  değerlendir süreç öğrenci sun,1,0.7684505,2. TEMA: GEOMETRİK ŞEKİLLER,i),0
-ilgili yeni fikir geliştir,0,0.8359086,2. TEMA: GEOMETRİK ŞEKİLLER,i),0
-öğrenci beraber belirle ve gerekçelendir Öğrenci grup çalış,1,0.6219565,2. TEMA: GEOMETRİK ŞEKİLLER,i),0
-sağla Öğrenci fark kültür ve Türk,1,0.83520913,2. TEMA: GEOMETRİK ŞEKİLLER,i),0
-ol ifade et,0,0.6841641,2. TEMA: GEOMETRİK ŞEKİLLER,i),0
-kullan eser incele bu eser yapım kullan düzgü çokgen nasıl,0,0.7362672,2. TEMA: GEOMETRİK ŞEKİLLER,i),0
-yap sağla süreç iş koş Öğrenci düzgün beşgen düz,1,0.8547457,2. TEMA: GEOMETRİK ŞEKİLLER,i),0
-özellik iliş,0,0.61960703,2. TEMA: GEOMETRİK ŞEKİLLER,i),0
-ve bu parça ara ilişki belirle sağla,1,0.87770677,2. TEMA: GEOMETRİK ŞEKİLLER,i),1
-çıkarım matematiksel örnek destekle değerlendir yap,1,0.81815296,2. TEMA: GEOMETRİK ŞEKİLLER,i),1
-hakk,1,0.5469091,2. TEMA: GEOMETRİK ŞEKİLLER,i),0
-altın,1,0.5469091,2. TEMA: GEOMETRİK ŞEKİLLER,i),0
-iki nicel değişken veri dayalı istatistiksel araştır gerek gerçek yaşam du,1,0.70991427,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a),1
- içeri iki nicel değişken ara ilişkili odaklan araştır so,1,0.89914495,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,b),0
-iki nicel değişken veri topla el et için plan yap,1,0.906326,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,c),1
-araştır soru bağlam topla el et iki nicel değişken veri ana,1,0.6336043,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,d),1
-araştır soru bağlam topla el et veri belirle araç ana,1,0.6145974,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e),1
-iki nicel değişken veri dağılım dayalı istatistiksel araştır el et,1,0.9145519,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,f),2
-iki nicel değişken veri dağılım dayalı istatistiksel araştır el et,1,0.9145675,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,g),2
-başka taraf oluş iki nicel değişken veri ilişkili dayalı ista,1,0.9422854,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a),1
-başka taraf oluş iki nicel değişken veri ilişkili dayalı ista,1,0.9422851,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,b),1
-başka taraf oluş iki nicel değişken veri ilişkili dayalı ista,1,0.9422861,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,c),1
- çıktı çalış kâğıd kontrol liste ve kavram harita performans görev ile,0,0.86067456,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e),0
-ara bir iliş,0,0.6905405,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,h),0
-belirle oluştur veri topla ve,1,0.88131034,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),1
-odaklan sağla,1,0.77439463,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),0
-ve güc ilişki yok zayıf orta güç ilişkin yo,0,0.63175815,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,f),1
-yoğunluk etkiley,1,0.5469091,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),0
-kullana,1,0.5469091,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),0
-ve sayısal değer korelasyon katsayı ara tutarlı,1,0.85575414,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),1
-faydalan bu süreç,1,0.8203717,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),0
-hareket araştır soru oluştur veri,0,0.5114572,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),1
-sun ve öğrenci bu ilişkin değerlendir yap iste,1,0.7130704,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i),0
-sayı örüntü ardışık terim belirle,0,0.7705694,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),a),1
-Ardışık terim ara ortak fark oran çarpan ilişki belirle,0,0.75388706,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),b),1
-sayı örüntü her bir terim belirle ortak fark oran kullan ifade et,0,0.8497139,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),c),0
-Aritmetik geometrik dizi son toplam ilişkin varsayım bulun,0,0.90556127,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),d),2
-Varsayım yararlan aritmetik geometrik dizi son toplam ile ilgi,0,0.89769816,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),e),1
-Aritmetik geometrik dizi son toplam ilişkin genelle ile varsayım,0,0.9059165,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),f),3
-El et genelleme aritmetik geometrik dizi son toplam ilişkin,0,0.9017965,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),g),1
-Aritmetik ve geometrik dizi son toplam ilişkin el et önerme,0,0.9020715,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),h),1
-gerçek sayı dizi ve gerçek sayı tanım fonksiyon özellik belirle,0,0.6159355,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),a),2
-gerçek sayı dizi ve gerçek sayı tanım fonksiyon özellik ilişkin,0,0.7532809,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),b),2
-gerçek sayı dizi ve gerçek sayı tanım fonksiyon özellik ilişkin,0,0.7532809,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),c),2
-an,1,0.5469091,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),e),0
-incele,0,0.5940764,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),0
-geometrik dizi ilk n terim toplam Sn = a1,0,0.8654268,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),n),1
-iş koşul değerlendir,1,0.8009061,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),1
-ve iteratif yineleme dizi ile bu dizi algorit ve ak,0,0.72425884,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),2
-geometrik dizi ilk n terim toplam Sn = a1,0,0.8654265,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),n),1
-iş koşul değerlendir,1,0.8009226,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i),1
-KAVRAMSAL,0,0.6895665,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),a),0
-bir fonksiyon belirli bir nokta civar veya sonsuz ki davran grafik üze,1,0.9053636,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),a),2
-Grafik el et bilgi tablo veya sözel temsil yol yaklaş fikir ula,1,0.76158,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),b),3
-bir fonksiyon belirli bir nokta civar veya sonsuz ki limit sözel ol ye,1,0.7986861,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),c),1
-bir fonksiyon tablo grafik ve cebirsel temsil Üzer belirli bir nokta civar,1,0.92590237,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),a),4
-bir fonksiyon belirli bir nokta civar veya sonsuz al değer ara,1,0.903261,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),b),1
-bir fonksiyon belirli bir nokta civar veya sonsuz al değer ara,1,0.90327597,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),c),1
-fark fonksiyon ve bu fonksiyon yap işlem belirli bir nokta veya,1,0.8454298,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),d),3
-Varsayım dayalı örüntü genel,0,0.7916818,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),e),0
-Genelle varsayım karşıla karşıla kontrol et,1,0.8592228,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),f),1
-Genelle öner ol ifade et,0,0.80560005,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),g),0
-bir fonksiyon bir nokta limit belirsiz durum grafik veya tablo kullan,1,0.82707554,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),a),3
-incele fonksiyon cebirsel ifade belirsiz durum orta kaldır şe,0,0.8757839,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),b),1
-Hesapla limit değer dönüştür fonksiyon ile başlangıç fonksiyon gra,0,0.5329074,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),c),2
- tanım ol bir nokta değer ile o nokta limit incele,1,0.9038255,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),a),0
- tanım ol bir nokta değer ile o nokta limit sürekli,1,0.9165288,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),b),0
- tanım ol bir nokta sürekli o nokta değer limit,1,0.9165284,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),c),0
-ve Fonksiyon Sürekli,1,0.74298215,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),i),0
- çıktı çalış kâğıd performans görev ve araştır ödev ile değerlendiril,0,0.922691,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),e),0
-Üzer limit fikir duy ihtiyaç vurgula bu saye ilk defa,1,0.87302685,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),i),0
-dizi terim yazıl ardışık iki terim ara oran elekt,0,0.88764393,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),i),2
-0 doğru bu fonksiyon yatay asimptot ol belirle,0,0.50489193,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),1
-incele belirli bir t zaman civar al değer belirle El et değer,1,0.90284,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),t),0
-sun çok uzun yıl sonra nüfus en fazla ne kadar ol matematik yazılım,0,0.8145574,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),1
-ve karl,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),i),0
-gibi matematik çalış incele,0,0.8228974,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),s),0
-lim f x,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),0
-sonuc ulaş x = 0 dış nokta bu eşitlik,1,0.5023122,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),0
-π,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),0
-0 nokta limit ol,1,0.8169918,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),0
-teorem ve uç değer teo,0,0.57832843,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),o),0
-fonksiyon x,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),1
-=,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),0
-0 nokta limit,1,0.81699085,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),0
-k m ol göster 0 0 belirsizlik yan sıra 1 belirsiz limit al,1,0.88268745,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),0
-cotx,1,0.74169046,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),0
-f(x,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),0
-tanx f(x,1,0.74105626,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x),0
-kullan,1,0.66038144,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),i),0
-bir fonksiyon belirli bir nokta civar değişim oran ile ilgi bileşen fonksi,1,0.7713344,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),1
-belirle,1,0.7391005,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),i),0
-bir fonksiyon belirli bir nokta civar değişim oran ile ilgi bileşen ara,1,0.7235803,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),b),1
-bir fonksiyon belirli bir nokta civar değişim oran tablo grafik ve limit gös,1,0.7896835,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),c),3
-uygun koşul tanım fonksiyon f(x,1,0.8519219,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),d),2
-xn n,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),0
-=,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),0
-Varsayım dayalı örüntü genel,0,0.79169023,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),e),0
-Genelle varsayım karşıla karşıla kontrol et,1,0.859241,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),f),1
-Genelle öner ol ifade et,0,0.80559134,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),g),0
- bir nokta türev limit gösterim faydalan ispat,1,0.7880001,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),h),1
- ve türev limit tanım ile ilgi önce bilgi yarar bir,1,0.9261323,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),1
-Varsayım yararlan fark durum ilgili örüntü listele bir fonk,0,0.9143559,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),b),0
-bir fonksiyon herhangi bir nokta hangi durum türev ol iliş,0,0.68549305,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),c),1
-bir fonksiyon herhangi bir nokta hangi durum türev ol iliş,0,0.68547213,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),d),1
- toplam fark çarpım bölüm ve bileşke türev ilişkin var,1,0.6455006,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),0
-Varsayım dayalı örüntü genel,0,0.79169816,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),b),0
-Genelle varsayım karşıla karşıla kontrol et,1,0.8592055,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),c),1
-Öner fark problem durum değerlen,0,0.8547066,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),d),1
-iki fonksiyon toplam fark çarpım ve bölüm bir nokta türev dair ku,1,0.7884561,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),e),1
- kullanışlı açı değerlen,0,0.7812548,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),f),0
-f'(x f x,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),e),0
-',1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),0
-şekil,1,0.7452113,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),0
-y ol üzere,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),0
-eşitlik kullan el et dy,0,0.6850082,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),0
-dx,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),0
-şekil tanım fonksiyon,1,0.8230512,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),t),1
-lim,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),0
-h,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),0
-lim,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),0
-x a,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),0
-şekil göster,1,0.82175434,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),0
-uygun koşul f(x,1,0.7965967,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),1
-çok yakın nokta alın bu fonksiyon x,1,0.8565493,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),1
-=,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),0
-h,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),0
-ve Newton gibi bilim insan türev ile ilgi,1,0.80669576,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),z),0
-hareket f(x,1,0.649588,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),0
-şekil tanım,1,0.8230502,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),0
-=,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),0
-xn i,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),0
-x a,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),0
-ile sağ türev f +  eşit,1,0.81900936,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a),0
-şekil tanım fonksiyon grafik temsil,1,0.88970006,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),3
-x,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),0
-incele bu fonksiyon x,0,0.593988,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),1
-x2 ve g(x,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),0
-MAT 12. 2. 7,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),0
-x şekil tanım fonk,1,0.8510465,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),0
-türev limit tanım el et bura hareket fonksiyon toplam ve fark işlem,1,0.7785599,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),2
-ne ilişkin ol f ve g fonksiyon bağ yeni bir kural el et gerekli ifade et,0,0.7821201,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),2
-x2 fonksiyon bileşke şekil yaz Türev limit,1,0.8895294,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),1
-tanım kullan bu fonksiyon türev al kural belirle ve bileşke fonksiyon türe,1,0.91472715,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),3
-ile ilgili önerme ulaş bu şekil fark görün durum ilişkin bileşke fonksiyon,0,0.6403528,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),1
-f(x,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x),0
-öğrenci yakın çevre dikkat alın  böylelikle öğrenci,1,0.8098904,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),i),0
-kullan,1,0.6604937,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),r),0
-kullan,1,0.6604103,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),i),0
- fonksiyon türev limit tanım fonksiyon türev al kural ile,1,0.9052224,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),a),3
-Varsayım yararlan fark durum ilgili örüntü listele bir fonk,0,0.9143532,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),b),0
-bir fonksiyon ve o türev fonksiyon matematiksel temsil ve bu,1,0.85613376,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),c),4
-bir fonksiyon ve o türev fonksiyon matematiksel temsil ve bu,1,0.85610145,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),d),4
-Türev bilgi iş koşul problem matematiksel bileşen problem,1,0.9191156,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),a),4
-belirle,1,0.7390919,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i),0
-Problem matematiksel bileşen ara ilişki türev bağlam ince,1,0.8408063,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),b),1
-Problem değişim bağlam fonksiyon denklem ve türev temsil dön,0,0.507226,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),c),2
-el et ve yorumla fark temsil dayalı ol problem çözüm için stra,1,0.9135113,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),d),3
-Belirle strateji kullan problem çöze,1,0.89822686,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),e),1
-el et çözüm fark yöntem kullan doğru,0,0.6412673,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),f),1
- olası çözüm strateji göz geçir,1,0.88999987,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),g),1
- geçerli sözel cebirsel ve grafiksel argüman değerlen,0,0.9007607,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),h),0
-değişim modelle için kullanıl matematiksel bir araç i,0,0.59893495,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i),1
- çıktı çalış kâğıd performans görev ve araştır ödev ile değerlendiril,0,0.9226908,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),e),0
-k şekil tanım doğru eğim değer sıfır ol ile bir,1,0.50533134,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),0
-f(x,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),a),0
-ince,1,0.7346865,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i),0
-le Genelle polinom fonksiyon grafik temsil ile ilişkilendir varsayım ile,1,0.8456259,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),5
-=,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),0
-ol f polinom fonksiyon,0,0.56968355,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),b),1
-+ 3 fonksiyon  b nda artan veya azalan,1,0.8149551,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),1
-< 0 ol i g(x,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),0
-ve ortalama değer,1,0.7136953,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),l),0
- her nokta türevlen dik koordinat sistem ver keyfî bir,0,0.6857571,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),b),0
-sağla ayrıca aynı tanım aralığ sürekli ve türevlenebilir özellik sahip,1,0.9295404,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i),0
-0 ol şekil en az bir d gerçek Sayıs bulun Rol teorem dair,1,0.5081363,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),a),0
-eşitlik sağla durum öğrenci d,0,0.5777293,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),b),0
-c,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),d),0
-gerçek yaşam,0,0.77368045,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i),0
-şekil tanım fonksiyon al en büyük değer a ol belirle,1,0.90286124,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),1
-çıkarım ulaş Problem çözüm yönelik çıkarım sözel cebirsel ve grafiksel ar,0,0.6101707,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),3
-yüzey alan ki a değişim bağ ol hacim,0,0.8225067,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),e),0
-fonksiyon ol ifade et,0,0.6841711,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i),1
-+ 2 şekil tanım üç derece polinom,1,0.863134,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),0
-ve g(x,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x),0
-yorumla fizik serbest düşüş bir cism,1,0.7444332,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i),0
-melez,1,0.5469091,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),l),0
-şekil tanım,1,0.82305104,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),p),0
-fonksiyon ile belirle f fonksiyon grafik yorumla buruşuk bezelye oran yüksek,1,0.69999665,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),p),3
-çözüm,1,0.7447714,3. TEMA: GEOMETRİK ŞEKİLLER,y),1
-çözümleyebilme,1,0.5469091,3. TEMA: GEOMETRİK ŞEKİLLER,y),0
-kesen kiriş teğet çap ve yay çember eleman ol belirle,1,0.9011819,3. TEMA: GEOMETRİK ŞEKİLLER,a),0
- kes kiriş teğet çap ve yay ara ilişki belirle,1,0.8875323,3. TEMA: GEOMETRİK ŞEKİLLER,b),1
- açı kiriş ve teğet özellik ilişkin varsayım bulun,1,0.65653044,3. TEMA: GEOMETRİK ŞEKİLLER,a),1
-Varsayım yarar çember açı kiriş ve teğet özellik ilişkin,1,0.7832193,3. TEMA: GEOMETRİK ŞEKİLLER,b),0
-Genelle varsayım karşılaştır,0,0.7901404,3. TEMA: GEOMETRİK ŞEKİLLER,c),1
- fark problem durum kullanışlı değerlen,0,0.8521321,3. TEMA: GEOMETRİK ŞEKİLLER,d),1
-Çember açı kiriş teğet özellik ve daire alan içer problem bile,1,0.6019115,3. TEMA: GEOMETRİK ŞEKİLLER,a),1
-belirle,1,0.7390911,3. TEMA: GEOMETRİK ŞEKİLLER,i),0
- ver bileşen ara ilişki belirle,1,0.85717326,3. TEMA: GEOMETRİK ŞEKİLLER,b),1
- bileşen ve bileşen ara ilişki uygun matematiksel,1,0.8960496,3. TEMA: GEOMETRİK ŞEKİLLER,c),1
- çözüm için strateji geliş,1,0.86320037,3. TEMA: GEOMETRİK ŞEKİLLER,d),1
-Geliş strateji kullan problem çöze,1,0.8981967,3. TEMA: GEOMETRİK ŞEKİLLER,e),1
-Çözüm kontrol et ve  ulaştır strateji değiş,1,0.9065484,3. TEMA: GEOMETRİK ŞEKİLLER,f),0
-problem çöz süreç göz geçir,1,0.85617006,3. TEMA: GEOMETRİK ŞEKİLLER,g),1
-Ulaş çıkarım değerlen,0,0.7295985,3. TEMA: GEOMETRİK ŞEKİLLER,h),1
- çıktı çalışma kâğıd doğru,0,0.8670438,3. TEMA: GEOMETRİK ŞEKİLLER,e),0
-ve bu parça ara ilişki,1,0.80414283,3. TEMA: GEOMETRİK ŞEKİLLER,i),1
-genelle matema,1,0.7744364,3. TEMA: GEOMETRİK ŞEKİLLER,i),1
-dik prizma ve dik dairesel silindir eleman belirle,1,0.9015554,4. TEMA: GEOMETRİK CİSİMLER,a),0
-dik prizma ve dik dairesel silindir eleman ara ilişki belirle,1,0.91526175,4. TEMA: GEOMETRİK CİSİMLER,b),1
-dik prizma ile dik dairesel silindir yarar dik piramit dik dairesel koni ve kü,1,0.92922753,4. TEMA: GEOMETRİK CİSİMLER,a),0
-dik prizma ile dik dairesel silindir yarar dik piramit dik dairesel koni ve kü,1,0.9292278,4. TEMA: GEOMETRİK CİSİMLER,b),0
-Gözlemle benzerlik yarar dik piramit dik dairesel koni ve küre el,1,0.91897726,4. TEMA: GEOMETRİK CİSİMLER,c),0
-Geometrik cisim içer problem bileşen nicelik şekil gibi belirle,1,0.5835563,4. TEMA: GEOMETRİK CİSİMLER,a),1
-bileşen ara ilişki belirle,1,0.85719675,4. TEMA: GEOMETRİK CİSİMLER,b),1
- bileşen ve ara ilişki uygun matematiksel temsil dön,1,0.8983412,4. TEMA: GEOMETRİK CİSİMLER,c),3
- çözüm için gerek işlem ve çözüm gerçekleştir için strateji,1,0.91758585,4. TEMA: GEOMETRİK CİSİMLER,d),3
-Belirle strateji çözüm için uygula problem çöze,1,0.9172413,4. TEMA: GEOMETRİK CİSİMLER,e),2
-Çözüm kontrol et ve  ulaştır strateji değiş,1,0.9065474,4. TEMA: GEOMETRİK CİSİMLER,f),0
- çözüm için kullan veya geliş strateji ve olası fark strateji,1,0.9142333,4. TEMA: GEOMETRİK CİSİMLER,g),1
-Ulaş çıkarım geçerli matematiksel örnek değerlen,0,0.7923094,4. TEMA: GEOMETRİK CİSİMLER,h),1
- çıktı çalışma kâğıd açık uç soru proje ödev ve performans görev ile de,0,0.93165606,4. TEMA: GEOMETRİK CİSİMLER,e),0
-kullan mimari yapı  ilgili proje ödev  Ödev,0,0.75275683,4. TEMA: GEOMETRİK CİSİMLER,e),1
-bil dik prizma ve dik dairesel silindir yüzey,1,0.79856086,4. TEMA: GEOMETRİK CİSİMLER,i),0
-yap sağla Benze şekil öğrenci dik dairesel silindir ile dik dairesel koni ve,1,0.9290281,4. TEMA: GEOMETRİK CİSİMLER,i),0
-dik prizma yardım,1,0.5392382,4. TEMA: GEOMETRİK CİSİMLER,i),0
-belirle,1,0.73910075,4. TEMA: GEOMETRİK CİSİMLER,i),0
-örnek incele öğrenci kullan geometrik cisim neden tercih et iliş,0,0.7522459,4. TEMA: GEOMETRİK CİSİMLER,k),1
-yönlendir Öğrenci,1,0.73699355,4. TEMA: GEOMETRİK CİSİMLER,i),0
-ve bu parça ara ilişki belirle sağla bu süreç öğrenci,1,0.91401625,4. TEMA: GEOMETRİK CİSİMLER,i),1
-incele isten öğrenci konu ilişkin bilgi,0,0.53293514,4. TEMA: GEOMETRİK CİSİMLER,i),1
-çalış araştır ve sınıf sun,0,0.8237624,4. TEMA: GEOMETRİK CİSİMLER,s),0
-istatistiksel araştır tasarla gerek toplumsal ve veya bilimsel durum,0,0.626504,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,a),0
- içeri ve tasarla istatistiksel araştır yönelik veri dağılım,1,0.8728905,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,b),2
- el et yönelik plan yap,1,0.7973686,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,c),0
-araştır soru bağlam veri analiz et için görselleştir ve veya,0,0.71116173,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,d),2
-araştır soru bağlam veri belirle araç analiz et,1,0.5055513,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,e),2
-Tasarla istatistiksel araştır el et çıktı hareket yorumla,0,0.50934863,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,f),0
-Tasarla istatistiksel araştır el et sonuç araştır soru bağ,0,0.60237104,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,g),1
-dağılım veri birlikte değişebilirlik eğilim iliş,1,0.5047395,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,l),3
--,1,0.5469091,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,e),0
-ve iki değişken kategorik kategorik,1,0.86367005,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,l),0
-veri set ile çalış istatistiksel araştır sürec  kabul,1,0.57723325,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,l),3
-veya yatırım ve tasarruf incele ekonomi OB3 araştır soru,0,0.8080037,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i),0
-yer ver uygun ol araç belir,1,0.60960454,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i),0
-istatistiksel araştır tasarım ve el et sonuç,1,0.5742508,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i),1
-ilgili veri temel argüman ve yeni çözüm ön,1,0.5052416,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i),2
-kullan oluştur istatistiksel araştır tasarım ve,0,0.52640754,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i),0
-paylaş bekle,1,0.74247175,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i),0
-yardım sınıf orta,0,0.82882273,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i),0
+text,dominant_topic,topic_percent,section,item
+KAVRAMSAL,2,0.6301018,1. TEMA: NİCELİKLER VE DEĞİŞİMLER,a)
+doğrusal ilişki içer problem çözüm kullanıl matematiksel,0,0.47702384,1. TEMA: NİCELİKLER VE DEĞİŞİMLER,a)
+doğrusal ilişki içer problem çözüm için kullan matematiksel,0,0.50746465,1. TEMA: NİCELİKLER VE DEĞİŞİMLER,b)
+doğrusal ilişki içer problem çözüm için belirle matematiksel araç,7,0.5139649,1. TEMA: NİCELİKLER VE DEĞİŞİMLER,c)
+x y,6,0.16502762,1. TEMA: NİCELİKLER VE DEĞİŞİMLER,e)
+öğ,6,0.16502762,1. TEMA: NİCELİKLER VE DEĞİŞİMLER,i)
+fark et yönelik çalış yer ver doğrusal ilişki içer gerçek yaşam,5,0.3437922,1. TEMA: NİCELİKLER VE DEĞİŞİMLER,i)
+Problemlerde ver matematiksel yapı belirle,3,0.57236224,2. TEMA: MANTIKSAL ÇIKARIM,a)
+Problemlerde ver matematiksel yapı ile problem uygun fark matema,1,0.67995507,2. TEMA: MANTIKSAL ÇIKARIM,b)
+Problemlerde ver matematiksel yapı fark matematiksel temsil dön,6,0.7120359,2. TEMA: MANTIKSAL ÇIKARIM,c)
+el et ve yorumla fark temsil dayalı problem çözüm için stra,6,0.9233828,2. TEMA: MANTIKSAL ÇIKARIM,d)
+Karşılaş problem seç çözüm strateji kullan,7,0.8933251,2. TEMA: MANTIKSAL ÇIKARIM,e)
+Kullan çözüm strateji kontrol et,7,0.87065345,2. TEMA: MANTIKSAL ÇIKARIM,f)
+Çözüm ulaş problem için olası fark çözüm strateji incele,7,0.81497544,2. TEMA: MANTIKSAL ÇIKARIM,g)
+Çözüm ulaş strateji yönelik çıkarım bu strateji kullan,7,0.50159013,2. TEMA: MANTIKSAL ÇIKARIM,h)
+ÖĞRENME ÖĞRETME,7,0.7751336,2. TEMA: MANTIKSAL ÇIKARIM,e)
+veya tablo ile göster haftalık ders program gibi grup ülke,4,0.86812747,2. TEMA: MANTIKSAL ÇIKARIM,i)
+örnek yer ver bu,6,0.16502762,2. TEMA: MANTIKSAL ÇIKARIM,i)
+Son sayı örüntü terim ara ilişki gözlem,6,0.70752585,3. TEMA: ALGORİTMA VE BİLİŞİM,a)
+Son sayı örüntü terim ara örüntü belirle,6,0.89653873,3. TEMA: ALGORİTMA VE BİLİŞİM,b)
+Belirle ilişki sözel ve cebirsel ol genel,1,0.89067155,3. TEMA: ALGORİTMA VE BİLİŞİM,c)
+Şifre li metin ilişki gözlem,1,0.8674532,3. TEMA: ALGORİTMA VE BİLİŞİM,a)
+Şifre li metin örüntü belirle,1,0.86737835,3. TEMA: ALGORİTMA VE BİLİŞİM,b)
+Belirle örüntü sözel ve cebirsel ol genel,1,0.89063567,3. TEMA: ALGORİTMA VE BİLİŞİM,c)
+fark şifrele yöntem incele,6,0.4483047,3. TEMA: ALGORİTMA VE BİLİŞİM,a)
+İncele şifrele yöntem nitelik tespit et,3,0.86580473,3. TEMA: ALGORİTMA VE BİLİŞİM,b)
+Benzerliklerden çıkarım yap yeni şifre oluş,3,0.6516002,3. TEMA: ALGORİTMA VE BİLİŞİM,c)
+Öğrenme çıktı çalış kâğıd performans görev öz ve akran değerlendir form,7,0.70041513,3. TEMA: ALGORİTMA VE BİLİŞİM,e)
+karşılık gel,6,0.16502762,3. TEMA: ALGORİTMA VE BİLİŞİM,i)
+örüntü içer fark durum karşılaşılab fark et sağla,6,0.5047724,3. TEMA: ALGORİTMA VE BİLİŞİM,i)
+Hak çıkarım bulun için öğrenci fırsat,5,0.8315088,3. TEMA: ALGORİTMA VE BİLİŞİM,i)
+sınıf iç tartış yap D19 4 E1 1,5,0.76928455,3. TEMA: ALGORİTMA VE BİLİŞİM,i)
+problem çözüm ilgili sınıf iç tartış yap Öğ,5,0.6315511,3. TEMA: ALGORİTMA VE BİLİŞİM,e)
+tespit et bu süreç sınıf,5,0.83151925,3. TEMA: ALGORİTMA VE BİLİŞİM,i)
+incele iste bu araç ve,2,0.5599511,3. TEMA: ALGORİTMA VE BİLİŞİM,i)
+KAVRAMSAL,2,0.6301018,4. TEMA: GEOMETRİK ŞEKİLLER,a)
+ve tr,6,0.16502762,4. TEMA: GEOMETRİK ŞEKİLLER,t)
+dik üçgen trigonometrik oran ve trigonometrik özdeşlik ilgili varsayım,6,0.923389,4. TEMA: GEOMETRİK ŞEKİLLER,a)
+Trigonometrik oran ve trigonometrik özdeşlik ilgili örüntü genel,6,0.92339,4. TEMA: GEOMETRİK ŞEKİLLER,b)
+Trigonometrik oran ve trigonometrik özdeşlik ilgili el et genelleme,6,0.9119675,4. TEMA: GEOMETRİK ŞEKİLLER,c)
+Ulaş trigonometrik oran ve trigonometrik özdeş problem bağlam,6,0.79180974,4. TEMA: GEOMETRİK ŞEKİLLER,d)
+Üçgen iç ve dış açıortay kenarortay kenar orta dikme ve yüksek,4,0.6557081,4. TEMA: GEOMETRİK ŞEKİLLER,a)
+fark üçgen örnek incele varsayım ilişkin örüntü genel,6,0.8535216,4. TEMA: GEOMETRİK ŞEKİLLER,b)
+Üçgenin yardımcı eleman ilgili genelleme varsayım karşılaştır,0,0.5653069,4. TEMA: GEOMETRİK ŞEKİLLER,c)
+Üçgenin yardımcı eleman ilgili öner problem bağlam değerlen,5,0.92825705,4. TEMA: GEOMETRİK ŞEKİLLER,d)
+Üçgenin bir kenar ve o kenar ait yüksek değişim üçgen alan de,4,0.9194558,4. TEMA: GEOMETRİK ŞEKİLLER,a)
+fark üçgen gözlem yarar varsayım yönelik örüntü,6,0.6359457,4. TEMA: GEOMETRİK ŞEKİLLER,b)
+Genelle varsayım karşılaştır,6,0.5694341,4. TEMA: GEOMETRİK ŞEKİLLER,c)
+Öner gerçek yaşam problem bağlam değerlen,5,0.90687513,4. TEMA: GEOMETRİK ŞEKİLLER,d)
+Üçgen sinüs ve kosinüs teorem ilişkin fark doğrula veya ispat kul,6,0.7401668,4. TEMA: GEOMETRİK ŞEKİLLER,a)
+yapı doğrula veya ispat yeni durum uyarla değerlen,3,0.9180427,4. TEMA: GEOMETRİK ŞEKİLLER,b)
+Öğrenme çıktı çalış kâğıd ve performans görev ile değer,7,0.7912771,4. TEMA: GEOMETRİK ŞEKİLLER,e)
+Öğrenci trigonometrik oran trigonometrik özdeş sinüs ve kosinüs teorem,6,0.9321874,4. TEMA: GEOMETRİK ŞEKİLLER,e)
+benze dik üçgen,4,0.7707259,4. TEMA: GEOMETRİK ŞEKİLLER,i)
+düzenle bir tablo yer ver Öğrenci tab,2,0.76670545,4. TEMA: GEOMETRİK ŞEKİLLER,u)
+ve fark yöntem kâğıt katla,6,0.8407277,4. TEMA: GEOMETRİK ŞEKİLLER,i)
+açıorta ilgili hatırlat yap MAB5 OB2 daha sonra bu açı oluş,3,0.88932097,4. TEMA: GEOMETRİK ŞEKİLLER,i)
+ile fark yöntem kâğıt,6,0.84072775,4. TEMA: GEOMETRİK ŞEKİLLER,i)
+kullan sağla hatırlat yap MAB5 D3 4 Benze,3,0.5388419,4. TEMA: GEOMETRİK ŞEKİLLER,i)
+ile fark yöntem kâğıt,6,0.8407277,4. TEMA: GEOMETRİK ŞEKİLLER,i)
+kullan bir üçgen herhangi iki kenar ait yükseklik inşa et,4,0.53840405,4. TEMA: GEOMETRİK ŞEKİLLER,i)
+üçgen Hak araştır yap iste herhangi bir açı pergel ve ölçü süz,4,0.8681079,4. TEMA: GEOMETRİK ŞEKİLLER,y)
+başka taraf oluş istatistiksel sonuç veya yorum yönelik istatis,3,0.9058254,5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a)
+başka taraf oluş istatistiksel sonuç veya yorum yönelik hata,3,0.9058255,5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,b)
+başka taraf oluş istatistiksel sonuç veya yorum çürüt ya da,3,0.8893241,5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,c)
+ÖĞRENME ÖĞRETME,7,0.77513367,5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e)
+dair eleştirel soru sor bu bileşen ol,1,0.56617796,5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a)
+seç öğrenci günlük hayat(I) karşıla,6,0.78188807,5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i)
+ilişkin,6,0.65413344,5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i)
+dağılım incele iste,2,0.82965165,5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i)
+KAVRAMSAL,2,0.6301018,1. TEMA: SAYILAR,a)
+bir doğal sayı asal çarpan ve bölen Hak varsayım bulun,6,0.48383743,1. TEMA: SAYILAR,a)
+fark örnek el et örüntü listele bir doğal sayı asal çarpan,6,0.5668146,1. TEMA: SAYILAR,b)
+Oluş genelle varsayım karşıla karşıla örnek sı,6,0.89654183,1. TEMA: SAYILAR,c)
+El et önerme gerçek yaşam durum içer problem kullanışlı li,5,0.6484699,1. TEMA: SAYILAR,d)
+bir çok doğal sayı ortak bölen bu en büyük ve ortak kat,7,0.61222357,1. TEMA: SAYILAR,a)
+fark örnek el et örüntü listele varsayım yönelik örün,6,0.91196775,1. TEMA: SAYILAR,b)
+Oluş genelle varsayım karşıla karşıla örnek sı,6,0.89654183,1. TEMA: SAYILAR,c)
+Sun önerme gerçek yaşam durum içer problem katkı de,5,0.91895777,1. TEMA: SAYILAR,d)
+el et önerme ile ilgili matematiksel doğrula yöntem seçe ve kul,3,0.90582126,1. TEMA: SAYILAR,e)
+El et önerme ilişkin iş koş matematiksel doğrula kullanışlı,3,0.7171061,1. TEMA: SAYILAR,f)
+2 3 4 5 6 9 ve 10 ile bölünebilme özellik hareket bir doğal sayı 2 3 4,5,0.83152044,1. TEMA: SAYILAR,a)
+aynı sayı ile böl işlem el et kalan ilişkin fark örnek ilgili,6,0.89653265,1. TEMA: SAYILAR,b)
+Oluş genelleme kendi varsayım karşıla karşıla örnek,6,0.8965415,1. TEMA: SAYILAR,c)
+Ulaş önerme katkı bu sayı en küçük ortak kat oluş sayı,3,0.57283854,1. TEMA: SAYILAR,d)
+Önerme ilişkin matematiksel doğrula yöntem seçe ve kullanı,3,0.65345997,1. TEMA: SAYILAR,e)
+Önerme ilişkin iş koş matematiksel doğrula yöntem kullanışlı açı,3,0.74971765,1. TEMA: SAYILAR,f)
+Öğrenme çıktı çalış kâğıd açık uç soru ve performans görev ile değerlen,7,0.93728876,1. TEMA: SAYILAR,e)
+değerlendir uygulama yer ver ayrıca bu önerme değer,0,0.41847196,1. TEMA: SAYILAR,i)
+EBOB ve EKOK özellik göster poster hazırla iste,4,0.7706959,1. TEMA: SAYILAR,i)
+içeren,6,0.16502762,1. TEMA: SAYILAR,i)
+bölünebil dair değerlendir,6,0.7818915,1. TEMA: SAYILAR,i)
+incele araştır ödev verilebilir böylece,2,0.8658421,1. TEMA: SAYILAR,i)
+asallık Üzer deneme,2,0.6300976,1. TEMA: SAYILAR,r)
+sanı gibi veya asal sayı özellik Hak ikiz asal Fermat Feğma,5,0.8673108,1. TEMA: SAYILAR,h)
+asal gibi araştır yap iste bu araştır,5,0.86729074,1. TEMA: SAYILAR,n)
+çalış incele,2,0.76673156,1. TEMA: SAYILAR,s)
+siyon hareket doğrusal fonksiyon nitel özellik Hak muhakeme yapa,4,0.9074598,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+özellik ile bu fonksiyon türet g(x,0,0.77150685,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+k a r k,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r)
+Doğrusal referans fonksiyon nitel özellik tanım küme görüntü küme,4,0.92871666,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a)
+matematiksel temsil kullan belirle,6,0.8745566,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i)
+Doğrusal referans fonksiyon nitel özellik ile matematiksel temsil ara,0,0.9077744,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b)
+Doğrusal referans fonksiyon grafik veya cebirsel temsil Üzer yap işlem,0,0.92895937,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c)
+doğrusal referans fonksiyon nitel özellik hareket diğer doğrusal fonksi,4,0.91946656,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d)
+Varsayım dayalı ol doğrusal fonksiyon nitel özellik ilişkin örün,6,0.52922887,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e)
+genel,1,0.63446105,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,l)
+Genelle varsayım karşıla karşıla kontrol et,6,0.8965432,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f)
+Genelle el et öner uygun sözel veya sembolik dil ile sun,1,0.7136933,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g)
+Öner grafiksel ol doğru veya cebirsel ol ispat,1,0.89068156,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h)
+0 şekil tanım mutlak,4,0.83257055,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+gerçek sayı f(x,5,0.7692843,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a)
+x,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+=,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+c,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+Gözlem yol çık gerçek sayı,5,0.56010693,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b)
+tespit et nitel özellik hareket gerçek sayı,5,0.6685019,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c)
+parça gösterim yönelik çıkarım bulun,3,0.88931274,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+Doğrusal fonksiyon ifade edil denklem ve eşitsizlik ilişkin bileşen,0,0.9289537,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a)
+belirle,7,0.6433744,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i)
+Doğrusal fonksiyon ifade edil denklem ve eşitsizlik ilişkin matematik,0,0.92895395,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b)
+doğrusal fonksiyon ifade edil denklem ve eşitsizlik problem bağla,0,0.92895705,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c)
+el et ve yorumla fark temsil dayalı ol problem çözüm için strateji,6,0.5523442,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d)
+Belirle strateji kullan problem çöze,7,0.8933223,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e)
+el et çözüm uygun yöntem seç doğrula,7,0.44577733,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f)
+Problemin olası çözüm strateji göz geçir,7,0.8933366,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g)
+Çıkarımlarının geçerli sözel cebirsel ve grafiksel argüman değerlen,1,0.9190509,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h)
+= x f(x = ax b f(x =,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+=,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+ℝ,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e)
+ara ilişki dayalı ol,6,0.7818793,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i)
+a f(x r k,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+0 şekil tanım doğrusal fonksiyon grafik ve cebirsel temsil ulaş,0,0.6606519,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+0 şekil tanım,4,0.77072304,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+ax + b a b,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+doğrusal fonksiyon a > 0 veya a < 0 ol durum fonksiyon artan azalan,0,0.90777063,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+x1,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+ispat yap sonra,3,0.7666741,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,k)
+şekil tanım fonksiyon grafik temsil incele,0,0.46762988,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+fonksiyon,0,0.637665,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+mutlak değer fonksiyon cebirsel ve grafiksel ilişki incele bura fonksiyon,4,0.5892855,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+temsil ara ilişki gözlemle yapı incele ve gözlem sonuç fonksiyon ait nitel,2,0.5567343,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+bir cebirsel temsil ol parça gösterim dair çıkarım iki fark doğrusal fonksiyon,0,0.42209932,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+yap bekle MAB3,2,0.76669544,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i)
+f(x,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+f(x,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+> k,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+=,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+< 0 f(x > 0,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+g(x f(x g(x f(x,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+MAT 9. 2. 3,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+g(x,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+likler cebirsel veya grafik ol el et bu denklem ve eşitsizlik matematiksel bileşen,0,0.90777606,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+",",6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+< 0 eşitsiz çözüm aralığ,1,0.5733577,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+< 0 şekil bir eşitsiz,5,0.76923186,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+< g(x şekil eşitsiz özel bir hâl g(x,6,0.84071755,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+geliş D16 2,1,0.63454115,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i)
+farklı uygulama yaptır,0,0.637661,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i)
+= |ax b| c,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+= ax b a b,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+kullan,6,0.65412486,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i)
+Algoritmik yaklaşım el alın bir problem işlem ve süreç yönelik bi,3,0.91803735,3. TEMA: ALGORİTMA VE BİLİŞİM,a)
+problem durum temsil liste tablo çizge ak şema algoritmik doğal,5,0.7890044,3. TEMA: ALGORİTMA VE BİLİŞİM,b)
+matematiksel yapı ara ilişki belirle,3,0.86579865,3. TEMA: ALGORİTMA VE BİLİŞİM,i)
+problem durum sözel görsel veya cebirsel ifade algoritmik dil dön,1,0.9190402,3. TEMA: ALGORİTMA VE BİLİŞİM,c)
+Karşılaş problem durum algoritma temel bir çözüm strateji oluş,7,0.93008363,3. TEMA: ALGORİTMA VE BİLİŞİM,d)
+Karşılaş problem durum seç algoritma temel çözüm strateji kul,7,0.92101294,3. TEMA: ALGORİTMA VE BİLİŞİM,e)
+Karşılaşılan problem durum seç algoritma temel çözüm strateji kont,7,0.909236,3. TEMA: ALGORİTMA VE BİLİŞİM,f)
+Algoritma temel çözül problem olası çözüm strateji göz geçir,7,0.93008626,3. TEMA: ALGORİTMA VE BİLİŞİM,g)
+Algoritma temel çözül problem çözüme ulaş strateji yönelik çı,7,0.5884885,3. TEMA: ALGORİTMA VE BİLİŞİM,h)
+Algoritmik yapı içeri kullan mantık bağlaç ve niceleyici belirle,3,0.9274444,3. TEMA: ALGORİTMA VE BİLİŞİM,a)
+Algoritmik yapı ile mantık bağlaç ve niceleyi ara ilişki belirle,3,0.9180419,3. TEMA: ALGORİTMA VE BİLİŞİM,b)
+Karşılaş algoritma mantık bağlaç ve niceleyi kullanım göz,7,0.4619092,3. TEMA: ALGORİTMA VE BİLİŞİM,a)
+Matematiksel problem çöz doğrula ve ispat süreç mantık bağlaç ve,3,0.91804117,3. TEMA: ALGORİTMA VE BİLİŞİM,b)
+mantık bağlaç ve niceleyicilerin matematiksel dil ve sembolizm yalın ve kesin,3,0.5946557,3. TEMA: ALGORİTMA VE BİLİŞİM,c)
+Öğrenme çıktı çalış kâğıd performans görev ve araştır ödev ile değerlen,7,0.9372887,3. TEMA: ALGORİTMA VE BİLİŞİM,e)
+çözümlen ve bu kodlama ilgili ak şema oluştur,3,0.6263719,3. TEMA: ALGORİTMA VE BİLİŞİM,i)
+ifade et kabul et,0,0.40214825,3. TEMA: ALGORİTMA VE BİLİŞİM,d)
+arka yat matematik fark et,0,0.4101079,3. TEMA: ALGORİTMA VE BİLİŞİM,i)
+Kö,6,0.16502762,3. TEMA: ALGORİTMA VE BİLİŞİM,r)
+köprü problem tarihî bağlam ile birlikte tanıt öğrenci,5,0.89055514,3. TEMA: ALGORİTMA VE BİLİŞİM,k)
+ülke geliş önem vurgula,2,0.8658428,3. TEMA: ALGORİTMA VE BİLİŞİM,i)
+doğal sayı problem asal çarpan ayır ver iki sayı,5,0.63696927,3. TEMA: ALGORİTMA VE BİLİŞİM,i)
+el alın,3,0.6300019,3. TEMA: ALGORİTMA VE BİLİŞİM,i)
+dönüştür bir şifrele örneğ ol el al E1 1 E3 11 Çizge ku,1,0.8316983,3. TEMA: ALGORİTMA VE BİLİŞİM,y)
+ve düğüm nokta açıklan sonra çizge,1,0.8317019,3. TEMA: ALGORİTMA VE BİLİŞİM,i)
+öğrenci,5,0.6341174,3. TEMA: ALGORİTMA VE BİLİŞİM,n)
+problem durum na,5,0.76926035,3. TEMA: ALGORİTMA VE BİLİŞİM,d)
+algoritma yaz doğal dil ya da ak şema veya ver bir algoritma,5,0.8673075,3. TEMA: ALGORİTMA VE BİLİŞİM,i)
+çözümlen yönelik araştır,3,0.82961464,3. TEMA: ALGORİTMA VE BİLİŞİM,i)
+tekrar çöz ve önce adım el et çözüm doğru kontrol et Mate,7,0.4257523,3. TEMA: ALGORİTMA VE BİLİŞİM,k)
+geçen,6,0.16502762,3. TEMA: ALGORİTMA VE BİLİŞİM,i)
+ve niceleyicilerin her bazı anlam de,7,0.7750817,3. TEMA: ALGORİTMA VE BİLİŞİM,e)
+oluştur belirle OB4 Öğrenci algoritmik yapı iç,3,0.6873023,3. TEMA: ALGORİTMA VE BİLİŞİM,d)
+alın bu önerme doğru,3,0.5594894,3. TEMA: ALGORİTMA VE BİLİŞİM,i)
+algoritma örnek Öklid algoritma ile ilişkilendir öğrenci benze,5,0.9068673,3. TEMA: ALGORİTMA VE BİLİŞİM,f)
+sağla avantaj yönelik araştır yap ve sonuç,3,0.6108716,3. TEMA: ALGORİTMA VE BİLİŞİM,i)
+hareket,5,0.6341375,3. TEMA: ALGORİTMA VE BİLİŞİM,i)
+tur ve gezgin satıcı,6,0.16502762,3. TEMA: ALGORİTMA VE BİLİŞİM,n)
+kod oluştur bu çözümle gerek problem öğren,7,0.8706746,3. TEMA: ALGORİTMA VE BİLİŞİM,y)
+kullan,6,0.65412384,3. TEMA: ALGORİTMA VE BİLİŞİM,i)
+Mevcut bilgi dâhil geometrik dönüşüm yansı ötele dön özel,6,0.8965426,5. TEMA: EŞLİK VE BENZERLİK,a)
+İncele örnek Üzer dönüşüm özellik ve şekil dönüşüm,2,0.8893297,5. TEMA: EŞLİK VE BENZERLİK,b)
+Dönüşümlerin özellik ve şekil dönüşüm alt görüntüs ilişkin var,6,0.8407252,5. TEMA: EŞLİK VE BENZERLİK,c)
+Geometrik dönüşüm ilgili el et önerme konu ile ilgili başka çıkarım,3,0.51727563,5. TEMA: EŞLİK VE BENZERLİK,d)
+iki üçgen eş veya benze ol koşul ilişkin varsayım bulun,6,0.50654256,5. TEMA: EŞLİK VE BENZERLİK,a)
+İncele örnek Üzer iki üçgen eş veya benze ol koşul ilişkin var,4,0.90741354,5. TEMA: EŞLİK VE BENZERLİK,b)
+iki üçgen eş veya benze ol koşul ilişkin varsayım ile el et genel,6,0.5065798,5. TEMA: EŞLİK VE BENZERLİK,c)
+iki üçgen eş veya benze ol koşul dair el et önerme fark ve,4,0.5688477,5. TEMA: EŞLİK VE BENZERLİK,d)
+bir üçgen benze üçgen oluştur eş ve benzer deneyim göz,4,0.8912413,5. TEMA: EŞLİK VE BENZERLİK,a)
+Deneyim dayalı çıkarım yap,5,0.540218,5. TEMA: EŞLİK VE BENZERLİK,b)
+bir üçgen hareket o benze üçgen oluştur ile ilgili ulaş çıkarım,4,0.51603115,5. TEMA: EŞLİK VE BENZERLİK,c)
+Tales Öklid ve Pisagor teorem ilişkin fark ispat kullan,6,0.93218637,5. TEMA: EŞLİK VE BENZERLİK,a)
+Kullan matematiksel ispat ve teorem yeni durum uyarla değerlen,3,0.7234148,5. TEMA: EŞLİK VE BENZERLİK,b)
+Problemin ver ve istenen ilişkin parça belirle,7,0.63914555,5. TEMA: EŞLİK VE BENZERLİK,a)
+Problemde veril isten ve gerek işlem ara ilişki belirle,1,0.8906646,5. TEMA: EŞLİK VE BENZERLİK,b)
+Problemin parça ara ilişki problem bağlam uygun ol dönüş,7,0.9210111,5. TEMA: EŞLİK VE BENZERLİK,c)
+Problemin çözüm gerçekleştir için strateji oluş,7,0.8933326,5. TEMA: EŞLİK VE BENZERLİK,d)
+Belirle strateji çözüm için uygula problem çöze,7,0.9092373,5. TEMA: EŞLİK VE BENZERLİK,e)
+Problemin çözüm kontrol et,7,0.8357786,5. TEMA: EŞLİK VE BENZERLİK,f)
+Problemin çözüm için geliş kullan strateji kısa yol ve çözüm,7,0.7530485,5. TEMA: EŞLİK VE BENZERLİK,g)
+Ulaş çıkarım geçerli matematiksel örnek değerlen,3,0.67015266,5. TEMA: EŞLİK VE BENZERLİK,h)
+bu üçgen eş üçgen üretilebilir,4,0.77072304,5. TEMA: EŞLİK VE BENZERLİK,e)
+Öğrenme çıktı çalışma kâğıd açık uç soru proje ödev ve performans görev ile,7,0.94314617,5. TEMA: EŞLİK VE BENZERLİK,e)
+öğrenci rehber et önem i Öğrenci sun varsayım,5,0.63001275,5. TEMA: EŞLİK VE BENZERLİK,i)
+ol ifade et el et önerme de,0,0.7715025,5. TEMA: EŞLİK VE BENZERLİK,i)
+fark et sağ,6,0.65413296,5. TEMA: EŞLİK VE BENZERLİK,i)
+süreç yönet Öğrenci eş ve benzerlik,5,0.47538787,5. TEMA: EŞLİK VE BENZERLİK,i)
+belirle hedefle öğren ortam oluştur bu süreç,7,0.49990743,5. TEMA: EŞLİK VE BENZERLİK,i)
+çiz benze üçgen oluştur öğrenci bu çıkarım hareket ifade,5,0.4707704,5. TEMA: EŞLİK VE BENZERLİK,e)
+yorumla bekle Öğrenci Tales Öklid ile Pisagor teorem,6,0.9233875,5. TEMA: EŞLİK VE BENZERLİK,i)
+kul,6,0.16502762,5. TEMA: EŞLİK VE BENZERLİK,r)
+iki kategorik değişken veri dayalı istatistiksel araştır gerek gerçek ya,5,0.74593997,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a)
+Bağlam içeri iki kategorik değişken ara ilişkili odaklan araştır,5,0.91896003,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,b)
+iki kategorik değişken veri topla el et için plan yap,7,0.89333445,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,c)
+araştır soru bağlam topla el et iki kategorik değişken veri,7,0.92101413,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,d)
+araç uygun ol seçe,1,0.8316946,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i)
+araştır soru bağlam topla el et veri belirle araç ana,7,0.9210144,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e)
+iki kategorik değişken veri dağılım dayalı istatistiksel araştır hareket,5,0.9282662,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,f)
+iki kategorik değişken veri dağılım dayalı istatistiksel araştır hareket,5,0.9282662,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,g)
+başka taraf oluş iki kategorik değişken veri ilişkili dayalı,5,0.9189555,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a)
+başka taraf oluş iki kategorik değişken veri ilişkili dayalı,5,0.91895556,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,b)
+başka taraf oluş iki kategorik değişken veri ilişkili dayalı,5,0.9189555,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,c)
+ÖĞRENME ÖĞRETME,7,0.77513367,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e)
+ÖĞRENME ÖĞRETME,7,0.7751336,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e)
+belirlen oluştur veri topla ve analiz hazır hâl getir bekle,7,0.5428554,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i)
+uygun ol seç MAB3 uygun ol araç belirle araştır,7,0.909229,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i)
+kul,6,0.16502762,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i)
+içer önem i bu,5,0.7692842,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,r)
+kullanabil bil ve bu kaynak kullanır ne dikkat et gerek,7,0.4057359,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i)
+ara tutarlı ol ol yan yanlış veya eksik bilgi ol ol,2,0.7667039,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i)
+hareket araştır soru oluştur,7,0.58491576,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i)
+öğrenci sun ve öğrenci bu durum iliş,5,0.86730605,6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i)
+bir olay gerçekleş diğer bir olay meydan gel bağ ol du,7,0.8706764,7. TEMA: VERİDEN OLASILIĞA,a)
+bir olay gerçekleş diğer bir olay meydan gel bağ ol ger,7,0.8706764,7. TEMA: VERİDEN OLASILIĞA,b)
+bir olay gerçekleş diğer bir olay meydan gel bağ ol ya da,7,0.8706764,7. TEMA: VERİDEN OLASILIĞA,c)
+bir olay gerçekleş diğer bir olay meydan gel bağ ol ya da,7,0.8706764,7. TEMA: VERİDEN OLASILIĞA,d)
+Bayes teorem kullan gerçek yaşam durum ilişkin mevcut bilgi kul,6,0.66749054,7. TEMA: VERİDEN OLASILIĞA,a)
+mevcut bilgi kullan Bayes teorem dayalı hesapla yap,6,0.92338836,7. TEMA: VERİDEN OLASILIĞA,b)
+Bayes teorem kullan gerçek yaşam durum ilişkin ileri yönelik yargı,6,0.62200046,7. TEMA: VERİDEN OLASILIĞA,c)
+Öğrenme çıktı çalış kâğıd kontrol liste açık uç soru ve performans görev,7,0.94314504,7. TEMA: VERİDEN OLASILIĞA,e)
+uygun ol belirle bu yaklaşım uygun karar verebil,7,0.8706699,7. TEMA: VERİDEN OLASILIĞA,k)
+ara,6,0.16502762,7. TEMA: VERİDEN OLASILIĞA,k)
+ve bağımlı olay hile iki sayı küp at küp üst yüzey,7,0.5669464,7. TEMA: VERİDEN OLASILIĞA,i)
+içer dikkat et gerçek yaşam durum seçil bağım,5,0.89056176,7. TEMA: VERİDEN OLASILIĞA,i)
+ilişkin tüm olası çıktı ağaç şema tablo veya al model gibi fark temsil kul,6,0.658832,7. TEMA: VERİDEN OLASILIĞA,i)
+öğrenci,5,0.6341173,7. TEMA: VERİDEN OLASILIĞA,i)
+gibi durum,5,0.6341011,7. TEMA: VERİDEN OLASILIĞA,i)
+ver gerçek yaşam durum ilişkin el et oran veya göre sıklık,5,0.5448044,7. TEMA: VERİDEN OLASILIĞA,i)
+algoritma Enigma da kullan,7,0.77507013,7. TEMA: VERİDEN OLASILIĞA,z)
+KAVRAMSAL,2,0.6301018,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e)
+gerçek sayı fonksiyon ol şart ile gerçek sayı tanım fonksiyon,4,0.5741046,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a)
+grafik ve,0,0.63766885,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i)
+gerçek sayı tanım fonksiyon grafik ve cebirsel temsil fonksiyon,0,0.55547845,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b)
+Karşılaştır hareket gerçek sayı tanım fonksiyon grafik ve,0,0.387678,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c)
+x2 şekil tanım karesel referans fonksiyon nitel,4,0.90746015,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+0,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+karesel fonksiyon nitel özellik ilişkin matematiksel muhakeme yapabil,4,0.6142628,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r)
+Karesel referans fonksiyon nitel özellik tanım küme görüntü küme,4,0.92871714,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a)
+matematiksel temsil kullan belirle,6,0.8745547,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i)
+Karesel referans fonksiyon nitel özellik ile matematiksel temsil ara,0,0.6727557,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b)
+Karesel referans fonksiyon grafik ve cebirsel temsil Üzer yap işlem,0,0.7885514,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c)
+Karesel referans fonksiyon nitel özellik hareket diğer karesel fonks,4,0.91946715,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d)
+Varsayım dayalı ol karesel fonksiyon nitel özellik ilişkin örüntü,6,0.5338933,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e)
+genel,1,0.6344642,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,l)
+Genelle varsayım karşıla karşıla kontrol et,6,0.8965432,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f)
+Genelle el et öner uygun sözel veya cebirsel dil ile sun,1,0.89067733,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g)
+Öner grafiksel ol doğru veya cebirsel ol ispat,1,0.89068156,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h)
+0 şekil tanım karekök referans fonksiyon,4,0.52149504,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+0,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+karekök fonksiyon nitel özellik ilişkin matematiksel muhakeme yapabil,0,0.5443654,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r)
+karekök referans fonksiyon nitel özellik tanım küme görüntü küme işaret,4,0.59958,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a)
+matematiksel temsil kullan belirle,6,0.8745566,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i)
+karekök referans fonksiyon nitel özellik ile matematiksel temsil ara,0,0.90777504,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b)
+karekök referans fonksiyon grafik ve cebirsel temsil Üzer yap işlem diğer,0,0.92895967,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c)
+karekök referans fonksiyon nitel özellik hareket diğer karekök fonksiyon,0,0.91974175,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d)
+Varsayım dayalı ol karekök fonksiyon nitel özellik ilişkin örüntü,6,0.5123322,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e)
+genel,1,0.63446593,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,l)
+Genelle varsayım karşıla karşıla kontrol et,6,0.8965432,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f)
+Genelle el et öner uygun sözel veya cebirsel dil ile sun,1,0.8906771,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g)
+Öner grafiksel ol doğru veya cebirsel ol ispat,1,0.89068156,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h)
+nun nitel özellik ile bu fonksiyon türet g(x,0,0.8331434,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+a f(x,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r)
+Rasyonel referans fonksiyon nitel özellik tanım küme görüntü küme işare,4,0.730928,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a)
+matematiksel temsil kullan belirle,6,0.8745566,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i)
+Rasyonel referans fonksiyon nitel özellik ile matematiksel temsil ara,0,0.90777504,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b)
+Rasyonel referans fonksiyon grafik ve cebirsel temsil Üzer yap işlem di,0,0.92895967,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c)
+Rasyonel referans fonksiyon nitel özellik hareket diğer rasyonel fonksiyon,0,0.9197418,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d)
+Varsayım dayalı ol rasyonel fonksiyon nitel özellik ilişkin örüntü,6,0.5123816,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e)
+genel,1,0.63446474,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,l)
+Genelle varsayım karşıla karşıla kontrol et,6,0.8965431,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f)
+Genelle el et öner uygun sözel veya cebirsel dil ile sun,1,0.8906774,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g)
+Öner grafiksel ol doğru veya cebirsel ol ispat,1,0.89068156,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h)
+Referans fonksiyon ve bu türetil fonksiyon Üzer bir fonksiyo,0,0.86859274,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a)
+Varsayım yararlan fark durum ilgili örüntü listele referans,6,0.8431555,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b)
+Referans fonksiyon ve bu türet fonksiyon ters fonksiyon ilişki,0,0.919739,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c)
+referans fonksiyon ve bu türet fonksiyon ters fonksiyon ait,0,0.90777636,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d)
+bu fonksiyon ifade edil denklem ve eşitsizlik ilişkin matematiksel bile,0,0.92895293,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,a)
+belirle,7,0.6433744,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i)
+bu fonksiyon ifade edil denklem ve eşitsizlik ilişkin matematiksel bile,0,0.9289534,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,b)
+bu fonksiyon ifade edil denklem ve eşitsizlik problem bağlam,0,0.9197384,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c)
+el et ve yorumla fark temsil yarar problem çözüm için stra,6,0.9233817,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,d)
+Belirle strateji kullan,7,0.8357571,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e)
+el et çözüm fark yöntem kullan doğru,6,0.8965349,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,f)
+Problemin olası çözüm strateji göz geçir,7,0.8933366,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g)
+Çıkarımlarının geçerli sözel cebirsel ve grafiksel argüman değerlen,1,0.9190509,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,h)
+x2,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+x,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+g(x,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+k f 1(x,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r)
+94,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e)
+yararlanıla,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i)
+analiz et bu analiz yap Tanım küme her bir gerçek sayı değer küme,4,0.53347933,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i)
+> f(y,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+< f(y dir gibi önerme fonksiyon cebirsel veya grafik temsil kullan,0,0.7573585,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+yer ver 1700 lü yıl gelin matema,1,0.634537,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i)
+bu tanım daha formel hâl getir belirt fonksiyon kavram,0,0.63822156,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i)
+0,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+k a r k,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,r)
+varsayım geliştir fonksiyon sıfır 0 ve 4 ve grafik simetrik ol dikkate,6,0.54065645,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+şekil tamkare tamamla grafik temsil dönüşüm el et bu şekil fonk,6,0.7850811,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+fonksiyon,0,0.63766396,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i)
+3 ik f(x,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+tamkare form dönüştürülmesine ilişkin yorum varsayım,6,0.72089785,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+geliştir etkin şekil kullan bu bağlam Harizmi nin tamkare tamamla yöntem,6,0.92338437,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+için x2 0 ol x2 + a a ol bu durum,5,0.6340999,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+a ol cebirsel,1,0.63453865,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+kullan ve çarpan ayır gibi matematiksel doğrula yöntem,3,0.90580386,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,c)
+kullanışlı açı değerlendir bekle,3,0.5277424,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+hangi aralık değer al,1,0.48411962,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+1,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+problem üretim tüketim gibi bağlam incele,7,0.5503494,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,e)
+< g(x,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+= < >,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+g(x gibi denklem ve eşitsiz tanımla sağla E3 6 E3 7 bura kullanı,5,0.8905528,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+dönüşüm yapı,2,0.76671916,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,l)
+=,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+< 0 gibi eşit,2,0.630096,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+m k p n,6,0.16502762,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,p)
+bağ ol gelir Türk lira ve maliyet Türk lira 0 nda tanım sı,1,0.5619732,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,g)
+= 4x2 ve g x = 18x fonksiyon ile modelle durum bu fonksiyon grafik,0,0.6123287,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+g x eşitsizliğ çözüm küme 9 2 ol belirle bu durum,7,0.6506584,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,x)
+kullan,6,0.6541257,2. TEMA: NİCELİKLER VE DEĞİŞİMLER,i)
+ver say problem say nesne belirle,7,0.8357832,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",a)
+say problem yer al nesne ara ilişki belirle,7,0.8706636,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",b)
+problem durum sözel ifade görsel temsil dönüş,1,0.38886493,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",c)
+say problem fark durum uygun çözüm strateji oluş,7,0.92098844,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",d)
+seç çözüm strateji kullan,7,0.83576304,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",e)
+seç çözüm strateji kontrol et,7,0.83577454,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",f)
+say problem olası çözüm strateji göz geçir,7,0.89333564,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",g)
+say problem çözüim ulaş strateji yönelik çıkarım değerlen,3,0.67756665,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",h)
+Karşılaş problem durum cebirsel ve fonksiyonel işlem algoritmik,7,0.4675928,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",a)
+Ön bilgi kullan cebirsel ve fonksiyonel yapı ile bu yapı algorit,6,0.79905725,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",b)
+ve bu problem çözüm,7,0.7751253,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i)
+102,6,0.16502762,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",e)
+oluştur veya ver algoritma çözümley,7,0.7751328,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",d)
+yap iş,6,0.16502762,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",a)
+yönelik görüş alı bu süreç,3,0.76666784,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i)
+el al daha karmaşık bir problem durum içer say yöntem bakım,5,0.8672565,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i)
+hesap sıra,5,0.63413686,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",t)
+içer i iç özdeş,5,0.76923823,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i)
+ve niceleyici her,3,0.63000035,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",k)
+incele ve karekök ifade et bir irrasyonel sayı yaklaşık değer bul kul,4,0.48188233,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i)
+Öğrenci algoritma oluşturmadaki ön bilgi kullan cebirsel ve fonksiyonel,6,0.53514063,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",x)
+bir çözüm üret,7,0.6433946,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",d)
+oluştur iste bu ve bu gibi örnek Üzer öğrenci olası,2,0.4940022,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",d)
+cebr çizge kuram en,1,0.6345362,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",l)
+Üzer grup çalış veya pro,7,0.44238314,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i)
+kullan,6,0.6541257,"3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM",i)
+KAVRAMSAL,2,0.63010186,5. TEMA: ANALİTİK İNCELEME,a)
+dik koordinat sistem iki nokta ara uzaklık bağıntı ve bir doğru parça,2,0.91806644,5. TEMA: ANALİTİK İNCELEME,a)
+fark örnek Üzer varsayım yönelik örüntü genel,6,0.7628575,5. TEMA: ANALİTİK İNCELEME,b)
+iki nokta ara uzaklık bağıntı ve bir doğru parça belli oran böl,2,0.90584046,5. TEMA: ANALİTİK İNCELEME,c)
+Öner gerçek yaşam problem bağlam değerlen,5,0.90687513,5. TEMA: ANALİTİK İNCELEME,d)
+dik koordinat sistem doğru eğim açı eğim ve doğru birbiri,2,0.9180671,5. TEMA: ANALİTİK İNCELEME,a)
+Karşılaş problem durum dik koordinat sistem doğru eğim açı,2,0.5629621,5. TEMA: ANALİTİK İNCELEME,b)
+dik koordinat sistem doğru eğim açı eğim ve doğru birbiri,2,0.9180671,5. TEMA: ANALİTİK İNCELEME,c)
+|AB| A,6,0.16502762,5. TEMA: ANALİTİK İNCELEME,e)
+ve Fermat nın analitik geometri ilgili çalış tanı,2,0.90584564,5. TEMA: ANALİTİK İNCELEME,t)
+analitik ol hesapla gerçek uzaklık karşılaş dijital okuryazar,2,0.50100994,5. TEMA: ANALİTİK İNCELEME,k)
+ve Fermat nın analitik geometri ilgili çalış tanı,2,0.90584564,5. TEMA: ANALİTİK İNCELEME,t)
+be,6,0.16502762,5. TEMA: ANALİTİK İNCELEME,a)
+sahip iki doğru ara,2,0.6300923,5. TEMA: ANALİTİK İNCELEME,i)
+f(x,6,0.16502762,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x)
+x,6,0.16502762,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x)
+tanx,5,0.6341368,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x)
+(,6,0.16502762,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),r)
+Trigonometrik referans fonksiyon nitel özellik tanım küme görüntü kü,4,0.91944325,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),a)
+matematiksel temsil kullan belirle,6,0.8745566,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),u)
+Trigonometrik referans fonksiyon nitel özellik ile matematiksel temsil,0,0.90777093,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),b)
+Trigonometrik referans fonksiyon grafik ve cebirsel temsil Üzer yap iş,0,0.91973954,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),c)
+Trigonometrik referans fonksiyon türet fonksiyon nitel özellik,0,0.90777284,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),d)
+Varsayım yararlan fark durum ilgili örüntü listele türet,6,0.9321861,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),e)
+Genelle varsayım karşıla karşıla kontrol et,6,0.8965432,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),f)
+Genelle el et öner uygun sözel veya cebirsel dil ile sun,1,0.8906775,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),g)
+Öner grafiksel ol doğru veya cebirsel ol ispat,1,0.89068156,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),h)
+Trigonometrik fonksiyon ifade edil denklem ilişkin matematiksel bi,0,0.91973007,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),a)
+belirle,7,0.6433744,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i)
+Trigonometrik fonksiyon ifade edil denklem ilişkin matematiksel bile,0,0.9289513,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),b)
+Trigonometrik fonksiyon ifade edil denklem problem bağlam,0,0.9197356,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),c)
+el et ve yorumla fark temsil dayalı ol problem çözüm için stra,6,0.9233825,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),d)
+Belirle strateji kullan,7,0.83575624,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),e)
+el et çözüm fark yöntem kullan doğru,6,0.89653516,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),f)
+Problemin olası çözüm strateji göz geçir,7,0.89333665,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),g)
+Çıkarımlarının geçerli sözel cebirsel ve grafiksel argüman değerlen,1,0.9190509,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),h)
+2π 360 sinx cosx cotx T tanx,2,0.6510536,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),e)
+araştır ödev verilebilir ver ödev hazırlık içerik ve sunum süreç,2,0.8893463,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i)
+nokta kullan,6,0.4124451,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),y)
+sinx cosx cotx,2,0.8296602,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x)
+gerçek sayı tanım ol ve bu fonksiyon görüntü küme 1 1 ol,4,0.90745914,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x)
+keşfet yönelik çalış yap f(x,3,0.766663,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x)
+k,6,0.16502762,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),r)
+cebirsel temsil ifade et E3 6 E3 7 bu dönüşüm el et yorumla ma,0,0.48327532,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x)
+hareket yasa sabit ivme,5,0.76928484,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),n)
+gibi önerme ilişkin ilgili fonksiyon,0,0.49544814,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x)
+k f mx,6,0.16502762,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),r)
+0 m,6,0.16502762,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x)
+h(x gibi eşitlik trigonometrik denklem,0,0.83312905,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),x)
+dönüşüm yap bu temsil ara geç göster,0,0.2936156,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),l)
+kulla,6,0.16502762,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i)
+kullan,6,0.6541223,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i)
+KAVRAMSAL,2,0.63010186,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a)
+gerçek sayı tanım doğrusal ve karesel fonksiyon,4,0.9074584,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a)
+an(II) xn + an 1 xn 1 + + a1 x + a0 n,6,0.16502762,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x)
+Gözlem yol çık gerçek sayı tanım doğrusal ve karesel fonk,4,0.9194642,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),b)
+form polinom fonksiyon tanım ve değer küme ile işlem özellik,4,0.919463,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x)
+tespit et özellik hareket gerçek sayı tanım doğrusal ve karesel,4,0.52691257,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),c)
+siyon aynı aile ol ve benze nitel özellik sahip ol,4,0.8325732,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x)
+gerçek katsayı tek değişken polinom fonksiyon nitel özellik tanım kü,4,0.919467,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a)
+mes görüntü küme derece bir birlik örten işaret sıfır tek,5,0.4825118,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),i)
+gerçek katsayı tek değişken polinom fonksiyon nitel özellik dair var,4,0.9194649,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),b)
+gerçek katsayı tek değişken polinom fonksiyon nitel özellik dair genel,4,0.8037813,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),c)
+gerçek katsayı tek değişken polinom fonksiyon nitel özellik dair öner,4,0.9287119,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),d)
+Polinom ve rasyonel fonksiyon ifade edil denklem ve eşitsizlik içer,0,0.92895967,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a)
+Oluşturduğu strateji kullan problem çöze,7,0.8706585,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),b)
+Problemin çözüm kontrol et,7,0.8357786,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),c)
+Problemin olası çözüm strateji fark problem durum kullanım ile ilgili,7,0.93726015,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),d)
+Çıkarımlarının geçerli sözel cebirsel ve grafiksel argüman değerlen,1,0.9190509,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),e)
+Öğrenme çıktı çalış kâğıd performans görev proje ödev açık uç soru ve araş,7,0.9431463,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),e)
+polinom ol adlandır belir polinom derece başkatsayı sabit terim tanı,5,0.91893905,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x)
+matematik yazılım oluştur,0,0.8331307,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),i)
+l grafik ve cebirsel temsil incele bu fonksiyon tek veya çift durum,0,0.90776813,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x)
+x3 + 3x p(x,6,0.16502762,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x)
+için p(x,6,0.16502762,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),m)
+polinom fonksiyon sıfır k m k m,4,0.5601458,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x)
+polinom fonksiyon sıfır,4,0.56014615,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x)
+iken a > 0,6,0.16502762,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),k)
+polinom fonksiyon sıfır k + a m + a ol gibi öner el et,1,0.49575898,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a)
+uygulama hedefle proje incele OB5 Polinom fonksiyon tarihî gelişim,0,0.91973585,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),a)
+< g(x gibi polinom veya rasyonel fonksiyon içer,0,0.8685902,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x)
+f(x g(x fonksiyon işaret bir derece çar,0,0.8331387,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x)
+r hangi ardışık tam sayı ara ol dair çıkarım bulun fonksiyon,2,0.3865291,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x)
+formül,6,0.16502762,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),t)
+rine yönelik araştır ödev verilebilir Öğrenci araştır sonuç ulaş veri,3,0.57841235,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x)
+yöntem yer ver bir kök tahmin,3,0.6299397,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),r)
+x4 fonks,4,0.6364169,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x)
+x2 + 1,6,0.16502762,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x)
+x 1,6,0.16502762,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x)
+=,6,0.16502762,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),x)
+kullan öğrenci için bireyselleştir öğren plan oluştur ve po,7,0.9092242,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2),i)
+-,6,0.16502762,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),e)
+iki veya daha fazla fonksiyon bileşke oluş bir fonksiyon bileşen,0,0.90776974,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),a)
+belirle,7,0.6433667,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),i)
+iki veya daha fazla fonksiyon bileşke oluş bir fonksiyon bileşen ara,0,0.90776974,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),b)
+iki veya daha fazla fonksiyon bileşke el et fonksiyon sembolik bir dil,0,0.6734576,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),c)
+Bileşke fonksiyon ve bu fonksiyon nitel özellik işaret artan azal,0,0.9077768,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),d)
+ilişkin,6,0.65413344,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),i)
+Varsayım dayalı ol bileşke fonksiyon ve bileşke fonksiyon nitel özel,0,0.58406657,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),e)
+Genelle varsayım karşıla karşıla kontrol et,6,0.8965432,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),f)
+Genelle el et önerme matematiksel ol doğrula,3,0.86571854,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),g)
+Öner grafiksel ol doğru veya cebirsel ol ispat,1,0.89068156,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),h)
+Fonksiyon dört işlem yapıl koşul incele,4,0.868135,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),a)
+Fonksiyon dört işlem uygun cebirsel veya grafik temsil ifade et,0,0.7410519,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),b)
+Fonksiyonlarda dört işlem özellik dönüştür fonksiyon bağlam sözel,0,0.8916104,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),c)
+f g x f g x f + g x f g x f g x f g x,6,0.16502762,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),e)
+f(x 2 ol yol çıkıl f fonk,4,0.6363411,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x)
+x 2)2 şekil tanım fonksiyon hareket,4,0.8681404,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x)
+h(x))2 şekil tanım fonksi,4,0.8325709,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x)
+yon dönüşüm Üzer dur bu bağlam dönüşüm sonuç oluş fonksiyon birden,2,0.6410205,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x)
+=,6,0.16502762,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x)
+x gösterim kullan MAB3 fog fonksiyon tanım olabil,6,0.62294537,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),g)
+eşitlik her,0,0.6376659,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x)
+f ve g fonksiyon için sağla sağlana ve gerçek sayı tanım bir fonksiyon,4,0.5801563,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x)
+g 1of 1)(x fo(goh))(x,6,0.16502762,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x)
+gibi değin el et var,6,0.16502762,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x)
+x gösterim kullan MAB3 fog fonksiyon tanım olabil,6,0.62292856,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),g)
+gof)(x eşitlik her,0,0.6376659,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x)
+f + g ve f g fonksiyon cebirsel ve grafik temsil oluştur ardından f g f + g f g,0,0.8916117,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x)
+=,6,0.16502762,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x)
+< g(x i fof)(x < fog)(x gibi öner,1,0.6345409,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),x)
+fonksiyon ile bileşke fonksiyon ilişki orta koy örnek incele Döngü kullanı,0,0.42194638,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),d)
+kullan öğrenci için bireyselleştir öğren plan oluştur ve öğrenci,7,0.76399297,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3),i)
+Dörtgen kenar açı köşegen simetri ve al özellik ilişkin varsayım,6,0.9119687,2. TEMA: GEOMETRİK ŞEKİLLER,a)
+Varsayım kullan dörtgen kenar açı köşegen simetri ve al özellik,6,0.91196847,2. TEMA: GEOMETRİK ŞEKİLLER,b)
+Dörtgen kenar açı köşegen simetri ve al özellik ilişkin varsayım ile,6,0.9119687,2. TEMA: GEOMETRİK ŞEKİLLER,c)
+Dörtgen kenar açı köşegen simetri ve al özellik ilişkin sun öner,6,0.774499,2. TEMA: GEOMETRİK ŞEKİLLER,d)
+El et önerme üçgen açı benzer ve al özellik kullan is,3,0.36200732,2. TEMA: GEOMETRİK ŞEKİLLER,e)
+İş koş ispat kullanışlı açı değerlen,3,0.82961684,2. TEMA: GEOMETRİK ŞEKİLLER,f)
+Dörtgen özellik kullan özel dörtgen ara hiyerarşik veya ne,6,0.8965426,2. TEMA: GEOMETRİK ŞEKİLLER,a)
+özel dörtgen ara hiyerarşik ilişki dair anlam bir bütün oluş,6,0.9233857,2. TEMA: GEOMETRİK ŞEKİLLER,b)
+çokgen ayırt et için ölçüt belirle,4,0.83250606,2. TEMA: GEOMETRİK ŞEKİLLER,a)
+çokgen belirle ölçüt göre ayrış,4,0.8681034,2. TEMA: GEOMETRİK ŞEKİLLER,b)
+Ayrış çokgen tasnif et,4,0.77069193,2. TEMA: GEOMETRİK ŞEKİLLER,c)
+Dışbükey çokgen kenar açı köşegen simetri ve al özellik dair varsayım,6,0.92339003,2. TEMA: GEOMETRİK ŞEKİLLER,a)
+Varsayım kullan dışbükey çokgen kenar açı köşegen simetri ve al,6,0.9233902,2. TEMA: GEOMETRİK ŞEKİLLER,b)
+Dışbükey çokgen kenar açı köşegen simetri ve al özellik ilişkin genel,6,0.92339015,2. TEMA: GEOMETRİK ŞEKİLLER,c)
+Dışbükey çokgen kenar açı köşegen simetri ve al özellik ilişkin sun,6,0.91196805,2. TEMA: GEOMETRİK ŞEKİLLER,d)
+çokgen içer problem parça nicelik şekil gibi belirle,5,0.9189333,2. TEMA: GEOMETRİK ŞEKİLLER,a)
+Problemin parça ara ilişki belirle,7,0.87066513,2. TEMA: GEOMETRİK ŞEKİLLER,b)
+Problemin bileşen ve ara ilişki bağla uygun ol matematiksel,1,0.90697247,2. TEMA: GEOMETRİK ŞEKİLLER,c)
+Problemin çözüm için strateji geliş,7,0.64075154,2. TEMA: GEOMETRİK ŞEKİLLER,d)
+Geliş strateji kullan problem çöze,7,0.7125,2. TEMA: GEOMETRİK ŞEKİLLER,e)
+Çözüm kontrol et ve çözüme ulaştır strateji değiş,2,0.48902547,2. TEMA: GEOMETRİK ŞEKİLLER,f)
+Problemin olası fark çözüm strateji incele problem çözüm ilişkin de,7,0.6476664,2. TEMA: GEOMETRİK ŞEKİLLER,g)
+Ulaş çıkarım geçerli değerlen,3,0.60357904,2. TEMA: GEOMETRİK ŞEKİLLER,h)
+",",6,0.16502762,2. TEMA: GEOMETRİK ŞEKİLLER,e)
+iş koş,6,0.16502762,2. TEMA: GEOMETRİK ŞEKİLLER,i)
+ol ifade et iste Önermelerin değerlendir süreç öğrenci sun,6,0.91196287,2. TEMA: GEOMETRİK ŞEKİLLER,i)
+ve al dörtgen alan,6,0.41250092,2. TEMA: GEOMETRİK ŞEKİLLER,i)
+özellik ilişkin çıkarım bulun sağla bu yan sıra öğrenci dört,5,0.90684515,2. TEMA: GEOMETRİK ŞEKİLLER,i)
+kullan dörtgen ilişkin başka çıkarım Paralelkenarın,6,0.65253025,2. TEMA: GEOMETRİK ŞEKİLLER,i)
+vurgulan,6,0.16502762,2. TEMA: GEOMETRİK ŞEKİLLER,i)
+ve,6,0.16502762,2. TEMA: GEOMETRİK ŞEKİLLER,i)
+ol ifade et iste Önermelerin değerlendir süreç öğrenci sun,6,0.91196334,2. TEMA: GEOMETRİK ŞEKİLLER,i)
+ilgili yeni fikir geliştir,3,0.8657991,2. TEMA: GEOMETRİK ŞEKİLLER,i)
+öğrenci beraber belirle ve gerekçelendir Öğrenci grup çalış,7,0.6056845,2. TEMA: GEOMETRİK ŞEKİLLER,i)
+sağla Öğrenci fark kültür ve Türk,1,0.44247466,2. TEMA: GEOMETRİK ŞEKİLLER,i)
+ol ifade et,0,0.63765264,2. TEMA: GEOMETRİK ŞEKİLLER,i)
+kullan eser incele bu eser yapım kullan düzgü çokgen nasıl,6,0.68462896,2. TEMA: GEOMETRİK ŞEKİLLER,i)
+yap sağla süreç iş koş Öğrenci düzgün beşgen düz,5,0.8315178,2. TEMA: GEOMETRİK ŞEKİLLER,i)
+özellik iliş,1,0.6345254,2. TEMA: GEOMETRİK ŞEKİLLER,i)
+ve bu parça ara ilişki belirle sağla,3,0.6194562,2. TEMA: GEOMETRİK ŞEKİLLER,i)
+çıkarım matematiksel örnek destekle değerlendir yap,3,0.51798666,2. TEMA: GEOMETRİK ŞEKİLLER,i)
+hakk,6,0.16502762,2. TEMA: GEOMETRİK ŞEKİLLER,i)
+altın,6,0.16502762,2. TEMA: GEOMETRİK ŞEKİLLER,i)
+iki nicel değişken veri dayalı istatistiksel araştır gerek gerçek yaşam du,5,0.6118284,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a)
+Bağlam içeri iki nicel değişken ara ilişkili odaklan araştır so,5,0.7100693,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,b)
+iki nicel değişken veri topla el et için plan yap,7,0.89333636,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,c)
+araştır soru bağlam topla el et iki nicel değişken veri ana,7,0.92101514,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,d)
+araştır soru bağlam topla el et veri belirle araç ana,7,0.9210145,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e)
+iki nicel değişken veri dağılım dayalı istatistiksel araştır el et,5,0.6851686,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,f)
+iki nicel değişken veri dağılım dayalı istatistiksel araştır el et,5,0.68531454,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,g)
+başka taraf oluş iki nicel değişken veri ilişkili dayalı ista,7,0.9300791,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,a)
+başka taraf oluş iki nicel değişken veri ilişkili dayalı ista,7,0.9300791,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,b)
+başka taraf oluş iki nicel değişken veri ilişkili dayalı ista,7,0.930079,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,c)
+Öğrenme çıktı çalış kâğıd kontrol liste ve kavram harita performans görev ile,7,0.93728703,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,e)
+ara bir iliş,1,0.63452524,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,h)
+belirle oluştur veri topla ve,7,0.8706742,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i)
+odaklan sağla,5,0.7692869,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i)
+ve güc ilişki yok zayıf orta güç ilişkin yo,1,0.5358213,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,f)
+yoğunluk etkiley,6,0.16502762,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i)
+kullana,6,0.16502762,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i)
+ve sayısal değer korelasyon katsayı ara tutarlı,4,0.56233096,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i)
+faydalan bu süreç,1,0.4052397,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i)
+hareket araştır soru oluştur veri,7,0.61959624,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i)
+sun ve öğrenci bu ilişkin değerlendir yap iste,6,0.87456197,3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ,i)
+sayı örüntü ardışık terim belirle,6,0.7174808,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),a)
+Ardışık terim ara ortak fark oran çarpan ilişki belirle,6,0.8094538,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),b)
+sayı örüntü her bir terim belirle ortak fark oran kullan ifade et,6,0.9391717,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),c)
+Aritmetik geometrik dizi son toplam ilişkin varsayım bulun,6,0.9233904,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),d)
+Varsayım yararlan aritmetik geometrik dizi son toplam ile ilgi,6,0.92338854,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),e)
+Aritmetik geometrik dizi son toplam ilişkin genelle ile varsayım,6,0.9233907,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),f)
+El et genelleme aritmetik geometrik dizi son toplam ilişkin,6,0.91196823,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),g)
+Aritmetik ve geometrik dizi son toplam ilişkin el et önerme,6,0.7821964,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),h)
+gerçek sayı dizi ve gerçek sayı tanım fonksiyon özellik belirle,5,0.59512144,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),a)
+gerçek sayı dizi ve gerçek sayı tanım fonksiyon özellik ilişkin,5,0.61325145,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),b)
+gerçek sayı dizi ve gerçek sayı tanım fonksiyon özellik ilişkin,5,0.61327493,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),c)
+an,6,0.16502762,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),e)
+incele,2,0.6300975,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i)
+geometrik dizi ilk n terim toplam Sn = a1,6,0.87456495,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),n)
+iş koşul değerlendir,6,0.78188384,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i)
+ve iteratif yineleme dizi ile bu dizi algorit ve ak,5,0.831483,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i)
+geometrik dizi ilk n terim toplam Sn = a1,6,0.87456495,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),n)
+iş koşul değerlendir,6,0.78188455,1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1),i)
+KAVRAMSAL,2,0.6301018,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),a)
+bir fonksiyon belirli bir nokta civar veya sonsuz ki davran grafik üze,1,0.65556836,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),a)
+Grafik el et bilgi tablo veya sözel temsil yol yaklaş fikir ula,0,0.9077649,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),b)
+bir fonksiyon belirli bir nokta civar veya sonsuz ki limit sözel ol ye,1,0.91904885,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),c)
+bir fonksiyon tablo grafik ve cebirsel temsil Üzer belirli bir nokta civar,0,0.5548147,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),a)
+bir fonksiyon belirli bir nokta civar veya sonsuz al değer ara,1,0.9069781,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),b)
+bir fonksiyon belirli bir nokta civar veya sonsuz al değer ara,1,0.90697837,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),c)
+fark fonksiyon ve bu fonksiyon yap işlem belirli bir nokta veya,1,0.58958095,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),d)
+Varsayım dayalı örüntü genel,6,0.8745647,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),e)
+Genelle varsayım karşıla karşıla kontrol et,6,0.8965432,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),f)
+Genelle öner ol ifade et,1,0.83167964,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),g)
+bir fonksiyon bir nokta limit belirsiz durum grafik veya tablo kullan,2,0.61945903,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),a)
+incele fonksiyon cebirsel ifade belirsiz durum orta kaldır şe,1,0.39664173,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),b)
+Hesapla limit değer dönüştür fonksiyon ile başlangıç fonksiyon gra,4,0.5030284,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),c)
+Fonksiyonların tanım ol bir nokta değer ile o nokta limit incele,4,0.6076665,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),a)
+Fonksiyonların tanım ol bir nokta değer ile o nokta limit sürekli,4,0.9194676,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),b)
+Fonksiyonların tanım ol bir nokta sürekli o nokta değer limit,4,0.9194676,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),c)
+ve Fonksiyon Sürekli,4,0.7707247,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),i)
+Öğrenme çıktı çalış kâğıd performans görev ve araştır ödev ile değerlendiril,7,0.9372892,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),e)
+Üzer limit fikir duy ihtiyaç vurgula bu saye ilk defa,2,0.865847,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),i)
+dizi terim yazıl ardışık iki terim ara oran elekt,6,0.70961034,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),i)
+0 doğru bu fonksiyon yatay asimptot ol belirle,2,0.30520752,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x)
+incele belirli bir t zaman civar al değer belirle El et değer,4,0.4607003,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),t)
+sun çok uzun yıl sonra nüfus en fazla ne kadar ol matematik yazılım,0,0.86858857,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x)
+ve karl,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),i)
+gibi matematik çalış incele,2,0.8296544,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),s)
+lim f x,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x)
+sonuc ulaş x = 0 dış nokta bu eşitlik,1,0.319653,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x)
+π,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x)
+0 nokta limit ol,2,0.76673794,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x)
+teorem ve uç değer teo,6,0.41256762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),o)
+fonksiyon x,0,0.6376636,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x)
+=,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x)
+0 nokta limit,2,0.766738,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x)
+k m ol göster 0 0 belirsizlik yan sıra 1 belirsiz limit al,2,0.37718168,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x)
+cotx,2,0.6300986,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x)
+f(x,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x)
+tanx f(x,5,0.6341368,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),x)
+kullan,6,0.65412474,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1),i)
+bir fonksiyon belirli bir nokta civar değişim oran ile ilgi bileşen fonksi,1,0.76822066,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a)
+belirle,7,0.64337164,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),i)
+bir fonksiyon belirli bir nokta civar değişim oran ile ilgi bileşen ara,1,0.92834127,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),b)
+bir fonksiyon belirli bir nokta civar değişim oran tablo grafik ve limit gös,1,0.64814097,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),c)
+uygun koşul tanım fonksiyon f(x,4,0.6606801,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),d)
+xn n,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+=,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+Varsayım dayalı örüntü genel,6,0.8745647,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),e)
+Genelle varsayım karşıla karşıla kontrol et,6,0.8965432,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),f)
+Genelle öner ol ifade et,1,0.83167964,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),g)
+Fonksiyonun bir nokta türev limit gösterim faydalan ispat,1,0.9069736,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),h)
+Fonksiyonlar ve türev limit tanım ile ilgi önce bilgi yarar bir,4,0.91945344,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a)
+Varsayım yararlan fark durum ilgili örüntü listele bir fonk,6,0.9321877,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),b)
+bir fonksiyon herhangi bir nokta hangi durum türev ol iliş,1,0.91904646,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),c)
+bir fonksiyon herhangi bir nokta hangi durum türev ol iliş,1,0.91904646,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),d)
+Fonksiyonların toplam fark çarpım bölüm ve bileşke türev ilişkin var,1,0.6969378,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a)
+Varsayım dayalı örüntü genel,6,0.8745647,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),b)
+Genelle varsayım karşıla karşıla kontrol et,6,0.8965432,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),c)
+Öner fark problem durum değerlen,1,0.89064753,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),d)
+iki fonksiyon toplam fark çarpım ve bölüm bir nokta türev dair ku,1,0.9283282,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),e)
+İspatını kullanışlı açı değerlen,3,0.76668036,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),f)
+f'(x f x,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),e)
+',6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a)
+şekil,4,0.6363994,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a)
+y ol üzere,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+eşitlik kullan el et dy,6,0.40948537,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+dx,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+şekil tanım fonksiyon,4,0.83257073,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),t)
+lim,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+h,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+lim,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a)
+x a,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a)
+şekil göster,4,0.77072185,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+uygun koşul f(x,4,0.40993115,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+çok yakın nokta alın bu fonksiyon x,1,0.8674533,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+=,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+h,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+ve Newton gibi bilim insan türev ile ilgi,4,0.77071655,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),z)
+hareket f(x,5,0.6341378,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+şekil tanım,4,0.77072304,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+=,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+xn i,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+x a,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a)
+ile sağ türev f + a eşit,2,0.7667163,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),a)
+şekil tanım fonksiyon grafik temsil,0,0.4919727,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+x,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+incele bu fonksiyon x,0,0.41443875,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+x2 ve g(x,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+MAT 12. 2. 7,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+x şekil tanım fonk,4,0.8325607,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+türev limit tanım el et bura hareket fonksiyon toplam ve fark işlem,4,0.7249404,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+ne ilişkin ol f ve g fonksiyon bağ yeni bir kural el et gerekli ifade et,0,0.39301822,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+x2 fonksiyon bileşke şekil yaz Türev limit,4,0.57883424,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+tanım kullan bu fonksiyon türev al kural belirle ve bileşke fonksiyon türe,0,0.36116675,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+ile ilgili önerme ulaş bu şekil fark görün durum ilişkin bileşke fonksiyon,6,0.39261034,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+f(x,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),x)
+öğrenci yakın çevre dikkat alın çeşitlendirilir böylelikle öğrenci,5,0.54020005,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),i)
+kullan,6,0.65412575,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),r)
+kullan,6,0.6541243,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2),i)
+Referans fonksiyon türev limit tanım fonksiyon türev al kural ile,4,0.8129577,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),a)
+Varsayım yararlan fark durum ilgili örüntü listele bir fonk,6,0.93218756,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),b)
+bir fonksiyon ve o türev fonksiyon matematiksel temsil ve bu,0,0.89161474,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),c)
+bir fonksiyon ve o türev fonksiyon matematiksel temsil ve bu,0,0.8916145,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),d)
+Türev bilgi iş koşul problem matematiksel bileşen problem,0,0.91972226,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),a)
+belirle,7,0.64337385,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i)
+Problem matematiksel bileşen ara ilişki türev bağlam ince,0,0.919733,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),b)
+Problem değişim bağlam fonksiyon denklem ve türev temsil dön,0,0.91973615,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),c)
+el et ve yorumla fark temsil dayalı ol problem çözüm için stra,6,0.9233818,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),d)
+Belirle strateji kullan problem çöze,7,0.8933231,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),e)
+el et çözüm fark yöntem kullan doğru,6,0.8965352,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),f)
+Problemin olası çözüm strateji göz geçir,7,0.8933366,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),g)
+Çıkarımlarının geçerli sözel cebirsel ve grafiksel argüman değerlen,1,0.9190509,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),h)
+değişim modelle için kullanıl matematiksel bir araç i,1,0.8906729,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i)
+Öğrenme çıktı çalış kâğıd performans görev ve araştır ödev ile değerlendiril,7,0.9372892,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),e)
+k şekil tanım doğru eğim değer sıfır ol ile bir,4,0.44353697,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x)
+f(x,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),a)
+ince,3,0.62997895,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i)
+le Genelle polinom fonksiyon grafik temsil ile ilişkilendir varsayım ile,0,0.50285923,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x)
+=,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x)
+ol f polinom fonksiyon,4,0.77072483,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),b)
++ 3 fonksiyon a b nda artan veya azalan,0,0.8331438,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x)
+< 0 ol i g(x,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x)
+ve ortalama değer,4,0.63642764,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),l)
+nın her nokta türevlen dik koordinat sistem ver keyfî bir,2,0.82966155,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),b)
+sağla ayrıca aynı tanım aralığ sürekli ve türevlenebilir özellik sahip,4,0.8912399,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i)
+0 ol şekil en az bir d gerçek Sayıs bulun Rol teorem dair,6,0.6178719,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),a)
+eşitlik sağla durum öğrenci d,5,0.64257467,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),b)
+c,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),d)
+gerçek yaşam,5,0.7692884,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i)
+şekil tanım fonksiyon al en büyük değer a ol belirle,4,0.65268266,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x)
+çıkarım ulaş Problem çözüm yönelik çıkarım sözel cebirsel ve grafiksel ar,3,0.45285967,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x)
+yüzey alan ki a değişim bağ ol hacim,3,0.82960653,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),e)
+fonksiyon ol ifade et,0,0.7715073,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i)
++ 2 şekil tanım üç derece polinom,4,0.8681397,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x)
+ve g(x,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),x)
+yorumla fizik serbest düşüş bir cism,6,0.6541334,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),i)
+melez,6,0.16502762,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),l)
+şekil tanım,4,0.77072304,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),p)
+fonksiyon ile belirle f fonksiyon grafik yorumla buruşuk bezelye oran yüksek,0,0.529302,2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3),p)
+çözüm,7,0.6433989,3. TEMA: GEOMETRİK ŞEKİLLER,y)
+çözümleyebilme,6,0.16502762,3. TEMA: GEOMETRİK ŞEKİLLER,y)
+kesen kiriş teğet çap ve yay çember eleman ol belirle,3,0.8893187,3. TEMA: GEOMETRİK ŞEKİLLER,a)
+Çemberde kes kiriş teğet çap ve yay ara ilişki belirle,3,0.8893188,3. TEMA: GEOMETRİK ŞEKİLLER,b)
+Çemberde açı kiriş ve teğet özellik ilişkin varsayım bulun,3,0.53895205,3. TEMA: GEOMETRİK ŞEKİLLER,a)
+Varsayım yarar çember açı kiriş ve teğet özellik ilişkin,3,0.48035118,3. TEMA: GEOMETRİK ŞEKİLLER,b)
+Genelle varsayım karşılaştır,6,0.5694392,3. TEMA: GEOMETRİK ŞEKİLLER,c)
+Önermelerinin fark problem durum kullanışlı değerlen,3,0.6568541,3. TEMA: GEOMETRİK ŞEKİLLER,d)
+Çember açı kiriş teğet özellik ve daire alan içer problem bile,3,0.5883309,3. TEMA: GEOMETRİK ŞEKİLLER,a)
+belirle,7,0.64337367,3. TEMA: GEOMETRİK ŞEKİLLER,i)
+Problemlerde ver bileşen ara ilişki belirle,1,0.8674435,3. TEMA: GEOMETRİK ŞEKİLLER,b)
+Problemin bileşen ve bileşen ara ilişki uygun matematiksel,1,0.9069737,3. TEMA: GEOMETRİK ŞEKİLLER,c)
+Problemlerin çözüm için strateji geliş,7,0.5642269,3. TEMA: GEOMETRİK ŞEKİLLER,d)
+Geliş strateji kullan problem çöze,7,0.7125021,3. TEMA: GEOMETRİK ŞEKİLLER,e)
+Çözüm kontrol et ve çözüme ulaştır strateji değiş,2,0.4890159,3. TEMA: GEOMETRİK ŞEKİLLER,f)
+problem çöz süreç göz geçir,7,0.4787571,3. TEMA: GEOMETRİK ŞEKİLLER,g)
+Ulaş çıkarım değerlen,3,0.8296186,3. TEMA: GEOMETRİK ŞEKİLLER,h)
+Öğrenme çıktı çalışma kâğıd doğru,7,0.7181142,3. TEMA: GEOMETRİK ŞEKİLLER,e)
+ve bu parça ara ilişki,3,0.7666638,3. TEMA: GEOMETRİK ŞEKİLLER,i)
+genelle matema,1,0.76950663,3. TEMA: GEOMETRİK ŞEKİLLER,i)
+dik prizma ve dik dairesel silindir eleman belirle,7,0.89333385,4. TEMA: GEOMETRİK CİSİMLER,a)
+dik prizma ve dik dairesel silindir eleman ara ilişki belirle,7,0.90923387,4. TEMA: GEOMETRİK CİSİMLER,b)
+dik prizma ile dik dairesel silindir yarar dik piramit dik dairesel koni ve kü,7,0.92101157,4. TEMA: GEOMETRİK CİSİMLER,a)
+dik prizma ile dik dairesel silindir yarar dik piramit dik dairesel koni ve kü,7,0.92101157,4. TEMA: GEOMETRİK CİSİMLER,b)
+Gözlemle benzerlik yarar dik piramit dik dairesel koni ve küre el,4,0.907447,4. TEMA: GEOMETRİK CİSİMLER,c)
+Geometrik cisim içer problem bileşen nicelik şekil gibi belirle,6,0.40147308,4. TEMA: GEOMETRİK CİSİMLER,a)
+bileşen ara ilişki belirle,1,0.8316823,4. TEMA: GEOMETRİK CİSİMLER,b)
+Problemin bileşen ve ara ilişki uygun matematiksel temsil dön,1,0.6417584,4. TEMA: GEOMETRİK CİSİMLER,c)
+Problemin çözüm için gerek işlem ve çözüm gerçekleştir için strateji,7,0.9210104,4. TEMA: GEOMETRİK CİSİMLER,d)
+Belirle strateji çözüm için uygula problem çöze,7,0.9092373,4. TEMA: GEOMETRİK CİSİMLER,e)
+Çözüm kontrol et ve çözüme ulaştır strateji değiş,2,0.48900926,4. TEMA: GEOMETRİK CİSİMLER,f)
+Problemin çözüm için kullan veya geliş strateji ve olası fark strateji,7,0.7827109,4. TEMA: GEOMETRİK CİSİMLER,g)
+Ulaş çıkarım geçerli matematiksel örnek değerlen,3,0.6701511,4. TEMA: GEOMETRİK CİSİMLER,h)
+Öğrenme çıktı çalışma kâğıd açık uç soru proje ödev ve performans görev ile de,7,0.94314617,4. TEMA: GEOMETRİK CİSİMLER,e)
+kullan mimari yapı incelenmesiyle ilgili proje ödev verilebilir Ödev,2,0.6656648,4. TEMA: GEOMETRİK CİSİMLER,e)
+bil dik prizma ve dik dairesel silindir yüzey,7,0.87067515,4. TEMA: GEOMETRİK CİSİMLER,i)
+yap sağla Benze şekil öğrenci dik dairesel silindir ile dik dairesel koni ve,5,0.92825884,4. TEMA: GEOMETRİK CİSİMLER,i)
+dik prizma yardım,2,0.76671374,4. TEMA: GEOMETRİK CİSİMLER,i)
+belirle,7,0.6433736,4. TEMA: GEOMETRİK CİSİMLER,i)
+örnek incele öğrenci kullan geometrik cisim neden tercih et iliş,6,0.7712532,4. TEMA: GEOMETRİK CİSİMLER,k)
+yönlendir Öğrenci,5,0.63411736,4. TEMA: GEOMETRİK CİSİMLER,i)
+ve bu parça ara ilişki belirle sağla bu süreç öğrenci,5,0.47013283,4. TEMA: GEOMETRİK CİSİMLER,i)
+incele isten öğrenci konu ilişkin bilgi,2,0.6573225,4. TEMA: GEOMETRİK CİSİMLER,i)
+çalış araştır ve sınıf sun,7,0.445829,4. TEMA: GEOMETRİK CİSİMLER,s)
+istatistiksel araştır tasarla gerek toplumsal ve veya bilimsel durum,3,0.6142288,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,a)
+Bağlam içeri ve tasarla istatistiksel araştır yönelik veri dağılım,5,0.47838247,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,b)
+Verileri el et yönelik plan yap,7,0.40575764,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,c)
+araştır soru bağlam veri analiz et için görselleştir ve veya,7,0.89333504,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,d)
+araştır soru bağlam veri belirle araç analiz et,7,0.92101413,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,e)
+Tasarla istatistiksel araştır el et çıktı hareket yorumla,3,0.7272971,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,f)
+Tasarla istatistiksel araştır el et sonuç araştır soru bağ,3,0.9058153,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,g)
+dağılım veri birlikte değişebilirlik eğilim iliş,5,0.8673088,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,l)
+-,6,0.16502762,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,e)
+ve iki değişken kategorik kategorik,5,0.8315207,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,l)
+veri set ile çalış istatistiksel araştır sürec yürütebildikleri kabul,3,0.889318,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,l)
+veya yatırım ve tasarruf incele ekonomi OB3 araştır soru,7,0.5260825,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i)
+yer ver uygun ol araç belir,7,0.8357847,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i)
+istatistiksel araştır tasarım ve el et sonuç,3,0.6501453,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i)
+ilgili veri temel argüman ve yeni çözüm ön,7,0.61793,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i)
+kullan oluştur istatistiksel araştır tasarım ve,3,0.6932849,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i)
+paylaş bekle,2,0.6300747,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i)
+yardım sınıf orta,1,0.8316979,5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA,i)

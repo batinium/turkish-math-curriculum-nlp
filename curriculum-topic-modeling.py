@@ -133,7 +133,7 @@ def prepare_topic_modeling_data(processed_data):
         detected_type = curriculum.get('detected_type', '')
         print(f"Detected type for {name}: {detected_type}")
         
-        if '2018' in detected_type or detected_type == '2018-style' or detected_type == 'chapter-based' or detected_type == 'numeric-based':
+        if '2018' in detected_type or detected_type == '2018-style':
             curricula_by_year['2018'].append((name, curriculum))
         elif '2024' in detected_type or detected_type == '2024-style':
             curricula_by_year['2024'].append((name, curriculum))
@@ -382,7 +382,6 @@ def find_optimal_topics(documents, year, stopwords_set, start=2, limit=10, step=
     
     return optimal_num_topics, model_list[optimal_idx]
 
-# Analyze topic distribution
 def analyze_topic_distribution(model_data, documents, metadata, year):
     """Analyze how topics are distributed across curriculum documents."""
     
@@ -413,8 +412,7 @@ def analyze_topic_distribution(model_data, documents, metadata, year):
             'dominant_topic': dominant_topic[0],
             'topic_percent': dominant_topic[1],
             'section': metadata[i]['section'] if i < len(metadata) else 'Unknown',
-            'item': metadata[i]['item'] if i < len(metadata) else 'Unknown',
-            'ai_relevance_score': metadata[i]['ai_relevance_score'] if i < len(metadata) else 0
+            'item': metadata[i]['item'] if i < len(metadata) else 'Unknown'
         }
         
         topic_distribution.append(doc_data)
@@ -427,7 +425,7 @@ def analyze_topic_distribution(model_data, documents, metadata, year):
     
     # Check if visualization already exists
     dist_plot_path = os.path.join(FIGURES_DIR, f'topic_distribution_{year}.png')
-    ai_plot_path = os.path.join(FIGURES_DIR, f'ai_relevance_by_topic_{year}.png')
+    section_plot_path = os.path.join(FIGURES_DIR, f'topics_by_section_{year}.png')
     
     if not os.path.exists(dist_plot_path):
         # Create topic distribution chart
@@ -442,18 +440,29 @@ def analyze_topic_distribution(model_data, documents, metadata, year):
         plt.savefig(dist_plot_path, dpi=300)
         plt.close()
     
-    if not os.path.exists(ai_plot_path):
-        # Analyze AI relevance by topic
-        plt.figure(figsize=(10, 6))
-        sns.boxplot(x='dominant_topic', y='ai_relevance_score', data=topic_df)
+    # New visualization: Topics by curriculum section
+    if not os.path.exists(section_plot_path) and 'section' in topic_df.columns:
+        # Get top sections for clarity
+        top_sections = topic_df['section'].value_counts().head(10).index
+        filtered_df = topic_df[topic_df['section'].isin(top_sections)]
+        
+        plt.figure(figsize=(12, 8))
+        section_topic_counts = pd.crosstab(filtered_df['section'], filtered_df['dominant_topic'])
+        
+        # Normalize to show percentage distribution
+        section_topic_pcts = section_topic_counts.div(section_topic_counts.sum(axis=1), axis=0)
+        
+        # Plot heatmap
+        sns.heatmap(section_topic_pcts, cmap='YlGnBu', annot=True, fmt='.0%')
+        plt.title(f"Topic Distribution by Curriculum Section ({year})")
         plt.xlabel("Topic Number")
-        plt.ylabel("AI Relevance Score")
-        plt.title(f"AI Relevance by Topic ({year})")
+        plt.ylabel("Curriculum Section")
         plt.tight_layout()
-        plt.savefig(ai_plot_path, dpi=300)
+        plt.savefig(section_plot_path, dpi=300)
         plt.close()
     
     return topic_df
+
 
 
 # Compare topics between curricula
@@ -599,94 +608,156 @@ def create_concept_network(topics_comparison, similarity_matrix):
     
     return G, pos
 
-# Classify learning objectives by AI-relevance potential
-def classify_objectives_by_ai_potential(processed_data):
-    """Classify learning objectives by their potential AI relevance."""
-    classifications = {
-        '2018': [],
-        '2024': []
-    }
-    
-    # First, determine which curriculum corresponds to which year
-    curricula_by_year = {'2018': [], '2024': []}
-    
-    for name, curriculum in processed_data.items():
-        if not curriculum:
-            continue
-            
-        # Check if we can determine year from detected_type
-        detected_type = curriculum.get('detected_type', '')
+
+def visualize_topic_evolution(evolution_results):
+    """Create visualizations for topic evolution analysis."""
+    # Visualize emerging topics
+    if evolution_results['emerging_topics']:
+        emerging_df = pd.DataFrame(evolution_results['emerging_topics'])
+        plt.figure(figsize=(12, len(emerging_df) * 0.5 + 2))
+        ax = plt.subplot(111)
         
-        if '2018' in detected_type or detected_type == '2018-style' or detected_type == 'chapter-based' or detected_type == 'numeric-based':
-            curricula_by_year['2018'].append((name, curriculum))
-        elif '2024' in detected_type or detected_type == '2024-style':
-            curricula_by_year['2024'].append((name, curriculum))
-        else:
-            # Try to guess from the name
-            if '2018' in name:
-                curricula_by_year['2018'].append((name, curriculum))
-            elif '2024' in name:
-                curricula_by_year['2024'].append((name, curriculum))
-            else:
-                print(f"Warning: Could not determine year for curriculum '{name}'. Skipping.")
-    
-    # Define a simple model for classification
-    def classify_objective(obj):
-        # Get AI relevance score
-        ai_score = obj.get('ai_relevance_score', 0)
+        # Display top keywords for each emerging topic
+        topic_labels = [', '.join(kw[:5]) for kw in emerging_df['keywords']]
+        y_pos = np.arange(len(topic_labels))
         
-        # Define thresholds for classification
-        if ai_score >= 3:
-            return "High AI Relevance"
-        elif ai_score >= 1:
-            return "Medium AI Relevance"
-        else:
-            return "Low AI Relevance"
+        # Plot horizontal bars for emerging topics
+        ax.barh(y_pos, emerging_df['max_similarity'], color='green', alpha=0.6)
+        ax.set_yticks(y_pos)
+        ax.set_yticklabels(topic_labels)
+        ax.invert_yaxis()  # Labels read top-to-bottom
+        ax.set_xlabel('Maximum Similarity to Any 2018 Topic')
+        ax.set_title('Emerging Topics in 2024 Curriculum')
+        
+        plt.tight_layout()
+        plt.savefig(os.path.join(FIGURES_DIR, 'emerging_topics.png'), dpi=300)
+        plt.close()
     
-    # Classify objectives for both curricula
-    for year in ['2018', '2024']:
-        if not curricula_by_year[year]:
-            print(f"No curricula found for year {year}")
-            continue
-            
-        for name, curriculum in curricula_by_year[year]:
-            if 'processed_objectives' not in curriculum:
-                print(f"Warning: No processed objectives found for curriculum '{name}'. Skipping.")
-                continue
-                
-            for obj in curriculum['processed_objectives']:
-                classification = classify_objective(obj)
-                
-                classifications[year].append({
-                    'section': obj.get('section', ''),
-                    'item': obj.get('item', ''),
-                    'text': obj.get('cleaned_text', ''),
-                    'ai_relevance_score': obj.get('ai_relevance_score', 0),
-                    'classification': classification
+    # Visualize fading topics
+    if evolution_results['fading_topics']:
+        fading_df = pd.DataFrame(evolution_results['fading_topics'])
+        plt.figure(figsize=(12, len(fading_df) * 0.5 + 2))
+        ax = plt.subplot(111)
+        
+        # Display top keywords for each fading topic
+        topic_labels = [', '.join(kw[:5]) for kw in fading_df['keywords']]
+        y_pos = np.arange(len(topic_labels))
+        
+        # Plot horizontal bars for fading topics
+        ax.barh(y_pos, fading_df['max_similarity'], color='red', alpha=0.6)
+        ax.set_yticks(y_pos)
+        ax.set_yticklabels(topic_labels)
+        ax.invert_yaxis()  # Labels read top-to-bottom
+        ax.set_xlabel('Maximum Similarity to Any 2024 Topic')
+        ax.set_title('Fading Topics from 2018 Curriculum')
+        
+        plt.tight_layout()
+        plt.savefig(os.path.join(FIGURES_DIR, 'fading_topics.png'), dpi=300)
+        plt.close()
+    
+    # Visualize evolving topic pairs
+    if evolution_results['evolving_topic_pairs']:
+        # Only take top 10 evolving pairs for visualization clarity
+        top_pairs = evolution_results['evolving_topic_pairs'][:10]
+        evolving_df = pd.DataFrame(top_pairs)
+        
+        plt.figure(figsize=(12, len(evolving_df) * 0.6 + 2))
+        ax = plt.subplot(111)
+        
+        # Display topic pairs with their keywords
+        pair_labels = []
+        for _, row in evolving_df.iterrows():
+            kw_2018 = ', '.join(row['keywords_2018'][:3])
+            kw_2024 = ', '.join(row['keywords_2024'][:3])
+            pair_labels.append(f"Topic {row['topic_2018']} ({kw_2018}) → Topic {row['topic_2024']} ({kw_2024})")
+        
+        y_pos = np.arange(len(pair_labels))
+        
+        # Plot horizontal bars for evolving topics
+        ax.barh(y_pos, evolving_df['similarity'], color='blue', alpha=0.6)
+        ax.set_yticks(y_pos)
+        ax.set_yticklabels(pair_labels)
+        ax.invert_yaxis()  # Labels read top-to-bottom
+        ax.set_xlabel('Topic Similarity')
+        ax.set_title('Evolving Topics Between 2018 and 2024 Curricula')
+        
+        plt.tight_layout()
+        plt.savefig(os.path.join(FIGURES_DIR, 'evolving_topics.png'), dpi=300)
+        plt.close()
+
+
+# Analyze topic evolution
+def analyze_topic_evolution(topics_comparison, similarity_matrix, threshold=0.2):
+    """
+    Analyze how curriculum topics have evolved from 2018 to 2024.
+    Identifies emerging and fading topics based on similarity analysis.
+    """
+    # Check if we've already analyzed this
+    evolution_path = os.path.join(PROCESSED_DIR, 'topic_evolution.json')
+    if os.path.exists(evolution_path):
+        try:
+            print("Loading pre-computed topic evolution analysis")
+            with open(evolution_path, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"Error loading topic evolution analysis: {e}")
+    
+    # Identify emerging topics (topics in 2024 with low similarity to any 2018 topic)
+    emerging_topics = []
+    for j in range(similarity_matrix.shape[1]):  # For each 2024 topic
+        max_similarity = np.max(similarity_matrix[:, j])
+        if max_similarity < threshold:
+            # This 2024 topic is significantly different from all 2018 topics
+            emerging_topics.append({
+                'topic_id': j,
+                'keywords': topics_comparison['2024'][str(j)],
+                'max_similarity': float(max_similarity),
+                'most_similar_2018_topic': int(np.argmax(similarity_matrix[:, j]))
+            })
+    
+    # Identify fading topics (topics in 2018 with low similarity to any 2024 topic)
+    fading_topics = []
+    for i in range(similarity_matrix.shape[0]):  # For each 2018 topic
+        max_similarity = np.max(similarity_matrix[i, :])
+        if max_similarity < threshold:
+            # This 2018 topic doesn't have a strong counterpart in 2024
+            fading_topics.append({
+                'topic_id': i,
+                'keywords': topics_comparison['2018'][str(i)],
+                'max_similarity': float(max_similarity),
+                'most_similar_2024_topic': int(np.argmax(similarity_matrix[i, :]))
+            })
+    
+    # Identify evolving topics (topics with high similarity between years)
+    evolving_topic_pairs = []
+    for i in range(similarity_matrix.shape[0]):
+        for j in range(similarity_matrix.shape[1]):
+            if similarity_matrix[i, j] >= threshold:
+                evolving_topic_pairs.append({
+                    'topic_2018': i,
+                    'topic_2024': j,
+                    'similarity': float(similarity_matrix[i, j]),
+                    'keywords_2018': topics_comparison['2018'][str(i)],
+                    'keywords_2024': topics_comparison['2024'][str(j)]
                 })
     
-    # Convert to DataFrames
-    for year in ['2018', '2024']:
-        if classifications[year]:
-            df = pd.DataFrame(classifications[year])
-            df.to_csv(os.path.join(PROCESSED_DIR, f'ai_classification_{year}.csv'), index=False)
+    # Sort by similarity
+    evolving_topic_pairs = sorted(evolving_topic_pairs, key=lambda x: x['similarity'], reverse=True)
     
-    # Create classification distribution charts
-    for year in ['2018', '2024']:
-        if classifications[year]:
-            df = pd.DataFrame(classifications[year])
-            
-            plt.figure(figsize=(10, 6))
-            sns.countplot(x='classification', data=df, order=['Low AI Relevance', 'Medium AI Relevance', 'High AI Relevance'])
-            plt.title(f"AI Relevance Classification Distribution ({year})")
-            plt.xlabel("AI Relevance Category")
-            plt.ylabel("Count")
-            plt.tight_layout()
-            plt.savefig(os.path.join(FIGURES_DIR, f'ai_classification_{year}.png'), dpi=300)
-            plt.close()
+    results = {
+        'emerging_topics': emerging_topics,
+        'fading_topics': fading_topics,
+        'evolving_topic_pairs': evolving_topic_pairs
+    }
     
-    return classifications
-
+    # Save results
+    with open(evolution_path, 'w', encoding='utf-8') as f:
+        json.dump(results, f, indent=2, ensure_ascii=False)
+    
+    # Create visualizations for topic evolution
+    visualize_topic_evolution(results)
+    
+    return results
 
 # Main function
 def main():
@@ -740,8 +811,8 @@ def main():
                 documents[year], 
                 year, 
                 stopwords_set,
-                start=2,
-                limit=8 if len(documents[year]) > 10 else 5,
+                start=3,  # Start with 3 topics minimum
+                limit=12 if len(documents[year]) > 50 else 8,  # Allow more topics
                 step=1
             )
             
@@ -754,63 +825,35 @@ def main():
                 num_topics=optimal_num_topics
             )
         
-        # Analyze topic distribution if needed
-        dist_path = os.path.join(PROCESSED_DIR, f'topic_distribution_{year}.csv')
-        if os.path.exists(dist_path):
-            print(f"Loading existing topic distribution for {year}")
-            topic_distributions[year] = pd.read_csv(dist_path)
-        else:
-            print(f"Analyzing topic distribution for {year} curriculum...")
-            topic_distributions[year] = analyze_topic_distribution(
-                model_data[year],
-                documents[year],
-                metadata[year],
-                year
-            )
+        # Analyze topic distribution
+        print(f"Analyzing topic distribution for {year} curriculum...")
+        topic_distributions[year] = analyze_topic_distribution(
+            model_data[year],
+            documents[year],
+            metadata[year],
+            year
+        )
     
     # Compare topics between curricula if both are available
-    comp_path = os.path.join(PROCESSED_DIR, 'topic_keywords.json')
     if model_data['2018'] and model_data['2024']:
-        if os.path.exists(comp_path):
-            print("\nLoading existing topic comparison...")
-            with open(comp_path, 'r', encoding='utf-8') as f:
-                topics_comparison = json.load(f)
-            
-            similarity_matrix_path = os.path.join(PROCESSED_DIR, 'topic_similarity_matrix.npy')
-            if os.path.exists(similarity_matrix_path):
-                similarity_matrix = np.load(similarity_matrix_path)
-            else:
-                print("Comparing topics between curricula...")
-                similarity_matrix, topics_comparison = compare_topics(
-                    model_data['2018'],
-                    model_data['2024']
-                )
-        else:
-            print("\nComparing topics between curricula...")
-            similarity_matrix, topics_comparison = compare_topics(
-                model_data['2018'],
-                model_data['2024']
-            )
+        print("\nComparing topics between curricula...")
+        similarity_matrix, topics_comparison = compare_topics(
+            model_data['2018'],
+            model_data['2024']
+        )
         
-        # Check if concept network already exists
-        network_path = os.path.join(PROCESSED_DIR, 'topic_network.pkl')
-        network_img_path = os.path.join(FIGURES_DIR, 'topic_network.png')
+        # Create concept network visualization
+        print("Creating concept network visualization...")
+        create_concept_network(topics_comparison, similarity_matrix)
         
-        if not os.path.exists(network_path) or not os.path.exists(network_img_path):
-            print("Creating concept network visualization...")
-            create_concept_network(topics_comparison, similarity_matrix)
-        else:
-            print("Loading existing concept network...")
-    
-    # Classify objectives by AI potential if not already done
-    class_2018_path = os.path.join(PROCESSED_DIR, 'ai_classification_2018.csv')
-    class_2024_path = os.path.join(PROCESSED_DIR, 'ai_classification_2024.csv')
-    
-    if not os.path.exists(class_2018_path) or not os.path.exists(class_2024_path):
-        print("\nClassifying learning objectives by AI potential...")
-        classifications = classify_objectives_by_ai_potential(processed_data)
-    else:
-        print("\nLoading existing AI potential classifications...")
+        # Analyze topic evolution (our new unsupervised approach)
+        print("Analyzing topic evolution between 2018 and 2024 curricula...")
+        evolution_results = analyze_topic_evolution(topics_comparison, similarity_matrix)
+        
+        print("\nTopic evolution analysis:")
+        print(f"- Found {len(evolution_results['emerging_topics'])} emerging topics in 2024")
+        print(f"- Found {len(evolution_results['fading_topics'])} fading topics from 2018")
+        print(f"- Found {len(evolution_results['evolving_topic_pairs'])} evolving topic pairs")
     
     print("\nAnalysis complete. Results saved to the processed_data and figures directories.")
     print("The following files have been created:")
@@ -820,10 +863,8 @@ def main():
             vis_path = os.path.join(FIGURES_DIR, f'topic_model_vis_{year}.html')
             coh_path = os.path.join(FIGURES_DIR, f'topic_coherence_{year}.png')
             dist_img_path = os.path.join(FIGURES_DIR, f'topic_distribution_{year}.png')
+            section_plot_path = os.path.join(FIGURES_DIR, f'topics_by_section_{year}.png')
             dist_csv_path = os.path.join(PROCESSED_DIR, f'topic_distribution_{year}.csv')
-            ai_rel_path = os.path.join(FIGURES_DIR, f'ai_relevance_by_topic_{year}.png')
-            ai_class_img_path = os.path.join(FIGURES_DIR, f'ai_classification_{year}.png')
-            ai_class_csv_path = os.path.join(PROCESSED_DIR, f'ai_classification_{year}.csv')
             
             if os.path.exists(vis_path):
                 print(f"  - topic_model_vis_{year}.html: Interactive topic model visualization")
@@ -831,29 +872,26 @@ def main():
                 print(f"  - topic_coherence_{year}.png: Coherence score plot")
             if os.path.exists(dist_img_path):
                 print(f"  - topic_distribution_{year}.png: Document distribution across topics")
+            if os.path.exists(section_plot_path):
+                print(f"  - topics_by_section_{year}.png: Topic distribution by curriculum section")
             if os.path.exists(dist_csv_path):
                 print(f"  - topic_distribution_{year}.csv: Detailed topic distribution data")
-            if os.path.exists(ai_rel_path):
-                print(f"  - ai_relevance_by_topic_{year}.png: AI relevance scores by topic")
-            if os.path.exists(ai_class_img_path):
-                print(f"  - ai_classification_{year}.png: AI relevance classification distribution")
-            if os.path.exists(ai_class_csv_path):
-                print(f"  - ai_classification_{year}.csv: Detailed AI classification data")
     
-    sim_matrix_path = os.path.join(FIGURES_DIR, 'topic_similarity_matrix.png')
-    kw_json_path = os.path.join(PROCESSED_DIR, 'topic_keywords.json')
-    network_img_path = os.path.join(FIGURES_DIR, 'topic_network.png')
-    network_data_path = os.path.join(PROCESSED_DIR, 'topic_network.pkl')
+    # Files for topic comparison and evolution
+    topic_files = [
+        ('topic_similarity_matrix.png', 'Topic similarity heatmap'),
+        ('topic_keywords.json', 'Top keywords for each topic'),
+        ('topic_network.png', 'Network visualization of topic relationships'),
+        ('topic_network.pkl', 'Network data for further analysis'),
+        ('emerging_topics.png', 'Emerging topics in 2024 curriculum'),
+        ('fading_topics.png', 'Fading topics from 2018 curriculum'),
+        ('evolving_topics.png', 'Evolving topic pairs between curricula'),
+        ('topic_evolution.json', 'Topic evolution analysis data')
+    ]
     
-    if os.path.exists(sim_matrix_path):
-        print("  - topic_similarity_matrix.png: Topic similarity heatmap")
-    if os.path.exists(kw_json_path):
-        print("  - topic_keywords.json: Top keywords for each topic")
-    if os.path.exists(network_img_path):
-        print("  - topic_network.png: Network visualization of topic relationships")
-    if os.path.exists(network_data_path):
-        print("  - topic_network.pkl: Network data for further analysis")
-        
+    for filename, description in topic_files:
+        if os.path.exists(os.path.join(FIGURES_DIR, filename)) or os.path.exists(os.path.join(PROCESSED_DIR, filename)):
+            print(f"  - {filename}: {description}")
 
 if __name__ == "__main__":
     main()

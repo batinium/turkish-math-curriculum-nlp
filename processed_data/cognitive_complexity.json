@@ -1,0 +1,40 @@
+{
+  "2018": {
+    "level_counts": {
+      "remember": 5,
+      "understand": 12,
+      "apply": 25,
+      "analyze": 8,
+      "evaluate": 1,
+      "create": 2
+    },
+    "level_percentages": {
+      "remember": 1.9607843137254901,
+      "understand": 4.705882352941177,
+      "apply": 9.803921568627452,
+      "analyze": 3.1372549019607843,
+      "evaluate": 0.39215686274509803,
+      "create": 0.7843137254901961
+    },
+    "total_objectives": 255
+  },
+  "2024": {
+    "level_counts": {
+      "remember": 49,
+      "understand": 9,
+      "apply": 67,
+      "analyze": 30,
+      "evaluate": 17,
+      "create": 24
+    },
+    "level_percentages": {
+      "remember": 9.158878504672897,
+      "understand": 1.6822429906542056,
+      "apply": 12.52336448598131,
+      "analyze": 5.607476635514018,
+      "evaluate": 3.177570093457944,
+      "create": 4.485981308411215
+    },
+    "total_objectives": 535
+  }
+}

@@ -43,7 +43,9 @@ try:
 except OSError:
     print("Turkish spaCy model not found. Using English model instead.")
     print("Install Turkish model with: pip install https://huggingface.co/turkish-nlp-suite/tr_core_news_trf/resolve/main/tr_core_news_trf-1.0-py3-none-any.whl")
-    nlp = spacy.load("en_core_web_sm")
+    #stop script
+    exit(1)
+    
 
 # Define paths
 DATA_DIR = "data"
@@ -219,7 +221,7 @@ def segment_curriculum(text):
     if curriculum_version == "2024":
         section_type = "2024-style"
     elif "ÜNİTE" in best_pattern or "BÖLÜM" in best_pattern:
-        section_type = "chapter-based"
+        section_type = "2018-style"
     else:
         section_type = "numeric-based"
     
@@ -490,193 +492,73 @@ def process_curriculum_pdf(pdf_path, name="curriculum"):
         'processed_objectives': processed_objectives,
         'detected_type': detected_type
     }
-
-# Enhanced Turkish lexicon for AI relevance
-def create_turkish_ai_relevance_lexicon():
+  
+def analyze_curriculum_topics_unsupervised(processed_data):
     """
-    Create an expanded lexicon of terms related to AI-relevant skills and concepts in Turkish.
+    Analyze curriculum topics using unsupervised methods instead of predefined categories.
+    This replaces the previous AI relevance tagging with a data-driven approach.
     """
-    raw_lexicon = {
-        'computational_thinking': [
-            'algoritma', 'mantık', 'problem', 'çözüm', 'örüntü', 'soyutlama', 
-            'modelleme', 'işlem', 'düzen', 'akış', 'hesaplama', 'işlem sırası',
-            'koşul', 'döngü', 'fonksiyon', 'prosedür', 'algoritmik', 'sistematik',
-            # New terms for 2024 curriculum
-            'bilişim', 'programlama', 'dijital', 'kodlama', 'yazılım','algoritma tasarımı', 'karmaşıklık analizi', 'sıralama algoritmaları',
-            'arama algoritmaları', 'veri yapıları', 'ağaç yapıları', 'kodlama mantığı'
-        ],
-        'mathematical_reasoning': [
-            'muhakeme', 'akıl yürütme', 'analiz', 'değerlendirme', 'genelleme',
-            'kanıt', 'doğrulama', 'ispat', 'varsayım', 'hipotez', 'sonuç', 'çıkarım',
-            'mantık', 'mantıksal', 'neden', 'sonuç ilişkisi', 'gerekçelendirme',
-            # New terms for 2024 curriculum
-            'tümevarımsal', 'analojik', 'tümdengelimsel', 'matematiksel muhakeme','tümevarım', 'tümdengelim', 'mantıksal çıkarım', 'ispat teknikleri',
-            'matematiksel modelleme', 'çelişki', 'karşı örnek', 'aksiyom'
-        ],
-        'pattern_recognition': [
-            'örüntü', 'desen', 'eğilim', 'düzen', 'ilişki', 'bağlantı', 'korelasyon',
-            'yapı', 'kurallılık', 'tekrar', 'ardışık', 'diziliş', 'sıralama', 'kural',
-            # New terms for 2024 curriculum
-            'diziler', 'örüntü keşfi', 'ilişkisel', 'ilişkilendirme','örüntü eşleştirme', 'sınıflandırma', 'kümeleme', 'benzerlik ölçümü',
-            'özellik çıkarımı', 'tahmini', 'eğilim analizi'
-        ],
-        'data_concepts': [
-            'veri', 'bilgi', 'tablo', 'grafik', 'istatistik', 'olasılık',
-            'frekans', 'dağılım', 'analiz', 'temsil', 'örneklem', 'set', 'küme',
-            'veri kümesi', 'veri seti', 'ölçüm', 'ölçme', 'karşılaştırma',
-            # New terms for 2024 curriculum
-            'veri okuryazarlığı', 'veri görselleştirme', 'veriye dayalı karar verme',
-            'serpme diyagramı', 'korelasyon', 'istatatiksel araştırma','veri madenciliği', 'veri görselleştirme', 'veri temizleme',
-            'korelasyon analizi', 'regresyon', 'dağılım analizi', 'veri kümeleme'
-        ],
-        'ai_specific': [
-            'yapay zeka', 'makine öğrenmesi', 'veri madenciliği', 'büyük veri',
-            'otomasyon', 'robotik', 'karar verme', 'tahmin', 'kestirim', 'model',
-            'sınıflandırma', 'risk hesaplama', 'bilgisayar', 'programlama',
-            # New terms for 2024 curriculum
-            'dijital okuryazarlık', 'bilgi okuryazarlığı', 'görsel okuryazarlık',
-            'matematiksel temsil', 'problem çözme', 'matematiksel araç','makine öğrenmesi algoritmaları', 'derin öğrenme', 'sinir ağları',
-            'doğal dil işleme', 'bilgisayarlı görü', 'karar ağaçları',
-            'yapay zeka uygulamaları', 'etik yapay zeka'
-        ],
-        'optimization': [
-            'optimizasyon', 'amaç fonksiyonu', 'kısıtlar', 'maksimizasyon',
-            'minimizasyon', 'doğrusal programlama', 'doğrusal olmayan optimizasyon',
-            'en iyileme', 'optimize etme', 'verimlilik artırma'
-        ],
-        'digital_literacy': [
-            'dijital', 'teknoloji', 'yazılım', 'donanım', 'internet', 'bilgisayar',
-            'mobil', 'uygulama', 'arayüz', 'etkileşim', 'algoritma', 'kodlama',
-            'programlama', 'otomasyon', 'yapay zeka', 'hesaplayıcı'
-        ],
-        'computational_mathematics': [
-            'sayısal analiz', 'sayısal yöntemler', 'sayısal çözüm',
-            'hesaplamalı geometri', 'hesaplamalı matematik', 'yaklaşım teorisi',
-            'nümerik entegrasyon', 'nümerik türev'
-        ]
-    }
+    # Group objectives by curriculum version
+    objectives_by_year = {'2018': [], '2024': []}
+    metadata_by_year = {'2018': [], '2024': []}
     
-    # Lemmatize all terms in the lexicon
-    lemmatized_lexicon = {}
-    for category, terms in raw_lexicon.items():
-        lemmatized_lexicon[category] = []
-        for term in terms:
-            # Process with spaCy to get lemmas
-            doc = nlp(term)
-            lemmas = [token.lemma_ for token in doc if not token.is_punct and not token.is_space]
-            lemmatized_term = ' '.join(lemmas)
-            lemmatized_lexicon[category].append(lemmatized_term)
-    
-    return lemmatized_lexicon
-
-    
-# Tag AI-relevant concepts (from original script with Turkish enhancements)
-def tag_ai_relevance(processed_data, lexicon):
-    """
-    Tag curriculum elements with AI-relevance categories using n-gram approach.
-    Returns processed data with AI relevance tags added.
-    """
-    # Create reverse mapping from word to category
-    word_to_category = {}
-    max_ngram_length = 1  # Track the longest n-gram in the lexicon
-    
-    for category, words in lexicon.items():
-        for word in words:
-            # Count words in the term to determine n-gram size
-            word_count = len(word.split())
-            max_ngram_length = max(max_ngram_length, word_count)
-            word_to_category[word] = category
-    
-    # Function to tag a single text
-    def tag_text(text_obj):
-        # Initialize counters for each category
-        relevance_tags = {category: 0 for category in lexicon.keys()}
-        relevant_terms = []
-        
-        # Create lemmas from the text if not already available
-        if 'lemmatized_text' in text_obj:
-            # Use pre-computed lemmatized text
-            lemmas = text_obj['lemmatized_text'].split()
+    # Extract texts from processed_objectives
+    for name, curriculum in processed_data.items():
+        if not curriculum or 'processed_objectives' not in curriculum:
+            continue
+            
+        # Determine curriculum year
+        if '2018' in curriculum.get('detected_type', ''):
+            year = '2018'
+        elif '2024' in curriculum.get('detected_type', ''):
+            year = '2024'
         else:
-            # Extract lemmas on the fly
-            doc = nlp(' '.join(text_obj['words']))
-            lemmas = [token.lemma_.lower() for token in doc 
-                    if not token.is_punct and not token.is_space]
+            # Try to guess from name if type not detected
+            if '2018' in name:
+                year = '2018'
+            elif '2024' in name:
+                year = '2024'
+            else:
+                print(f"Warning: Could not determine year for {name}. Skipping.")
+                continue
         
-        # Process n-grams of different lengths
-        for n in range(1, min(max_ngram_length + 1, len(lemmas) + 1)):
-            # Generate n-grams from lemmas
-            for i in range(len(lemmas) - n + 1):
-                ngram = ' '.join(lemmas[i:i+n])
-                
-                # Check if this n-gram is in our lexicon
-                if ngram in word_to_category:
-                    category = word_to_category[ngram]
-                    relevance_tags[category] += 1
-                    relevant_terms.append((ngram, category))
-        
-        # Add tags to the text object
-        text_obj['ai_relevance'] = relevance_tags
-        text_obj['ai_relevant_terms'] = relevant_terms
-        text_obj['ai_relevance_score'] = sum(relevance_tags.values())
-        
-        return text_obj
+        # Collect objectives
+        for obj in curriculum['processed_objectives']:
+            # Use lemmatized text when available
+            if 'lemmatized_text' in obj and obj['lemmatized_text'].strip():
+                text = obj['lemmatized_text']
+            else:
+                text = obj.get('cleaned_text', '')
+            
+            if text.strip():
+                objectives_by_year[year].append(text)
+                metadata_by_year[year].append({
+                    'section': obj.get('section', ''),
+                    'item': obj.get('item', ''),
+                    'original_text': obj.get('original_text', '')
+                })
     
-    # Process all curricula
+    # Add this information to the processed data
     for name, curriculum in processed_data.items():
         if not curriculum:
             continue
             
-        # Tag full text
-        curriculum['processed_full_text'] = tag_text(curriculum['processed_full_text'])
+        # Determine curriculum year
+        if '2018' in curriculum.get('detected_type', ''):
+            year = '2018'
+        elif '2024' in curriculum.get('detected_type', ''):
+            year = '2024'
+        else:
+            continue  # Skip if year not determined
         
-        # Tag each section
-        for section, section_data in curriculum['sections'].items():
-            curriculum['sections'][section] = tag_text(section_data)
+        # Add metadata to track which objectives belong to which curriculum
+        curriculum['year'] = year
         
-        # Tag each objective
-        for i, obj in enumerate(curriculum['processed_objectives']):
-            curriculum['processed_objectives'][i] = tag_text(obj)
+        # Mark processed data as ready for topic modeling
+        curriculum['ready_for_topic_modeling'] = True
     
-    return processed_data
-
-def retag_ai_relevance():
-    """Retag existing processed data with an updated AI relevance lexicon without reprocessing PDFs."""
-    print("Loading existing processed data...")
-    processed_data_path = os.path.join(PROCESSED_DIR, 'processed_curriculum_data.pkl')
-    
-    try:
-        with open(processed_data_path, 'rb') as f:
-            processed_data = pickle.load(f)
-        
-        print("Creating new Turkish AI relevance lexicon...")
-        ai_lexicon = create_turkish_ai_relevance_lexicon()
-        
-        print("Retagging data with updated AI relevance lexicon...")
-        processed_data = tag_ai_relevance(processed_data, ai_lexicon)
-        
-        # Repair any missing lemmatization (just in case)
-        processed_data = repair_lemmatization(processed_data)
-        
-        print("Saving updated processed data...")
-        with open(processed_data_path, 'wb') as f:
-            pickle.dump(processed_data, f)
-            
-        # Update comparison and outputs
-        print("Comparing curriculum versions with new tags...")
-        compare_curriculum_versions(processed_data)
-        
-        # Save analysis outputs
-        save_analysis_outputs(processed_data)
-        
-        print("Retagging complete!")
-        return True
-    except FileNotFoundError:
-        print(f"Error: {processed_data_path} not found. Run full preprocessing first.")
-        return False
-    except Exception as e:
-        print(f"Error during retagging: {e}")
-        return False
+    # Return the collected objectives and metadata for topic modeling
+    return processed_data, objectives_by_year, metadata_by_year
 
 
 def repair_lemmatization(processed_data):
@@ -728,40 +610,6 @@ def repair_lemmatization(processed_data):
     return processed_data
 
 
-def compare_curriculum_versions(processed_data):
-    """Compare AI relevance between 2018 and 2024 curriculum versions."""
-    # Group by curriculum version
-    data_2018 = {k: v for k, v in processed_data.items() if v and v.get('detected_type') == '2018-style'}
-    data_2024 = {k: v for k, v in processed_data.items() if v and v.get('detected_type') == '2024-style'}
-    
-    if not data_2018 or not data_2024:
-        print("Cannot compare versions: Need both 2018 and 2024 curriculum data")
-        return
-    
-    # Compare AI relevance categories
-    ai_categories = ['computational_thinking', 'mathematical_reasoning', 
-                    'pattern_recognition', 'data_concepts', 'ai_specific']
-    
-    comparison = {category: {'2018': 0, '2024': 0} for category in ai_categories}
-    
-    # Calculate average scores for each category
-    for category in ai_categories:
-        if data_2018:
-            scores_2018 = [doc['processed_full_text']['ai_relevance'].get(category, 0) 
-                         for doc in data_2018.values()]
-            comparison[category]['2018'] = sum(scores_2018) / len(scores_2018) if scores_2018 else 0
-        
-        if data_2024:
-            scores_2024 = [doc['processed_full_text']['ai_relevance'].get(category, 0) 
-                         for doc in data_2024.values()]
-            comparison[category]['2024'] = sum(scores_2024) / len(scores_2024) if scores_2024 else 0
-    
-    # Save comparison report
-    with open(os.path.join(PROCESSED_DIR, 'curriculum_version_comparison.json'), 'w', encoding='utf-8') as f:
-        json.dump(comparison, f, indent=2, ensure_ascii=False)
-    
-    print("Curriculum version comparison complete. Results saved to curriculum_version_comparison.json")
-    
 # Main function to run the preprocessing
 def main():
     """Main function to execute the preprocessing pipeline."""
@@ -780,21 +628,30 @@ def main():
             # Repair any missing lemmatization
             processed_data = repair_lemmatization(processed_data)
             
-            # Still run analysis on existing data
-            print("Creating Turkish AI relevance lexicon...")
-            ai_lexicon = create_turkish_ai_relevance_lexicon()
+             # Use unsupervised topic analysis instead of AI relevance tagging
+            print("Preparing data for unsupervised topic analysis...")
+            processed_data, objectives_by_year, metadata_by_year = analyze_curriculum_topics_unsupervised(processed_data)
             
-            print("Tagging data with AI relevance...")
-            processed_data = tag_ai_relevance(processed_data, ai_lexicon)
-            
-            print("Comparing curriculum versions...")
-            compare_curriculum_versions(processed_data)
-            
-            # Save updated processed data
-            print("Saving updated processed data...")
+            # Save processed data and extracted objectives for topic modeling
+            print("Saving prepared data for topic modeling...")
             with open(processed_data_path, 'wb') as f:
                 pickle.dump(processed_data, f)
                 
+            # Save objectives by year for topic modeling
+            for year in ['2018', '2024']:
+                if objectives_by_year[year]:
+                    objectives_path = os.path.join(PROCESSED_DIR, f'objectives_{year}.pkl')
+                    metadata_path = os.path.join(PROCESSED_DIR, f'metadata_{year}.pkl')
+                    
+                    with open(objectives_path, 'wb') as f:
+                        pickle.dump(objectives_by_year[year], f)
+                    
+                    with open(metadata_path, 'wb') as f:
+                        pickle.dump(metadata_by_year[year], f)
+                    
+                    print(f"Saved {len(objectives_by_year[year])} objectives for {year}")
+            
+            
             # Continue with saving other outputs
             save_analysis_outputs(processed_data)
             return
@@ -837,24 +694,30 @@ def main():
             # Process PDF from scratch
             processed_data[name] = process_curriculum_pdf(pdf_path, name)
     
-    # Create Turkish AI relevance lexicon
-    print("Creating Turkish AI relevance lexicon...")
-    ai_lexicon = create_turkish_ai_relevance_lexicon()
+     # Replace AI relevance tagging with unsupervised topic analysis
+    print("Preparing data for unsupervised topic analysis...")
+    processed_data, objectives_by_year, metadata_by_year = analyze_curriculum_topics_unsupervised(processed_data)
     
-    # Tag data with AI relevance
-    print("Tagging data with AI relevance (this may take some time)...")
-    start_time = time.time()
-    processed_data = tag_ai_relevance(processed_data, ai_lexicon)
-    print(f"AI relevance tagging completed in {time.time() - start_time:.2f} seconds")
-    
-    # Add curriculum version comparison
-    print("Comparing curriculum versions...")
-    compare_curriculum_versions(processed_data)
     
     # Save processed data
     print("Saving processed data...")
     with open(processed_data_path, 'wb') as f:
         pickle.dump(processed_data, f)
+    
+    # Save objectives by year for topic modeling
+    for year in ['2018', '2024']:
+        if objectives_by_year[year]:
+            objectives_path = os.path.join(PROCESSED_DIR, f'objectives_{year}.pkl')
+            metadata_path = os.path.join(PROCESSED_DIR, f'metadata_{year}.pkl')
+            
+            with open(objectives_path, 'wb') as f:
+                pickle.dump(objectives_by_year[year], f)
+            
+            with open(metadata_path, 'wb') as f:
+                pickle.dump(metadata_by_year[year], f)
+            
+            print(f"Saved {len(objectives_by_year[year])} objectives for {year}")
+    
     
     # Save other analysis outputs
     save_analysis_outputs(processed_data)
@@ -927,49 +790,17 @@ def save_analysis_outputs(processed_data):
         objectives_df = pd.DataFrame(all_objectives)
         objectives_df.to_csv(os.path.join(PROCESSED_DIR, 'learning_objectives.csv'), index=False, encoding='utf-8')
     
-    # Save AI relevance summary
-    print("Generating AI relevance summary...")
-    ai_relevance_summary = {}
-    
-    for name, curriculum in processed_data.items():
-        if not curriculum or 'processed_full_text' not in curriculum:
-            continue
-            
-        # Get overall scores
-        ai_relevance_summary[name] = {
-            'overall': curriculum['processed_full_text'].get('ai_relevance', {}),
-            'detected_type': curriculum.get('detected_type', 'unknown')
-        }
-        
-        # Get scores by category for each objective
-        category_scores = defaultdict(list)
-        for obj in curriculum.get('processed_objectives', []):
-            for category, score in obj.get('ai_relevance', {}).items():
-                category_scores[category].append(score)
-        
-        # Calculate averages and totals
-        for category, scores in category_scores.items():
-            ai_relevance_summary[name][f'{category}_avg'] = np.mean(scores) if scores else 0
-            ai_relevance_summary[name][f'{category}_total'] = sum(scores)
-    
-    # Save as JSON
-    print("Saving AI relevance summary to JSON...")
-    with open(os.path.join(PROCESSED_DIR, 'ai_relevance_summary.json'), 'w', encoding='utf-8') as f:
-        json.dump(ai_relevance_summary, f, indent=2, ensure_ascii=False)
-    
     print(f"Processing complete. Data saved to {PROCESSED_DIR} directory.")
     print(f"Files created:")
     print(f"  - processed_curriculum_data.pkl: Full processed data for further analysis")
     print(f"  - learning_objectives.csv: Extracted learning objectives")
-    print(f"  - ai_relevance_summary.json: Summary of AI relevance metrics")
+    print(f"  - objectives_2018.pkl and objectives_2024.pkl: Extracted objectives for topic modeling")
+    print(f"  - metadata_2018.pkl and metadata_2024.pkl: Metadata for topic modeling")
+    
     for name in processed_data.keys():
         if os.path.exists(os.path.join(PROCESSED_DIR, f"{name}_extracted_text.txt")):
             print(f"  - {name}_extracted_text.txt: Raw extracted text from PDF")
             
 
 if __name__ == "__main__":
-    import sys
-    if len(sys.argv) > 1 and sys.argv[1] == "--retag":
-        retag_ai_relevance()
-    else:
         main()

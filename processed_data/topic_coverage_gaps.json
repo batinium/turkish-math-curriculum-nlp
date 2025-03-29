@@ -1,0 +1,618 @@
+{
+  "topic_coverage": {
+    "2018": {
+      "0": {
+        "count": 46,
+        "coverage_percentage": 15.2317880794702,
+        "keywords": [
+          "uzunluk",
+          "çember",
+          "kenar",
+          "bulun",
+          "denklem",
+          "nokta",
+          "toplam",
+          "alan",
+          "üçgen",
+          "ölçü"
+        ]
+      },
+      "1": {
+        "count": 69,
+        "coverage_percentage": 22.8476821192053,
+        "keywords": [
+          "iletişim",
+          "bilgi",
+          "teknoloji",
+          "fonksiyon",
+          "grafik",
+          "yararlan",
+          "çalış",
+          "doğru",
+          "yardım",
+          "parça"
+        ]
+      },
+      "2": {
+        "count": 61,
+        "coverage_percentage": 20.198675496688743,
+        "keywords": [
+          "sayı",
+          "kenar",
+          "ifade",
+          "kavram",
+          "polinom",
+          "üçgen",
+          "fark",
+          "veri",
+          "oluş",
+          "uygulama"
+        ]
+      },
+      "3": {
+        "count": 89,
+        "coverage_percentage": 29.47019867549669,
+        "keywords": [
+          "fonksiyon",
+          "gerçek",
+          "hayat(i)",
+          "problem",
+          "küme",
+          "nokta",
+          "üzer",
+          "grafik",
+          "türev",
+          "eksen"
+        ]
+      },
+      "4": {
+        "count": 37,
+        "coverage_percentage": 12.251655629139073,
+        "keywords": [
+          "üçgen",
+          "değer",
+          "olay",
+          "ayrık",
+          "kavram",
+          "alan",
+          "çarpan",
+          "açık",
+          "taban",
+          "hesapla"
+        ]
+      }
+    },
+    "2024": {
+      "0": {
+        "count": 88,
+        "coverage_percentage": 11.069182389937108,
+        "keywords": [
+          "fonksiyon",
+          "temsil",
+          "grafik",
+          "ifade",
+          "matematiksel",
+          "referans",
+          "nitel",
+          "cebirsel",
+          "denklem",
+          "doğrusal"
+        ]
+      },
+      "1": {
+        "count": 73,
+        "coverage_percentage": 9.182389937106917,
+        "keywords": [
+          "cebirsel",
+          "öner",
+          "nokta",
+          "sözel",
+          "grafiksel",
+          "uygun",
+          "fonksiyon",
+          "ilişki",
+          "belirli",
+          "bileşen"
+        ]
+      },
+      "2": {
+        "count": 53,
+        "coverage_percentage": 6.666666666666667,
+        "keywords": [
+          "incele",
+          "doğru",
+          "nokta",
+          "kavramsal",
+          "üzer",
+          "limit",
+          "eğim",
+          "dönüşüm",
+          "ödev",
+          "sistem"
+        ]
+      },
+      "3": {
+        "count": 65,
+        "coverage_percentage": 8.176100628930817,
+        "keywords": [
+          "yönelik",
+          "çıkarım",
+          "matematiksel",
+          "önerme",
+          "ulaş",
+          "araştır",
+          "doğrula",
+          "istatistiksel",
+          "değerlen",
+          "ilgili"
+        ]
+      },
+      "4": {
+        "count": 77,
+        "coverage_percentage": 9.685534591194969,
+        "keywords": [
+          "tanım",
+          "fonksiyon",
+          "şekil",
+          "üçgen",
+          "nitel",
+          "değer",
+          "küme",
+          "karesel",
+          "polinom",
+          "gerçek"
+        ]
+      },
+      "5": {
+        "count": 74,
+        "coverage_percentage": 9.30817610062893,
+        "keywords": [
+          "gerçek",
+          "sayı",
+          "öğrenci",
+          "problem",
+          "sağla",
+          "durum",
+          "hareket",
+          "yaşam",
+          "içer",
+          "değişken"
+        ]
+      },
+      "6": {
+        "count": 246,
+        "coverage_percentage": 30.943396226415093,
+        "keywords": [
+          "varsayım",
+          "kullan",
+          "ilişkin",
+          "fark",
+          "karşıla",
+          "örüntü",
+          "genelle",
+          "dayalı",
+          "temsil",
+          "belirle"
+        ]
+      },
+      "7": {
+        "count": 119,
+        "coverage_percentage": 14.968553459119496,
+        "keywords": [
+          "çözüm",
+          "strateji",
+          "belirle",
+          "problem",
+          "kullan",
+          "veri",
+          "öğrenme",
+          "araştır",
+          "problemin",
+          "soru"
+        ]
+      }
+    }
+  },
+  "topic_keywords": {
+    "2018": {
+      "0": [
+        "uzunluk",
+        "çember",
+        "kenar",
+        "bulun",
+        "denklem",
+        "nokta",
+        "toplam",
+        "alan",
+        "üçgen",
+        "ölçü"
+      ],
+      "1": [
+        "iletişim",
+        "bilgi",
+        "teknoloji",
+        "fonksiyon",
+        "grafik",
+        "yararlan",
+        "çalış",
+        "doğru",
+        "yardım",
+        "parça"
+      ],
+      "2": [
+        "sayı",
+        "kenar",
+        "ifade",
+        "kavram",
+        "polinom",
+        "üçgen",
+        "fark",
+        "veri",
+        "oluş",
+        "uygulama"
+      ],
+      "3": [
+        "fonksiyon",
+        "gerçek",
+        "hayat(i)",
+        "problem",
+        "küme",
+        "nokta",
+        "üzer",
+        "grafik",
+        "türev",
+        "eksen"
+      ],
+      "4": [
+        "üçgen",
+        "değer",
+        "olay",
+        "ayrık",
+        "kavram",
+        "alan",
+        "çarpan",
+        "açık",
+        "taban",
+        "hesapla"
+      ]
+    },
+    "2024": {
+      "0": [
+        "fonksiyon",
+        "temsil",
+        "grafik",
+        "ifade",
+        "matematiksel",
+        "referans",
+        "nitel",
+        "cebirsel",
+        "denklem",
+        "doğrusal"
+      ],
+      "1": [
+        "cebirsel",
+        "öner",
+        "nokta",
+        "sözel",
+        "grafiksel",
+        "uygun",
+        "fonksiyon",
+        "ilişki",
+        "belirli",
+        "bileşen"
+      ],
+      "2": [
+        "incele",
+        "doğru",
+        "nokta",
+        "kavramsal",
+        "üzer",
+        "limit",
+        "eğim",
+        "dönüşüm",
+        "ödev",
+        "sistem"
+      ],
+      "3": [
+        "yönelik",
+        "çıkarım",
+        "matematiksel",
+        "önerme",
+        "ulaş",
+        "araştır",
+        "doğrula",
+        "istatistiksel",
+        "değerlen",
+        "ilgili"
+      ],
+      "4": [
+        "tanım",
+        "fonksiyon",
+        "şekil",
+        "üçgen",
+        "nitel",
+        "değer",
+        "küme",
+        "karesel",
+        "polinom",
+        "gerçek"
+      ],
+      "5": [
+        "gerçek",
+        "sayı",
+        "öğrenci",
+        "problem",
+        "sağla",
+        "durum",
+        "hareket",
+        "yaşam",
+        "içer",
+        "değişken"
+      ],
+      "6": [
+        "varsayım",
+        "kullan",
+        "ilişkin",
+        "fark",
+        "karşıla",
+        "örüntü",
+        "genelle",
+        "dayalı",
+        "temsil",
+        "belirle"
+      ],
+      "7": [
+        "çözüm",
+        "strateji",
+        "belirle",
+        "problem",
+        "kullan",
+        "veri",
+        "öğrenme",
+        "araştır",
+        "problemin",
+        "soru"
+      ]
+    }
+  },
+  "missing_topics": {
+    "2018": [
+      {
+        "topic_id": 0,
+        "keywords": [
+          "uzunluk",
+          "çember",
+          "kenar",
+          "bulun",
+          "denklem",
+          "nokta",
+          "toplam",
+          "alan",
+          "üçgen",
+          "ölçü"
+        ],
+        "coverage": 15.2317880794702,
+        "best_match_2024": 0,
+        "similarity": 0.05263157894736842
+      },
+      {
+        "topic_id": 1,
+        "keywords": [
+          "iletişim",
+          "bilgi",
+          "teknoloji",
+          "fonksiyon",
+          "grafik",
+          "yararlan",
+          "çalış",
+          "doğru",
+          "yardım",
+          "parça"
+        ],
+        "coverage": 22.8476821192053,
+        "best_match_2024": 0,
+        "similarity": 0.1111111111111111
+      },
+      {
+        "topic_id": 2,
+        "keywords": [
+          "sayı",
+          "kenar",
+          "ifade",
+          "kavram",
+          "polinom",
+          "üçgen",
+          "fark",
+          "veri",
+          "oluş",
+          "uygulama"
+        ],
+        "coverage": 20.198675496688743,
+        "best_match_2024": 4,
+        "similarity": 0.1111111111111111
+      },
+      {
+        "topic_id": 3,
+        "keywords": [
+          "fonksiyon",
+          "gerçek",
+          "hayat(i)",
+          "problem",
+          "küme",
+          "nokta",
+          "üzer",
+          "grafik",
+          "türev",
+          "eksen"
+        ],
+        "coverage": 29.47019867549669,
+        "best_match_2024": 4,
+        "similarity": 0.17647058823529413
+      },
+      {
+        "topic_id": 4,
+        "keywords": [
+          "üçgen",
+          "değer",
+          "olay",
+          "ayrık",
+          "kavram",
+          "alan",
+          "çarpan",
+          "açık",
+          "taban",
+          "hesapla"
+        ],
+        "coverage": 12.251655629139073,
+        "best_match_2024": 4,
+        "similarity": 0.1111111111111111
+      }
+    ],
+    "2024": [
+      {
+        "topic_id": 0,
+        "keywords": [
+          "fonksiyon",
+          "temsil",
+          "grafik",
+          "ifade",
+          "matematiksel",
+          "referans",
+          "nitel",
+          "cebirsel",
+          "denklem",
+          "doğrusal"
+        ],
+        "coverage": 11.069182389937108,
+        "best_match_2018": 1,
+        "similarity": 0.1111111111111111
+      },
+      {
+        "topic_id": 1,
+        "keywords": [
+          "cebirsel",
+          "öner",
+          "nokta",
+          "sözel",
+          "grafiksel",
+          "uygun",
+          "fonksiyon",
+          "ilişki",
+          "belirli",
+          "bileşen"
+        ],
+        "coverage": 9.182389937106917,
+        "best_match_2018": 3,
+        "similarity": 0.1111111111111111
+      },
+      {
+        "topic_id": 2,
+        "keywords": [
+          "incele",
+          "doğru",
+          "nokta",
+          "kavramsal",
+          "üzer",
+          "limit",
+          "eğim",
+          "dönüşüm",
+          "ödev",
+          "sistem"
+        ],
+        "coverage": 6.666666666666667,
+        "best_match_2018": 3,
+        "similarity": 0.1111111111111111
+      },
+      {
+        "topic_id": 3,
+        "keywords": [
+          "yönelik",
+          "çıkarım",
+          "matematiksel",
+          "önerme",
+          "ulaş",
+          "araştır",
+          "doğrula",
+          "istatistiksel",
+          "değerlen",
+          "ilgili"
+        ],
+        "coverage": 8.176100628930817,
+        "best_match_2018": 0,
+        "similarity": 0.0
+      },
+      {
+        "topic_id": 4,
+        "keywords": [
+          "tanım",
+          "fonksiyon",
+          "şekil",
+          "üçgen",
+          "nitel",
+          "değer",
+          "küme",
+          "karesel",
+          "polinom",
+          "gerçek"
+        ],
+        "coverage": 9.685534591194969,
+        "best_match_2018": 3,
+        "similarity": 0.17647058823529413
+      },
+      {
+        "topic_id": 5,
+        "keywords": [
+          "gerçek",
+          "sayı",
+          "öğrenci",
+          "problem",
+          "sağla",
+          "durum",
+          "hareket",
+          "yaşam",
+          "içer",
+          "değişken"
+        ],
+        "coverage": 9.30817610062893,
+        "best_match_2018": 3,
+        "similarity": 0.1111111111111111
+      },
+      {
+        "topic_id": 6,
+        "keywords": [
+          "varsayım",
+          "kullan",
+          "ilişkin",
+          "fark",
+          "karşıla",
+          "örüntü",
+          "genelle",
+          "dayalı",
+          "temsil",
+          "belirle"
+        ],
+        "coverage": 30.943396226415093,
+        "best_match_2018": 2,
+        "similarity": 0.05263157894736842
+      },
+      {
+        "topic_id": 7,
+        "keywords": [
+          "çözüm",
+          "strateji",
+          "belirle",
+          "problem",
+          "kullan",
+          "veri",
+          "öğrenme",
+          "araştır",
+          "problemin",
+          "soru"
+        ],
+        "coverage": 14.968553459119496,
+        "best_match_2018": 2,
+        "similarity": 0.05263157894736842
+      }
+    ]
+  }
+}
