@@ -1,5 +1,7 @@
 # Turkish Mathematics Curriculum NLP Analysis
 
+<a href="https://doi.org/10.5281/zenodo.15106063"><img src="https://zenodo.org/badge/953138025.svg" alt="DOI"></a>
+
 This repository contains the code used in the research paper "Revealing Curricular Evolution Through Unsupervised NLP Analysis: A Comparative Study of Turkish Mathematics Curricula (2018-2024)". The code implements an unsupervised NLP approach to analyze and compare the Turkish mathematics curricula from 2018 and 2024, revealing significant shifts in content, cognitive complexity, and educational focus.
 
 ## Project Overview
