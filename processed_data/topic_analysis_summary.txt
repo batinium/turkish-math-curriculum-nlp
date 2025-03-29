@@ -1,0 +1,173 @@
+# Turkish Mathematics Curriculum Topic Analysis (2018 vs 2024)
+======================================================================
+
+
+## 2018 Curriculum Topics (Coherence: 0.5336)
+----------------------------------------
+
+### Topic 0 (Prevalence: 15.2%)
+Keywords: uzunluk, çember, kenar, bulun, denklem, nokta, toplam, alan, üçgen, ölçü
+
+Example objectives:
+- oran orantı doğru orantı ters orantı kavram ile oran ve orantı ait özellik hatırlat
+- bir derece iki bilinmeyen li denklem ve eşitsiz sistem çözüm analitik düzlem göster
+- bir çember kiriş orta dik çember merkez geç ve bir kiriş orta nokta çember
+
+### Topic 1 (Prevalence: 22.8%)
+Keywords: iletişim, bilgi, teknoloji, fonksiyon, grafik, yararlan, çalış, doğru, yardım, parça
+
+Example objectives:
+- bir doğru parça orta dik Üzer alın her nokta doğru parça uç nokta eşit
+- bir fonksiyon bir sabit çarpım iki fonksiyon toplam ve fark integral al kural
+- Fonksiyon grafik bilgi ve iletişim teknoloji yardım çiz ve yorumla
+
+### Topic 2 (Prevalence: 20.2%)
+Keywords: sayı, kenar, ifade, kavram, polinom, üçgen, fark, veri, oluş, uygulama
+
+Example objectives:
+- kenar açı kenar K. A. K. açı kenar Açı A. K. A. kenar kenar kenar K. K. K. eşlik kural ölçüm
+- tam kare iki kare fark iki terim toplam ve fark küp iki terim küp toplam ve fark
+- Histogram oluşturul veri grup açık seç grup sayıs bölün ve aşağı eşitsiz
+
+### Topic 3 (Prevalence: 29.5%)
+Keywords: fonksiyon, gerçek, hayat(i), problem, küme, nokta, üzer, grafik, türev, eksen
+
+Example objectives:
+- Fonksiyon grafiğ tepe nokta ile fonksiyon en küçük ya da en büyük değer ilişkilendir
+- Fonksiyon grafiğ tepe nokta eksen kes nokta ve simetri eksen buldur
+- İç fonksiyon ört fonksiyon bir bir fonksiyon eşit fonksiyon birim özdeş fonksiyon sabit
+
+### Topic 4 (Prevalence: 12.3%)
+Keywords: üçgen, değer, olay, ayrık, kavram, alan, çarpan, açık, taban, hesapla
+
+Example objectives:
+- Aritmetik ortalama ortanca tepe değer en büyük değer en küçük değer ve açık kavram ver
+- Denklem çözüm fark yöntem çarpan ayır tam kare tamamla değişken
+- Tümle ayrık olay ve ayrık ol olay ile ilgi olasılık hesapla
+
+## 2024 Curriculum Topics (Coherence: 0.4235)
+----------------------------------------
+
+### Topic 0 (Prevalence: 11.1%)
+Keywords: fonksiyon, temsil, grafik, ifade, matematiksel, referans, nitel, cebirsel, denklem, doğrusal
+
+Example objectives:
+- Rasyonel referans fonksiyon grafik ve cebirsel temsil Üzer yap işlem di
+- Polinom ve rasyonel fonksiyon ifade edil denklem ve eşitsizlik içer
+- karekök referans fonksiyon grafik ve cebirsel temsil Üzer yap işlem diğer
+
+### Topic 1 (Prevalence: 9.2%)
+Keywords: cebirsel, öner, nokta, sözel, grafiksel, uygun, fonksiyon, ilişki, belirli, bileşen
+
+Example objectives:
+- bir fonksiyon belirli bir nokta civar değişim oran ile ilgi bileşen ara
+- iki fonksiyon toplam fark çarpım ve bölüm bir nokta türev dair ku
+- Çıkarımlarının geçerli sözel cebirsel ve grafiksel argüman değerlen
+
+### Topic 2 (Prevalence: 6.7%)
+Keywords: incele, doğru, nokta, kavramsal, üzer, limit, eğim, dönüşüm, ödev, sistem
+
+Example objectives:
+- dik koordinat sistem doğru eğim açı eğim ve doğru birbiri
+- dik koordinat sistem doğru eğim açı eğim ve doğru birbiri
+- dik koordinat sistem iki nokta ara uzaklık bağıntı ve bir doğru parça
+
+### Topic 3 (Prevalence: 8.2%)
+Keywords: yönelik, çıkarım, matematiksel, önerme, ulaş, araştır, doğrula, istatistiksel, değerlen, ilgili
+
+Example objectives:
+- Algoritmik yapı içeri kullan mantık bağlaç ve niceleyici belirle
+- yapı doğrula veya ispat yeni durum uyarla değerlen
+- Algoritmik yapı ile mantık bağlaç ve niceleyi ara ilişki belirle
+
+### Topic 4 (Prevalence: 9.7%)
+Keywords: tanım, fonksiyon, şekil, üçgen, nitel, değer, küme, karesel, polinom, gerçek
+
+Example objectives:
+- Karesel referans fonksiyon nitel özellik tanım küme görüntü küme
+- Doğrusal referans fonksiyon nitel özellik tanım küme görüntü küme
+- gerçek katsayı tek değişken polinom fonksiyon nitel özellik dair öner
+
+### Topic 5 (Prevalence: 9.3%)
+Keywords: gerçek, sayı, öğrenci, problem, sağla, durum, hareket, yaşam, içer, değişken
+
+Example objectives:
+- iki kategorik değişken veri dağılım dayalı istatistiksel araştır hareket
+- iki kategorik değişken veri dağılım dayalı istatistiksel araştır hareket
+- yap sağla Benze şekil öğrenci dik dairesel silindir ile dik dairesel koni ve
+
+### Topic 6 (Prevalence: 30.9%)
+Keywords: varsayım, kullan, ilişkin, fark, karşıla, örüntü, genelle, dayalı, temsil, belirle
+
+Example objectives:
+- sayı örüntü her bir terim belirle ortak fark oran kullan ifade et
+- Varsayım yararlan fark durum ilgili örüntü listele bir fonk
+- Varsayım yararlan fark durum ilgili örüntü listele bir fonk
+
+### Topic 7 (Prevalence: 15.0%)
+Keywords: çözüm, strateji, belirle, problem, kullan, veri, öğrenme, araştır, problemin, soru
+
+Example objectives:
+- Öğrenme çıktı çalış kâğıd performans görev proje ödev açık uç soru ve araş
+- Öğrenme çıktı çalışma kâğıd açık uç soru proje ödev ve performans görev ile
+- Öğrenme çıktı çalışma kâğıd açık uç soru proje ödev ve performans görev ile de
+
+
+## Topic Similarity Analysis
+----------------------------------------
+
+### Topics Unique to 2018 Curriculum
+
+- **Topic 0** (Max similarity: 0.053)
+  Keywords: uzunluk, çember, kenar, bulun, denklem
+
+- **Topic 1** (Max similarity: 0.111)
+  Keywords: iletişim, bilgi, teknoloji, fonksiyon, grafik
+
+- **Topic 2** (Max similarity: 0.111)
+  Keywords: sayı, kenar, ifade, kavram, polinom
+
+- **Topic 3** (Max similarity: 0.176)
+  Keywords: fonksiyon, gerçek, hayat(i), problem, küme
+
+- **Topic 4** (Max similarity: 0.111)
+  Keywords: üçgen, değer, olay, ayrık, kavram
+
+### Topics Unique to 2024 Curriculum
+
+- **Topic 0** (Max similarity: 0.111)
+  Keywords: fonksiyon, temsil, grafik, ifade, matematiksel
+
+- **Topic 1** (Max similarity: 0.111)
+  Keywords: cebirsel, öner, nokta, sözel, grafiksel
+
+- **Topic 2** (Max similarity: 0.111)
+  Keywords: incele, doğru, nokta, kavramsal, üzer
+
+- **Topic 3** (Max similarity: 0.000)
+  Keywords: yönelik, çıkarım, matematiksel, önerme, ulaş
+
+- **Topic 4** (Max similarity: 0.176)
+  Keywords: tanım, fonksiyon, şekil, üçgen, nitel
+
+- **Topic 5** (Max similarity: 0.111)
+  Keywords: gerçek, sayı, öğrenci, problem, sağla
+
+- **Topic 6** (Max similarity: 0.053)
+  Keywords: varsayım, kullan, ilişkin, fark, karşıla
+
+- **Topic 7** (Max similarity: 0.053)
+  Keywords: çözüm, strateji, belirle, problem, kullan
+
+
+## Key Insights from Topic Analysis
+----------------------------------------
+
+1. The optimal number of topics differs between curricula: 5 topics in 2018 vs. 8 topics in 2024.
+   This suggests the 2024 curriculum covers a wider range of distinct themes.
+
+2. The average similarity between topics across curricula is 0.040 (0-1 scale).
+   This indicates substantial differences between the two curricula, with limited continuity in content.
+
+3. There are 5 topics unique to the 2018 curriculum and 8 topics unique to the 2024 curriculum.
+   This represents significant content turnover, with approximately 100.0% of topics being substantially different.

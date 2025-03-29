@@ -1,0 +1,110 @@
+# Turkish Mathematics Curriculum Exploratory Analysis (2018 vs 2024)
+======================================================================
+
+## Basic Curriculum Statistics
+----------------------------------------
+
+| Metric | 2018 Curriculum | 2024 Curriculum | Change |
+| ------ | --------------- | --------------- | ------ |
+| Total Words | 15,732 | 97,735 | +82,003 |
+| Total Sentences | 1,937 | 6,114 | +4,177 |
+| Learning Objectives | 302 | 801 | +499 |
+| Avg. Word Length | 4.63 | 5.89 | +1.26 |
+| Avg. Sentence Length | 6.29 | 13.65 | +7.36 |
+| Avg. Objective Length | 8.02 | 6.65 | -1.38 |
+
+
+## Key Terminology Changes
+----------------------------------------
+
+### Terms with Largest Increase in Frequency (2024 vs 2018)
+
+| Term | 2018 Frequency | 2024 Frequency | Change |
+| ---- | -------------- | -------------- | ------ |
+| belirle | 0.1148% | 1.7089% | +1.5941% |
+| ilişkin | 0.0574% | 1.4419% | +1.3845% |
+| varsayım | 0.0000% | 1.3084% | +1.3084% |
+| matematiksel | 0.0000% | 1.2016% | +1.2016% |
+| çözüm | 0.3444% | 1.4953% | +1.1509% |
+| kullan | 0.5741% | 1.6822% | +1.1082% |
+| araştır | 0.0000% | 1.0414% | +1.0414% |
+| öğrenci | 0.0000% | 1.0147% | +1.0147% |
+| strateji | 0.1148% | 1.0948% | +0.9800% |
+| fonksiyon | 3.2721% | 4.2190% | +0.9469% |
+
+### Terms with Largest Decrease in Frequency (2024 vs 2018)
+
+| Term | 2018 Frequency | 2024 Frequency | Change |
+| ---- | -------------- | -------------- | ------ |
+| ver | 4.4202% | 0.5073% | -3.9129% |
+| yer | 3.1573% | 0.2136% | -2.9437% |
+| iletişim | 1.5499% | 0.0000% | -1.5499% |
+| hayat(i) | 1.4925% | 0.0267% | -1.4658% |
+| teknoloji | 1.4351% | 0.0000% | -1.4351% |
+| kavram | 1.3777% | 0.0534% | -1.3243% |
+| yararlan | 1.3777% | 0.1335% | -1.2442% |
+| grafik | 1.8944% | 0.6943% | -1.2001% |
+| kenar | 1.3777% | 0.3204% | -1.0573% |
+| üçgen | 1.6073% | 0.5607% | -1.0466% |
+
+
+## Cognitive Dimensions (Verb Usage)
+----------------------------------------
+
+### Most Common Verbs in Both Curricula
+
+| Verb | 2018 Count | 2024 Count | Total |
+| ---- | ---------- | ---------- | ----- |
+| et | 8 | 91 | 99 |
+| ver | 76 | 19 | 95 |
+| ol | 40 | 41 | 81 |
+| kullan | 10 | 61 | 71 |
+| belirle | 2 | 54 | 56 |
+| yap | 13 | 28 | 41 |
+| araştır | 0 | 39 | 39 |
+| nan | 2 | 34 | 36 |
+| incele | 7 | 27 | 34 |
+| al | 9 | 22 | 31 |
+
+
+## Mathematical Content Focus
+----------------------------------------
+
+### Mathematical Domain Coverage
+
+| Domain | 2018 Coverage | 2024 Coverage | Change |
+| ------ | ------------- | ------------- | ------ |
+| Algebra | 75 | 195 | +120 |
+| Geometry | 90 | 134 | +44 |
+| Calculus | 11 | 30 | +19 |
+| Statistics | 7 | 19 | +12 |
+| Number theory | 23 | 93 | +70 |
+| Logic | 1 | 54 | +53 |
+
+
+## Learning Objective Complexity
+----------------------------------------
+
+### Objective Complexity Metrics
+
+| Metric | 2018 Avg. | 2024 Avg. | Change |
+| ------ | --------- | --------- | ------ |
+| Token Count | 8.09 | 6.66 | -1.43 |
+| Unique Tokens | 7.63 | 6.47 | -1.17 |
+| Lexical Diversity | 0.967 | 0.967 | +0.000 |
+| Avg Token Length | 6.71 | 6.82 | +0.12 |
+
+
+## Key Insights from Exploratory Analysis
+----------------------------------------
+
+Based on the exploratory analysis, the following key insights emerge:
+
+1. The 2024 curriculum has 499 more learning objectives than the 2018 version, suggesting expanded coverage or more detailed specification of learning outcomes.
+
+2. The most substantially increased terms in the 2024 curriculum are 'belirle', 'ilişkin', 'varsayım', suggesting new or expanded emphasis in these areas.
+
+3. The 'algebra' domain shows the largest increase in coverage (+120), indicating expanded emphasis in this area of mathematics.
+
+
+This exploratory analysis provides a quantitative foundation for understanding the evolution of the Turkish Mathematics Curriculum from 2018 to 2024, identifying significant changes in content focus, complexity, and cognitive demands.

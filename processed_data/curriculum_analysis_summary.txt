@@ -1,0 +1,125 @@
+# Turkish Mathematics Curriculum Analysis (2018 vs 2024)
+============================================================
+
+## Topic Coverage Analysis
+------------------------------
+
+### Emerging Topics in 2024 Curriculum (8 topics)
+
+1. **Topic 0** (Coverage: 11.1%)
+   Keywords: fonksiyon, temsil, grafik, ifade, matematiksel
+   Similarity to best matching 2018 topic: 0.11
+
+2. **Topic 1** (Coverage: 9.2%)
+   Keywords: cebirsel, öner, nokta, sözel, grafiksel
+   Similarity to best matching 2018 topic: 0.11
+
+3. **Topic 2** (Coverage: 6.7%)
+   Keywords: incele, doğru, nokta, kavramsal, üzer
+   Similarity to best matching 2018 topic: 0.11
+
+4. **Topic 3** (Coverage: 8.2%)
+   Keywords: yönelik, çıkarım, matematiksel, önerme, ulaş
+   Similarity to best matching 2018 topic: 0.00
+
+5. **Topic 4** (Coverage: 9.7%)
+   Keywords: tanım, fonksiyon, şekil, üçgen, nitel
+   Similarity to best matching 2018 topic: 0.18
+
+6. **Topic 5** (Coverage: 9.3%)
+   Keywords: gerçek, sayı, öğrenci, problem, sağla
+   Similarity to best matching 2018 topic: 0.11
+
+7. **Topic 6** (Coverage: 30.9%)
+   Keywords: varsayım, kullan, ilişkin, fark, karşıla
+   Similarity to best matching 2018 topic: 0.05
+
+8. **Topic 7** (Coverage: 15.0%)
+   Keywords: çözüm, strateji, belirle, problem, kullan
+   Similarity to best matching 2018 topic: 0.05
+
+### Fading Topics from 2018 Curriculum (5 topics)
+
+1. **Topic 0** (Coverage: 15.2%)
+   Keywords: uzunluk, çember, kenar, bulun, denklem
+   Similarity to best matching 2024 topic: 0.05
+
+2. **Topic 1** (Coverage: 22.8%)
+   Keywords: iletişim, bilgi, teknoloji, fonksiyon, grafik
+   Similarity to best matching 2024 topic: 0.11
+
+3. **Topic 2** (Coverage: 20.2%)
+   Keywords: sayı, kenar, ifade, kavram, polinom
+   Similarity to best matching 2024 topic: 0.11
+
+4. **Topic 3** (Coverage: 29.5%)
+   Keywords: fonksiyon, gerçek, hayat(i), problem, küme
+   Similarity to best matching 2024 topic: 0.18
+
+5. **Topic 4** (Coverage: 12.3%)
+   Keywords: üçgen, değer, olay, ayrık, kavram
+   Similarity to best matching 2024 topic: 0.11
+
+
+## Cognitive Complexity Analysis
+------------------------------
+
+Average Cognitive Complexity:
+- 2018 Curriculum: 4.56/6.0
+- 2024 Curriculum: 4.68/6.0
+- Change: +0.12 (+2.5%)
+
+The 2024 curriculum shows a higher average cognitive complexity, indicating a shift toward higher-order thinking skills.
+
+### Cognitive Level Distribution (Bloom's Taxonomy)
+
+| Cognitive Level | 2018 Curriculum | 2024 Curriculum | Change |
+| -------------- | --------------- | --------------- | ------ |
+| Remember | 5.5% | 8.3% | +2.8% |
+| Understand | 5.5% | 1.4% | -4.1% |
+| Apply | 13.8% | 16.2% | +2.3% |
+| Analyze | 7.7% | 11.9% | +4.1% |
+| Evaluate | 37.0% | 12.6% | -24.4% |
+| Create | 30.4% | 49.6% | +19.3% |
+
+#### Key Changes in Cognitive Demand:
+
+Significant increases in:
+- **Create** level objectives: +19.3%
+- **Analyze** level objectives: +4.1%
+
+Significant decreases in:
+- **Evaluate** level objectives: -24.4%
+- **Understand** level objectives: -4.1%
+
+
+## Summary of Curriculum Evolution
+------------------------------
+
+### Key Themes in New Content (2024)
+
+Based on keyword analysis, the following themes appear in the new curriculum content:
+- **fonksiyon** (appears 2 times)
+- **matematiksel** (appears 2 times)
+- **nokta** (appears 2 times)
+- **problem** (appears 2 times)
+- **kullan** (appears 2 times)
+- **temsil** (appears 1 times)
+- **grafik** (appears 1 times)
+- **ifade** (appears 1 times)
+- **cebirsel** (appears 1 times)
+- **öner** (appears 1 times)
+
+### Shift in Cognitive Demands
+
+The 2024 curriculum emphasizes fundamental skills (remember, understand, apply) more than the 2018 curriculum, with less focus on higher-order thinking.
+
+## Conclusion
+------------------------------
+
+The analysis reveals several important shifts in the Turkish Mathematics Curriculum between 2018 and 2024:
+
+1. The 2024 curriculum introduces more new topics than it removes from the 2018 version, suggesting curriculum expansion.
+
+
+This analysis was conducted using unsupervised topic modeling and cognitive complexity assessment techniques, allowing for an objective comparison of the curriculum evolution.

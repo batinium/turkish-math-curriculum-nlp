@@ -759,6 +759,146 @@ def analyze_topic_evolution(topics_comparison, similarity_matrix, threshold=0.2)
     
     return results
 
+def generate_topic_analysis_summary(model_data, topic_distributions, similarity_matrix=None, topics_comparison=None):
+    """Generate a comprehensive text summary of the topic modeling analysis results."""
+    summary = []
+    
+    # Create a header
+    summary.append("# Turkish Mathematics Curriculum Topic Analysis (2018 vs 2024)")
+    summary.append("=" * 70)
+    summary.append("")
+    
+    # Summarize topics for each curriculum year
+    for year in ['2018', '2024']:
+        if year not in model_data or model_data[year] is None:
+            summary.append(f"\n## {year} Curriculum: No topic model available")
+            continue
+            
+        model = model_data[year]['model']
+        coherence = model_data[year].get('coherence_score', 'N/A')
+        
+        summary.append(f"\n## {year} Curriculum Topics (Coherence: {coherence:.4f})")
+        summary.append("-" * 40)
+        
+        # List each topic with its top keywords
+        for topic_id in range(model.num_topics):
+            top_words = [word for word, _ in model.show_topic(topic_id, topn=10)]
+            top_words_str = ", ".join(top_words)
+            
+            # If topic distribution is available, get its prevalence
+            prevalence = "Unknown"
+            if year in topic_distributions and topic_distributions[year] is not None:
+                topic_count = sum(1 for _, row in topic_distributions[year].iterrows() 
+                                if row['dominant_topic'] == topic_id)
+                total_count = len(topic_distributions[year])
+                if total_count > 0:
+                    prevalence = f"{topic_count / total_count * 100:.1f}%"
+            
+            summary.append(f"\n### Topic {topic_id} (Prevalence: {prevalence})")
+            summary.append(f"Keywords: {top_words_str}")
+            
+            # Add example objectives for this topic (top 3)
+            if year in topic_distributions and topic_distributions[year] is not None:
+                topic_examples = topic_distributions[year][topic_distributions[year]['dominant_topic'] == topic_id]
+                if not topic_examples.empty:
+                    topic_examples = topic_examples.sort_values('topic_percent', ascending=False).head(3)
+                    summary.append("\nExample objectives:")
+                    for _, example in topic_examples.iterrows():
+                        text = example['text']
+                        if len(text) > 100:
+                            text = text[:97] + "..."
+                        summary.append(f"- {text}")
+    
+    # Topic similarity analysis (if available)
+    if similarity_matrix is not None and topics_comparison is not None:
+        summary.append("\n\n## Topic Similarity Analysis")
+        summary.append("-" * 40)
+        
+        # Find most similar topic pairs
+        topic_pairs = []
+        for i in range(similarity_matrix.shape[0]):
+            for j in range(similarity_matrix.shape[1]):
+                similarity = similarity_matrix[i, j]
+                if similarity >= 0.2:  # Only include meaningful similarities
+                    topic_pairs.append((i, j, similarity))
+        
+        # Sort by similarity (highest first)
+        topic_pairs.sort(key=lambda x: x[2], reverse=True)
+        
+        # Display top 5 most similar topic pairs
+        if topic_pairs:
+            summary.append("\n### Most Similar Topics Between Curricula")
+            summary.append("\n| 2018 Topic | 2024 Topic | Similarity | Shared Keywords |")
+            summary.append("| ---------- | ---------- | ---------- | --------------- |")
+            
+            for i, j, similarity in topic_pairs[:5]:
+                keywords_2018 = set(topics_comparison['2018'][str(i)][:5])
+                keywords_2024 = set(topics_comparison['2024'][str(j)][:5])
+                shared_keywords = keywords_2018 & keywords_2024
+                shared_str = ", ".join(shared_keywords) if shared_keywords else "None"
+                
+                summary.append(f"| Topic {i} | Topic {j} | {similarity:.3f} | {shared_str} |")
+        
+        # Find unique topics (low similarity to any topic in the other curriculum)
+        unique_to_2018 = []
+        for i in range(similarity_matrix.shape[0]):
+            max_sim = np.max(similarity_matrix[i, :])
+            if max_sim < 0.2:
+                unique_to_2018.append((i, max_sim))
+        
+        unique_to_2024 = []
+        for j in range(similarity_matrix.shape[1]):
+            max_sim = np.max(similarity_matrix[:, j])
+            if max_sim < 0.2:
+                unique_to_2024.append((j, max_sim))
+        
+        if unique_to_2018:
+            summary.append("\n### Topics Unique to 2018 Curriculum")
+            for topic_id, max_sim in unique_to_2018:
+                keywords = ", ".join(topics_comparison['2018'][str(topic_id)][:5])
+                summary.append(f"\n- **Topic {topic_id}** (Max similarity: {max_sim:.3f})")
+                summary.append(f"  Keywords: {keywords}")
+        
+        if unique_to_2024:
+            summary.append("\n### Topics Unique to 2024 Curriculum")
+            for topic_id, max_sim in unique_to_2024:
+                keywords = ", ".join(topics_comparison['2024'][str(topic_id)][:5])
+                summary.append(f"\n- **Topic {topic_id}** (Max similarity: {max_sim:.3f})")
+                summary.append(f"  Keywords: {keywords}")
+    
+    # Overall interpretation
+    summary.append("\n\n## Key Insights from Topic Analysis")
+    summary.append("-" * 40)
+    
+    # Add some general observations based on the data
+    if '2018' in model_data and '2024' in model_data:
+        num_topics_2018 = model_data['2018']['model'].num_topics
+        num_topics_2024 = model_data['2024']['model'].num_topics
+        
+        if num_topics_2018 != num_topics_2024:
+            summary.append(f"\n1. The optimal number of topics differs between curricula: {num_topics_2018} topics in 2018 vs. {num_topics_2024} topics in 2024.")
+            if num_topics_2024 > num_topics_2018:
+                summary.append("   This suggests the 2024 curriculum covers a wider range of distinct themes.")
+            else:
+                summary.append("   This suggests the 2024 curriculum has consolidated related topics.")
+    
+    if similarity_matrix is not None:
+        # Calculate average similarity
+        avg_similarity = np.mean(similarity_matrix)
+        summary.append(f"\n2. The average similarity between topics across curricula is {avg_similarity:.3f} (0-1 scale).")
+        if avg_similarity < 0.15:
+            summary.append("   This indicates substantial differences between the two curricula, with limited continuity in content.")
+        elif avg_similarity < 0.3:
+            summary.append("   This suggests moderate changes between curricula, with some continuity but significant new content.")
+        else:
+            summary.append("   This indicates strong continuity between curricula, with many similar topics persisting across versions.")
+    
+    if unique_to_2018 and unique_to_2024:
+        summary.append(f"\n3. There are {len(unique_to_2018)} topics unique to the 2018 curriculum and {len(unique_to_2024)} topics unique to the 2024 curriculum.")
+        summary.append(f"   This represents significant content turnover, with approximately {(len(unique_to_2018) + len(unique_to_2024)) / (similarity_matrix.shape[0] + similarity_matrix.shape[1]) * 100:.1f}% of topics being substantially different.")
+    
+    return "\n".join(summary)
+
 # Main function
 def main():
     """Main function to execute the topic modeling and semantic analysis."""
@@ -892,6 +1032,24 @@ def main():
     for filename, description in topic_files:
         if os.path.exists(os.path.join(FIGURES_DIR, filename)) or os.path.exists(os.path.join(PROCESSED_DIR, filename)):
             print(f"  - {filename}: {description}")
+
+    # After comparing topics
+    if model_data['2018'] and model_data['2024']:
+        # Generate topic analysis summary
+        print("Generating topic analysis summary...")
+        topic_summary = generate_topic_analysis_summary(
+            model_data, 
+            topic_distributions,
+            similarity_matrix,
+            topics_comparison
+        )
+        
+        # Save to file
+        topic_summary_path = os.path.join(PROCESSED_DIR, 'topic_analysis_summary.txt')
+        with open(topic_summary_path, 'w', encoding='utf-8') as f:
+            f.write(topic_summary)
+        
+        print(f"Topic analysis summary saved to: {topic_summary_path}")
 
 if __name__ == "__main__":
     main()

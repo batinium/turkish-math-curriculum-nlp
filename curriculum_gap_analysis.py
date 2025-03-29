@@ -533,6 +533,175 @@ def visualize_curriculum_evolution_network(processed_data):
     with open(os.path.join(PROCESSED_DIR, 'curriculum_evolution_network.pkl'), 'wb') as f:
         pickle.dump((G, pos), f)
 
+def generate_analysis_summary(topic_gaps, cognitive_gaps):
+    """Generate a comprehensive text summary of the curriculum analysis results."""
+    summary = []
+    
+    # Create a header
+    summary.append("# Turkish Mathematics Curriculum Analysis (2018 vs 2024)")
+    summary.append("=" * 60)
+    summary.append("")
+    
+    # Topic coverage summary
+    summary.append("## Topic Coverage Analysis")
+    summary.append("-" * 30)
+    
+    # Summarize emerging topics (new in 2024)
+    if 'missing_topics' in topic_gaps and '2024' in topic_gaps['missing_topics']:
+        emerging_topics = topic_gaps['missing_topics']['2024']
+        summary.append(f"\n### Emerging Topics in 2024 Curriculum ({len(emerging_topics)} topics)")
+        
+        if emerging_topics:
+            for i, topic in enumerate(emerging_topics):
+                keywords = ', '.join(topic.get('keywords', [])[:5])
+                coverage = topic.get('coverage', 0)
+                summary.append(f"\n{i+1}. **Topic {topic['topic_id']}** (Coverage: {coverage:.1f}%)")
+                summary.append(f"   Keywords: {keywords}")
+                summary.append(f"   Similarity to best matching 2018 topic: {topic['similarity']:.2f}")
+        else:
+            summary.append("\nNo significant emerging topics identified.")
+    
+    # Summarize fading topics (present in 2018 but missing in 2024)
+    if 'missing_topics' in topic_gaps and '2018' in topic_gaps['missing_topics']:
+        fading_topics = topic_gaps['missing_topics']['2018']
+        summary.append(f"\n### Fading Topics from 2018 Curriculum ({len(fading_topics)} topics)")
+        
+        if fading_topics:
+            for i, topic in enumerate(fading_topics):
+                keywords = ', '.join(topic.get('keywords', [])[:5])
+                coverage = topic.get('coverage', 0)
+                summary.append(f"\n{i+1}. **Topic {topic['topic_id']}** (Coverage: {coverage:.1f}%)")
+                summary.append(f"   Keywords: {keywords}")
+                summary.append(f"   Similarity to best matching 2024 topic: {topic['similarity']:.2f}")
+        else:
+            summary.append("\nNo significant fading topics identified.")
+    
+    # Cognitive complexity summary
+    summary.append("\n\n## Cognitive Complexity Analysis")
+    summary.append("-" * 30)
+    
+    # Compare average cognitive complexity
+    if 'avg_complexity' in cognitive_gaps.get('2018', {}) and 'avg_complexity' in cognitive_gaps.get('2024', {}):
+        avg_2018 = cognitive_gaps['2018']['avg_complexity']
+        avg_2024 = cognitive_gaps['2024']['avg_complexity']
+        diff = avg_2024 - avg_2018
+        
+        summary.append(f"\nAverage Cognitive Complexity:")
+        summary.append(f"- 2018 Curriculum: {avg_2018:.2f}/6.0")
+        summary.append(f"- 2024 Curriculum: {avg_2024:.2f}/6.0")
+        summary.append(f"- Change: {diff:+.2f} ({(diff/avg_2018)*100:+.1f}%)")
+        
+        if diff > 0:
+            summary.append("\nThe 2024 curriculum shows a higher average cognitive complexity, indicating a shift toward higher-order thinking skills.")
+        elif diff < 0:
+            summary.append("\nThe 2024 curriculum shows a lower average cognitive complexity, potentially focusing more on fundamental concepts.")
+        else:
+            summary.append("\nThe average cognitive complexity remains similar between the two curricula.")
+    
+    # Cognitive level distribution
+    if 'complexity_gaps' in cognitive_gaps:
+        summary.append("\n### Cognitive Level Distribution (Bloom's Taxonomy)")
+        summary.append("\n| Cognitive Level | 2018 Curriculum | 2024 Curriculum | Change |")
+        summary.append("| -------------- | --------------- | --------------- | ------ |")
+        
+        for level in ['remember', 'understand', 'apply', 'analyze', 'evaluate', 'create']:
+            if level in cognitive_gaps['complexity_gaps']:
+                pct_2018 = cognitive_gaps['complexity_gaps'][level]['percentage_2018']
+                pct_2024 = cognitive_gaps['complexity_gaps'][level]['percentage_2024']
+                change = cognitive_gaps['complexity_gaps'][level]['percentage_change']
+                
+                summary.append(f"| {level.capitalize()} | {pct_2018:.1f}% | {pct_2024:.1f}% | {change:+.1f}% |")
+        
+        # Interpret the changes
+        summary.append("\n#### Key Changes in Cognitive Demand:")
+        
+        # Find biggest increases and decreases
+        changes = [(level, cognitive_gaps['complexity_gaps'][level]['percentage_change']) 
+                 for level in cognitive_gaps['complexity_gaps']]
+        increases = sorted([c for c in changes if c[1] > 0], key=lambda x: x[1], reverse=True)
+        decreases = sorted([c for c in changes if c[1] < 0], key=lambda x: x[1])
+        
+        if increases:
+            summary.append("\nSignificant increases in:")
+            for level, change in increases[:2]:  # Top 2 increases
+                summary.append(f"- **{level.capitalize()}** level objectives: {change:+.1f}%")
+        
+        if decreases:
+            summary.append("\nSignificant decreases in:")
+            for level, change in decreases[:2]:  # Top 2 decreases
+                summary.append(f"- **{level.capitalize()}** level objectives: {change:.1f}%")
+    
+    # Overall interpretation
+    summary.append("\n\n## Summary of Curriculum Evolution")
+    summary.append("-" * 30)
+    
+    # Interpret emerging topic themes
+    if 'missing_topics' in topic_gaps and '2024' in topic_gaps['missing_topics'] and topic_gaps['missing_topics']['2024']:
+        # Collect keywords from emerging topics
+        all_keywords = []
+        for topic in topic_gaps['missing_topics']['2024']:
+            all_keywords.extend(topic.get('keywords', [])[:5])
+        
+        # Count keyword frequency
+        from collections import Counter
+        keyword_counts = Counter(all_keywords)
+        top_keywords = keyword_counts.most_common(10)
+        
+        summary.append("\n### Key Themes in New Content (2024)")
+        summary.append("\nBased on keyword analysis, the following themes appear in the new curriculum content:")
+        for keyword, count in top_keywords:
+            summary.append(f"- **{keyword}** (appears {count} times)")
+    
+    # Interpret cognitive shift
+    if 'complexity_gaps' in cognitive_gaps:
+        higher_order = sum(cognitive_gaps['complexity_gaps'][level]['percentage_change'] 
+                          for level in ['analyze', 'evaluate', 'create'])
+        lower_order = sum(cognitive_gaps['complexity_gaps'][level]['percentage_change'] 
+                         for level in ['remember', 'understand', 'apply'])
+        
+        summary.append("\n### Shift in Cognitive Demands")
+        if higher_order > 0 and lower_order < 0:
+            summary.append("\nThe 2024 curriculum shows a clear shift toward higher-order thinking skills (analyze, evaluate, create) and away from lower-order skills (remember, understand, apply).")
+        elif higher_order < 0 and lower_order > 0:
+            summary.append("\nThe 2024 curriculum emphasizes fundamental skills (remember, understand, apply) more than the 2018 curriculum, with less focus on higher-order thinking.")
+        else:
+            summary.append("\nThe distribution of cognitive demands shows a mixed pattern of changes, without a clear direction toward higher or lower-order thinking skills.")
+    
+    # Conclusion with observations about overall curriculum evolution
+    summary.append("\n## Conclusion")
+    summary.append("-" * 30)
+    summary.append("\nThe analysis reveals several important shifts in the Turkish Mathematics Curriculum between 2018 and 2024:")
+    
+    # Generate 3-4 key observations based on the analysis
+    observations = []
+    
+    # Topic-related observations
+    if 'missing_topics' in topic_gaps:
+        if len(topic_gaps['missing_topics'].get('2024', [])) > len(topic_gaps['missing_topics'].get('2018', [])):
+            observations.append("The 2024 curriculum introduces more new topics than it removes from the 2018 version, suggesting curriculum expansion.")
+        elif len(topic_gaps['missing_topics'].get('2024', [])) < len(topic_gaps['missing_topics'].get('2018', [])):
+            observations.append("The 2024 curriculum removes more topics than it adds compared to the 2018 version, suggesting curriculum streamlining.")
+    
+    # Cognitive complexity observations
+    if 'avg_complexity' in cognitive_gaps.get('2018', {}) and 'avg_complexity' in cognitive_gaps.get('2024', {}):
+        avg_2018 = cognitive_gaps['2018']['avg_complexity']
+        avg_2024 = cognitive_gaps['2024']['avg_complexity']
+        diff = avg_2024 - avg_2018
+        
+        if diff > 0.2:
+            observations.append(f"There is a substantial increase ({diff:+.2f}) in cognitive complexity, indicating a more challenging curriculum that emphasizes higher-order thinking skills.")
+        elif diff < -0.2:
+            observations.append(f"There is a notable decrease ({diff:.2f}) in cognitive complexity, suggesting a focus on making the curriculum more accessible or foundational.")
+    
+    # Add observations to the summary
+    for i, obs in enumerate(observations):
+        summary.append(f"\n{i+1}. {obs}")
+    
+    # Final note
+    summary.append("\n\nThis analysis was conducted using unsupervised topic modeling and cognitive complexity assessment techniques, allowing for an objective comparison of the curriculum evolution.")
+    
+    return "\n".join(summary)
+
 def main():
     """Main function to execute the curriculum gap analysis."""
     print("Loading processed data...")
@@ -551,11 +720,22 @@ def main():
     print("Creating curriculum evolution network visualization...")
     visualize_curriculum_evolution_network(processed_data)
     
+    print("Generating text summary of analysis results...")
+    summary_text = generate_analysis_summary(topic_gaps, cognitive_gaps)
+    
+    # Save the summary to a text file
+    summary_path = os.path.join(PROCESSED_DIR, 'curriculum_analysis_summary.txt')
+    with open(summary_path, 'w', encoding='utf-8') as f:
+        f.write(summary_text)
+    
+    print(f"Analysis summary saved to: {summary_path}")
+    
     print("\nGap analysis complete. Results saved to processed_data and figures directories.")
     print(f"Files created in {PROCESSED_DIR}:")
     print("  - topic_coverage_gaps.json")
     print("  - cognitive_complexity_analysis.json")
     print("  - curriculum_evolution_network.pkl")
+    print("  - curriculum_analysis_summary.txt")
     
     print(f"\nVisualization files created in {FIGURES_DIR}:")
     print("  - topic_coverage_comparison.png")
@@ -565,6 +745,7 @@ def main():
     print("  - cognitive_complexity_changes.png")
     print("  - average_cognitive_complexity.png")
     print("  - curriculum_evolution_network.png")
+    
 
 if __name__ == "__main__":
     main()

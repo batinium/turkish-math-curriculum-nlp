@@ -327,14 +327,18 @@ def analyze_verb_usage(processed_data):
         verb_df.to_csv(os.path.join(PROCESSED_DIR, 'verb_analysis.csv'))
     
     # Classify verbs by cognitive level (simplified Bloom's taxonomy)
-    # This would require a more sophisticated approach in a real implementation
     bloom_categories = {
-        'remember': ['tanımla', 'belirle', 'listele', 'hatırla', 'göster'],
-        'understand': ['açıkla', 'özetle', 'yorumla', 'örnek', 'sınıflandır'],
-        'apply': ['uygula', 'hesapla', 'çöz', 'göster', 'kullan'],
-        'analyze': ['analiz', 'karşılaştır', 'incele', 'ayırt', 'test'],
-        'evaluate': ['değerlendir', 'eleştir', 'savun', 'yargıla', 'seç'],
-        'create': ['oluştur', 'tasarla', 'geliştir', 'planla', 'üret']
+        'remember': ['tanımla', 'belirle', 'listele', 'hatırla', 'göster', 'bil', 'tanı', 'tekrarla', 'isimlendir', 'sırala', 'ilişkilendir', 'ezberle', 'kaydet', 'adlandır', 'edin'],
+        
+        'understand': ['açıkla', 'özetle', 'yorumla', 'örnekle', 'sınıflandır', 'anla', 'kavra', 'karşılaştır', 'ifade et', 'tercüme et', 'yeniden ifade et', 'yerini belirle', 'rapor et', 'farkına var', 'ayırt et', 'tartış', 'betimle', 'gözden geçir', 'çıkarımda bulun', 'örneklendir', 'çiz', 'temsil et', 'farklılaştır', 'sonuçlandır'],
+        
+        'apply': ['uygula', 'hesapla', 'çöz', 'göster', 'kullan', 'yap', 'gerçekleştir', 'işlet', 'üret', 'keşfet', 'ilişkilendir', 'geliştir', 'çevir', 'düzenle', 'işe koş', 'yeniden yapılandır', 'yorumla', 'resmet', 'pratik yap', 'sergile', 'canlandır'],
+        
+        'analyze': ['analiz et', 'incele', 'ayırt et', 'sorgula', 'ayrıştır', 'kategorize et', 'araştır', 'düzenle', 'çıkar', 'karşılaştır', 'soruştur', 'zıtlık göster', 'tespit et', 'sınıflandır', 'çıkarım yap', 'deney yap', 'dikkatle incele', 'keşfet', 'parçalara ayır', 'ayrım yap', 'ayır'],
+        
+        'evaluate': ['değerlendir', 'savun', 'yargıla', 'eleştir', 'karar ver', 'öner', 'ölç', 'seç', 'destekle', 'karşılaştır', 'sonuca var', 'sonuç çıkar', 'tartış', 'derecelendir', 'tahmin et', 'doğrula', 'göz önünde bulundur', 'takdir et', 'değer biç', 'çıkarımda bulun'],
+        
+        'create': ['oluştur', 'tasarla', 'geliştir', 'planla', 'üret', 'yarat', 'icat et', 'kur', 'formüle et', 'yeniden düzenle', 'bir araya getir', 'hazırla', 'tahmin et', 'değiştir', 'anlat', 'topla', 'genelle', 'belgele', 'birleştir', 'ilişkilendir', 'öner', 'inşa et', 'organize et', 'başlat', 'türet', 'yaz']
     }
     
     # Add Bloom's taxonomy classification
@@ -1046,6 +1050,208 @@ def analyze_cognitive_complexity(processed_data):
     
     return cognitive_analysis
 
+
+def generate_eda_summary(basic_stats, term_freq, verb_usage, complexity, math_terms):
+    """Generate a comprehensive text summary of the exploratory data analysis results."""
+    summary = []
+    
+    # Create a header
+    summary.append("# Turkish Mathematics Curriculum Exploratory Analysis (2018 vs 2024)")
+    summary.append("=" * 70)
+    summary.append("")
+    
+    # Basic statistics summary
+    summary.append("## Basic Curriculum Statistics")
+    summary.append("-" * 40)
+    
+    if basic_stats:
+        # Create comparison table
+        summary.append("\n| Metric | 2018 Curriculum | 2024 Curriculum | Change |")
+        summary.append("| ------ | --------------- | --------------- | ------ |")
+        
+        # Common metrics to display
+        metrics = [
+            ('total_words', 'Total Words'),
+            ('total_sentences', 'Total Sentences'),
+            ('total_objectives', 'Learning Objectives'),
+            ('avg_word_length', 'Avg. Word Length'),
+            ('avg_sentence_length', 'Avg. Sentence Length'),
+            ('avg_objective_length', 'Avg. Objective Length')
+        ]
+        
+        for metric_key, metric_name in metrics:
+            if metric_key in basic_stats.get('2018', {}) and metric_key in basic_stats.get('2024', {}):
+                val_2018 = basic_stats['2018'][metric_key]
+                val_2024 = basic_stats['2024'][metric_key]
+                
+                # Format based on metric type
+                if 'avg' in metric_key:
+                    val_2018_str = f"{val_2018:.2f}"
+                    val_2024_str = f"{val_2024:.2f}"
+                    change = f"{val_2024 - val_2018:+.2f}"
+                else:
+                    val_2018_str = f"{val_2018:,}"
+                    val_2024_str = f"{val_2024:,}"
+                    change = f"{val_2024 - val_2018:+,}"
+                
+                summary.append(f"| {metric_name} | {val_2018_str} | {val_2024_str} | {change} |")
+    
+    # Term frequency analysis
+    summary.append("\n\n## Key Terminology Changes")
+    summary.append("-" * 40)
+    
+    if isinstance(term_freq, pd.DataFrame) and 'relative_diff' in term_freq.columns:
+        # Top 10 increasing terms
+        top_increased = term_freq.sort_values('relative_diff', ascending=False).head(10)
+        
+        summary.append("\n### Terms with Largest Increase in Frequency (2024 vs 2018)")
+        summary.append("\n| Term | 2018 Frequency | 2024 Frequency | Change |")
+        summary.append("| ---- | -------------- | -------------- | ------ |")
+        
+        for term, row in top_increased.iterrows():
+            rel_2018 = row['2018_relative'] if '2018_relative' in row else 0
+            rel_2024 = row['2024_relative'] if '2024_relative' in row else 0
+            rel_diff = row['relative_diff']
+            
+            # Format percentages
+            summary.append(f"| {term} | {rel_2018:.4%} | {rel_2024:.4%} | {rel_diff:+.4%} |")
+        
+        # Top 10 decreasing terms
+        top_decreased = term_freq.sort_values('relative_diff', ascending=True).head(10)
+        
+        summary.append("\n### Terms with Largest Decrease in Frequency (2024 vs 2018)")
+        summary.append("\n| Term | 2018 Frequency | 2024 Frequency | Change |")
+        summary.append("| ---- | -------------- | -------------- | ------ |")
+        
+        for term, row in top_decreased.iterrows():
+            rel_2018 = row['2018_relative'] if '2018_relative' in row else 0
+            rel_2024 = row['2024_relative'] if '2024_relative' in row else 0
+            rel_diff = row['relative_diff']
+            
+            # Format percentages
+            summary.append(f"| {term} | {rel_2018:.4%} | {rel_2024:.4%} | {rel_diff:+.4%} |")
+    
+    # Verb usage analysis (cognitive dimensions)
+    summary.append("\n\n## Cognitive Dimensions (Verb Usage)")
+    summary.append("-" * 40)
+    
+    if isinstance(verb_usage, pd.DataFrame):
+        # Top 10 most common verbs
+        top_verbs = verb_usage.head(10)
+        
+        summary.append("\n### Most Common Verbs in Both Curricula")
+        summary.append("\n| Verb | 2018 Count | 2024 Count | Total |")
+        summary.append("| ---- | ---------- | ---------- | ----- |")
+        
+        for verb, row in top_verbs.iterrows():
+            count_2018 = row['2018'] if '2018' in row else 0
+            count_2024 = row['2024'] if '2024' in row else 0
+            total = row['total'] if 'total' in row else count_2018 + count_2024
+            
+            summary.append(f"| {verb} | {count_2018} | {count_2024} | {total} |")
+        
+        # Bloom's taxonomy distribution
+        bloom_cols = [col for col in verb_usage.columns if col.startswith('bloom_')]
+        if bloom_cols:
+            bloom_counts = verb_usage[bloom_cols].sum()
+            
+            summary.append("\n### Bloom's Taxonomy Category Distribution")
+            for col in bloom_cols:
+                category = col.replace('bloom_', '').capitalize()
+                count = bloom_counts[col]
+                summary.append(f"- **{category}**: {count} verbs")
+    
+    # Mathematical terminology analysis
+    summary.append("\n\n## Mathematical Content Focus")
+    summary.append("-" * 40)
+    
+    if isinstance(math_terms, pd.DataFrame):
+        summary.append("\n### Mathematical Domain Coverage")
+        summary.append("\n| Domain | 2018 Coverage | 2024 Coverage | Change |")
+        summary.append("| ------ | ------------- | ------------- | ------ |")
+        
+        for domain, row in math_terms.iterrows():
+            val_2018 = row['2018'] if '2018' in row else 0
+            val_2024 = row['2024'] if '2024' in row else 0
+            change = val_2024 - val_2018
+            
+            summary.append(f"| {domain.replace('_', ' ').capitalize()} | {val_2018} | {val_2024} | {change:+} |")
+    
+    # Objective complexity analysis
+    summary.append("\n\n## Learning Objective Complexity")
+    summary.append("-" * 40)
+    
+    if complexity and '2018' in complexity and '2024' in complexity:
+        # Average complexity metrics
+        metrics = ['token_count', 'unique_tokens', 'lexical_diversity', 'avg_token_length']
+        
+        summary.append("\n### Objective Complexity Metrics")
+        summary.append("\n| Metric | 2018 Avg. | 2024 Avg. | Change |")
+        summary.append("| ------ | --------- | --------- | ------ |")
+        
+        for metric in metrics:
+            if metric in complexity['2018'] and metric in complexity['2024']:
+                avg_2018 = complexity['2018'][metric].mean()
+                avg_2024 = complexity['2024'][metric].mean()
+                change = avg_2024 - avg_2018
+                
+                # Format based on metric
+                if metric == 'lexical_diversity':
+                    summary.append(f"| {metric.replace('_', ' ').title()} | {avg_2018:.3f} | {avg_2024:.3f} | {change:+.3f} |")
+                else:
+                    summary.append(f"| {metric.replace('_', ' ').title()} | {avg_2018:.2f} | {avg_2024:.2f} | {change:+.2f} |")
+    
+    # Key insights summary
+    summary.append("\n\n## Key Insights from Exploratory Analysis")
+    summary.append("-" * 40)
+    summary.append("\nBased on the exploratory analysis, the following key insights emerge:")
+    
+    # Generate insights based on available data
+    insights = []
+    
+    # Insight from basic stats
+    if basic_stats and 'total_objectives' in basic_stats.get('2018', {}) and 'total_objectives' in basic_stats.get('2024', {}):
+        obj_change = basic_stats['2024']['total_objectives'] - basic_stats['2018']['total_objectives']
+        if abs(obj_change) > 10:
+            if obj_change > 0:
+                insights.append(f"The 2024 curriculum has {obj_change} more learning objectives than the 2018 version, suggesting expanded coverage or more detailed specification of learning outcomes.")
+            else:
+                insights.append(f"The 2024 curriculum has {abs(obj_change)} fewer learning objectives than the 2018 version, suggesting streamlining or consolidation of learning outcomes.")
+    
+    # Insight from term frequency
+    if isinstance(term_freq, pd.DataFrame) and 'relative_diff' in term_freq.columns:
+        top_terms = term_freq.sort_values('relative_diff', ascending=False).head(3).index.tolist()
+        if top_terms:
+            term_str = ", ".join([f"'{t}'" for t in top_terms])
+            insights.append(f"The most substantially increased terms in the 2024 curriculum are {term_str}, suggesting new or expanded emphasis in these areas.")
+    
+    # Insight from mathematical terminology
+    if isinstance(math_terms, pd.DataFrame):
+        # Find domains with biggest changes
+        domain_changes = []
+        for domain in math_terms.index:
+            val_2018 = math_terms.loc[domain, '2018'] if '2018' in math_terms.columns else 0
+            val_2024 = math_terms.loc[domain, '2024'] if '2024' in math_terms.columns else 0
+            change = val_2024 - val_2018
+            domain_changes.append((domain, change))
+        
+        domain_changes.sort(key=lambda x: abs(x[1]), reverse=True)
+        if domain_changes:
+            top_domain, change = domain_changes[0]
+            if change > 0:
+                insights.append(f"The '{top_domain.replace('_', ' ')}' domain shows the largest increase in coverage (+{change}), indicating expanded emphasis in this area of mathematics.")
+            elif change < 0:
+                insights.append(f"The '{top_domain.replace('_', ' ')}' domain shows the largest decrease in coverage ({change}), suggesting reduced emphasis in this area of mathematics.")
+    
+    # Add collected insights
+    for i, insight in enumerate(insights):
+        summary.append(f"\n{i+1}. {insight}")
+    
+    # Conclusion
+    summary.append("\n\nThis exploratory analysis provides a quantitative foundation for understanding the evolution of the Turkish Mathematics Curriculum from 2018 to 2024, identifying significant changes in content focus, complexity, and cognitive demands.")
+    
+    return "\n".join(summary)
+
 # Main function
 def main():
     """Main function to execute the exploratory data analysis."""
@@ -1113,6 +1319,22 @@ def main():
     # Save basic stats as JSON
     with open(os.path.join(PROCESSED_DIR, 'basic_stats.json'), 'w', encoding='utf-8') as f:
         json.dump(basic_stats, f, indent=2)
+    
+    print("Generating exploratory analysis summary...")
+    eda_summary = generate_eda_summary(
+        basic_stats,
+        term_freq,
+        verb_usage,
+        complexity,
+        math_terms
+    )
+
+    # Save to file
+    eda_summary_path = os.path.join(PROCESSED_DIR, 'exploratory_analysis_summary.txt')
+    with open(eda_summary_path, 'w', encoding='utf-8') as f:
+        f.write(eda_summary)
+
+    print(f"Exploratory analysis summary saved to: {eda_summary_path}")
     
     elapsed_time = time.time() - start_time
     print(f"Exploratory data analysis complete in {elapsed_time:.2f} seconds.")
