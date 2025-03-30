@@ -1,0 +1,3895 @@
+{
+  "analysis_type": "Turkish Mathematics Curriculum Topic Analysis",
+  "comparison": "2018 vs 2024",
+  "curricula": {
+    "2018": {
+      "coherence_score": 0.5335644114532296,
+      "num_topics": 5,
+      "topics": [
+        {
+          "id": 0,
+          "top_keywords": [
+            "uzunluk",
+            "çember",
+            "kenar",
+            "bulun",
+            "denklem",
+            "nokta",
+            "toplam",
+            "alan",
+            "üçgen",
+            "ölçü",
+            "derece",
+            "üzer",
+            "çözüm",
+            "ilişki",
+            "orantı",
+            "𝐶𝐶(𝑛𝑛",
+            "merkez",
+            "kenarortay",
+            "teğet",
+            "doğru"
+          ],
+          "keyword_probabilities": [
+            0.04450949281454086,
+            0.0419752262532711,
+            0.03644146770238876,
+            0.034387994557619095,
+            0.033562906086444855,
+            0.03028319776058197,
+            0.02682245522737503,
+            0.026760412380099297,
+            0.021651199087500572,
+            0.019486285746097565,
+            0.01929156854748726,
+            0.017995009198784828,
+            0.017425667494535446,
+            0.015858793631196022,
+            0.015766268596053123,
+            0.01573140174150467,
+            0.0155049879103899,
+            0.01471620798110962,
+            0.014486141502857208,
+            0.01287903357297182
+          ],
+          "prevalence": 0.152317880794702,
+          "document_count": 46,
+          "examples": [
+            {
+              "text": "oran orantı doğru orantı ters orantı kavram ile oran ve orantı ait özellik hatırlat",
+              "topic_probability": 0.95600104,
+              "section": "9.3.5.1. Oran ve orantı kavramlarını kullanarak problemler çözer.",
+              "item": "a)"
+            },
+            {
+              "text": "bir derece iki bilinmeyen li denklem ve eşitsiz sistem çözüm analitik düzlem göster",
+              "topic_probability": 0.9514559,
+              "section": "9.3.3.4. Birinci dereceden iki bilinmeyenli denklem ve eşitsizlik sistemlerinin çözüm kümelerini bulur.",
+              "item": "b)"
+            },
+            {
+              "text": "bir çember kiriş orta dik çember merkez geç ve bir kiriş orta nokta çember",
+              "topic_probability": 0.9514557,
+              "section": "11.5.1.2. Çemberde kirişin özelliklerini göstererek işlemler yapar.",
+              "item": "a)"
+            },
+            {
+              "text": "eşkenar üçgen içeri alın bir nokta kenar indir dik uzunluk toplam ile",
+              "topic_probability": 0.9514497,
+              "section": "9.4.3.4. Üçgenin çeşidine göre yüksekliklerinin kesiştiği noktanın konumunu belirler.",
+              "item": "c)"
+            },
+            {
+              "text": "Kenarortay kesiş nokta ile bu nokta kenarortay Üzer ayır parça ara ilişki",
+              "topic_probability": 0.9514192,
+              "section": "9.4.3.2. Üçgenin kenarortaylarının özelliklerini elde eder.",
+              "item": "a)"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "top_keywords": [
+            "iletişim",
+            "bilgi",
+            "teknoloji",
+            "fonksiyon",
+            "grafik",
+            "yararlan",
+            "çalış",
+            "doğru",
+            "yardım",
+            "parça",
+            "nokta",
+            "üzer",
+            "uygulama",
+            "buldur",
+            "değişim",
+            "alan",
+            "incele",
+            "katsayı",
+            "kullanıl",
+            "daire"
+          ],
+          "keyword_probabilities": [
+            0.07917993515729904,
+            0.07917861640453339,
+            0.07348370552062988,
+            0.06942957639694214,
+            0.06793533265590668,
+            0.061392899602651596,
+            0.0361131951212883,
+            0.03491249680519104,
+            0.030537912622094154,
+            0.020886598154902458,
+            0.017599893733859062,
+            0.014418788254261017,
+            0.012503501959145069,
+            0.01248095277696848,
+            0.01157026644796133,
+            0.011065278202295303,
+            0.009485574439167976,
+            0.00944867730140686,
+            0.009398805908858776,
+            0.009273090399801731
+          ],
+          "prevalence": 0.22847682119205298,
+          "document_count": 69,
+          "examples": [
+            {
+              "text": "bir doğru parça orta dik Üzer alın her nokta doğru parça uç nokta eşit",
+              "topic_probability": 0.9590022,
+              "section": "9.4.3.3. Üçgenin kenar orta dikmelerinin bir noktada kesiştiğini gösterir.",
+              "item": "a)"
+            },
+            {
+              "text": "bir fonksiyon bir sabit çarpım iki fonksiyon toplam ve fark integral al kural",
+              "topic_probability": 0.9494087,
+              "section": "12.6.1.1. Bir fonksiyonun belirsiz integralini açıklayarak integral alma kurallarını oluşturur.",
+              "item": ")"
+            },
+            {
+              "text": "Fonksiyon grafik bilgi ve iletişim teknoloji yardım çiz ve yorumla",
+              "topic_probability": 0.9427566,
+              "section": "11.3.1.1. Fonksiyonun grafik ve tablo temsilini kullanarak problem çözer.",
+              "item": "c)"
+            },
+            {
+              "text": "bir fonksiyon bir bir ve örten grafik Üzer yatay doğru test incele ve cebirsel ol",
+              "topic_probability": 0.9427335,
+              "section": "10.2.2.1. Bire bir ve örten fonksiyonlar ile ilgili uygulamalar yapar.",
+              "item": "a)"
+            },
+            {
+              "text": "f(x = ax + b tip fonksiyon grafik bilgi ve iletişim teknoloji yardım çiz a ve b",
+              "topic_probability": 0.9340277,
+              "section": "10.2.1.2. Fonksiyonların grafiklerini çizer.",
+              "item": "c)"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "top_keywords": [
+            "sayı",
+            "kenar",
+            "ifade",
+            "kavram",
+            "polinom",
+            "üçgen",
+            "fark",
+            "veri",
+            "oluş",
+            "uygulama",
+            "durum",
+            "ilgi",
+            "terim",
+            "problem",
+            "hatırlat",
+            "kare",
+            "aşağı",
+            "grup",
+            "çeşit",
+            "trigonometrik"
+          ],
+          "keyword_probabilities": [
+            0.04057354852557182,
+            0.03901642560958862,
+            0.03881990164518356,
+            0.034293681383132935,
+            0.02605934999883175,
+            0.022508632391691208,
+            0.022160334512591362,
+            0.020629413425922394,
+            0.014891216531395912,
+            0.014857341535389423,
+            0.014843675307929516,
+            0.01455788966268301,
+            0.01437680795788765,
+            0.013435394503176212,
+            0.01229928433895111,
+            0.012054179795086384,
+            0.012016353197395802,
+            0.012003242038190365,
+            0.011997923254966736,
+            0.011949146166443825
+          ],
+          "prevalence": 0.20198675496688742,
+          "document_count": 61,
+          "examples": [
+            {
+              "text": "kenar açı kenar K. A. K. açı kenar Açı A. K. A. kenar kenar kenar K. K. K. eşlik kural ölçüm",
+              "topic_probability": 0.95402807,
+              "section": "9.4.2.1. İki üçgenin eş olması için gerekli olan asgari koşulları değerlendirir.",
+              "item": "b)"
+            },
+            {
+              "text": "tam kare iki kare fark iki terim toplam ve fark küp iki terim küp toplam ve fark",
+              "topic_probability": 0.9540256,
+              "section": "10.3.2.1. Bir polinomu çarpanlarına ayırır.",
+              "item": "b)"
+            },
+            {
+              "text": "Histogram oluşturul veri grup açık seç grup sayıs bölün ve aşağı eşitsiz",
+              "topic_probability": 0.95402366,
+              "section": "9.5.2.1. Bir veri grubuna ilişkin histogram oluşturur.",
+              "item": "a)"
+            },
+            {
+              "text": "dinamik matematik yazılım yararlan hangi durum üçgen oluş test et",
+              "topic_probability": 0.95399743,
+              "section": "9.4.1.3. Uzunlukları verilen üç doğru parçasının hangi durumlarda üçgen oluşturduğunu değerlendirir.",
+              "item": "b)"
+            },
+            {
+              "text": "fark problem çöz strateji uygula gerek oran orantı kavram kullan",
+              "topic_probability": 0.9539757,
+              "section": "9.3.5.2. Denklemler  ve eşitsizlikler ile ilgili problemler çözer.",
+              "item": "b)"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "top_keywords": [
+            "fonksiyon",
+            "gerçek",
+            "hayat(i)",
+            "problem",
+            "küme",
+            "nokta",
+            "üzer",
+            "grafik",
+            "türev",
+            "eksen",
+            "kavram",
+            "açıkla",
+            "cetvel",
+            "pergel",
+            "ilişki",
+            "üçgen",
+            "göster",
+            "sayı",
+            "dörtgen",
+            "çizim"
+          ],
+          "keyword_probabilities": [
+            0.08984751999378204,
+            0.08518122881650925,
+            0.07244709134101868,
+            0.06063763424754143,
+            0.042090024799108505,
+            0.0348028689622879,
+            0.02242254465818405,
+            0.022024180740118027,
+            0.020028313621878624,
+            0.019602257758378983,
+            0.018794560804963112,
+            0.014636553823947906,
+            0.014612081460654736,
+            0.014612074941396713,
+            0.013675830326974392,
+            0.012172563001513481,
+            0.011969247832894325,
+            0.011942851357161999,
+            0.011847068555653095,
+            0.011514644138514996
+          ],
+          "prevalence": 0.2947019867549669,
+          "document_count": 89,
+          "examples": [
+            {
+              "text": "Fonksiyon grafiğ tepe nokta ile fonksiyon en küçük ya da en büyük değer ilişkilendir",
+              "topic_probability": 0.95567644,
+              "section": "11.3.2.1. İkinci dereceden bir değişkenli fonksiyonun grafiğini çizerek yorumlar.",
+              "item": "b)"
+            },
+            {
+              "text": "Fonksiyon grafiğ tepe nokta eksen kes nokta ve simetri eksen buldur",
+              "topic_probability": 0.9556663,
+              "section": "11.3.2.1. İkinci dereceden bir değişkenli fonksiyonun grafiğini çizerek yorumlar.",
+              "item": "a)"
+            },
+            {
+              "text": "İç fonksiyon ört fonksiyon bir bir fonksiyon eşit fonksiyon birim özdeş fonksiyon sabit",
+              "topic_probability": 0.95566225,
+              "section": "10.2.1.1. Fonksiyonlarla ilgili problemler çözer.",
+              "item": "c)"
+            },
+            {
+              "text": "bir nesne belli bir oran büyüt veya küçült çizim ölçek kâğıt Üzer çizdir",
+              "topic_probability": 0.9504998,
+              "section": "12.3.1.1. Çevre, alan ve hacim ölçmeye yönelik problemler çözer.",
+              "item": "b)"
+            },
+            {
+              "text": "bir nesne belli bir oran büyüt ya da küçült çizim kullan mesafe çevre",
+              "topic_probability": 0.95049953,
+              "section": "12.3.1.1. Çevre, alan ve hacim ölçmeye yönelik problemler çözer.",
+              "item": "a)"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "top_keywords": [
+            "üçgen",
+            "değer",
+            "olay",
+            "ayrık",
+            "kavram",
+            "alan",
+            "çarpan",
+            "açık",
+            "taban",
+            "hesapla",
+            "fark",
+            "kullan",
+            "yöntem",
+            "ilişki",
+            "üzer",
+            "durum",
+            "yaptır",
+            "mutlak",
+            "olasılık",
+            "fazla"
+          ],
+          "keyword_probabilities": [
+            0.04857931286096573,
+            0.04092850163578987,
+            0.03198712319135666,
+            0.022957127541303635,
+            0.022228935733437538,
+            0.020445093512535095,
+            0.01880834810435772,
+            0.01876901648938656,
+            0.018560554832220078,
+            0.018468286842107773,
+            0.01646651327610016,
+            0.014371799305081367,
+            0.0143260657787323,
+            0.0142876747995615,
+            0.014286981895565987,
+            0.01428118348121643,
+            0.014264228753745556,
+            0.014177023433148861,
+            0.014036726206541061,
+            0.013782381080091
+          ],
+          "prevalence": 0.12251655629139073,
+          "document_count": 37,
+          "examples": [
+            {
+              "text": "Aritmetik ortalama ortanca tepe değer en büyük değer en küçük değer ve açık kavram ver",
+              "topic_probability": 0.9593693,
+              "section": "9.5.1.1. Verileri merkezî eğilim ve yayılım ölçülerini hesaplayarak yorumlar.",
+              "item": "b)"
+            },
+            {
+              "text": "Denklem çözüm fark yöntem çarpan ayır tam kare tamamla değişken",
+              "topic_probability": 0.94512945,
+              "section": "10.4.1.2. İkinci dereceden bir bilinmeyenli denklemleri çözer.",
+              "item": "b)"
+            },
+            {
+              "text": "Tümle ayrık olay ve ayrık ol olay ile ilgi olasılık hesapla",
+              "topic_probability": 0.94511896,
+              "section": "10.1.2.2. Olasılık kavramı ile ilgili uygulamalar yapar.",
+              "item": "b)"
+            },
+            {
+              "text": "ortak çarpan parantez al ve değişken değiştir yöntem kullan çarpan ayır",
+              "topic_probability": 0.9378746,
+              "section": "10.3.2.1. Bir polinomu çarpanlarına ayırır.",
+              "item": "a)"
+            },
+            {
+              "text": "aynı yüksek sahip üçgen alan taban aynı taban sahip üçgen alan",
+              "topic_probability": 0.9378687,
+              "section": "9.4.5.1. Üçgenin alanı ile ilgili problemler çözer.",
+              "item": "c)"
+            }
+          ]
+        }
+      ],
+      "section_distribution": {
+        "9.2.1.1. Kümeler ile ilgili temel kavramları hatırlatılır.": {
+          "total_documents": 1,
+          "topic_distribution": {
+            "3": {
+              "count": 1,
+              "percentage": 1.0
+            }
+          }
+        },
+        "9.1.1.3. Koşullu önermeyi ve iki yönlü koşullu önermeyi açıklar.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "0": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            },
+            "4": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "9.1.1.4. Her (": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "3": {
+              "count": 3,
+              "percentage": 1.0
+            }
+          }
+        },
+        "9.1.1.5. Tanım, aksiyom, teorem ve ispat kavramlarını açıklar.": {
+          "total_documents": 1,
+          "topic_distribution": {
+            "3": {
+              "count": 1,
+              "percentage": 1.0
+            }
+          }
+        },
+        "9.2.1.1. Kümeler ile ilgili temel kavramlar hatırlatılır.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "3": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            },
+            "4": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "9.2.1.2. Alt kümeyi kullanarak işlemler yapar.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "3": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "9.2.1.3. İki kümenin eşitliğini kullanarak işlemler yapar.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "3": {
+              "count": 2,
+              "percentage": 1.0
+            }
+          }
+        },
+        "9.2.2.1. Kümelerde birleşim, kesişim, fark, tümleme işlemleri yardımıyla problemler çözer.": {
+          "total_documents": 4,
+          "topic_distribution": {
+            "4": {
+              "count": 2,
+              "percentage": 0.5
+            },
+            "3": {
+              "count": 2,
+              "percentage": 0.5
+            }
+          }
+        },
+        "9.2.2.2. İki kümenin kartezyen çarpımıyla ilgili işlemler yapar.": {
+          "total_documents": 4,
+          "topic_distribution": {
+            "3": {
+              "count": 2,
+              "percentage": 0.5
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.25
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.25
+            }
+          }
+        },
+        "9.3.1.1. Sayı kümelerini birbiriyle ilişkilendirir.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "2": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "9.3.2.2. Tam sayılarda EBOB ve EKOK ile ilgili uygulamalar yapar.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "3": {
+              "count": 1,
+              "percentage": 0.5
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.5
+            }
+          }
+        },
+        "9.3.3.1. Gerçek sayılar kümesinde aralık kavramını açıklar.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "4": {
+              "count": 1,
+              "percentage": 0.5
+            },
+            "0": {
+              "count": 1,
+              "percentage": 0.5
+            }
+          }
+        },
+        "9.3.3.2. Birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm kümelerini bulur.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "0": {
+              "count": 1,
+              "percentage": 0.5
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.5
+            }
+          }
+        },
+        "9.3.3.3. Mutlak değer içeren birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm": {
+          "total_documents": 7,
+          "topic_distribution": {
+            "3": {
+              "count": 5,
+              "percentage": 0.7142857142857143
+            },
+            "4": {
+              "count": 2,
+              "percentage": 0.2857142857142857
+            }
+          }
+        },
+        "9.3.3.4. Birinci dereceden iki bilinmeyenli denklem ve eşitsizlik sistemlerinin çözüm kümelerini bulur.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "0": {
+              "count": 2,
+              "percentage": 1.0
+            }
+          }
+        },
+        "9.3.4.1. Üslü ifadeleri içeren denklemleri çözer.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "2": {
+              "count": 3,
+              "percentage": 1.0
+            }
+          }
+        },
+        "9.3.4.2. Köklü ifadeleri içeren denklemleri çözer.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "2": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "9.3.5.1. Oran ve orantı kavramlarını kullanarak problemler çözer.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "0": {
+              "count": 1,
+              "percentage": 0.5
+            },
+            "4": {
+              "count": 1,
+              "percentage": 0.5
+            }
+          }
+        },
+        "9.3.5.2. Denklemler  ve eşitsizlikler ile ilgili problemler çözer.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "2": {
+              "count": 3,
+              "percentage": 1.0
+            }
+          }
+        },
+        "9.4.1.1. Üçgende açı özellikleri ile ilgili işlemler yapar.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "2": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "4": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "9.4.1.2. Üçgenin kenar uzunlukları ile bu kenarların karşılarındaki açıların ölçülerini ilişkilendirir.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "2": {
+              "count": 2,
+              "percentage": 1.0
+            }
+          }
+        },
+        "9.4.1.3. Uzunlukları verilen üç doğru parçasının hangi durumlarda üçgen oluşturduğunu değerlendirir.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "0": {
+              "count": 1,
+              "percentage": 0.5
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.5
+            }
+          }
+        },
+        "9.4.2.1. İki üçgenin eş olması için gerekli olan asgari koşulları değerlendirir.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "4": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "9.4.2.2. İki üçgenin benzer olması için gerekli olan asgari koşulları değerlendirir.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "2": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "4": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "9.4.3.1. Üçgenin iç ve dış açıortaylarının özelliklerini elde eder.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "0": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "9.4.3.2. Üçgenin kenarortaylarının özelliklerini elde eder.": {
+          "total_documents": 4,
+          "topic_distribution": {
+            "0": {
+              "count": 3,
+              "percentage": 0.75
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.25
+            }
+          }
+        },
+        "9.4.3.3. Üçgenin kenar orta dikmelerinin bir noktada kesiştiğini gösterir.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "1": {
+              "count": 2,
+              "percentage": 1.0
+            }
+          }
+        },
+        "9.4.3.4. Üçgenin çeşidine göre yüksekliklerinin kesiştiği noktanın konumunu belirler.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "0": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "9.4.4.1. Dik üçgende Pisagor teoremini elde ederek problemler çözer.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "2": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "9.4.4.2. Öklid teoremini elde ederek problemler çözer.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "3": {
+              "count": 1,
+              "percentage": 0.5
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.5
+            }
+          }
+        },
+        "9.4.4.3. Dik üçgende dar açıların trigonometrik oranlarını hesaplar.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "4": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "9.4.4.4. Birim çemberi tanımlar ve trigonometrik oranları birim çemberin üzerindeki noktanın": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "0": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "9.4.5.1. Üçgenin alanı ile ilgili problemler çözer.": {
+          "total_documents": 4,
+          "topic_distribution": {
+            "0": {
+              "count": 2,
+              "percentage": 0.5
+            },
+            "4": {
+              "count": 1,
+              "percentage": 0.25
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.25
+            }
+          }
+        },
+        "9.5.1.1. Verileri merkezî eğilim ve yayılım ölçülerini hesaplayarak yorumlar.": {
+          "total_documents": 4,
+          "topic_distribution": {
+            "4": {
+              "count": 3,
+              "percentage": 0.75
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.25
+            }
+          }
+        },
+        "9.5.2.1. Bir veri grubuna ilişkin histogram oluşturur.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "2": {
+              "count": 2,
+              "percentage": 1.0
+            }
+          }
+        },
+        "9.5.2.2. Gerçek hayat durumunu yansıtan veri gruplarını uygun grafik türleriyle temsil ederek yorumlar.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "1": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "10.1.1.1. Olayların gerçekleşme sayısını toplama ve çarpma yöntemlerini kullanarak hesaplar.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "2": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "0": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "10.1.1.3.  Sınırlı  sayıda  tekrarlayan  nesnelerin  dizilişlerini  (permütasyonlarını)  açıklayarak  problemler": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "2": {
+              "count": 1,
+              "percentage": 0.5
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.5
+            }
+          }
+        },
+        "10.1.1.4. n elemanlı bir kümenin r tane elemanının kaç farklı şekilde seçilebileceğini hesaplar.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "3": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            },
+            "0": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "10.1.1.5. Pascal üçgenini açıklar.": {
+          "total_documents": 1,
+          "topic_distribution": {
+            "0": {
+              "count": 1,
+              "percentage": 1.0
+            }
+          }
+        },
+        "10.1.1.6. Binom açılımını yapar.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "2": {
+              "count": 3,
+              "percentage": 1.0
+            }
+          }
+        },
+        "10.1.2.1. Örnek uzay, deney, çıktı, bir olayın tümleyeni, kesin olay, imkânsız olay, ayrık olay ve ayrık": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "2": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            },
+            "4": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "10.1.2.2. Olasılık kavramı ile ilgili uygulamalar yapar.": {
+          "total_documents": 4,
+          "topic_distribution": {
+            "4": {
+              "count": 2,
+              "percentage": 0.5
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.25
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.25
+            }
+          }
+        },
+        "10.2.1.1. Fonksiyonlarla ilgili problemler çözer.": {
+          "total_documents": 5,
+          "topic_distribution": {
+            "3": {
+              "count": 4,
+              "percentage": 0.8
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.2
+            }
+          }
+        },
+        "10.2.1.2. Fonksiyonların grafiklerini çizer.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "1": {
+              "count": 3,
+              "percentage": 1.0
+            }
+          }
+        },
+        "10.2.1.3. Fonksiyonların grafiklerini yorumlar.": {
+          "total_documents": 5,
+          "topic_distribution": {
+            "3": {
+              "count": 3,
+              "percentage": 0.6
+            },
+            "0": {
+              "count": 1,
+              "percentage": 0.2
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.2
+            }
+          }
+        },
+        "10.2.2.1. Bire bir ve örten fonksiyonlar ile ilgili uygulamalar yapar.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "1": {
+              "count": 2,
+              "percentage": 1.0
+            }
+          }
+        },
+        "10.2.2.2. Fonksiyonlarda bileşke işlemiyle ilgili işlemler yapar.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "3": {
+              "count": 3,
+              "percentage": 1.0
+            }
+          }
+        },
+        "10.2.2.3. Verilen bir fonksiyonun tersini bulur.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "1": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "10.3.1.1. Bir değişkenli polinom kavramını açıklar.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "1": {
+              "count": 1,
+              "percentage": 0.5
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.5
+            }
+          }
+        },
+        "10.3.1.2. Polinomlarla toplama, çıkarma, çarpma ve bölme işlemlerini yapar.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "2": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "10.3.2.1. Bir polinomu çarpanlarına ayırır.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "2": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "4": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "10.3.2.2. Rasyonel ifadelerin sadeleştirilmesi ile ilgili işlemler yapar.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "2": {
+              "count": 2,
+              "percentage": 1.0
+            }
+          }
+        },
+        "10.4.1.2. İkinci dereceden bir bilinmeyenli denklemleri çözer.": {
+          "total_documents": 4,
+          "topic_distribution": {
+            "2": {
+              "count": 1,
+              "percentage": 0.25
+            },
+            "4": {
+              "count": 1,
+              "percentage": 0.25
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.25
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.25
+            }
+          }
+        },
+        "10.4.1.3. Bir karmaşık sayının a+ib (a,b": {
+          "total_documents": 6,
+          "topic_distribution": {
+            "2": {
+              "count": 3,
+              "percentage": 0.5
+            },
+            "3": {
+              "count": 2,
+              "percentage": 0.3333333333333333
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.16666666666666666
+            }
+          }
+        },
+        "10.4.1.4.  İkinci  dereceden  bir  bilinmeyenli  denklemin  kökleri  ile  katsayıları  arasındaki  ilişkileri": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "0": {
+              "count": 1,
+              "percentage": 0.5
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.5
+            }
+          }
+        },
+        "10.5.1.1. Çokgen kavramını açıklayarak işlemler yapar.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "0": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "10.5.2.1. Dörtgenin temel elemanlarını ve özelliklerini açıklayarak problemler çözer.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "3": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "0": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "10.5.3.1. Özel dörtgenlerin açı, kenar, köşegen ve alan özelliklerini açıklayarak problemler çözer.": {
+          "total_documents": 4,
+          "topic_distribution": {
+            "4": {
+              "count": 2,
+              "percentage": 0.5
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.25
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.25
+            }
+          }
+        },
+        "10.6.1.1. Dik prizmalar ve dik piramitlerin uzunluk, alan ve hacim bağıntılarını oluşturur.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "3": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "11.1.1.2. Açı ölçü birimlerini açıklayarak birbiri ile ilişkilendirir.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "0": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "4": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "11.1.2.1. Trigonometrik fonksiyonları birim çember yardımıyla açıklar.": {
+          "total_documents": 5,
+          "topic_distribution": {
+            "3": {
+              "count": 2,
+              "percentage": 0.4
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.2
+            },
+            "0": {
+              "count": 1,
+              "percentage": 0.2
+            },
+            "4": {
+              "count": 1,
+              "percentage": 0.2
+            }
+          }
+        },
+        "11.1.2.2. Kosinüs teoremiyle ilgili problemler çözer.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "2": {
+              "count": 1,
+              "percentage": 0.5
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.5
+            }
+          }
+        },
+        "11.1.2.3. Sinüs teoremiyle ilgili problemler çözer.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "0": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "11.1.2.4. Trigonometrik fonksiyon grafiklerini çizer.": {
+          "total_documents": 4,
+          "topic_distribution": {
+            "1": {
+              "count": 3,
+              "percentage": 0.75
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.25
+            }
+          }
+        },
+        "11.2.1.2. Bir doğru parçasını belli bir oranda (içten veya dıştan) bölen noktanın koordinatlarını hesaplar.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "1": {
+              "count": 1,
+              "percentage": 0.5
+            },
+            "4": {
+              "count": 1,
+              "percentage": 0.5
+            }
+          }
+        },
+        "11.2.1.3. Analitik düzlemde doğruları inceleyerek işlemler yapar.": {
+          "total_documents": 4,
+          "topic_distribution": {
+            "1": {
+              "count": 2,
+              "percentage": 0.5
+            },
+            "0": {
+              "count": 2,
+              "percentage": 0.5
+            }
+          }
+        },
+        "11.3.1.1. Fonksiyonun grafik ve tablo temsilini kullanarak problem çözer.": {
+          "total_documents": 4,
+          "topic_distribution": {
+            "1": {
+              "count": 3,
+              "percentage": 0.75
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.25
+            }
+          }
+        },
+        "11.3.2.1. İkinci dereceden bir değişkenli fonksiyonun grafiğini çizerek yorumlar.": {
+          "total_documents": 4,
+          "topic_distribution": {
+            "3": {
+              "count": 2,
+              "percentage": 0.5
+            },
+            "1": {
+              "count": 2,
+              "percentage": 0.5
+            }
+          }
+        },
+        "11.3.3.1. Bir fonksiyonun grafiğinden, dönüşümler yardımı ile yeni fonksiyon grafikleri çizer.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "3": {
+              "count": 3,
+              "percentage": 1.0
+            }
+          }
+        },
+        "11.4.2.1. İkinci dereceden bir bilinmeyenli eşitsizliklerin çözüm kümesini bulur.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "3": {
+              "count": 1,
+              "percentage": 0.5
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.5
+            }
+          }
+        },
+        "11.5.1.2. Çemberde kirişin özelliklerini göstererek işlemler yapar.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "0": {
+              "count": 2,
+              "percentage": 1.0
+            }
+          }
+        },
+        "11.5.2.1. Bir çemberde merkez, çevre, iç, dış ve teğet-kiriş açıların özelliklerini kullanarak işlemler yapar.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "0": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "11.5.3.1. Çemberde teğetin özelliklerini göstererek işlemler yapar.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "0": {
+              "count": 3,
+              "percentage": 1.0
+            }
+          }
+        },
+        "11.5.4.1. Dairenin çevre ve alan bağıntılarını oluşturur.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "1": {
+              "count": 3,
+              "percentage": 1.0
+            }
+          }
+        },
+        "11.6.1.1. Küre, dik dairesel silindir ve dik dairesel koninin alan ve hacim bağıntılarını oluşturarak": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "3": {
+              "count": 1,
+              "percentage": 0.5
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.5
+            }
+          }
+        },
+        "11.7.1.1. Koşullu olasılığı açıklayarak problemler çözer.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "2": {
+              "count": 1,
+              "percentage": 0.5
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.5
+            }
+          }
+        },
+        "11.7.1.3. Bileşik olayı açıklayarak gerçekleşme olasılığını hesaplar.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "4": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "12.1.1.1. Üstel fonksiyonu açıklar.": {
+          "total_documents": 4,
+          "topic_distribution": {
+            "3": {
+              "count": 2,
+              "percentage": 0.5
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.25
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.25
+            }
+          }
+        },
+        "12.1.2.1. Logaritma fonksiyonu ile üstel fonksiyonu ilişkilendirerek problemler çözer.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "1": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "12.1.3.2. Üstel ve logaritmik fonksiyonları gerçek hayat durumlarını modellemede kullanır.": {
+          "total_documents": 4,
+          "topic_distribution": {
+            "4": {
+              "count": 1,
+              "percentage": 0.25
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.25
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.25
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.25
+            }
+          }
+        },
+        "12.2.1.3. Aritmetik ve geometrik dizilerin özelliklerini kullanarak işlemler yapar.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "0": {
+              "count": 2,
+              "percentage": 1.0
+            }
+          }
+        },
+        "12.3.2.1. Trigonometrik denklemlerin çözüm kümelerini bulur.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "4": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "12.4.1.1. Analitik düzlemde koordinatları verilen bir noktanın öteleme, dönme ve simetri dönüşümleri": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "4": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "12.4.1.2. Temel dönüşümler ve bileşkeleriyle ilgili problem çözer.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "1": {
+              "count": 1,
+              "percentage": 0.5
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.5
+            }
+          }
+        },
+        "12.5.1.1. Bir fonksiyonun bir noktadaki limiti, soldan limit ve sağdan limit kavramlarını açıklar.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "1": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "12.5.1.2. Limit ile ilgili özellikleri belirterek uygulamalar yapar.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "4": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "12.5.1.3. Bir fonksiyonun bir noktadaki sürekliliğini açıklar.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "1": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "4": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "12.5.2.1. Türev kavramını açıklayarak işlemler yapar.": {
+          "total_documents": 6,
+          "topic_distribution": {
+            "3": {
+              "count": 4,
+              "percentage": 0.6666666666666666
+            },
+            "1": {
+              "count": 2,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "12.5.2.2. Bir fonksiyonun bir noktada ve bir aralıkta türevlenebilirliğini değerlendirir.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "3": {
+              "count": 2,
+              "percentage": 1.0
+            }
+          }
+        },
+        "12.5.3.3. Türevi yardımıyla bir fonksiyonun grafiğini çizer.": {
+          "total_documents": 1,
+          "topic_distribution": {
+            "1": {
+              "count": 1,
+              "percentage": 1.0
+            }
+          }
+        },
+        "12.6.1.1. Bir fonksiyonun belirsiz integralini açıklayarak integral alma kurallarını oluşturur.": {
+          "total_documents": 4,
+          "topic_distribution": {
+            "1": {
+              "count": 2,
+              "percentage": 0.5
+            },
+            "3": {
+              "count": 2,
+              "percentage": 0.5
+            }
+          }
+        },
+        "12.6.2.1. Bir fonksiyonun grafiği ile x ekseni arasında kalan sınırlı bölgenin alanını Riemann toplamı": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "0": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "12.6.2.4. Belirli integral ile alan hesabı yapar.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "0": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "12.7.1.1. Merkezi ve yarıçapı verilen çemberin denklemini oluşturur.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "0": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "12.7.1.2. Denklemleri verilen doğru ile çemberin birbirine göre durumlarını belirleyerek işlemler yapar.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "0": {
+              "count": 1,
+              "percentage": 0.5
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.5
+            }
+          }
+        },
+        "11.3.2.2. Seyahatlerde mümkün olan alternatifleri karşılaştırır.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "4": {
+              "count": 2,
+              "percentage": 1.0
+            }
+          }
+        },
+        "11.4.3.1. Dairenin çevre ve alan bağıntılarını oluşturur.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "1": {
+              "count": 1,
+              "percentage": 0.5
+            },
+            "0": {
+              "count": 1,
+              "percentage": 0.5
+            }
+          }
+        },
+        "12.1.1.1. Üslü ve köklü ifadeler içeren denklemler çözer.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "2": {
+              "count": 1,
+              "percentage": 0.5
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.5
+            }
+          }
+        },
+        "12.1.2.1. Yüzde, oran ve orantı kavramlarıyla ilgili problemler çözer.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "2": {
+              "count": 3,
+              "percentage": 1.0
+            }
+          }
+        },
+        "12.2.1.1. Gerçek hayat durumlarıyla ilgili istatistik problemleri çözer.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "2": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "12.3.1.1. Çevre, alan ve hacim ölçmeye yönelik problemler çözer.": {
+          "total_documents": 3,
+          "topic_distribution": {
+            "3": {
+              "count": 2,
+              "percentage": 0.6666666666666666
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.3333333333333333
+            }
+          }
+        },
+        "12.4.1.1. Küre ve dik dairesel silindirin alan ve hacim ölçmeye yönelik problemler çözer.": {
+          "total_documents": 2,
+          "topic_distribution": {
+            "3": {
+              "count": 1,
+              "percentage": 0.5
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.5
+            }
+          }
+        }
+      }
+    },
+    "2024": {
+      "coherence_score": 0.42354722344213586,
+      "num_topics": 8,
+      "topics": [
+        {
+          "id": 0,
+          "top_keywords": [
+            "fonksiyon",
+            "temsil",
+            "grafik",
+            "ifade",
+            "matematiksel",
+            "referans",
+            "nitel",
+            "cebirsel",
+            "denklem",
+            "doğrusal",
+            "edil",
+            "bileşke",
+            "ilişkin",
+            "karekök",
+            "eşitsizlik",
+            "problem",
+            "rasyonel",
+            "üzer",
+            "trigonometrik",
+            "işlem"
+          ],
+          "keyword_probabilities": [
+            0.19088467955589294,
+            0.05913791432976723,
+            0.049859244376420975,
+            0.038393497467041016,
+            0.03726613521575928,
+            0.03378823399543762,
+            0.029716268181800842,
+            0.028482021763920784,
+            0.025587167590856552,
+            0.021940164268016815,
+            0.01969473622739315,
+            0.019570091739296913,
+            0.01788341999053955,
+            0.017681431025266647,
+            0.015895845368504524,
+            0.015817556530237198,
+            0.015695394948124886,
+            0.014154904522001743,
+            0.013688548468053341,
+            0.012882757000625134
+          ],
+          "prevalence": 0.11069182389937107,
+          "document_count": 88,
+          "examples": [
+            {
+              "text": "Rasyonel referans fonksiyon grafik ve cebirsel temsil Üzer yap işlem di",
+              "topic_probability": 0.92895967,
+              "section": "2. TEMA: NİCELİKLER VE DEĞİŞİMLER",
+              "item": "c)"
+            },
+            {
+              "text": "Polinom ve rasyonel fonksiyon ifade edil denklem ve eşitsizlik içer",
+              "topic_probability": 0.92895967,
+              "section": "1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2)",
+              "item": "a)"
+            },
+            {
+              "text": "karekök referans fonksiyon grafik ve cebirsel temsil Üzer yap işlem diğer",
+              "topic_probability": 0.92895967,
+              "section": "2. TEMA: NİCELİKLER VE DEĞİŞİMLER",
+              "item": "c)"
+            },
+            {
+              "text": "Doğrusal referans fonksiyon grafik veya cebirsel temsil Üzer yap işlem",
+              "topic_probability": 0.92895937,
+              "section": "2. TEMA: NİCELİKLER VE DEĞİŞİMLER",
+              "item": "c)"
+            },
+            {
+              "text": "doğrusal fonksiyon ifade edil denklem ve eşitsizlik problem bağla",
+              "topic_probability": 0.92895705,
+              "section": "2. TEMA: NİCELİKLER VE DEĞİŞİMLER",
+              "item": "c)"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "top_keywords": [
+            "cebirsel",
+            "öner",
+            "nokta",
+            "sözel",
+            "grafiksel",
+            "uygun",
+            "fonksiyon",
+            "ilişki",
+            "belirli",
+            "bileşen",
+            "civar",
+            "geçerli",
+            "genelle",
+            "belirle",
+            "genel",
+            "ispat",
+            "geliş",
+            "değerlen",
+            "durum",
+            "doğru"
+          ],
+          "keyword_probabilities": [
+            0.06491769850254059,
+            0.04239597171545029,
+            0.041926413774490356,
+            0.04125256463885307,
+            0.03376450762152672,
+            0.03066875785589218,
+            0.030285140499472618,
+            0.028392324224114418,
+            0.02592105232179165,
+            0.025249555706977844,
+            0.02333422750234604,
+            0.02092607133090496,
+            0.02048439346253872,
+            0.018848802894353867,
+            0.018368130549788475,
+            0.01834845170378685,
+            0.018346082419157028,
+            0.01809481903910637,
+            0.016873227432370186,
+            0.01618189550936222
+          ],
+          "prevalence": 0.09182389937106918,
+          "document_count": 73,
+          "examples": [
+            {
+              "text": "bir fonksiyon belirli bir nokta civar değişim oran ile ilgi bileşen ara",
+              "topic_probability": 0.92834127,
+              "section": "2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2)",
+              "item": "b)"
+            },
+            {
+              "text": "iki fonksiyon toplam fark çarpım ve bölüm bir nokta türev dair ku",
+              "topic_probability": 0.9283282,
+              "section": "2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2)",
+              "item": "e)"
+            },
+            {
+              "text": "Çıkarımlarının geçerli sözel cebirsel ve grafiksel argüman değerlen",
+              "topic_probability": 0.9190509,
+              "section": "1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2)",
+              "item": "e)"
+            },
+            {
+              "text": "Çıkarımlarının geçerli sözel cebirsel ve grafiksel argüman değerlen",
+              "topic_probability": 0.9190509,
+              "section": "2. TEMA: NİCELİKLER VE DEĞİŞİMLER",
+              "item": "h)"
+            },
+            {
+              "text": "Çıkarımlarının geçerli sözel cebirsel ve grafiksel argüman değerlen",
+              "topic_probability": 0.9190509,
+              "section": "1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1)",
+              "item": "h)"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "top_keywords": [
+            "incele",
+            "doğru",
+            "nokta",
+            "kavramsal",
+            "üzer",
+            "limit",
+            "eğim",
+            "dönüşüm",
+            "ödev",
+            "sistem",
+            "koordinat",
+            "çalış",
+            "çözüme",
+            "verilebilir",
+            "ardışık",
+            "öğrenci",
+            "yapı",
+            "gözlem",
+            "değiş",
+            "ulaştır"
+          ],
+          "keyword_probabilities": [
+            0.07069467753171921,
+            0.051297806203365326,
+            0.032774779945611954,
+            0.028416933491826057,
+            0.02778375893831253,
+            0.026953700929880142,
+            0.024384407326579094,
+            0.024246247485280037,
+            0.02308986522257328,
+            0.02046426758170128,
+            0.020464256405830383,
+            0.0182424895465374,
+            0.016377147287130356,
+            0.01627224124968052,
+            0.016058295965194702,
+            0.01587066240608692,
+            0.012541452422738075,
+            0.012487184256315231,
+            0.012454397045075893,
+            0.012454397045075893
+          ],
+          "prevalence": 0.06666666666666667,
+          "document_count": 53,
+          "examples": [
+            {
+              "text": "dik koordinat sistem doğru eğim açı eğim ve doğru birbiri",
+              "topic_probability": 0.9180671,
+              "section": "5. TEMA: ANALİTİK İNCELEME",
+              "item": "c)"
+            },
+            {
+              "text": "dik koordinat sistem doğru eğim açı eğim ve doğru birbiri",
+              "topic_probability": 0.9180671,
+              "section": "5. TEMA: ANALİTİK İNCELEME",
+              "item": "a)"
+            },
+            {
+              "text": "dik koordinat sistem iki nokta ara uzaklık bağıntı ve bir doğru parça",
+              "topic_probability": 0.91806644,
+              "section": "5. TEMA: ANALİTİK İNCELEME",
+              "item": "a)"
+            },
+            {
+              "text": "ve Fermat nın analitik geometri ilgili çalış tanı",
+              "topic_probability": 0.90584564,
+              "section": "5. TEMA: ANALİTİK İNCELEME",
+              "item": "t)"
+            },
+            {
+              "text": "ve Fermat nın analitik geometri ilgili çalış tanı",
+              "topic_probability": 0.90584564,
+              "section": "5. TEMA: ANALİTİK İNCELEME",
+              "item": "t)"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "top_keywords": [
+            "yönelik",
+            "çıkarım",
+            "matematiksel",
+            "önerme",
+            "ulaş",
+            "araştır",
+            "doğrula",
+            "istatistiksel",
+            "değerlen",
+            "ilgili",
+            "belirle",
+            "yapı",
+            "kullanışlı",
+            "yöntem",
+            "sonuç",
+            "ilişki",
+            "oluş",
+            "yeni",
+            "ispat",
+            "problem"
+          ],
+          "keyword_probabilities": [
+            0.04683047905564308,
+            0.0407012514770031,
+            0.038198962807655334,
+            0.03609486296772957,
+            0.03386973217129707,
+            0.031675297766923904,
+            0.02944585680961609,
+            0.028590893372893333,
+            0.02719448134303093,
+            0.024792933836579323,
+            0.02427079901099205,
+            0.02055989019572735,
+            0.020488262176513672,
+            0.02039218693971634,
+            0.020330384373664856,
+            0.019972870126366615,
+            0.01765592209994793,
+            0.017311302945017815,
+            0.016728760674595833,
+            0.015540210530161858
+          ],
+          "prevalence": 0.08176100628930817,
+          "document_count": 65,
+          "examples": [
+            {
+              "text": "Algoritmik yapı içeri kullan mantık bağlaç ve niceleyici belirle",
+              "topic_probability": 0.9274444,
+              "section": "3. TEMA: ALGORİTMA VE BİLİŞİM",
+              "item": "a)"
+            },
+            {
+              "text": "yapı doğrula veya ispat yeni durum uyarla değerlen",
+              "topic_probability": 0.9180427,
+              "section": "4. TEMA: GEOMETRİK ŞEKİLLER",
+              "item": "b)"
+            },
+            {
+              "text": "Algoritmik yapı ile mantık bağlaç ve niceleyi ara ilişki belirle",
+              "topic_probability": 0.9180419,
+              "section": "3. TEMA: ALGORİTMA VE BİLİŞİM",
+              "item": "b)"
+            },
+            {
+              "text": "Matematiksel problem çöz doğrula ve ispat süreç mantık bağlaç ve",
+              "topic_probability": 0.91804117,
+              "section": "3. TEMA: ALGORİTMA VE BİLİŞİM",
+              "item": "b)"
+            },
+            {
+              "text": "Algoritmik yaklaşım el alın bir problem işlem ve süreç yönelik bi",
+              "topic_probability": 0.91803735,
+              "section": "3. TEMA: ALGORİTMA VE BİLİŞİM",
+              "item": "a)"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "top_keywords": [
+            "tanım",
+            "fonksiyon",
+            "şekil",
+            "üçgen",
+            "nitel",
+            "değer",
+            "küme",
+            "karesel",
+            "polinom",
+            "gerçek",
+            "referans",
+            "benze",
+            "doğrusal",
+            "limit",
+            "görüntü",
+            "hareket",
+            "koşul",
+            "sayı",
+            "türev",
+            "katsayı"
+          ],
+          "keyword_probabilities": [
+            0.10651498287916183,
+            0.10283012688159943,
+            0.04321446642279625,
+            0.04010910913348198,
+            0.03981093689799309,
+            0.03966140374541283,
+            0.03425145894289017,
+            0.025593915954232216,
+            0.02312997728586197,
+            0.02295466884970665,
+            0.021023118868470192,
+            0.019999060779809952,
+            0.016933094710111618,
+            0.01640366204082966,
+            0.01612509973347187,
+            0.016063598915934563,
+            0.015377671457827091,
+            0.015336317010223866,
+            0.013969448395073414,
+            0.011823591776192188
+          ],
+          "prevalence": 0.09685534591194969,
+          "document_count": 77,
+          "examples": [
+            {
+              "text": "Karesel referans fonksiyon nitel özellik tanım küme görüntü küme",
+              "topic_probability": 0.92871714,
+              "section": "2. TEMA: NİCELİKLER VE DEĞİŞİMLER",
+              "item": "a)"
+            },
+            {
+              "text": "Doğrusal referans fonksiyon nitel özellik tanım küme görüntü küme",
+              "topic_probability": 0.92871666,
+              "section": "2. TEMA: NİCELİKLER VE DEĞİŞİMLER",
+              "item": "a)"
+            },
+            {
+              "text": "gerçek katsayı tek değişken polinom fonksiyon nitel özellik dair öner",
+              "topic_probability": 0.9287119,
+              "section": "1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2)",
+              "item": "d)"
+            },
+            {
+              "text": "Fonksiyonların tanım ol bir nokta sürekli o nokta değer limit",
+              "topic_probability": 0.9194676,
+              "section": "2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1)",
+              "item": "c)"
+            },
+            {
+              "text": "Fonksiyonların tanım ol bir nokta değer ile o nokta limit sürekli",
+              "topic_probability": 0.9194676,
+              "section": "2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1)",
+              "item": "b)"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "top_keywords": [
+            "gerçek",
+            "sayı",
+            "öğrenci",
+            "problem",
+            "sağla",
+            "durum",
+            "hareket",
+            "yaşam",
+            "içer",
+            "değişken",
+            "araştır",
+            "kategorik",
+            "dayalı",
+            "veri",
+            "bağlam",
+            "doğal",
+            "süreç",
+            "asal",
+            "istatistiksel",
+            "dizi"
+          ],
+          "keyword_probabilities": [
+            0.06793675571680069,
+            0.05648617446422577,
+            0.055947523564100266,
+            0.0327279269695282,
+            0.03248652070760727,
+            0.032129399478435516,
+            0.030373461544513702,
+            0.027735000476241112,
+            0.02733008749783039,
+            0.026100680232048035,
+            0.02305762469768524,
+            0.022889742627739906,
+            0.02243177406489849,
+            0.02239944599568844,
+            0.01655089668929577,
+            0.01586509682238102,
+            0.015420639887452126,
+            0.014212822541594505,
+            0.013312499038875103,
+            0.012844301760196686
+          ],
+          "prevalence": 0.0930817610062893,
+          "document_count": 74,
+          "examples": [
+            {
+              "text": "iki kategorik değişken veri dağılım dayalı istatistiksel araştır hareket",
+              "topic_probability": 0.9282662,
+              "section": "6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
+              "item": "f)"
+            },
+            {
+              "text": "iki kategorik değişken veri dağılım dayalı istatistiksel araştır hareket",
+              "topic_probability": 0.9282662,
+              "section": "6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
+              "item": "g)"
+            },
+            {
+              "text": "yap sağla Benze şekil öğrenci dik dairesel silindir ile dik dairesel koni ve",
+              "topic_probability": 0.92825884,
+              "section": "4. TEMA: GEOMETRİK CİSİMLER",
+              "item": "i)"
+            },
+            {
+              "text": "Üçgenin yardımcı eleman ilgili öner problem bağlam değerlen",
+              "topic_probability": 0.92825705,
+              "section": "4. TEMA: GEOMETRİK ŞEKİLLER",
+              "item": "d)"
+            },
+            {
+              "text": "Bağlam içeri iki kategorik değişken ara ilişkili odaklan araştır",
+              "topic_probability": 0.91896003,
+              "section": "6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
+              "item": "b)"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "top_keywords": [
+            "varsayım",
+            "kullan",
+            "ilişkin",
+            "fark",
+            "karşıla",
+            "örüntü",
+            "genelle",
+            "dayalı",
+            "temsil",
+            "belirle",
+            "geometrik",
+            "trigonometrik",
+            "teorem",
+            "oran",
+            "ilgili",
+            "değerlendir",
+            "dörtgen",
+            "kontrol",
+            "yorumla",
+            "terim"
+          ],
+          "keyword_probabilities": [
+            0.06928785145282745,
+            0.056450631469488144,
+            0.054730553179979324,
+            0.05434331297874451,
+            0.03592655807733536,
+            0.03147277235984802,
+            0.021650932729244232,
+            0.019818099215626717,
+            0.019801881164312363,
+            0.01667669229209423,
+            0.015941128134727478,
+            0.014744668267667294,
+            0.014531997963786125,
+            0.014052718877792358,
+            0.013780764304101467,
+            0.013314577750861645,
+            0.01308471616357565,
+            0.013080398552119732,
+            0.012882717885077,
+            0.012749578803777695
+          ],
+          "prevalence": 0.30943396226415093,
+          "document_count": 246,
+          "examples": [
+            {
+              "text": "sayı örüntü her bir terim belirle ortak fark oran kullan ifade et",
+              "topic_probability": 0.9391717,
+              "section": "1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1)",
+              "item": "c)"
+            },
+            {
+              "text": "Varsayım yararlan fark durum ilgili örüntü listele bir fonk",
+              "topic_probability": 0.9321877,
+              "section": "2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2)",
+              "item": "b)"
+            },
+            {
+              "text": "Varsayım yararlan fark durum ilgili örüntü listele bir fonk",
+              "topic_probability": 0.93218756,
+              "section": "2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3)",
+              "item": "b)"
+            },
+            {
+              "text": "Öğrenci trigonometrik oran trigonometrik özdeş sinüs ve kosinüs teorem",
+              "topic_probability": 0.9321874,
+              "section": "4. TEMA: GEOMETRİK ŞEKİLLER",
+              "item": "e)"
+            },
+            {
+              "text": "Tales Öklid ve Pisagor teorem ilişkin fark ispat kullan",
+              "topic_probability": 0.93218637,
+              "section": "5. TEMA: EŞLİK VE BENZERLİK",
+              "item": "a)"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "top_keywords": [
+            "çözüm",
+            "strateji",
+            "belirle",
+            "problem",
+            "kullan",
+            "veri",
+            "öğrenme",
+            "araştır",
+            "problemin",
+            "soru",
+            "çıktı",
+            "olası",
+            "kâğıd",
+            "çalış",
+            "görev",
+            "performans",
+            "olay",
+            "nicel",
+            "kontrol",
+            "oluştur"
+          ],
+          "keyword_probabilities": [
+            0.07489746809005737,
+            0.06456319242715836,
+            0.04915953800082207,
+            0.04811146855354309,
+            0.027182836085557938,
+            0.02668633870780468,
+            0.02547716535627842,
+            0.025305278599262238,
+            0.025187622755765915,
+            0.0235489159822464,
+            0.020643720403313637,
+            0.019181028008461,
+            0.01914404146373272,
+            0.01843980886042118,
+            0.017572160810232162,
+            0.017572155222296715,
+            0.01447608694434166,
+            0.014461541548371315,
+            0.014231914654374123,
+            0.01420043595135212
+          ],
+          "prevalence": 0.14968553459119496,
+          "document_count": 119,
+          "examples": [
+            {
+              "text": "Öğrenme çıktı çalış kâğıd performans görev proje ödev açık uç soru ve araş",
+              "topic_probability": 0.9431463,
+              "section": "1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2)",
+              "item": "e)"
+            },
+            {
+              "text": "Öğrenme çıktı çalışma kâğıd açık uç soru proje ödev ve performans görev ile",
+              "topic_probability": 0.94314617,
+              "section": "5. TEMA: EŞLİK VE BENZERLİK",
+              "item": "e)"
+            },
+            {
+              "text": "Öğrenme çıktı çalışma kâğıd açık uç soru proje ödev ve performans görev ile de",
+              "topic_probability": 0.94314617,
+              "section": "4. TEMA: GEOMETRİK CİSİMLER",
+              "item": "e)"
+            },
+            {
+              "text": "Öğrenme çıktı çalış kâğıd kontrol liste açık uç soru ve performans görev",
+              "topic_probability": 0.94314504,
+              "section": "7. TEMA: VERİDEN OLASILIĞA",
+              "item": "e)"
+            },
+            {
+              "text": "Öğrenme çıktı çalış kâğıd performans görev ve araştır ödev ile değerlendiril",
+              "topic_probability": 0.9372892,
+              "section": "2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3)",
+              "item": "e)"
+            }
+          ]
+        }
+      ],
+      "section_distribution": {
+        "1. TEMA: NİCELİKLER VE DEĞİŞİMLER": {
+          "total_documents": 7,
+          "topic_distribution": {
+            "0": {
+              "count": 2,
+              "percentage": 0.2857142857142857
+            },
+            "6": {
+              "count": 2,
+              "percentage": 0.2857142857142857
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.14285714285714285
+            },
+            "7": {
+              "count": 1,
+              "percentage": 0.14285714285714285
+            },
+            "5": {
+              "count": 1,
+              "percentage": 0.14285714285714285
+            }
+          }
+        },
+        "2. TEMA: MANTIKSAL ÇIKARIM": {
+          "total_documents": 11,
+          "topic_distribution": {
+            "7": {
+              "count": 5,
+              "percentage": 0.45454545454545453
+            },
+            "6": {
+              "count": 3,
+              "percentage": 0.2727272727272727
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.09090909090909091
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.09090909090909091
+            },
+            "4": {
+              "count": 1,
+              "percentage": 0.09090909090909091
+            }
+          }
+        },
+        "3. TEMA: ALGORİTMA VE BİLİŞİM": {
+          "total_documents": 17,
+          "topic_distribution": {
+            "6": {
+              "count": 5,
+              "percentage": 0.29411764705882354
+            },
+            "1": {
+              "count": 4,
+              "percentage": 0.23529411764705882
+            },
+            "5": {
+              "count": 4,
+              "percentage": 0.23529411764705882
+            },
+            "3": {
+              "count": 2,
+              "percentage": 0.11764705882352941
+            },
+            "7": {
+              "count": 1,
+              "percentage": 0.058823529411764705
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.058823529411764705
+            }
+          }
+        },
+        "4. TEMA: GEOMETRİK ŞEKİLLER": {
+          "total_documents": 27,
+          "topic_distribution": {
+            "6": {
+              "count": 13,
+              "percentage": 0.48148148148148145
+            },
+            "4": {
+              "count": 5,
+              "percentage": 0.18518518518518517
+            },
+            "3": {
+              "count": 3,
+              "percentage": 0.1111111111111111
+            },
+            "2": {
+              "count": 2,
+              "percentage": 0.07407407407407407
+            },
+            "5": {
+              "count": 2,
+              "percentage": 0.07407407407407407
+            },
+            "0": {
+              "count": 1,
+              "percentage": 0.037037037037037035
+            },
+            "7": {
+              "count": 1,
+              "percentage": 0.037037037037037035
+            }
+          }
+        },
+        "5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ": {
+          "total_documents": 8,
+          "topic_distribution": {
+            "3": {
+              "count": 3,
+              "percentage": 0.375
+            },
+            "6": {
+              "count": 2,
+              "percentage": 0.25
+            },
+            "7": {
+              "count": 1,
+              "percentage": 0.125
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.125
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.125
+            }
+          }
+        },
+        "1. TEMA: SAYILAR": {
+          "total_documents": 27,
+          "topic_distribution": {
+            "6": {
+              "count": 9,
+              "percentage": 0.3333333333333333
+            },
+            "5": {
+              "count": 5,
+              "percentage": 0.18518518518518517
+            },
+            "3": {
+              "count": 5,
+              "percentage": 0.18518518518518517
+            },
+            "2": {
+              "count": 4,
+              "percentage": 0.14814814814814814
+            },
+            "7": {
+              "count": 2,
+              "percentage": 0.07407407407407407
+            },
+            "0": {
+              "count": 1,
+              "percentage": 0.037037037037037035
+            },
+            "4": {
+              "count": 1,
+              "percentage": 0.037037037037037035
+            }
+          }
+        },
+        "2. TEMA: NİCELİKLER VE DEĞİŞİMLER": {
+          "total_documents": 65,
+          "topic_distribution": {
+            "6": {
+              "count": 28,
+              "percentage": 0.4307692307692308
+            },
+            "0": {
+              "count": 13,
+              "percentage": 0.2
+            },
+            "4": {
+              "count": 6,
+              "percentage": 0.09230769230769231
+            },
+            "1": {
+              "count": 6,
+              "percentage": 0.09230769230769231
+            },
+            "5": {
+              "count": 4,
+              "percentage": 0.06153846153846154
+            },
+            "7": {
+              "count": 4,
+              "percentage": 0.06153846153846154
+            },
+            "3": {
+              "count": 2,
+              "percentage": 0.03076923076923077
+            },
+            "2": {
+              "count": 2,
+              "percentage": 0.03076923076923077
+            }
+          }
+        },
+        "3. TEMA: ALGORİTMA VE BİLİŞİM": {
+          "total_documents": 40,
+          "topic_distribution": {
+            "3": {
+              "count": 12,
+              "percentage": 0.3
+            },
+            "7": {
+              "count": 10,
+              "percentage": 0.25
+            },
+            "5": {
+              "count": 8,
+              "percentage": 0.2
+            },
+            "6": {
+              "count": 4,
+              "percentage": 0.1
+            },
+            "1": {
+              "count": 3,
+              "percentage": 0.075
+            },
+            "0": {
+              "count": 2,
+              "percentage": 0.05
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.025
+            }
+          }
+        },
+        "5. TEMA: EŞLİK VE BENZERLİK": {
+          "total_documents": 31,
+          "topic_distribution": {
+            "6": {
+              "count": 8,
+              "percentage": 0.25806451612903225
+            },
+            "7": {
+              "count": 8,
+              "percentage": 0.25806451612903225
+            },
+            "4": {
+              "count": 5,
+              "percentage": 0.16129032258064516
+            },
+            "5": {
+              "count": 4,
+              "percentage": 0.12903225806451613
+            },
+            "3": {
+              "count": 3,
+              "percentage": 0.0967741935483871
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.03225806451612903
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.03225806451612903
+            },
+            "0": {
+              "count": 1,
+              "percentage": 0.03225806451612903
+            }
+          }
+        },
+        "6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ": {
+          "total_documents": 21,
+          "topic_distribution": {
+            "5": {
+              "count": 9,
+              "percentage": 0.42857142857142855
+            },
+            "7": {
+              "count": 9,
+              "percentage": 0.42857142857142855
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.047619047619047616
+            },
+            "6": {
+              "count": 1,
+              "percentage": 0.047619047619047616
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.047619047619047616
+            }
+          }
+        },
+        "7. TEMA: VERİDEN OLASILIĞA": {
+          "total_documents": 17,
+          "topic_distribution": {
+            "7": {
+              "count": 8,
+              "percentage": 0.47058823529411764
+            },
+            "6": {
+              "count": 5,
+              "percentage": 0.29411764705882354
+            },
+            "5": {
+              "count": 4,
+              "percentage": 0.23529411764705882
+            }
+          }
+        },
+        "2. TEMA: NİCELİKLER VE DEĞİŞİMLER": {
+          "total_documents": 93,
+          "topic_distribution": {
+            "6": {
+              "count": 35,
+              "percentage": 0.3763440860215054
+            },
+            "0": {
+              "count": 23,
+              "percentage": 0.24731182795698925
+            },
+            "1": {
+              "count": 14,
+              "percentage": 0.15053763440860216
+            },
+            "4": {
+              "count": 9,
+              "percentage": 0.0967741935483871
+            },
+            "7": {
+              "count": 5,
+              "percentage": 0.053763440860215055
+            },
+            "2": {
+              "count": 3,
+              "percentage": 0.03225806451612903
+            },
+            "5": {
+              "count": 2,
+              "percentage": 0.021505376344086023
+            },
+            "3": {
+              "count": 2,
+              "percentage": 0.021505376344086023
+            }
+          }
+        },
+        "3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM": {
+          "total_documents": 26,
+          "topic_distribution": {
+            "7": {
+              "count": 11,
+              "percentage": 0.4230769230769231
+            },
+            "6": {
+              "count": 5,
+              "percentage": 0.19230769230769232
+            },
+            "3": {
+              "count": 3,
+              "percentage": 0.11538461538461539
+            },
+            "5": {
+              "count": 3,
+              "percentage": 0.11538461538461539
+            },
+            "1": {
+              "count": 2,
+              "percentage": 0.07692307692307693
+            },
+            "4": {
+              "count": 1,
+              "percentage": 0.038461538461538464
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.038461538461538464
+            }
+          }
+        },
+        "5. TEMA: ANALİTİK İNCELEME": {
+          "total_documents": 14,
+          "topic_distribution": {
+            "2": {
+              "count": 10,
+              "percentage": 0.7142857142857143
+            },
+            "6": {
+              "count": 3,
+              "percentage": 0.21428571428571427
+            },
+            "5": {
+              "count": 1,
+              "percentage": 0.07142857142857142
+            }
+          }
+        },
+        "1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1)": {
+          "total_documents": 38,
+          "topic_distribution": {
+            "6": {
+              "count": 14,
+              "percentage": 0.3684210526315789
+            },
+            "0": {
+              "count": 10,
+              "percentage": 0.2631578947368421
+            },
+            "1": {
+              "count": 3,
+              "percentage": 0.07894736842105263
+            },
+            "7": {
+              "count": 3,
+              "percentage": 0.07894736842105263
+            },
+            "2": {
+              "count": 3,
+              "percentage": 0.07894736842105263
+            },
+            "5": {
+              "count": 2,
+              "percentage": 0.05263157894736842
+            },
+            "4": {
+              "count": 2,
+              "percentage": 0.05263157894736842
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.02631578947368421
+            }
+          }
+        },
+        "1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2)": {
+          "total_documents": 39,
+          "topic_distribution": {
+            "4": {
+              "count": 12,
+              "percentage": 0.3076923076923077
+            },
+            "6": {
+              "count": 8,
+              "percentage": 0.20512820512820512
+            },
+            "0": {
+              "count": 6,
+              "percentage": 0.15384615384615385
+            },
+            "7": {
+              "count": 5,
+              "percentage": 0.1282051282051282
+            },
+            "2": {
+              "count": 2,
+              "percentage": 0.05128205128205128
+            },
+            "5": {
+              "count": 2,
+              "percentage": 0.05128205128205128
+            },
+            "1": {
+              "count": 2,
+              "percentage": 0.05128205128205128
+            },
+            "3": {
+              "count": 2,
+              "percentage": 0.05128205128205128
+            }
+          }
+        },
+        "1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3)": {
+          "total_documents": 32,
+          "topic_distribution": {
+            "0": {
+              "count": 11,
+              "percentage": 0.34375
+            },
+            "6": {
+              "count": 10,
+              "percentage": 0.3125
+            },
+            "4": {
+              "count": 5,
+              "percentage": 0.15625
+            },
+            "7": {
+              "count": 2,
+              "percentage": 0.0625
+            },
+            "1": {
+              "count": 2,
+              "percentage": 0.0625
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.03125
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.03125
+            }
+          }
+        },
+        "2. TEMA: GEOMETRİK ŞEKİLLER": {
+          "total_documents": 43,
+          "topic_distribution": {
+            "6": {
+              "count": 21,
+              "percentage": 0.4883720930232558
+            },
+            "3": {
+              "count": 6,
+              "percentage": 0.13953488372093023
+            },
+            "7": {
+              "count": 5,
+              "percentage": 0.11627906976744186
+            },
+            "4": {
+              "count": 3,
+              "percentage": 0.06976744186046512
+            },
+            "5": {
+              "count": 3,
+              "percentage": 0.06976744186046512
+            },
+            "1": {
+              "count": 3,
+              "percentage": 0.06976744186046512
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.023255813953488372
+            },
+            "0": {
+              "count": 1,
+              "percentage": 0.023255813953488372
+            }
+          }
+        },
+        "3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ": {
+          "total_documents": 21,
+          "topic_distribution": {
+            "7": {
+              "count": 9,
+              "percentage": 0.42857142857142855
+            },
+            "5": {
+              "count": 5,
+              "percentage": 0.23809523809523808
+            },
+            "1": {
+              "count": 3,
+              "percentage": 0.14285714285714285
+            },
+            "6": {
+              "count": 3,
+              "percentage": 0.14285714285714285
+            },
+            "4": {
+              "count": 1,
+              "percentage": 0.047619047619047616
+            }
+          }
+        },
+        "1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1)": {
+          "total_documents": 18,
+          "topic_distribution": {
+            "6": {
+              "count": 13,
+              "percentage": 0.7222222222222222
+            },
+            "5": {
+              "count": 4,
+              "percentage": 0.2222222222222222
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.05555555555555555
+            }
+          }
+        },
+        "2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1)": {
+          "total_documents": 39,
+          "topic_distribution": {
+            "6": {
+              "count": 10,
+              "percentage": 0.2564102564102564
+            },
+            "2": {
+              "count": 9,
+              "percentage": 0.23076923076923078
+            },
+            "1": {
+              "count": 8,
+              "percentage": 0.20512820512820512
+            },
+            "4": {
+              "count": 6,
+              "percentage": 0.15384615384615385
+            },
+            "0": {
+              "count": 4,
+              "percentage": 0.10256410256410256
+            },
+            "7": {
+              "count": 1,
+              "percentage": 0.02564102564102564
+            },
+            "5": {
+              "count": 1,
+              "percentage": 0.02564102564102564
+            }
+          }
+        },
+        "2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2)": {
+          "total_documents": 59,
+          "topic_distribution": {
+            "6": {
+              "count": 28,
+              "percentage": 0.4745762711864407
+            },
+            "1": {
+              "count": 11,
+              "percentage": 0.1864406779661017
+            },
+            "4": {
+              "count": 11,
+              "percentage": 0.1864406779661017
+            },
+            "0": {
+              "count": 4,
+              "percentage": 0.06779661016949153
+            },
+            "5": {
+              "count": 2,
+              "percentage": 0.03389830508474576
+            },
+            "7": {
+              "count": 1,
+              "percentage": 0.01694915254237288
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.01694915254237288
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.01694915254237288
+            }
+          }
+        },
+        "2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3)": {
+          "total_documents": 40,
+          "topic_distribution": {
+            "6": {
+              "count": 11,
+              "percentage": 0.275
+            },
+            "0": {
+              "count": 9,
+              "percentage": 0.225
+            },
+            "4": {
+              "count": 8,
+              "percentage": 0.2
+            },
+            "7": {
+              "count": 4,
+              "percentage": 0.1
+            },
+            "3": {
+              "count": 3,
+              "percentage": 0.075
+            },
+            "1": {
+              "count": 2,
+              "percentage": 0.05
+            },
+            "5": {
+              "count": 2,
+              "percentage": 0.05
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.025
+            }
+          }
+        },
+        "3. TEMA: GEOMETRİK ŞEKİLLER": {
+          "total_documents": 20,
+          "topic_distribution": {
+            "3": {
+              "count": 8,
+              "percentage": 0.4
+            },
+            "7": {
+              "count": 6,
+              "percentage": 0.3
+            },
+            "1": {
+              "count": 3,
+              "percentage": 0.15
+            },
+            "6": {
+              "count": 2,
+              "percentage": 0.1
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.05
+            }
+          }
+        },
+        "4. TEMA: GEOMETRİK CİSİMLER": {
+          "total_documents": 24,
+          "topic_distribution": {
+            "7": {
+              "count": 11,
+              "percentage": 0.4583333333333333
+            },
+            "2": {
+              "count": 4,
+              "percentage": 0.16666666666666666
+            },
+            "5": {
+              "count": 3,
+              "percentage": 0.125
+            },
+            "6": {
+              "count": 2,
+              "percentage": 0.08333333333333333
+            },
+            "1": {
+              "count": 2,
+              "percentage": 0.08333333333333333
+            },
+            "4": {
+              "count": 1,
+              "percentage": 0.041666666666666664
+            },
+            "3": {
+              "count": 1,
+              "percentage": 0.041666666666666664
+            }
+          }
+        },
+        "5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA": {
+          "total_documents": 18,
+          "topic_distribution": {
+            "3": {
+              "count": 6,
+              "percentage": 0.3333333333333333
+            },
+            "7": {
+              "count": 6,
+              "percentage": 0.3333333333333333
+            },
+            "5": {
+              "count": 3,
+              "percentage": 0.16666666666666666
+            },
+            "6": {
+              "count": 1,
+              "percentage": 0.05555555555555555
+            },
+            "2": {
+              "count": 1,
+              "percentage": 0.05555555555555555
+            },
+            "1": {
+              "count": 1,
+              "percentage": 0.05555555555555555
+            }
+          }
+        }
+      }
+    }
+  },
+  "comparison_results": {
+    "similarity_matrix": [
+      [
+        0.05263157894736842,
+        0.05263157894736842,
+        0.05263157894736842,
+        0.0,
+        0.05263157894736842,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.1111111111111111,
+        0.05263157894736842,
+        0.05263157894736842,
+        0.0,
+        0.05263157894736842,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.05263157894736842,
+        0.0,
+        0.0,
+        0.0,
+        0.1111111111111111,
+        0.05263157894736842,
+        0.05263157894736842,
+        0.05263157894736842
+      ],
+      [
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.0,
+        0.17647058823529413,
+        0.1111111111111111,
+        0.0,
+        0.05263157894736842
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1111111111111111,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "average_similarity": 0.03964568283453732,
+    "max_similarity": 0.17647058823529413,
+    "topic_keywords": {
+      "2018": {
+        "0": [
+          "uzunluk",
+          "çember",
+          "kenar",
+          "bulun",
+          "denklem",
+          "nokta",
+          "toplam",
+          "alan",
+          "üçgen",
+          "ölçü"
+        ],
+        "1": [
+          "iletişim",
+          "bilgi",
+          "teknoloji",
+          "fonksiyon",
+          "grafik",
+          "yararlan",
+          "çalış",
+          "doğru",
+          "yardım",
+          "parça"
+        ],
+        "2": [
+          "sayı",
+          "kenar",
+          "ifade",
+          "kavram",
+          "polinom",
+          "üçgen",
+          "fark",
+          "veri",
+          "oluş",
+          "uygulama"
+        ],
+        "3": [
+          "fonksiyon",
+          "gerçek",
+          "hayat(i)",
+          "problem",
+          "küme",
+          "nokta",
+          "üzer",
+          "grafik",
+          "türev",
+          "eksen"
+        ],
+        "4": [
+          "üçgen",
+          "değer",
+          "olay",
+          "ayrık",
+          "kavram",
+          "alan",
+          "çarpan",
+          "açık",
+          "taban",
+          "hesapla"
+        ]
+      },
+      "2024": {
+        "0": [
+          "fonksiyon",
+          "temsil",
+          "grafik",
+          "ifade",
+          "matematiksel",
+          "referans",
+          "nitel",
+          "cebirsel",
+          "denklem",
+          "doğrusal"
+        ],
+        "1": [
+          "cebirsel",
+          "öner",
+          "nokta",
+          "sözel",
+          "grafiksel",
+          "uygun",
+          "fonksiyon",
+          "ilişki",
+          "belirli",
+          "bileşen"
+        ],
+        "2": [
+          "incele",
+          "doğru",
+          "nokta",
+          "kavramsal",
+          "üzer",
+          "limit",
+          "eğim",
+          "dönüşüm",
+          "ödev",
+          "sistem"
+        ],
+        "3": [
+          "yönelik",
+          "çıkarım",
+          "matematiksel",
+          "önerme",
+          "ulaş",
+          "araştır",
+          "doğrula",
+          "istatistiksel",
+          "değerlen",
+          "ilgili"
+        ],
+        "4": [
+          "tanım",
+          "fonksiyon",
+          "şekil",
+          "üçgen",
+          "nitel",
+          "değer",
+          "küme",
+          "karesel",
+          "polinom",
+          "gerçek"
+        ],
+        "5": [
+          "gerçek",
+          "sayı",
+          "öğrenci",
+          "problem",
+          "sağla",
+          "durum",
+          "hareket",
+          "yaşam",
+          "içer",
+          "değişken"
+        ],
+        "6": [
+          "varsayım",
+          "kullan",
+          "ilişkin",
+          "fark",
+          "karşıla",
+          "örüntü",
+          "genelle",
+          "dayalı",
+          "temsil",
+          "belirle"
+        ],
+        "7": [
+          "çözüm",
+          "strateji",
+          "belirle",
+          "problem",
+          "kullan",
+          "veri",
+          "öğrenme",
+          "araştır",
+          "problemin",
+          "soru"
+        ]
+      }
+    },
+    "similar_topic_pairs": [],
+    "unique_topics": {
+      "2018": [
+        {
+          "topic_id": 0,
+          "max_similarity": 0.05263157894736842,
+          "most_similar_topic": 0,
+          "keywords": [
+            "uzunluk",
+            "çember",
+            "kenar",
+            "bulun",
+            "denklem",
+            "nokta",
+            "toplam",
+            "alan",
+            "üçgen",
+            "ölçü"
+          ]
+        },
+        {
+          "topic_id": 1,
+          "max_similarity": 0.1111111111111111,
+          "most_similar_topic": 0,
+          "keywords": [
+            "iletişim",
+            "bilgi",
+            "teknoloji",
+            "fonksiyon",
+            "grafik",
+            "yararlan",
+            "çalış",
+            "doğru",
+            "yardım",
+            "parça"
+          ]
+        },
+        {
+          "topic_id": 2,
+          "max_similarity": 0.1111111111111111,
+          "most_similar_topic": 4,
+          "keywords": [
+            "sayı",
+            "kenar",
+            "ifade",
+            "kavram",
+            "polinom",
+            "üçgen",
+            "fark",
+            "veri",
+            "oluş",
+            "uygulama"
+          ]
+        },
+        {
+          "topic_id": 3,
+          "max_similarity": 0.17647058823529413,
+          "most_similar_topic": 4,
+          "keywords": [
+            "fonksiyon",
+            "gerçek",
+            "hayat(i)",
+            "problem",
+            "küme",
+            "nokta",
+            "üzer",
+            "grafik",
+            "türev",
+            "eksen"
+          ]
+        },
+        {
+          "topic_id": 4,
+          "max_similarity": 0.1111111111111111,
+          "most_similar_topic": 4,
+          "keywords": [
+            "üçgen",
+            "değer",
+            "olay",
+            "ayrık",
+            "kavram",
+            "alan",
+            "çarpan",
+            "açık",
+            "taban",
+            "hesapla"
+          ]
+        }
+      ],
+      "2024": [
+        {
+          "topic_id": 0,
+          "max_similarity": 0.1111111111111111,
+          "most_similar_topic": 1,
+          "keywords": [
+            "fonksiyon",
+            "temsil",
+            "grafik",
+            "ifade",
+            "matematiksel",
+            "referans",
+            "nitel",
+            "cebirsel",
+            "denklem",
+            "doğrusal"
+          ]
+        },
+        {
+          "topic_id": 1,
+          "max_similarity": 0.1111111111111111,
+          "most_similar_topic": 3,
+          "keywords": [
+            "cebirsel",
+            "öner",
+            "nokta",
+            "sözel",
+            "grafiksel",
+            "uygun",
+            "fonksiyon",
+            "ilişki",
+            "belirli",
+            "bileşen"
+          ]
+        },
+        {
+          "topic_id": 2,
+          "max_similarity": 0.1111111111111111,
+          "most_similar_topic": 3,
+          "keywords": [
+            "incele",
+            "doğru",
+            "nokta",
+            "kavramsal",
+            "üzer",
+            "limit",
+            "eğim",
+            "dönüşüm",
+            "ödev",
+            "sistem"
+          ]
+        },
+        {
+          "topic_id": 3,
+          "max_similarity": 0.0,
+          "most_similar_topic": 0,
+          "keywords": [
+            "yönelik",
+            "çıkarım",
+            "matematiksel",
+            "önerme",
+            "ulaş",
+            "araştır",
+            "doğrula",
+            "istatistiksel",
+            "değerlen",
+            "ilgili"
+          ]
+        },
+        {
+          "topic_id": 4,
+          "max_similarity": 0.17647058823529413,
+          "most_similar_topic": 3,
+          "keywords": [
+            "tanım",
+            "fonksiyon",
+            "şekil",
+            "üçgen",
+            "nitel",
+            "değer",
+            "küme",
+            "karesel",
+            "polinom",
+            "gerçek"
+          ]
+        },
+        {
+          "topic_id": 5,
+          "max_similarity": 0.1111111111111111,
+          "most_similar_topic": 3,
+          "keywords": [
+            "gerçek",
+            "sayı",
+            "öğrenci",
+            "problem",
+            "sağla",
+            "durum",
+            "hareket",
+            "yaşam",
+            "içer",
+            "değişken"
+          ]
+        },
+        {
+          "topic_id": 6,
+          "max_similarity": 0.05263157894736842,
+          "most_similar_topic": 2,
+          "keywords": [
+            "varsayım",
+            "kullan",
+            "ilişkin",
+            "fark",
+            "karşıla",
+            "örüntü",
+            "genelle",
+            "dayalı",
+            "temsil",
+            "belirle"
+          ]
+        },
+        {
+          "topic_id": 7,
+          "max_similarity": 0.05263157894736842,
+          "most_similar_topic": 2,
+          "keywords": [
+            "çözüm",
+            "strateji",
+            "belirle",
+            "problem",
+            "kullan",
+            "veri",
+            "öğrenme",
+            "araştır",
+            "problemin",
+            "soru"
+          ]
+        }
+      ]
+    }
+  },
+  "topic_evolution": {
+    "emerging_topics": [
+      {
+        "topic_id": 0,
+        "keywords": [
+          "fonksiyon",
+          "temsil",
+          "grafik",
+          "ifade",
+          "matematiksel",
+          "referans",
+          "nitel",
+          "cebirsel",
+          "denklem",
+          "doğrusal"
+        ],
+        "max_similarity": 0.1111111111111111,
+        "most_similar_2018_topic": 1
+      },
+      {
+        "topic_id": 1,
+        "keywords": [
+          "cebirsel",
+          "öner",
+          "nokta",
+          "sözel",
+          "grafiksel",
+          "uygun",
+          "fonksiyon",
+          "ilişki",
+          "belirli",
+          "bileşen"
+        ],
+        "max_similarity": 0.1111111111111111,
+        "most_similar_2018_topic": 3
+      },
+      {
+        "topic_id": 2,
+        "keywords": [
+          "incele",
+          "doğru",
+          "nokta",
+          "kavramsal",
+          "üzer",
+          "limit",
+          "eğim",
+          "dönüşüm",
+          "ödev",
+          "sistem"
+        ],
+        "max_similarity": 0.1111111111111111,
+        "most_similar_2018_topic": 3
+      },
+      {
+        "topic_id": 3,
+        "keywords": [
+          "yönelik",
+          "çıkarım",
+          "matematiksel",
+          "önerme",
+          "ulaş",
+          "araştır",
+          "doğrula",
+          "istatistiksel",
+          "değerlen",
+          "ilgili"
+        ],
+        "max_similarity": 0.0,
+        "most_similar_2018_topic": 0
+      },
+      {
+        "topic_id": 4,
+        "keywords": [
+          "tanım",
+          "fonksiyon",
+          "şekil",
+          "üçgen",
+          "nitel",
+          "değer",
+          "küme",
+          "karesel",
+          "polinom",
+          "gerçek"
+        ],
+        "max_similarity": 0.17647058823529413,
+        "most_similar_2018_topic": 3
+      },
+      {
+        "topic_id": 5,
+        "keywords": [
+          "gerçek",
+          "sayı",
+          "öğrenci",
+          "problem",
+          "sağla",
+          "durum",
+          "hareket",
+          "yaşam",
+          "içer",
+          "değişken"
+        ],
+        "max_similarity": 0.1111111111111111,
+        "most_similar_2018_topic": 3
+      },
+      {
+        "topic_id": 6,
+        "keywords": [
+          "varsayım",
+          "kullan",
+          "ilişkin",
+          "fark",
+          "karşıla",
+          "örüntü",
+          "genelle",
+          "dayalı",
+          "temsil",
+          "belirle"
+        ],
+        "max_similarity": 0.05263157894736842,
+        "most_similar_2018_topic": 2
+      },
+      {
+        "topic_id": 7,
+        "keywords": [
+          "çözüm",
+          "strateji",
+          "belirle",
+          "problem",
+          "kullan",
+          "veri",
+          "öğrenme",
+          "araştır",
+          "problemin",
+          "soru"
+        ],
+        "max_similarity": 0.05263157894736842,
+        "most_similar_2018_topic": 2
+      }
+    ],
+    "fading_topics": [
+      {
+        "topic_id": 0,
+        "keywords": [
+          "uzunluk",
+          "çember",
+          "kenar",
+          "bulun",
+          "denklem",
+          "nokta",
+          "toplam",
+          "alan",
+          "üçgen",
+          "ölçü"
+        ],
+        "max_similarity": 0.05263157894736842,
+        "most_similar_2024_topic": 0
+      },
+      {
+        "topic_id": 1,
+        "keywords": [
+          "iletişim",
+          "bilgi",
+          "teknoloji",
+          "fonksiyon",
+          "grafik",
+          "yararlan",
+          "çalış",
+          "doğru",
+          "yardım",
+          "parça"
+        ],
+        "max_similarity": 0.1111111111111111,
+        "most_similar_2024_topic": 0
+      },
+      {
+        "topic_id": 2,
+        "keywords": [
+          "sayı",
+          "kenar",
+          "ifade",
+          "kavram",
+          "polinom",
+          "üçgen",
+          "fark",
+          "veri",
+          "oluş",
+          "uygulama"
+        ],
+        "max_similarity": 0.1111111111111111,
+        "most_similar_2024_topic": 4
+      },
+      {
+        "topic_id": 3,
+        "keywords": [
+          "fonksiyon",
+          "gerçek",
+          "hayat(i)",
+          "problem",
+          "küme",
+          "nokta",
+          "üzer",
+          "grafik",
+          "türev",
+          "eksen"
+        ],
+        "max_similarity": 0.17647058823529413,
+        "most_similar_2024_topic": 4
+      },
+      {
+        "topic_id": 4,
+        "keywords": [
+          "üçgen",
+          "değer",
+          "olay",
+          "ayrık",
+          "kavram",
+          "alan",
+          "çarpan",
+          "açık",
+          "taban",
+          "hesapla"
+        ],
+        "max_similarity": 0.1111111111111111,
+        "most_similar_2024_topic": 4
+      }
+    ],
+    "evolving_topic_pairs": []
+  },
+  "key_insights": [
+    {
+      "type": "topic_count_difference",
+      "description": "The optimal number of topics differs between curricula: 5 topics in 2018 vs. 8 topics in 2024.",
+      "interpretation": "The 2024 curriculum covers a wider range of distinct themes."
+    },
+    {
+      "type": "average_similarity",
+      "value": 0.03964568283453732,
+      "description": "The average similarity between topics across curricula is 0.040 (0-1 scale).",
+      "interpretation": "This indicates substantial differences between the two curricula, with limited continuity in content."
+    },
+    {
+      "type": "content_turnover",
+      "unique_to_2018": 5,
+      "unique_to_2024": 8,
+      "turnover_percentage": 100.0,
+      "description": "There are 5 topics unique to the 2018 curriculum and 8 topics unique to the 2024 curriculum.",
+      "interpretation": "This represents significant content turnover, with approximately 100.0% of topics being substantially different."
+    }
+  ]
+}

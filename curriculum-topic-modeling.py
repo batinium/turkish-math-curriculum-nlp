@@ -899,7 +899,247 @@ def generate_topic_analysis_summary(model_data, topic_distributions, similarity_
     
     return "\n".join(summary)
 
-# Main function
+
+def generate_structured_output(model_data, topic_distributions, similarity_matrix=None, topics_comparison=None, evolution_results=None):
+    """
+    Generate a comprehensive structured output (JSON-compatible) with all analysis results
+    for easy parsing by language models or other applications.
+    """
+    output = {
+        "analysis_type": "Turkish Mathematics Curriculum Topic Analysis",
+        "comparison": "2018 vs 2024",
+        "curricula": {},
+        "comparison_results": {},
+        "topic_evolution": {},
+        "key_insights": []
+    }
+    
+    # Add data for each curriculum year
+    for year in ['2018', '2024']:
+        if year not in model_data or model_data[year] is None:
+            output["curricula"][year] = {"status": "No topic model available"}
+            continue
+        
+        model = model_data[year]['model']
+        coherence = model_data[year].get('coherence_score', None)
+        
+        curriculum_data = {
+            "coherence_score": coherence,
+            "num_topics": model.num_topics,
+            "topics": []
+        }
+        
+        # Add topic data
+        for topic_id in range(model.num_topics):
+            # Get top words with probabilities
+            top_words_with_probs = model.show_topic(topic_id, topn=20)
+            top_words = [word for word, _ in top_words_with_probs]
+            word_probabilities = [float(prob) for _, prob in top_words_with_probs]
+            
+            # Calculate topic prevalence
+            prevalence = 0
+            prevalence_count = 0
+            if year in topic_distributions and topic_distributions[year] is not None:
+                topic_docs = topic_distributions[year][topic_distributions[year]['dominant_topic'] == topic_id]
+                prevalence_count = len(topic_docs)
+                total_docs = len(topic_distributions[year])
+                if total_docs > 0:
+                    prevalence = prevalence_count / total_docs
+            
+            # Get example documents for this topic
+            examples = []
+            if year in topic_distributions and topic_distributions[year] is not None:
+                topic_examples = topic_distributions[year][topic_distributions[year]['dominant_topic'] == topic_id]
+                if not topic_examples.empty:
+                    topic_examples = topic_examples.sort_values('topic_percent', ascending=False).head(5)
+                    for _, example in topic_examples.iterrows():
+                        examples.append({
+                            "text": example['text'],
+                            "topic_probability": float(example['topic_percent']),
+                            "section": example.get('section', ''),
+                            "item": example.get('item', '')
+                        })
+            
+            # Add topic data
+            topic_data = {
+                "id": topic_id,
+                "top_keywords": top_words,
+                "keyword_probabilities": word_probabilities,
+                "prevalence": prevalence,
+                "document_count": prevalence_count,
+                "examples": examples
+            }
+            
+            curriculum_data["topics"].append(topic_data)
+        
+        # Analyze section distribution if available
+        section_distribution = {}
+        if year in topic_distributions and topic_distributions[year] is not None and 'section' in topic_distributions[year].columns:
+            # Get section-topic matrix
+            sections = topic_distributions[year]['section'].unique()
+            for section in sections:
+                section_docs = topic_distributions[year][topic_distributions[year]['section'] == section]
+                topic_counts = section_docs['dominant_topic'].value_counts().to_dict()
+                total_section_docs = len(section_docs)
+                
+                topic_distribution = {}
+                for topic_id, count in topic_counts.items():
+                    topic_distribution[int(topic_id)] = {
+                        "count": int(count),
+                        "percentage": float(count / total_section_docs)
+                    }
+                
+                section_distribution[section] = {
+                    "total_documents": total_section_docs,
+                    "topic_distribution": topic_distribution
+                }
+        
+        curriculum_data["section_distribution"] = section_distribution
+        output["curricula"][year] = curriculum_data
+    
+    # Add comparison results if available
+    if similarity_matrix is not None and topics_comparison is not None:
+        comparison_data = {
+            "similarity_matrix": similarity_matrix.tolist(),
+            "average_similarity": float(np.mean(similarity_matrix)),
+            "max_similarity": float(np.max(similarity_matrix)),
+            "topic_keywords": topics_comparison,
+            "similar_topic_pairs": [],
+            "unique_topics": {}
+        }
+        
+        # Find similar topic pairs
+        topic_pairs = []
+        for i in range(similarity_matrix.shape[0]):
+            for j in range(similarity_matrix.shape[1]):
+                similarity = similarity_matrix[i, j]
+                if similarity >= 0.2:  # Only include meaningful similarities
+                    pair = {
+                        "topic_2018": int(i),
+                        "topic_2024": int(j),
+                        "similarity": float(similarity),
+                        "keywords_2018": topics_comparison['2018'][str(i)],
+                        "keywords_2024": topics_comparison['2024'][str(j)],
+                        "shared_keywords": list(set(topics_comparison['2018'][str(i)][:10]) & 
+                                              set(topics_comparison['2024'][str(j)][:10]))
+                    }
+                    topic_pairs.append(pair)
+        
+        # Sort by similarity
+        topic_pairs.sort(key=lambda x: x["similarity"], reverse=True)
+        comparison_data["similar_topic_pairs"] = topic_pairs
+        
+        # Find unique topics (low similarity to any topic in the other curriculum)
+        unique_topics = {"2018": [], "2024": []}
+        
+        for i in range(similarity_matrix.shape[0]):
+            max_sim = np.max(similarity_matrix[i, :])
+            if max_sim < 0.2:
+                unique_topics["2018"].append({
+                    "topic_id": int(i),
+                    "max_similarity": float(max_sim),
+                    "most_similar_topic": int(np.argmax(similarity_matrix[i, :])),
+                    "keywords": topics_comparison['2018'][str(i)]
+                })
+        
+        for j in range(similarity_matrix.shape[1]):
+            max_sim = np.max(similarity_matrix[:, j])
+            if max_sim < 0.2:
+                unique_topics["2024"].append({
+                    "topic_id": int(j),
+                    "max_similarity": float(max_sim),
+                    "most_similar_topic": int(np.argmax(similarity_matrix[:, j])),
+                    "keywords": topics_comparison['2024'][str(j)]
+                })
+        
+        comparison_data["unique_topics"] = unique_topics
+        output["comparison_results"] = comparison_data
+    
+    # Add topic evolution data if available
+    if evolution_results:
+        output["topic_evolution"] = evolution_results
+    
+    # Add key insights
+    insights = []
+    
+    # Add insight about number of topics
+    if '2018' in model_data and '2024' in model_data and model_data['2018'] and model_data['2024']:
+        num_topics_2018 = model_data['2018']['model'].num_topics
+        num_topics_2024 = model_data['2024']['model'].num_topics
+        
+        if num_topics_2018 != num_topics_2024:
+            insight = {
+                "type": "topic_count_difference",
+                "description": f"The optimal number of topics differs between curricula: {num_topics_2018} topics in 2018 vs. {num_topics_2024} topics in 2024.",
+                "interpretation": "The 2024 curriculum covers a wider range of distinct themes." if num_topics_2024 > num_topics_2018 else "The 2024 curriculum has consolidated related topics."
+            }
+            insights.append(insight)
+    
+    # Add insight about average similarity
+    if similarity_matrix is not None:
+        avg_similarity = np.mean(similarity_matrix)
+        interpretation = ""
+        if avg_similarity < 0.15:
+            interpretation = "This indicates substantial differences between the two curricula, with limited continuity in content."
+        elif avg_similarity < 0.3:
+            interpretation = "This suggests moderate changes between curricula, with some continuity but significant new content."
+        else:
+            interpretation = "This indicates strong continuity between curricula, with many similar topics persisting across versions."
+        
+        insight = {
+            "type": "average_similarity",
+            "value": float(avg_similarity),
+            "description": f"The average similarity between topics across curricula is {avg_similarity:.3f} (0-1 scale).",
+            "interpretation": interpretation
+        }
+        insights.append(insight)
+    
+    # Add insight about unique topics
+    if similarity_matrix is not None and "unique_topics" in output["comparison_results"]:
+        unique_to_2018 = output["comparison_results"]["unique_topics"]["2018"]
+        unique_to_2024 = output["comparison_results"]["unique_topics"]["2024"]
+        
+        if unique_to_2018 and unique_to_2024:
+            total_topics = similarity_matrix.shape[0] + similarity_matrix.shape[1]
+            turnover_pct = (len(unique_to_2018) + len(unique_to_2024)) / total_topics * 100
+            
+            insight = {
+                "type": "content_turnover",
+                "unique_to_2018": len(unique_to_2018),
+                "unique_to_2024": len(unique_to_2024),
+                "turnover_percentage": float(turnover_pct),
+                "description": f"There are {len(unique_to_2018)} topics unique to the 2018 curriculum and {len(unique_to_2024)} topics unique to the 2024 curriculum.",
+                "interpretation": f"This represents significant content turnover, with approximately {turnover_pct:.1f}% of topics being substantially different."
+            }
+            insights.append(insight)
+    
+    output["key_insights"] = insights
+    
+    return output
+
+# Add to main function - place before the end of the main function
+def export_structured_data(model_data, topic_distributions, similarity_matrix=None, topics_comparison=None, evolution_results=None):
+    """Export all analysis data in a structured format (JSON)."""
+    print("Generating structured data export...")
+    
+    structured_data = generate_structured_output(
+        model_data,
+        topic_distributions,
+        similarity_matrix,
+        topics_comparison,
+        evolution_results
+    )
+    
+    # Save to file
+    import json
+    structured_data_path = os.path.join(PROCESSED_DIR, 'curriculum_analysis_data.json')
+    with open(structured_data_path, 'w', encoding='utf-8') as f:
+        json.dump(structured_data, f, indent=2, ensure_ascii=False)
+    
+    print(f"Structured data export saved to: {structured_data_path}")
+    return structured_data_path
+
+# Modify the main function to include the export
 def main():
     """Main function to execute the topic modeling and semantic analysis."""
     print("Loading processed data...")
@@ -974,6 +1214,11 @@ def main():
             year
         )
     
+    # Initialize variables for comparison results
+    similarity_matrix = None
+    topics_comparison = None
+    evolution_results = None
+    
     # Compare topics between curricula if both are available
     if model_data['2018'] and model_data['2024']:
         print("\nComparing topics between curricula...")
@@ -986,7 +1231,7 @@ def main():
         print("Creating concept network visualization...")
         create_concept_network(topics_comparison, similarity_matrix)
         
-        # Analyze topic evolution (our new unsupervised approach)
+        # Analyze topic evolution
         print("Analyzing topic evolution between 2018 and 2024 curricula...")
         evolution_results = analyze_topic_evolution(topics_comparison, similarity_matrix)
         
@@ -996,46 +1241,9 @@ def main():
         print(f"- Found {len(evolution_results['evolving_topic_pairs'])} evolving topic pairs")
     
     print("\nAnalysis complete. Results saved to the processed_data and figures directories.")
-    print("The following files have been created:")
     
-    for year in ['2018', '2024']:
-        if model_data[year]:
-            vis_path = os.path.join(FIGURES_DIR, f'topic_model_vis_{year}.html')
-            coh_path = os.path.join(FIGURES_DIR, f'topic_coherence_{year}.png')
-            dist_img_path = os.path.join(FIGURES_DIR, f'topic_distribution_{year}.png')
-            section_plot_path = os.path.join(FIGURES_DIR, f'topics_by_section_{year}.png')
-            dist_csv_path = os.path.join(PROCESSED_DIR, f'topic_distribution_{year}.csv')
-            
-            if os.path.exists(vis_path):
-                print(f"  - topic_model_vis_{year}.html: Interactive topic model visualization")
-            if os.path.exists(coh_path):
-                print(f"  - topic_coherence_{year}.png: Coherence score plot")
-            if os.path.exists(dist_img_path):
-                print(f"  - topic_distribution_{year}.png: Document distribution across topics")
-            if os.path.exists(section_plot_path):
-                print(f"  - topics_by_section_{year}.png: Topic distribution by curriculum section")
-            if os.path.exists(dist_csv_path):
-                print(f"  - topic_distribution_{year}.csv: Detailed topic distribution data")
-    
-    # Files for topic comparison and evolution
-    topic_files = [
-        ('topic_similarity_matrix.png', 'Topic similarity heatmap'),
-        ('topic_keywords.json', 'Top keywords for each topic'),
-        ('topic_network.png', 'Network visualization of topic relationships'),
-        ('topic_network.pkl', 'Network data for further analysis'),
-        ('emerging_topics.png', 'Emerging topics in 2024 curriculum'),
-        ('fading_topics.png', 'Fading topics from 2018 curriculum'),
-        ('evolving_topics.png', 'Evolving topic pairs between curricula'),
-        ('topic_evolution.json', 'Topic evolution analysis data')
-    ]
-    
-    for filename, description in topic_files:
-        if os.path.exists(os.path.join(FIGURES_DIR, filename)) or os.path.exists(os.path.join(PROCESSED_DIR, filename)):
-            print(f"  - {filename}: {description}")
-
-    # After comparing topics
+    # Generate topic analysis summary (text format)
     if model_data['2018'] and model_data['2024']:
-        # Generate topic analysis summary
         print("Generating topic analysis summary...")
         topic_summary = generate_topic_analysis_summary(
             model_data, 
@@ -1050,6 +1258,18 @@ def main():
             f.write(topic_summary)
         
         print(f"Topic analysis summary saved to: {topic_summary_path}")
+    
+    # Generate structured data export (JSON format)
+    export_path = export_structured_data(
+        model_data,
+        topic_distributions,
+        similarity_matrix,
+        topics_comparison,
+        evolution_results
+    )
+    
+    print(f"\nParsable data export completed: {export_path}")
+    print("This JSON file contains all analysis data in a structured format suitable for LLM processing.")
 
 if __name__ == "__main__":
     main()

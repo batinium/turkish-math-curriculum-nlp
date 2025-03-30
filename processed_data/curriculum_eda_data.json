@@ -1,0 +1,3116 @@
+{
+  "analysis_type": "Turkish Mathematics Curriculum Exploratory Analysis",
+  "comparison": "2018 vs 2024",
+  "basic_statistics": {
+    "by_year": {
+      "2018": {
+        "total_characters": 92726,
+        "total_words": 15732,
+        "total_sentences": 1937,
+        "total_objectives": 302,
+        "avg_word_length": 4.633994406305619,
+        "avg_sentence_length": 6.287558079504389,
+        "avg_objective_length": 8.02317880794702,
+        "objectives_by_section": {
+          "9.2.1.1. Kümeler ile ilgili temel kavramları hatırlatılır.": 1,
+          "9.1.1.3. Koşullu önermeyi ve iki yönlü koşullu önermeyi açıklar.": 3,
+          "9.1.1.4. Her (": 3,
+          "9.1.1.5. Tanım, aksiyom, teorem ve ispat kavramlarını açıklar.": 1,
+          "9.2.1.1. Kümeler ile ilgili temel kavramlar hatırlatılır.": 3,
+          "9.2.1.2. Alt kümeyi kullanarak işlemler yapar.": 3,
+          "9.2.1.3. İki kümenin eşitliğini kullanarak işlemler yapar.": 2,
+          "9.2.2.1. Kümelerde birleşim, kesişim, fark, tümleme işlemleri yardımıyla problemler çözer.": 4,
+          "9.2.2.2. İki kümenin kartezyen çarpımıyla ilgili işlemler yapar.": 4,
+          "9.3.1.1. Sayı kümelerini birbiriyle ilişkilendirir.": 3,
+          "9.3.2.2. Tam sayılarda EBOB ve EKOK ile ilgili uygulamalar yapar.": 2,
+          "9.3.3.1. Gerçek sayılar kümesinde aralık kavramını açıklar.": 2,
+          "9.3.3.2. Birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm kümelerini bulur.": 2,
+          "9.3.3.3. Mutlak değer içeren birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm": 7,
+          "9.3.3.4. Birinci dereceden iki bilinmeyenli denklem ve eşitsizlik sistemlerinin çözüm kümelerini bulur.": 2,
+          "9.3.4.1. Üslü ifadeleri içeren denklemleri çözer.": 3,
+          "9.3.4.2. Köklü ifadeleri içeren denklemleri çözer.": 3,
+          "9.3.5.1. Oran ve orantı kavramlarını kullanarak problemler çözer.": 2,
+          "9.3.5.2. Denklemler  ve eşitsizlikler ile ilgili problemler çözer.": 3,
+          "9.4.1.1. Üçgende açı özellikleri ile ilgili işlemler yapar.": 3,
+          "9.4.1.2. Üçgenin kenar uzunlukları ile bu kenarların karşılarındaki açıların ölçülerini ilişkilendirir.": 2,
+          "9.4.1.3. Uzunlukları verilen üç doğru parçasının hangi durumlarda üçgen oluşturduğunu değerlendirir.": 2,
+          "9.4.2.1. İki üçgenin eş olması için gerekli olan asgari koşulları değerlendirir.": 3,
+          "9.4.2.2. İki üçgenin benzer olması için gerekli olan asgari koşulları değerlendirir.": 3,
+          "9.4.3.1. Üçgenin iç ve dış açıortaylarının özelliklerini elde eder.": 3,
+          "9.4.3.2. Üçgenin kenarortaylarının özelliklerini elde eder.": 4,
+          "9.4.3.3. Üçgenin kenar orta dikmelerinin bir noktada kesiştiğini gösterir.": 2,
+          "9.4.3.4. Üçgenin çeşidine göre yüksekliklerinin kesiştiği noktanın konumunu belirler.": 3,
+          "9.4.4.1. Dik üçgende Pisagor teoremini elde ederek problemler çözer.": 3,
+          "9.4.4.2. Öklid teoremini elde ederek problemler çözer.": 2,
+          "9.4.4.3. Dik üçgende dar açıların trigonometrik oranlarını hesaplar.": 3,
+          "9.4.4.4. Birim çemberi tanımlar ve trigonometrik oranları birim çemberin üzerindeki noktanın": 3,
+          "9.4.5.1. Üçgenin alanı ile ilgili problemler çözer.": 4,
+          "9.5.1.1. Verileri merkezî eğilim ve yayılım ölçülerini hesaplayarak yorumlar.": 4,
+          "9.5.2.1. Bir veri grubuna ilişkin histogram oluşturur.": 2,
+          "9.5.2.2. Gerçek hayat durumunu yansıtan veri gruplarını uygun grafik türleriyle temsil ederek yorumlar.": 3,
+          "10.1.1.1. Olayların gerçekleşme sayısını toplama ve çarpma yöntemlerini kullanarak hesaplar.": 3,
+          "10.1.1.3.  Sınırlı  sayıda  tekrarlayan  nesnelerin  dizilişlerini  (permütasyonlarını)  açıklayarak  problemler": 2,
+          "10.1.1.4. n elemanlı bir kümenin r tane elemanının kaç farklı şekilde seçilebileceğini hesaplar.": 3,
+          "10.1.1.5. Pascal üçgenini açıklar.": 1,
+          "10.1.1.6. Binom açılımını yapar.": 3,
+          "10.1.2.1. Örnek uzay, deney, çıktı, bir olayın tümleyeni, kesin olay, imkânsız olay, ayrık olay ve ayrık": 3,
+          "10.1.2.2. Olasılık kavramı ile ilgili uygulamalar yapar.": 4,
+          "10.2.1.1. Fonksiyonlarla ilgili problemler çözer.": 5,
+          "10.2.1.2. Fonksiyonların grafiklerini çizer.": 3,
+          "10.2.1.3. Fonksiyonların grafiklerini yorumlar.": 5,
+          "10.2.2.1. Bire bir ve örten fonksiyonlar ile ilgili uygulamalar yapar.": 2,
+          "10.2.2.2. Fonksiyonlarda bileşke işlemiyle ilgili işlemler yapar.": 3,
+          "10.2.2.3. Verilen bir fonksiyonun tersini bulur.": 3,
+          "10.3.1.1. Bir değişkenli polinom kavramını açıklar.": 2,
+          "10.3.1.2. Polinomlarla toplama, çıkarma, çarpma ve bölme işlemlerini yapar.": 3,
+          "10.3.2.1. Bir polinomu çarpanlarına ayırır.": 3,
+          "10.3.2.2. Rasyonel ifadelerin sadeleştirilmesi ile ilgili işlemler yapar.": 2,
+          "10.4.1.2. İkinci dereceden bir bilinmeyenli denklemleri çözer.": 4,
+          "10.4.1.3. Bir karmaşık sayının a+ib (a,b": 6,
+          "10.4.1.4.  İkinci  dereceden  bir  bilinmeyenli  denklemin  kökleri  ile  katsayıları  arasındaki  ilişkileri": 2,
+          "10.5.1.1. Çokgen kavramını açıklayarak işlemler yapar.": 3,
+          "10.5.2.1. Dörtgenin temel elemanlarını ve özelliklerini açıklayarak problemler çözer.": 3,
+          "10.5.3.1. Özel dörtgenlerin açı, kenar, köşegen ve alan özelliklerini açıklayarak problemler çözer.": 4,
+          "10.6.1.1. Dik prizmalar ve dik piramitlerin uzunluk, alan ve hacim bağıntılarını oluşturur.": 3,
+          "11.1.1.2. Açı ölçü birimlerini açıklayarak birbiri ile ilişkilendirir.": 3,
+          "11.1.2.1. Trigonometrik fonksiyonları birim çember yardımıyla açıklar.": 5,
+          "11.1.2.2. Kosinüs teoremiyle ilgili problemler çözer.": 2,
+          "11.1.2.3. Sinüs teoremiyle ilgili problemler çözer.": 3,
+          "11.1.2.4. Trigonometrik fonksiyon grafiklerini çizer.": 4,
+          "11.2.1.2. Bir doğru parçasını belli bir oranda (içten veya dıştan) bölen noktanın koordinatlarını hesaplar.": 2,
+          "11.2.1.3. Analitik düzlemde doğruları inceleyerek işlemler yapar.": 4,
+          "11.3.1.1. Fonksiyonun grafik ve tablo temsilini kullanarak problem çözer.": 4,
+          "11.3.2.1. İkinci dereceden bir değişkenli fonksiyonun grafiğini çizerek yorumlar.": 4,
+          "11.3.3.1. Bir fonksiyonun grafiğinden, dönüşümler yardımı ile yeni fonksiyon grafikleri çizer.": 3,
+          "11.4.2.1. İkinci dereceden bir bilinmeyenli eşitsizliklerin çözüm kümesini bulur.": 2,
+          "11.5.1.2. Çemberde kirişin özelliklerini göstererek işlemler yapar.": 2,
+          "11.5.2.1. Bir çemberde merkez, çevre, iç, dış ve teğet-kiriş açıların özelliklerini kullanarak işlemler yapar.": 3,
+          "11.5.3.1. Çemberde teğetin özelliklerini göstererek işlemler yapar.": 3,
+          "11.5.4.1. Dairenin çevre ve alan bağıntılarını oluşturur.": 3,
+          "11.6.1.1. Küre, dik dairesel silindir ve dik dairesel koninin alan ve hacim bağıntılarını oluşturarak": 2,
+          "11.7.1.1. Koşullu olasılığı açıklayarak problemler çözer.": 2,
+          "11.7.1.3. Bileşik olayı açıklayarak gerçekleşme olasılığını hesaplar.": 3,
+          "12.1.1.1. Üstel fonksiyonu açıklar.": 4,
+          "12.1.2.1. Logaritma fonksiyonu ile üstel fonksiyonu ilişkilendirerek problemler çözer.": 3,
+          "12.1.3.2. Üstel ve logaritmik fonksiyonları gerçek hayat durumlarını modellemede kullanır.": 4,
+          "12.2.1.3. Aritmetik ve geometrik dizilerin özelliklerini kullanarak işlemler yapar.": 2,
+          "12.3.2.1. Trigonometrik denklemlerin çözüm kümelerini bulur.": 3,
+          "12.4.1.1. Analitik düzlemde koordinatları verilen bir noktanın öteleme, dönme ve simetri dönüşümleri": 3,
+          "12.4.1.2. Temel dönüşümler ve bileşkeleriyle ilgili problem çözer.": 2,
+          "12.5.1.1. Bir fonksiyonun bir noktadaki limiti, soldan limit ve sağdan limit kavramlarını açıklar.": 3,
+          "12.5.1.2. Limit ile ilgili özellikleri belirterek uygulamalar yapar.": 3,
+          "12.5.1.3. Bir fonksiyonun bir noktadaki sürekliliğini açıklar.": 3,
+          "12.5.2.1. Türev kavramını açıklayarak işlemler yapar.": 6,
+          "12.5.2.2. Bir fonksiyonun bir noktada ve bir aralıkta türevlenebilirliğini değerlendirir.": 2,
+          "12.5.3.3. Türevi yardımıyla bir fonksiyonun grafiğini çizer.": 1,
+          "12.6.1.1. Bir fonksiyonun belirsiz integralini açıklayarak integral alma kurallarını oluşturur.": 4,
+          "12.6.2.1. Bir fonksiyonun grafiği ile x ekseni arasında kalan sınırlı bölgenin alanını Riemann toplamı": 3,
+          "12.6.2.4. Belirli integral ile alan hesabı yapar.": 3,
+          "12.7.1.1. Merkezi ve yarıçapı verilen çemberin denklemini oluşturur.": 3,
+          "12.7.1.2. Denklemleri verilen doğru ile çemberin birbirine göre durumlarını belirleyerek işlemler yapar.": 2,
+          "11.3.2.2. Seyahatlerde mümkün olan alternatifleri karşılaştırır.": 2,
+          "11.4.3.1. Dairenin çevre ve alan bağıntılarını oluşturur.": 2,
+          "12.1.1.1. Üslü ve köklü ifadeler içeren denklemler çözer.": 2,
+          "12.1.2.1. Yüzde, oran ve orantı kavramlarıyla ilgili problemler çözer.": 3,
+          "12.2.1.1. Gerçek hayat durumlarıyla ilgili istatistik problemleri çözer.": 3,
+          "12.3.1.1. Çevre, alan ve hacim ölçmeye yönelik problemler çözer.": 3,
+          "12.4.1.1. Küre ve dik dairesel silindirin alan ve hacim ölçmeye yönelik problemler çözer.": 2
+        }
+      },
+      "2024": {
+        "total_characters": 676815,
+        "total_words": 97735,
+        "total_sentences": 6114,
+        "total_objectives": 801,
+        "avg_word_length": 5.893937688647874,
+        "avg_sentence_length": 13.647039581288846,
+        "avg_objective_length": 6.645443196004994,
+        "objectives_by_section": {
+          "1. TEMA: NİCELİKLER VE DEĞİŞİMLER": 7,
+          "2. TEMA: MANTIKSAL ÇIKARIM": 11,
+          "3. TEMA: ALGORİTMA VE BİLİŞİM": 17,
+          "4. TEMA: GEOMETRİK ŞEKİLLER": 27,
+          "5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ": 8,
+          "1. TEMA: SAYILAR": 27,
+          "2. TEMA: NİCELİKLER VE DEĞİŞİMLER": 69,
+          "3. TEMA: ALGORİTMA VE BİLİŞİM": 40,
+          "5. TEMA: EŞLİK VE BENZERLİK": 31,
+          "6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ": 21,
+          "7. TEMA: VERİDEN OLASILIĞA": 17,
+          "2. TEMA: NİCELİKLER VE DEĞİŞİMLER": 93,
+          "3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM": 26,
+          "5. TEMA: ANALİTİK İNCELEME": 14,
+          "1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1)": 40,
+          "1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2)": 39,
+          "1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3)": 32,
+          "2. TEMA: GEOMETRİK ŞEKİLLER": 43,
+          "3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ": 21,
+          "1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1)": 18,
+          "2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1)": 39,
+          "2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2)": 59,
+          "2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3)": 40,
+          "3. TEMA: GEOMETRİK ŞEKİLLER": 20,
+          "4. TEMA: GEOMETRİK CİSİMLER": 24,
+          "5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA": 18
+        }
+      }
+    },
+    "changes": {
+      "total_characters": {
+        "absolute": 584089,
+        "percentage": 629.9085477643811
+      },
+      "total_words": {
+        "absolute": 82003,
+        "percentage": 521.2496821764556
+      },
+      "total_sentences": {
+        "absolute": 4177,
+        "percentage": 215.64274651522973
+      },
+      "total_objectives": {
+        "absolute": 499,
+        "percentage": 165.2317880794702
+      },
+      "avg_word_length": {
+        "absolute": 1.2599432823422552,
+        "percentage": 27.189141200252887
+      },
+      "avg_sentence_length": {
+        "absolute": 7.359481501784457,
+        "percentage": 117.04832637290824
+      },
+      "avg_objective_length": {
+        "absolute": -1.3777356119420254,
+        "percentage": -17.17194200604588
+      }
+    }
+  },
+  "terminology_analysis": {
+    "top_terms": {
+      "fonksiyon": {
+        "2018": 57,
+        "2024": 158,
+        "total": 215,
+        "2018_relative": 0.032721010332950634,
+        "2024_relative": 0.04218958611481976,
+        "relative_diff": 0.009468575781869125
+      },
+      "ver": {
+        "2018": 77,
+        "2024": 19,
+        "total": 96,
+        "2018_relative": 0.04420206659012629,
+        "2024_relative": 0.005073431241655541,
+        "relative_diff": -0.039128635348470754
+      },
+      "problem": {
+        "2018": 26,
+        "2024": 66,
+        "total": 92,
+        "2018_relative": 0.014925373134328358,
+        "2024_relative": 0.017623497997329773,
+        "relative_diff": 0.002698124863001415
+      },
+      "kullan": {
+        "2018": 10,
+        "2024": 63,
+        "total": 73,
+        "2018_relative": 0.0057405281285878304,
+        "2024_relative": 0.016822429906542057,
+        "relative_diff": 0.011081901777954227
+      },
+      "gerçek": {
+        "2018": 32,
+        "2024": 37,
+        "total": 69,
+        "2018_relative": 0.018369690011481057,
+        "2024_relative": 0.009879839786381843,
+        "relative_diff": -0.008489850225099214
+      },
+      "belirle": {
+        "2018": 2,
+        "2024": 64,
+        "total": 66,
+        "2018_relative": 0.001148105625717566,
+        "2024_relative": 0.017089452603471295,
+        "relative_diff": 0.01594134697775373
+      },
+      "yer": {
+        "2018": 55,
+        "2024": 8,
+        "total": 63,
+        "2018_relative": 0.03157290470723306,
+        "2024_relative": 0.002136181575433912,
+        "relative_diff": -0.02943672313179915
+      },
+      "çözüm": {
+        "2018": 6,
+        "2024": 56,
+        "total": 62,
+        "2018_relative": 0.003444316877152698,
+        "2024_relative": 0.014953271028037384,
+        "relative_diff": 0.011508954150884685
+      },
+      "fark": {
+        "2018": 12,
+        "2024": 49,
+        "total": 61,
+        "2018_relative": 0.006888633754305396,
+        "2024_relative": 0.013084112149532711,
+        "relative_diff": 0.006195478395227315
+      },
+      "grafik": {
+        "2018": 33,
+        "2024": 26,
+        "total": 59,
+        "2018_relative": 0.01894374282433984,
+        "2024_relative": 0.006942590120160214,
+        "relative_diff": -0.012001152704179625
+      },
+      "ara": {
+        "2018": 14,
+        "2024": 44,
+        "total": 58,
+        "2018_relative": 0.008036739380022962,
+        "2024_relative": 0.011748998664886516,
+        "relative_diff": 0.0037122592848635536
+      },
+      "ilişkin": {
+        "2018": 1,
+        "2024": 54,
+        "total": 55,
+        "2018_relative": 0.000574052812858783,
+        "2024_relative": 0.014419225634178905,
+        "relative_diff": 0.013845172821320122
+      },
+      "sayı": {
+        "2018": 18,
+        "2024": 36,
+        "total": 54,
+        "2018_relative": 0.010332950631458095,
+        "2024_relative": 0.009612817089452604,
+        "relative_diff": -0.0007201335420054904
+      },
+      "nokta": {
+        "2018": 25,
+        "2024": 29,
+        "total": 54,
+        "2018_relative": 0.014351320321469576,
+        "2024_relative": 0.007743658210947931,
+        "relative_diff": -0.006607662110521645
+      },
+      "tanım": {
+        "2018": 6,
+        "2024": 47,
+        "total": 53,
+        "2018_relative": 0.003444316877152698,
+        "2024_relative": 0.012550066755674232,
+        "relative_diff": 0.009105749878521533
+      },
+      "durum": {
+        "2018": 9,
+        "2024": 41,
+        "total": 50,
+        "2018_relative": 0.005166475315729047,
+        "2024_relative": 0.010947930574098798,
+        "relative_diff": 0.0057814552583697505
+      },
+      "varsayım": {
+        "2018": 0,
+        "2024": 49,
+        "total": 49,
+        "2018_relative": 0.0,
+        "2024_relative": 0.013084112149532711,
+        "relative_diff": 0.013084112149532711
+      },
+      "üçgen": {
+        "2018": 28,
+        "2024": 21,
+        "total": 49,
+        "2018_relative": 0.016073478760045924,
+        "2024_relative": 0.005607476635514018,
+        "relative_diff": -0.010466002124531906
+      },
+      "temsil": {
+        "2018": 4,
+        "2024": 44,
+        "total": 48,
+        "2018_relative": 0.002296211251435132,
+        "2024_relative": 0.011748998664886516,
+        "relative_diff": 0.009452787413451383
+      },
+      "matematiksel": {
+        "2018": 0,
+        "2024": 45,
+        "total": 45,
+        "2018_relative": 0.0,
+        "2024_relative": 0.012016021361815754,
+        "relative_diff": 0.012016021361815754
+      },
+      "ilişki": {
+        "2018": 13,
+        "2024": 32,
+        "total": 45,
+        "2018_relative": 0.007462686567164179,
+        "2024_relative": 0.008544726301735648,
+        "relative_diff": 0.0010820397345714687
+      },
+      "cebirsel": {
+        "2018": 5,
+        "2024": 40,
+        "total": 45,
+        "2018_relative": 0.0028702640642939152,
+        "2024_relative": 0.010680907877169559,
+        "relative_diff": 0.007810643812875644
+      },
+      "strateji": {
+        "2018": 2,
+        "2024": 41,
+        "total": 43,
+        "2018_relative": 0.001148105625717566,
+        "2024_relative": 0.010947930574098798,
+        "relative_diff": 0.009799824948381232
+      },
+      "ifade": {
+        "2018": 14,
+        "2024": 27,
+        "total": 41,
+        "2018_relative": 0.008036739380022962,
+        "2024_relative": 0.007209612817089452,
+        "relative_diff": -0.0008271265629335098
+      },
+      "açı": {
+        "2018": 19,
+        "2024": 21,
+        "total": 40,
+        "2018_relative": 0.010907003444316877,
+        "2024_relative": 0.005607476635514018,
+        "relative_diff": -0.005299526808802859
+      },
+      "araştır": {
+        "2018": 0,
+        "2024": 39,
+        "total": 39,
+        "2018_relative": 0.0,
+        "2024_relative": 0.01041388518024032,
+        "relative_diff": 0.01041388518024032
+      },
+      "üzer": {
+        "2018": 23,
+        "2024": 15,
+        "total": 38,
+        "2018_relative": 0.01320321469575201,
+        "2024_relative": 0.004005340453938585,
+        "relative_diff": -0.009197874241813425
+      },
+      "öğrenci": {
+        "2018": 0,
+        "2024": 38,
+        "total": 38,
+        "2018_relative": 0.0,
+        "2024_relative": 0.010146862483311082,
+        "relative_diff": 0.010146862483311082
+      },
+      "kenar": {
+        "2018": 24,
+        "2024": 12,
+        "total": 36,
+        "2018_relative": 0.013777267508610792,
+        "2024_relative": 0.0032042723631508676,
+        "relative_diff": -0.010572995145459924
+      },
+      "dik": {
+        "2018": 9,
+        "2024": 26,
+        "total": 35,
+        "2018_relative": 0.005166475315729047,
+        "2024_relative": 0.006942590120160214,
+        "relative_diff": 0.0017761148044311663
+      },
+      "incele": {
+        "2018": 7,
+        "2024": 27,
+        "total": 34,
+        "2018_relative": 0.004018369690011481,
+        "2024_relative": 0.007209612817089452,
+        "relative_diff": 0.0031912431270779713
+      },
+      "yap": {
+        "2018": 11,
+        "2024": 22,
+        "total": 33,
+        "2018_relative": 0.006314580941446613,
+        "2024_relative": 0.005874499332443258,
+        "relative_diff": -0.00044008160900335484
+      },
+      "veri": {
+        "2018": 5,
+        "2024": 28,
+        "total": 33,
+        "2018_relative": 0.0028702640642939152,
+        "2024_relative": 0.007476635514018692,
+        "relative_diff": 0.004606371449724776
+      },
+      "değer": {
+        "2018": 13,
+        "2024": 20,
+        "total": 33,
+        "2018_relative": 0.007462686567164179,
+        "2024_relative": 0.0053404539385847796,
+        "relative_diff": -0.0021222326285793994
+      },
+      "nitel": {
+        "2018": 0,
+        "2024": 33,
+        "total": 33,
+        "2018_relative": 0.0,
+        "2024_relative": 0.008811748998664886,
+        "relative_diff": 0.008811748998664886
+      },
+      "küme": {
+        "2018": 18,
+        "2024": 15,
+        "total": 33,
+        "2018_relative": 0.010332950631458095,
+        "2024_relative": 0.004005340453938585,
+        "relative_diff": -0.0063276101775195095
+      },
+      "şekil": {
+        "2018": 2,
+        "2024": 31,
+        "total": 33,
+        "2018_relative": 0.001148105625717566,
+        "2024_relative": 0.008277703604806409,
+        "relative_diff": 0.007129597979088843
+      },
+      "çalış": {
+        "2018": 12,
+        "2024": 19,
+        "total": 31,
+        "2018_relative": 0.006888633754305396,
+        "2024_relative": 0.005073431241655541,
+        "relative_diff": -0.001815202512649855
+      },
+      "yararlan": {
+        "2018": 24,
+        "2024": 5,
+        "total": 29,
+        "2018_relative": 0.013777267508610792,
+        "2024_relative": 0.0013351134846461949,
+        "relative_diff": -0.012442154023964596
+      },
+      "oluş": {
+        "2018": 6,
+        "2024": 22,
+        "total": 28,
+        "2018_relative": 0.003444316877152698,
+        "2024_relative": 0.005874499332443258,
+        "relative_diff": 0.00243018245529056
+      },
+      "iletişim": {
+        "2018": 27,
+        "2024": 0,
+        "total": 27,
+        "2018_relative": 0.015499425947187142,
+        "2024_relative": 0.0,
+        "relative_diff": -0.015499425947187142
+      },
+      "hayat(i)": {
+        "2018": 26,
+        "2024": 1,
+        "total": 27,
+        "2018_relative": 0.014925373134328358,
+        "2024_relative": 0.000267022696929239,
+        "relative_diff": -0.01465835043739912
+      },
+      "denklem": {
+        "2018": 13,
+        "2024": 14,
+        "total": 27,
+        "2018_relative": 0.007462686567164179,
+        "2024_relative": 0.003738317757009346,
+        "relative_diff": -0.003724368810154833
+      },
+      "dayalı": {
+        "2018": 0,
+        "2024": 27,
+        "total": 27,
+        "2018_relative": 0.0,
+        "2024_relative": 0.007209612817089452,
+        "relative_diff": 0.007209612817089452
+      },
+      "kavram": {
+        "2018": 24,
+        "2024": 2,
+        "total": 26,
+        "2018_relative": 0.013777267508610792,
+        "2024_relative": 0.000534045393858478,
+        "relative_diff": -0.013243222114752314
+      },
+      "değişken": {
+        "2018": 3,
+        "2024": 23,
+        "total": 26,
+        "2018_relative": 0.001722158438576349,
+        "2024_relative": 0.006141522029372497,
+        "relative_diff": 0.004419363590796147
+      },
+      "oran": {
+        "2018": 11,
+        "2024": 14,
+        "total": 25,
+        "2018_relative": 0.006314580941446613,
+        "2024_relative": 0.003738317757009346,
+        "relative_diff": -0.0025762631844372668
+      },
+      "trigonometrik": {
+        "2018": 7,
+        "2024": 18,
+        "total": 25,
+        "2018_relative": 0.004018369690011481,
+        "2024_relative": 0.004806408544726302,
+        "relative_diff": 0.0007880388547148211
+      },
+      "karşıla": {
+        "2018": 0,
+        "2024": 25,
+        "total": 25,
+        "2018_relative": 0.0,
+        "2024_relative": 0.006675567423230975,
+        "relative_diff": 0.006675567423230975
+      },
+      "doğru": {
+        "2018": 8,
+        "2024": 17,
+        "total": 25,
+        "2018_relative": 0.004592422502870264,
+        "2024_relative": 0.0045393858477970625,
+        "relative_diff": -5.303665507320164e-05
+      },
+      "teknoloji": {
+        "2018": 25,
+        "2024": 0,
+        "total": 25,
+        "2018_relative": 0.014351320321469576,
+        "2024_relative": 0.0,
+        "relative_diff": -0.014351320321469576
+      },
+      "türev": {
+        "2018": 7,
+        "2024": 18,
+        "total": 25,
+        "2018_relative": 0.004018369690011481,
+        "2024_relative": 0.004806408544726302,
+        "relative_diff": 0.0007880388547148211
+      },
+      "f(x": {
+        "2018": 3,
+        "2024": 22,
+        "total": 25,
+        "2018_relative": 0.001722158438576349,
+        "2024_relative": 0.005874499332443258,
+        "relative_diff": 0.0041523408938669085
+      },
+      "referans": {
+        "2018": 0,
+        "2024": 24,
+        "total": 24,
+        "2018_relative": 0.0,
+        "2024_relative": 0.006408544726301735,
+        "relative_diff": 0.006408544726301735
+      },
+      "genelle": {
+        "2018": 0,
+        "2024": 24,
+        "total": 24,
+        "2018_relative": 0.0,
+        "2024_relative": 0.006408544726301735,
+        "relative_diff": 0.006408544726301735
+      },
+      "örüntü": {
+        "2018": 0,
+        "2024": 24,
+        "total": 24,
+        "2018_relative": 0.0,
+        "2024_relative": 0.006408544726301735,
+        "relative_diff": 0.006408544726301735
+      },
+      "polinom": {
+        "2018": 9,
+        "2024": 15,
+        "total": 24,
+        "2018_relative": 0.005166475315729047,
+        "2024_relative": 0.004005340453938585,
+        "relative_diff": -0.0011611348617904622
+      },
+      "uygun": {
+        "2018": 2,
+        "2024": 21,
+        "total": 23,
+        "2018_relative": 0.001148105625717566,
+        "2024_relative": 0.005607476635514018,
+        "relative_diff": 0.004459371009796452
+      },
+      "bağlam": {
+        "2018": 3,
+        "2024": 20,
+        "total": 23,
+        "2018_relative": 0.001722158438576349,
+        "2024_relative": 0.0053404539385847796,
+        "relative_diff": 0.0036182955000084306
+      },
+      "bilgi": {
+        "2018": 13,
+        "2024": 10,
+        "total": 23,
+        "2018_relative": 0.007462686567164179,
+        "2024_relative": 0.0026702269692923898,
+        "relative_diff": -0.004792459597871789
+      },
+      "işlem": {
+        "2018": 8,
+        "2024": 15,
+        "total": 23,
+        "2018_relative": 0.004592422502870264,
+        "2024_relative": 0.004005340453938585,
+        "relative_diff": -0.0005870820489316791
+      },
+      "öner": {
+        "2018": 1,
+        "2024": 21,
+        "total": 22,
+        "2018_relative": 0.000574052812858783,
+        "2024_relative": 0.005607476635514018,
+        "relative_diff": 0.005033423822655235
+      },
+      "hareket": {
+        "2018": 1,
+        "2024": 21,
+        "total": 22,
+        "2018_relative": 0.000574052812858783,
+        "2024_relative": 0.005607476635514018,
+        "relative_diff": 0.005033423822655235
+      },
+      "doğrusal": {
+        "2018": 1,
+        "2024": 20,
+        "total": 21,
+        "2018_relative": 0.000574052812858783,
+        "2024_relative": 0.0053404539385847796,
+        "relative_diff": 0.004766401125725996
+      },
+      "değerlen": {
+        "2018": 0,
+        "2024": 21,
+        "total": 21,
+        "2018_relative": 0.0,
+        "2024_relative": 0.005607476635514018,
+        "relative_diff": 0.005607476635514018
+      },
+      "limit": {
+        "2018": 4,
+        "2024": 16,
+        "total": 20,
+        "2018_relative": 0.002296211251435132,
+        "2024_relative": 0.004272363150867824,
+        "relative_diff": 0.0019761518994326917
+      },
+      "çıkarım": {
+        "2018": 0,
+        "2024": 20,
+        "total": 20,
+        "2018_relative": 0.0,
+        "2024_relative": 0.0053404539385847796,
+        "relative_diff": 0.0053404539385847796
+      },
+      "toplam": {
+        "2018": 10,
+        "2024": 10,
+        "total": 20,
+        "2018_relative": 0.0057405281285878304,
+        "2024_relative": 0.0026702269692923898,
+        "relative_diff": -0.0030703011592954407
+      },
+      "yönelik": {
+        "2018": 0,
+        "2024": 20,
+        "total": 20,
+        "2018_relative": 0.0,
+        "2024_relative": 0.0053404539385847796,
+        "relative_diff": 0.0053404539385847796
+      },
+      "oluştur": {
+        "2018": 1,
+        "2024": 18,
+        "total": 19,
+        "2018_relative": 0.000574052812858783,
+        "2024_relative": 0.004806408544726302,
+        "relative_diff": 0.004232355731867519
+      },
+      "parça": {
+        "2018": 8,
+        "2024": 11,
+        "total": 19,
+        "2018_relative": 0.004592422502870264,
+        "2024_relative": 0.002937249666221629,
+        "relative_diff": -0.0016551728366486352
+      },
+      "içer": {
+        "2018": 4,
+        "2024": 15,
+        "total": 19,
+        "2018_relative": 0.002296211251435132,
+        "2024_relative": 0.004005340453938585,
+        "relative_diff": 0.001709129202503453
+      },
+      "yöntem": {
+        "2018": 3,
+        "2024": 16,
+        "total": 19,
+        "2018_relative": 0.001722158438576349,
+        "2024_relative": 0.004272363150867824,
+        "relative_diff": 0.002550204712291475
+      },
+      "sözel": {
+        "2018": 1,
+        "2024": 18,
+        "total": 19,
+        "2018_relative": 0.000574052812858783,
+        "2024_relative": 0.004806408544726302,
+        "relative_diff": 0.004232355731867519
+      },
+      "kontrol": {
+        "2018": 0,
+        "2024": 19,
+        "total": 19,
+        "2018_relative": 0.0,
+        "2024_relative": 0.005073431241655541,
+        "relative_diff": 0.005073431241655541
+      },
+      "önerme": {
+        "2018": 1,
+        "2024": 18,
+        "total": 19,
+        "2018_relative": 0.000574052812858783,
+        "2024_relative": 0.004806408544726302,
+        "relative_diff": 0.004232355731867519
+      },
+      "bulun": {
+        "2018": 9,
+        "2024": 9,
+        "total": 18,
+        "2018_relative": 0.005166475315729047,
+        "2024_relative": 0.002403204272363151,
+        "relative_diff": -0.0027632710433658962
+      },
+      "alan": {
+        "2018": 15,
+        "2024": 3,
+        "total": 18,
+        "2018_relative": 0.008610792192881744,
+        "2024_relative": 0.0008010680907877169,
+        "relative_diff": -0.007809724102094027
+      },
+      "soru": {
+        "2018": 1,
+        "2024": 16,
+        "total": 17,
+        "2018_relative": 0.000574052812858783,
+        "2024_relative": 0.004272363150867824,
+        "relative_diff": 0.0036983103380090407
+      },
+      "bileşen": {
+        "2018": 1,
+        "2024": 16,
+        "total": 17,
+        "2018_relative": 0.000574052812858783,
+        "2024_relative": 0.004272363150867824,
+        "relative_diff": 0.0036983103380090407
+      },
+      "dörtgen": {
+        "2018": 7,
+        "2024": 9,
+        "total": 16,
+        "2018_relative": 0.004018369690011481,
+        "2024_relative": 0.002403204272363151,
+        "relative_diff": -0.00161516541764833
+      },
+      "teorem": {
+        "2018": 6,
+        "2024": 10,
+        "total": 16,
+        "2018_relative": 0.003444316877152698,
+        "2024_relative": 0.0026702269692923898,
+        "relative_diff": -0.0007740899078603081
+      },
+      "olay": {
+        "2018": 7,
+        "2024": 9,
+        "total": 16,
+        "2018_relative": 0.004018369690011481,
+        "2024_relative": 0.002403204272363151,
+        "relative_diff": -0.00161516541764833
+      },
+      "g(x": {
+        "2018": 0,
+        "2024": 16,
+        "total": 16,
+        "2018_relative": 0.0,
+        "2024_relative": 0.004272363150867824,
+        "relative_diff": 0.004272363150867824
+      },
+      "yardım": {
+        "2018": 14,
+        "2024": 2,
+        "total": 16,
+        "2018_relative": 0.008036739380022962,
+        "2024_relative": 0.000534045393858478,
+        "relative_diff": -0.007502693986164484
+      },
+      "istatistiksel": {
+        "2018": 0,
+        "2024": 16,
+        "total": 16,
+        "2018_relative": 0.0,
+        "2024_relative": 0.004272363150867824,
+        "relative_diff": 0.004272363150867824
+      },
+      "terim": {
+        "2018": 6,
+        "2024": 10,
+        "total": 16,
+        "2018_relative": 0.003444316877152698,
+        "2024_relative": 0.0026702269692923898,
+        "relative_diff": -0.0007740899078603081
+      },
+      "ulaş": {
+        "2018": 0,
+        "2024": 16,
+        "total": 16,
+        "2018_relative": 0.0,
+        "2024_relative": 0.004272363150867824,
+        "relative_diff": 0.004272363150867824
+      },
+      "sun": {
+        "2018": 0,
+        "2024": 15,
+        "total": 15,
+        "2018_relative": 0.0,
+        "2024_relative": 0.004005340453938585,
+        "relative_diff": 0.004005340453938585
+      },
+      "olası": {
+        "2018": 3,
+        "2024": 12,
+        "total": 15,
+        "2018_relative": 0.001722158438576349,
+        "2024_relative": 0.0032042723631508676,
+        "relative_diff": 0.0014821139245745187
+      },
+      "genel": {
+        "2018": 0,
+        "2024": 15,
+        "total": 15,
+        "2018_relative": 0.0,
+        "2024_relative": 0.004005340453938585,
+        "relative_diff": 0.004005340453938585
+      },
+      "sağla": {
+        "2018": 1,
+        "2024": 14,
+        "total": 15,
+        "2018_relative": 0.000574052812858783,
+        "2024_relative": 0.003738317757009346,
+        "relative_diff": 0.003164264944150563
+      },
+      "çember": {
+        "2018": 11,
+        "2024": 3,
+        "total": 14,
+        "2018_relative": 0.006314580941446613,
+        "2024_relative": 0.0008010680907877169,
+        "relative_diff": -0.005513512850658896
+      },
+      "süreç": {
+        "2018": 1,
+        "2024": 13,
+        "total": 14,
+        "2018_relative": 0.000574052812858783,
+        "2024_relative": 0.003471295060080107,
+        "relative_diff": 0.0028972422472213237
+      },
+      "göster": {
+        "2018": 9,
+        "2024": 5,
+        "total": 14,
+        "2018_relative": 0.005166475315729047,
+        "2024_relative": 0.0013351134846461949,
+        "relative_diff": -0.0038313618310828524
+      },
+      "çıktı": {
+        "2018": 0,
+        "2024": 14,
+        "total": 14,
+        "2018_relative": 0.0,
+        "2024_relative": 0.003738317757009346,
+        "relative_diff": 0.003738317757009346
+      },
+      "ispat": {
+        "2018": 0,
+        "2024": 14,
+        "total": 14,
+        "2018_relative": 0.0,
+        "2024_relative": 0.003738317757009346,
+        "relative_diff": 0.003738317757009346
+      },
+      "grafiksel": {
+        "2018": 1,
+        "2024": 13,
+        "total": 14,
+        "2018_relative": 0.000574052812858783,
+        "2024_relative": 0.003471295060080107,
+        "relative_diff": 0.0028972422472213237
+      },
+      "benze": {
+        "2018": 2,
+        "2024": 12,
+        "total": 14,
+        "2018_relative": 0.001148105625717566,
+        "2024_relative": 0.0032042723631508676,
+        "relative_diff": 0.002056166737433302
+      },
+      "bileşke": {
+        "2018": 2,
+        "2024": 11,
+        "total": 13,
+        "2018_relative": 0.001148105625717566,
+        "2024_relative": 0.002937249666221629,
+        "relative_diff": 0.0017891440405040629
+      }
+    },
+    "changed_terms": {
+      "increased": {
+        "belirle": {
+          "2018": 2,
+          "2024": 64,
+          "total": 66,
+          "2018_relative": 0.001148105625717566,
+          "2024_relative": 0.017089452603471295,
+          "relative_diff": 0.01594134697775373
+        },
+        "ilişkin": {
+          "2018": 1,
+          "2024": 54,
+          "total": 55,
+          "2018_relative": 0.000574052812858783,
+          "2024_relative": 0.014419225634178905,
+          "relative_diff": 0.013845172821320122
+        },
+        "varsayım": {
+          "2018": 0,
+          "2024": 49,
+          "total": 49,
+          "2018_relative": 0.0,
+          "2024_relative": 0.013084112149532711,
+          "relative_diff": 0.013084112149532711
+        },
+        "matematiksel": {
+          "2018": 0,
+          "2024": 45,
+          "total": 45,
+          "2018_relative": 0.0,
+          "2024_relative": 0.012016021361815754,
+          "relative_diff": 0.012016021361815754
+        },
+        "çözüm": {
+          "2018": 6,
+          "2024": 56,
+          "total": 62,
+          "2018_relative": 0.003444316877152698,
+          "2024_relative": 0.014953271028037384,
+          "relative_diff": 0.011508954150884685
+        },
+        "kullan": {
+          "2018": 10,
+          "2024": 63,
+          "total": 73,
+          "2018_relative": 0.0057405281285878304,
+          "2024_relative": 0.016822429906542057,
+          "relative_diff": 0.011081901777954227
+        },
+        "araştır": {
+          "2018": 0,
+          "2024": 39,
+          "total": 39,
+          "2018_relative": 0.0,
+          "2024_relative": 0.01041388518024032,
+          "relative_diff": 0.01041388518024032
+        },
+        "öğrenci": {
+          "2018": 0,
+          "2024": 38,
+          "total": 38,
+          "2018_relative": 0.0,
+          "2024_relative": 0.010146862483311082,
+          "relative_diff": 0.010146862483311082
+        },
+        "strateji": {
+          "2018": 2,
+          "2024": 41,
+          "total": 43,
+          "2018_relative": 0.001148105625717566,
+          "2024_relative": 0.010947930574098798,
+          "relative_diff": 0.009799824948381232
+        },
+        "fonksiyon": {
+          "2018": 57,
+          "2024": 158,
+          "total": 215,
+          "2018_relative": 0.032721010332950634,
+          "2024_relative": 0.04218958611481976,
+          "relative_diff": 0.009468575781869125
+        },
+        "temsil": {
+          "2018": 4,
+          "2024": 44,
+          "total": 48,
+          "2018_relative": 0.002296211251435132,
+          "2024_relative": 0.011748998664886516,
+          "relative_diff": 0.009452787413451383
+        },
+        "tanım": {
+          "2018": 6,
+          "2024": 47,
+          "total": 53,
+          "2018_relative": 0.003444316877152698,
+          "2024_relative": 0.012550066755674232,
+          "relative_diff": 0.009105749878521533
+        },
+        "nitel": {
+          "2018": 0,
+          "2024": 33,
+          "total": 33,
+          "2018_relative": 0.0,
+          "2024_relative": 0.008811748998664886,
+          "relative_diff": 0.008811748998664886
+        },
+        "cebirsel": {
+          "2018": 5,
+          "2024": 40,
+          "total": 45,
+          "2018_relative": 0.0028702640642939152,
+          "2024_relative": 0.010680907877169559,
+          "relative_diff": 0.007810643812875644
+        },
+        "dayalı": {
+          "2018": 0,
+          "2024": 27,
+          "total": 27,
+          "2018_relative": 0.0,
+          "2024_relative": 0.007209612817089452,
+          "relative_diff": 0.007209612817089452
+        },
+        "şekil": {
+          "2018": 2,
+          "2024": 31,
+          "total": 33,
+          "2018_relative": 0.001148105625717566,
+          "2024_relative": 0.008277703604806409,
+          "relative_diff": 0.007129597979088843
+        },
+        "karşıla": {
+          "2018": 0,
+          "2024": 25,
+          "total": 25,
+          "2018_relative": 0.0,
+          "2024_relative": 0.006675567423230975,
+          "relative_diff": 0.006675567423230975
+        },
+        "genelle": {
+          "2018": 0,
+          "2024": 24,
+          "total": 24,
+          "2018_relative": 0.0,
+          "2024_relative": 0.006408544726301735,
+          "relative_diff": 0.006408544726301735
+        },
+        "örüntü": {
+          "2018": 0,
+          "2024": 24,
+          "total": 24,
+          "2018_relative": 0.0,
+          "2024_relative": 0.006408544726301735,
+          "relative_diff": 0.006408544726301735
+        },
+        "referans": {
+          "2018": 0,
+          "2024": 24,
+          "total": 24,
+          "2018_relative": 0.0,
+          "2024_relative": 0.006408544726301735,
+          "relative_diff": 0.006408544726301735
+        },
+        "fark": {
+          "2018": 12,
+          "2024": 49,
+          "total": 61,
+          "2018_relative": 0.006888633754305396,
+          "2024_relative": 0.013084112149532711,
+          "relative_diff": 0.006195478395227315
+        },
+        "durum": {
+          "2018": 9,
+          "2024": 41,
+          "total": 50,
+          "2018_relative": 0.005166475315729047,
+          "2024_relative": 0.010947930574098798,
+          "relative_diff": 0.0057814552583697505
+        },
+        "değerlen": {
+          "2018": 0,
+          "2024": 21,
+          "total": 21,
+          "2018_relative": 0.0,
+          "2024_relative": 0.005607476635514018,
+          "relative_diff": 0.005607476635514018
+        },
+        "yönelik": {
+          "2018": 0,
+          "2024": 20,
+          "total": 20,
+          "2018_relative": 0.0,
+          "2024_relative": 0.0053404539385847796,
+          "relative_diff": 0.0053404539385847796
+        },
+        "çıkarım": {
+          "2018": 0,
+          "2024": 20,
+          "total": 20,
+          "2018_relative": 0.0,
+          "2024_relative": 0.0053404539385847796,
+          "relative_diff": 0.0053404539385847796
+        },
+        "kontrol": {
+          "2018": 0,
+          "2024": 19,
+          "total": 19,
+          "2018_relative": 0.0,
+          "2024_relative": 0.005073431241655541,
+          "relative_diff": 0.005073431241655541
+        },
+        "hareket": {
+          "2018": 1,
+          "2024": 21,
+          "total": 22,
+          "2018_relative": 0.000574052812858783,
+          "2024_relative": 0.005607476635514018,
+          "relative_diff": 0.005033423822655235
+        },
+        "öner": {
+          "2018": 1,
+          "2024": 21,
+          "total": 22,
+          "2018_relative": 0.000574052812858783,
+          "2024_relative": 0.005607476635514018,
+          "relative_diff": 0.005033423822655235
+        },
+        "doğrusal": {
+          "2018": 1,
+          "2024": 20,
+          "total": 21,
+          "2018_relative": 0.000574052812858783,
+          "2024_relative": 0.0053404539385847796,
+          "relative_diff": 0.004766401125725996
+        },
+        "veri": {
+          "2018": 5,
+          "2024": 28,
+          "total": 33,
+          "2018_relative": 0.0028702640642939152,
+          "2024_relative": 0.007476635514018692,
+          "relative_diff": 0.004606371449724776
+        },
+        "uygun": {
+          "2018": 2,
+          "2024": 21,
+          "total": 23,
+          "2018_relative": 0.001148105625717566,
+          "2024_relative": 0.005607476635514018,
+          "relative_diff": 0.004459371009796452
+        },
+        "değişken": {
+          "2018": 3,
+          "2024": 23,
+          "total": 26,
+          "2018_relative": 0.001722158438576349,
+          "2024_relative": 0.006141522029372497,
+          "relative_diff": 0.004419363590796147
+        },
+        "g(x": {
+          "2018": 0,
+          "2024": 16,
+          "total": 16,
+          "2018_relative": 0.0,
+          "2024_relative": 0.004272363150867824,
+          "relative_diff": 0.004272363150867824
+        },
+        "istatistiksel": {
+          "2018": 0,
+          "2024": 16,
+          "total": 16,
+          "2018_relative": 0.0,
+          "2024_relative": 0.004272363150867824,
+          "relative_diff": 0.004272363150867824
+        },
+        "ulaş": {
+          "2018": 0,
+          "2024": 16,
+          "total": 16,
+          "2018_relative": 0.0,
+          "2024_relative": 0.004272363150867824,
+          "relative_diff": 0.004272363150867824
+        },
+        "önerme": {
+          "2018": 1,
+          "2024": 18,
+          "total": 19,
+          "2018_relative": 0.000574052812858783,
+          "2024_relative": 0.004806408544726302,
+          "relative_diff": 0.004232355731867519
+        },
+        "sözel": {
+          "2018": 1,
+          "2024": 18,
+          "total": 19,
+          "2018_relative": 0.000574052812858783,
+          "2024_relative": 0.004806408544726302,
+          "relative_diff": 0.004232355731867519
+        },
+        "oluştur": {
+          "2018": 1,
+          "2024": 18,
+          "total": 19,
+          "2018_relative": 0.000574052812858783,
+          "2024_relative": 0.004806408544726302,
+          "relative_diff": 0.004232355731867519
+        },
+        "f(x": {
+          "2018": 3,
+          "2024": 22,
+          "total": 25,
+          "2018_relative": 0.001722158438576349,
+          "2024_relative": 0.005874499332443258,
+          "relative_diff": 0.0041523408938669085
+        },
+        "sun": {
+          "2018": 0,
+          "2024": 15,
+          "total": 15,
+          "2018_relative": 0.0,
+          "2024_relative": 0.004005340453938585,
+          "relative_diff": 0.004005340453938585
+        },
+        "genel": {
+          "2018": 0,
+          "2024": 15,
+          "total": 15,
+          "2018_relative": 0.0,
+          "2024_relative": 0.004005340453938585,
+          "relative_diff": 0.004005340453938585
+        },
+        "ispat": {
+          "2018": 0,
+          "2024": 14,
+          "total": 14,
+          "2018_relative": 0.0,
+          "2024_relative": 0.003738317757009346,
+          "relative_diff": 0.003738317757009346
+        },
+        "çıktı": {
+          "2018": 0,
+          "2024": 14,
+          "total": 14,
+          "2018_relative": 0.0,
+          "2024_relative": 0.003738317757009346,
+          "relative_diff": 0.003738317757009346
+        },
+        "ara": {
+          "2018": 14,
+          "2024": 44,
+          "total": 58,
+          "2018_relative": 0.008036739380022962,
+          "2024_relative": 0.011748998664886516,
+          "relative_diff": 0.0037122592848635536
+        },
+        "bileşen": {
+          "2018": 1,
+          "2024": 16,
+          "total": 17,
+          "2018_relative": 0.000574052812858783,
+          "2024_relative": 0.004272363150867824,
+          "relative_diff": 0.0036983103380090407
+        },
+        "soru": {
+          "2018": 1,
+          "2024": 16,
+          "total": 17,
+          "2018_relative": 0.000574052812858783,
+          "2024_relative": 0.004272363150867824,
+          "relative_diff": 0.0036983103380090407
+        },
+        "bağlam": {
+          "2018": 3,
+          "2024": 20,
+          "total": 23,
+          "2018_relative": 0.001722158438576349,
+          "2024_relative": 0.0053404539385847796,
+          "relative_diff": 0.0036182955000084306
+        },
+        "dizi": {
+          "2018": 0,
+          "2024": 13,
+          "total": 13,
+          "2018_relative": 0.0,
+          "2024_relative": 0.003471295060080107,
+          "relative_diff": 0.003471295060080107
+        },
+        "kâğıd": {
+          "2018": 0,
+          "2024": 12,
+          "total": 12,
+          "2018_relative": 0.0,
+          "2024_relative": 0.0032042723631508676,
+          "relative_diff": 0.0032042723631508676
+        },
+        "ödev": {
+          "2018": 0,
+          "2024": 12,
+          "total": 12,
+          "2018_relative": 0.0,
+          "2024_relative": 0.0032042723631508676,
+          "relative_diff": 0.0032042723631508676
+        }
+      },
+      "decreased": {
+        "ver": {
+          "2018": 77,
+          "2024": 19,
+          "total": 96,
+          "2018_relative": 0.04420206659012629,
+          "2024_relative": 0.005073431241655541,
+          "relative_diff": -0.039128635348470754
+        },
+        "yer": {
+          "2018": 55,
+          "2024": 8,
+          "total": 63,
+          "2018_relative": 0.03157290470723306,
+          "2024_relative": 0.002136181575433912,
+          "relative_diff": -0.02943672313179915
+        },
+        "iletişim": {
+          "2018": 27,
+          "2024": 0,
+          "total": 27,
+          "2018_relative": 0.015499425947187142,
+          "2024_relative": 0.0,
+          "relative_diff": -0.015499425947187142
+        },
+        "hayat(i)": {
+          "2018": 26,
+          "2024": 1,
+          "total": 27,
+          "2018_relative": 0.014925373134328358,
+          "2024_relative": 0.000267022696929239,
+          "relative_diff": -0.01465835043739912
+        },
+        "teknoloji": {
+          "2018": 25,
+          "2024": 0,
+          "total": 25,
+          "2018_relative": 0.014351320321469576,
+          "2024_relative": 0.0,
+          "relative_diff": -0.014351320321469576
+        },
+        "kavram": {
+          "2018": 24,
+          "2024": 2,
+          "total": 26,
+          "2018_relative": 0.013777267508610792,
+          "2024_relative": 0.000534045393858478,
+          "relative_diff": -0.013243222114752314
+        },
+        "yararlan": {
+          "2018": 24,
+          "2024": 5,
+          "total": 29,
+          "2018_relative": 0.013777267508610792,
+          "2024_relative": 0.0013351134846461949,
+          "relative_diff": -0.012442154023964596
+        },
+        "grafik": {
+          "2018": 33,
+          "2024": 26,
+          "total": 59,
+          "2018_relative": 0.01894374282433984,
+          "2024_relative": 0.006942590120160214,
+          "relative_diff": -0.012001152704179625
+        },
+        "kenar": {
+          "2018": 24,
+          "2024": 12,
+          "total": 36,
+          "2018_relative": 0.013777267508610792,
+          "2024_relative": 0.0032042723631508676,
+          "relative_diff": -0.010572995145459924
+        },
+        "üçgen": {
+          "2018": 28,
+          "2024": 21,
+          "total": 49,
+          "2018_relative": 0.016073478760045924,
+          "2024_relative": 0.005607476635514018,
+          "relative_diff": -0.010466002124531906
+        },
+        "üzer": {
+          "2018": 23,
+          "2024": 15,
+          "total": 38,
+          "2018_relative": 0.01320321469575201,
+          "2024_relative": 0.004005340453938585,
+          "relative_diff": -0.009197874241813425
+        },
+        "gerçek": {
+          "2018": 32,
+          "2024": 37,
+          "total": 69,
+          "2018_relative": 0.018369690011481057,
+          "2024_relative": 0.009879839786381843,
+          "relative_diff": -0.008489850225099214
+        },
+        "alan": {
+          "2018": 15,
+          "2024": 3,
+          "total": 18,
+          "2018_relative": 0.008610792192881744,
+          "2024_relative": 0.0008010680907877169,
+          "relative_diff": -0.007809724102094027
+        },
+        "yardım": {
+          "2018": 14,
+          "2024": 2,
+          "total": 16,
+          "2018_relative": 0.008036739380022962,
+          "2024_relative": 0.000534045393858478,
+          "relative_diff": -0.007502693986164484
+        },
+        "uzunluk": {
+          "2018": 13,
+          "2024": 0,
+          "total": 13,
+          "2018_relative": 0.007462686567164179,
+          "2024_relative": 0.0,
+          "relative_diff": -0.007462686567164179
+        },
+        "dur": {
+          "2018": 12,
+          "2024": 1,
+          "total": 13,
+          "2018_relative": 0.006888633754305396,
+          "2024_relative": 0.000267022696929239,
+          "relative_diff": -0.006621611057376157
+        },
+        "nokta": {
+          "2018": 25,
+          "2024": 29,
+          "total": 54,
+          "2018_relative": 0.014351320321469576,
+          "2024_relative": 0.007743658210947931,
+          "relative_diff": -0.006607662110521645
+        },
+        "küme": {
+          "2018": 18,
+          "2024": 15,
+          "total": 33,
+          "2018_relative": 0.010332950631458095,
+          "2024_relative": 0.004005340453938585,
+          "relative_diff": -0.0063276101775195095
+        },
+        "çiz": {
+          "2018": 11,
+          "2024": 1,
+          "total": 12,
+          "2018_relative": 0.006314580941446613,
+          "2024_relative": 0.000267022696929239,
+          "relative_diff": -0.006047558244517374
+        },
+        "çember": {
+          "2018": 11,
+          "2024": 3,
+          "total": 14,
+          "2018_relative": 0.006314580941446613,
+          "2024_relative": 0.0008010680907877169,
+          "relative_diff": -0.005513512850658896
+        },
+        "açı": {
+          "2018": 19,
+          "2024": 21,
+          "total": 40,
+          "2018_relative": 0.010907003444316877,
+          "2024_relative": 0.005607476635514018,
+          "relative_diff": -0.005299526808802859
+        },
+        "hatırlat": {
+          "2018": 10,
+          "2024": 2,
+          "total": 12,
+          "2018_relative": 0.0057405281285878304,
+          "2024_relative": 0.000534045393858478,
+          "relative_diff": -0.005206482734729352
+        },
+        "bilgi": {
+          "2018": 13,
+          "2024": 10,
+          "total": 23,
+          "2018_relative": 0.007462686567164179,
+          "2024_relative": 0.0026702269692923898,
+          "relative_diff": -0.004792459597871789
+        },
+        "ilişkilendir": {
+          "2018": 9,
+          "2024": 2,
+          "total": 11,
+          "2018_relative": 0.005166475315729047,
+          "2024_relative": 0.000534045393858478,
+          "relative_diff": -0.004632429921870569
+        },
+        "dış": {
+          "2018": 9,
+          "2024": 2,
+          "total": 11,
+          "2018_relative": 0.005166475315729047,
+          "2024_relative": 0.000534045393858478,
+          "relative_diff": -0.004632429921870569
+        },
+        "eksen": {
+          "2018": 8,
+          "2024": 0,
+          "total": 8,
+          "2018_relative": 0.004592422502870264,
+          "2024_relative": 0.0,
+          "relative_diff": -0.004592422502870264
+        },
+        "gir": {
+          "2018": 8,
+          "2024": 0,
+          "total": 8,
+          "2018_relative": 0.004592422502870264,
+          "2024_relative": 0.0,
+          "relative_diff": -0.004592422502870264
+        },
+        "açıkla": {
+          "2018": 8,
+          "2024": 0,
+          "total": 8,
+          "2018_relative": 0.004592422502870264,
+          "2024_relative": 0.0,
+          "relative_diff": -0.004592422502870264
+        },
+        "uygulama": {
+          "2018": 9,
+          "2024": 3,
+          "total": 12,
+          "2018_relative": 0.005166475315729047,
+          "2024_relative": 0.0008010680907877169,
+          "relative_diff": -0.00436540722494133
+        },
+        "göster": {
+          "2018": 9,
+          "2024": 5,
+          "total": 14,
+          "2018_relative": 0.005166475315729047,
+          "2024_relative": 0.0013351134846461949,
+          "relative_diff": -0.0038313618310828524
+        },
+        "denklem": {
+          "2018": 13,
+          "2024": 14,
+          "total": 27,
+          "2018_relative": 0.007462686567164179,
+          "2024_relative": 0.003738317757009346,
+          "relative_diff": -0.003724368810154833
+        },
+        "nin": {
+          "2018": 6,
+          "2024": 0,
+          "total": 6,
+          "2018_relative": 0.003444316877152698,
+          "2024_relative": 0.0,
+          "relative_diff": -0.003444316877152698
+        },
+        "buldur": {
+          "2018": 6,
+          "2024": 0,
+          "total": 6,
+          "2018_relative": 0.003444316877152698,
+          "2024_relative": 0.0,
+          "relative_diff": -0.003444316877152698
+        },
+        "kare": {
+          "2018": 6,
+          "2024": 0,
+          "total": 6,
+          "2018_relative": 0.003444316877152698,
+          "2024_relative": 0.0,
+          "relative_diff": -0.003444316877152698
+        },
+        "orantı": {
+          "2018": 6,
+          "2024": 0,
+          "total": 6,
+          "2018_relative": 0.003444316877152698,
+          "2024_relative": 0.0,
+          "relative_diff": -0.003444316877152698
+        },
+        "merkez": {
+          "2018": 6,
+          "2024": 0,
+          "total": 6,
+          "2018_relative": 0.003444316877152698,
+          "2024_relative": 0.0,
+          "relative_diff": -0.003444316877152698
+        },
+        "alt": {
+          "2018": 6,
+          "2024": 1,
+          "total": 7,
+          "2018_relative": 0.003444316877152698,
+          "2024_relative": 0.000267022696929239,
+          "relative_diff": -0.0031772941802234588
+        },
+        "toplam": {
+          "2018": 10,
+          "2024": 10,
+          "total": 20,
+          "2018_relative": 0.0057405281285878304,
+          "2024_relative": 0.0026702269692923898,
+          "relative_diff": -0.0030703011592954407
+        },
+        "derece": {
+          "2018": 7,
+          "2024": 4,
+          "total": 11,
+          "2018_relative": 0.004018369690011481,
+          "2024_relative": 0.001068090787716956,
+          "relative_diff": -0.0029502789022945253
+        },
+        "eşit": {
+          "2018": 6,
+          "2024": 2,
+          "total": 8,
+          "2018_relative": 0.003444316877152698,
+          "2024_relative": 0.000534045393858478,
+          "relative_diff": -0.00291027148329422
+        },
+        "ters": {
+          "2018": 6,
+          "2024": 2,
+          "total": 8,
+          "2018_relative": 0.003444316877152698,
+          "2024_relative": 0.000534045393858478,
+          "relative_diff": -0.00291027148329422
+        },
+        "cetvel": {
+          "2018": 5,
+          "2024": 0,
+          "total": 5,
+          "2018_relative": 0.0028702640642939152,
+          "2024_relative": 0.0,
+          "relative_diff": -0.0028702640642939152
+        },
+        "grafiğ": {
+          "2018": 5,
+          "2024": 0,
+          "total": 5,
+          "2018_relative": 0.0028702640642939152,
+          "2024_relative": 0.0,
+          "relative_diff": -0.0028702640642939152
+        },
+        "ölçü": {
+          "2018": 5,
+          "2024": 0,
+          "total": 5,
+          "2018_relative": 0.0028702640642939152,
+          "2024_relative": 0.0,
+          "relative_diff": -0.0028702640642939152
+        },
+        "ayrık": {
+          "2018": 5,
+          "2024": 0,
+          "total": 5,
+          "2018_relative": 0.0028702640642939152,
+          "2024_relative": 0.0,
+          "relative_diff": -0.0028702640642939152
+        },
+        "bulun": {
+          "2018": 9,
+          "2024": 9,
+          "total": 18,
+          "2018_relative": 0.005166475315729047,
+          "2024_relative": 0.002403204272363151,
+          "relative_diff": -0.0027632710433658962
+        },
+        "alın": {
+          "2018": 7,
+          "2024": 5,
+          "total": 12,
+          "2018_relative": 0.004018369690011481,
+          "2024_relative": 0.0013351134846461949,
+          "relative_diff": -0.002683256205365286
+        },
+        "çarpan": {
+          "2018": 7,
+          "2024": 5,
+          "total": 12,
+          "2018_relative": 0.004018369690011481,
+          "2024_relative": 0.0013351134846461949,
+          "relative_diff": -0.002683256205365286
+        },
+        "hesapla": {
+          "2018": 6,
+          "2024": 3,
+          "total": 9,
+          "2018_relative": 0.003444316877152698,
+          "2024_relative": 0.0008010680907877169,
+          "relative_diff": -0.002643248786364981
+        },
+        "sayıs": {
+          "2018": 5,
+          "2024": 1,
+          "total": 6,
+          "2018_relative": 0.0028702640642939152,
+          "2024_relative": 0.000267022696929239,
+          "relative_diff": -0.002603241367364676
+        }
+      }
+    }
+  },
+  "cognitive_dimensions": {
+    "verb_analysis": {
+      "top_verbs": {
+        "et": {
+          "2018": 8,
+          "2024": 91,
+          "total": 99
+        },
+        "ver": {
+          "2018": 76,
+          "2024": 19,
+          "total": 95
+        },
+        "ol": {
+          "2018": 40,
+          "2024": 41,
+          "total": 81
+        },
+        "kullan": {
+          "2018": 10,
+          "2024": 61,
+          "total": 71
+        },
+        "belirle": {
+          "2018": 2,
+          "2024": 54,
+          "total": 56
+        },
+        "yap": {
+          "2018": 13,
+          "2024": 28,
+          "total": 41
+        },
+        "araştır": {
+          "2018": 0,
+          "2024": 39,
+          "total": 39
+        },
+        "NaN": {
+          "2018": 2,
+          "2024": 34,
+          "total": 36
+        },
+        "incele": {
+          "2018": 7,
+          "2024": 27,
+          "total": 34
+        },
+        "al": {
+          "2018": 9,
+          "2024": 22,
+          "total": 31
+        },
+        "yararlan": {
+          "2018": 24,
+          "2024": 5,
+          "total": 29
+        },
+        "çalış": {
+          "2018": 11,
+          "2024": 17,
+          "total": 28
+        },
+        "karşıla": {
+          "2018": 0,
+          "2024": 24,
+          "total": 24
+        },
+        "oluş": {
+          "2018": 5,
+          "2024": 19,
+          "total": 24
+        },
+        "içer": {
+          "2018": 4,
+          "2024": 15,
+          "total": 19
+        },
+        "bulun": {
+          "2018": 9,
+          "2024": 9,
+          "total": 18
+        },
+        "oluştur": {
+          "2018": 1,
+          "2024": 17,
+          "total": 18
+        },
+        "değerlen": {
+          "2018": 0,
+          "2024": 17,
+          "total": 17
+        },
+        "sağla": {
+          "2018": 1,
+          "2024": 14,
+          "total": 15
+        },
+        "sun": {
+          "2018": 0,
+          "2024": 14,
+          "total": 14
+        },
+        "göster": {
+          "2018": 9,
+          "2024": 5,
+          "total": 14
+        },
+        "dur": {
+          "2018": 12,
+          "2024": 1,
+          "total": 13
+        },
+        "yorumla": {
+          "2018": 3,
+          "2024": 10,
+          "total": 13
+        },
+        "alın": {
+          "2018": 7,
+          "2024": 5,
+          "total": 12
+        },
+        "genel": {
+          "2018": 0,
+          "2024": 12,
+          "total": 12
+        },
+        "hatırlat": {
+          "2018": 10,
+          "2024": 2,
+          "total": 12
+        },
+        "seç": {
+          "2018": 2,
+          "2024": 8,
+          "total": 10
+        },
+        "ilişkilendir": {
+          "2018": 8,
+          "2024": 2,
+          "total": 10
+        },
+        "ulaş": {
+          "2018": 0,
+          "2024": 10,
+          "total": 10
+        },
+        "edil": {
+          "2018": 0,
+          "2024": 10,
+          "total": 10
+        },
+        "topla": {
+          "2018": 1,
+          "2024": 8,
+          "total": 9
+        },
+        "say": {
+          "2018": 2,
+          "2024": 7,
+          "total": 9
+        },
+        "benze": {
+          "2018": 1,
+          "2024": 8,
+          "total": 9
+        },
+        "doğru": {
+          "2018": 0,
+          "2024": 9,
+          "total": 9
+        },
+        "değerlendir": {
+          "2018": 0,
+          "2024": 9,
+          "total": 9
+        },
+        "yarar": {
+          "2018": 1,
+          "2024": 7,
+          "total": 8
+        },
+        "gerek": {
+          "2018": 3,
+          "2024": 5,
+          "total": 8
+        },
+        "gir": {
+          "2018": 8,
+          "2024": 0,
+          "total": 8
+        },
+        "iste": {
+          "2018": 0,
+          "2024": 8,
+          "total": 8
+        },
+        "açıkla": {
+          "2018": 8,
+          "2024": 0,
+          "total": 8
+        },
+        "Belirle": {
+          "2018": 0,
+          "2024": 8,
+          "total": 8
+        },
+        "ispat": {
+          "2018": 0,
+          "2024": 7,
+          "total": 7
+        },
+        "geçir": {
+          "2018": 0,
+          "2024": 7,
+          "total": 7
+        },
+        "çöze": {
+          "2018": 0,
+          "2024": 7,
+          "total": 7
+        },
+        "Öner": {
+          "2018": 0,
+          "2024": 7,
+          "total": 7
+        },
+        "hesapla": {
+          "2018": 5,
+          "2024": 2,
+          "total": 7
+        },
+        "buldur": {
+          "2018": 6,
+          "2024": 0,
+          "total": 6
+        },
+        "çiz": {
+          "2018": 5,
+          "2024": 1,
+          "total": 6
+        },
+        "türet": {
+          "2018": 0,
+          "2024": 6,
+          "total": 6
+        },
+        "Ulaş": {
+          "2018": 0,
+          "2024": 6,
+          "total": 6
+        }
+      },
+      "blooms_taxonomy": {}
+    },
+    "cognitive_complexity": {
+      "2018": {
+        "level_counts": {
+          "remember": 5,
+          "understand": 12,
+          "apply": 25,
+          "analyze": 8,
+          "evaluate": 1,
+          "create": 2
+        },
+        "level_percentages": {
+          "remember": 1.9607843137254901,
+          "understand": 4.705882352941177,
+          "apply": 9.803921568627452,
+          "analyze": 3.1372549019607843,
+          "evaluate": 0.39215686274509803,
+          "create": 0.7843137254901961
+        },
+        "total_objectives": 255
+      },
+      "2024": {
+        "level_counts": {
+          "remember": 49,
+          "understand": 9,
+          "apply": 67,
+          "analyze": 30,
+          "evaluate": 17,
+          "create": 24
+        },
+        "level_percentages": {
+          "remember": 9.158878504672897,
+          "understand": 1.6822429906542056,
+          "apply": 12.52336448598131,
+          "analyze": 5.607476635514018,
+          "evaluate": 3.177570093457944,
+          "create": 4.485981308411215
+        },
+        "total_objectives": 535
+      }
+    }
+  },
+  "complexity_metrics": {
+    "objective_complexity": {
+      "token_count": {
+        "2018": {
+          "mean": 8.092715231788079,
+          "median": 8.0,
+          "std": 4.1152031446770545,
+          "min": 1.0,
+          "max": 21.0
+        },
+        "2024": {
+          "mean": 6.6604244694132335,
+          "median": 7.0,
+          "std": 3.7781667935124967,
+          "min": 0.0,
+          "max": 20.0
+        },
+        "change": {
+          "absolute": -1.432290762374845,
+          "percentage": -17.698519240474766
+        }
+      },
+      "unique_tokens": {
+        "2018": {
+          "mean": 7.632450331125828,
+          "median": 7.0,
+          "std": 3.5634737926560835,
+          "min": 1.0,
+          "max": 16.0
+        },
+        "2024": {
+          "mean": 6.466916354556804,
+          "median": 7.0,
+          "std": 3.58248748835843,
+          "min": 0.0,
+          "max": 16.0
+        },
+        "change": {
+          "absolute": -1.1655339765690238,
+          "percentage": -15.270770538995453
+        }
+      },
+      "lexical_diversity": {
+        "2018": {
+          "mean": 0.9666800103545332,
+          "median": 1.0,
+          "std": 0.08945221744960216,
+          "min": 0.3333333333333333,
+          "max": 1.0
+        },
+        "2024": {
+          "mean": 0.9667954748232691,
+          "median": 1.0,
+          "std": 0.1335828764932055,
+          "min": 0.0,
+          "max": 1.0
+        },
+        "change": {
+          "absolute": 0.000115464468735893,
+          "percentage": 0.011944435335281839
+        }
+      },
+      "avg_token_length": {
+        "2018": {
+          "mean": 6.705460216048938,
+          "median": 6.8,
+          "std": 1.9661703845416612,
+          "min": 1.0,
+          "max": 14.0
+        },
+        "2024": {
+          "mean": 6.82086640471472,
+          "median": 7.166666666666667,
+          "std": 2.5986038857813565,
+          "min": 0.0,
+          "max": 14.333333333333334
+        },
+        "change": {
+          "absolute": 0.11540618866578178,
+          "percentage": 1.721077822362842
+        }
+      },
+      "sentence_count": {
+        "2018": {
+          "mean": 1.0231788079470199,
+          "median": 1.0,
+          "std": 0.1713513646885664,
+          "min": 1.0,
+          "max": 3.0
+        },
+        "2024": {
+          "mean": 1.1173533083645444,
+          "median": 1.0,
+          "std": 0.4046121430050834,
+          "min": 0.0,
+          "max": 4.0
+        },
+        "change": {
+          "absolute": 0.09417450041752451,
+          "percentage": 9.204109749544466
+        }
+      }
+    },
+    "section_complexity": {
+      "2018": {
+        "10.1.1.1. Olayların gerçekleşme sayısını toplama ve çarpma yöntemlerini kullanarak hesaplar.": {
+          "token_count": 8.666666666666666,
+          "lexical_diversity": 1.0
+        },
+        "10.1.1.3.  Sınırlı  sayıda  tekrarlayan  nesnelerin  dizilişlerini  (permütasyonlarını)  açıklayarak  problemler": {
+          "token_count": 10.0,
+          "lexical_diversity": 1.0
+        },
+        "10.1.1.4. n elemanlı bir kümenin r tane elemanının kaç farklı şekilde seçilebileceğini hesaplar.": {
+          "token_count": 5.666666666666667,
+          "lexical_diversity": 1.0
+        },
+        "10.1.1.5. Pascal üçgenini açıklar.": {
+          "token_count": 9.0,
+          "lexical_diversity": 0.6666666666666666
+        },
+        "10.1.1.6. Binom açılımını yapar.": {
+          "token_count": 6.666666666666667,
+          "lexical_diversity": 1.0
+        },
+        "10.1.2.1. Örnek uzay, deney, çıktı, bir olayın tümleyeni, kesin olay, imkânsız olay, ayrık olay ve ayrık": {
+          "token_count": 10.0,
+          "lexical_diversity": 0.8722222222222222
+        },
+        "10.1.2.2. Olasılık kavramı ile ilgili uygulamalar yapar.": {
+          "token_count": 6.5,
+          "lexical_diversity": 0.9545454545454546
+        },
+        "10.2.1.1. Fonksiyonlarla ilgili problemler çözer.": {
+          "token_count": 7.6,
+          "lexical_diversity": 0.9384615384615385
+        },
+        "10.2.1.2. Fonksiyonların grafiklerini çizer.": {
+          "token_count": 12.0,
+          "lexical_diversity": 0.9607843137254902
+        },
+        "10.2.1.3. Fonksiyonların grafiklerini yorumlar.": {
+          "token_count": 9.8,
+          "lexical_diversity": 0.9857142857142858
+        },
+        "10.2.2.1. Bire bir ve örten fonksiyonlar ile ilgili uygulamalar yapar.": {
+          "token_count": 14.5,
+          "lexical_diversity": 0.861904761904762
+        },
+        "10.2.2.2. Fonksiyonlarda bileşke işlemiyle ilgili işlemler yapar.": {
+          "token_count": 8.666666666666666,
+          "lexical_diversity": 0.9666666666666667
+        },
+        "10.2.2.3. Verilen bir fonksiyonun tersini bulur.": {
+          "token_count": 9.666666666666666,
+          "lexical_diversity": 0.9285714285714285
+        },
+        "10.3.1.1. Bir değişkenli polinom kavramını açıklar.": {
+          "token_count": 8.5,
+          "lexical_diversity": 1.0
+        },
+        "10.3.1.2. Polinomlarla toplama, çıkarma, çarpma ve bölme işlemlerini yapar.": {
+          "token_count": 7.0,
+          "lexical_diversity": 1.0
+        },
+        "10.3.2.1. Bir polinomu çarpanlarına ayırır.": {
+          "token_count": 10.666666666666666,
+          "lexical_diversity": 0.9019607843137255
+        },
+        "10.3.2.2. Rasyonel ifadelerin sadeleştirilmesi ile ilgili işlemler yapar.": {
+          "token_count": 6.5,
+          "lexical_diversity": 1.0
+        },
+        "10.4.1.2. İkinci dereceden bir bilinmeyenli denklemleri çözer.": {
+          "token_count": 8.25,
+          "lexical_diversity": 0.9705882352941176
+        },
+        "10.4.1.3. Bir karmaşık sayının a+ib (a,b": {
+          "token_count": 4.333333333333333,
+          "lexical_diversity": 1.0
+        },
+        "10.4.1.4.  İkinci  dereceden  bir  bilinmeyenli  denklemin  kökleri  ile  katsayıları  arasındaki  ilişkileri": {
+          "token_count": 12.0,
+          "lexical_diversity": 1.0
+        },
+        "10.5.1.1. Çokgen kavramını açıklayarak işlemler yapar.": {
+          "token_count": 7.333333333333333,
+          "lexical_diversity": 1.0
+        },
+        "10.5.2.1. Dörtgenin temel elemanlarını ve özelliklerini açıklayarak problemler çözer.": {
+          "token_count": 8.0,
+          "lexical_diversity": 0.9722222222222222
+        },
+        "10.5.3.1. Özel dörtgenlerin açı, kenar, köşegen ve alan özelliklerini açıklayarak problemler çözer.": {
+          "token_count": 9.25,
+          "lexical_diversity": 1.0
+        },
+        "10.6.1.1. Dik prizmalar ve dik piramitlerin uzunluk, alan ve hacim bağıntılarını oluşturur.": {
+          "token_count": 6.333333333333333,
+          "lexical_diversity": 1.0
+        },
+        "11.1.1.2. Açı ölçü birimlerini açıklayarak birbiri ile ilişkilendirir.": {
+          "token_count": 6.0,
+          "lexical_diversity": 1.0
+        },
+        "11.1.2.1. Trigonometrik fonksiyonları birim çember yardımıyla açıklar.": {
+          "token_count": 3.8,
+          "lexical_diversity": 1.0
+        },
+        "11.1.2.2. Kosinüs teoremiyle ilgili problemler çözer.": {
+          "token_count": 6.0,
+          "lexical_diversity": 1.0
+        },
+        "11.1.2.3. Sinüs teoremiyle ilgili problemler çözer.": {
+          "token_count": 8.0,
+          "lexical_diversity": 1.0
+        },
+        "11.1.2.4. Trigonometrik fonksiyon grafiklerini çizer.": {
+          "token_count": 10.0,
+          "lexical_diversity": 0.9253472222222222
+        },
+        "11.2.1.2. Bir doğru parçasını belli bir oranda (içten veya dıştan) bölen noktanın koordinatlarını hesaplar.": {
+          "token_count": 6.5,
+          "lexical_diversity": 1.0
+        },
+        "11.2.1.3. Analitik düzlemde doğruları inceleyerek işlemler yapar.": {
+          "token_count": 7.5,
+          "lexical_diversity": 0.9791666666666666
+        },
+        "11.3.1.1. Fonksiyonun grafik ve tablo temsilini kullanarak problem çözer.": {
+          "token_count": 10.5,
+          "lexical_diversity": 0.9416666666666667
+        },
+        "11.3.2.1. İkinci dereceden bir değişkenli fonksiyonun grafiğini çizerek yorumlar.": {
+          "token_count": 9.25,
+          "lexical_diversity": 0.9365079365079365
+        },
+        "11.3.2.2. Seyahatlerde mümkün olan alternatifleri karşılaştırır.": {
+          "token_count": 6.0,
+          "lexical_diversity": 1.0
+        },
+        "11.3.3.1. Bir fonksiyonun grafiğinden, dönüşümler yardımı ile yeni fonksiyon grafikleri çizer.": {
+          "token_count": 10.0,
+          "lexical_diversity": 0.8333333333333334
+        },
+        "11.4.2.1. İkinci dereceden bir bilinmeyenli eşitsizliklerin çözüm kümesini bulur.": {
+          "token_count": 7.0,
+          "lexical_diversity": 1.0
+        },
+        "11.4.3.1. Dairenin çevre ve alan bağıntılarını oluşturur.": {
+          "token_count": 8.0,
+          "lexical_diversity": 1.0
+        },
+        "11.5.1.2. Çemberde kirişin özelliklerini göstererek işlemler yapar.": {
+          "token_count": 13.0,
+          "lexical_diversity": 0.8571428571428572
+        },
+        "11.5.2.1. Bir çemberde merkez, çevre, iç, dış ve teğet-kiriş açıların özelliklerini kullanarak işlemler yapar.": {
+          "token_count": 7.0,
+          "lexical_diversity": 1.0
+        },
+        "11.5.3.1. Çemberde teğetin özelliklerini göstererek işlemler yapar.": {
+          "token_count": 8.0,
+          "lexical_diversity": 0.9583333333333334
+        },
+        "11.5.4.1. Dairenin çevre ve alan bağıntılarını oluşturur.": {
+          "token_count": 7.666666666666667,
+          "lexical_diversity": 1.0
+        },
+        "11.6.1.1. Küre, dik dairesel silindir ve dik dairesel koninin alan ve hacim bağıntılarını oluşturarak": {
+          "token_count": 5.0,
+          "lexical_diversity": 1.0
+        },
+        "11.7.1.1. Koşullu olasılığı açıklayarak problemler çözer.": {
+          "token_count": 5.5,
+          "lexical_diversity": 1.0
+        },
+        "11.7.1.3. Bileşik olayı açıklayarak gerçekleşme olasılığını hesaplar.": {
+          "token_count": 6.0,
+          "lexical_diversity": 1.0
+        },
+        "12.1.1.1. Üslü ve köklü ifadeler içeren denklemler çözer.": {
+          "token_count": 5.5,
+          "lexical_diversity": 1.0
+        },
+        "12.1.1.1. Üstel fonksiyonu açıklar.": {
+          "token_count": 8.5,
+          "lexical_diversity": 1.0
+        },
+        "12.1.2.1. Logaritma fonksiyonu ile üstel fonksiyonu ilişkilendirerek problemler çözer.": {
+          "token_count": 7.666666666666667,
+          "lexical_diversity": 1.0
+        },
+        "12.1.2.1. Yüzde, oran ve orantı kavramlarıyla ilgili problemler çözer.": {
+          "token_count": 8.0,
+          "lexical_diversity": 1.0
+        },
+        "12.1.3.2. Üstel ve logaritmik fonksiyonları gerçek hayat durumlarını modellemede kullanır.": {
+          "token_count": 7.0,
+          "lexical_diversity": 1.0
+        },
+        "12.2.1.1. Gerçek hayat durumlarıyla ilgili istatistik problemleri çözer.": {
+          "token_count": 11.666666666666666,
+          "lexical_diversity": 0.9761904761904763
+        },
+        "12.2.1.3. Aritmetik ve geometrik dizilerin özelliklerini kullanarak işlemler yapar.": {
+          "token_count": 5.5,
+          "lexical_diversity": 1.0
+        },
+        "12.3.1.1. Çevre, alan ve hacim ölçmeye yönelik problemler çözer.": {
+          "token_count": 10.333333333333334,
+          "lexical_diversity": 0.9487179487179489
+        },
+        "12.3.2.1. Trigonometrik denklemlerin çözüm kümelerini bulur.": {
+          "token_count": 4.333333333333333,
+          "lexical_diversity": 1.0
+        },
+        "12.4.1.1. Analitik düzlemde koordinatları verilen bir noktanın öteleme, dönme ve simetri dönüşümleri": {
+          "token_count": 10.666666666666666,
+          "lexical_diversity": 0.9252525252525253
+        },
+        "12.4.1.1. Küre ve dik dairesel silindirin alan ve hacim ölçmeye yönelik problemler çözer.": {
+          "token_count": 5.0,
+          "lexical_diversity": 1.0
+        },
+        "12.4.1.2. Temel dönüşümler ve bileşkeleriyle ilgili problem çözer.": {
+          "token_count": 5.0,
+          "lexical_diversity": 1.0
+        },
+        "12.5.1.1. Bir fonksiyonun bir noktadaki limiti, soldan limit ve sağdan limit kavramlarını açıklar.": {
+          "token_count": 7.666666666666667,
+          "lexical_diversity": 0.9743589743589745
+        },
+        "12.5.1.2. Limit ile ilgili özellikleri belirterek uygulamalar yapar.": {
+          "token_count": 9.333333333333334,
+          "lexical_diversity": 1.0
+        },
+        "12.5.1.3. Bir fonksiyonun bir noktadaki sürekliliğini açıklar.": {
+          "token_count": 9.333333333333334,
+          "lexical_diversity": 1.0
+        },
+        "12.5.2.1. Türev kavramını açıklayarak işlemler yapar.": {
+          "token_count": 8.0,
+          "lexical_diversity": 0.9523809523809524
+        },
+        "12.5.2.2. Bir fonksiyonun bir noktada ve bir aralıkta türevlenebilirliğini değerlendirir.": {
+          "token_count": 10.0,
+          "lexical_diversity": 0.9583333333333333
+        },
+        "12.5.3.3. Türevi yardımıyla bir fonksiyonun grafiğini çizer.": {
+          "token_count": 5.0,
+          "lexical_diversity": 1.0
+        },
+        "12.6.1.1. Bir fonksiyonun belirsiz integralini açıklayarak integral alma kurallarını oluşturur.": {
+          "token_count": 6.5,
+          "lexical_diversity": 0.9615384615384616
+        },
+        "12.6.2.1. Bir fonksiyonun grafiği ile x ekseni arasında kalan sınırlı bölgenin alanını Riemann toplamı": {
+          "token_count": 6.333333333333333,
+          "lexical_diversity": 1.0
+        },
+        "12.6.2.4. Belirli integral ile alan hesabı yapar.": {
+          "token_count": 6.333333333333333,
+          "lexical_diversity": 1.0
+        },
+        "12.7.1.1. Merkezi ve yarıçapı verilen çemberin denklemini oluşturur.": {
+          "token_count": 2.6666666666666665,
+          "lexical_diversity": 1.0
+        },
+        "12.7.1.2. Denklemleri verilen doğru ile çemberin birbirine göre durumlarını belirleyerek işlemler yapar.": {
+          "token_count": 6.0,
+          "lexical_diversity": 1.0
+        },
+        "9.1.1.3. Koşullu önermeyi ve iki yönlü koşullu önermeyi açıklar.": {
+          "token_count": 10.0,
+          "lexical_diversity": 0.8968253968253969
+        },
+        "9.1.1.4. Her (": {
+          "token_count": 2.3333333333333335,
+          "lexical_diversity": 1.0
+        },
+        "9.1.1.5. Tanım, aksiyom, teorem ve ispat kavramlarını açıklar.": {
+          "token_count": 1.0,
+          "lexical_diversity": 1.0
+        },
+        "9.2.1.1. Kümeler ile ilgili temel kavramlar hatırlatılır.": {
+          "token_count": 5.666666666666667,
+          "lexical_diversity": 1.0
+        },
+        "9.2.1.1. Kümeler ile ilgili temel kavramları hatırlatılır.": {
+          "token_count": 7.0,
+          "lexical_diversity": 1.0
+        },
+        "9.2.1.2. Alt kümeyi kullanarak işlemler yapar.": {
+          "token_count": 6.666666666666667,
+          "lexical_diversity": 1.0
+        },
+        "9.2.1.3. İki kümenin eşitliğini kullanarak işlemler yapar.": {
+          "token_count": 6.0,
+          "lexical_diversity": 1.0
+        },
+        "9.2.2.1. Kümelerde birleşim, kesişim, fark, tümleme işlemleri yardımıyla problemler çözer.": {
+          "token_count": 7.5,
+          "lexical_diversity": 1.0
+        },
+        "9.2.2.2. İki kümenin kartezyen çarpımıyla ilgili işlemler yapar.": {
+          "token_count": 6.25,
+          "lexical_diversity": 0.96875
+        },
+        "9.3.1.1. Sayı kümelerini birbiriyle ilişkilendirir.": {
+          "token_count": 10.333333333333334,
+          "lexical_diversity": 0.9111111111111111
+        },
+        "9.3.2.2. Tam sayılarda EBOB ve EKOK ile ilgili uygulamalar yapar.": {
+          "token_count": 6.5,
+          "lexical_diversity": 1.0
+        },
+        "9.3.3.1. Gerçek sayılar kümesinde aralık kavramını açıklar.": {
+          "token_count": 8.5,
+          "lexical_diversity": 0.9583333333333333
+        },
+        "9.3.3.2. Birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm kümelerini bulur.": {
+          "token_count": 8.0,
+          "lexical_diversity": 1.0
+        },
+        "9.3.3.3. Mutlak değer içeren birinci dereceden bir bilinmeyenli denklem ve eşitsizliklerin çözüm": {
+          "token_count": 4.857142857142857,
+          "lexical_diversity": 0.9063492063492063
+        },
+        "9.3.3.4. Birinci dereceden iki bilinmeyenli denklem ve eşitsizlik sistemlerinin çözüm kümelerini bulur.": {
+          "token_count": 12.0,
+          "lexical_diversity": 1.0
+        },
+        "9.3.4.1. Üslü ifadeleri içeren denklemleri çözer.": {
+          "token_count": 6.333333333333333,
+          "lexical_diversity": 1.0
+        },
+        "9.3.4.2. Köklü ifadeleri içeren denklemleri çözer.": {
+          "token_count": 5.0,
+          "lexical_diversity": 1.0
+        },
+        "9.3.5.1. Oran ve orantı kavramlarını kullanarak problemler çözer.": {
+          "token_count": 13.0,
+          "lexical_diversity": 0.8928571428571428
+        },
+        "9.3.5.2. Denklemler  ve eşitsizlikler ile ilgili problemler çözer.": {
+          "token_count": 11.666666666666666,
+          "lexical_diversity": 0.9722222222222222
+        },
+        "9.4.1.1. Üçgende açı özellikleri ile ilgili işlemler yapar.": {
+          "token_count": 13.0,
+          "lexical_diversity": 0.9264957264957264
+        },
+        "9.4.1.2. Üçgenin kenar uzunlukları ile bu kenarların karşılarındaki açıların ölçülerini ilişkilendirir.": {
+          "token_count": 13.5,
+          "lexical_diversity": 0.96875
+        },
+        "9.4.1.3. Uzunlukları verilen üç doğru parçasının hangi durumlarda üçgen oluşturduğunu değerlendirir.": {
+          "token_count": 11.5,
+          "lexical_diversity": 0.9615384615384617
+        },
+        "9.4.2.1. İki üçgenin eş olması için gerekli olan asgari koşulları değerlendirir.": {
+          "token_count": 11.333333333333334,
+          "lexical_diversity": 0.7407407407407408
+        },
+        "9.4.2.2. İki üçgenin benzer olması için gerekli olan asgari koşulları değerlendirir.": {
+          "token_count": 12.666666666666666,
+          "lexical_diversity": 0.7999999999999999
+        },
+        "9.4.3.1. Üçgenin iç ve dış açıortaylarının özelliklerini elde eder.": {
+          "token_count": 8.333333333333334,
+          "lexical_diversity": 1.0
+        },
+        "9.4.3.2. Üçgenin kenarortaylarının özelliklerini elde eder.": {
+          "token_count": 11.75,
+          "lexical_diversity": 0.9356060606060607
+        },
+        "9.4.3.3. Üçgenin kenar orta dikmelerinin bir noktada kesiştiğini gösterir.": {
+          "token_count": 11.0,
+          "lexical_diversity": 0.9285714285714286
+        },
+        "9.4.3.4. Üçgenin çeşidine göre yüksekliklerinin kesiştiği noktanın konumunu belirler.": {
+          "token_count": 12.333333333333334,
+          "lexical_diversity": 1.0
+        },
+        "9.4.4.1. Dik üçgende Pisagor teoremini elde ederek problemler çözer.": {
+          "token_count": 5.666666666666667,
+          "lexical_diversity": 1.0
+        },
+        "9.4.4.2. Öklid teoremini elde ederek problemler çözer.": {
+          "token_count": 5.0,
+          "lexical_diversity": 1.0
+        },
+        "9.4.4.3. Dik üçgende dar açıların trigonometrik oranlarını hesaplar.": {
+          "token_count": 10.0,
+          "lexical_diversity": 1.0
+        },
+        "9.4.4.4. Birim çemberi tanımlar ve trigonometrik oranları birim çemberin üzerindeki noktanın": {
+          "token_count": 8.333333333333334,
+          "lexical_diversity": 1.0
+        },
+        "9.4.5.1. Üçgenin alanı ile ilgili problemler çözer.": {
+          "token_count": 12.0,
+          "lexical_diversity": 0.8898601398601399
+        },
+        "9.5.1.1. Verileri merkezî eğilim ve yayılım ölçülerini hesaplayarak yorumlar.": {
+          "token_count": 10.75,
+          "lexical_diversity": 0.8909722222222223
+        },
+        "9.5.2.1. Bir veri grubuna ilişkin histogram oluşturur.": {
+          "token_count": 8.0,
+          "lexical_diversity": 1.0
+        },
+        "9.5.2.2. Gerçek hayat durumunu yansıtan veri gruplarını uygun grafik türleriyle temsil ederek yorumlar.": {
+          "token_count": 7.666666666666667,
+          "lexical_diversity": 1.0
+        }
+      },
+      "2024": {
+        "1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1)": {
+          "token_count": 5.4,
+          "lexical_diversity": 0.915922619047619
+        },
+        "1. TEMA: NİCELİKLER VE DEĞİŞİMLER (2)": {
+          "token_count": 7.435897435897436,
+          "lexical_diversity": 0.9728937728937729
+        },
+        "1. TEMA: NİCELİKLER VE DEĞİŞİMLER (3)": {
+          "token_count": 7.5,
+          "lexical_diversity": 0.9063057830327568
+        },
+        "1. TEMA: SAYILAR": {
+          "token_count": 8.148148148148149,
+          "lexical_diversity": 0.9907407407407407
+        },
+        "1. TEMA: NİCELİKLER VE DEĞİŞİMLER": {
+          "token_count": 5.571428571428571,
+          "lexical_diversity": 1.0
+        },
+        "1. TEMA: NİCELİKLER VE DEĞİŞİMLER (1)": {
+          "token_count": 7.611111111111111,
+          "lexical_diversity": 0.9777777777777779
+        },
+        "2. TEMA: DEĞİŞİMİN MATEMATİĞİ (1)": {
+          "token_count": 7.051282051282051,
+          "lexical_diversity": 0.9750672404518559
+        },
+        "2. TEMA: DEĞİŞİMİN MATEMATİĞİ (2)": {
+          "token_count": 5.084745762711864,
+          "lexical_diversity": 0.9755323772272926
+        },
+        "2. TEMA: DEĞİŞİMİN MATEMATİĞİ (3)": {
+          "token_count": 6.675,
+          "lexical_diversity": 0.9925
+        },
+        "2. TEMA: MANTIKSAL ÇIKARIM": {
+          "token_count": 7.0,
+          "lexical_diversity": 0.9886363636363636
+        },
+        "2. TEMA: NİCELİKLER VE DEĞİŞİMLER": {
+          "token_count": 6.526881720430108,
+          "lexical_diversity": 0.9760771188190542
+        },
+        "2. TEMA: GEOMETRİK ŞEKİLLER": {
+          "token_count": 6.72093023255814,
+          "lexical_diversity": 0.9744186046511628
+        },
+        "2. TEMA: NİCELİKLER VE DEĞİŞİMLER": {
+          "token_count": 5.101449275362318,
+          "lexical_diversity": 0.8936220381872556
+        },
+        "3. TEMA: ALGORİTMA VE BİLİŞİM": {
+          "token_count": 6.176470588235294,
+          "lexical_diversity": 1.0
+        },
+        "3. TEMA: GEOMETRİK ŞEKİLLER": {
+          "token_count": 5.65,
+          "lexical_diversity": 1.0
+        },
+        "3. TEMA: SAYMA, ALGORİTMA VE BİLİŞİM": {
+          "token_count": 5.846153846153846,
+          "lexical_diversity": 1.0
+        },
+        "3. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ": {
+          "token_count": 7.571428571428571,
+          "lexical_diversity": 1.0
+        },
+        "3. TEMA: ALGORİTMA VE BİLİŞİM": {
+          "token_count": 6.925,
+          "lexical_diversity": 0.9901767676767677
+        },
+        "4. TEMA: GEOMETRİK CİSİMLER": {
+          "token_count": 8.416666666666666,
+          "lexical_diversity": 0.9351211288711289
+        },
+        "4. TEMA: GEOMETRİK ŞEKİLLER": {
+          "token_count": 7.37037037037037,
+          "lexical_diversity": 0.9719416386083053
+        },
+        "5. TEMA: ANALİTİK İNCELEME": {
+          "token_count": 7.0,
+          "lexical_diversity": 1.0
+        },
+        "5. TEMA: EŞLİK VE BENZERLİK": {
+          "token_count": 8.129032258064516,
+          "lexical_diversity": 0.9970674486803519
+        },
+        "5. TEMA: HAZIR VERİLER ÜZERİNDE ÇALIŞMA": {
+          "token_count": 6.666666666666667,
+          "lexical_diversity": 0.9333333333333333
+        },
+        "5. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ": {
+          "token_count": 5.75,
+          "lexical_diversity": 1.0
+        },
+        "6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ": {
+          "token_count": 7.476190476190476,
+          "lexical_diversity": 0.9903799903799905
+        },
+        "7. TEMA: VERİDEN OLASILIĞA": {
+          "token_count": 8.588235294117647,
+          "lexical_diversity": 0.9516488413547238
+        }
+      }
+    }
+  },
+  "mathematical_domains": {
+    "domain_counts": {
+      "algebra": {
+        "2018": 75,
+        "2024": 195
+      },
+      "geometry": {
+        "2018": 90,
+        "2024": 134
+      },
+      "calculus": {
+        "2018": 11,
+        "2024": 30
+      },
+      "statistics": {
+        "2018": 7,
+        "2024": 19
+      },
+      "number_theory": {
+        "2018": 23,
+        "2024": 93
+      },
+      "logic": {
+        "2018": 1,
+        "2024": 54
+      }
+    },
+    "domain_changes": {
+      "algebra": {
+        "absolute": 120,
+        "percentage": 160.0
+      },
+      "geometry": {
+        "absolute": 44,
+        "percentage": 48.888888888888886
+      },
+      "calculus": {
+        "absolute": 19,
+        "percentage": 172.72727272727272
+      },
+      "statistics": {
+        "absolute": 12,
+        "percentage": 171.42857142857142
+      },
+      "number_theory": {
+        "absolute": 70,
+        "percentage": 304.34782608695656
+      },
+      "logic": {
+        "absolute": 53,
+        "percentage": 5300.0
+      }
+    }
+  },
+  "curriculum_themes": {
+    "top_terms": {
+      "2018": [
+        "ver",
+        "fonksiyon",
+        "yer",
+        "grafik",
+        "gerçek",
+        "üçgen",
+        "iletişim",
+        "hayat(i)",
+        "problem",
+        "nokta",
+        "teknoloji",
+        "kavram",
+        "yararlan",
+        "kenar",
+        "üzer",
+        "açı",
+        "küme",
+        "sayı",
+        "alan",
+        "yardım",
+        "ifade",
+        "ara",
+        "ilişki",
+        "denklem",
+        "değer",
+        "uzunluk",
+        "bilgi",
+        "fark",
+        "çalış",
+        "dur"
+      ],
+      "2024": [
+        "fonksiyon",
+        "problem",
+        "belirle",
+        "kullan",
+        "çözüm",
+        "ilişkin",
+        "fark",
+        "varsayım",
+        "tanım",
+        "matematiksel",
+        "temsil",
+        "ara",
+        "strateji",
+        "durum",
+        "cebirsel",
+        "araştır",
+        "öğrenci",
+        "gerçek",
+        "sayı",
+        "nitel",
+        "ilişki",
+        "şekil",
+        "nokta",
+        "veri",
+        "dayalı",
+        "incele",
+        "ifade",
+        "dik",
+        "grafik",
+        "karşıla"
+      ]
+    },
+    "unique_terms": {
+      "2018": [
+        "hesaplat",
+        "uzunluk",
+        "ayrık",
+        "ölçü",
+        "tanıt",
+        "alt",
+        "fazla",
+        "eşit",
+        "hayat(i)",
+        "hesapla",
+        "kural",
+        "gösterim",
+        "dur",
+        "kare",
+        "merkez",
+        "cetvel",
+        "bilgi",
+        "çarpım",
+        "eleman",
+        "buldur",
+        "aralık",
+        "pergel",
+        "çizim",
+        "hatırlat",
+        "açık",
+        "nin",
+        "derece",
+        "alan",
+        "alın",
+        "çevre",
+        "tarihsel",
+        "ters",
+        "kavram",
+        "toplam",
+        "gelişim",
+        "kenarortay",
+        "yararlan",
+        "gir",
+        "iletişim",
+        "ilişkilendir",
+        "eksen",
+        "teknoloji",
+        "simetri",
+        "sayıs",
+        "bulun",
+        "uygulama",
+        "yardım",
+        "açıkla",
+        "dörtgen",
+        "grafiğ",
+        "çiz",
+        "yer",
+        "çeşit",
+        "tablo",
+        "çember",
+        "olay",
+        "dış",
+        "çarpan",
+        "orantı",
+        "göster"
+      ],
+      "2024": [
+        "nitel",
+        "bileşke",
+        "varsayım",
+        "istatistiksel",
+        "değerlendir",
+        "kâğıd",
+        "matematiksel",
+        "şekil",
+        "çıkarım",
+        "dayalı",
+        "strateji",
+        "araştır",
+        "performans",
+        "örüntü",
+        "uygun",
+        "geometrik",
+        "yorumla",
+        "ilişkin",
+        "limit",
+        "bağlam",
+        "ödev",
+        "sun",
+        "öner",
+        "sözel",
+        "önerme",
+        "dönüşüm",
+        "oluştur",
+        "referans",
+        "genelle",
+        "grafiksel",
+        "yöntem",
+        "belirle",
+        "yaşam",
+        "kontrol",
+        "genel",
+        "süreç",
+        "kategorik",
+        "olası",
+        "soru",
+        "değerlen",
+        "karesel",
+        "algoritma",
+        "benze",
+        "yapı",
+        "f(x",
+        "çıktı",
+        "görev",
+        "hareket",
+        "doğrula",
+        "dizi",
+        "öğrenci",
+        "ispat",
+        "doğrusal",
+        "değişken",
+        "ulaş",
+        "g(x",
+        "bileşen",
+        "sağla",
+        "yönelik",
+        "karşıla"
+      ]
+    },
+    "shared_terms": [
+      "denklem",
+      "trigonometrik",
+      "fark",
+      "oran",
+      "üzer",
+      "tanım",
+      "çözüm",
+      "durum",
+      "oluş",
+      "polinom",
+      "gerçek",
+      "kullan",
+      "ver",
+      "değer",
+      "ilişki",
+      "sayı",
+      "işlem",
+      "fonksiyon",
+      "küme",
+      "ara",
+      "içer",
+      "üçgen",
+      "nokta",
+      "terim",
+      "dik",
+      "grafik",
+      "veri",
+      "temsil",
+      "incele",
+      "yap"
+    ],
+    "important_terms": {
+      "2018": {
+        "ver": 0.04420206659012629,
+        "fonksiyon": 0.032721010332950634,
+        "yer": 0.03157290470723306,
+        "grafik": 0.01894374282433984,
+        "gerçek": 0.018369690011481057,
+        "üçgen": 0.016073478760045924,
+        "iletişim": 0.015499425947187142,
+        "hayat(i)": 0.014925373134328358,
+        "problem": 0.014925373134328358,
+        "nokta": 0.014351320321469576,
+        "teknoloji": 0.014351320321469576,
+        "kavram": 0.013777267508610792,
+        "yararlan": 0.013777267508610792,
+        "kenar": 0.013777267508610792,
+        "üzer": 0.01320321469575201,
+        "açı": 0.010907003444316877,
+        "küme": 0.010332950631458095,
+        "sayı": 0.010332950631458095,
+        "alan": 0.008610792192881744,
+        "yardım": 0.008036739380022962,
+        "ifade": 0.008036739380022962,
+        "ara": 0.008036739380022962,
+        "ilişki": 0.007462686567164179,
+        "denklem": 0.007462686567164179,
+        "değer": 0.007462686567164179,
+        "uzunluk": 0.007462686567164179,
+        "bilgi": 0.007462686567164179,
+        "fark": 0.006888633754305396,
+        "çalış": 0.006888633754305396,
+        "dur": 0.006888633754305396
+      },
+      "2024": {
+        "fonksiyon": 0.04218958611481976,
+        "problem": 0.017623497997329773,
+        "belirle": 0.017089452603471295,
+        "kullan": 0.016822429906542057,
+        "çözüm": 0.014953271028037384,
+        "ilişkin": 0.014419225634178905,
+        "fark": 0.013084112149532711,
+        "varsayım": 0.013084112149532711,
+        "tanım": 0.012550066755674232,
+        "matematiksel": 0.012016021361815754,
+        "temsil": 0.011748998664886516,
+        "ara": 0.011748998664886516,
+        "strateji": 0.010947930574098798,
+        "durum": 0.010947930574098798,
+        "cebirsel": 0.010680907877169559,
+        "araştır": 0.01041388518024032,
+        "öğrenci": 0.010146862483311082,
+        "gerçek": 0.009879839786381843,
+        "sayı": 0.009612817089452604,
+        "nitel": 0.008811748998664886,
+        "ilişki": 0.008544726301735648,
+        "şekil": 0.008277703604806409,
+        "nokta": 0.007743658210947931,
+        "veri": 0.007476635514018692,
+        "dayalı": 0.007209612817089452,
+        "incele": 0.007209612817089452,
+        "ifade": 0.007209612817089452,
+        "dik": 0.006942590120160214,
+        "grafik": 0.006942590120160214,
+        "karşıla": 0.006675567423230975
+      }
+    }
+  },
+  "key_insights": [
+    {
+      "type": "objective_count_change",
+      "change": 499,
+      "description": "The 2024 curriculum has 499 more learning objectives than the 2018 version, suggesting expanded coverage of learning outcomes."
+    },
+    {
+      "type": "terminology_shift_increase",
+      "terms": [
+        "belirle",
+        "ilişkin",
+        "varsayım"
+      ],
+      "changes": [
+        0.01594134697775373,
+        0.013845172821320122,
+        0.013084112149532711
+      ],
+      "description": "The most substantially increased terms in the 2024 curriculum are belirle, ilişkin, varsayım, suggesting new or expanded emphasis in these areas."
+    },
+    {
+      "type": "terminology_shift_decrease",
+      "terms": [
+        "ver",
+        "yer",
+        "iletişim"
+      ],
+      "changes": [
+        -0.039128635348470754,
+        -0.02943672313179915,
+        -0.015499425947187142
+      ],
+      "description": "The most substantially decreased terms in the 2024 curriculum are ver, yer, iletişim, suggesting reduced emphasis in these areas."
+    },
+    {
+      "type": "mathematical_domain_shift",
+      "domain": "algebra",
+      "change": 120,
+      "description": "The 'algebra' domain shows the largest increase in coverage (+120), suggesting expanded emphasis in this area of mathematics."
+    },
+    {
+      "type": "cognitive_demand_shift",
+      "value_2018": 4.313725490196078,
+      "value_2024": 13.271028037383179,
+      "change": 8.957302547187101,
+      "description": "The percentage of objectives demanding higher-order thinking skills (analyze, evaluate, create) has increased by 9.0%, suggesting more emphasis on advanced cognitive skills in the 2024 curriculum."
+    }
+  ]
+}

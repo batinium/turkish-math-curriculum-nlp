@@ -1252,7 +1252,358 @@ def generate_eda_summary(basic_stats, term_freq, verb_usage, complexity, math_te
     
     return "\n".join(summary)
 
-# Main function
+def generate_eda_structured_output(
+    basic_stats, 
+    term_freq, 
+    verb_usage, 
+    complexity, 
+    math_terms, 
+    word_relations, 
+    themes_analysis, 
+    cognitive_analysis):
+    """
+    Generate a comprehensive structured output (JSON-compatible) with all EDA results
+    for easy parsing by language models or other applications.
+    """
+    output = {
+        "analysis_type": "Turkish Mathematics Curriculum Exploratory Analysis",
+        "comparison": "2018 vs 2024",
+        "basic_statistics": {},
+        "terminology_analysis": {},
+        "cognitive_dimensions": {},
+        "complexity_metrics": {},
+        "mathematical_domains": {},
+        "curriculum_themes": {},
+        "key_insights": []
+    }
+    
+    # Basic Statistics
+    if basic_stats:
+        metrics_by_year = {"2018": {}, "2024": {}}
+        
+        # Common metrics to include
+        metrics = [
+            'total_characters',
+            'total_words',
+            'total_sentences',
+            'total_objectives',
+            'avg_word_length',
+            'avg_sentence_length',
+            'avg_objective_length'
+        ]
+        
+        # Process each year's metrics
+        for year in ["2018", "2024"]:
+            if year in basic_stats:
+                for metric in metrics:
+                    if metric in basic_stats[year]:
+                        metrics_by_year[year][metric] = basic_stats[year][metric]
+                
+                # Add section distribution if available
+                if 'objectives_by_section' in basic_stats[year]:
+                    metrics_by_year[year]['objectives_by_section'] = basic_stats[year]['objectives_by_section']
+        
+        # Calculate changes
+        changes = {}
+        for metric in metrics:
+            if (metric in metrics_by_year["2018"] and 
+                metric in metrics_by_year["2024"]):
+                val_2018 = metrics_by_year["2018"][metric]
+                val_2024 = metrics_by_year["2024"][metric]
+                
+                if isinstance(val_2018, (int, float)) and isinstance(val_2024, (int, float)):
+                    changes[metric] = {
+                        "absolute": val_2024 - val_2018,
+                        "percentage": (val_2024 - val_2018) / val_2018 * 100 if val_2018 != 0 else None
+                    }
+        
+        output["basic_statistics"] = {
+            "by_year": metrics_by_year,
+            "changes": changes
+        }
+    
+    # Terminology Analysis
+    if isinstance(term_freq, pd.DataFrame):
+        # Top terms by frequency
+        top_terms = term_freq.head(100).to_dict(orient='index')
+        
+        # Terms with biggest relative changes
+        changed_terms = {}
+        if 'relative_diff' in term_freq.columns:
+            # Most increased terms
+            increased = term_freq.sort_values('relative_diff', ascending=False).head(50)
+            # Most decreased terms
+            decreased = term_freq.sort_values('relative_diff', ascending=True).head(50)
+            
+            changed_terms = {
+                "increased": increased.to_dict(orient='index'),
+                "decreased": decreased.to_dict(orient='index')
+            }
+        
+        output["terminology_analysis"] = {
+            "top_terms": top_terms,
+            "changed_terms": changed_terms
+        }
+    
+    # Verb Analysis & Cognitive Dimensions
+    if isinstance(verb_usage, pd.DataFrame):
+        # Top verbs
+        top_verbs = verb_usage.head(50).to_dict(orient='index')
+        
+        # Bloom's taxonomy distribution if available
+        bloom_distribution = {}
+        bloom_cols = [col for col in verb_usage.columns if col.startswith('bloom_')]
+        if bloom_cols:
+            bloom_counts = verb_usage[bloom_cols].sum().to_dict()
+            bloom_distribution = {
+                key.replace('bloom_', ''): value 
+                for key, value in bloom_counts.items()
+            }
+        
+        output["cognitive_dimensions"]["verb_analysis"] = {
+            "top_verbs": top_verbs,
+            "blooms_taxonomy": bloom_distribution
+        }
+    
+    # Cognitive Complexity Analysis
+    if cognitive_analysis:
+        output["cognitive_dimensions"]["cognitive_complexity"] = cognitive_analysis
+    
+    # Objective Complexity Analysis
+    if complexity and '2018' in complexity and '2024' in complexity:
+        complexity_metrics = {}
+        
+        # Metrics to analyze
+        metrics = ['token_count', 'unique_tokens', 'lexical_diversity', 'avg_token_length', 'sentence_count']
+        
+        for metric in metrics:
+            if metric in complexity['2018'].columns and metric in complexity['2024'].columns:
+                stats_2018 = {
+                    "mean": float(complexity['2018'][metric].mean()),
+                    "median": float(complexity['2018'][metric].median()),
+                    "std": float(complexity['2018'][metric].std()),
+                    "min": float(complexity['2018'][metric].min()),
+                    "max": float(complexity['2018'][metric].max()),
+                }
+                
+                stats_2024 = {
+                    "mean": float(complexity['2024'][metric].mean()),
+                    "median": float(complexity['2024'][metric].median()),
+                    "std": float(complexity['2024'][metric].std()),
+                    "min": float(complexity['2024'][metric].min()),
+                    "max": float(complexity['2024'][metric].max()),
+                }
+                
+                # Calculate change
+                mean_change = stats_2024["mean"] - stats_2018["mean"]
+                pct_change = (mean_change / stats_2018["mean"]) * 100 if stats_2018["mean"] != 0 else None
+                
+                complexity_metrics[metric] = {
+                    "2018": stats_2018,
+                    "2024": stats_2024,
+                    "change": {
+                        "absolute": mean_change,
+                        "percentage": pct_change
+                    }
+                }
+        
+        # Add section-level complexity analysis if available
+        section_complexity = {}
+        for year in ['2018', '2024']:
+            if 'section' in complexity[year].columns:
+                section_stats = complexity[year].groupby('section').agg({
+                    'token_count': 'mean',
+                    'lexical_diversity': 'mean'
+                }).to_dict(orient='index')
+                
+                section_complexity[year] = section_stats
+        
+        output["complexity_metrics"] = {
+            "objective_complexity": complexity_metrics,
+            "section_complexity": section_complexity
+        }
+    
+    # Mathematical Domains Analysis
+    if isinstance(math_terms, pd.DataFrame):
+        # Convert to dictionary
+        domain_data = math_terms.to_dict(orient='index')
+        
+        # Calculate changes
+        domain_changes = {}
+        for domain in math_terms.index:
+            val_2018 = math_terms.loc[domain, '2018'] if '2018' in math_terms.columns else 0
+            val_2024 = math_terms.loc[domain, '2024'] if '2024' in math_terms.columns else 0
+            change = val_2024 - val_2018
+            pct_change = (change / val_2018) * 100 if val_2018 != 0 else None
+            
+            domain_changes[domain] = {
+                "absolute": int(change),
+                "percentage": pct_change
+            }
+        
+        output["mathematical_domains"] = {
+            "domain_counts": domain_data,
+            "domain_changes": domain_changes
+        }
+    
+    # Curriculum Themes Analysis
+    if themes_analysis:
+        # Simplify to key insights
+        themes_simplified = {
+            "top_terms": {
+                "2018": themes_analysis.get('top_terms', {}).get('2018', [])[:30],
+                "2024": themes_analysis.get('top_terms', {}).get('2024', [])[:30]
+            },
+            "unique_terms": themes_analysis.get('unique_terms', {}),
+            "shared_terms": themes_analysis.get('shared_terms', [])[:30]
+        }
+        
+        # Most important terms by relative frequency
+        important_terms = {}
+        for year in ['2018', '2024']:
+            if year in themes_analysis.get('term_importance', {}):
+                # Get top 30 most important terms
+                terms = list(themes_analysis['term_importance'][year].items())
+                terms.sort(key=lambda x: x[1], reverse=True)
+                important_terms[year] = {term: score for term, score in terms[:30]}
+        
+        themes_simplified["important_terms"] = important_terms
+        output["curriculum_themes"] = themes_simplified
+    
+    # Add key insights
+    insights = []
+    
+    # Insight from basic stats
+    if basic_stats and 'total_objectives' in basic_stats.get('2018', {}) and 'total_objectives' in basic_stats.get('2024', {}):
+        obj_change = basic_stats['2024']['total_objectives'] - basic_stats['2018']['total_objectives']
+        if abs(obj_change) > 10:
+            insight = {
+                "type": "objective_count_change",
+                "change": obj_change,
+                "description": f"The 2024 curriculum has {abs(obj_change)} {'more' if obj_change > 0 else 'fewer'} learning objectives than the 2018 version, suggesting {'expanded coverage' if obj_change > 0 else 'streamlining'} of learning outcomes."
+            }
+            insights.append(insight)
+    
+    # Insight from term frequency
+    if isinstance(term_freq, pd.DataFrame) and 'relative_diff' in term_freq.columns:
+        top_increased = term_freq.sort_values('relative_diff', ascending=False).head(3)
+        top_decreased = term_freq.sort_values('relative_diff', ascending=True).head(3)
+        
+        if not top_increased.empty:
+            increased_terms = list(top_increased.index)
+            insight = {
+                "type": "terminology_shift_increase",
+                "terms": increased_terms,
+                "changes": [float(top_increased.loc[term, 'relative_diff']) for term in increased_terms],
+                "description": f"The most substantially increased terms in the 2024 curriculum are {', '.join(increased_terms)}, suggesting new or expanded emphasis in these areas."
+            }
+            insights.append(insight)
+        
+        if not top_decreased.empty:
+            decreased_terms = list(top_decreased.index)
+            insight = {
+                "type": "terminology_shift_decrease",
+                "terms": decreased_terms,
+                "changes": [float(top_decreased.loc[term, 'relative_diff']) for term in decreased_terms],
+                "description": f"The most substantially decreased terms in the 2024 curriculum are {', '.join(decreased_terms)}, suggesting reduced emphasis in these areas."
+            }
+            insights.append(insight)
+    
+    # Insight from mathematical terminology
+    if isinstance(math_terms, pd.DataFrame):
+        # Find domains with biggest changes
+        domain_changes = []
+        for domain in math_terms.index:
+            val_2018 = math_terms.loc[domain, '2018'] if '2018' in math_terms.columns else 0
+            val_2024 = math_terms.loc[domain, '2024'] if '2024' in math_terms.columns else 0
+            change = val_2024 - val_2018
+            domain_changes.append((domain, change))
+        
+        domain_changes.sort(key=lambda x: abs(x[1]), reverse=True)
+        if domain_changes:
+            top_domain, change = domain_changes[0]
+            insight = {
+                "type": "mathematical_domain_shift",
+                "domain": top_domain.replace('_', ' '),
+                "change": int(change),
+                "description": f"The '{top_domain.replace('_', ' ')}' domain shows the largest {'increase' if change > 0 else 'decrease'} in coverage ({change:+}), suggesting {'expanded' if change > 0 else 'reduced'} emphasis in this area of mathematics."
+            }
+            insights.append(insight)
+    
+    # Insight from complexity analysis
+    if complexity and '2018' in complexity and '2024' in complexity:
+        if 'lexical_diversity' in complexity['2018'].columns and 'lexical_diversity' in complexity['2024'].columns:
+            ld_2018 = complexity['2018']['lexical_diversity'].mean()
+            ld_2024 = complexity['2024']['lexical_diversity'].mean()
+            ld_change = ld_2024 - ld_2018
+            
+            if abs(ld_change) > 0.01:  # Only report if change is meaningful
+                insight = {
+                    "type": "objective_complexity_shift",
+                    "metric": "lexical_diversity",
+                    "value_2018": float(ld_2018),
+                    "value_2024": float(ld_2024),
+                    "change": float(ld_change),
+                    "description": f"The lexical diversity of learning objectives has {'increased' if ld_change > 0 else 'decreased'} by {abs(ld_change):.3f}, suggesting {'more complex language' if ld_change > 0 else 'simpler language'} in the 2024 curriculum."
+                }
+                insights.append(insight)
+    
+    # Insight from cognitive analysis
+    if cognitive_analysis and 'level_percentages' in cognitive_analysis['2018'] and 'level_percentages' in cognitive_analysis['2024']:
+        # Higher-order thinking changes
+        higher_order = ['analyze', 'evaluate', 'create']
+        
+        ho_2018 = sum(cognitive_analysis['2018']['level_percentages'].get(level, 0) for level in higher_order)
+        ho_2024 = sum(cognitive_analysis['2024']['level_percentages'].get(level, 0) for level in higher_order)
+        ho_change = ho_2024 - ho_2018
+        
+        if abs(ho_change) > 3:  # Only report if change is meaningful (>3%)
+            insight = {
+                "type": "cognitive_demand_shift",
+                "value_2018": float(ho_2018),
+                "value_2024": float(ho_2024),
+                "change": float(ho_change),
+                "description": f"The percentage of objectives demanding higher-order thinking skills (analyze, evaluate, create) has {'increased' if ho_change > 0 else 'decreased'} by {abs(ho_change):.1f}%, suggesting {'more' if ho_change > 0 else 'less'} emphasis on advanced cognitive skills in the 2024 curriculum."
+            }
+            insights.append(insight)
+    
+    output["key_insights"] = insights
+    
+    return output
+
+def export_eda_structured_data(
+    basic_stats, 
+    term_freq, 
+    verb_usage, 
+    complexity, 
+    math_terms, 
+    word_relations, 
+    themes_analysis, 
+    cognitive_analysis):
+    """Export all EDA analysis data in a structured format (JSON)."""
+    print("Generating structured EDA data export...")
+    
+    structured_data = generate_eda_structured_output(
+        basic_stats,
+        term_freq,
+        verb_usage,
+        complexity,
+        math_terms,
+        word_relations,
+        themes_analysis,
+        cognitive_analysis
+    )
+    
+    # Save to file
+    import json
+    structured_data_path = os.path.join(PROCESSED_DIR, 'curriculum_eda_data.json')
+    with open(structured_data_path, 'w', encoding='utf-8') as f:
+        json.dump(structured_data, f, indent=2, ensure_ascii=False)
+    
+    print(f"Structured EDA data export saved to: {structured_data_path}")
+    return structured_data_path
+
+# Modified main function with structured export
 def main():
     """Main function to execute the exploratory data analysis."""
     start_time = time.time()
@@ -1336,6 +1687,19 @@ def main():
 
     print(f"Exploratory analysis summary saved to: {eda_summary_path}")
     
+    # Generate and export structured data for LLM processing
+    print("\nGenerating structured data for LLM processing...")
+    structured_data_path = export_eda_structured_data(
+        basic_stats,
+        term_freq,
+        verb_usage,
+        complexity,
+        math_terms,
+        word_relations,
+        themes_analysis,
+        cognitive_analysis
+    )
+    
     elapsed_time = time.time() - start_time
     print(f"Exploratory data analysis complete in {elapsed_time:.2f} seconds.")
     print(f"Results saved to {PROCESSED_DIR} and {FIGURES_DIR} directories.")
@@ -1348,6 +1712,8 @@ def main():
     print("  - objective_complexity_2024.csv (if 2024 data available)")
     print("  - basic_stats.json")
     print("  - mathematical_terminology.csv")
+    print("  - exploratory_analysis_summary.txt")
+    print(f"  - {os.path.basename(structured_data_path)} (Structured data for LLM processing)")
     
     print(f"\nVisualization files created in {FIGURES_DIR}:")
     print("  - wordcloud_2018_lemmatized.png (if 2018 data available)")

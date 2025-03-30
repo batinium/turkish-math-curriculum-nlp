@@ -702,6 +702,322 @@ def generate_analysis_summary(topic_gaps, cognitive_gaps):
     
     return "\n".join(summary)
 
+
+def generate_gap_analysis_structured_output(topic_gaps, cognitive_gaps):
+    """
+    Generate a comprehensive structured output (JSON-compatible) with all curriculum gap analysis results
+    for easy parsing by language models or other applications.
+    """
+    output = {
+        "analysis_type": "Turkish Mathematics Curriculum Gap Analysis",
+        "comparison": "2018 vs 2024",
+        "topic_coverage_analysis": {},
+        "cognitive_complexity_analysis": {},
+        "curriculum_evolution": {},
+        "key_insights": []
+    }
+    
+    # Topic Coverage Analysis
+    if topic_gaps:
+        # Extract topic coverage by year
+        topic_coverage = {}
+        for year in ['2018', '2024']:
+            if year in topic_gaps.get('topic_coverage', {}):
+                year_coverage = {}
+                for topic_id, details in topic_gaps['topic_coverage'][year].items():
+                    # Convert to appropriate types for JSON
+                    year_coverage[str(topic_id)] = {
+                        "count": details.get('count', 0),
+                        "coverage_percentage": float(details.get('coverage_percentage', 0)),
+                        "keywords": details.get('keywords', [])
+                    }
+                topic_coverage[year] = year_coverage
+        
+        # Extract topic gaps (missing/emerging topics)
+        missing_topics = {}
+        for year in ['2018', '2024']:
+            if year in topic_gaps.get('missing_topics', {}):
+                # Normalize the data for JSON
+                missing_topics[year] = []
+                for topic in topic_gaps['missing_topics'][year]:
+                    missing_topics[year].append({
+                        "topic_id": int(topic.get('topic_id', 0)),
+                        "keywords": topic.get('keywords', []),
+                        "coverage": float(topic.get('coverage', 0)),
+                        f"best_match_{2024 if year == '2018' else 2018}": int(topic.get(f'best_match_{2024 if year == "2018" else 2018}', 0)),
+                        "similarity": float(topic.get('similarity', 0))
+                    })
+        
+        # Calculate overall topic shift metrics
+        topic_shift_metrics = {}
+        if '2018' in missing_topics and '2024' in missing_topics:
+            # Topics removed vs. added
+            topics_removed = len(missing_topics['2018'])
+            topics_added = len(missing_topics['2024'])
+            
+            # Quantify the overall topic turnover
+            total_topics = len(topic_gaps.get('topic_keywords', {}).get('2018', {})) + len(topic_gaps.get('topic_keywords', {}).get('2024', {}))
+            topic_turnover_pct = ((topics_removed + topics_added) / total_topics * 100) if total_topics > 0 else 0
+            
+            topic_shift_metrics = {
+                "topics_removed": topics_removed,
+                "topics_added": topics_added,
+                "net_topic_change": topics_added - topics_removed,
+                "topic_turnover_percentage": float(topic_turnover_pct)
+            }
+        
+        output["topic_coverage_analysis"] = {
+            "topic_coverage_by_year": topic_coverage,
+            "missing_topics": missing_topics,
+            "topic_shift_metrics": topic_shift_metrics
+        }
+    
+    # Cognitive Complexity Analysis
+    if cognitive_gaps:
+        cognitive_analysis = {}
+        
+        # Extract level counts and percentages for each year
+        for year in ['2018', '2024']:
+            if year in cognitive_gaps:
+                cognitive_analysis[year] = {}
+                
+                # Copy level counts
+                if 'level_counts' in cognitive_gaps[year]:
+                    cognitive_analysis[year]['level_counts'] = cognitive_gaps[year]['level_counts']
+                
+                # Copy level percentages
+                if 'level_percentages' in cognitive_gaps[year]:
+                    cognitive_analysis[year]['level_percentages'] = {
+                        level: float(pct) for level, pct in cognitive_gaps[year]['level_percentages'].items()
+                    }
+                
+                # Copy average complexity
+                if 'avg_complexity' in cognitive_gaps[year]:
+                    cognitive_analysis[year]['avg_complexity'] = float(cognitive_gaps[year]['avg_complexity'])
+        
+        # Extract complexity gaps
+        complexity_gaps = {}
+        if 'complexity_gaps' in cognitive_gaps:
+            for level, details in cognitive_gaps['complexity_gaps'].items():
+                complexity_gaps[level] = {
+                    "percentage_2018": float(details.get('percentage_2018', 0)),
+                    "percentage_2024": float(details.get('percentage_2024', 0)),
+                    "percentage_change": float(details.get('percentage_change', 0)),
+                    "relative_change": float(details.get('relative_change', 0)) if not isinstance(details.get('relative_change'), float) or not math.isinf(details.get('relative_change', 0)) else None
+                }
+        
+        # Calculate higher-order vs. lower-order thinking shifts
+        cognitive_shift_metrics = {}
+        if complexity_gaps:
+            # Higher-order thinking (analyze, evaluate, create)
+            hot_2018 = sum(complexity_gaps[level]['percentage_2018'] for level in ['analyze', 'evaluate', 'create'] if level in complexity_gaps)
+            hot_2024 = sum(complexity_gaps[level]['percentage_2024'] for level in ['analyze', 'evaluate', 'create'] if level in complexity_gaps)
+            hot_change = hot_2024 - hot_2018
+            
+            # Lower-order thinking (remember, understand, apply)
+            lot_2018 = sum(complexity_gaps[level]['percentage_2018'] for level in ['remember', 'understand', 'apply'] if level in complexity_gaps)
+            lot_2024 = sum(complexity_gaps[level]['percentage_2024'] for level in ['remember', 'understand', 'apply'] if level in complexity_gaps)
+            lot_change = lot_2024 - lot_2018
+            
+            cognitive_shift_metrics = {
+                "higher_order_thinking": {
+                    "percentage_2018": float(hot_2018),
+                    "percentage_2024": float(hot_2024),
+                    "change": float(hot_change)
+                },
+                "lower_order_thinking": {
+                    "percentage_2018": float(lot_2018),
+                    "percentage_2024": float(lot_2024),
+                    "change": float(lot_change)
+                },
+                "cognitive_shift_direction": "higher" if hot_change > 0 and lot_change < 0 else 
+                                           "lower" if hot_change < 0 and lot_change > 0 else 
+                                           "mixed"
+            }
+            
+            # Add average complexity change if available
+            if 'avg_complexity' in cognitive_gaps.get('2018', {}) and 'avg_complexity' in cognitive_gaps.get('2024', {}):
+                avg_2018 = cognitive_gaps['2018']['avg_complexity']
+                avg_2024 = cognitive_gaps['2024']['avg_complexity']
+                avg_change = avg_2024 - avg_2018
+                avg_change_pct = (avg_change / avg_2018 * 100) if avg_2018 > 0 else None
+                
+                cognitive_shift_metrics["average_complexity"] = {
+                    "value_2018": float(avg_2018),
+                    "value_2024": float(avg_2024),
+                    "absolute_change": float(avg_change),
+                    "percentage_change": float(avg_change_pct) if avg_change_pct is not None else None
+                }
+        
+        output["cognitive_complexity_analysis"] = {
+            "by_year": cognitive_analysis,
+            "complexity_gaps": complexity_gaps,
+            "cognitive_shift_metrics": cognitive_shift_metrics
+        }
+    
+    # Generate key insights
+    insights = []
+    
+    # Topic coverage insights
+    if topic_gaps and 'missing_topics' in topic_gaps:
+        # Insight about emerging topics
+        if '2024' in topic_gaps['missing_topics'] and topic_gaps['missing_topics']['2024']:
+            emerging_topics = topic_gaps['missing_topics']['2024']
+            top_keywords = []
+            
+            # Collect keywords from emerging topics
+            for topic in emerging_topics:
+                top_keywords.extend(topic.get('keywords', [])[:3])
+            
+            # Count keyword frequency to identify themes
+            from collections import Counter
+            keyword_counts = Counter(top_keywords)
+            top_keywords = [kw for kw, _ in keyword_counts.most_common(5)]
+            
+            insight = {
+                "type": "emerging_topics",
+                "count": len(emerging_topics),
+                "top_themes": top_keywords,
+                "description": f"The 2024 curriculum introduces {len(emerging_topics)} new topics not present in the 2018 version, with key themes including: {', '.join(top_keywords)}"
+            }
+            insights.append(insight)
+        
+        # Insight about fading topics
+        if '2018' in topic_gaps['missing_topics'] and topic_gaps['missing_topics']['2018']:
+            fading_topics = topic_gaps['missing_topics']['2018']
+            top_keywords = []
+            
+            # Collect keywords from fading topics
+            for topic in fading_topics:
+                top_keywords.extend(topic.get('keywords', [])[:3])
+            
+            # Count keyword frequency to identify themes
+            from collections import Counter
+            keyword_counts = Counter(top_keywords)
+            top_keywords = [kw for kw, _ in keyword_counts.most_common(5)]
+            
+            insight = {
+                "type": "fading_topics",
+                "count": len(fading_topics),
+                "top_themes": top_keywords,
+                "description": f"The 2024 curriculum removes or significantly reduces {len(fading_topics)} topics from the 2018 version, with key themes including: {', '.join(top_keywords)}"
+            }
+            insights.append(insight)
+    
+    # Cognitive complexity insights
+    if cognitive_gaps and 'complexity_gaps' in cognitive_gaps:
+        # Find biggest changes in cognitive levels
+        changes = [(level, cognitive_gaps['complexity_gaps'][level]['percentage_change']) 
+                  for level in cognitive_gaps['complexity_gaps']]
+        
+        # Identify significant increases
+        increases = sorted([c for c in changes if c[1] > 3], key=lambda x: x[1], reverse=True)
+        if increases:
+            top_increases = increases[:2]  # Top 2 increases
+            insight = {
+                "type": "cognitive_level_increase",
+                "levels": [level for level, _ in top_increases],
+                "changes": [float(change) for _, change in top_increases],
+                "description": f"The 2024 curriculum shows a significant increase in {'and '.join([f'{level} ({change:+.1f}%)' for level, change in top_increases])} level objectives."
+            }
+            insights.append(insight)
+        
+        # Identify significant decreases
+        decreases = sorted([c for c in changes if c[1] < -3], key=lambda x: x[1])
+        if decreases:
+            top_decreases = decreases[:2]  # Top 2 decreases
+            insight = {
+                "type": "cognitive_level_decrease",
+                "levels": [level for level, _ in top_decreases],
+                "changes": [float(change) for _, change in top_decreases],
+                "description": f"The 2024 curriculum shows a significant decrease in {'and '.join([f'{level} ({change:.1f}%)' for level, change in top_decreases])} level objectives."
+            }
+            insights.append(insight)
+        
+        # Insight about overall cognitive direction
+        if 'cognitive_shift_metrics' in output["cognitive_complexity_analysis"]:
+            shift_metrics = output["cognitive_complexity_analysis"]["cognitive_shift_metrics"]
+            
+            if shift_metrics.get("cognitive_shift_direction") == "higher":
+                insight = {
+                    "type": "cognitive_shift",
+                    "direction": "higher",
+                    "hot_change": float(shift_metrics["higher_order_thinking"]["change"]),
+                    "lot_change": float(shift_metrics["lower_order_thinking"]["change"]),
+                    "description": "The 2024 curriculum shows a clear shift toward higher-order thinking skills (analyze, evaluate, create) and away from lower-order skills (remember, understand, apply)."
+                }
+                insights.append(insight)
+            elif shift_metrics.get("cognitive_shift_direction") == "lower":
+                insight = {
+                    "type": "cognitive_shift",
+                    "direction": "lower",
+                    "hot_change": float(shift_metrics["higher_order_thinking"]["change"]),
+                    "lot_change": float(shift_metrics["lower_order_thinking"]["change"]),
+                    "description": "The 2024 curriculum emphasizes fundamental skills (remember, understand, apply) more than the 2018 curriculum, with less focus on higher-order thinking."
+                }
+                insights.append(insight)
+    
+    # Add overall curriculum evolution insight
+    if topic_gaps and cognitive_gaps:
+        # Determine if there's expansion, reduction, or transformation
+        topics_removed = len(topic_gaps['missing_topics'].get('2018', []))
+        topics_added = len(topic_gaps['missing_topics'].get('2024', []))
+        
+        # Get cognitive complexity change if available
+        complexity_change = 0
+        if ('avg_complexity' in cognitive_gaps.get('2018', {}) and 
+            'avg_complexity' in cognitive_gaps.get('2024', {})):
+            complexity_change = cognitive_gaps['2024']['avg_complexity'] - cognitive_gaps['2018']['avg_complexity']
+        
+        # Determine curriculum evolution pattern
+        if topics_added > topics_removed and complexity_change > 0.1:
+            evolution = "expansion with increased complexity"
+        elif topics_added > topics_removed and complexity_change < -0.1:
+            evolution = "expansion with simplified demands"
+        elif topics_added < topics_removed and complexity_change > 0.1:
+            evolution = "streamlined but more cognitively demanding"
+        elif topics_added < topics_removed and complexity_change < -0.1:
+            evolution = "streamlined and simplified"
+        elif abs(topics_added - topics_removed) <= 2 and abs(complexity_change) <= 0.1:
+            evolution = "refined with minimal structural changes"
+        else:
+            evolution = "transformed with mixed patterns of change"
+        
+        insight = {
+            "type": "curriculum_evolution",
+            "topics_added": topics_added,
+            "topics_removed": topics_removed,
+            "complexity_change": float(complexity_change),
+            "evolution_pattern": evolution,
+            "description": f"The Turkish Mathematics Curriculum has undergone {evolution} from 2018 to 2024, with {topics_added} new topics added, {topics_removed} topics removed, and a {complexity_change:+.2f} change in average cognitive complexity."
+        }
+        insights.append(insight)
+    
+    output["key_insights"] = insights
+    
+    return output
+
+def export_gap_analysis_structured_data(topic_gaps, cognitive_gaps):
+    """Export all gap analysis data in a structured format (JSON)."""
+    print("Generating structured gap analysis data export...")
+    
+    import math  # Required for handling infinity values in JSON
+    
+    structured_data = generate_gap_analysis_structured_output(
+        topic_gaps,
+        cognitive_gaps
+    )
+    
+    # Save to file
+    import json
+    structured_data_path = os.path.join(PROCESSED_DIR, 'curriculum_gap_analysis_data.json')
+    with open(structured_data_path, 'w', encoding='utf-8') as f:
+        json.dump(structured_data, f, indent=2, ensure_ascii=False)
+    
+    print(f"Structured gap analysis data export saved to: {structured_data_path}")
+    return structured_data_path
+
+
 def main():
     """Main function to execute the curriculum gap analysis."""
     print("Loading processed data...")
@@ -730,12 +1046,20 @@ def main():
     
     print(f"Analysis summary saved to: {summary_path}")
     
+    # Generate and export structured data for LLM processing
+    print("\nGenerating structured data for LLM processing...")
+    structured_data_path = export_gap_analysis_structured_data(
+        topic_gaps,
+        cognitive_gaps
+    )
+    
     print("\nGap analysis complete. Results saved to processed_data and figures directories.")
     print(f"Files created in {PROCESSED_DIR}:")
     print("  - topic_coverage_gaps.json")
     print("  - cognitive_complexity_analysis.json")
     print("  - curriculum_evolution_network.pkl")
     print("  - curriculum_analysis_summary.txt")
+    print(f"  - {os.path.basename(structured_data_path)} (Structured data for LLM processing)")
     
     print(f"\nVisualization files created in {FIGURES_DIR}:")
     print("  - topic_coverage_comparison.png")
@@ -745,6 +1069,7 @@ def main():
     print("  - cognitive_complexity_changes.png")
     print("  - average_cognitive_complexity.png")
     print("  - curriculum_evolution_network.png")
+    
     
 
 if __name__ == "__main__":
